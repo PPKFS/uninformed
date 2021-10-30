@@ -1,0 +1,10 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "uninformed:lib"
+
+    - path: "./app/Main.hs"
+      component: "uninformed:exe:uninformed"
+
+    - path: "./test"
+      component: "uninformed:test:uninformed-test"
