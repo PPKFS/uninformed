@@ -1,0 +1,241 @@
+{- |
+Copyright: (c) 2021 Avery
+SPDX-License-Identifier: MIT
+Maintainer: Avery <avery@chordify.net>
+
+See README for more info
+-}
+
+module Uninformed.Lexer
+( Lexeme(..)
+, LexemeType(..)
+, Punctuation(..)
+, VocabInfo(..)
+, vocabWord
+, _Word
+, _PunctuationToken
+, lexemeType
+, extremeDigit
+, extremeOfWord
+, single') where
+import Data.Void
+import qualified Data.Text as T
+import qualified Text.Megaparsec.Char.Lexer as L
+import Relude
+import qualified Text.Megaparsec as MP
+import Text.Megaparsec.Char (char, alphaNumChar, eol, hspace)
+import Text.Megaparsec (manyTill_, Token, MonadParsec, satisfy)
+import Optics
+import qualified Uninformed.Vocab as Vocab
+import Data.Flags
+import Data.Char
+
+data LexerSettings = LexerSettings
+  { _stringDelimiter :: Char
+  , _textSubstitutionBegin :: Char
+  , _textSubstitutionEnd :: Char
+  , _textSubstitutionSeparator :: Char
+  , _commentBegin :: Char
+  , _commentEnd :: Char
+  , _codeInsertionBegin :: Char
+  , _codeInsertionEnd :: Char
+  , _punctuation :: [Char]
+
+  , _divideStringsAtSubstitutions :: Bool
+  , _treatSlashAsPunctuation :: Bool
+  }
+
+defaultLexerSettings :: LexerSettings
+defaultLexerSettings = LexerSettings
+  { _stringDelimiter = '"'
+  , _textSubstitutionBegin = '['
+  , _textSubstitutionEnd = ']'
+  , _textSubstitutionSeparator = ','
+  , _commentBegin = '['
+  , _commentEnd = ']'
+  , _codeInsertionBegin = '{'
+  , _codeInsertionEnd = '}'
+  , _punctuation = ['.', ',', ':', ';', '?', '!', '(', ')']
+
+  , _divideStringsAtSubstitutions = False
+  , _treatSlashAsPunctuation = False
+  }
+
+data Punctuation =
+  Period
+  | Comma
+  | Colon
+  | Semicolon
+  | QuestionMark
+  | ExclamationMark
+  | LBracket
+  | RBracket
+  | LBrace
+  | RBrace
+  | LParen
+  | RParen
+  | Error Char
+  deriving stock (Show, Ord, Eq)
+
+punctuationParse :: Char -> Punctuation
+punctuationParse = \case
+  '.' -> Period
+  ',' -> Comma
+  ':' -> Colon
+  ';' -> Semicolon
+  '?' -> QuestionMark
+  '!' -> ExclamationMark
+  '[' -> LBracket
+  ']' -> RBracket
+  '{' -> LBrace
+  '}' -> RBrace
+  '(' -> LParen
+  ')' -> RParen
+  x -> Error x
+
+newtype SourceInput = SourceInput Text
+type Lexer = ReaderT LexerSettings (MP.Parsec Void Text)
+
+data Lexeme = Lexeme
+  { _lexemeType :: LexemeType
+  , _lexemePlace :: (MP.SourcePos, MP.SourcePos)
+  } deriving stock (Eq, Ord, Show)
+
+data VocabInfo = VocabInfo
+  { _vocabRawString :: Text
+  , _vocabNormalisedString :: Maybe Text
+  , _meaningCodes :: Vocab.MeaningCodes
+  } deriving stock (Show, Ord, Eq)
+
+vocabWord :: Getter VocabInfo Text
+vocabWord = to (\case
+    (VocabInfo _ (Just t) _) -> t
+    (VocabInfo r Nothing _) -> r
+  )
+data LexemeType =
+  Word VocabInfo
+  | PunctuationToken Punctuation
+  | QuoteStart
+  | QuoteEnd
+  | CommentStart
+  | CommentEnd
+  | Comment Text
+  | SubstitutionStart
+  | SubstitutionEnd
+  | ParagraphBreak
+  | SourceFileChange
+  | EndOfFile
+  | TimeLexeme Int Int
+  | JointLexeme Lexeme Lexeme
+  deriving stock (Show, Ord, Eq)
+
+makePrisms ''LexemeType
+makeLenses ''Lexeme
+
+extremeDigit
+  :: Bool
+  -> Lexeme
+  -> Bool
+extremeDigit = extremeOfWord isDigit
+-- | is either the first or last character of this lexeme a digit?
+extremeOfWord
+  :: (Char -> Bool)
+  -> Bool
+  -> Lexeme
+  -> Bool
+extremeOfWord sat firstOrNot l = maybe False sat $
+    l ^? lexemeType % _Word % vocabWord %
+        (if firstOrNot then _head else _last)
+
+-- Consume whitespace following a lexeme, but record
+-- its endpoint as being before the whitespace.
+lexeme :: Lexer LexemeType -> Lexer Lexeme
+lexeme parser = do
+  b <- MP.getSourcePos
+  Lexeme <$> parser <*> (hspace $> (b,) <*> MP.getSourcePos)
+
+lexSymbol :: Char -> LexemeType -> Lexer Lexeme
+lexSymbol c l = lexeme (l <$ char c)
+
+lexSource :: Lexer [Lexeme]
+lexSource = do
+  hspace -- ^ eat any amount of whitespace
+  r <- MP.manyTill lexWord MP.eof
+  e <- MP.getSourcePos
+  return $ mconcat r <> [Lexeme EndOfFile (e, e)]
+
+lexWord :: Lexer [Lexeme]
+lexWord = do
+    stringLiteral
+    <|> ((:[]) <$> punctuation)
+    <|> paragraphBreak
+    <|> comment
+    <|> singleNewline
+    <|> ((:[]) <$> regularWord)
+
+-- "internal[string]"
+stringLiteral :: Lexer [Lexeme]
+stringLiteral = do
+  ls <- ask
+  let sl = _stringDelimiter ls
+  st <- lexSymbol sl QuoteStart
+  r <- manyTill_ stringLitInternal (lexSymbol sl QuoteEnd)
+  return $ [st] <> mconcat (fst r) <> [snd r]
+
+stringLitInternal :: Lexer [Lexeme]
+stringLitInternal =
+  ((:[]) <$> punctuation)
+  <|> textSubstitution
+  <|> ((:[]) <$> regularWord)
+  <|> paragraphBreak
+  <|> singleNewline
+
+singleNewline :: Lexer [a]
+singleNewline = [] <$ lexeme (ParagraphBreak <$ eol)
+
+punctuation :: Lexer Lexeme
+punctuation = do
+  ls <- ask
+  lexeme (PunctuationToken . punctuationParse <$> MP.oneOf (_punctuation ls))
+
+paragraphBreak :: Lexer [Lexeme]
+paragraphBreak = MP.try $ do
+  v1 <- lexeme (ParagraphBreak <$ eol)
+  v' <- MP.some $ lexeme (ParagraphBreak <$ eol)
+  case v' of
+    [] -> return []
+    (_:_) -> return [v1]
+
+comment :: ReaderT LexerSettings (MP.Parsec Void Text) [Lexeme]
+comment = do
+  ls <- ask
+  let sl = _commentBegin ls
+  let se = _commentEnd ls
+  st <- lexSymbol sl CommentStart
+  p <- MP.getSourcePos
+  (c, e) <- manyTill_ L.charLiteral (lexSymbol se CommentStart)
+  return [st, Lexeme (Comment (T.pack c)) (p, p), e]
+
+textSubstitution :: Lexer [Lexeme]
+textSubstitution = do
+  ls <- ask
+  let ss = _textSubstitutionBegin ls
+  let se = _textSubstitutionEnd ls
+  st <- lexSymbol ss SubstitutionStart
+  r <- manyTill_ stringLitInternal (lexSymbol se SubstitutionEnd)
+  return $ [st] <> mconcat (fst r) <> [snd r]
+
+substitutionInternal :: Lexer Lexeme
+substitutionInternal = regularWord <|> punctuation
+
+regularWord :: Lexer Lexeme
+regularWord = lexeme (mkWord <$> (T.pack <$> MP.some alphaNumChar)) where
+  mkWord w = let tl = T.toLower w in Word (VocabInfo w (if tl == w then Nothing else Just tl) noFlags)
+
+-- | match a token off its lexeme type
+single'
+  :: MonadParsec e s m
+  => Token s ~ Lexeme
+  => LexemeType
+  -> m (Token s)
+single' y = satisfy (\x -> _lexemeType x == y)

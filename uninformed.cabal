@@ -25,8 +25,6 @@ common common-options
                      , relude
                      , megaparsec
                      , text
-                     , split
-                     , raw-strings-qq
                      , containers
                      , optics
 
@@ -57,14 +55,26 @@ common common-options
     RecordWildCards
     QuasiQuotes
     TemplateHaskell
+    GeneralizedNewtypeDeriving
+    BlockArguments
+    MagicHash
+    DeriveGeneric
+    DerivingVia
+    ScopedTypeVariables
+    TypeOperators
 
 library
   import:              common-options
   hs-source-dirs:      src
   exposed-modules:     Uninformed
-                       Uninformed.Lexer
-                       Uninformed.Sentencifier
-
+                       Uninformed.Prelude
+                       Uninformed.Parser.Headings
+                       Uninformed.Parser.Extensions
+                       Uninformed.Parser.Driver
+                       Uninformed.Parser.Common
+  other-modules:       
+                       
+                       
 executable uninformed
   import:              common-options
   hs-source-dirs:      app
@@ -86,5 +96,4 @@ test-suite uninformed-test
   ghc-options:         -threaded
                        -rtsopts
                        -with-rtsopts=-N
-  other-modules:       Uninformed.SentencifierSpec
-                     , Uninformed.LexerSpec
+  other-modules:       Uninformed.Parser.HeadingsSpec

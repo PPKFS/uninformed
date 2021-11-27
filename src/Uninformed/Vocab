@@ -1,0 +1,14 @@
+{-# LANGUAGE CPP #-}
+module Uninformed.Vocab
+    (MeaningCodes(..)
+    , isQuotedText
+    , isQuotedTextWithSubs) where
+
+import Data.Flags.TH
+import Data.Flags
+import Relude
+
+bitmaskWrapper "MeaningCodes" ''Int [''Eq, ''Show, ''Enum, ''Ord]
+    [("isQuotedText", 1),
+     ("isQuotedTextWithSubs", 2),
+     ("myFlag3", 3)]
