@@ -27,12 +27,18 @@ common common-options
                      , text
                      , containers
                      , optics
+                     , chapelure
+                     , text-display
+                     , raw-strings-qq
+                     , nonempty-vector
+                     , vector
 
   ghc-options:         -Wall
                        -Wcompat
                        -Widentities
                        -Wincomplete-uni-patterns
                        -Wincomplete-record-updates
+
   if impl(ghc >= 8.0)
     ghc-options:       -Wredundant-constraints
   if impl(ghc >= 8.2)
@@ -62,6 +68,8 @@ common common-options
     DerivingVia
     ScopedTypeVariables
     TypeOperators
+    ConstraintKinds
+    EmptyCase
 
 library
   import:              common-options
@@ -71,10 +79,12 @@ library
                        Uninformed.Parser.Headings
                        Uninformed.Parser.Extensions
                        Uninformed.Parser.Driver
-                       Uninformed.Parser.Common
-  other-modules:       
-                       
-                       
+                       Uninformed.Parser.Parser
+                       Uninformed.Parser.NewVerb
+                       Uninformed.Parser.Types
+  other-modules:
+
+
 executable uninformed
   import:              common-options
   hs-source-dirs:      app
@@ -90,10 +100,16 @@ test-suite uninformed-test
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       uninformed
-                     , hspec-megaparsec
                      , hspec
+                     , HUnit
+                     , pretty-simple
 
   ghc-options:         -threaded
                        -rtsopts
                        -with-rtsopts=-N
   other-modules:       Uninformed.Parser.HeadingsSpec
+                       Uninformed.Parser.TestHelpers
+                       Uninformed.Parser.NewVerbSpec
+                       Uninformed.Parser.StandardRulesSpec
+                       Uninformed.Parser.ExtensionsSpec
+                       Uninformed.Parser.CommonSpec

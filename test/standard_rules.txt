@@ -1,0 +1,16 @@
+Version 2/090402 of the Standard Rules by Graham Nelson begins here.
+
+"The Standard Rules, included in every project, define the basic framework
+of kinds, actions and phrases which make Inform what it is."
+
+Part SR1 - The Physical World Model
+
+Section SR1/0 - Language
+
+The verb to relate (he relates, they relate, he related, it is related, he is relating) implies the universal relation.
+The verb to provide (he provides, they provide, he provided, it is provided, he is providing) implies the provision relation.
+The verb to be in implies the reversed containment relation.
+The verb to be inside implies the reversed containment relation.
+The verb to be within implies the reversed containment relation.
+The verb to be held in implies the reversed containment relation.
+The verb to be held inside implies the reversed containment relation.
