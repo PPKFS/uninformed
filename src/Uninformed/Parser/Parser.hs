@@ -4,6 +4,7 @@ module Uninformed.Parser.Parser
   , withoutNewlines
 
   , headedSection
+  , ignoreHeader
   , inQuotes
   , inParentheses
 
@@ -16,15 +17,23 @@ module Uninformed.Parser.Parser
   , buildSnippet
 
   , phrase
+  , phraseUnexpectedTokenMsg
+  , unexpectedNewlineMsg
+  , amendLiteralModeMsg
+  , extendedPhrase
   , optionallyQuotedPhrase
   , optionallyInParens
+  , optionallyQuotedWithEnding
+  , rawStringLiteral
   , word
-  , rawQuotedStringLiteral
 
 
   , paragraphBreak
 
   , specifically
+  , specifically'
+  , specificallySymbol
+  , specificallySymbol'
   ) where
 
 import Uninformed.Prelude hiding (some, many)
@@ -39,6 +48,7 @@ import Chapelure.Types
 import qualified Data.Vector as Vec
 import qualified Data.Vector.NonEmpty as NEVec
 import Data.Text.Display
+import Relude.Extra.Bifunctor (firstF)
 
 -- | Mark the current input position as the start of a code snippet.
 startSnippet
@@ -74,8 +84,13 @@ headedSection
   -> Parser c -- ^ and finished with a `c`
 headedSection name headerBlock bodyBlock f = do
   a <- try headerBlock
-  let wrapper = maybe id (\x y -> withContext (x a) y) name
-  wrapper (f a <$> bodyBlock)
+  maybe id (\x y -> withContext (x a) y) name (f a <$> bodyBlock)
+
+ignoreHeader ::
+  a
+  -> b
+  -> b
+ignoreHeader _ = id
 
 inQuotes
   :: AsTextParser e s m
@@ -145,32 +160,70 @@ paragraphBreak = do
   --and then maybe a bunch more lines
   void $ many (hspace >> eol)
 
--- | A phrase consists of repeated segments of text ended by some
--- construct, with optional errors built by `errorSnippet`.
-phrase
-  :: Parser Text -- ^ a phrase is some of these
-  -> Text -- ^ intercalated with these
-  -> [Parser b] -- ^ with errors if we run into these
+optionallyQuotedWithEnding ::
+  (Parser end -> Parser (body, end)) -- given some kind of parser-with-ending gubbins
+  -> Parser end -- and an ending gubbins
+  -> Parser (body, end) --optionally quote the body
+optionallyQuotedWithEnding f end = do
+  isQuoted <- optional $ specificallySymbol "\""
+  whenJust isQuoted (const $ inLiteralMode .= True) --enter literal mode; todo: check if this means we're doubling up?
+  let finishQuote = whenJust isQuoted (const . void . specificallySymbol $ "\"")
+  r <- f (finishQuote >> end)
+  whenJust isQuoted (const $ inLiteralMode .= False)
+  return r
+
+-- | A phrase consists of at least one word, with some possible errors, separated by whitespace.
+extendedPhrase ::
+  Parser component
+  -> [Parser ()] -- ^ with errors if we run into these
+  -> Parser end -- ^ ended by this
+  -> Parser ([component], end)
+extendedPhrase comp errs fin = do
+  (pc, e) <- someTill_ (do
+    wn <- use allowNewlines
+    sequenceA_ (if not wn then unexpectedNewlineError : errs else errs)
+    comp <|> unexpectedPhraseTokenError) fin
+  return (pc, e)
+
+unexpectedNewlineError :: Parser ()
+unexpectedNewlineError = do
+  ilm <- use inLiteralMode
+  errorSnippet
+    (do
+      void $ takeWhile1P Nothing (`elem` newlineCharacters)
+      use inLiteralMode)
+    (if ilm then MultipleParseErrors [UnexpectedToken, MissingQuoteEnd] else UnexpectedToken)
+    (\b -> unexpectedNewlineMsg <> (if b then amendLiteralModeMsg else ""))
+
+  
+amendLiteralModeMsg :: Text 
+amendLiteralModeMsg = " We were in the middle of reading a quoted string; perhaps you forgot a \"?"
+
+unexpectedNewlineMsg :: Text
+unexpectedNewlineMsg = "When reading something, we found a newline in a phrase where newlines aren't allowed."
+
+unexpectedPhraseTokenError :: Parser a
+unexpectedPhraseTokenError = do
+  errorSnippet
+    anySingle
+    UnexpectedToken
+    (const phraseUnexpectedTokenMsg)
+  fail "shouldnt get this far"
+
+phraseUnexpectedTokenMsg :: Text
+phraseUnexpectedTokenMsg = "When reading a phrase, found a character I wasn't expecting."
+-- | A phrase consists of at least one word, with some possible errors, separated by whitespace.
+phrase ::
+  [Parser ()] -- ^ with errors if we run into these
   -> Parser a -- ^ ended by this
   -> Parser (Text, a)
-phrase phraseComponent ic errs fin = do
-  (pc, e) <- (do
-    sequenceA_ errs
-    phraseComponent) `someTill_` fin
-  return (intercalate ic pc, e)
+phrase errs fin = firstF unwords (extendedPhrase (word False) errs fin)
 
--- | because of how
 optionallyQuotedPhrase
-  :: Parser Text
-  -> [Parser b]
-  -> Parser a
+  :: [Parser ()] -- ^ with errors if we run into these
+  -> Parser a -- ^ ended by this
   -> Parser (Text, a)
-optionallyQuotedPhrase pc errs fin = do
-  isQuoted <- optional $ specificallySymbol "\""
-  --if we read a quotation, then we want to finish the phrase
-  --by reading a quotation mark
-  let finishQuote = whenJust isQuoted (const . void . specificallySymbol $ "\"")
-  phrase pc " " errs (finishQuote >> fin)
+optionallyQuotedPhrase errs = optionallyQuotedWithEnding (phrase errs)
 
 optionallyInParens
   :: Parser a
@@ -183,25 +236,28 @@ optionallyInParens p = do
 -- sentence delimiting characters, newlines, or
 -- quote characters.
 -- then we consume any amount of whitespace.
-word :: Parser Text
-word = do
+word ::
+  Bool
+  -> Parser Text
+word keepWhitespace = do
+  let anyPunctuation = sentenceEndingPunctuation <> newlineCharacters <> whitespaceCharacters <> otherPunctuation
   w <- takeWhile1P Nothing
-    (\x -> x `notElem`
-      -- characters except ending punctuation or newlines or a space
-      (sentenceEndingPunctuation <> newlineCharacters <> whitespaceCharacters <> otherPunctuation))
+    (`notElem` anyPunctuation)
   --if we need to keep whitespace..
-  _ <- consumeWhitespace
-  return w
+  ws <- consumeWhitespace <|> "" <$ lookAhead (satisfy (`elem` anyPunctuation))
+  return $ w <> (if keepWhitespace then ws else mempty)
 
--- | read a string literal as a regular string.
-rawQuotedStringLiteral
-  :: Parser Text
-rawQuotedStringLiteral = fst <$> inQuotes (phrase
-  --either words, or some substitutions which we choose to ignore
-  (word <|> ((\x -> mconcat $ ["["] <> x <> ["]"]) <$> inSquareBrackets (many word)))
-  " "
-  []
-  (lookAhead (single '"')))
+rawStringLiteral ::
+  Bool
+  -> Parser Text
+rawStringLiteral keepQuotes = do
+  f <- specificallySymbol "\""
+  inLiteralMode .= True
+  s <- toText . fst <$> someTill_
+    (satisfy (\x -> x `notElem` ('\"' : newlineCharacters)  ) <|> (' ' <$ unexpectedNewlineError)) (specificallySymbol "\"")
+  inLiteralMode .= False
+  return $ if keepQuotes then "\"" <> f <> s <> "\"" else s
+
 
 errorSnippet
   :: Parser a -- ^ the error that could be satisfied
@@ -224,7 +280,7 @@ errorSnippet errParser eType errMsg = do
       curCxt <- buildSnippetContext eType
       let eos = _snippetEnding sh
           snipBeg = pstateOffset $ _snippetStart sh
-      _ <- anySingle `manyTill` (eos <|> eof)
+      _ <- anySingle `manyTill` (eof <|> eos)
       i3 <- getOffset
       let len = i3-snipBeg
           snip = fst <$> takeN_ len (pstateInput $ _snippetStart sh)
@@ -271,138 +327,26 @@ buildSnippet fp snip l c hs = Snippet
     , content = Vec.fromList ls
     }
     where
-      ls = lines snip
+      ls = lines (T.strip snip)
 
 specifically
   :: Text
+  -> Parser Text
+specifically t = mconcat <$> traverse specificWord (T.split isSpace t) where
+  specificWord :: Text -> Parser Text
+  specificWord w = string' w >> consumeWhitespace
+
+specifically'
+  :: Text
   -> Parser ()
-specifically t = traverse_ specificWord (T.split isSpace t) where
-  specificWord :: Text -> Parser ()
-  specificWord w = do
-    void (string' w >> consumeWhitespace)
-    -- <|> errorSnippet word
-    --  (\x -> "When looking for the word " <> t <>", instead '" <> x <> "' was found.")
+specifically' t = void $ specifically t
 
 specificallySymbol
   :: Text
-  -> Parser ()
-specificallySymbol w = void (string' w >> optional consumeWhitespace)
-
-{-}
-parseWordInternal
-  :: Bool
-  -> String
-  -> Text
   -> Parser Text
-parseWordInternal b ex t = do
-  r <- (if b then string' else string) t
-  consumeWhitespace ex
-  return r
+specificallySymbol w = fromMaybe "" <$> (string' w >> optional consumeWhitespace)
 
-
-
-
-followedBy
-  :: Parser b
-  -> a
-  -> Parser a
-followedBy p a = do
-  void p
-  return a
-parseWord
-  :: Text
-  -> Parser Text
-parseWord = parseWordInternal False []
-
-parseWordWithDelimiter'_
-  :: [Char]
-  -> Text
-  -> Parser ()
-parseWordWithDelimiter'_ = (void .) . parseWordInternal True
-
-parseWord'
-  :: Text
-  -> Parser Text
-parseWord' = parseWordInternal True []
-
-parseWord'_
+specificallySymbol'
   :: Text
   -> Parser ()
-parseWord'_ = void <$> parseWordInternal True []
-
-parseWordOneOf'
-  :: [Text]
-  -> Parser Text
-parseWordOneOf' l = choice (map (try . parseWord') l)
-
-parseWords'
-  :: Text
-  -> Parser Text
-parseWords' t = mconcat <$> traverse parseWord' (T.split isSpace t)
-
-
-
-notSpaceOrPunctuation
-  :: Char
-  -> Bool
-notSpaceOrPunctuation s = s `notElem` [' ', '\t', '.', ',', ';', ':']
-
-isPunctuation
-  :: Char
-  -> Bool
-isPunctuation s = s `elem` ['.', ',', ';', ':']
-
-parsePhraseTillOneOf_
-  :: [Text]
-  -> Parser (Text, Text)
-parsePhraseTillOneOf_ delims = parsePhrase_ (parseWordOneOf' delims)
-
-parsePhraseTillWords
-  :: Text
-  -> Parser Text
-parsePhraseTillWords t = parsePhrase (parseWords'_ t)
-
-parsePhraseTillWord
-  :: Text
-  -> Parser Text
-parsePhraseTillWord t = parsePhrase (parseWord'_ t)
-
-parsePhraseTillAhead
-  :: Parser a
-  -> Parser Text
-parsePhraseTillAhead p = parsePhrase (lookAhead p)
-
-parseAnyWord :: Parser Text
-parseAnyWord = do
-  w <- takeWhile1P Nothing notSpaceOrPunctuation
-  consumeWhitespace []
-  return w
-
-parsePhrase
-  :: Parser a
-  -> Parser Text
-parsePhrase ending = T.intercalate " " <$> someTill parseAnyWord ending
-
-parsePhrase_
-  :: Parser a
-  -> Parser (Text, a)
-parsePhrase_ ending = first (T.intercalate " ") <$> someTill_ parseAnyWord ending
-
-
-quotedStringWithoutNewlines :: Parser Text
-quotedStringWithoutNewlines = wrap "\"" <$> quotedStringInternal
-
-quotedStringInternal :: Parser Text
-quotedStringInternal = inQuotes (takeWhileP Nothing (`notElem` ['"', '\n']))
-
-quotedString :: Parser Text
-quotedString = wrap "\"" <$> inQuotes (takeWhileP Nothing (/= '"'))
-
-optionallyQuotedStringTill
-  :: Parser a
-  -> Parser Text
-optionallyQuotedStringTill e = mconcat <$> someTill optionallyQuotedString e
-
-optionallyQuotedString :: Parser Text
-optionallyQuotedString = inQuotes quotedStringInternal <|> one <$> anySingle
--}
+specificallySymbol' p = void $ specificallySymbol p

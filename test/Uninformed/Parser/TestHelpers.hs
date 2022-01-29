@@ -90,7 +90,7 @@ errorBundleToDiagnostic
   => ParseErrorBundle a UninformedParseError
   -> Diagnostic
 errorBundleToDiagnostic (ParseErrorBundle es _) = foldl' (\d -> \case
-  t@(TrivialError i _ _) -> d { help = Just $ "At offset " <> show i <> ", found a trivial error; did you forget to cover this case? " <> show t}
+  t@(TrivialError i _ _) -> d { help = Just $ "At offset " <> show i <> ", found a trivial error; did you forget to cover this case? " <> (show t)}
   FancyError _ fes -> let (ds, sn) = errorFancyToSnippetVec fes in
     d {
     help = if T.empty /= mconcat ds then Just (fromMaybe "" (help d) <> mconcat ds) else Nothing,

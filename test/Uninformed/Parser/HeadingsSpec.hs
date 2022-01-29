@@ -61,21 +61,24 @@ spec = do
       canParseHeading "part ----~~~---- Test" (makeHeading' Part "Test")
     it "removes excess whitespace" $
       canParseHeading "part                      2 test           \n     " (makeHeading' Part "2 test")
-    it "doesn't handle punctuation" $ do
+    it "doesnt handle punctuation" $ do
       cannotParseHeading "Chapter 6 with ; forbidden punctuation"
         (makeHeadingError (unknownHeading UnexpectedToken) [(1, 15, 16, unexpectedPunctuationInHeadingMsg)])
 
       cannotParseHeading "Chapter 6 With A Full Stop."
-        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 15, 16, unexpectedPunctuationInHeadingMsg)])
+        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 26, 27, unexpectedPunctuationInHeadingMsg)])
     it "handles quotes with punctutation though" $ do
       canParseHeading "Part 3 \" test: \"" (makeHeading' Part "3 \" test: \"")
       canParseHeading "Volume \"...\""  (makeHeading' Volume "\"...\"")
     it "or mismatched quotes" $
       cannotParseHeading "Section a \" uh"
-        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 15, 16, unexpectedPunctuationInHeadingMsg)])
-    it "doesn't handle headings with no marker" $
+        (makeHeadingError (unknownHeading (MultipleParseErrors [UnexpectedToken, MissingQuoteEnd])) [(1, 14, 16, unexpectedNewlineMsg <> amendLiteralModeMsg)])
+    it "or mismatched, unexpected but still valid punctuation" $
+      cannotParseHeading "Volume 2 uninde (in place o" 
+        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 16, 18, phraseUnexpectedTokenMsg)])
+    it "doesnt handle headings with no marker" $
       cannotParseHeading "Book"
-        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 15, 16, unexpectedPunctuationInHeadingMsg)])
+        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 4, 6, unexpectedNewlineMsg)])
 
   describe "Headings with extra gubbins" $ do
 
@@ -93,8 +96,8 @@ spec = do
         "Section 6 - Hacked locking (in place of Section 1 - Regular locking in Locksmith by Emily Short)"
         ((makeHeading' Section "6 - Hacked locking")
           { _headingInPlaceOf = Just $ InPlaceOf (HeadingName Section "1 - Regular locking") (ExtensionName "Locksmith" "Emily Short") })
-    it "doesn't read an incomplete heading ending wrongly" $
-      canParseHeading "Volume 2 uninde (in place o" (makeHeading' Volume "2 uninde (in place o")
+    it "does not read an incomplete heading ending wrongly" $
+      canParseHeading "Volume 2 uninde in place o" (makeHeading' Volume "2 uninde in place o")
     it "can parse unindexed" $ do
       canParseHeading "Volume 2 unindexed" ((makeHeading' Volume "2") { _headingIsIndexed = False })
 

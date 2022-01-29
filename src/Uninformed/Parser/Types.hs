@@ -7,6 +7,7 @@ module Uninformed.Parser.Types
 
 , verbUsages
 , allowNewlines
+, inLiteralMode
 , snippetHandler
 , snippetStart
 , snippetEnding
@@ -37,6 +38,8 @@ import Text.Megaparsec (ParsecT, MonadParsec, Token, Tokens, SourcePos, PosState
 import Optics
 import Chapelure.Types
 import Data.Text.Display
+import qualified Data.Text as T
+import Data.Text.Lazy.Builder (fromText)
 
 data ExtensionName = ExtensionName
   { _extensionTitle :: Text
@@ -71,6 +74,7 @@ data VerbUsage = VerbUsage
 
 data ParseState = ParseState
   { _allowNewlines :: Bool
+  , _inLiteralMode :: Bool
   , _snippetHandler :: SnippetHandler
   , _verbUsages :: Map.Map Text (Set VerbUsage)
   , _psDummy :: ()
@@ -90,15 +94,21 @@ data UninformedParseError = UninformedParseError
   , diagnosticHelp :: Text }
   deriving stock (Eq, Show)
 
-data ParseErrorType = UnexpectedToken
+data ParseErrorType = UnexpectedToken | MultipleParseErrors [ParseErrorType] | MissingQuoteEnd
+
+prettyPrintList :: [Text] -> Text 
+prettyPrintList [] = ""
+prettyPrintList [x] = x
+prettyPrintList [x, y] = x <> ", and " <> y
+prettyPrintList (x:xs) = x <> ", " <> prettyPrintList xs
 
 instance Display ParseErrorType where
   displayBuilder UnexpectedToken = "an unexpected token was found"
+  displayBuilder (MultipleParseErrors xs) = fromText $ prettyPrintList $ map display xs
+  displayBuilder MissingQuoteEnd = "an opening \" was found with but no closing \" was found to match it"
 instance Ord UninformedParseError where
   compare (UninformedParseError (Snippet loc1 _ _ ) _)
     (UninformedParseError (Snippet loc2 _ _ ) _) = loc1 `compare` loc2
-
-
 
 data AST = AST
 
@@ -112,7 +122,7 @@ whitespaceCharacters :: [Char]
 whitespaceCharacters = [' ', '\t']
 
 otherPunctuation :: [Char]
-otherPunctuation = ['(', ')']
+otherPunctuation = ['(', ')', '"']
 
 newtype Parser a =
   Parser { unParser :: StateT ParseState (ParsecT UninformedParseError Text IO) a }

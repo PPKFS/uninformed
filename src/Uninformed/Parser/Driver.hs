@@ -26,7 +26,7 @@ runParser
 runParser f (Parser p) = runParserT (evalStateT p (f initParser)) ""
 
 initParser :: ParseState
-initParser = ParseState False
+initParser = ParseState False False
   (SnippetHandler
     (PosState "No input has been given." 0 (initialPos "untitled.inform") pos1 "")
       (void $ takeWhile1P Nothing (`elem` sentenceEndingPunctuation )) "Untitled.hs" [])

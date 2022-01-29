@@ -72,30 +72,33 @@ All are case-insensitive
 parseHeadingName
   :: Parser a -- ^ the ending of the header
   -> Parser (HeadingName, a)
-parseHeadingName ending = headedSection
-  Nothing
-  parseHeadingLevel
-  (optionallyQuoted $ withoutNewlines $
-    phrase
-    (word <|> rawQuotedStringLiteral)
-    " "
-    [unexpectedPunctuationInHeading]
-    ending)
-  (\lvl (hnames, endings) -> (HeadingName lvl hnames, endings))
+parseHeadingName ending = withoutNewlines $ headedSection
+  Nothing -- we don't know what the section is called yet
+  parseHeadingLevel -- we know we're parsing a header after seeing the first word
+  (do
+    extendedPhrase
+      ((rawStringLiteral True <|> word False) <?> "heading name stuff")
+      [unexpectedPunctuationInHeading] -- no punctuation allowed
+      ending)
+  (\lvl (hnames, endings) -> (HeadingName lvl (unwords hnames), endings))
 
 unexpectedPunctuationInHeading :: Parser ()
 unexpectedPunctuationInHeading = errorSnippet
-  (takeWhile1P Nothing (`elem` sentenceEndingPunctuation))
+  (do
+    guardM (not <$> use inLiteralMode) --if we're in literal mode, we'll allow it.
+    takeWhile1P Nothing (`elem` sentenceEndingPunctuation))
   UnexpectedToken
   (const unexpectedPunctuationInHeadingMsg)
 
 unexpectedPunctuationInHeadingMsg :: Text
 unexpectedPunctuationInHeadingMsg = "Some sentence-ending punctuation was found (;, :, or .). To use punctuation in a heading, wrap it in double-quotes."
+
 parseHeading :: Parser Heading
 parseHeading = do
-  withContext "In {heading}[a heading declaration]" $ do
+  --withContext "In {heading}[a heading declaration]" $ do
+  withContext "In a heading declaration" $ do
     startSnippet endSnippetAtParagraphBreak
-    (hn, endings) <- parseHeadingName (try headingEndings)
+    (hn, endings) <- parseHeadingName (try headingEndings) <?> "heading name"
     return $ composel endings $ makeHeading hn
 
 headerFluff :: [Char]
@@ -111,49 +114,46 @@ consumeHeaderFluff = void $
 headingEndings :: Parser [Heading -> Heading]
 headingEndings = do
   consumeHeaderFluff
-  s <- getInput
-  optionallyInParens $ sepBy (
+  r <- sepBy (
     (headingIsIndexed .~ False) <$ specifically "unindexed" <|>
     (headingForRelease ?~ NotForRelease) <$ specifically "not for release" <|>
     (headingForRelease ?~ ForReleaseOnly) <$ specifically "for release only" <|>
-    try ((\(h, e) -> headingInPlaceOf ?~ InPlaceOf h e) <$> inPlaceOf) <|>
-    try (headingForUseWith False <$> forUse "without") <|>
-    try (headingForUseWith True <$> forUse "with")
+    (\(h, e) -> headingInPlaceOf ?~ InPlaceOf h e) <$> inPlaceOf <|>
+    headingForUseWith False <$> forUse "without" <|>
+    headingForUseWith True <$> forUse "with"
     ) consumeHeaderFluff
-  <* paragraphBreak
+  paragraphBreak
+  return r
 
 forUse
   :: Text
   -> Parser ExtensionName
-forUse t = inParentheses $ do
-  specifically ("for use " <> t)
-  parseExtensionName
+forUse t = headedSection
+  (Just $ const "For use with...")
+  (specificallySymbol' "(" >> specifically' ("for use " <> t))
+  (parseExtensionName <* specificallySymbol' ")")
+  ignoreHeader
 
 parseExtensionName :: Parser ExtensionName
-parseExtensionName = do
-  --then we read a title
-  t' <- fst <$> optionallyQuotedPhrase
-    word
-    []
+parseExtensionName = withoutNewlines $ do
+  t' <- fst <$> phrase
+    [unexpectedPunctuationInHeading]
     (specifically "by")
-  a <- fst <$> optionallyQuotedPhrase
-    word
-    []
+  a <- fst <$> phrase
+    [unexpectedPunctuationInHeading]
     (lookAhead $ single ')')
   return (ExtensionName t' a)
 
-optionallyQuoted
-  :: Parser a
-  -> Parser a
-optionallyQuoted p = inQuotes p <|> p
-
 inPlaceOf :: Parser (HeadingName, ExtensionName)
-inPlaceOf = inParentheses $ do
-  specifically "in place of"
-  hn <- fst <$> parseHeadingName (specifically "by")
-  ex <- parseExtensionName
-  return (hn, ex)
-
+inPlaceOf = headedSection
+  (Just $ const "In place of...")
+  (specificallySymbol' "(" >> specifically' "in place of")
+  ((do --then either parse a heading wrapped in quotes, or just a heading name
+    hn <- fst <$> optionallyQuotedWithEnding parseHeadingName (specifically "in")
+    ex <- parseExtensionName
+    return (hn, ex)) <* specificallySymbol' ")")
+  ignoreHeader
+  
 headingForUseWith
   :: Bool
   -> ExtensionName
@@ -163,7 +163,7 @@ headingForUseWith True e = headingUseWith ?~ UseWith e
 headingForUseWith False e = headingUseWith ?~ UseWithout e
 
 parseHeadingLevel :: Parser HeadingLevel
-parseHeadingLevel = do
+parseHeadingLevel = withoutNewlines $ do
   hl <- Volume <$ specifically "volume"
     <|> Part <$ specifically "part"
     <|> Chapter <$ specifically "chapter"
