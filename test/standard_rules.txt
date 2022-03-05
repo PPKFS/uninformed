@@ -1,7 +1,6 @@
 Version 2/090402 of the Standard Rules by Graham Nelson begins here.
 
-"The Standard Rules, included in every project, define the basic framework
-of kinds, actions and phrases which make Inform what it is."
+"The Standard Rules, included in every project, define the basic framework of kinds, actions and phrases which make Inform what it is."
 
 Part SR1 - The Physical World Model
 

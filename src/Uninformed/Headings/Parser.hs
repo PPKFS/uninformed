@@ -1,63 +1,14 @@
-module Uninformed.Parser.Headings
-  ( Heading(..)
-  , HeadingLevel(..)
-  , HeadingName(..)
-  , InPlaceOf(..)
-  , UseWith(..)
-  , ForRelease(..)
-  , parseHeading
-  , makeHeading
-  , makeHeading'
-  , unexpectedPunctuationInHeadingMsg
-  ) where
+module Uninformed.Headings.Parser where
 
 import Uninformed.Parser.Parser
 import Uninformed.Prelude hiding (some, many)
 import Text.Megaparsec hiding (unexpected)
 import Optics hiding ( noneOf )
 import Uninformed.Parser.Types
-import Data.Text.Display
-
-data HeadingLevel = File | Volume | Book | Part | Chapter | Section
-  deriving stock (Eq, Enum, Ord, Show, Generic)
-
-data HeadingName = HeadingName
-  { _headingLevel :: HeadingLevel
-  , _headingText :: Text
-  }
-  deriving stock (Eq, Show)
-
-data ForRelease = ForReleaseOnly | NotForRelease
-  deriving stock (Eq, Show)
-
-data Heading = Heading
-  { _headingName :: HeadingName
-  , _headingIndentation :: Int -- ?
-  , _headingForRelease :: Maybe ForRelease
-  , _headingIsIndexed :: Bool
-  , _headingOmitMaterial :: Bool
-  , _headingUseWith :: Maybe UseWith
-  , _headingInPlaceOf :: Maybe InPlaceOf
-  } deriving stock (Eq, Show)
-  deriving Display via (ShowInstance Heading)
-
-data InPlaceOf = InPlaceOf HeadingName ExtensionName deriving stock (Eq, Show)
-
-data UseWith = UseWith ExtensionName | UseWithout ExtensionName deriving stock (Eq, Show)
-
-makeLenses ''Heading
-makeLenses ''HeadingName
-
-makeHeading
-  :: HeadingName
-  -> Heading
-makeHeading hn = Heading hn 0 Nothing True False Nothing Nothing
-
-makeHeading'
-  :: HeadingLevel
-  -> Text
-  -> Heading
-makeHeading' h t = makeHeading (HeadingName h t)
+import Uninformed.Headings.Types
+import Uninformed.Extensions.Types
+import Uninformed.Parser.Combinators
+import Uninformed.Parser.Errors
 
 {-
 All are case-insensitive
@@ -75,43 +26,25 @@ parseHeadingName
 parseHeadingName ending = withoutNewlines $ headedSection
   Nothing -- we don't know what the section is called yet
   parseHeadingLevel -- we know we're parsing a header after seeing the first word
-  (do
-    extendedPhrase
-      ((rawStringLiteral True <|> word False) <?> "heading name stuff")
-      [unexpectedPunctuationInHeading] -- no punctuation allowed
-      ending)
-  (\lvl (hnames, endings) -> (HeadingName lvl (unwords hnames), endings))
+  (headerLikePhrase ending)
+  (\lvl (hnames, endings) -> (HeadingName lvl hnames, endings))
 
-unexpectedPunctuationInHeading :: Parser ()
-unexpectedPunctuationInHeading = errorSnippet
-  (do
-    guardM (not <$> use inLiteralMode) --if we're in literal mode, we'll allow it.
-    takeWhile1P Nothing (`elem` sentenceEndingPunctuation))
-  UnexpectedToken
-  (const unexpectedPunctuationInHeadingMsg)
-
-unexpectedPunctuationInHeadingMsg :: Text
-unexpectedPunctuationInHeadingMsg = "Some sentence-ending punctuation was found (;, :, or .). To use punctuation in a heading, wrap it in double-quotes."
-
-parseHeading :: Parser Heading
-parseHeading = do
+parseHeading :: Parser ExprLoc
+parseHeading = annotateLocation $ do
   --withContext "In {heading}[a heading declaration]" $ do
   withContext "In a heading declaration" $ do
     startSnippet endSnippetAtParagraphBreak
     (hn, endings) <- parseHeadingName (try headingEndings) <?> "heading name"
-    return $ composel endings $ makeHeading hn
-
-headerFluff :: [Char]
-headerFluff = [',', '-', '~']
+    return . HeadingExpr $ Heading hn 0 (composel endings defaultHeadingInfo)
 
 --consume any amount of extraneous header "stuff" that is solely there to be annoying
 consumeHeaderFluff :: Parser ()
 consumeHeaderFluff = void $
-  takeWhileP Nothing (`elem` (headerFluff <> whitespaceCharacters ))
+  takeWhileP Nothing (`elem` (headerFluff <> whitespaceCharacters))
 
 -- seems like inform lets you put any number of endings together as long as they aren't separated by dashes
 -- read some amount of excess whitespace or dash, then possibly some heading endings, then the end of line or input
-headingEndings :: Parser [Heading -> Heading]
+headingEndings :: Parser [HeadingInfo -> HeadingInfo]
 headingEndings = do
   consumeHeaderFluff
   r <- sepBy (
@@ -154,11 +87,11 @@ inPlaceOf = headedSection
     return (hn, ex)) <* specificallySymbol' ")")
   ignoreHeader
   
-headingForUseWith
-  :: Bool
+headingForUseWith :: 
+  Bool
   -> ExtensionName
-  -> Heading
-  -> Heading
+  -> HeadingInfo
+  -> HeadingInfo
 headingForUseWith True e = headingUseWith ?~ UseWith e
 headingForUseWith False e = headingUseWith ?~ UseWithout e
 
@@ -171,3 +104,4 @@ parseHeadingLevel = withoutNewlines $ do
     <|> Section <$ specifically "section"
   consumeHeaderFluff
   return hl
+  

@@ -4,16 +4,20 @@ import Test.Hspec
 import Uninformed.Prelude
 import Uninformed.Parser.TestHelpers
 import Uninformed.Parser.Driver
-import Uninformed.Parser.Extensions
+import Uninformed.Parser.Types
+import Optics
+import Uninformed.Extensions.Types
 
-spec :: Spec
-spec = pass
-{-}
+initHeadingParser
+  :: ParseState
+  -> ParseState
+initHeadingParser = (snippetHandler % snippetFilename) .~ "aaaa"
+
 canParseEverything
   :: Text
-  -> Extension
+  -> ExtensionF (Fix ExprF)
   -> Expectation
-canParseEverything = canParse parseExtension
+canParseEverything t e = canParse initHeadingParser parseExtension (t <> "\n\n") (ExtensionExpr e)
 
 spec :: Spec
 spec = do
@@ -21,4 +25,3 @@ spec = do
     it "can parse the standard rules" $ do
       stdraw <- toText <$> readFile "test/standard_rules.txt"
       canParseEverything stdraw Extension
--}

@@ -1,50 +1,17 @@
-module Uninformed.Parser.Types
-( Parser(..)
-, ParseState(..)
-, SnippetHandler(..)
-, ParseErrorType(..)
-, AsTextParser
+{-# LANGUAGE FlexibleInstances #-}
+module Uninformed.Parser.Types where
 
-, verbUsages
-, allowNewlines
-, inLiteralMode
-, snippetHandler
-, snippetStart
-, snippetEnding
-, snippetContext
-, snippetFilename
-
-, sentenceEndingPunctuation
-, whitespaceCharacters
-, newlineCharacters
-, otherPunctuation
-
-, UninformedParseError(..)
-
-, ExtensionName(..)
-, AST
-
-, VerbConjugationTable(..)
-, VerbUsage(..)
-, VerbConjugation(..)
-, Tense(..)
-, Participle(..)
-, Pronoun(..)
-) where
-
-import Relude
 import qualified Data.Map.Strict as Map
-import Text.Megaparsec (ParsecT, MonadParsec, Token, Tokens, SourcePos, PosState, Pos)
+import Text.Megaparsec 
 import Optics
 import Chapelure.Types
 import Data.Text.Display
-import qualified Data.Text as T
 import Data.Text.Lazy.Builder (fromText)
 
-data ExtensionName = ExtensionName
-  { _extensionTitle :: Text
-  , _extensionAuthor :: Text
-  } deriving stock (Eq, Show)
+import Uninformed.Headings.Types
+import Uninformed.Extensions.Types
+import Uninformed.Prelude hiding (show)
+import GHC.Show (show)
 
 data Participle = Present | Past
 
@@ -93,8 +60,10 @@ data UninformedParseError = UninformedParseError
   { snippet :: Snippet
   , diagnosticHelp :: Text }
   deriving stock (Eq, Show)
+  deriving Display
+    via (ShowInstance UninformedParseError) 
 
-data ParseErrorType = UnexpectedToken | MultipleParseErrors [ParseErrorType] | MissingQuoteEnd
+data ParseErrorType = UnexpectedToken | MultipleParseErrors [ParseErrorType] | MissingQuoteEnd deriving stock (Eq, Ord)
 
 prettyPrintList :: [Text] -> Text 
 prettyPrintList [] = ""
@@ -110,7 +79,11 @@ instance Ord UninformedParseError where
   compare (UninformedParseError (Snippet loc1 _ _ ) _)
     (UninformedParseError (Snippet loc2 _ _ ) _) = loc1 `compare` loc2
 
-data AST = AST
+instance ShowErrorComponent ParseErrorType where
+  showErrorComponent = toString . display
+
+instance ShowErrorComponent UninformedParseError where
+  showErrorComponent = toString . display
 
 sentenceEndingPunctuation :: [Char]
 sentenceEndingPunctuation = ['.', ';', ':']
@@ -130,6 +103,39 @@ newtype Parser a =
     MonadIO, MonadState ParseState, MonadParsec UninformedParseError Text, MonadFail)
 
 type AsTextParser e s m = (MonadParsec e s m, Token s ~ Char, Tokens s ~ Text)
+
+data ExprF r = 
+  HeadingExpr Heading 
+  | ExtensionExpr (ExtensionF r)
+  | ExtensionHeaderExpr ExtensionHeader
+  
+  deriving stock (Eq, Show, Functor)
+
+type ExprLoc = WithLoc ExprF
+type ExprPlain = Fix ExprF
+
+type Extension = ExtensionF ExprPlain
+
+type Algebra f a = f a -> a 
+
+cata :: Functor f => Algebra f a -> Fix f -> a 
+cata f = f . fmap (cata f) . unFix
+
+stripLoc :: ExprLoc -> ExprPlain
+stripLoc = cata s where
+  s (Compose (_, f)) = Fix f
+
+instance Show ExprPlain where
+  show f = cata show f
+
+instance Eq ExprPlain where
+  (==) (Fix a) (Fix b) = a == b
+
+instance Show ExprLoc where
+  show f = cata sAnno f where
+    sAnno :: Compose ((,) SourceLocation) ExprF String -> String
+    sAnno (Compose (r, g)) = show r <> show g
+
 
 makeLenses ''ParseState
 makeLenses ''SnippetHandler

@@ -14,7 +14,7 @@ category:            Game
 build-type:          Simple
 extra-doc-files:     README.md
                      CHANGELOG.md
-tested-with:         GHC == 8.8.3
+tested-with:         GHC == 9.2.1
 
 source-repository head
   type:                git
@@ -38,7 +38,7 @@ common common-options
                        -Widentities
                        -Wincomplete-uni-patterns
                        -Wincomplete-record-updates
-
+                       -haddock
   if impl(ghc >= 8.0)
     ghc-options:       -Wredundant-constraints
   if impl(ghc >= 8.2)
@@ -55,6 +55,7 @@ common common-options
     OverloadedStrings
     NoImplicitPrelude
     DerivingStrategies
+    DeriveFunctor
     LambdaCase
     TupleSections
     TypeFamilies
@@ -70,18 +71,26 @@ common common-options
     TypeOperators
     ConstraintKinds
     EmptyCase
+    DeriveFoldable
+    DeriveTraversable
 
 library
   import:              common-options
   hs-source-dirs:      src
   exposed-modules:     Uninformed
                        Uninformed.Prelude
-                       Uninformed.Parser.Headings
-                       Uninformed.Parser.Extensions
+                       
                        Uninformed.Parser.Driver
                        Uninformed.Parser.Parser
-                       Uninformed.Parser.NewVerb
                        Uninformed.Parser.Types
+                       Uninformed.Parser.Combinators
+                       Uninformed.Parser.Errors
+
+                       Uninformed.Headings.Types
+                       Uninformed.Headings.Parser
+
+                       Uninformed.Extensions.Types
+                       Uninformed.Extensions.Parser
   other-modules:
 
 
@@ -98,7 +107,7 @@ test-suite uninformed-test
   import:              common-options
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
-  main-is:             Spec.hs
+  main-is:             Main.hs
   build-depends:       uninformed
                      , hspec
                      , hspec-discover

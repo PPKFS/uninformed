@@ -13,6 +13,7 @@ import Text.Megaparsec.Char (string')
 import qualified Data.Map.Strict as Map
 import Uninformed.Parser.Types
 import Optics
+import Data.Text.Display
 
 data NewVerbDeclaration = NewVerbDeclaration Text Text deriving stock (Eq, Show)
 
@@ -28,12 +29,47 @@ registerVerbUsage name negat tens bp = do
 
 
 parseNewVerb :: Parser NewVerbDeclaration
-parseNewVerb = error ""
+parseNewVerb = verbPhrase
+  (const "A new verb declaration")
+  (specifically' "The verb to")
+  ["implies", "means"]
+  conjugationsAndRelation
+  (const $ NewVerbDeclaration " ")
 
-{-do
-  try $ parseWords'_ "the verb"
-  (verbName, (conjugations, impOrMeans)) <- verbName
-  return $ NewVerbDeclaration verbName (show impOrMeans)
+
+conjugationsAndRelation :: Parser Text
+conjugationsAndRelation = do
+  vk <- parseVerbKind
+  --p <- highlightStart
+  (vn, (mConjug, impOrMens)) <- first (display vk <>) <$> phrase [] (do
+    conj <- optional parseVerbConjugations
+    r <- True <$ specifically' "implies" <|> False <$ specifically' "means"
+    return (conj, r))
+  rel <- relationPart
+  return ""
+
+relationPart :: Parser a0
+relationPart = error "not implemented"
+
+parseVerbConjugations :: Parser a1
+parseVerbConjugations = error "not implemented"
+
+parseVerbName :: Parser a2
+parseVerbName = error "not implemented"
+
+data VerbKind = AbleTo | Prepositional | Regular
+
+instance Display VerbKind where
+  displayBuilder AbleTo = "to be able to"
+  displayBuilder Prepositional = "to be"
+  displayBuilder Regular = "to"
+parseVerbKind :: Parser VerbKind
+parseVerbKind = AbleTo <$ try (specifically' "be able to")
+  <|> Prepositional <$ try (specifically' "be")
+  <|> Regular <$ pass
+
+
+{-
 
 -- this is equivalent to "before" in the 2 parse nodes of parse_new_verb
 -- TODO: check for overlap, to explicitly call out 'to be'?
@@ -44,7 +80,7 @@ verbName = do
     (try (parseWord'_ "be") >> prepositionalVerb) <|>
     regularVerb False
   c <- buildConjugationTable . fromMaybe [] <$> optional verbConjugation
-  r <- True <$ string' "implies" <|> False <$ string' "means"
+  
   return (vp, (c, r))
 
 buildConjugationTable :: [VerbConjugation] -> VerbConjugationTable
@@ -88,12 +124,11 @@ verbConjugation = inParentheses $ sepBy (do
   return $ VerbConjugation pronoun participle conjug adjectival) (parseWord'_ ",")
 
 
-
+-}
 {-
 findInSentence'
   :: Text
   -> Parser (Text, Text)
 findInSentence' breakWord = try $ do
   w <- manyTill
--}
 -}

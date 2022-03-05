@@ -9,11 +9,17 @@ module Uninformed.Prelude
 , surroundM
 , intercalate
 , (<$$>)
+
+, WithLoc
+, Plain
+, Fix(..)
+, SourceLocation(..)
 ) where
 
 import Relude hiding (intercalate)
 import qualified Data.Text as T
 import Data.Char (isSpace)
+import Text.Megaparsec
 
 -- | generalised version of `isPrefixOf` for when the lists are of different types
 isPrefixOf'
@@ -90,3 +96,13 @@ intercalate m = foldl' (\acc x ->
   => Functor g
   => (a -> b) -> f (g a) -> f (g b)
 (<$$>) = fmap . fmap
+
+newtype SourceLocation = SourceLocation
+  { _parseNodeSpan :: (SourcePos, SourcePos)
+  } deriving newtype (Eq, Show)
+  
+newtype Fix f = Fix { unFix :: f (Fix f) }
+
+type WithLoc a = Fix (WithLocF a)
+type Plain = Fix
+type WithLocF = Compose ((,) SourceLocation)

@@ -1,7 +1,7 @@
 cradle:
-  stack:
+  cabal:
     - path: "./src"
-      component: "uninformed:lib"
+      component: "lib:uninformed"
 
     - path: "./app/Main.hs"
       component: "uninformed:exe:uninformed"

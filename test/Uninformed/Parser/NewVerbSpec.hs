@@ -1,10 +1,7 @@
 module Uninformed.Parser.NewVerbSpec (spec) where
 
 import Uninformed.Prelude
-import Uninformed.Parser.NewVerb
-import Uninformed.Parser.TestHelpers
 import Test.Hspec
-import Text.Megaparsec.Char (string')
 
 spec :: Spec
 spec = pass

@@ -8,30 +8,24 @@ module Uninformed.Parser.TestHelpers
 import Uninformed.Prelude
 import Uninformed.Parser.Types
 import Uninformed.Parser.Driver (runParser)
-import Text.Megaparsec (ParseErrorBundle (ParseErrorBundle), errorBundlePretty, ParseError (TrivialError, FancyError), ErrorFancy, ShowErrorComponent (showErrorComponent), Token, eof )
-import Uninformed.Parser.Parser
-import Test.Hspec hiding (shouldBe)
-import Data.Text.Display
+import Text.Megaparsec hiding ( runParser )
 import qualified Data.Text as T
 import Chapelure.Types
 import Chapelure.Handler.PlainText
 import qualified Data.Vector.NonEmpty as NEVec
 import qualified Data.Vector as Vec
-import qualified Data.List.NonEmpty as NE
-import qualified Data.Set as DS
-import Text.Megaparsec.Error
 import qualified Control.Exception as E
-import Test.HUnit
-import Test.HUnit.Lang hiding (Error)
 import GHC.Stack ( SrcLoc )
-import Text.Pretty.Simple
-import Uninformed.Prelude
+import Test.Hspec (Expectation, expectationFailure)
+import Text.Pretty.Simple (pShow, pShowNoColor)
+import Test.HUnit.Lang hiding (Error)
+import Uninformed.Parser.Errors
 
 shouldParse
   :: HasCallStack
-  => Show a
-  => Show (Token s)
+  => VisualStream s
   => Eq a
+  => Show a
   => Either (ParseErrorBundle s UninformedParseError) a
   -> a
   -> Expectation
@@ -75,7 +69,7 @@ shouldBe = shouldBeEx (toString . pShowNoColor)
 -- in a test suite report.
 
 showBundle
-  :: Show (Token a)
+  :: VisualStream a
   => ParseErrorBundle a UninformedParseError
   -> Text
 showBundle = unlines . fmap indent . lines . toText . render . errorBundleToDiagnostic
@@ -86,11 +80,11 @@ showBundle = unlines . fmap indent . lines . toText . render . errorBundleToDiag
         else "  " <> x
 
 errorBundleToDiagnostic
-  :: Show (Token a)
+  :: VisualStream a
   => ParseErrorBundle a UninformedParseError
   -> Diagnostic
 errorBundleToDiagnostic (ParseErrorBundle es _) = foldl' (\d -> \case
-  t@(TrivialError i _ _) -> d { help = Just $ "At offset " <> show i <> ", found a trivial error; did you forget to cover this case? " <> (show t)}
+  t@(TrivialError i _ _) -> d { help = Just $ toText $ parseErrorPretty t <> "at offset " <> show i}
   FancyError _ fes -> let (ds, sn) = errorFancyToSnippetVec fes in
     d {
     help = if T.empty /= mconcat ds then Just (fromMaybe "" (help d) <> mconcat ds) else Nothing,
@@ -113,28 +107,29 @@ errorFancyToSnippetVec = unzip . map (\case
                  , line = Line 4
                  , startColumn = Column 8
                  , endColumn = Column 8
-                 }), content = Vec.fromList $ lines "add3 :: Int\nadd = 1 + True"})
+                 }), content = Vec.fromList $ lines $ toText $ "add3 :: Int\nadd = 1 + True" <> s})
   --todo
   ErrorIndentation {} -> ("", Snippet { location=("Code.hs", Line 3, Column 1), highlights= Just $ NEVec.singleton (Source{ label = Just "This takes an “Int”"
                  , line = Line 4
                  , startColumn = Column 8
                  , endColumn = Column 8
-                 }), content = Vec.fromList $ lines "add2 :: Int\nadd = 1 + True"})
+                 }), content = Vec.fromList $ lines "addaaaaa :: Int\nadd = 1 + True"})
   ErrorCustom (UninformedParseError s dhlp) -> (dhlp, s)
   ) . toList
 
 canParse
   :: HasCallStack
-  => Eq a
-  => Show a
-  => (ParseState -> ParseState )
-  -> Parser a
+  => (ParseState -> ParseState)
+  -> Parser ExprLoc
   -> Text
-  -> a
+  -> ExprF (Fix ExprF)
   -> Expectation
 canParse f p i o = do
-  r <- runParser f p i
-  r `shouldParse` o
+  r <- runParser f (p <* finishParse) i
+  fmap stripLoc r `shouldParse` Fix o
+
+finishParse :: Parser ()
+finishParse = eof <|> unexpectedSentence
 
 cannotParse
   :: HasCallStack
@@ -154,6 +149,6 @@ trimWhitespaceFromDiagnostic d@Diagnostic{..}= d { snippets = trimWhitespaceFrom
 trimWhitespaceFromSnippets :: Snippet -> Snippet
 trimWhitespaceFromSnippets s@Snippet{..} = s { content = Vec.takeWhile (/= "") content}
 
-shouldFailWith :: (HasCallStack, Show (Token a1), Show a2) => Either (ParseErrorBundle a1 UninformedParseError) a2 -> Diagnostic -> Expectation
+shouldFailWith :: (HasCallStack, VisualStream a1, Show a2) => Either (ParseErrorBundle a1 UninformedParseError) a2 -> Diagnostic -> Expectation
 shouldFailWith (Left peb) e = shouldBeEx (toString . render) e (errorBundleToDiagnostic peb)
 shouldFailWith (Right ac) _ = expectationFailure $ toString (pShow ac)

@@ -2,22 +2,23 @@ module Uninformed.Parser.HeadingsSpec
   ( spec ) where
 
 import Uninformed.Prelude
-import Uninformed.Parser.Headings
-import Uninformed.Parser.Parser
+import Uninformed.Headings.Parser
 import Uninformed.Parser.Types
 import Uninformed.Parser.TestHelpers
 import Test.Hspec
 import Chapelure.Types
 import Optics
 import Data.Text.Display
-import Text.Megaparsec.Debug
+import Uninformed.Headings.Types
+import Uninformed.Parser.Errors
+import Uninformed.Extensions.Types
 
 canParseHeading
   :: HasCallStack
   => Text
   -> Heading
   -> Expectation
-canParseHeading t = canParse initHeadingParser parseHeading (t <> "\n\n")
+canParseHeading t h = canParse initHeadingParser parseHeading (t <> "\n\n") (HeadingExpr h)
 
 cannotParseHeading
   :: HasCallStack
@@ -50,6 +51,12 @@ unknownHeading
   -> Text
 unknownHeading p = "In a heading declaration, " <> display p <> "."
 
+makeHeading' ::
+  HeadingLevel 
+  -> Text 
+  -> Heading 
+makeHeading' lvl n = Heading (HeadingName lvl n) 0 defaultHeadingInfo
+
 spec :: Spec
 spec = do
   describe "Regular headings" $ do
@@ -75,7 +82,7 @@ spec = do
         (makeHeadingError (unknownHeading (MultipleParseErrors [UnexpectedToken, MissingQuoteEnd])) [(1, 14, 16, unexpectedNewlineMsg <> amendLiteralModeMsg)])
     it "or mismatched, unexpected but still valid punctuation" $
       cannotParseHeading "Volume 2 uninde (in place o" 
-        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 16, 18, phraseUnexpectedTokenMsg)])
+        (makeHeadingError (unknownHeading UnexpectedToken) [(1, 16, 17, phraseUnexpectedTokenMsg)])
     it "doesnt handle headings with no marker" $
       cannotParseHeading "Book"
         (makeHeadingError (unknownHeading UnexpectedToken) [(1, 4, 6, unexpectedNewlineMsg)])
@@ -83,27 +90,31 @@ spec = do
   describe "Headings with extra gubbins" $ do
 
     it "can handle for/not for release" $ do
-      canParseHeading "Section 1 - F - Not For Release" ((makeHeading' Section "1 - F") { _headingForRelease = Just NotForRelease })
-      canParseHeading "Section F - for ReleAse OnLy" ((makeHeading' Section "F") { _headingForRelease = Just ForReleaseOnly })
+      canParseHeading "Section 1 - F - Not For Release" (
+        makeHeading' Section "1 - F"  & (headingInfo % headingForRelease) ?~ NotForRelease)
+      canParseHeading "Section F - for ReleAse OnLy" (
+        makeHeading' Section "F" & (headingInfo % headingForRelease) ?~ ForReleaseOnly)
 
     it "can parse for use with(out)" $ do
-      canParseHeading "Chapter 2a (for use with Locksmith by Emily Short)" (((makeHeading' Chapter "2a") { _headingUseWith = Just $ UseWith (ExtensionName "Locksmith" "Emily Short") }))
-      canParseHeading "Chapter 2a (for use without Locksmith2 by Emily Short)"
-        (((makeHeading' Chapter "2a") { _headingUseWith = Just $ UseWithout (ExtensionName "Locksmith2" "Emily Short") }))
+      canParseHeading "Chapter 2a (for use with Locksmith by Emily Short)"  (
+        makeHeading' Chapter "2a" & (headingInfo % headingUseWith) ?~ UseWith 
+          (ExtensionName "Locksmith" "Emily Short"))
+      canParseHeading "Chapter 2a (for use without Locksmith 2 by Emily Short)"  (
+        makeHeading' Chapter "2a" & (headingInfo % headingUseWith) ?~ UseWithout 
+          (ExtensionName "Locksmith 2" "Emily Short"))
 
-    it "can parse in place of" $ do
-      canParseHeading
-        "Section 6 - Hacked locking (in place of Section 1 - Regular locking in Locksmith by Emily Short)"
-        ((makeHeading' Section "6 - Hacked locking")
-          { _headingInPlaceOf = Just $ InPlaceOf (HeadingName Section "1 - Regular locking") (ExtensionName "Locksmith" "Emily Short") })
+    it "can parse in place of" $
+      canParseHeading "Section 6 - Hacked locking (in place of Section 1 - Regular locking in Locksmith by Emily Short)" (
+          makeHeading' Section "6 - Hacked locking" & (headingInfo % headingInPlaceOf) ?~ InPlaceOf 
+            (HeadingName Section "1 - Regular locking") (ExtensionName "Locksmith" "Emily Short"))
     it "does not read an incomplete heading ending wrongly" $
       canParseHeading "Volume 2 uninde in place o" (makeHeading' Volume "2 uninde in place o")
-    it "can parse unindexed" $ do
-      canParseHeading "Volume 2 unindexed" ((makeHeading' Volume "2") { _headingIsIndexed = False })
+    it "can parse unindexed" $
+      canParseHeading "Volume 2 unindexed" 
+        (makeHeading' Volume "2" & (headingInfo % headingIsIndexed) .~ False)
 
     it "can parse in place of with quotes" $
-      canParseHeading
+      canParseHeading 
         "Section - Hacked questions (in place of \"Section 4 - Phrase used to ask questions in closed mode\" in Questions by Michael Callaghan)"
-        ((makeHeading' Section "Hacked questions")
-          { _headingInPlaceOf = Just $ InPlaceOf (HeadingName Section "4 - Phrase used to ask questions in closed mode")
-            (ExtensionName "Questions" "Michael Callaghan") })
+        (makeHeading' Section "Hacked questions" & (headingInfo % headingInPlaceOf) ?~ InPlaceOf 
+          (HeadingName Section "4 - Phrase used to ask questions in closed mode") (ExtensionName "Questions" "Michael Callaghan"))
