@@ -1,7 +1,5 @@
-module Uninformed.Parser.NewVerb
-( NewVerbDeclaration(..)
-, parseNewVerb
-
+module Uninformed.NewVerb.Parser
+( parseNewVerb
 ) where
 
 -- "The verb to eat..." - 4/verb.11
@@ -9,38 +7,21 @@ module Uninformed.Parser.NewVerb
 import Uninformed.Parser.Parser
 import Uninformed.Prelude
 import Text.Megaparsec
-import Text.Megaparsec.Char (string')
-import qualified Data.Map.Strict as Map
 import Uninformed.Parser.Types
-import Optics
 import Data.Text.Display
+import Uninformed.NewVerb.Types
 
-data NewVerbDeclaration = NewVerbDeclaration Text Text deriving stock (Eq, Show)
-
-data BinaryPredicate = BinaryPredicate
-registerVerbUsage
-  :: Text
-  -> Bool
-  -> Tense
-  -> BinaryPredicate
-  -> Parser ()
-registerVerbUsage name negat tens bp = do
-  pass
-
-
-parseNewVerb :: Parser NewVerbDeclaration
-parseNewVerb = verbPhrase
+parseNewVerb :: Parser ExprLoc
+parseNewVerb = annotateLocation $ verbPhrase
   (const "A new verb declaration")
   (specifically' "The verb to")
   ["implies", "means"]
   conjugationsAndRelation
-  (const $ NewVerbDeclaration " ")
-
+  (\() -> NewVerbDeclarationExpr . NewVerbDeclaration " ")
 
 conjugationsAndRelation :: Parser Text
 conjugationsAndRelation = do
   vk <- parseVerbKind
-  --p <- highlightStart
   (vn, (mConjug, impOrMens)) <- first (display vk <>) <$> phrase [] (do
     conj <- optional parseVerbConjugations
     r <- True <$ specifically' "implies" <|> False <$ specifically' "means"
@@ -54,15 +35,15 @@ relationPart = error "not implemented"
 parseVerbConjugations :: Parser a1
 parseVerbConjugations = error "not implemented"
 
-parseVerbName :: Parser a2
-parseVerbName = error "not implemented"
+registerVerbUsage
+  :: Text
+  -> Bool
+  -> Tense
+  -> BinaryPredicate
+  -> Parser ()
+registerVerbUsage name negat tens bp = do
+  pass
 
-data VerbKind = AbleTo | Prepositional | Regular
-
-instance Display VerbKind where
-  displayBuilder AbleTo = "to be able to"
-  displayBuilder Prepositional = "to be"
-  displayBuilder Regular = "to"
 parseVerbKind :: Parser VerbKind
 parseVerbKind = AbleTo <$ try (specifically' "be able to")
   <|> Prepositional <$ try (specifically' "be")

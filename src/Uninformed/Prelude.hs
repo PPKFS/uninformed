@@ -14,7 +14,7 @@ module Uninformed.Prelude
 , Plain
 , Fix(..)
 , SourceLocation(..)
-) where
+, prettyPrintList) where
 
 import Relude hiding (intercalate)
 import qualified Data.Text as T
@@ -96,6 +96,12 @@ intercalate m = foldl' (\acc x ->
   => Functor g
   => (a -> b) -> f (g a) -> f (g b)
 (<$$>) = fmap . fmap
+
+prettyPrintList :: [Text] -> Text 
+prettyPrintList [] = ""
+prettyPrintList [x] = x
+prettyPrintList [x, y] = x <> ", and " <> y
+prettyPrintList (x:xs) = x <> ", " <> prettyPrintList xs
 
 newtype SourceLocation = SourceLocation
   { _parseNodeSpan :: (SourcePos, SourcePos)

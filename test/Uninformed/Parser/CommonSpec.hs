@@ -2,10 +2,6 @@ module Uninformed.Parser.CommonSpec (spec) where
 
 import Test.Hspec
 import Uninformed.Prelude
-import Uninformed.Parser.TestHelpers
-import Uninformed.Parser.Parser
-import Uninformed.Parser.Types
-import Text.Megaparsec
 
 spec :: Spec
 spec = pass

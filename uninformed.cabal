@@ -32,6 +32,8 @@ common common-options
                      , raw-strings-qq
                      , nonempty-vector
                      , vector
+                     , hspec
+                     , HUnit
 
   ghc-options:         -Wall
                        -Wcompat
@@ -91,6 +93,9 @@ library
 
                        Uninformed.Extensions.Types
                        Uninformed.Extensions.Parser
+
+                       Uninformed.NewVerb.Types
+                       Uninformed.NewVerb.Parser
   other-modules:
 
 
@@ -110,7 +115,6 @@ test-suite uninformed-test
   main-is:             Main.hs
   build-depends:       uninformed
                      , hspec
-                     , hspec-discover
                      , HUnit
                      , pretty-simple
 

@@ -1,8 +1,6 @@
 module Uninformed.Extensions.Types where
 
 import Uninformed.Prelude hiding (some)
-import Text.Megaparsec.Char.Lexer (decimal)
-import Text.Megaparsec.Char (hspace1)
 
 data ExtensionF r = Extension deriving stock (Eq, Show, Functor)
 

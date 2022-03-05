@@ -12,32 +12,7 @@ import Uninformed.Headings.Types
 import Uninformed.Extensions.Types
 import Uninformed.Prelude hiding (show)
 import GHC.Show (show)
-
-data Participle = Present | Past
-
--- he/she/it
-data Pronoun = Singular | They
-
-data Tense = Is | Was | HasBeen | HadBeen
-
-data VerbConjugation = VerbConjugation
-  { _conjugationPronoun :: Pronoun
-  , _conjugationParticiple :: Maybe Participle
-  , _conjugationText :: Text
-  , _conjugationAdjectival :: Bool
-  }
-
---todo: properly
-type VerbConjugationTable = Map.Map Text (Set VerbUsage)
-
-data VerbUsage = VerbUsage
-  { _vuText :: Text -- ^ the name of this verb
-  , _vuIsNegated :: Bool
-  , _vuTense :: Tense
-  , _vuMeaning :: ()
-  , _vuUnderMainVerb :: ()
-  , _vuSentenceIndex :: Int
-  }
+import Uninformed.NewVerb.Types
 
 data ParseState = ParseState
   { _allowNewlines :: Bool
@@ -64,12 +39,6 @@ data UninformedParseError = UninformedParseError
     via (ShowInstance UninformedParseError) 
 
 data ParseErrorType = UnexpectedToken | MultipleParseErrors [ParseErrorType] | MissingQuoteEnd deriving stock (Eq, Ord)
-
-prettyPrintList :: [Text] -> Text 
-prettyPrintList [] = ""
-prettyPrintList [x] = x
-prettyPrintList [x, y] = x <> ", and " <> y
-prettyPrintList (x:xs) = x <> ", " <> prettyPrintList xs
 
 instance Display ParseErrorType where
   displayBuilder UnexpectedToken = "an unexpected token was found"
@@ -108,6 +77,7 @@ data ExprF r =
   HeadingExpr Heading 
   | ExtensionExpr (ExtensionF r)
   | ExtensionHeaderExpr ExtensionHeader
+  | NewVerbDeclarationExpr (NewVerbDeclaration r)
   
   deriving stock (Eq, Show, Functor)
 
@@ -135,7 +105,6 @@ instance Show ExprLoc where
   show f = cata sAnno f where
     sAnno :: Compose ((,) SourceLocation) ExprF String -> String
     sAnno (Compose (r, g)) = show r <> show g
-
 
 makeLenses ''ParseState
 makeLenses ''SnippetHandler
