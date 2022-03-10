@@ -20,6 +20,8 @@ import Test.Hspec (Expectation, expectationFailure)
 import Text.Pretty.Simple (pShow, pShowNoColor)
 import Test.HUnit.Lang hiding (Error)
 import Uninformed.Parser.Errors
+import Uninformed.Recursion
+import Uninformed.Parser.Expressions
 
 shouldParse
   :: HasCallStack
@@ -126,7 +128,7 @@ canParse
   -> Expectation
 canParse f p i o = do
   r <- runParser f (p <* finishParse) i
-  fmap stripLoc r `shouldParse` Fix o
+  fmap strip r `shouldParse` Fix o
 
 finishParse :: Parser ()
 finishParse = eof <|> unexpectedSentence

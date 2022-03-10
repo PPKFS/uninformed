@@ -2,7 +2,7 @@ module Uninformed.Extensions.Types where
 
 import Uninformed.Prelude hiding (some)
 
-data ExtensionF r = Extension deriving stock (Eq, Show, Functor)
+data Extension r = Extension deriving stock (Eq, Show, Functor)
 
 data ExtensionName = ExtensionName
   { _extensionTitle :: Text

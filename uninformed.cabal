@@ -81,12 +81,14 @@ library
   hs-source-dirs:      src
   exposed-modules:     Uninformed
                        Uninformed.Prelude
+                       Uninformed.Recursion
                        
                        Uninformed.Parser.Driver
                        Uninformed.Parser.Parser
                        Uninformed.Parser.Types
                        Uninformed.Parser.Combinators
                        Uninformed.Parser.Errors
+                       Uninformed.Parser.Expressions
 
                        Uninformed.Headings.Types
                        Uninformed.Headings.Parser

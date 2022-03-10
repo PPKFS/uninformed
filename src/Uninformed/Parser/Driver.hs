@@ -13,7 +13,7 @@ import Uninformed.Extensions.Types
 import Uninformed.Extensions.Parser
 import Uninformed.Parser.Combinators
 import Uninformed.Parser.Errors
-import Uninformed.Parser.Parser (annotateLocation)
+import Uninformed.Parser.Expressions
 
 data ParseNode = ParseNode
 

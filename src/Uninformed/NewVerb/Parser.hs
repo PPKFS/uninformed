@@ -10,6 +10,7 @@ import Text.Megaparsec
 import Uninformed.Parser.Types
 import Data.Text.Display
 import Uninformed.NewVerb.Types
+import Uninformed.Parser.Expressions
 
 parseNewVerb :: Parser ExprLoc
 parseNewVerb = annotateLocation $ verbPhrase

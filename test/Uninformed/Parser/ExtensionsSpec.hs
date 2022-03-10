@@ -7,6 +7,7 @@ import Uninformed.Parser.TestHelpers
 import Uninformed.Parser.Types
 import Optics
 import Uninformed.Extensions.Types
+import Uninformed.Parser.Expressions
 
 initExtensionParser
   :: ParseState

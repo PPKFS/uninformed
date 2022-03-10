@@ -9,6 +9,7 @@ import Uninformed.Headings.Types
 import Uninformed.Extensions.Types
 import Uninformed.Parser.Combinators
 import Uninformed.Parser.Errors
+import Uninformed.Parser.Expressions
 
 {-
 All are case-insensitive

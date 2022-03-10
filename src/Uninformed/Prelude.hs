@@ -9,11 +9,6 @@ module Uninformed.Prelude
 , surroundM
 , intercalate
 , (<$$>)
-
-, WithLoc
-, Plain
-, Fix(..)
-, SourceLocation(..)
 , prettyPrintList) where
 
 import Relude hiding (intercalate)
@@ -102,13 +97,3 @@ prettyPrintList [] = ""
 prettyPrintList [x] = x
 prettyPrintList [x, y] = x <> ", and " <> y
 prettyPrintList (x:xs) = x <> ", " <> prettyPrintList xs
-
-newtype SourceLocation = SourceLocation
-  { _parseNodeSpan :: (SourcePos, SourcePos)
-  } deriving newtype (Eq, Show)
-  
-newtype Fix f = Fix { unFix :: f (Fix f) }
-
-type WithLoc a = Fix (WithLocF a)
-type Plain = Fix
-type WithLocF = Compose ((,) SourceLocation)

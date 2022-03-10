@@ -12,6 +12,7 @@ import Data.Text.Display
 import Uninformed.Headings.Types
 import Uninformed.Parser.Errors
 import Uninformed.Extensions.Types
+import Uninformed.Parser.Expressions
 
 canParseHeading
   :: HasCallStack

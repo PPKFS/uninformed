@@ -8,10 +8,7 @@ import Chapelure.Types
 import Data.Text.Display
 import Data.Text.Lazy.Builder (fromText)
 
-import Uninformed.Headings.Types
-import Uninformed.Extensions.Types
 import Uninformed.Prelude hiding (show)
-import GHC.Show (show)
 import Uninformed.NewVerb.Types
 
 data ParseState = ParseState
@@ -73,38 +70,6 @@ newtype Parser a =
 
 type AsTextParser e s m = (MonadParsec e s m, Token s ~ Char, Tokens s ~ Text)
 
-data ExprF r = 
-  HeadingExpr Heading 
-  | ExtensionExpr (ExtensionF r)
-  | ExtensionHeaderExpr ExtensionHeader
-  | NewVerbDeclarationExpr (NewVerbDeclaration r)
-  
-  deriving stock (Eq, Show, Functor)
-
-type ExprLoc = WithLoc ExprF
-type ExprPlain = Fix ExprF
-
-type Extension = ExtensionF ExprPlain
-
-type Algebra f a = f a -> a 
-
-cata :: Functor f => Algebra f a -> Fix f -> a 
-cata f = f . fmap (cata f) . unFix
-
-stripLoc :: ExprLoc -> ExprPlain
-stripLoc = cata s where
-  s (Compose (_, f)) = Fix f
-
-instance Show ExprPlain where
-  show f = cata show f
-
-instance Eq ExprPlain where
-  (==) (Fix a) (Fix b) = a == b
-
-instance Show ExprLoc where
-  show f = cata sAnno f where
-    sAnno :: Compose ((,) SourceLocation) ExprF String -> String
-    sAnno (Compose (r, g)) = show r <> show g
 
 makeLenses ''ParseState
 makeLenses ''SnippetHandler

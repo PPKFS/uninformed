@@ -2,7 +2,6 @@ module Uninformed.Parser.Parser
   ( startSnippet
   , endSnippetAtParagraphBreak
   , withContext
-  , annotateLocation
   
   , specifically
   , specifically'
@@ -29,15 +28,6 @@ import Relude.Extra.Bifunctor (firstF)
 import Uninformed.Parser.Errors
 import Uninformed.Parser.Combinators
 
-annotateLocation' :: Parser a -> Parser (SourceLocation, a)
-annotateLocation' p = do
-  begin <- getSourcePos
-  res   <- p
-  end   <- getSourcePos
-  pure (SourceLocation (begin, end), res)
-
-annotateLocation :: Parser (ExprF ExprLoc) -> Parser ExprLoc
-annotateLocation = fmap (Fix . Compose) . annotateLocation'
 
 phrase ::
   [Parser ()] -- ^ with errors if we run into these

@@ -8,6 +8,7 @@ import Uninformed.Parser.Types
 import Uninformed.Parser.Parser
 import Text.Megaparsec
 import Uninformed.Parser.Combinators
+import Uninformed.Parser.Expressions
 
 parseExtensionHeader :: Parser ExprLoc
 parseExtensionHeader = annotateLocation $ withoutNewlines $ do
