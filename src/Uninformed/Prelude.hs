@@ -14,7 +14,6 @@ module Uninformed.Prelude
 import Relude hiding (intercalate)
 import qualified Data.Text as T
 import Data.Char (isSpace)
-import Text.Megaparsec
 
 -- | generalised version of `isPrefixOf` for when the lists are of different types
 isPrefixOf'

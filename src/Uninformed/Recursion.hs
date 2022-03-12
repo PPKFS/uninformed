@@ -1,7 +1,11 @@
-module Uninformed.Recursion where
+module Uninformed.Recursion
+  ( Fix(..)
+  , cata
+  , strip
+
+  ) where
 
 import Uninformed.Prelude
-import GHC.Show
 
 newtype Fix f = Fix { unFix :: f (Fix f) }
 

@@ -29,7 +29,7 @@ initParser = ParseState False False
   (SnippetHandler
     (PosState "No input has been given." 0 (initialPos "untitled.inform") pos1 "")
       (void $ takeWhile1P Nothing (`elem` sentenceEndingPunctuation )) "Untitled.hs" [])
-  Map.empty ()
+  Map.empty
 
 parseExtension :: Parser ExprLoc
 parseExtension = annotateLocation $ do

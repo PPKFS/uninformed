@@ -1,4 +1,19 @@
-module Uninformed.Parser.Errors where
+module Uninformed.Parser.Errors
+  ( startSnippet
+  , endSnippetAtParagraphBreak
+  , errorSnippet
+  , buildSnippet
+  , makeDiagnostic
+
+  , unexpectedNewlineError
+  , unexpectedNewlineMsg
+  , unexpectedPhraseTokenError
+  , expectedEndOfSentence
+  , unexpectedSentence
+  , unexpectedPunctuationInHeading
+  , unexpectedPunctuationInHeadingMsg
+  , amendLiteralModeMsg
+  , phraseUnexpectedTokenMsg) where
   
 import Uninformed.Parser.Types
 import Uninformed.Prelude

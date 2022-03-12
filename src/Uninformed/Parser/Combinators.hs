@@ -1,9 +1,29 @@
-module Uninformed.Parser.Combinators where
+module Uninformed.Parser.Combinators
+  ( specifically
+  , specifically'
+  , specificallySymbol
+  , specificallySymbol'
+  , withContext
+  , headedSection
+
+  , ignoreHeader
+  , inQuotes
+  , inParentheses
+  , inSquareBrackets
+  , hspace 
+  , hspace1
+  , paragraphBreak
+  
+  , withoutNewlines
+  , endSentence
+  , word
+  , optionallyQuotedWithEnding
+  , optionallyInParens) where
 
 
 import Uninformed.Prelude hiding (some, many)
 import Text.Megaparsec hiding (unexpected)
-import Text.Megaparsec.Char ( eol, string')
+import Text.Megaparsec.Char hiding (hspace, hspace1)
 import Uninformed.Parser.Types
 import Optics hiding (pre)
 import Optics.State.Operators

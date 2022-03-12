@@ -1,4 +1,13 @@
-module Uninformed.NewVerb.Types where
+module Uninformed.NewVerb.Types
+  ( Participle(..)
+  , BinaryPredicate(..)
+  , Pronoun(..)
+  , Tense(..)
+  , VerbConjugation(..)
+  , VerbUsage(..)
+  , NewVerbDeclaration(..)
+  , VerbKind(..)
+  ) where
 
 import Uninformed.Prelude
 import qualified Data.Map as Map

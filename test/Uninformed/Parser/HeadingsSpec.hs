@@ -13,6 +13,7 @@ import Uninformed.Headings.Types
 import Uninformed.Parser.Errors
 import Uninformed.Extensions.Types
 import Uninformed.Parser.Expressions
+import Uninformed.Parser.Errors
 
 canParseHeading
   :: HasCallStack

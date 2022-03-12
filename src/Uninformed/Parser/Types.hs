@@ -1,5 +1,25 @@
 {-# LANGUAGE FlexibleInstances #-}
-module Uninformed.Parser.Types where
+module Uninformed.Parser.Types
+  ( ParseState(..)
+  , SnippetHandler(..)
+  , UninformedParseError(..)
+  , ParseErrorType(..)
+  , AsTextParser
+  , Parser(..)
+
+  , sentenceEndingPunctuation
+  , newlineCharacters
+  , whitespaceCharacters
+  , otherPunctuation
+
+  , allowNewlines
+  , inLiteralMode
+  , snippetHandler
+  , snippetContext
+  , snippetStart
+  , snippetEnding
+  , snippetFilename
+  ) where
 
 import qualified Data.Map.Strict as Map
 import Text.Megaparsec 
@@ -16,7 +36,6 @@ data ParseState = ParseState
   , _inLiteralMode :: Bool
   , _snippetHandler :: SnippetHandler
   , _verbUsages :: Map.Map Text (Set VerbUsage)
-  , _psDummy :: ()
   }
 
 data SnippetHandler = SnippetHandler

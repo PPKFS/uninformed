@@ -18,7 +18,7 @@ parseNewVerb = annotateLocation $ verbPhrase
   (specifically' "The verb to")
   ["implies", "means"]
   conjugationsAndRelation
-  (\() -> NewVerbDeclarationExpr . NewVerbDeclaration " ")
+  (const $ NewVerbDeclarationExpr . NewVerbDeclaration " ")
 
 conjugationsAndRelation :: Parser Text
 conjugationsAndRelation = do

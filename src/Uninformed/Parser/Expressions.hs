@@ -1,5 +1,14 @@
 {-# LANGUAGE FlexibleInstances #-}
-module Uninformed.Parser.Expressions where
+module Uninformed.Parser.Expressions 
+  ( Plain
+  , ExprF(..)
+  , ExprLoc
+  , ExprPlain
+  , WithLoc
+  , SourceLocation(..)
+  , WithLocF 
+  
+  , annotateLocation) where
 
 import Uninformed.Prelude hiding (show)
 import Uninformed.Headings.Types
@@ -29,7 +38,6 @@ type WithLoc a = Fix (WithLocF a)
 type Plain = Fix
 type WithLocF = Compose ((,) SourceLocation)
 
-
 instance Show ExprPlain where
   show = cata show
 
@@ -40,7 +48,6 @@ instance Show ExprLoc where
   show = cata sAnno where
     sAnno :: Compose ((,) SourceLocation) ExprF String -> String
     sAnno (Compose (r, g)) = show r <> show g
-
 
 annotateLocation' :: Parser a -> Parser (SourceLocation, a)
 annotateLocation' p = do
