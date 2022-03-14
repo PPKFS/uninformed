@@ -1,8 +1,8 @@
-module Uninformed.Parser.Parser 
+module Uninformed.Parser.Parser
   ( startSnippet
   , endSnippetAtParagraphBreak
   , withContext
-  
+
   , specifically
   , specifically'
   , specificallySymbol
@@ -83,13 +83,12 @@ sentenceContains t = if T.strip t == t then checkForContains (" " <> t <> " ") e
       unless (t' `T.isInfixOf` toText s) (fail "")
 
 rawStringLiteral ::
-  Bool
+  Bool -- ^ do we want to keep the quotes?
   -> Parser Text
 rawStringLiteral keepQuotes = do
   f <- specificallySymbol "\""
   inLiteralMode .= True
-  s <- toText . fst <$> someTill_
-    (satisfy (\x -> x `notElem` ('\"' : newlineCharacters)  ) <|> (' ' <$ unexpectedNewlineError)) (specificallySymbol "\"")
+  s <- toText . fst <$> extendedPhrase anySingle [] (single '\"')
   inLiteralMode .= False
   return $ if keepQuotes then "\"" <> f <> s <> "\"" else s
 

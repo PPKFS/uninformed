@@ -19,6 +19,8 @@ module Uninformed.Parser.Types
   , snippetStart
   , snippetEnding
   , snippetFilename
+  , snippetHighlightStart
+  , verbUsages
   ) where
 
 import qualified Data.Map.Strict as Map
@@ -43,7 +45,7 @@ data SnippetHandler = SnippetHandler
   , _snippetEnding :: Parser ()
   , _snippetFilename :: Text
   , _snippetContext :: [Text]
-  --, _snippetLastHighlightStart :: Int
+  , _snippetHighlightStart :: Maybe (Int, SourcePos)
  -- , _snippetHighlights :: [Source]
   }
 

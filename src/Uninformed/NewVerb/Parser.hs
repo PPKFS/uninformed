@@ -8,31 +8,73 @@ import Uninformed.Parser.Parser
 import Uninformed.Prelude
 import Text.Megaparsec
 import Uninformed.Parser.Types
-import Data.Text.Display
 import Uninformed.NewVerb.Types
 import Uninformed.Parser.Expressions
+import Uninformed.Parser.Errors
+import Optics
+import Uninformed.Parser.Combinators
 
 parseNewVerb :: Parser ExprLoc
 parseNewVerb = annotateLocation $ verbPhrase
   (const "A new verb declaration")
   (specifically' "The verb to")
   ["implies", "means"]
-  conjugationsAndRelation
-  (const $ NewVerbDeclarationExpr . NewVerbDeclaration " ")
+  parseVerbDeclaration
+  (\() e -> NewVerbDeclarationExpr e)
 
-conjugationsAndRelation :: Parser Text
-conjugationsAndRelation = do
+parseVerbDeclaration :: Parser (NewVerbDeclaration ExprLoc)
+parseVerbDeclaration = do
+  nvd <- annotateLocation $ NewVerbDefinitionExpr <$> parseNewVerbDefinition
+  r <- Implies <$ specifically' "implies" <|> Means <$ specifically' "means"
+  rel <- annotateLocation $ BinaryPredicateExpr <$> parseRelationPart
+  let decl = NewVerbDeclaration nvd r rel
+  -- success!
+  registerNewVerb decl
+  return decl
+
+registerNewVerb :: NewVerbDeclaration ExprLoc -> Parser ()
+registerNewVerb = error "not implemented"
+
+parseNewVerbDefinition :: Parser NewVerbDefinition
+parseNewVerbDefinition = do
   vk <- parseVerbKind
-  (vn, (mConjug, impOrMens)) <- first (display vk <>) <$> phrase [] (do
-    conj <- optional parseVerbConjugations
-    r <- True <$ specifically' "implies" <|> False <$ specifically' "means"
-    return (conj, r))
-  rel <- relationPart
-  return ""
+  vn <- parseVerbName
+  conj <- optional parseVerbConjugations
+  let nvd = NewVerbDefinition vk vn conj
+  validateVerb nvd --we don't register it just yet, just check it doesn't exist and is therefore a dupe
+  return nvd
 
-relationPart :: Parser a0
-relationPart = error "not implemented"
+parseVerbKind :: Parser VerbKind
+parseVerbKind = AbleTo <$ try (specifically' "be able to")
+  <|> Prepositional <$ try (specifically' "be")
+  <|> Regular <$ pass
 
+parseVerbName :: Parser Text
+parseVerbName = do
+  markSnippetStart
+  fst <$> phrase []
+    (lookAhead $
+      specificallySymbol' "("
+      <|> specifically' "implies"
+      <|> specifically' "means")
+
+-- check it's not present in the table
+validateVerb :: NewVerbDefinition -> Parser ()
+validateVerb vName = guardM $ isJust <$> use (verbUsages % at (verbDefinitionFullName vName))
+
+parseRelationPart :: Parser BinaryPredicate
+parseRelationPart = do
+  markSnippetStart
+  specifically' "the"
+  isRev <- isJust <$> optional (specifically' "reversed")
+  r <- phrase [] (specifically "relation" <|> specifically "property")
+  endSentence
+  bp <- uncurry (getBinaryPredicate isRev) r
+  --verify it is indeed a relation or a property we know of
+  return $ BinaryPredicate
+
+getBinaryPredicate :: Bool -> Text -> Text -> Parser a0
+getBinaryPredicate = error "not implemented"
 parseVerbConjugations :: Parser a1
 parseVerbConjugations = error "not implemented"
 
@@ -45,29 +87,9 @@ registerVerbUsage
 registerVerbUsage name negat tens bp = do
   pass
 
-parseVerbKind :: Parser VerbKind
-parseVerbKind = AbleTo <$ try (specifically' "be able to")
-  <|> Prepositional <$ try (specifically' "be")
-  <|> Regular <$ pass
 
 
 {-
-
--- this is equivalent to "before" in the 2 parse nodes of parse_new_verb
--- TODO: check for overlap, to explicitly call out 'to be'?
-verbName :: Parser (Text, (VerbConjugationTable, Bool))
-verbName = do
-  parseWord'_ "to" <?> "verb infinitive"
-  vp <- (try (parseWords'_ "be able to") >> regularVerb True) <|>
-    (try (parseWord'_ "be") >> prepositionalVerb) <|>
-    regularVerb False
-  c <- buildConjugationTable . fromMaybe [] <$> optional verbConjugation
-  
-  return (vp, (c, r))
-
-buildConjugationTable :: [VerbConjugation] -> VerbConjugationTable
-buildConjugationTable = error ""
-
 prepositionalVerb :: Parser a0
 prepositionalVerb = error "not implemented"
 
@@ -83,27 +105,7 @@ regularVerb isToBeAbleTo = do
   --so we flip on whether or not it's "to be able to X" to check for verb usage
   -- if it's duplicated, then we track where the original one was, OR built-in
 
--- do we have a verb usage already defined for this phrase?
-findVerbUsage :: Text -> Parser (Maybe (Set VerbUsage))
-findVerbUsage vName = use (verbUsages % at vName)
 
--- 5/conj 30
-verbConjugation :: Parser [VerbConjugation]
-verbConjugation = inParentheses $ sepBy (do
-  pronoun <- Singular <$ parseWordOneOf' ["he", "she", "it"] <|>
-             They <$ parseWord'_ "they"
-  isParticiple <- isJust <$> optional (inParentheses (parseWord'_ "is"))
-  conjug <- parsePhraseTillAhead (single ',' <|> single ')')
-  let participle = if
-    isParticiple then
-        (if
-          any (isSuffixOf' "ing" ) (words conjug)
-        then Just Present
-        else Just Past)
-      else Nothing
-
-  adjectival <- isJust <$> optional (inParentheses (parseWord'_ "adjectival"))
-  return $ VerbConjugation pronoun participle conjug adjectival) (parseWord'_ ",")
 
 
 -}

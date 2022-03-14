@@ -22,9 +22,15 @@ import GHC.Show
 
 data ExprF b =
   HeadingExpr Heading
+  
   | ExtensionExpr (Extension b)
   | ExtensionHeaderExpr ExtensionHeader
+
   | NewVerbDeclarationExpr (NewVerbDeclaration b)
+  | NewVerbDefinitionExpr NewVerbDefinition
+  --so far, this only seems to be used for NVDecls but we'll see.
+  | BinaryPredicateExpr BinaryPredicate
+
   deriving stock (Functor, Eq, Show)
 
 type ExprLoc = WithLoc ExprF

@@ -35,7 +35,7 @@ parseVersionNumber = do
     Just ser -> ExtensionVersion i (Just $ fromIntegral ser)
 
 parseStandaloneQuotedLine :: Parser Text
-parseStandaloneQuotedLine = do
+parseStandaloneQuotedLine = withNewlines $ do
   s <- rawStringLiteral False
   paragraphBreak
   return s

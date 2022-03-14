@@ -36,6 +36,7 @@ parseHeading = annotateLocation $ do
   withContext "In a heading declaration" $ do
     startSnippet endSnippetAtParagraphBreak
     (hn, endings) <- parseHeadingName (try headingEndings) <?> "heading name"
+    hblurb <- optional parseHeadingBlurb
     return . HeadingExpr $ Heading hn 0 (composel endings defaultHeadingInfo)
 
 --consume any amount of extraneous header "stuff" that is solely there to be annoying

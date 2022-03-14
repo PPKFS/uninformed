@@ -1,13 +1,26 @@
-Version 2/090402 of the Standard Rules by Graham Nelson begins here.
+Version 3/120430 of the Standard Rules originally by Graham Nelson and modified by Avery begins here.
 
-"The Standard Rules, included in every project, define the basic framework of kinds, actions and phrases which make Inform what it is."
+"The Standard Rules, included in every project, define the basic framework of kinds, actions and phrases which make Inform what it is. 
+This version is modified in some ways (which are commented where appropriate) for two primary reasons:
+a) to remove the dependency on Inform 6; instead, the backend is Haskell;
+b) to organise the rules in such a way that less hackery is needed (e.g. 'early kinds' for when things are not defined).
+
+Unless otherwise stated, everything was written by Graham Nelson.
+
+Of course, these changes obviously mean we aren't writing Inform7 anymore (though it is backwards compatible) but Uninformed7.
+The first of these changes is obvious: adding a 'modified by' field to extensions and allowing the blurb to span multiple lines."
 
 Part SR1 - The Physical World Model
 
-Section SR1/0 - Language
+Section SR1/0 - Bootstrapping
 
-The verb to relate (he relates, they relate, he related, it is related, he is relating) implies the universal relation.
-The verb to provide (he provides, they provide, he provided, it is provided, he is providing) implies the provision relation.
+"Another change: sections and other heading nodes can have an optional blurb. This is mostly so I can document things like:
+This entire section is added initially so that we can move the handling of the containment relation (and others)
+into Uninformed7 rather than being a special case."
+
+Section SR1/1 - Language
+
+The verb to provide implies the provision relation.
 The verb to be in implies the reversed containment relation.
 The verb to be inside implies the reversed containment relation.
 The verb to be within implies the reversed containment relation.

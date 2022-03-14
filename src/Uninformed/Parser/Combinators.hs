@@ -15,6 +15,7 @@ module Uninformed.Parser.Combinators
   , paragraphBreak
   
   , withoutNewlines
+  , withNewlines
   , endSentence
   , word
   , optionallyQuotedWithEnding
@@ -145,6 +146,14 @@ withoutNewlines ::
   -> Parser a
 withoutNewlines f = surroundM
   (use allowNewlines <* (allowNewlines .= False))
+  f
+  (allowNewlines .=)
+
+withNewlines :: 
+  Parser a
+  -> Parser a
+withNewlines f = surroundM
+  (use allowNewlines <* (allowNewlines .= True))
   f
   (allowNewlines .=)
 

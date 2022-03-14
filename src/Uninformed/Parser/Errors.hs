@@ -13,8 +13,11 @@ module Uninformed.Parser.Errors
   , unexpectedPunctuationInHeading
   , unexpectedPunctuationInHeadingMsg
   , amendLiteralModeMsg
-  , phraseUnexpectedTokenMsg) where
-  
+  , phraseUnexpectedTokenMsg
+
+  , markSnippetStart
+  , finaliseSnippet) where
+
 import Uninformed.Parser.Types
 import Uninformed.Prelude
 import Optics
@@ -28,7 +31,7 @@ import Optics.State.Operators
 import Uninformed.Parser.Combinators
 
 -- | Mark the current input position as the start of a code snippet.
-startSnippet :: 
+startSnippet ::
   Parser () -- ^ how to end this snippet
   -> Parser ()
 startSnippet sEnd = do
@@ -37,18 +40,33 @@ startSnippet sEnd = do
   ps <- statePosState <$> getParserState
   snippetHandler % snippetStart .= ps
   snippetHandler % snippetEnding .= sEnd
+  snippetHandler % snippetHighlightStart .= Nothing
 
 endSnippetAtParagraphBreak :: Parser ()
 endSnippetAtParagraphBreak = lookAhead paragraphBreak
 
-errorSnippet :: 
-  Parser a -- ^ the error that could be satisfied
+-- | If we don't know that we are hitting an error until after we parse some further info,
+-- we can mark the starting location of the snippet with this.
+markSnippetStart :: Parser ()
+markSnippetStart = do
+  i <- getOffset
+  sp <- getSourcePos
+  snippetHandler % snippetHighlightStart ?= (i, sp)
+
+finaliseSnippet :: Parser ()
+finaliseSnippet = snippetHandler % snippetEnding .= pass
+
+errorSnippet ::
+  Parser t
   -> ParseErrorType
-  -> (a -> Text) -- ^ the error message to show
+  -> (t -> Text)
   -> Parser ()
 errorSnippet errParser eType errMsg = do
-  i <- getOffset
-  s <- getSourcePos
+  mbPos <- use (snippetHandler % snippetHighlightStart)
+  (i, s) <- maybe (do
+    i <- getOffset
+    s <- getSourcePos
+    return (i, s)) return mbPos
   p <- observing errParser
   case p of
     --if we errored on p, that's good
@@ -75,7 +93,7 @@ errorSnippet errParser eType errMsg = do
             [(unPos $ sourceLine s, i-snipBeg, i2-snipBeg, errMsg x)]
       parseError (FancyError i $ one $ ErrorCustom $ UninformedParseError snippet curCxt)
 
-buildSnippetContext :: 
+buildSnippetContext ::
   ParseErrorType
   -> Parser Text
 buildSnippetContext eType = do
@@ -83,8 +101,8 @@ buildSnippetContext eType = do
   cxt <- use $ snippetHandler % snippetContext
   let builtCxt = intercalate ", " cxt
   return $ builtCxt <> ", " <> dis <> "."
-  
-buildSnippet :: 
+
+buildSnippet ::
   Text -- ^ the filename
   -> Text -- ^ the entire snippet's text
   -> Int -- ^ the start of the snippet's line
@@ -102,7 +120,7 @@ buildSnippet fp snip l c hs = Snippet
     , content = Vec.fromList (lines (T.strip snip))
     }
 
-makeDiagnostic :: 
+makeDiagnostic ::
   Text
   -> Snippet
   -> Diagnostic
