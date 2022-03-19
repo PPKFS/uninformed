@@ -15,12 +15,14 @@ import Optics
 import Uninformed.Parser.Combinators
 
 parseNewVerb :: Parser ExprLoc
-parseNewVerb = annotateLocation $ verbPhrase
-  (const "A new verb declaration")
-  (specifically' "The verb to")
-  ["implies", "means"]
-  parseVerbDeclaration
-  (\() e -> NewVerbDeclarationExpr e)
+parseNewVerb = do
+  endSnippetAtParagraphBreak 
+  annotateLocation $ verbPhrase
+    (const "A new verb declaration")
+    (specifically' "The verb to")
+    ["implies", "means"]
+    parseVerbDeclaration
+    (\() e -> NewVerbDeclarationExpr e)
 
 parseVerbDeclaration :: Parser (NewVerbDeclaration ExprLoc)
 parseVerbDeclaration = do
