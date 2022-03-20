@@ -48,6 +48,7 @@ data Phrase = Phrase
   { _phraseRank :: Int
   , _phraseBody :: NonEmpty Text
   , _phraseBeginsWith :: [Text]
+  , _phraseParser :: Parser ExprLoc
   }
 
 -- we want to go through every word, seeing if we can make a guess about it being a verb phrase we're after
@@ -67,39 +68,101 @@ makePossibleVerbs = do
   --which has some kind of tense-stuff
   --plus the inbuilts
   return $ PhraseAccumulator [] [] $
-    zipWith (\x (y, z) -> Phrase x y z) [1..] [
-      ("translates" :| ["into", "unicode"], [])
-    , ("as" :| [], ["Understand"])
-    , ("with" :| [], ["Test"])
-    , ("in" :| ["the", "debugging"], ["Include"])
-    , ("from" :| ["the", "debugging"], ["Omit"])
-    , ("at" :| [], ["Document"])
-    , ("begins" :| ["when"], [])
-    , ("ends" :| ["when"], [])
-    , ("when" :| [], []) --iffy because we need an "ends..." in here too but with possible other stuff
-    , ("specifies" :| [], [])
-    , ("are" :| ["defined", "by"], [])
-    , ("story" :| ["is", "episode"], ["The", "story", "is", "episode"])
-    , ("is" :| [], ["The", "plural", "of"])
-    , ("is" :| ["the", "file"], ["Figure"])
-    , ("is" :| ["the", "file"], ["Sound", "effect"])
-    , ("is" :| ["the", "file"], ["Sound"])
+    zipWith (\x (y, z, f) -> Phrase x y z f) [1..] [
+      ("translates" :| ["into", "unicode"], [], translatesIntoUnicode)
+    , ("as" :| [], ["Understand"], understandAs)
+    , ("with" :| [], ["Test"], testWith)
+    , ("in" :| ["the", "debugging"], ["Include"], debugging)
+    , ("from" :| ["the", "debugging"], ["Omit"], debugging)
+    , ("at" :| [], ["Document"], documentAt)
+    , ("begins" :| ["when"], [], sceneAnchoring)
+    , ("ends" :| ["when"], [], sceneAnchoring)
+    , ("when" :| [], [], sceneAnchoring) --iffy because we need an "ends..." in here too but with possible other stuff
+    , ("specifies" :| [], [], specifies)
+    , ("are" :| ["defined", "by"], [], definedBy)
+    , ("story" :| ["is", "episode"], ["The", "story", "is", "episode"], episode)
+    , ("is" :| [], ["The", "plural", "of"], thePluralOf)
+    , ("is" :| ["the", "file"], ["Figure"], fileHandling)
+    , ("is" :| ["the", "file"], ["Sound", "effect"], fileHandling)
+    , ("is" :| ["the", "file"], ["Sound"], fileHandling)
     --missing the "text/binary" stuff here too
-    , ("is" :| ["an", "activity"], [])
-    , ("is" :| ["an", "action"], [])
-    , ("implies" :| [], ["The", "verb", "to"])
-    , ("relates" :| [], [])
-    , ("can" :| ["be"], [])
-    , ("is" :| ["either"], [])
-    , ("is" :| ["listed"], [])
-    , ("are" :| ["listed"], [])
-    , ("is" :| ["not", "listed"], [])
-    , ("are" :| ["not", "listed"], [])
-    , ("has" :| [], [])
-    , ("have" :| [], [])
-    , ("is" :| [], [])
-    , ("are" :| [], [])
+    , ("is" :| ["an", "activity"], [], newActivity)
+    , ("is" :| ["an", "action"], [], newAction)
+    , ("implies" :| [], ["The", "verb", "to"], newVerb)
+    , ("relates" :| [], [], newRelation)
+    , ("can" :| ["be"], [], canBe)
+    , ("is" :| ["either"], [], canBe)
+    , ("is" :| ["listed"], [], inRulebook)
+    , ("are" :| ["listed"], [], inRulebook)
+    , ("is" :| ["not", "listed"], [], inRulebook)
+    , ("are" :| ["not", "listed"], [], inRulebook)
+    , ("has" :| [], [], verbAssertion toHave)
+    , ("have" :| [], [], verbAssertion toHave)
+    , ("is" :| [], [], verbAssertion toBe)
+    , ("are" :| [], [], verbAssertion toBe)
     ]
+
+toBe :: Verb
+toBe = error "not implemented"
+
+toHave :: Verb
+toHave = error "not implemented"
+
+data Verb = Verb
+
+verbAssertion :: Verb -> Parser ExprLoc
+verbAssertion = error "not implemented"
+
+inRulebook :: Parser ExprLoc
+inRulebook = error "not implemented"
+
+canBe :: Parser ExprLoc
+canBe = error "not implemented"
+
+newRelation :: Parser ExprLoc
+newRelation = error "not implemented"
+
+newVerb :: Parser ExprLoc
+newVerb = error "not implemented"
+
+newAction :: Parser ExprLoc
+newAction = error "not implemented"
+
+newActivity :: Parser ExprLoc
+newActivity = error "not implemented"
+
+fileHandling :: Parser ExprLoc
+fileHandling = error "not implemented"
+
+thePluralOf :: Parser ExprLoc
+thePluralOf = error "not implemented"
+
+episode :: Parser ExprLoc
+episode = error "not implemented"
+
+definedBy :: Parser ExprLoc
+definedBy = error "not implemented"
+
+specifies :: Parser ExprLoc
+specifies = error "not implemented"
+
+sceneAnchoring :: Parser ExprLoc
+sceneAnchoring = error "not implemented"
+
+documentAt :: Parser ExprLoc
+documentAt = error "not implemented"
+
+debugging :: Parser ExprLoc
+debugging = error "not implemented"
+
+testWith :: Parser ExprLoc
+testWith = error "not implemented"
+
+understandAs :: Parser ExprLoc
+understandAs = error "not implemented"
+
+translatesIntoUnicode :: Parser ExprLoc
+translatesIntoUnicode = error "not implemented"
 
 updateAcc :: PhraseAccumulator -> Text -> PhraseAccumulator
 updateAcc acc w = let
@@ -111,7 +174,7 @@ updateAcc acc w = let
           (x' : xs') -> Just $ Left (p', x' :| xs')
       else
         Nothing
-  newFindings = map (\p'@(Phrase _ (x :| xs) _) -> innerLoop p' x xs) (_phraseAccAll acc)
+  newFindings = map (\p'@(Phrase _ (x :| xs) _ _) -> innerLoop p' x xs) (_phraseAccAll acc)
   updateCurrent = map (\(p', x :| xs) -> innerLoop p' x xs) (_phraseAccCurrent acc)
   parts = partitionEithers $ catMaybes (newFindings ++ updateCurrent)
   in
@@ -119,44 +182,3 @@ updateAcc acc w = let
       { _phraseAccFound = _phraseAccFound acc <> snd parts
       , _phraseAccCurrent = fst parts
       }
-
-
-pastTenseError :: Parser a0
-pastTenseError = fail "not implemented"
-
-useOrRelease :: Parser a0
-useOrRelease = fail "not implemented"
-
-haskellTranslation :: Parser a0
-haskellTranslation = fail "not implemented"
-
-assertionAboutThings :: Parser a0
-assertionAboutThings = fail "not implemented"
-
-rulePositioning :: Parser a0
-rulePositioning = fail "not implemented"
-
-propertyDeclaration :: Parser a0
-propertyDeclaration = fail "not implemented"
-
-verbOrRelationDeclaration :: Parser a0
-verbOrRelationDeclaration = fail "not implemented"
-
-actionOrActivity :: Parser a0
-actionOrActivity = fail "not implemented"
-
-resourceDeclaring :: Parser a0
-resourceDeclaring = fail "not implemented"
-
-newNotation :: Parser a0
-newNotation = fail "not implemented"
-
-sceneAnchoring :: Parser a0
-sceneAnchoring = fail "not implemented"
-
-debuggingLog :: Parser a0
-debuggingLog = fail "not implemented"
-
-understandOrTest :: Parser a0
-understandOrTest = fail "not implemented"
-
