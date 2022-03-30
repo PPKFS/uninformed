@@ -4,7 +4,7 @@ module Main ( main ) where
 import qualified Uninformed.Parser.ExtensionsSpec as Extensions
 import qualified Uninformed.Parser.HeadingsSpec as Headings
 
-import Uninformed.Prelude
+import Solitude
 import Test.Hspec
 import qualified Uninformed.Parser.StandardRulesSpec as StdRules
 

@@ -1,7 +1,7 @@
 module Uninformed.Parser.CommonSpec (spec) where
 
 import Test.Hspec
-import Uninformed.Prelude
+import Solitude
 
 spec :: Spec
 spec = pass

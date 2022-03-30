@@ -5,7 +5,7 @@ module Uninformed.Parser.TestHelpers
 
 ) where
 
-import Uninformed.Prelude
+import Solitude
 import Uninformed.Parser.Types
 import Uninformed.Parser.Driver (runParser)
 import Text.Megaparsec hiding ( runParser )

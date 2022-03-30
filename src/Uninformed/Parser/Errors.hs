@@ -19,7 +19,7 @@ module Uninformed.Parser.Errors
   , finaliseSnippet) where
 
 import Uninformed.Parser.Types
-import Uninformed.Prelude
+import Solitude
 import Optics
 import Chapelure.Types
 import qualified Data.Vector.NonEmpty as NEVec
@@ -99,7 +99,7 @@ buildSnippetContext ::
 buildSnippetContext eType = do
   let dis = display eType
   cxt <- use $ snippetHandler % snippetContext
-  let builtCxt = intercalate ", " cxt
+  let builtCxt = T.intercalate ", " cxt
   return $ builtCxt <> ", " <> dis <> "."
 
 buildSnippet ::

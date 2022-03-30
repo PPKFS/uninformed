@@ -5,7 +5,7 @@ module Uninformed.Recursion
 
   ) where
 
-import Uninformed.Prelude
+import Solitude
 
 newtype Fix f = Fix { unFix :: f (Fix f) }
 

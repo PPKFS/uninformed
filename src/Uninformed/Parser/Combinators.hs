@@ -22,12 +22,10 @@ module Uninformed.Parser.Combinators
   , optionallyInParens) where
 
 
-import Uninformed.Prelude hiding (some, many)
+import Solitude hiding (some, many)
 import Text.Megaparsec hiding (unexpected)
 import Text.Megaparsec.Char hiding (hspace, hspace1)
 import Uninformed.Parser.Types
-import Optics hiding (pre)
-import Optics.State.Operators
 import qualified Data.Text as T
 import Data.Char (isSpace)
 

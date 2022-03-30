@@ -1,7 +1,7 @@
 module Uninformed.Parser.ExtensionsSpec (spec) where
 
 import Test.Hspec
-import Uninformed.Prelude
+import Solitude
 import Uninformed.Extensions.Parser
 import Uninformed.Parser.TestHelpers
 import Uninformed.Parser.Types

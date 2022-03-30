@@ -1,7 +1,7 @@
 module Uninformed.Parser.HeadingsSpec
   ( spec ) where
 
-import Uninformed.Prelude
+import Solitude
 import Uninformed.Headings.Parser
 import Uninformed.Parser.Types
 import Uninformed.Parser.TestHelpers

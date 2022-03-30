@@ -1,7 +1,7 @@
 module Uninformed.Headings.Parser where
 
 import Uninformed.Parser.Parser
-import Uninformed.Prelude hiding (some, many)
+import Solitude hiding (some, many)
 import Text.Megaparsec hiding (unexpected)
 import Optics hiding ( noneOf )
 import Uninformed.Parser.Types

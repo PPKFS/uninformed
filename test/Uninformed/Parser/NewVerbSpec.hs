@@ -1,6 +1,6 @@
 module Uninformed.Parser.NewVerbSpec (spec) where
 
-import Uninformed.Prelude
+import Solitude
 import Test.Hspec
 
 spec :: Spec

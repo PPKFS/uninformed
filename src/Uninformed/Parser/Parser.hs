@@ -18,13 +18,12 @@ module Uninformed.Parser.Parser
   , headerLikePhrase)
 where
 
-import Uninformed.Prelude hiding (some, many)
+import Solitude hiding (some, many)
 import Text.Megaparsec hiding (unexpected)
 import Uninformed.Parser.Types
 import Optics hiding (pre)
 import Optics.State.Operators
 import qualified Data.Text as T
-import Relude.Extra.Bifunctor (firstF)
 import Uninformed.Parser.Errors
 import Uninformed.Parser.Combinators
 

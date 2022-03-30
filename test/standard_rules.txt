@@ -1,28 +1,100 @@
 Version 3/120430 of the Standard Rules originally by Graham Nelson and modified by Avery begins here.
 
-"The Standard Rules, included in every project, define the basic framework of kinds, actions and phrases which make Inform what it is. 
-This version is modified in some ways (which are commented where appropriate) for two primary reasons:
+"The Standard Rules, included in every project, define the basic framework of kinds, actions and phrases which make Inform what it is."
+
+[This version is modified in some ways (which are commented where appropriate) for two primary reasons:
 a) to remove the dependency on Inform 6; instead, the backend is Haskell;
 b) to organise the rules in such a way that less hackery is needed (e.g. 'early kinds' for when things are not defined).
 
 Unless otherwise stated, everything was written by Graham Nelson.
 
 Of course, these changes obviously mean we aren't writing Inform7 anymore (though it is backwards compatible) but Uninformed7.
-The first of these changes is obvious: adding a 'modified by' field to extensions and allowing the blurb to span multiple lines."
+I think for the most part I want to keep it as similar as possible; for instance the modified by... field can roll up into
+the author's name, and I'm using long comments in place of multiline blurbs.]
 
 Part SR1 - The Physical World Model
 
 Section SR1/0 - Bootstrapping
 
-"Another change: sections and other heading nodes can have an optional blurb. This is mostly so I can document things like:
-This entire section is added initially so that we can move the handling of the containment relation (and others)
-into Uninformed7 rather than being a special case."
+[This entire section is added initially so that we can move the handling of the containment relation (and others)
+into Uninformed7 rather than being a special case.]
+
+A room is a kind.
+A thing is a kind.
+A direction is a kind.
+A door is a kind of thing.
+A container is a kind of thing.
+A supporter is a kind of thing.
+A backdrop is a kind of thing.
+A person is a kind of thing.
+The plural of person is people. The plural of person is persons.
+A region is a kind.
+
+An object has a text called specification.
+An object has a text called indefinite appearance text.
+An object has a value called variable initial value.
+An object has a text called list grouping key.
+An object has a text called printed name.
+An object has a text called printed plural name.
+An object has a text called an indefinite article.
+An object can be plural-named or singular-named.
+An object is usually singular-named.
+An object can be proper-named or improper-named.
+An object is usually improper-named.
+An object can be ambiguously plural.
 
 Section SR1/1 - Language
 
-The verb to provide implies the provision relation.
-The verb to be in implies the reversed containment relation.
-The verb to be inside implies the reversed containment relation.
-The verb to be within implies the reversed containment relation.
-The verb to be held in implies the reversed containment relation.
-The verb to be held inside implies the reversed containment relation.
+[As equality is symmetric, it has to be hardcoded.]
+The verb to be means the equality relation.
+[We also hardcode provision, because it's weird in how it relates things to properties.]
+The verb to provide means the provision relation.
+
+Possession relates one person to various things.
+The verb to have means the possession relation.
+
+[We don't define "to mean" or "to relate" as they are not useable.]
+
+
+The verb to be in means the reversed containment relation.
+The verb to be inside means the reversed containment relation.
+The verb to be within means the reversed containment relation.
+The verb to be held in means the reversed containment relation.
+The verb to be held inside means the reversed containment relation.
+The verb to contain means the containment relation.
+The verb to be contained in means the reversed containment relation.
+
+The verb to be on top of means the reversed support relation.
+The verb to be on means the reversed support relation.
+The verb to support means the support relation.
+The verb to be supported on means the reversed support relation.
+
+The verb to incorporate means the incorporation relation.
+The verb to be part of means the reversed incorporation relation.
+The verb to be a part of means the reversed incorporation relation.
+The verb to be parts of means the reversed incorporation relation.
+The verb to enclose means the enclosure relation.
+
+The verb to carry means the carrying relation.
+The verb to hold means the holding relation.
+The verb to wear means the wearing relation.
+
+Definition: a thing is worn if the player is wearing it.
+Definition: a thing is carried if the player is carrying it.
+Definition: a thing is held if the player is holding it.
+The verb to be able to see means the visibility relation.
+The verb to be able to touch means the touchability relation.
+
+Definition: Something is visible rather than invisible if the player can see it.
+Definition: Something is touchable rather than untouchable if the player can touch it.
+
+The verb to conceal means the concealment relation.
+Definition: Something is concealed rather than unconcealed if the holder of it conceals it.
+
+Definition: Something is on-stage rather than off-stage if I6 routine "OnStage" makes it so (it is indirectly in one of the rooms).
+Definition: Something is offstage if it is off-stage.
+
+The verb to be greater than means the numerically-greater-than relation.
+The verb to be less than means the numerically-less-than relation.
+The verb to be at least means the numerically-greater-than-or-equal-to relation.
+The verb to be at most means the numerically-less-than-or-equal-to relation.

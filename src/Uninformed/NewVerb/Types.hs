@@ -1,3 +1,4 @@
+{-# LANGUAGE RecordWildCards #-}
 module Uninformed.NewVerb.Types
   ( Participle(..)
   , BinaryPredicate(..)
@@ -12,7 +13,7 @@ module Uninformed.NewVerb.Types
   , verbDefinitionFullName
   ) where
 
-import Uninformed.Prelude
+import Solitude
 import qualified Data.Map as Map
 import Data.Text.Display
 

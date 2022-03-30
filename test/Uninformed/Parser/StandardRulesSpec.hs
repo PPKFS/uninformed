@@ -1,7 +1,7 @@
 module Uninformed.Parser.StandardRulesSpec (spec) where
 
 import Test.Hspec
-import Uninformed.Prelude
+import Solitude
 import Uninformed.Parser.TestHelpers
 import Uninformed.Parser.Driver
 import Uninformed.Parser.Types

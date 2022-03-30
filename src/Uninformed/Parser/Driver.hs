@@ -4,7 +4,7 @@ module Uninformed.Parser.Driver
   , Parser(..)
   ) where
 
-import Uninformed.Prelude hiding (some, many)
+import Solitude hiding (some, many)
 import Text.Megaparsec hiding (runParser)
 import Uninformed.Headings.Parser
 import Uninformed.Parser.Types
@@ -14,6 +14,7 @@ import Uninformed.Extensions.Parser
 import Uninformed.Parser.Combinators
 import Uninformed.Parser.Errors
 import Uninformed.Parser.Expressions
+import Uninformed.VerbPhrases.Parser
 
 data ParseNode = ParseNode
 
@@ -42,5 +43,6 @@ parseExtension = annotateLocation $ do
 parseSourceBody :: Parser [ParseNode]
 parseSourceBody = some $ do
   ParseNode <$ parseHeading
+  <|> (ParseNode <$ parseVerbPhrase)
   -- <|> (ParseNode <$ parseNewVerb)
   <|> ParseNode <$ unexpectedSentence

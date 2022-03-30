@@ -9,6 +9,6 @@ See README for more info
 module Uninformed
        ( someFunc
        ) where
-import Relude
+import Solitude
 someFunc :: IO ()
 someFunc = putStrLn ("someFunc" :: String)

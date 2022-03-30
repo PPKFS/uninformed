@@ -1,9 +1,12 @@
 source-repository-package
   type: git
-  location: git://github.com/PPKFS/chapelure.git
+  location: https://github.com/PPKFS/chapelure.git
 
 source-repository-package
   type: git
-  location: git://github.com/sullyj3/relude.git
-
-packages: ./uninformed.cabal
+  location: https://github.com/TeofilC/relude.git
+  tag: 3077e34a5b4996430dc5907f951b39371e10e6dc
+  
+packages: 
+  ./uninformed.cabal
+  solitude/solitude.cabal

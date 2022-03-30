@@ -1,6 +1,8 @@
+{-# LANGUAGE TemplateHaskell #-}
+
 module Uninformed.Headings.Types where
 
-import Uninformed.Prelude
+import Solitude
 import Uninformed.Extensions.Types (ExtensionName)
 import Optics
 

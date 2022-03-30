@@ -1,6 +1,6 @@
 module Uninformed.Extensions.Parser where
 
-import Uninformed.Prelude hiding (some)
+import Solitude hiding (some)
 import Text.Megaparsec.Char.Lexer (decimal)
 import Text.Megaparsec.Char ()
 import Uninformed.Extensions.Types

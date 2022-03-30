@@ -1,6 +1,6 @@
 module Uninformed.Extensions.Types where
 
-import Uninformed.Prelude hiding (some)
+import Solitude hiding (some)
 
 data Extension r = Extension deriving stock (Eq, Show, Functor)
 

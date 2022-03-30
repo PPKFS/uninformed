@@ -5,21 +5,19 @@ import Uninformed.Parser.Types
 import Uninformed.Parser.Errors
 import Uninformed.Parser.Combinators
 import Text.Megaparsec hiding (some, many)
-import Uninformed.Prelude
-import Optics
+import Solitude
 import Uninformed.Parser.Parser
-import Data.List (zipWith3)
 
 parseVerbPhrase :: Parser ExprLoc
-parseVerbPhrase = annotateLocation $ do
+parseVerbPhrase = do
   startSnippet endSentence
   possibleVerbs <- tryVerbs
   case possibleVerbs of
     [] -> unexpectedPhraseTokenError
     --if we have only one possible phrase, we just go with that
-    [(v, p, f)] -> f
+    [p] -> _phraseParser p
     --otherwise, we note there's a degree of ambiguity and try each in turn
-    x -> choice (map (view _3) x)
+    x -> choice (map _phraseParser x)
 {-
   -- and then we check each of the kinds of verb phrase we want.
   --ignored: unicode translation.
@@ -60,7 +58,7 @@ tryVerbs = lookAhead $ do
   initAcc <- makePossibleVerbs
   --let's only include possible verbs which can be anywhere, or we have a matching prefix
   let filtAcc = filter ((`isPrefixOf` wordList) . _phraseBeginsWith) ( _phraseAccAll initAcc)
-  pure . sortOn Down . _phraseAccFound $ foldl' updateAcc (initAcc { _phraseAccAll = filtAcc}) wordList
+  pure . sortOn (Down . _phraseRank) . _phraseAccFound $ foldl' updateAcc (initAcc { _phraseAccAll = filtAcc}) wordList
 
 makePossibleVerbs :: Parser PhraseAccumulator
 makePossibleVerbs = do
@@ -111,58 +109,58 @@ toHave = error "not implemented"
 data Verb = Verb
 
 verbAssertion :: Verb -> Parser ExprLoc
-verbAssertion = error "not implemented"
+verbAssertion _ = fail "not implemented"
 
 inRulebook :: Parser ExprLoc
-inRulebook = error "not implemented"
+inRulebook = fail "not implemented"
 
 canBe :: Parser ExprLoc
-canBe = error "not implemented"
+canBe = fail "not implemented"
 
 newRelation :: Parser ExprLoc
-newRelation = error "not implemented"
+newRelation = fail "not implemented"
 
 newVerb :: Parser ExprLoc
-newVerb = error "not implemented"
+newVerb = fail "not implemented"
 
 newAction :: Parser ExprLoc
-newAction = error "not implemented"
+newAction = fail "not implemented"
 
 newActivity :: Parser ExprLoc
-newActivity = error "not implemented"
+newActivity = fail "not implemented"
 
 fileHandling :: Parser ExprLoc
-fileHandling = error "not implemented"
+fileHandling = fail "not implemented"
 
 thePluralOf :: Parser ExprLoc
-thePluralOf = error "not implemented"
+thePluralOf = fail "not implemented"
 
 episode :: Parser ExprLoc
-episode = error "not implemented"
+episode = fail "not implemented"
 
 definedBy :: Parser ExprLoc
-definedBy = error "not implemented"
+definedBy = fail "not implemented"
 
 specifies :: Parser ExprLoc
-specifies = error "not implemented"
+specifies = fail "not implemented"
 
 sceneAnchoring :: Parser ExprLoc
-sceneAnchoring = error "not implemented"
+sceneAnchoring = fail "not implemented"
 
 documentAt :: Parser ExprLoc
-documentAt = error "not implemented"
+documentAt = fail "not implemented"
 
 debugging :: Parser ExprLoc
-debugging = error "not implemented"
+debugging = fail "not implemented"
 
 testWith :: Parser ExprLoc
-testWith = error "not implemented"
+testWith = fail "not implemented"
 
 understandAs :: Parser ExprLoc
-understandAs = error "not implemented"
+understandAs = fail "not implemented"
 
 translatesIntoUnicode :: Parser ExprLoc
-translatesIntoUnicode = error "not implemented"
+translatesIntoUnicode = fail "not implemented"
 
 updateAcc :: PhraseAccumulator -> Text -> PhraseAccumulator
 updateAcc acc w = let

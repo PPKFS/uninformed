@@ -1,4 +1,5 @@
-{-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE TemplateHaskell #-}
+
 module Uninformed.Parser.Types
   ( ParseState(..)
   , SnippetHandler(..)
@@ -13,7 +14,6 @@ module Uninformed.Parser.Types
   , otherPunctuation
 
   , allowNewlines
-  , inLiteralMode
   , snippetHandler
   , snippetContext
   , snippetStart
@@ -30,12 +30,12 @@ import Chapelure.Types
 import Data.Text.Display
 import Data.Text.Lazy.Builder (fromText)
 
-import Uninformed.Prelude hiding (show)
+import Solitude hiding (show)
+import Uninformed.Lexer
 import Uninformed.NewVerb.Types
 
 data ParseState = ParseState
   { _allowNewlines :: Bool
-  , _inLiteralMode :: Bool
   , _snippetHandler :: SnippetHandler
   , _verbUsages :: Map.Map Text (Set VerbUsage)
   }
@@ -85,9 +85,9 @@ otherPunctuation :: [Char]
 otherPunctuation = ['(', ')', '"']
 
 newtype Parser a =
-  Parser { unParser :: StateT ParseState (ParsecT UninformedParseError Text IO) a }
+  Parser { unParser :: StateT ParseState (ParsecT UninformedParseError [Lexeme] IO) a }
     deriving newtype (Functor, Applicative, Monad, Alternative, MonadPlus,
-    MonadIO, MonadState ParseState, MonadParsec UninformedParseError Text, MonadFail)
+    MonadIO, MonadState ParseState, MonadParsec UninformedParseError [Lexeme], MonadFail)
 
 type AsTextParser e s m = (MonadParsec e s m, Token s ~ Char, Tokens s ~ Text)
 

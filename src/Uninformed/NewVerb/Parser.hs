@@ -5,7 +5,7 @@ module Uninformed.NewVerb.Parser
 -- "The verb to eat..." - 4/verb.11
 
 import Uninformed.Parser.Parser
-import Uninformed.Prelude
+import Solitude
 import Text.Megaparsec
 import Uninformed.Parser.Types
 import Uninformed.NewVerb.Types

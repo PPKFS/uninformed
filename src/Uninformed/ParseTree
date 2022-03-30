@@ -1,6 +1,6 @@
 module Uninformed.ParseTree where
 
-import Uninformed.Prelude
+import Solitude
 import Uninformed.Lexer
 import Data.Tree
 import Optics
@@ -63,7 +63,7 @@ matchWord t (VocabInfo _ (Just x) _) = t == x
 matchWord t (VocabInfo r Nothing _) = t == r
 
 matchLexeme :: LexemeType -> Lexeme -> Bool
-matchLexeme (Word vl@(VocabInfo {})) (Lexeme (Word vi) _) = matchWord vl vi
+matchLexeme (Word vl@VocabInfo) (Lexeme (Word vi) _) = matchWord vl vi
 matchLexeme lt (Lexeme lt' _) = lt == lt'
 
 matchLexemeWord :: Text -> Lexeme -> Bool

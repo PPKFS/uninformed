@@ -10,7 +10,7 @@ module Uninformed.Parser.Expressions
   
   , annotateLocation) where
 
-import Uninformed.Prelude hiding (show)
+import Solitude hiding (show)
 import Uninformed.Headings.Types
 import Uninformed.Extensions.Types
 import Uninformed.NewVerb.Types
@@ -36,9 +36,6 @@ data ExprF b =
 type ExprLoc = WithLoc ExprF
 type ExprPlain = Fix ExprF
 
-newtype SourceLocation = SourceLocation
-  { _parseNodeSpan :: (SourcePos, SourcePos)
-  } deriving newtype (Eq, Show)
 
 type WithLoc a = Fix (WithLocF a)
 type Plain = Fix

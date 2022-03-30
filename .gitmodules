@@ -1,7 +1,3 @@
-[submodule "heffalump"]
-	path = heffalump
-	url = https://github.com/PPKFS/heffalump.git
-	branch = main
 [submodule "solitude"]
 	path = solitude
 	url = https://github.com/PPKFS/solitude.git
