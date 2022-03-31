@@ -5,13 +5,12 @@ module Uninformed.Parser.Types
   , SnippetHandler(..)
   , UninformedParseError(..)
   , ParseErrorType(..)
-  , AsTextParser
+  , UninformedParser
   , Parser(..)
 
   , sentenceEndingPunctuation
   , newlineCharacters
   , whitespaceCharacters
-  , otherPunctuation
 
   , allowNewlines
   , snippetHandler
@@ -72,8 +71,8 @@ instance ShowErrorComponent ParseErrorType where
 instance ShowErrorComponent UninformedParseError where
   showErrorComponent = toString . display
 
-sentenceEndingPunctuation :: [Char]
-sentenceEndingPunctuation = ['.', ';', ':']
+sentenceEndingPunctuation :: [PunctuationToken]
+sentenceEndingPunctuation = [Period, Semicolon, Colon]
 
 newlineCharacters :: [Char]
 newlineCharacters = ['\r', '\n']
@@ -81,15 +80,12 @@ newlineCharacters = ['\r', '\n']
 whitespaceCharacters :: [Char]
 whitespaceCharacters = [' ', '\t']
 
-otherPunctuation :: [Char]
-otherPunctuation = ['(', ')', '"']
-
 newtype Parser a =
   Parser { unParser :: StateT ParseState (ParsecT UninformedParseError [Lexeme] IO) a }
     deriving newtype (Functor, Applicative, Monad, Alternative, MonadPlus,
     MonadIO, MonadState ParseState, MonadParsec UninformedParseError [Lexeme], MonadFail)
 
-type AsTextParser e s m = (MonadParsec e s m, Token s ~ Char, Tokens s ~ Text)
+type UninformedParser m = (MonadParsec UninformedParseError [Lexeme] m, MonadState ParseState m)
 
 
 makeLenses ''ParseState

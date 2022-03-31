@@ -17,30 +17,68 @@ module Uninformed.Parser.Combinators
   , withoutNewlines
   , withNewlines
   , endSentence
-  , word
   , optionallyQuotedWithEnding
   , optionallyInParens) where
 
 
 import Solitude hiding (some, many)
-import Text.Megaparsec hiding (unexpected)
-import Text.Megaparsec.Char hiding (hspace, hspace1)
 import Uninformed.Parser.Types
 import qualified Data.Text as T
-import Data.Char (isSpace)
+import Data.Char (isSpace, isAlphaNum)
+import Uninformed.Lexer hiding (whitespace)
+import Data.Text.Display
+import Text.Megaparsec (MonadParsec, satisfy, choice, lookAhead, try)
 
 
 ---
 -- primitive combinators
 ---
 
+single :: 
+  MonadParsec UninformedParseError [Lexeme] m
+  => TokenType
+  -> m ()
+single ttok = void $ satisfy (\Lexeme{_tokType} -> _tokType == ttok)
+
 specifically :: 
   Text
   -> Parser Text
 specifically t = mconcat <$> traverse specificWord (T.split isSpace t) where
   specificWord :: Text -> Parser Text
-  specificWord w = string' w >> consumeWhitespace
+  specificWord w = do
+    single (Word w)
+    ws <- whitespace
+    return $ w <> ws   
 
+-- | Whitespace is one of the following:
+-- if it's immediately followed by a sentence ending, then 'nothing' is acceptable
+-- it's followed by a paragraph break (again, don't consume)
+-- take some amount of (horizontal) whitespace
+-- or finally, we're allowing newlines and we have optional space, then a newline,then more optional space
+-- and just to double check we didn't get a paragraph break
+whitespace :: Parser Text
+whitespace = choice
+  [ "" <$ lookAhead (oneOfPunctuation sentenceEndingPunctuation)
+  , "" <$ try (lookAhead paragraphBreak)
+  , hspace1
+  , oneSingleLineBreak
+  ]
+
+hspace1 :: UninformedParser m
+  => m Text
+hspace1 = takeWhile1P Nothing (`elem` whitespaceCharacters)
+
+oneOfPunctuation :: [PunctuationToken ] -> Parser PunctuationToken 
+oneOfPunctuation ls = satisfy (isPunctuationToken . _tokType)
+
+oneSingleLineBreak :: Parser Text
+oneSingleLineBreak = do
+  guardM (use allowNewlines)
+  l1 <- hspace
+  e1 <- newline (Just 1)
+  l2 <- hspace
+  notFollowedBy (newline Nothing)
+  return $ l1 <> e1 <> l2
 specifically' :: 
   Text
   -> Parser ()
@@ -82,32 +120,25 @@ ignoreHeader ::
 ignoreHeader _ = id
 
 inQuotes
-  :: AsTextParser e s m
+  :: UninformedParser m
   => m a
   -> m a
 inQuotes = between (single '\"') (single '\"')
 
 inParentheses
-  :: AsTextParser e s m
+  :: UninformedParser m
   => m a
   -> m a
 inParentheses = between (single '(') (single ')')
 
 inSquareBrackets
-  :: AsTextParser e s m
+  :: UninformedParser m
   => m a
   -> m a
 inSquareBrackets = between (single '[') (single ']')
 
-hspace1
-  :: AsTextParser e s m
-  => m Text
-hspace1 = takeWhile1P Nothing (`elem` whitespaceCharacters)
 
-hspace
-  :: AsTextParser e s m
-  => m Text
-hspace = takeWhileP Nothing (`elem` whitespaceCharacters)
+
 
 paragraphBreak :: Parser ()
 paragraphBreak = do
@@ -116,28 +147,7 @@ paragraphBreak = do
   --and then maybe a bunch more lines
   void $ many (hspace >> eol)
 
-consumeWhitespace :: Parser Text
-consumeWhitespace = do
-  --if it's immediately followed by a sentence ender
-  "" <$ lookAhead (oneOf sentenceEndingPunctuation)
-  --or it's followed by a paragraph break (again, don't consume)
-  <|> "" <$ try (lookAhead paragraphBreak)
-  --or if we're currently treatingAsWhitespace some kind of punctuation
-  -- <|> ("" <$ (use currentlyIgnoring >>= maybe mzero lookAhead))
-  --take some amount of (horizontal) whitespace
-  <|> hspace1
-  <|> (do
-    --we're allowing newlines
-    guardM (use allowNewlines)
-    --and we have optional space
-    l1 <- hspace
-    --then a newline
-    e1 <- eol
-    --then more optional space
-    l2 <- hspace
-    --and just to double check we didn't get a pbreak
-    notFollowedBy eol
-    return $ l1 <> e1 <> l2)
+
 
 withoutNewlines :: 
   Parser a
