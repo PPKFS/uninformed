@@ -21,9 +21,11 @@ cabal.config
 cabal.project.local
 .ghc.environment.*
 .HTF/
+.hie/
 # Stack
 .stack-work/
 stack.yaml.lock
+
 ### IDE/support
 # Vim
 [._]*.s[a-v][a-z]
@@ -51,11 +53,3 @@ TAGS
 
 # other
 .DS_Store
-log.json
-*.save0
-book
-
-test_runs
-.entangled
-
-.hlint.yaml

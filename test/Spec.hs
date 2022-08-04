@@ -1,7 +1,5 @@
-module Main (main) where
-
-import Uninformed (projectName)
+module Main where
 
 
 main :: IO ()
-main = putStrLn ("Tests for " ++ projectName)
+main = print "blah"
