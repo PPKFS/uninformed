@@ -1,0 +1,147 @@
+135 words
+¶an¶ ¶elevation¶ ¶is¶ ¶a¶ ¶kind¶ ¶of¶ ¶value¶ ¶.¶ ¶-100¶ ¶cubits¶ ¶specifies¶ ¶every¶ ¶room¶ ¶has¶ ¶|__¶ ¶the¶ ¶water¶ ¶level¶ ¶that¶ ¶varies¶ ¶-10¶ ¶first¶ ¶turn¶ ¶rule¶ ¶:¶ ¶say¶ ¶"Water level: "¶ ¶,¶ ¶"."¶ ¶;¶ ¶increase¶ ¶by¶ ¶2¶ ¶if¶ ¶>¶ ¶location¶ ¶"The water has risen to the
+level of "¶ ¶"-- above your head!"¶ ¶when¶ ¶play¶ ¶begins¶ ¶"Well, assuming this is a logical universe, you should have just
+enough time to finish this ark."¶ ¶beach¶ ¶pile¶ ¶lumber¶ ¶and¶ ¶hammer¶ ¶are¶ ¶in¶ ¶at¶ ¶least¶ ¶end¶ ¶story¶ ¶saying¶ ¶"Somehow are you not surprised"¶ ¶test¶ ¶me¶ ¶with¶ ¶"z/z/z/z/z/z"¶ 
+59 distinct words
+¶An¶ ¶an¶ 0a
+¶elevation¶ ¶elevation¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶value¶ ¶value¶ 20
+¶.¶ ¶.¶ 20
+¶-100¶ ¶-100¶ 20
+¶cubits¶ ¶cubits¶ 20
+¶specifies¶ ¶specifies¶ 20
+¶an¶ ¶an¶ 20
+¶elevation¶ ¶elevation¶ 20
+¶.¶ ¶.¶ 20
+¶Every¶ ¶every¶ 0a
+¶room¶ ¶room¶ 20
+¶has¶ ¶has¶ 20
+¶an¶ ¶an¶ 20
+¶elevation¶ ¶elevation¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶water¶ ¶water¶ 20
+¶level¶ ¶level¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶elevation¶ ¶elevation¶ 20
+¶that¶ ¶that¶ 20
+¶varies¶ ¶varies¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶water¶ ¶water¶ 20
+¶level¶ ¶level¶ 20
+¶is¶ ¶is¶ 20
+¶-10¶ ¶-10¶ 20
+¶cubits¶ ¶cubits¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶first¶ ¶first¶ 20
+¶every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶rule¶ ¶rule¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Water level: "¶ ¶"Water level: "¶ 20
+¶,¶ ¶,¶ 20
+¶water¶ ¶water¶ 20
+¶level¶ ¶level¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶increase¶ ¶increase¶ 41
+¶the¶ ¶the¶ 20
+¶water¶ ¶water¶ 20
+¶level¶ ¶level¶ 20
+¶by¶ ¶by¶ 20
+¶2¶ ¶2¶ 20
+¶cubits¶ ¶cubits¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶water¶ ¶water¶ 20
+¶level¶ ¶level¶ 20
+¶>¶ ¶>¶ 20
+¶elevation¶ ¶elevation¶ 20
+¶of¶ ¶of¶ 20
+¶location¶ ¶location¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"The water has risen to the
+level of "¶ ¶"The water has risen to the
+level of "¶ 20
+¶,¶ ¶,¶ 20
+¶water¶ ¶water¶ 20
+¶level¶ ¶level¶ 20
+¶,¶ ¶,¶ 20
+¶"-- above your head!"¶ ¶"-- above your head!"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Well, assuming this is a logical universe, you should have just
+enough time to finish this ark."¶ ¶"Well, assuming this is a logical universe, you should have just
+enough time to finish this ark."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Beach¶ ¶beach¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶elevation¶ ¶elevation¶ 20
+¶of¶ ¶of¶ 20
+¶Beach¶ ¶beach¶ 20
+¶is¶ ¶is¶ 20
+¶2¶ ¶2¶ 20
+¶cubits¶ ¶cubits¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶pile¶ ¶pile¶ 20
+¶of¶ ¶of¶ 20
+¶lumber¶ ¶lumber¶ 20
+¶and¶ ¶and¶ 0a
+¶a¶ ¶a¶ 20
+¶hammer¶ ¶hammer¶ 20
+¶are¶ ¶are¶ 20
+¶in¶ ¶in¶ 20
+¶Beach¶ ¶beach¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶when¶ ¶when¶ 20
+¶water¶ ¶water¶ 20
+¶level¶ ¶level¶ 20
+¶is¶ ¶is¶ 20
+¶at¶ ¶at¶ 20
+¶least¶ ¶least¶ 20
+¶elevation¶ ¶elevation¶ 20
+¶of¶ ¶of¶ 20
+¶location¶ ¶location¶ 20
+¶,¶ ¶,¶ 20
+¶end¶ ¶end¶ 20
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 0a
+¶saying¶ ¶saying¶ 20
+¶"Somehow are you not surprised"¶ ¶"Somehow are you not surprised"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z/z/z/z/z/z"¶ ¶"z/z/z/z/z/z"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,97 @@
+71 words
+¶the¶ ¶planet¶ ¶mars¶ ¶is¶ ¶an¶ ¶object¶ ¶.¶ ¶asteroid¶ ¶ceres¶ ¶|__¶ ¶to¶ ¶begin¶ ¶:¶ ¶showme¶ ¶;¶ ¶say¶ ¶"Look! It's "¶ ¶,¶ ¶". Yes, "¶ ¶"; not just "¶ ¶a¶ ¶". "¶ ¶". "¶ ¶"? Nope."¶ ¶"Look! It's "¶ ¶". Yes, "¶ ¶"; not just "¶ ¶", or "¶ ¶". "¶ ¶". "¶ ¶"? Nope. "¶ ¶"? Seriously not."¶ 
+32 distinct words
+¶The¶ ¶the¶ 0a
+¶planet¶ ¶planet¶ 20
+¶Mars¶ ¶mars¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶object¶ ¶object¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶asteroid¶ ¶asteroid¶ 20
+¶Ceres¶ ¶ceres¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶object¶ ¶object¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶showme¶ ¶showme¶ 41
+¶Mars¶ ¶mars¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Look! It's "¶ ¶"Look! It's "¶ 20
+¶,¶ ¶,¶ 20
+¶Mars¶ ¶mars¶ 20
+¶,¶ ¶,¶ 20
+¶". Yes, "¶ ¶". Yes, "¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶planet¶ ¶planet¶ 20
+¶Mars¶ ¶mars¶ 20
+¶,¶ ¶,¶ 20
+¶"; not just "¶ ¶"; not just "¶ 20
+¶,¶ ¶,¶ 20
+¶a¶ ¶a¶ 20
+¶Mars¶ ¶mars¶ 20
+¶,¶ ¶,¶ 20
+¶". "¶ ¶". "¶ 20
+¶,¶ ¶,¶ 20
+¶The¶ ¶the¶ 20
+¶Mars¶ ¶mars¶ 20
+¶,¶ ¶,¶ 20
+¶". "¶ ¶". "¶ 20
+¶,¶ ¶,¶ 20
+¶A¶ ¶a¶ 20
+¶Mars¶ ¶mars¶ 20
+¶,¶ ¶,¶ 20
+¶"? Nope."¶ ¶"? Nope."¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶Ceres¶ ¶ceres¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Look! It's "¶ ¶"Look! It's "¶ 20
+¶,¶ ¶,¶ 20
+¶Ceres¶ ¶ceres¶ 20
+¶,¶ ¶,¶ 20
+¶". Yes, "¶ ¶". Yes, "¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶asteroid¶ ¶asteroid¶ 20
+¶Ceres¶ ¶ceres¶ 20
+¶,¶ ¶,¶ 20
+¶"; not just "¶ ¶"; not just "¶ 20
+¶,¶ ¶,¶ 20
+¶a¶ ¶a¶ 20
+¶Ceres¶ ¶ceres¶ 20
+¶,¶ ¶,¶ 20
+¶", or "¶ ¶", or "¶ 20
+¶,¶ ¶,¶ 20
+¶an¶ ¶an¶ 20
+¶asteroid¶ ¶asteroid¶ 20
+¶,¶ ¶,¶ 20
+¶". "¶ ¶". "¶ 20
+¶,¶ ¶,¶ 20
+¶The¶ ¶the¶ 20
+¶Ceres¶ ¶ceres¶ 20
+¶,¶ ¶,¶ 20
+¶". "¶ ¶". "¶ 20
+¶,¶ ¶,¶ 20
+¶A¶ ¶a¶ 20
+¶Ceres¶ ¶ceres¶ 20
+¶,¶ ¶,¶ 20
+¶"? Nope. "¶ ¶"? Nope. "¶ 20
+¶,¶ ¶,¶ 20
+¶An¶ ¶an¶ 20
+¶asteroid¶ ¶asteroid¶ 20
+¶,¶ ¶,¶ 20
+¶"? Seriously not."¶ ¶"? Seriously not."¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,95 @@
+75 words
+¶test¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶weight¶ ¶kind¶ ¶of¶ ¶value¶ ¶-99.999¶ ¶kg¶ ¶specifies¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶let¶ ¶temp¶ ¶be¶ ¶-0.123¶ ¶;¶ ¶say¶ ¶"[temp][line break]"¶ ¶-1.123¶ ¶"[temp][line break]"¶ ¶-10.000¶ ¶"[temp][line break]"¶ ¶0.123¶ ¶"[temp][line break]"¶ ¶1.123¶ ¶"[temp][line break]"¶ ¶10.000¶ ¶"[temp][line break]"¶ ¶0.000¶ ¶"[temp][line break]"¶ 
+36 distinct words
+¶Test¶ ¶test¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶weight¶ ¶weight¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶value¶ ¶value¶ 20
+¶.¶ ¶.¶ 20
+¶-99.999¶ ¶-99.999¶ 20
+¶kg¶ ¶kg¶ 20
+¶specifies¶ ¶specifies¶ 20
+¶a¶ ¶a¶ 20
+¶weight¶ ¶weight¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶let¶ ¶let¶ 41
+¶temp¶ ¶temp¶ 20
+¶be¶ ¶be¶ 20
+¶-0.123¶ ¶-0.123¶ 20
+¶kg¶ ¶kg¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[temp][line break]"¶ ¶"[temp][line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶temp¶ ¶temp¶ 20
+¶be¶ ¶be¶ 20
+¶-1.123¶ ¶-1.123¶ 20
+¶kg¶ ¶kg¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[temp][line break]"¶ ¶"[temp][line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶temp¶ ¶temp¶ 20
+¶be¶ ¶be¶ 20
+¶-10.000¶ ¶-10.000¶ 20
+¶kg¶ ¶kg¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[temp][line break]"¶ ¶"[temp][line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶temp¶ ¶temp¶ 20
+¶be¶ ¶be¶ 20
+¶0.123¶ ¶0.123¶ 20
+¶kg¶ ¶kg¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[temp][line break]"¶ ¶"[temp][line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶temp¶ ¶temp¶ 20
+¶be¶ ¶be¶ 20
+¶1.123¶ ¶1.123¶ 20
+¶kg¶ ¶kg¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[temp][line break]"¶ ¶"[temp][line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶temp¶ ¶temp¶ 20
+¶be¶ ¶be¶ 20
+¶10.000¶ ¶10.000¶ 20
+¶kg¶ ¶kg¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[temp][line break]"¶ ¶"[temp][line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶temp¶ ¶temp¶ 20
+¶be¶ ¶be¶ 20
+¶0.000¶ ¶0.000¶ 20
+¶kg¶ ¶kg¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[temp][line break]"¶ ¶"[temp][line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

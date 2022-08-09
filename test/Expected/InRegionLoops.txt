@@ -1,0 +1,62 @@
+58 words
+¶floor¶ ¶six¶ ¶is¶ ¶a¶ ¶region¶ ¶.¶ ¶|__¶ ¶room¶ ¶601¶ ¶in¶ ¶602¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶pick¶ ¶to¶ ¶(¶ ¶r¶ ¶-¶ ¶)¶ ¶say¶ ¶"Today's random room is [a random room in R]. There are
+[number of rooms in R] rooms in [R]."¶ 
+23 distinct words
+¶Floor¶ ¶floor¶ 0a
+¶Six¶ ¶six¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶region¶ ¶region¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Room¶ ¶room¶ 20
+¶601¶ ¶601¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶in¶ ¶in¶ 20
+¶floor¶ ¶floor¶ 20
+¶six¶ ¶six¶ 20
+¶.¶ ¶.¶ 20
+¶Room¶ ¶room¶ 20
+¶602¶ ¶602¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶in¶ ¶in¶ 20
+¶floor¶ ¶floor¶ 20
+¶six¶ ¶six¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶pick¶ ¶pick¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶in¶ ¶in¶ 20
+¶floor¶ ¶floor¶ 20
+¶six¶ ¶six¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶pick¶ ¶pick¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶in¶ ¶in¶ 20
+¶(¶ ¶(¶ 20
+¶R¶ ¶r¶ 20
+¶-¶ ¶-¶ 20
+¶a¶ ¶a¶ 20
+¶region¶ ¶region¶ 20
+¶)¶ ¶)¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Today's random room is [a random room in R]. There are
+[number of rooms in R] rooms in [R]."¶ ¶"Today's random room is [a random room in R]. There are
+[number of rooms in R] rooms in [R]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

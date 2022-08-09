@@ -1,0 +1,75 @@
+63 words
+¶"Toolcase"¶ ¶|__¶ ¶the¶ ¶kitchen¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"The kitchen is nice."¶ ¶toolcase¶ ¶an¶ ¶openable¶ ¶container¶ ¶in¶ ¶to¶ ¶recite¶ ¶(¶ ¶something¶ ¶-¶ ¶closed¶ ¶)¶ ¶:¶ ¶say¶ ¶"The "¶ ¶,¶ ¶noun¶ ¶" is closed."¶ ¶open¶ ¶"The "¶ ¶" is open."¶ ¶instead¶ ¶of¶ ¶searching¶ ¶test¶ ¶me¶ ¶with¶ ¶"open toolcase / search toolcase / close toolcase / search toolcase"¶ 
+37 distinct words
+¶"Toolcase"¶ ¶"Toolcase"¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶Kitchen¶ ¶kitchen¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"The kitchen is nice."¶ ¶"The kitchen is nice."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶toolcase¶ ¶toolcase¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶openable¶ ¶openable¶ 20
+¶container¶ ¶container¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶kitchen¶ ¶kitchen¶ 20
+¶.¶ ¶.¶ 20
+¶To¶ ¶to¶ 0a
+¶recite¶ ¶recite¶ 20
+¶(¶ ¶(¶ 20
+¶something¶ ¶something¶ 20
+¶-¶ ¶-¶ 20
+¶closed¶ ¶closed¶ 20
+¶container¶ ¶container¶ 20
+¶)¶ ¶)¶ 20
+¶:¶ ¶:¶ 20
+¶Say¶ ¶say¶ 0a
+¶"The "¶ ¶"The "¶ 20
+¶,¶ ¶,¶ 20
+¶noun¶ ¶noun¶ 20
+¶,¶ ¶,¶ 20
+¶" is closed."¶ ¶" is closed."¶ 20
+¶To¶ ¶to¶ 0a
+¶recite¶ ¶recite¶ 20
+¶(¶ ¶(¶ 20
+¶something¶ ¶something¶ 20
+¶-¶ ¶-¶ 20
+¶open¶ ¶open¶ 20
+¶container¶ ¶container¶ 20
+¶)¶ ¶)¶ 20
+¶:¶ ¶:¶ 20
+¶Say¶ ¶say¶ 0a
+¶"The "¶ ¶"The "¶ 20
+¶,¶ ¶,¶ 20
+¶noun¶ ¶noun¶ 20
+¶,¶ ¶,¶ 20
+¶" is open."¶ ¶" is open."¶ 20
+¶Instead¶ ¶instead¶ 0a
+¶of¶ ¶of¶ 20
+¶searching¶ ¶searching¶ 20
+¶the¶ ¶the¶ 20
+¶toolcase¶ ¶toolcase¶ 20
+¶,¶ ¶,¶ 20
+¶recite¶ ¶recite¶ 20
+¶the¶ ¶the¶ 20
+¶toolcase¶ ¶toolcase¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"open toolcase / search toolcase / close toolcase / search toolcase"¶ ¶"open toolcase / search toolcase / close toolcase / search toolcase"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

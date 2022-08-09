@@ -1,0 +1,110 @@
+99 words
+¶the¶ ¶cave¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶large¶ ¶stone¶ ¶here¶ ¶"There's a very large stone here, in a small
+clearing."¶ ¶description¶ ¶"It's a very large rock, with a thin,
+slot-like opening in the top of it."¶ ¶fixed¶ ¶in¶ ¶place¶ ¶,¶ ¶opaque¶ ¶container¶ ¶bead¶ ¶an¶ ¶axehead¶ ¶taking¶ ¶action¶ ¶has¶ ¶object¶ ¶called¶ ¶former¶ ¶position¶ ¶(¶ ¶matched¶ ¶as¶ ¶"from"¶ ¶)¶ ¶setting¶ ¶variables¶ ¶for¶ ¶:¶ ¶now¶ ¶holder¶ ¶of¶ ¶noun¶ ¶after¶ ¶something¶ ¶from¶ ¶say¶ ¶"Done."¶ ¶test¶ ¶me¶ ¶with¶ ¶"get all"¶ 
+51 distinct words
+¶The¶ ¶the¶ 0a
+¶Cave¶ ¶cave¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶large¶ ¶large¶ 20
+¶stone¶ ¶stone¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶"There's a very large stone here, in a small
+clearing."¶ ¶"There's a very large stone here, in a small
+clearing."¶ 20
+¶The¶ ¶the¶ 20
+¶description¶ ¶description¶ 20
+¶is¶ ¶is¶ 20
+¶"It's a very large rock, with a thin,
+slot-like opening in the top of it."¶ ¶"It's a very large rock, with a thin,
+slot-like opening in the top of it."¶ 20
+¶The¶ ¶the¶ 20
+¶stone¶ ¶stone¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶fixed¶ ¶fixed¶ 20
+¶in¶ ¶in¶ 20
+¶place¶ ¶place¶ 20
+¶,¶ ¶,¶ 20
+¶opaque¶ ¶opaque¶ 0a
+¶container¶ ¶container¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶bead¶ ¶bead¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶stone¶ ¶stone¶ 20
+¶.¶ ¶.¶ 20
+¶An¶ ¶an¶ 20
+¶axehead¶ ¶axehead¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Cave¶ ¶cave¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶taking¶ ¶taking¶ 20
+¶action¶ ¶action¶ 20
+¶has¶ ¶has¶ 20
+¶an¶ ¶an¶ 20
+¶object¶ ¶object¶ 20
+¶called¶ ¶called¶ 20
+¶the¶ ¶the¶ 20
+¶former¶ ¶former¶ 20
+¶position¶ ¶position¶ 20
+¶(¶ ¶(¶ 20
+¶matched¶ ¶matched¶ 20
+¶as¶ ¶as¶ 20
+¶"from"¶ ¶"from"¶ 20
+¶)¶ ¶)¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Setting¶ ¶setting¶ 20
+¶action¶ ¶action¶ 20
+¶variables¶ ¶variables¶ 20
+¶for¶ ¶for¶ 20
+¶taking¶ ¶taking¶ 20
+¶:¶ ¶:¶ 20
+¶now¶ ¶now¶ 41
+¶the¶ ¶the¶ 20
+¶former¶ ¶former¶ 20
+¶position¶ ¶position¶ 20
+¶is¶ ¶is¶ 20
+¶the¶ ¶the¶ 20
+¶holder¶ ¶holder¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶noun¶ ¶noun¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶After¶ ¶after¶ 20
+¶taking¶ ¶taking¶ 20
+¶something¶ ¶something¶ 20
+¶from¶ ¶from¶ 20
+¶the¶ ¶the¶ 20
+¶large¶ ¶large¶ 20
+¶stone¶ ¶stone¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Done."¶ ¶"Done."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"get all"¶ ¶"get all"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

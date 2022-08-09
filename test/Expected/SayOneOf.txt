@@ -1,0 +1,91 @@
+168 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"This is Foo, the leading [one of]pet
+shop[or]haberdashery[or]bakery[purely at random] in the Kidlington area."¶ ¶|__¶ ¶every¶ ¶turn¶ ¶:¶ ¶say¶ ¶"You flip the coin. [one of]Heads[or]Tails[purely at random]."¶ ¶;¶ ¶"[one of]The phone rings[or]The phone rings a second time[or]The phone
+rings again[stopping]."¶ ¶"You turn the light switch [one of]off[or]on[cycling]. Nothing happens."¶ ¶"The newspaper headline is:
+[one of]War Casualties[or]Terrorists[or]Banks[sticky random]
+[one of]Continue To Expand[or]Lose Out[sticky random]."¶ ¶"The light changes randomly again; now it's
+[one of]green[or]amber[or]red[at random]."¶ ¶"George Bush [one of]yawns[or]scratches[or]bombs
+somebody[or]inappropriately touches a monarch[or]eats fried
+chicken[or]reads a Dr Seuss book[or]reads a Tom Clancy book[or]reads a
+Jean-Paul Sartre book[as decreasingly likely outcomes]."¶ ¶"Trumps are [one of]hearts[or]clubs[or]diamonds[or]spades[in random order]."¶ ¶instead¶ ¶of¶ ¶waiting¶ ¶repeat¶ ¶with¶ ¶w¶ ¶running¶ ¶from¶ ¶1¶ ¶to¶ ¶4¶ ¶begin¶ ¶"[one of]hearts[or]clubs[or]diamonds[or]spades[in random order] - "¶ ¶end¶ ¶"are trumps."¶ ¶test¶ ¶me¶ ¶"z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z"¶ 
+37 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"This is Foo, the leading [one of]pet
+shop[or]haberdashery[or]bakery[purely at random] in the Kidlington area."¶ ¶"This is Foo, the leading [one of]pet
+shop[or]haberdashery[or]bakery[purely at random] in the Kidlington area."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"You flip the coin. [one of]Heads[or]Tails[purely at random]."¶ ¶"You flip the coin. [one of]Heads[or]Tails[purely at random]."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[one of]The phone rings[or]The phone rings a second time[or]The phone
+rings again[stopping]."¶ ¶"[one of]The phone rings[or]The phone rings a second time[or]The phone
+rings again[stopping]."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"You turn the light switch [one of]off[or]on[cycling]. Nothing happens."¶ ¶"You turn the light switch [one of]off[or]on[cycling]. Nothing happens."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The newspaper headline is:
+[one of]War Casualties[or]Terrorists[or]Banks[sticky random]
+[one of]Continue To Expand[or]Lose Out[sticky random]."¶ ¶"The newspaper headline is:
+[one of]War Casualties[or]Terrorists[or]Banks[sticky random]
+[one of]Continue To Expand[or]Lose Out[sticky random]."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The light changes randomly again; now it's
+[one of]green[or]amber[or]red[at random]."¶ ¶"The light changes randomly again; now it's
+[one of]green[or]amber[or]red[at random]."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"George Bush [one of]yawns[or]scratches[or]bombs
+somebody[or]inappropriately touches a monarch[or]eats fried
+chicken[or]reads a Dr Seuss book[or]reads a Tom Clancy book[or]reads a
+Jean-Paul Sartre book[as decreasingly likely outcomes]."¶ ¶"George Bush [one of]yawns[or]scratches[or]bombs
+somebody[or]inappropriately touches a monarch[or]eats fried
+chicken[or]reads a Dr Seuss book[or]reads a Tom Clancy book[or]reads a
+Jean-Paul Sartre book[as decreasingly likely outcomes]."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Trumps are [one of]hearts[or]clubs[or]diamonds[or]spades[in random order]."¶ ¶"Trumps are [one of]hearts[or]clubs[or]diamonds[or]spades[in random order]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶:¶ ¶:¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶w¶ ¶w¶ 20
+¶running¶ ¶running¶ 20
+¶from¶ ¶from¶ 20
+¶1¶ ¶1¶ 20
+¶to¶ ¶to¶ 20
+¶4¶ ¶4¶ 20
+¶begin¶ ¶begin¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 42
+¶"[one of]hearts[or]clubs[or]diamonds[or]spades[in random order] - "¶ ¶"[one of]hearts[or]clubs[or]diamonds[or]spades[in random order] - "¶ 20
+¶;¶ ¶;¶ 20
+¶end¶ ¶end¶ 41
+¶repeat¶ ¶repeat¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"are trumps."¶ ¶"are trumps."¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z"¶ ¶"z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

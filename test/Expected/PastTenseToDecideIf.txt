@@ -1,0 +1,41 @@
+37 words
+¶room1¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶room2¶ ¶east¶ ¶of¶ ¶every¶ ¶turn¶ ¶when¶ ¶the¶ ¶player¶ ¶in¶ ¶for¶ ¶first¶ ¶time¶ ¶:¶ ¶say¶ ¶"Here we are!"¶ ¶;¶ ¶test¶ ¶me¶ ¶with¶ ¶"e / z / w / e / z"¶ 
+26 distinct words
+¶Room1¶ ¶room1¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Room2¶ ¶room2¶ 20
+¶is¶ ¶is¶ 20
+¶east¶ ¶east¶ 20
+¶of¶ ¶of¶ 20
+¶room1¶ ¶room1¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶room2¶ ¶room2¶ 20
+¶for¶ ¶for¶ 20
+¶the¶ ¶the¶ 20
+¶first¶ ¶first¶ 20
+¶time¶ ¶time¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Here we are!"¶ ¶"Here we are!"¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"e / z / w / e / z"¶ ¶"e / z / w / e / z"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,32 @@
+23 words
+¶to¶ ¶judge¶ ¶(¶ ¶v¶ ¶-¶ ¶value¶ ¶)¶ ¶:¶ ¶say¶ ¶"[V] is [one of]clearly[or]evidently[or]markedly[cycling] just plain [V]."¶ ¶begin¶ ¶21¶ ¶;¶ ¶"fishslice"¶ ¶true¶ ¶56¶ ¶.¶ ¶|__¶ 
+18 distinct words
+¶To¶ ¶to¶ 0a
+¶judge¶ ¶judge¶ 20
+¶(¶ ¶(¶ 20
+¶V¶ ¶v¶ 20
+¶-¶ ¶-¶ 20
+¶value¶ ¶value¶ 20
+¶)¶ ¶)¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"[V] is [one of]clearly[or]evidently[or]markedly[cycling] just plain [V]."¶ ¶"[V] is [one of]clearly[or]evidently[or]markedly[cycling] just plain [V]."¶ 20
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶judge¶ ¶judge¶ 41
+¶21¶ ¶21¶ 20
+¶;¶ ¶;¶ 20
+¶judge¶ ¶judge¶ 41
+¶"fishslice"¶ ¶"fishslice"¶ 20
+¶;¶ ¶;¶ 20
+¶judge¶ ¶judge¶ 41
+¶true¶ ¶true¶ 20
+¶;¶ ¶;¶ 20
+¶judge¶ ¶judge¶ 41
+¶56¶ ¶56¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

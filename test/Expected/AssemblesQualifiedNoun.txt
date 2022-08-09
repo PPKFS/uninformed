@@ -1,0 +1,28 @@
+18 words
+¶foo¶ ¶is¶ ¶a¶ ¶dark¶ ¶room¶ ¶.¶ ¶woman¶ ¶in¶ ¶every¶ ¶lit¶ ¶vehicle¶ ¶|__¶ 
+12 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶dark¶ ¶dark¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 0a
+¶woman¶ ¶woman¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶every¶ ¶every¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶lit¶ ¶lit¶ 20
+¶vehicle¶ ¶vehicle¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶every¶ ¶every¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

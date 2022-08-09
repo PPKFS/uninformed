@@ -1,0 +1,105 @@
+103 words
+¶foo¶ ¶is¶ ¶a¶ ¶region¶ ¶.¶ ¶the¶ ¶lab¶ ¶in¶ ¶corridor¶ ¶south¶ ¶of¶ ¶|__¶ ¶barring¶ ¶an¶ ¶action¶ ¶applying¶ ¶to¶ ¶one¶ ¶visible¶ ¶thing¶ ¶understand¶ ¶"bar [any region]"¶ ¶as¶ ¶instead¶ ¶:¶ ¶say¶ ¶"Foo barred."¶ ¶before¶ ¶going¶ ¶"Going in Foo now."¶ ¶"Going to Foo now."¶ ¶from¶ ¶"Going from Foo now."¶ ¶"Going in Corridor now."¶ ¶"Going to Corridor now."¶ ¶"Going from Corridor now."¶ ¶test¶ ¶me¶ ¶with¶ ¶"actions / bar foo / s / n"¶ 
+40 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶region¶ ¶region¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶Lab¶ ¶lab¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶Foo¶ ¶foo¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶Corridor¶ ¶corridor¶ 20
+¶is¶ ¶is¶ 20
+¶south¶ ¶south¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶Lab¶ ¶lab¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Barring¶ ¶barring¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶visible¶ ¶visible¶ 20
+¶thing¶ ¶thing¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"bar [any region]"¶ ¶"bar [any region]"¶ 20
+¶as¶ ¶as¶ 20
+¶barring¶ ¶barring¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶barring¶ ¶barring¶ 20
+¶foo¶ ¶foo¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Foo barred."¶ ¶"Foo barred."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶going¶ ¶going¶ 20
+¶in¶ ¶in¶ 20
+¶foo¶ ¶foo¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Going in Foo now."¶ ¶"Going in Foo now."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶going¶ ¶going¶ 20
+¶to¶ ¶to¶ 20
+¶foo¶ ¶foo¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Going to Foo now."¶ ¶"Going to Foo now."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶going¶ ¶going¶ 20
+¶from¶ ¶from¶ 20
+¶foo¶ ¶foo¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Going from Foo now."¶ ¶"Going from Foo now."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶going¶ ¶going¶ 20
+¶in¶ ¶in¶ 20
+¶Corridor¶ ¶corridor¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Going in Corridor now."¶ ¶"Going in Corridor now."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶going¶ ¶going¶ 20
+¶to¶ ¶to¶ 20
+¶Corridor¶ ¶corridor¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Going to Corridor now."¶ ¶"Going to Corridor now."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶going¶ ¶going¶ 20
+¶from¶ ¶from¶ 20
+¶Corridor¶ ¶corridor¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Going from Corridor now."¶ ¶"Going from Corridor now."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"actions / bar foo / s / n"¶ ¶"actions / bar foo / s / n"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

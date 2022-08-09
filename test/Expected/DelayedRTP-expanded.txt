@@ -1,0 +1,59 @@
+47 words
+¶the¶ ¶kitchen¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶person¶ ¶has¶ ¶number¶ ¶called¶ ¶size¶ ¶player¶ ¶carries¶ ¶banana¶ ¶description¶ ¶of¶ ¶"Banana size A: "¶ ¶,¶ ¶"."¶ ¶instead¶ ¶touching¶ ¶:¶ ¶say¶ ¶"Banana size B: "¶ ¶"."¶ ¶test¶ ¶me¶ ¶with¶ ¶"x banana / touch banana"¶ 
+30 distinct words
+¶The¶ ¶the¶ 0a
+¶Kitchen¶ ¶kitchen¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶person¶ ¶person¶ 20
+¶has¶ ¶has¶ 20
+¶a¶ ¶a¶ 20
+¶number¶ ¶number¶ 20
+¶called¶ ¶called¶ 20
+¶size¶ ¶size¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶carries¶ ¶carries¶ 20
+¶a¶ ¶a¶ 20
+¶banana¶ ¶banana¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶description¶ ¶description¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶banana¶ ¶banana¶ 20
+¶is¶ ¶is¶ 20
+¶"Banana size A: "¶ ¶"Banana size A: "¶ 20
+¶,¶ ¶,¶ 20
+¶size¶ ¶size¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶touching¶ ¶touching¶ 20
+¶the¶ ¶the¶ 20
+¶banana¶ ¶banana¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Banana size B: "¶ ¶"Banana size B: "¶ 20
+¶,¶ ¶,¶ 20
+¶size¶ ¶size¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"x banana / touch banana"¶ ¶"x banana / touch banana"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

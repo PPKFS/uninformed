@@ -1,0 +1,28 @@
+33 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶kate¶ ¶woman¶ ¶the¶ ¶player¶ ¶|__¶ ¶test¶ ¶me¶ ¶with¶ ¶"pronouns / trace 5 / x it / pronouns / x him / x her / x them"¶ 
+14 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶Kate¶ ¶kate¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶woman¶ ¶woman¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶is¶ ¶is¶ 20
+¶Kate¶ ¶kate¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"pronouns / trace 5 / x it / pronouns / x him / x her / x them"¶ ¶"pronouns / trace 5 / x it / pronouns / x him / x her / x them"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

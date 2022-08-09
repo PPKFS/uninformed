@@ -1,0 +1,42 @@
+32 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶volume¶ ¶1g¶ ¶(¶ ¶for¶ ¶glulx¶ ¶only¶ ¶)¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶say¶ ¶"This is a Glulx game."¶ ¶1z¶ ¶z-machine¶ ¶"This is a Z-machine game."¶ 
+22 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Volume¶ ¶volume¶ 20
+¶1G¶ ¶1g¶ 20
+¶(¶ ¶(¶ 20
+¶for¶ ¶for¶ 20
+¶Glulx¶ ¶glulx¶ 20
+¶only¶ ¶only¶ 20
+¶)¶ ¶)¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"This is a Glulx game."¶ ¶"This is a Glulx game."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Volume¶ ¶volume¶ 20
+¶1Z¶ ¶1z¶ 20
+¶(¶ ¶(¶ 20
+¶for¶ ¶for¶ 20
+¶Z-machine¶ ¶z-machine¶ 20
+¶only¶ ¶only¶ 20
+¶)¶ ¶)¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"This is a Z-machine game."¶ ¶"This is a Z-machine game."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

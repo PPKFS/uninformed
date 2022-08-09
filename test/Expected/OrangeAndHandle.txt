@@ -1,0 +1,46 @@
+35 words
+¶the¶ ¶dome¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶brass¶ ¶door¶ ¶in¶ ¶handle¶ ¶part¶ ¶of¶ ¶orange¶ ¶test¶ ¶me¶ ¶with¶ ¶"take orange and handle"¶ 
+18 distinct words
+¶The¶ ¶the¶ 0a
+¶dome¶ ¶dome¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶brass¶ ¶brass¶ 20
+¶door¶ ¶door¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶dome¶ ¶dome¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶brass¶ ¶brass¶ 20
+¶handle¶ ¶handle¶ 20
+¶is¶ ¶is¶ 20
+¶part¶ ¶part¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶brass¶ ¶brass¶ 20
+¶door¶ ¶door¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶brass¶ ¶brass¶ 20
+¶orange¶ ¶orange¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶dome¶ ¶dome¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"take orange and handle"¶ ¶"take orange and handle"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

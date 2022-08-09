@@ -1,0 +1,69 @@
+67 words
+¶lab¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶the¶ ¶library¶ ¶computer¶ ¶in¶ ¶understand¶ ¶"alpha/beta/gamma/--"¶ ¶as¶ ¶""¶ ¶,¶ ¶greek¶ ¶""¶ ¶"google "¶ ¶" for/aboot/-- "¶ ¶text¶ ¶" in/on "¶ ¶""¶ ¶consulting¶ ¶it¶ ¶about¶ ¶(¶ ¶with¶ ¶nouns¶ ¶reversed¶ ¶)¶ ¶test¶ ¶me¶ ¶"google for fish on the computer / google alpha for fish on the
+computer / google beta for fish on the computer / google gamma for fish on
+the computer / google fish on the computer"¶ 
+33 distinct words
+¶Lab¶ ¶lab¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶library¶ ¶library¶ 20
+¶computer¶ ¶computer¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶lab¶ ¶lab¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"alpha/beta/gamma/--"¶ ¶"alpha/beta/gamma/--"¶ 20
+¶as¶ ¶as¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶greek¶ ¶greek¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"google "¶ ¶"google "¶ 20
+¶,¶ ¶,¶ 20
+¶greek¶ ¶greek¶ 20
+¶,¶ ¶,¶ 20
+¶" for/aboot/-- "¶ ¶" for/aboot/-- "¶ 20
+¶,¶ ¶,¶ 20
+¶text¶ ¶text¶ 20
+¶,¶ ¶,¶ 20
+¶" in/on "¶ ¶" in/on "¶ 20
+¶,¶ ¶,¶ 20
+¶library¶ ¶library¶ 20
+¶computer¶ ¶computer¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶consulting¶ ¶consulting¶ 0a
+¶it¶ ¶it¶ 20
+¶about¶ ¶about¶ 20
+¶(¶ ¶(¶ 20
+¶with¶ ¶with¶ 20
+¶nouns¶ ¶nouns¶ 20
+¶reversed¶ ¶reversed¶ 20
+¶)¶ ¶)¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"google for fish on the computer / google alpha for fish on the
+computer / google beta for fish on the computer / google gamma for fish on
+the computer / google fish on the computer"¶ ¶"google for fish on the computer / google alpha for fish on the
+computer / google beta for fish on the computer / google gamma for fish on
+the computer / google fish on the computer"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

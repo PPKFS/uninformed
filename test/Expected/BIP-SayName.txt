@@ -1,0 +1,37 @@
+59 words
+¶the¶ ¶planet¶ ¶mars¶ ¶is¶ ¶an¶ ¶object¶ ¶.¶ ¶asteroid¶ ¶ceres¶ ¶|__¶ ¶to¶ ¶begin¶ ¶:¶ ¶showme¶ ¶;¶ ¶say¶ ¶"Look! It's [Mars]. Yes, [the planet Mars]; not just [a Mars]. [The Mars]. [A Mars]? Nope."¶ ¶"Look! It's [Ceres]. Yes, [the asteroid Ceres]; not just [a Ceres], or [an asteroid]. [The Ceres]. [A Ceres]? Nope. [An asteroid]? Seriously not."¶ 
+18 distinct words
+¶The¶ ¶the¶ 0a
+¶planet¶ ¶planet¶ 20
+¶Mars¶ ¶mars¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶object¶ ¶object¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶asteroid¶ ¶asteroid¶ 20
+¶Ceres¶ ¶ceres¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶object¶ ¶object¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶showme¶ ¶showme¶ 41
+¶Mars¶ ¶mars¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Look! It's [Mars]. Yes, [the planet Mars]; not just [a Mars]. [The Mars]. [A Mars]? Nope."¶ ¶"Look! It's [Mars]. Yes, [the planet Mars]; not just [a Mars]. [The Mars]. [A Mars]? Nope."¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶Ceres¶ ¶ceres¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Look! It's [Ceres]. Yes, [the asteroid Ceres]; not just [a Ceres], or [an asteroid]. [The Ceres]. [A Ceres]? Nope. [An asteroid]? Seriously not."¶ ¶"Look! It's [Ceres]. Yes, [the asteroid Ceres]; not just [a Ceres], or [an asteroid]. [The Ceres]. [A Ceres]? Nope. [An asteroid]? Seriously not."¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

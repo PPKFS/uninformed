@@ -1,0 +1,107 @@
+100 words
+¶to¶ ¶begin¶ ¶:¶ ¶say¶ ¶"This has a"¶ ¶,¶ ¶line¶ ¶break¶ ¶"sudden line break."¶ ¶""¶ ¶;¶ ¶"There's no skipped line above this one."¶ ¶no¶ ¶""¶ ¶" And we didn't break a line just then."¶ ¶"But here's a paragraph break."¶ ¶paragraph¶ ¶""¶ ¶"And here I resume."¶ ¶run¶ ¶on¶ ¶""¶ ¶""¶ ¶conditional¶ ¶""¶ ¶"There wasn't a para break before this line."¶ ¶""¶ ¶""¶ ¶"But there was before this line."¶ ¶""¶ ¶""¶ ¶showme¶ ¶whether¶ ¶or¶ ¶not¶ ¶a¶ ¶is¶ ¶pending¶ ¶"Now I say something, and "¶ ¶|__¶ 
+40 distinct words
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"This has a"¶ ¶"This has a"¶ 20
+¶,¶ ¶,¶ 20
+¶line¶ ¶line¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶"sudden line break."¶ ¶"sudden line break."¶ 20
+¶,¶ ¶,¶ 20
+¶line¶ ¶line¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"There's no skipped line above this one."¶ ¶"There's no skipped line above this one."¶ 20
+¶,¶ ¶,¶ 20
+¶no¶ ¶no¶ 20
+¶line¶ ¶line¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶" And we didn't break a line just then."¶ ¶" And we didn't break a line just then."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"But here's a paragraph break."¶ ¶"But here's a paragraph break."¶ 20
+¶,¶ ¶,¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"And here I resume."¶ ¶"And here I resume."¶ 20
+¶,¶ ¶,¶ 20
+¶run¶ ¶run¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶on¶ ¶on¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶conditional¶ ¶conditional¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"There wasn't a para break before this line."¶ ¶"There wasn't a para break before this line."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶conditional¶ ¶conditional¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"But there was before this line."¶ ¶"But there was before this line."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶whether¶ ¶whether¶ 20
+¶or¶ ¶or¶ 20
+¶not¶ ¶not¶ 20
+¶a¶ ¶a¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶is¶ ¶is¶ 20
+¶pending¶ ¶pending¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Now I say something, and "¶ ¶"Now I say something, and "¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶whether¶ ¶whether¶ 20
+¶or¶ ¶or¶ 20
+¶not¶ ¶not¶ 20
+¶a¶ ¶a¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶is¶ ¶is¶ 20
+¶pending¶ ¶pending¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

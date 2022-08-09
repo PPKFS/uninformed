@@ -1,0 +1,40 @@
+26 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶foo¶ ¶list¶ ¶of¶ ¶text¶ ¶that¶ ¶varies¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶now¶ ¶{¶ ¶}¶ ¶;¶ ¶add¶ ¶"hello"¶ ¶to¶ ¶say¶ ¶"Foo is [foo]."¶ 
+25 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Foo¶ ¶foo¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶list¶ ¶list¶ 20
+¶of¶ ¶of¶ 20
+¶text¶ ¶text¶ 20
+¶that¶ ¶that¶ 20
+¶varies¶ ¶varies¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶now¶ ¶now¶ 41
+¶foo¶ ¶foo¶ 20
+¶is¶ ¶is¶ 20
+¶{¶ ¶{¶ 20
+¶}¶ ¶}¶ 20
+¶;¶ ¶;¶ 20
+¶add¶ ¶add¶ 41
+¶"hello"¶ ¶"hello"¶ 20
+¶to¶ ¶to¶ 20
+¶foo¶ ¶foo¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Foo is [foo]."¶ ¶"Foo is [foo]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

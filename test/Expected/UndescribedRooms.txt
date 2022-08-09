@@ -1,0 +1,78 @@
+63 words
+¶the¶ ¶testing¶ ¶room¶ ¶is¶ ¶a¶ ¶.¶ ¶|__¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶if¶ ¶description¶ ¶of¶ ¶""¶ ¶say¶ ¶"Equal (A)."¶ ¶;¶ ¶otherwise¶ ¶"Not equal (A)."¶ ¶exactly¶ ¶matches¶ ¶text¶ ¶""¶ ¶"Equal (B)."¶ ¶"Not equal (B)."¶ ¶""¶ ¶"Equal (C)."¶ ¶"Not equal (C)."¶ 
+29 distinct words
+¶The¶ ¶the¶ 0a
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 41
+¶the¶ ¶the¶ 20
+¶description¶ ¶description¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶is¶ ¶is¶ 20
+¶""¶ ¶""¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"Equal (A)."¶ ¶"Equal (A)."¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 41
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"Not equal (A)."¶ ¶"Not equal (A)."¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶the¶ ¶the¶ 20
+¶description¶ ¶description¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶exactly¶ ¶exactly¶ 20
+¶matches¶ ¶matches¶ 20
+¶the¶ ¶the¶ 20
+¶text¶ ¶text¶ 20
+¶""¶ ¶""¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"Equal (B)."¶ ¶"Equal (B)."¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 41
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"Not equal (B)."¶ ¶"Not equal (B)."¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶""¶ ¶""¶ 20
+¶exactly¶ ¶exactly¶ 20
+¶matches¶ ¶matches¶ 20
+¶the¶ ¶the¶ 20
+¶text¶ ¶text¶ 20
+¶the¶ ¶the¶ 20
+¶description¶ ¶description¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"Equal (C)."¶ ¶"Equal (C)."¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 41
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"Not equal (C)."¶ ¶"Not equal (C)."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

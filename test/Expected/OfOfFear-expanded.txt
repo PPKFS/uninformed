@@ -1,0 +1,160 @@
+173 words
+¶"The Of Of Fear"¶ ¶|__¶ ¶the¶ ¶duke¶ ¶of¶ ¶clarence¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"A fine public house in the 18th-century
+style."¶ ¶in¶ ¶are¶ ¶pack¶ ¶cards¶ ¶and¶ ¶set¶ ¶wine¶ ¶glasses¶ ¶description¶ ¶"A crudely-printed deck, stamped with a
+cheap woodcut dipped in cheaper ink."¶ ¶instead¶ ¶waiting¶ ¶presence¶ ¶,¶ ¶say¶ ¶"You feel an
+irresistable urge to gamble."¶ ¶east¶ ¶back¶ ¶north¶ ¶garden¶ ¶queen¶ ¶england¶ ¶kind¶ ¶woman¶ ¶eleanor¶ ¶aquitaine¶ ¶has¶ ¶text¶ ¶called¶ ¶point¶ ¶view¶ ¶"That the Old French of 'of', the OF of 'of' so to speak, is 'de'."¶ ¶test¶ ¶me¶ ¶with¶ ¶"showme / east / south / showme eleanor"¶ 
+47 distinct words
+¶"The Of Of Fear"¶ ¶"The Of Of Fear"¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶Duke¶ ¶duke¶ 20
+¶of¶ ¶of¶ 20
+¶Clarence¶ ¶clarence¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"A fine public house in the 18th-century
+style."¶ ¶"A fine public house in the 18th-century
+style."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶In¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Duke¶ ¶duke¶ 20
+¶of¶ ¶of¶ 20
+¶Clarence¶ ¶clarence¶ 20
+¶are¶ ¶are¶ 20
+¶a¶ ¶a¶ 20
+¶pack¶ ¶pack¶ 20
+¶of¶ ¶of¶ 20
+¶cards¶ ¶cards¶ 20
+¶and¶ ¶and¶ 20
+¶a¶ ¶a¶ 20
+¶set¶ ¶set¶ 20
+¶of¶ ¶of¶ 20
+¶wine¶ ¶wine¶ 20
+¶glasses¶ ¶glasses¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶description¶ ¶description¶ 0a
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶pack¶ ¶pack¶ 20
+¶of¶ ¶of¶ 20
+¶cards¶ ¶cards¶ 20
+¶is¶ ¶is¶ 20
+¶"A crudely-printed deck, stamped with a
+cheap woodcut dipped in cheaper ink."¶ ¶"A crudely-printed deck, stamped with a
+cheap woodcut dipped in cheaper ink."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶presence¶ ¶presence¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶pack¶ ¶pack¶ 20
+¶of¶ ¶of¶ 20
+¶cards¶ ¶cards¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"You feel an
+irresistable urge to gamble."¶ ¶"You feel an
+irresistable urge to gamble."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶East¶ ¶east¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶Duke¶ ¶duke¶ 20
+¶of¶ ¶of¶ 20
+¶Clarence¶ ¶clarence¶ 20
+¶is¶ ¶is¶ 20
+¶the¶ ¶the¶ 20
+¶Back¶ ¶back¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶Duke¶ ¶duke¶ 20
+¶of¶ ¶of¶ 20
+¶Clarence¶ ¶clarence¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶Back¶ ¶back¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶Duke¶ ¶duke¶ 20
+¶of¶ ¶of¶ 20
+¶Clarence¶ ¶clarence¶ 20
+¶is¶ ¶is¶ 20
+¶north¶ ¶north¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶Garden¶ ¶garden¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶Duke¶ ¶duke¶ 20
+¶of¶ ¶of¶ 20
+¶Clarence¶ ¶clarence¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶Queen¶ ¶queen¶ 20
+¶of¶ ¶of¶ 20
+¶England¶ ¶england¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶woman¶ ¶woman¶ 20
+¶.¶ ¶.¶ 20
+¶Eleanor¶ ¶eleanor¶ 20
+¶of¶ ¶of¶ 20
+¶Aquitaine¶ ¶aquitaine¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶Queen¶ ¶queen¶ 20
+¶of¶ ¶of¶ 20
+¶England¶ ¶england¶ 0a
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Garden¶ ¶garden¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶Duke¶ ¶duke¶ 20
+¶of¶ ¶of¶ 20
+¶Clarence¶ ¶clarence¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶Queen¶ ¶queen¶ 20
+¶of¶ ¶of¶ 20
+¶England¶ ¶england¶ 20
+¶has¶ ¶has¶ 20
+¶a¶ ¶a¶ 20
+¶text¶ ¶text¶ 0a
+¶called¶ ¶called¶ 20
+¶point¶ ¶point¶ 20
+¶of¶ ¶of¶ 20
+¶view¶ ¶view¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶point¶ ¶point¶ 20
+¶of¶ ¶of¶ 20
+¶view¶ ¶view¶ 20
+¶of¶ ¶of¶ 20
+¶Eleanor¶ ¶eleanor¶ 20
+¶of¶ ¶of¶ 20
+¶Aquitaine¶ ¶aquitaine¶ 20
+¶is¶ ¶is¶ 20
+¶"That the Old French of 'of', the OF of 'of' so to speak, is 'de'."¶ ¶"That the Old French of 'of', the OF of 'of' so to speak, is 'de'."¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"showme / east / south / showme eleanor"¶ ¶"showme / east / south / showme eleanor"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

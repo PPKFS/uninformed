@@ -1,0 +1,245 @@
+190 words
+¶to¶ ¶stand¶ ¶is¶ ¶a¶ ¶verb¶ ¶.¶ ¶|__¶ ¶the¶ ¶taj¶ ¶mahal¶ ¶room¶ ¶""¶ ¶,¶ ¶we¶ ¶" "¶ ¶" to admire the Taj Mahal."¶ ¶shimmer¶ ¶world¶ ¶thing¶ ¶adopting¶ ¶an¶ ¶action¶ ¶applying¶ ¶one¶ ¶grammatical¶ ¶tense¶ ¶carry¶ ¶out¶ ¶:¶ ¶say¶ ¶"The "¶ ¶" "¶ ¶" into the "¶ ¶understood¶ ¶"."¶ ¶;¶ ¶now¶ ¶story¶ ¶understand¶ ¶"adopt "¶ ¶""¶ ¶as¶ ¶regarding¶ ¶narrative¶ ¶viewpoint¶ ¶""¶ ¶" "¶ ¶" into the "¶ ¶"."¶ ¶"regard as "¶ ¶""¶ ¶fish¶ ¶and¶ ¶some¶ ¶condensers¶ ¶are¶ ¶here¶ ¶move¶ ¶instead¶ ¶of¶ ¶taking¶ ¶something¶ ¶""¶ ¶noun¶ ¶" "¶ ¶" pinned down by Dr Zarkov's force field. "¶ ¶they¶ ¶"
+"¶ ¶aren't¶ ¶" free to move. "¶ ¶" "¶ ¶can't¶ ¶" move. "¶ ¶" "¶ ¶won't¶ ¶" move. "¶ ¶"
+"¶ ¶haven't¶ ¶" a chance to move. Anyhow, "¶ ¶" "¶ ¶don't¶ ¶" move."¶ ¶test¶ ¶me¶ ¶with¶ ¶"get me / get fish / get condensers / adopt past tense / get me /
+get fish / get condensers / adopt future tense / get me / get fish / get
+condensers"¶ 
+86 distinct words
+¶To¶ ¶to¶ 0a
+¶stand¶ ¶stand¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶verb¶ ¶verb¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶Taj¶ ¶taj¶ 20
+¶Mahal¶ ¶mahal¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶We¶ ¶we¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶stand¶ ¶stand¶ 20
+¶,¶ ¶,¶ 20
+¶" to admire the Taj Mahal."¶ ¶" to admire the Taj Mahal."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶shimmer¶ ¶shimmer¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶verb¶ ¶verb¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶world¶ ¶world¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Adopting¶ ¶adopting¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶grammatical¶ ¶grammatical¶ 20
+¶tense¶ ¶tense¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶adopting¶ ¶adopting¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"The "¶ ¶"The "¶ 20
+¶,¶ ¶,¶ 20
+¶world¶ ¶world¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶shimmer¶ ¶shimmer¶ 20
+¶,¶ ¶,¶ 20
+¶" into the "¶ ¶" into the "¶ 20
+¶,¶ ¶,¶ 20
+¶grammatical¶ ¶grammatical¶ 20
+¶tense¶ ¶tense¶ 20
+¶understood¶ ¶understood¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶now¶ ¶now¶ 41
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 20
+¶tense¶ ¶tense¶ 20
+¶is¶ ¶is¶ 20
+¶the¶ ¶the¶ 20
+¶grammatical¶ ¶grammatical¶ 20
+¶tense¶ ¶tense¶ 20
+¶understood¶ ¶understood¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"adopt "¶ ¶"adopt "¶ 20
+¶,¶ ¶,¶ 20
+¶grammatical¶ ¶grammatical¶ 20
+¶tense¶ ¶tense¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶adopting¶ ¶adopting¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Regarding¶ ¶regarding¶ 20
+¶as¶ ¶as¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶narrative¶ ¶narrative¶ 20
+¶viewpoint¶ ¶viewpoint¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶regarding¶ ¶regarding¶ 20
+¶as¶ ¶as¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶We¶ ¶we¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶shimmer¶ ¶shimmer¶ 20
+¶,¶ ¶,¶ 20
+¶" into the "¶ ¶" into the "¶ 20
+¶,¶ ¶,¶ 20
+¶narrative¶ ¶narrative¶ 20
+¶viewpoint¶ ¶viewpoint¶ 20
+¶understood¶ ¶understood¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶now¶ ¶now¶ 41
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 20
+¶viewpoint¶ ¶viewpoint¶ 20
+¶is¶ ¶is¶ 20
+¶the¶ ¶the¶ 20
+¶narrative¶ ¶narrative¶ 20
+¶viewpoint¶ ¶viewpoint¶ 20
+¶understood¶ ¶understood¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"regard as "¶ ¶"regard as "¶ 20
+¶,¶ ¶,¶ 20
+¶narrative¶ ¶narrative¶ 20
+¶viewpoint¶ ¶viewpoint¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶regarding¶ ¶regarding¶ 20
+¶as¶ ¶as¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶fish¶ ¶fish¶ 20
+¶and¶ ¶and¶ 20
+¶some¶ ¶some¶ 20
+¶condensers¶ ¶condensers¶ 20
+¶are¶ ¶are¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶move¶ ¶move¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶verb¶ ¶verb¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶taking¶ ¶taking¶ 20
+¶something¶ ¶something¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶The¶ ¶the¶ 20
+¶noun¶ ¶noun¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶are¶ ¶are¶ 20
+¶,¶ ¶,¶ 20
+¶" pinned down by Dr Zarkov's force field. "¶ ¶" pinned down by Dr Zarkov's force field. "¶ 20
+¶,¶ ¶,¶ 20
+¶They¶ ¶they¶ 20
+¶,¶ ¶,¶ 20
+¶"
+"¶ ¶"
+"¶ 20
+¶,¶ ¶,¶ 20
+¶aren't¶ ¶aren't¶ 20
+¶,¶ ¶,¶ 20
+¶" free to move. "¶ ¶" free to move. "¶ 20
+¶,¶ ¶,¶ 20
+¶They¶ ¶they¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶can't¶ ¶can't¶ 20
+¶,¶ ¶,¶ 20
+¶" move. "¶ ¶" move. "¶ 20
+¶,¶ ¶,¶ 20
+¶They¶ ¶they¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶won't¶ ¶won't¶ 20
+¶,¶ ¶,¶ 20
+¶" move. "¶ ¶" move. "¶ 20
+¶,¶ ¶,¶ 20
+¶They¶ ¶they¶ 20
+¶,¶ ¶,¶ 20
+¶"
+"¶ ¶"
+"¶ 20
+¶,¶ ¶,¶ 20
+¶haven't¶ ¶haven't¶ 20
+¶,¶ ¶,¶ 20
+¶" a chance to move. Anyhow, "¶ ¶" a chance to move. Anyhow, "¶ 20
+¶,¶ ¶,¶ 20
+¶they¶ ¶they¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶don't¶ ¶don't¶ 20
+¶,¶ ¶,¶ 20
+¶" move."¶ ¶" move."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"get me / get fish / get condensers / adopt past tense / get me /
+get fish / get condensers / adopt future tense / get me / get fish / get
+condensers"¶ ¶"get me / get fish / get condensers / adopt past tense / get me /
+get fish / get condensers / adopt future tense / get me / get fish / get
+condensers"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,29 @@
+22 words
+¶venice¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶bug¶ ¶in¶ ¶the¶ ¶indefinite¶ ¶article¶ ¶of¶ ¶"this"¶ ¶"[A bug] regards you fondly."¶ 
+14 distinct words
+¶Venice¶ ¶venice¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶bug¶ ¶bug¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶Venice¶ ¶venice¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶indefinite¶ ¶indefinite¶ 20
+¶article¶ ¶article¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶bug¶ ¶bug¶ 20
+¶is¶ ¶is¶ 20
+¶"this"¶ ¶"this"¶ 20
+¶.¶ ¶.¶ 20
+¶"[A bug] regards you fondly."¶ ¶"[A bug] regards you fondly."¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

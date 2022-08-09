@@ -1,0 +1,108 @@
+84 words
+¶to¶ ¶begin¶ ¶:¶ ¶say¶ ¶"Hello."¶ ¶;¶ ¶"fish"¶ ¶" and fowl!"¶ ¶17¶ ¶,¶ ¶" doors."¶ ¶""¶ ¶4¶ ¶in¶ ¶words¶ ¶" ladder"¶ ¶s¶ ¶"."¶ ¶""¶ ¶1¶ ¶" way"¶ ¶" out."¶ ¶let¶ ¶n¶ ¶be¶ ¶-2147483647¶ ¶"The minimum integer is almost "¶ ¶", which is "¶ ¶"."¶ ¶-¶ ¶"The minimum integer actually is "¶ ¶", which is "¶ ¶"."¶ ¶"But the maximum integer is "¶ ¶", which is "¶ ¶"."¶ ¶|__¶ 
+37 distinct words
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Hello."¶ ¶"Hello."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"fish"¶ ¶"fish"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶" and fowl!"¶ ¶" and fowl!"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶17¶ ¶17¶ 20
+¶,¶ ¶,¶ 20
+¶" doors."¶ ¶" doors."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶4¶ ¶4¶ 20
+¶in¶ ¶in¶ 20
+¶words¶ ¶words¶ 20
+¶,¶ ¶,¶ 20
+¶" ladder"¶ ¶" ladder"¶ 20
+¶,¶ ¶,¶ 20
+¶s¶ ¶s¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶1¶ ¶1¶ 20
+¶in¶ ¶in¶ 20
+¶words¶ ¶words¶ 20
+¶,¶ ¶,¶ 20
+¶" way"¶ ¶" way"¶ 20
+¶,¶ ¶,¶ 20
+¶s¶ ¶s¶ 20
+¶,¶ ¶,¶ 20
+¶" out."¶ ¶" out."¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶N¶ ¶n¶ 20
+¶be¶ ¶be¶ 20
+¶-2147483647¶ ¶-2147483647¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The minimum integer is almost "¶ ¶"The minimum integer is almost "¶ 20
+¶,¶ ¶,¶ 20
+¶N¶ ¶n¶ 20
+¶,¶ ¶,¶ 20
+¶", which is "¶ ¶", which is "¶ 20
+¶,¶ ¶,¶ 20
+¶N¶ ¶n¶ 20
+¶in¶ ¶in¶ 20
+¶words¶ ¶words¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶N¶ ¶n¶ 20
+¶be¶ ¶be¶ 20
+¶N¶ ¶n¶ 20
+¶-¶ ¶-¶ 20
+¶1¶ ¶1¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The minimum integer actually is "¶ ¶"The minimum integer actually is "¶ 20
+¶,¶ ¶,¶ 20
+¶N¶ ¶n¶ 20
+¶,¶ ¶,¶ 20
+¶", which is "¶ ¶", which is "¶ 20
+¶,¶ ¶,¶ 20
+¶N¶ ¶n¶ 20
+¶in¶ ¶in¶ 20
+¶words¶ ¶words¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶N¶ ¶n¶ 20
+¶be¶ ¶be¶ 20
+¶N¶ ¶n¶ 20
+¶-¶ ¶-¶ 20
+¶1¶ ¶1¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"But the maximum integer is "¶ ¶"But the maximum integer is "¶ 20
+¶,¶ ¶,¶ 20
+¶N¶ ¶n¶ 20
+¶,¶ ¶,¶ 20
+¶", which is "¶ ¶", which is "¶ 20
+¶,¶ ¶,¶ 20
+¶N¶ ¶n¶ 20
+¶in¶ ¶in¶ 20
+¶words¶ ¶words¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

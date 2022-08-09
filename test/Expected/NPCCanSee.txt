@@ -1,0 +1,57 @@
+46 words
+¶darkroom¶ ¶is¶ ¶a¶ ¶dark¶ ¶room¶ ¶.¶ ¶|__¶ ¶one¶ ¶hour¶ ¶photo¶ ¶south¶ ¶of¶ ¶robin¶ ¶here¶ ¶cash¶ ¶register¶ ¶instead¶ ¶waiting¶ ¶:¶ ¶if¶ ¶can¶ ¶see¶ ¶the¶ ¶,¶ ¶say¶ ¶"Robin can see it."¶ ¶;¶ ¶otherwise¶ ¶"Whoops!"¶ ¶test¶ ¶me¶ ¶with¶ ¶"z / s / z"¶ 
+33 distinct words
+¶Darkroom¶ ¶darkroom¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶dark¶ ¶dark¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶One¶ ¶one¶ 20
+¶Hour¶ ¶hour¶ 20
+¶Photo¶ ¶photo¶ 20
+¶is¶ ¶is¶ 20
+¶south¶ ¶south¶ 20
+¶of¶ ¶of¶ 20
+¶Darkroom¶ ¶darkroom¶ 20
+¶.¶ ¶.¶ 20
+¶Robin¶ ¶robin¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶cash¶ ¶cash¶ 20
+¶register¶ ¶register¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 41
+¶Robin¶ ¶robin¶ 20
+¶can¶ ¶can¶ 20
+¶see¶ ¶see¶ 20
+¶the¶ ¶the¶ 20
+¶cash¶ ¶cash¶ 20
+¶register¶ ¶register¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"Robin can see it."¶ ¶"Robin can see it."¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 41
+¶say¶ ¶say¶ 20
+¶"Whoops!"¶ ¶"Whoops!"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z / s / z"¶ ¶"z / s / z"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

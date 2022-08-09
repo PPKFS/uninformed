@@ -1,0 +1,36 @@
+19 words
+¶to¶ ¶begin¶ ¶:¶ ¶let¶ ¶l¶ ¶be¶ ¶a¶ ¶list¶ ¶of¶ ¶numbers¶ ¶;¶ ¶now¶ ¶is¶ ¶{¶ ¶}¶ ¶if¶ ¶say¶ ¶""¶ ¶,¶ ¶" is empty."¶ ¶|__¶ 
+21 distinct words
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶let¶ ¶let¶ 41
+¶L¶ ¶l¶ 20
+¶be¶ ¶be¶ 20
+¶a¶ ¶a¶ 20
+¶list¶ ¶list¶ 20
+¶of¶ ¶of¶ 20
+¶numbers¶ ¶numbers¶ 20
+¶;¶ ¶;¶ 20
+¶now¶ ¶now¶ 41
+¶L¶ ¶l¶ 20
+¶is¶ ¶is¶ 20
+¶{¶ ¶{¶ 20
+¶}¶ ¶}¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶L¶ ¶l¶ 20
+¶is¶ ¶is¶ 20
+¶{¶ ¶{¶ 20
+¶}¶ ¶}¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶L¶ ¶l¶ 20
+¶,¶ ¶,¶ 20
+¶" is empty."¶ ¶" is empty."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,103 @@
+85 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶foobar¶ ¶kind¶ ¶of¶ ¶thing¶ ¶the¶ ¶generic¶ ¶and¶ ¶special¶ ¶are¶ ¶foobars¶ ¶in¶ ¶definition¶ ¶:¶ ¶satisfied¶ ¶if¶ ¶it¶ ¶held¶ ¶by¶ ¶player¶ ¶not¶ ¶description¶ ¶usually¶ ¶""¶ ¶,¶ ¶noun¶ ¶" is
+"¶ ¶"un"¶ ¶end¶ ¶"satisfied."¶ ¶test¶ ¶me¶ ¶with¶ ¶"x generic foobar / x special foobar / take all /
+x generic foobar / x special foobar"¶ 
+39 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶foobar¶ ¶foobar¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶thing¶ ¶thing¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶generic¶ ¶generic¶ 20
+¶foobar¶ ¶foobar¶ 20
+¶and¶ ¶and¶ 20
+¶the¶ ¶the¶ 20
+¶special¶ ¶special¶ 20
+¶foobar¶ ¶foobar¶ 20
+¶are¶ ¶are¶ 20
+¶foobars¶ ¶foobars¶ 20
+¶in¶ ¶in¶ 20
+¶Home¶ ¶home¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Definition¶ ¶definition¶ 20
+¶:¶ ¶:¶ 20
+¶a¶ ¶a¶ 20
+¶foobar¶ ¶foobar¶ 20
+¶is¶ ¶is¶ 20
+¶satisfied¶ ¶satisfied¶ 20
+¶if¶ ¶if¶ 20
+¶it¶ ¶it¶ 20
+¶is¶ ¶is¶ 20
+¶held¶ ¶held¶ 20
+¶by¶ ¶by¶ 20
+¶the¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Definition¶ ¶definition¶ 20
+¶:¶ ¶:¶ 20
+¶the¶ ¶the¶ 20
+¶special¶ ¶special¶ 20
+¶foobar¶ ¶foobar¶ 20
+¶is¶ ¶is¶ 20
+¶satisfied¶ ¶satisfied¶ 20
+¶if¶ ¶if¶ 20
+¶it¶ ¶it¶ 20
+¶is¶ ¶is¶ 20
+¶not¶ ¶not¶ 20
+¶held¶ ¶held¶ 20
+¶by¶ ¶by¶ 20
+¶the¶ ¶the¶ 0a
+¶player¶ ¶player¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶description¶ ¶description¶ 20
+¶of¶ ¶of¶ 20
+¶a¶ ¶a¶ 20
+¶foobar¶ ¶foobar¶ 20
+¶is¶ ¶is¶ 20
+¶usually¶ ¶usually¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶The¶ ¶the¶ 20
+¶noun¶ ¶noun¶ 20
+¶,¶ ¶,¶ 20
+¶" is
+"¶ ¶" is
+"¶ 20
+¶,¶ ¶,¶ 20
+¶if¶ ¶if¶ 20
+¶not¶ ¶not¶ 20
+¶satisfied¶ ¶satisfied¶ 20
+¶,¶ ¶,¶ 20
+¶"un"¶ ¶"un"¶ 20
+¶,¶ ¶,¶ 20
+¶end¶ ¶end¶ 20
+¶if¶ ¶if¶ 20
+¶,¶ ¶,¶ 20
+¶"satisfied."¶ ¶"satisfied."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"x generic foobar / x special foobar / take all /
+x generic foobar / x special foobar"¶ ¶"x generic foobar / x special foobar / take all /
+x generic foobar / x special foobar"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

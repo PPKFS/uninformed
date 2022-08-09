@@ -1,0 +1,64 @@
+66 words
+¶the¶ ¶study¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"A well-appointed study, with a large bookcase and an
+equally impressive desk."¶ ¶|__¶ ¶equally¶ ¶impressive¶ ¶desk¶ ¶here¶ ¶it¶ ¶scenery¶ ¶large¶ ¶bookcase¶ ¶understand¶ ¶"look behind "¶ ¶,¶ ¶something¶ ¶""¶ ¶as¶ ¶mistake¶ ¶(¶ ¶"There's no need to look
+behing anything in this game: EXAMINE and SEARCH should suffice."¶ ¶)¶ ¶test¶ ¶me¶ ¶with¶ ¶"look behind desk / look / look at desk"¶ 
+30 distinct words
+¶The¶ ¶the¶ 0a
+¶Study¶ ¶study¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"A well-appointed study, with a large bookcase and an
+equally impressive desk."¶ ¶"A well-appointed study, with a large bookcase and an
+equally impressive desk."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶equally¶ ¶equally¶ 20
+¶impressive¶ ¶impressive¶ 20
+¶desk¶ ¶desk¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶It¶ ¶it¶ 20
+¶is¶ ¶is¶ 20
+¶scenery¶ ¶scenery¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶large¶ ¶large¶ 20
+¶bookcase¶ ¶bookcase¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶It¶ ¶it¶ 20
+¶is¶ ¶is¶ 20
+¶scenery¶ ¶scenery¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"look behind "¶ ¶"look behind "¶ 20
+¶,¶ ¶,¶ 20
+¶something¶ ¶something¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶a¶ ¶a¶ 20
+¶mistake¶ ¶mistake¶ 20
+¶(¶ ¶(¶ 20
+¶"There's no need to look
+behing anything in this game: EXAMINE and SEARCH should suffice."¶ ¶"There's no need to look
+behing anything in this game: EXAMINE and SEARCH should suffice."¶ 20
+¶)¶ ¶)¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"look behind desk / look / look at desk"¶ ¶"look behind desk / look / look at desk"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

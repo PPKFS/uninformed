@@ -1,0 +1,49 @@
+41 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶the¶ ¶message¶ ¶an¶ ¶text¶ ¶which¶ ¶varies¶ ¶every¶ ¶turn¶ ¶when¶ ¶was¶ ¶"send more money"¶ ¶:¶ ¶say¶ ¶"Just checking."¶ ¶instead¶ ¶of¶ ¶jumping¶ ¶now¶ ¶"send more money"¶ ¶test¶ ¶me¶ ¶with¶ ¶"wait / jump / wait"¶ 
+29 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶message¶ ¶message¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶text¶ ¶text¶ 20
+¶which¶ ¶which¶ 20
+¶varies¶ ¶varies¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶message¶ ¶message¶ 20
+¶was¶ ¶was¶ 20
+¶"send more money"¶ ¶"send more money"¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Just checking."¶ ¶"Just checking."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶:¶ ¶:¶ 20
+¶now¶ ¶now¶ 20
+¶the¶ ¶the¶ 20
+¶message¶ ¶message¶ 20
+¶is¶ ¶is¶ 20
+¶"send more money"¶ ¶"send more money"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"wait / jump / wait"¶ ¶"wait / jump / wait"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

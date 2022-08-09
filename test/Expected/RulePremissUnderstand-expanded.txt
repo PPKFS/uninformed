@@ -1,0 +1,57 @@
+53 words
+¶place¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶graham¶ ¶man¶ ¶in¶ ¶the¶ ¶understand¶ ¶"i7"¶ ¶or¶ ¶"inform"¶ ¶"inform 7"¶ ¶as¶ ¶""¶ ¶,¶ ¶inform¶ ¶""¶ ¶after¶ ¶asking¶ ¶about¶ ¶""¶ ¶""¶ ¶:¶ ¶say¶ ¶"It's really rather good."¶ ¶test¶ ¶me¶ ¶with¶ ¶"ask graham about inform / ask graham about inform 7 / ask graham
+about inform 6 / ask graham about i7"¶ 
+32 distinct words
+¶Place¶ ¶place¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Graham¶ ¶graham¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶man¶ ¶man¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Place¶ ¶place¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"i7"¶ ¶"i7"¶ 20
+¶or¶ ¶or¶ 20
+¶"inform"¶ ¶"inform"¶ 20
+¶or¶ ¶or¶ 20
+¶"inform 7"¶ ¶"inform 7"¶ 20
+¶as¶ ¶as¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶inform¶ ¶inform¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶After¶ ¶after¶ 20
+¶asking¶ ¶asking¶ 20
+¶Graham¶ ¶graham¶ 20
+¶about¶ ¶about¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶inform¶ ¶inform¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"It's really rather good."¶ ¶"It's really rather good."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"ask graham about inform / ask graham about inform 7 / ask graham
+about inform 6 / ask graham about i7"¶ ¶"ask graham about inform / ask graham about inform 7 / ask graham
+about inform 6 / ask graham about i7"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,96 @@
+74 words
+¶the¶ ¶starting¶ ¶room¶ ¶is¶ ¶a¶ ¶.¶ ¶"Starting room."¶ ¶|__¶ ¶foobling¶ ¶an¶ ¶action¶ ¶applying¶ ¶to¶ ¶one¶ ¶visible¶ ¶thing¶ ¶understand¶ ¶"fooble
+"¶ ¶,¶ ¶something¶ ¶""¶ ¶as¶ ¶it¶ ¶with¶ ¶two¶ ¶things¶ ¶rule¶ ¶for¶ ¶printing¶ ¶name¶ ¶of¶ ¶when¶ ¶:¶ ¶say¶ ¶"fwoobled"¶ ¶"foobled"¶ ¶carry¶ ¶out¶ ¶"You see nothing unfoobly about "¶ ¶noun¶ ¶"."¶ ¶test¶ ¶me¶ ¶"fooble me"¶ 
+44 distinct words
+¶The¶ ¶the¶ 0a
+¶starting¶ ¶starting¶ 20
+¶room¶ ¶room¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"Starting room."¶ ¶"Starting room."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Foobling¶ ¶foobling¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶visible¶ ¶visible¶ 20
+¶thing¶ ¶thing¶ 20
+¶.¶ ¶.¶ 20
+¶Understand¶ ¶understand¶ 20
+¶"fooble
+"¶ ¶"fooble
+"¶ 20
+¶,¶ ¶,¶ 20
+¶something¶ ¶something¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶foobling¶ ¶foobling¶ 20
+¶.¶ ¶.¶ 20
+¶Foobling¶ ¶foobling¶ 0a
+¶it¶ ¶it¶ 20
+¶with¶ ¶with¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶two¶ ¶two¶ 20
+¶visible¶ ¶visible¶ 20
+¶things¶ ¶things¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Rule¶ ¶rule¶ 20
+¶for¶ ¶for¶ 20
+¶printing¶ ¶printing¶ 20
+¶the¶ ¶the¶ 20
+¶name¶ ¶name¶ 20
+¶of¶ ¶of¶ 20
+¶something¶ ¶something¶ 20
+¶when¶ ¶when¶ 20
+¶foobling¶ ¶foobling¶ 20
+¶something¶ ¶something¶ 20
+¶with¶ ¶with¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 0a
+¶"fwoobled"¶ ¶"fwoobled"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Rule¶ ¶rule¶ 20
+¶for¶ ¶for¶ 20
+¶printing¶ ¶printing¶ 20
+¶the¶ ¶the¶ 20
+¶name¶ ¶name¶ 20
+¶of¶ ¶of¶ 20
+¶something¶ ¶something¶ 20
+¶when¶ ¶when¶ 20
+¶foobling¶ ¶foobling¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 0a
+¶"foobled"¶ ¶"foobled"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶foobling¶ ¶foobling¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 0a
+¶"You see nothing unfoobly about "¶ ¶"You see nothing unfoobly about "¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶noun¶ ¶noun¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"fooble me"¶ ¶"fooble me"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

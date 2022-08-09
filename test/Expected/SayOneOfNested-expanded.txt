@@ -1,0 +1,70 @@
+57 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶""¶ ¶,¶ ¶one¶ ¶of¶ ¶"A palace on the "¶ ¶"Nile"¶ ¶or¶ ¶"Euphrates"¶ ¶purely¶ ¶at¶ ¶random¶ ¶"
+delta"¶ ¶"A hovel by the "¶ ¶"Tigris"¶ ¶"Rhine"¶ ¶"
+river"¶ ¶"."¶ ¶|__¶ ¶test¶ ¶me¶ ¶with¶ ¶"look / look / look / look / look / look / look / look / look"¶ 
+27 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"A palace on the "¶ ¶"A palace on the "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"Nile"¶ ¶"Nile"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"Euphrates"¶ ¶"Euphrates"¶ 20
+¶,¶ ¶,¶ 20
+¶purely¶ ¶purely¶ 20
+¶at¶ ¶at¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶"
+delta"¶ ¶"
+delta"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"A hovel by the "¶ ¶"A hovel by the "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"Tigris"¶ ¶"Tigris"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"Rhine"¶ ¶"Rhine"¶ 20
+¶,¶ ¶,¶ 20
+¶purely¶ ¶purely¶ 20
+¶at¶ ¶at¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶"
+river"¶ ¶"
+river"¶ 20
+¶,¶ ¶,¶ 20
+¶purely¶ ¶purely¶ 20
+¶at¶ ¶at¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"look / look / look / look / look / look / look / look / look"¶ ¶"look / look / look / look / look / look / look / look / look"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

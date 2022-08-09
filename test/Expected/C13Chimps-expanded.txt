@@ -1,0 +1,79 @@
+77 words
+¶the¶ ¶starting¶ ¶room¶ ¶is¶ ¶a¶ ¶.¶ ¶"This is the starting room."¶ ¶|__¶ ¶monkey¶ ¶kind¶ ¶of¶ ¶thing¶ ¶tail¶ ¶part¶ ¶every¶ ¶understand¶ ¶"appendage"¶ ¶as¶ ¶""¶ ¶,¶ ¶extremity¶ ¶""¶ ¶"fur"¶ ¶and¶ ¶""¶ ¶""¶ ¶chimpy¶ ¶in¶ ¶test¶ ¶me¶ ¶with¶ ¶"x chimpy's fur / x chimpy's tail / x fur / x tail /
+x appendage / x chimpy's appendage / x appendage fur"¶ 
+32 distinct words
+¶The¶ ¶the¶ 0a
+¶Starting¶ ¶starting¶ 20
+¶Room¶ ¶room¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"This is the starting room."¶ ¶"This is the starting room."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶monkey¶ ¶monkey¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶thing¶ ¶thing¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶tail¶ ¶tail¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶thing¶ ¶thing¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶tail¶ ¶tail¶ 20
+¶is¶ ¶is¶ 20
+¶part¶ ¶part¶ 20
+¶of¶ ¶of¶ 20
+¶every¶ ¶every¶ 0a
+¶monkey¶ ¶monkey¶ 20
+¶.¶ ¶.¶ 20
+¶Understand¶ ¶understand¶ 20
+¶"appendage"¶ ¶"appendage"¶ 20
+¶as¶ ¶as¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶extremity¶ ¶extremity¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶.¶ ¶.¶ 20
+¶Understand¶ ¶understand¶ 20
+¶"fur"¶ ¶"fur"¶ 20
+¶and¶ ¶and¶ 0a
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶extremity¶ ¶extremity¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶a¶ ¶a¶ 20
+¶tail¶ ¶tail¶ 20
+¶.¶ ¶.¶ 20
+¶Chimpy¶ ¶chimpy¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶monkey¶ ¶monkey¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶starting¶ ¶starting¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"x chimpy's fur / x chimpy's tail / x fur / x tail /
+x appendage / x chimpy's appendage / x appendage fur"¶ ¶"x chimpy's fur / x chimpy's tail / x fur / x tail /
+x appendage / x chimpy's appendage / x appendage fur"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

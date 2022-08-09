@@ -1,0 +1,57 @@
+40 words
+¶the¶ ¶kitchen¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶this¶ ¶frotzing¶ ¶rule¶ ¶:¶ ¶say¶ ¶"Original frotz."¶ ¶(¶ ¶)¶ ¶instead¶ ¶of¶ ¶jumping¶ ¶follow¶ ¶;¶ ¶now¶ ¶response¶ ¶"Replacement frotz."¶ ¶test¶ ¶me¶ ¶with¶ ¶"jump / jump"¶ 
+27 distinct words
+¶The¶ ¶the¶ 0a
+¶Kitchen¶ ¶kitchen¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶This¶ ¶this¶ 20
+¶is¶ ¶is¶ 20
+¶the¶ ¶the¶ 20
+¶frotzing¶ ¶frotzing¶ 20
+¶rule¶ ¶rule¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Original frotz."¶ ¶"Original frotz."¶ 20
+¶(¶ ¶(¶ 20
+¶A¶ ¶a¶ 20
+¶)¶ ¶)¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶:¶ ¶:¶ 20
+¶follow¶ ¶follow¶ 41
+¶the¶ ¶the¶ 20
+¶frotzing¶ ¶frotzing¶ 20
+¶rule¶ ¶rule¶ 20
+¶;¶ ¶;¶ 20
+¶now¶ ¶now¶ 41
+¶the¶ ¶the¶ 20
+¶frotzing¶ ¶frotzing¶ 20
+¶rule¶ ¶rule¶ 20
+¶response¶ ¶response¶ 20
+¶(¶ ¶(¶ 20
+¶A¶ ¶a¶ 20
+¶)¶ ¶)¶ 20
+¶is¶ ¶is¶ 20
+¶"Replacement frotz."¶ ¶"Replacement frotz."¶ 20
+¶;¶ ¶;¶ 20
+¶follow¶ ¶follow¶ 41
+¶the¶ ¶the¶ 20
+¶frotzing¶ ¶frotzing¶ 20
+¶rule¶ ¶rule¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"jump / jump"¶ ¶"jump / jump"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

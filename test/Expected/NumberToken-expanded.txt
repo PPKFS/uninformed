@@ -1,0 +1,92 @@
+80 words
+¶"Ah, Spring"¶ ¶|__¶ ¶ranking¶ ¶it¶ ¶as¶ ¶is¶ ¶an¶ ¶action¶ ¶applying¶ ¶to¶ ¶one¶ ¶visible¶ ¶thing¶ ¶and¶ ¶number¶ ¶.¶ ¶understand¶ ¶"give "¶ ¶,¶ ¶something¶ ¶" "¶ ¶""¶ ¶carry¶ ¶out¶ ¶:¶ ¶say¶ ¶"You mentally give "¶ ¶the¶ ¶noun¶ ¶" a rating of
+"¶ ¶understood¶ ¶"."¶ ¶park¶ ¶a¶ ¶room¶ ¶woman¶ ¶called¶ ¶elaine¶ ¶here¶ ¶player¶ ¶carrying¶ ¶some¶ ¶flowers¶ ¶test¶ ¶me¶ ¶with¶ ¶"give Elaine 10 / give Elaine flowers / give Elaine ring
+/ give flowers 8 / give flowers Elaine"¶ 
+47 distinct words
+¶"Ah, Spring"¶ ¶"Ah, Spring"¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶Ranking¶ ¶ranking¶ 20
+¶it¶ ¶it¶ 20
+¶as¶ ¶as¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶visible¶ ¶visible¶ 20
+¶thing¶ ¶thing¶ 20
+¶and¶ ¶and¶ 20
+¶one¶ ¶one¶ 20
+¶number¶ ¶number¶ 20
+¶.¶ ¶.¶ 20
+¶Understand¶ ¶understand¶ 0a
+¶"give "¶ ¶"give "¶ 20
+¶,¶ ¶,¶ 20
+¶something¶ ¶something¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶number¶ ¶number¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶ranking¶ ¶ranking¶ 20
+¶it¶ ¶it¶ 20
+¶as¶ ¶as¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶ranking¶ ¶ranking¶ 20
+¶it¶ ¶it¶ 20
+¶as¶ ¶as¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"You mentally give "¶ ¶"You mentally give "¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶noun¶ ¶noun¶ 20
+¶,¶ ¶,¶ 20
+¶" a rating of
+"¶ ¶" a rating of
+"¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶number¶ ¶number¶ 20
+¶understood¶ ¶understood¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶Park¶ ¶park¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶woman¶ ¶woman¶ 20
+¶called¶ ¶called¶ 20
+¶Elaine¶ ¶elaine¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶is¶ ¶is¶ 20
+¶carrying¶ ¶carrying¶ 0a
+¶some¶ ¶some¶ 20
+¶flowers¶ ¶flowers¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"give Elaine 10 / give Elaine flowers / give Elaine ring
+/ give flowers 8 / give flowers Elaine"¶ ¶"give Elaine 10 / give Elaine flowers / give Elaine ring
+/ give flowers 8 / give flowers Elaine"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

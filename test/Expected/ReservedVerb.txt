@@ -1,0 +1,29 @@
+21 words
+¶laboratory¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶the¶ ¶bat¶ ¶here¶ ¶|__¶ ¶understand¶ ¶"purloin [thing]"¶ ¶as¶ ¶examining¶ ¶test¶ ¶me¶ ¶with¶ ¶"purloin bat / !purloin bat"¶ 
+17 distinct words
+¶Laboratory¶ ¶laboratory¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶bat¶ ¶bat¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"purloin [thing]"¶ ¶"purloin [thing]"¶ 20
+¶as¶ ¶as¶ 20
+¶examining¶ ¶examining¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"purloin bat / !purloin bat"¶ ¶"purloin bat / !purloin bat"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

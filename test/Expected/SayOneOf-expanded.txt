@@ -1,0 +1,291 @@
+247 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"This is Foo, the leading "¶ ¶,¶ ¶one¶ ¶of¶ ¶"pet
+shop"¶ ¶or¶ ¶"haberdashery"¶ ¶"bakery"¶ ¶purely¶ ¶at¶ ¶random¶ ¶" in the Kidlington area."¶ ¶|__¶ ¶every¶ ¶turn¶ ¶:¶ ¶say¶ ¶"You flip the coin. "¶ ¶"Heads"¶ ¶"Tails"¶ ¶"."¶ ¶;¶ ¶""¶ ¶"The phone rings"¶ ¶"The phone rings a second time"¶ ¶"The phone
+rings again"¶ ¶stopping¶ ¶"."¶ ¶"You turn the light switch "¶ ¶"off"¶ ¶"on"¶ ¶cycling¶ ¶". Nothing happens."¶ ¶"The newspaper headline is:
+"¶ ¶"War Casualties"¶ ¶"Terrorists"¶ ¶"Banks"¶ ¶sticky¶ ¶"
+"¶ ¶"Continue To Expand"¶ ¶"Lose Out"¶ ¶"."¶ ¶"The light changes randomly again; now it's
+"¶ ¶"green"¶ ¶"amber"¶ ¶"red"¶ ¶"."¶ ¶"George Bush "¶ ¶"yawns"¶ ¶"scratches"¶ ¶"bombs
+somebody"¶ ¶"inappropriately touches a monarch"¶ ¶"eats fried
+chicken"¶ ¶"reads a Dr Seuss book"¶ ¶"reads a Tom Clancy book"¶ ¶"reads a
+Jean-Paul Sartre book"¶ ¶as¶ ¶decreasingly¶ ¶likely¶ ¶outcomes¶ ¶"."¶ ¶"Trumps are "¶ ¶"hearts"¶ ¶"clubs"¶ ¶"diamonds"¶ ¶"spades"¶ ¶in¶ ¶order¶ ¶"."¶ ¶instead¶ ¶waiting¶ ¶repeat¶ ¶with¶ ¶w¶ ¶running¶ ¶from¶ ¶1¶ ¶to¶ ¶4¶ ¶begin¶ ¶""¶ ¶"hearts"¶ ¶"clubs"¶ ¶"diamonds"¶ ¶"spades"¶ ¶" - "¶ ¶end¶ ¶"are trumps."¶ ¶test¶ ¶me¶ ¶"z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z"¶ 
+96 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"This is Foo, the leading "¶ ¶"This is Foo, the leading "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"pet
+shop"¶ ¶"pet
+shop"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"haberdashery"¶ ¶"haberdashery"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"bakery"¶ ¶"bakery"¶ 20
+¶,¶ ¶,¶ 20
+¶purely¶ ¶purely¶ 20
+¶at¶ ¶at¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶" in the Kidlington area."¶ ¶" in the Kidlington area."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"You flip the coin. "¶ ¶"You flip the coin. "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"Heads"¶ ¶"Heads"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"Tails"¶ ¶"Tails"¶ 20
+¶,¶ ¶,¶ 20
+¶purely¶ ¶purely¶ 20
+¶at¶ ¶at¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"The phone rings"¶ ¶"The phone rings"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"The phone rings a second time"¶ ¶"The phone rings a second time"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"The phone
+rings again"¶ ¶"The phone
+rings again"¶ 20
+¶,¶ ¶,¶ 20
+¶stopping¶ ¶stopping¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"You turn the light switch "¶ ¶"You turn the light switch "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"off"¶ ¶"off"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"on"¶ ¶"on"¶ 20
+¶,¶ ¶,¶ 20
+¶cycling¶ ¶cycling¶ 20
+¶,¶ ¶,¶ 20
+¶". Nothing happens."¶ ¶". Nothing happens."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The newspaper headline is:
+"¶ ¶"The newspaper headline is:
+"¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"War Casualties"¶ ¶"War Casualties"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"Terrorists"¶ ¶"Terrorists"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"Banks"¶ ¶"Banks"¶ 20
+¶,¶ ¶,¶ 20
+¶sticky¶ ¶sticky¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶"
+"¶ ¶"
+"¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"Continue To Expand"¶ ¶"Continue To Expand"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"Lose Out"¶ ¶"Lose Out"¶ 20
+¶,¶ ¶,¶ 20
+¶sticky¶ ¶sticky¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The light changes randomly again; now it's
+"¶ ¶"The light changes randomly again; now it's
+"¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"green"¶ ¶"green"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"amber"¶ ¶"amber"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"red"¶ ¶"red"¶ 20
+¶,¶ ¶,¶ 20
+¶at¶ ¶at¶ 20
+¶random¶ ¶random¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"George Bush "¶ ¶"George Bush "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"yawns"¶ ¶"yawns"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"scratches"¶ ¶"scratches"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"bombs
+somebody"¶ ¶"bombs
+somebody"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"inappropriately touches a monarch"¶ ¶"inappropriately touches a monarch"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"eats fried
+chicken"¶ ¶"eats fried
+chicken"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"reads a Dr Seuss book"¶ ¶"reads a Dr Seuss book"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"reads a Tom Clancy book"¶ ¶"reads a Tom Clancy book"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"reads a
+Jean-Paul Sartre book"¶ ¶"reads a
+Jean-Paul Sartre book"¶ 20
+¶,¶ ¶,¶ 20
+¶as¶ ¶as¶ 20
+¶decreasingly¶ ¶decreasingly¶ 20
+¶likely¶ ¶likely¶ 20
+¶outcomes¶ ¶outcomes¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Trumps are "¶ ¶"Trumps are "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"hearts"¶ ¶"hearts"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"clubs"¶ ¶"clubs"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"diamonds"¶ ¶"diamonds"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"spades"¶ ¶"spades"¶ 20
+¶,¶ ¶,¶ 20
+¶in¶ ¶in¶ 20
+¶random¶ ¶random¶ 20
+¶order¶ ¶order¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶:¶ ¶:¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶w¶ ¶w¶ 20
+¶running¶ ¶running¶ 20
+¶from¶ ¶from¶ 20
+¶1¶ ¶1¶ 20
+¶to¶ ¶to¶ 20
+¶4¶ ¶4¶ 20
+¶begin¶ ¶begin¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 42
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"hearts"¶ ¶"hearts"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"clubs"¶ ¶"clubs"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"diamonds"¶ ¶"diamonds"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"spades"¶ ¶"spades"¶ 20
+¶,¶ ¶,¶ 20
+¶in¶ ¶in¶ 20
+¶random¶ ¶random¶ 20
+¶order¶ ¶order¶ 20
+¶,¶ ¶,¶ 20
+¶" - "¶ ¶" - "¶ 20
+¶;¶ ¶;¶ 20
+¶end¶ ¶end¶ 41
+¶repeat¶ ¶repeat¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"are trumps."¶ ¶"are trumps."¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z"¶ ¶"z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z / z"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

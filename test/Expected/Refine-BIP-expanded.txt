@@ -1,0 +1,31 @@
+21 words
+¶a¶ ¶woman¶ ¶is¶ ¶kind¶ ¶.¶ ¶|__¶ ¶test¶ ¶refinery¶ ¶(¶ ¶internal¶ ¶)¶ ¶with¶ ¶jane¶ ¶to¶ ¶begin¶ ¶:¶ ¶say¶ ¶"This is a test run."¶ 
+18 distinct words
+¶A¶ ¶a¶ 0a
+¶woman¶ ¶woman¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶refinery¶ ¶refinery¶ 20
+¶(¶ ¶(¶ 20
+¶internal¶ ¶internal¶ 20
+¶)¶ ¶)¶ 20
+¶with¶ ¶with¶ 20
+¶Jane¶ ¶jane¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶woman¶ ¶woman¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"This is a test run."¶ ¶"This is a test run."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,71 @@
+80 words
+¶the¶ ¶spotlight¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶clark¶ ¶here¶ ¶man¶ ¶|__¶ ¶instead¶ ¶of¶ ¶doing¶ ¶something¶ ¶while¶ ¶off-stage¶ ¶:¶ ¶say¶ ¶"After the thrill of the spotlight, life seems not to exist."¶ ¶"After the thrill of the spotlight, life seems not to exist."¶ ¶jumping¶ ¶now¶ ¶;¶ ¶"Clark vanishes with a surprised expression."¶ ¶waiting¶ ¶try¶ ¶going¶ ¶east¶ ¶test¶ ¶me¶ ¶with¶ ¶"look / wait / jump / wait"¶ 
+32 distinct words
+¶The¶ ¶the¶ 0a
+¶spotlight¶ ¶spotlight¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶Clark¶ ¶clark¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶Clark¶ ¶clark¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶man¶ ¶man¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶doing¶ ¶doing¶ 20
+¶something¶ ¶something¶ 20
+¶while¶ ¶while¶ 20
+¶off-stage¶ ¶off-stage¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"After the thrill of the spotlight, life seems not to exist."¶ ¶"After the thrill of the spotlight, life seems not to exist."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶Clark¶ ¶clark¶ 20
+¶doing¶ ¶doing¶ 20
+¶something¶ ¶something¶ 20
+¶while¶ ¶while¶ 20
+¶off-stage¶ ¶off-stage¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"After the thrill of the spotlight, life seems not to exist."¶ ¶"After the thrill of the spotlight, life seems not to exist."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶:¶ ¶:¶ 20
+¶now¶ ¶now¶ 41
+¶Clark¶ ¶clark¶ 20
+¶is¶ ¶is¶ 20
+¶off-stage¶ ¶off-stage¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Clark vanishes with a surprised expression."¶ ¶"Clark vanishes with a surprised expression."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶:¶ ¶:¶ 20
+¶try¶ ¶try¶ 41
+¶Clark¶ ¶clark¶ 20
+¶going¶ ¶going¶ 20
+¶east¶ ¶east¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"look / wait / jump / wait"¶ ¶"look / wait / jump / wait"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

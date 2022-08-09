@@ -1,0 +1,25 @@
+42 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"[one of]A palace on the [one of]Nile[or]Euphrates[purely at random]
+delta[or]A hovel by the [one of]Tigris[or]Rhine[purely at random]
+river[purely at random]."¶ ¶|__¶ ¶test¶ ¶me¶ ¶with¶ ¶"look / look / look / look / look / look / look / look / look"¶ 
+11 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"[one of]A palace on the [one of]Nile[or]Euphrates[purely at random]
+delta[or]A hovel by the [one of]Tigris[or]Rhine[purely at random]
+river[purely at random]."¶ ¶"[one of]A palace on the [one of]Nile[or]Euphrates[purely at random]
+delta[or]A hovel by the [one of]Tigris[or]Rhine[purely at random]
+river[purely at random]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"look / look / look / look / look / look / look / look / look"¶ ¶"look / look / look / look / look / look / look / look / look"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

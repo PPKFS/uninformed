@@ -1,0 +1,12 @@
+5 words
+¶to¶ ¶begin¶ ¶:¶ ¶say¶ ¶"Hello world."¶ ¶|__¶ 
+6 distinct words
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Hello world."¶ ¶"Hello world."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

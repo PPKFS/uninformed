@@ -1,0 +1,39 @@
+25 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶to¶ ¶tally¶ ¶(¶ ¶d¶ ¶-¶ ¶description¶ ¶of¶ ¶things¶ ¶)¶ ¶:¶ ¶say¶ ¶"Too lazy to actually
+do anything."¶ ¶when¶ ¶play¶ ¶begins¶ ¶all¶ ¶open¶ ¶doors¶ 
+24 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶tally¶ ¶tally¶ 20
+¶(¶ ¶(¶ 20
+¶D¶ ¶d¶ 20
+¶-¶ ¶-¶ 20
+¶a¶ ¶a¶ 20
+¶description¶ ¶description¶ 20
+¶of¶ ¶of¶ 20
+¶things¶ ¶things¶ 20
+¶)¶ ¶)¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Too lazy to actually
+do anything."¶ ¶"Too lazy to actually
+do anything."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶tally¶ ¶tally¶ 41
+¶all¶ ¶all¶ 20
+¶open¶ ¶open¶ 20
+¶doors¶ ¶doors¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

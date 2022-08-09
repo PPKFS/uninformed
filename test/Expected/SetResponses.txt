@@ -1,0 +1,114 @@
+114 words
+¶the¶ ¶paris¶ ¶theatre¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶big¶ ¶box¶ ¶container¶ ¶in¶ ¶open¶ ¶and¶ ¶openable¶ ¶enterable¶ ¶transparent¶ ¶red¶ ¶button¶ ¶here¶ ¶standard¶ ¶report¶ ¶waiting¶ ¶rule¶ ¶response¶ ¶(¶ ¶)¶ ¶"Jeepers, this is dull."¶ ¶can't¶ ¶exit¶ ¶closed¶ ¶containers¶ ¶"Wretched [cage]."¶ ¶instead¶ ¶of¶ ¶pushing¶ ¶:¶ ¶now¶ ¶"Gosh, this is dull."¶ ¶;¶ ¶"Pesky [cage]."¶ ¶say¶ ¶"Clunk!"¶ ¶test¶ ¶me¶ ¶with¶ ¶"z / enter box / close box / exit / open box / exit / push button /
+z / enter box / close box / exit"¶ 
+47 distinct words
+¶The¶ ¶the¶ 0a
+¶Paris¶ ¶paris¶ 20
+¶Theatre¶ ¶theatre¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶big¶ ¶big¶ 20
+¶box¶ ¶box¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶container¶ ¶container¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Theatre¶ ¶theatre¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶box¶ ¶box¶ 20
+¶is¶ ¶is¶ 20
+¶open¶ ¶open¶ 20
+¶and¶ ¶and¶ 20
+¶openable¶ ¶openable¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶box¶ ¶box¶ 20
+¶is¶ ¶is¶ 20
+¶enterable¶ ¶enterable¶ 20
+¶and¶ ¶and¶ 20
+¶transparent¶ ¶transparent¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶red¶ ¶red¶ 20
+¶button¶ ¶button¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Standard¶ ¶standard¶ 20
+¶report¶ ¶report¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶rule¶ ¶rule¶ 20
+¶response¶ ¶response¶ 20
+¶(¶ ¶(¶ 20
+¶A¶ ¶a¶ 20
+¶)¶ ¶)¶ 20
+¶is¶ ¶is¶ 20
+¶"Jeepers, this is dull."¶ ¶"Jeepers, this is dull."¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶can't¶ ¶can't¶ 20
+¶exit¶ ¶exit¶ 20
+¶closed¶ ¶closed¶ 20
+¶containers¶ ¶containers¶ 20
+¶rule¶ ¶rule¶ 20
+¶response¶ ¶response¶ 20
+¶(¶ ¶(¶ 20
+¶A¶ ¶a¶ 20
+¶)¶ ¶)¶ 20
+¶is¶ ¶is¶ 20
+¶"Wretched [cage]."¶ ¶"Wretched [cage]."¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶pushing¶ ¶pushing¶ 20
+¶the¶ ¶the¶ 20
+¶button¶ ¶button¶ 20
+¶:¶ ¶:¶ 20
+¶now¶ ¶now¶ 41
+¶the¶ ¶the¶ 20
+¶standard¶ ¶standard¶ 20
+¶report¶ ¶report¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶rule¶ ¶rule¶ 20
+¶response¶ ¶response¶ 20
+¶(¶ ¶(¶ 20
+¶A¶ ¶a¶ 20
+¶)¶ ¶)¶ 20
+¶is¶ ¶is¶ 20
+¶"Gosh, this is dull."¶ ¶"Gosh, this is dull."¶ 20
+¶;¶ ¶;¶ 20
+¶now¶ ¶now¶ 41
+¶can't¶ ¶can't¶ 20
+¶exit¶ ¶exit¶ 20
+¶closed¶ ¶closed¶ 20
+¶containers¶ ¶containers¶ 20
+¶rule¶ ¶rule¶ 20
+¶response¶ ¶response¶ 20
+¶(¶ ¶(¶ 20
+¶A¶ ¶a¶ 20
+¶)¶ ¶)¶ 20
+¶is¶ ¶is¶ 20
+¶"Pesky [cage]."¶ ¶"Pesky [cage]."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Clunk!"¶ ¶"Clunk!"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z / enter box / close box / exit / open box / exit / push button /
+z / enter box / close box / exit"¶ ¶"z / enter box / close box / exit / open box / exit / push button /
+z / enter box / close box / exit"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

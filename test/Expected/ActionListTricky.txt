@@ -1,0 +1,41 @@
+38 words
+¶frozen¶ ¶in¶ ¶solid¶ ¶ice¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶instead¶ ¶of¶ ¶doing¶ ¶something¶ ¶other¶ ¶than¶ ¶waiting¶ ¶or¶ ¶examining¶ ¶taking¶ ¶inventory¶ ¶looking¶ ¶:¶ ¶say¶ ¶"You're not really at liberty to do that."¶ ¶test¶ ¶me¶ ¶with¶ ¶"i / take me"¶ 
+28 distinct words
+¶Frozen¶ ¶frozen¶ 0a
+¶in¶ ¶in¶ 20
+¶Solid¶ ¶solid¶ 20
+¶Ice¶ ¶ice¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶doing¶ ¶doing¶ 20
+¶something¶ ¶something¶ 20
+¶other¶ ¶other¶ 20
+¶than¶ ¶than¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶or¶ ¶or¶ 20
+¶examining¶ ¶examining¶ 20
+¶or¶ ¶or¶ 20
+¶taking¶ ¶taking¶ 20
+¶inventory¶ ¶inventory¶ 0a
+¶or¶ ¶or¶ 20
+¶looking¶ ¶looking¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"You're not really at liberty to do that."¶ ¶"You're not really at liberty to do that."¶ 20
+¶instead¶ ¶instead¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"i / take me"¶ ¶"i / take me"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

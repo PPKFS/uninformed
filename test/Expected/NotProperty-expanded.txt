@@ -1,0 +1,122 @@
+114 words
+¶"Not Visited"¶ ¶|__¶ ¶include¶ ¶expressions¶ ¶and¶ ¶predicate¶ ¶calculus¶ ¶workings¶ ¶in¶ ¶the¶ ¶debugging¶ ¶log¶ ¶.¶ ¶start¶ ¶is¶ ¶a¶ ¶room¶ ¶"You start here."¶ ¶1¶ ¶west¶ ¶of¶ ¶"This is Room 1 and "¶ ¶,¶ ¶self¶ ¶"."¶ ¶if¶ ¶not¶ ¶visited¶ ¶"You haven't
+been here before."¶ ¶end¶ ¶""¶ ¶3¶ ¶north¶ ¶"This is Room 3 and "¶ ¶"."¶ ¶"You have been
+here before."¶ ¶""¶ ¶2¶ ¶south¶ ¶"This is Room 2 and "¶ ¶"."¶ ¶unvisited¶ ¶"You haven't
+been here before."¶ ¶""¶ ¶test¶ ¶me¶ ¶with¶ ¶"verbose / n / s / n / s / w / e / w / e / s / n / s"¶ ¶to¶ ¶say¶ ¶:¶ ¶(-¶ ¶ print "(Self is: ", (the) self, ") ";
+	if (self has visited) print "(V) "; else print "(NV) "; ¶ 
+53 distinct words
+¶"Not Visited"¶ ¶"Not Visited"¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶Include¶ ¶include¶ 20
+¶expressions¶ ¶expressions¶ 20
+¶and¶ ¶and¶ 20
+¶predicate¶ ¶predicate¶ 20
+¶calculus¶ ¶calculus¶ 20
+¶workings¶ ¶workings¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶debugging¶ ¶debugging¶ 20
+¶log¶ ¶log¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Start¶ ¶start¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"You start here."¶ ¶"You start here."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Room¶ ¶room¶ 20
+¶1¶ ¶1¶ 20
+¶is¶ ¶is¶ 20
+¶west¶ ¶west¶ 20
+¶of¶ ¶of¶ 20
+¶Start¶ ¶start¶ 20
+¶.¶ ¶.¶ 20
+¶"This is Room 1 and "¶ ¶"This is Room 1 and "¶ 20
+¶,¶ ¶,¶ 20
+¶self¶ ¶self¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶,¶ ¶,¶ 20
+¶if¶ ¶if¶ 20
+¶not¶ ¶not¶ 20
+¶visited¶ ¶visited¶ 20
+¶,¶ ¶,¶ 20
+¶"You haven't
+been here before."¶ ¶"You haven't
+been here before."¶ 20
+¶,¶ ¶,¶ 20
+¶end¶ ¶end¶ 20
+¶if¶ ¶if¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Room¶ ¶room¶ 20
+¶3¶ ¶3¶ 20
+¶is¶ ¶is¶ 20
+¶north¶ ¶north¶ 20
+¶of¶ ¶of¶ 20
+¶Start¶ ¶start¶ 20
+¶.¶ ¶.¶ 20
+¶"This is Room 3 and "¶ ¶"This is Room 3 and "¶ 20
+¶,¶ ¶,¶ 20
+¶self¶ ¶self¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶,¶ ¶,¶ 20
+¶if¶ ¶if¶ 20
+¶visited¶ ¶visited¶ 20
+¶,¶ ¶,¶ 20
+¶"You have been
+here before."¶ ¶"You have been
+here before."¶ 20
+¶,¶ ¶,¶ 20
+¶end¶ ¶end¶ 20
+¶if¶ ¶if¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Room¶ ¶room¶ 20
+¶2¶ ¶2¶ 20
+¶is¶ ¶is¶ 20
+¶south¶ ¶south¶ 20
+¶of¶ ¶of¶ 20
+¶Start¶ ¶start¶ 20
+¶.¶ ¶.¶ 20
+¶"This is Room 2 and "¶ ¶"This is Room 2 and "¶ 20
+¶,¶ ¶,¶ 20
+¶self¶ ¶self¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶,¶ ¶,¶ 20
+¶if¶ ¶if¶ 20
+¶unvisited¶ ¶unvisited¶ 20
+¶,¶ ¶,¶ 20
+¶"You haven't
+been here before."¶ ¶"You haven't
+been here before."¶ 20
+¶,¶ ¶,¶ 20
+¶end¶ ¶end¶ 20
+¶if¶ ¶if¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"verbose / n / s / n / s / w / e / w / e / s / n / s"¶ ¶"verbose / n / s / n / s / w / e / w / e / s / n / s"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶say¶ ¶say¶ 20
+¶self¶ ¶self¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 20
+¶ print "(Self is: ", (the) self, ") ";
+	if (self has visited) print "(V) "; else print "(NV) "; ¶ ¶ print "(Self is: ", (the) self, ") ";
+	if (self has visited) print "(V) "; else print "(NV) "; ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

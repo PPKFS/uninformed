@@ -1,0 +1,26 @@
+26 words
+¶the¶ ¶lab¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶every¶ ¶turn¶ ¶:¶ ¶say¶ ¶"[one of][if the location is Lab]Lab[end if][or]blah[at random]"¶ ¶;¶ ¶test¶ ¶me¶ ¶with¶ ¶"z / z / z / z"¶ 
+17 distinct words
+¶The¶ ¶the¶ 0a
+¶Lab¶ ¶lab¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"[one of][if the location is Lab]Lab[end if][or]blah[at random]"¶ ¶"[one of][if the location is Lab]Lab[end if][or]blah[at random]"¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z / z / z / z"¶ ¶"z / z / z / z"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

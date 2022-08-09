@@ -1,0 +1,25 @@
+15 words
+¶lab¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶jay¶ ¶person¶ ¶in¶ ¶|__¶ ¶test¶ ¶me¶ ¶with¶ ¶"enter/Jay, enter"¶ 
+13 distinct words
+¶Lab¶ ¶lab¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶Jay¶ ¶jay¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶person¶ ¶person¶ 20
+¶in¶ ¶in¶ 20
+¶Lab¶ ¶lab¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"enter/Jay, enter"¶ ¶"enter/Jay, enter"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

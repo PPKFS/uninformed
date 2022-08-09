@@ -1,0 +1,84 @@
+107 words
+¶"Negate the Unnegateable"¶ ¶|__¶ ¶the¶ ¶town¶ ¶square¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"The only item of interest in this Town Square is the tall, unstable-looking statue "¶ ¶,¶ ¶if¶ ¶statue¶ ¶upright¶ ¶"at its centre"¶ ¶otherwise¶ ¶"fallen across the cobbles"¶ ¶end¶ ¶"."¶ ¶tall¶ ¶unstable¶ ¶here¶ ¶scenery¶ ¶description¶ ¶"A statue of some ancient worthy from a bygone era, too faded to be recognizable."¶ ¶can¶ ¶be¶ ¶instead¶ ¶of¶ ¶pushing¶ ¶:¶ ¶now¶ ¶not¶ ¶;¶ ¶say¶ ¶"The statue topples over even more easily than you thought it would."¶ ¶test¶ ¶me¶ ¶with¶ ¶"push statue / look"¶ 
+40 distinct words
+¶"Negate the Unnegateable"¶ ¶"Negate the Unnegateable"¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶Town¶ ¶town¶ 20
+¶Square¶ ¶square¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"The only item of interest in this Town Square is the tall, unstable-looking statue "¶ ¶"The only item of interest in this Town Square is the tall, unstable-looking statue "¶ 20
+¶,¶ ¶,¶ 20
+¶if¶ ¶if¶ 20
+¶the¶ ¶the¶ 20
+¶statue¶ ¶statue¶ 20
+¶is¶ ¶is¶ 20
+¶upright¶ ¶upright¶ 20
+¶,¶ ¶,¶ 20
+¶"at its centre"¶ ¶"at its centre"¶ 20
+¶,¶ ¶,¶ 20
+¶otherwise¶ ¶otherwise¶ 20
+¶,¶ ¶,¶ 20
+¶"fallen across the cobbles"¶ ¶"fallen across the cobbles"¶ 20
+¶,¶ ¶,¶ 20
+¶end¶ ¶end¶ 20
+¶if¶ ¶if¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶tall¶ ¶tall¶ 20
+¶unstable¶ ¶unstable¶ 20
+¶statue¶ ¶statue¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶statue¶ ¶statue¶ 20
+¶is¶ ¶is¶ 20
+¶scenery¶ ¶scenery¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶description¶ ¶description¶ 20
+¶is¶ ¶is¶ 20
+¶"A statue of some ancient worthy from a bygone era, too faded to be recognizable."¶ ¶"A statue of some ancient worthy from a bygone era, too faded to be recognizable."¶ 20
+¶The¶ ¶the¶ 20
+¶statue¶ ¶statue¶ 20
+¶can¶ ¶can¶ 20
+¶be¶ ¶be¶ 20
+¶upright¶ ¶upright¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶statue¶ ¶statue¶ 20
+¶is¶ ¶is¶ 20
+¶upright¶ ¶upright¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶pushing¶ ¶pushing¶ 20
+¶the¶ ¶the¶ 20
+¶statue¶ ¶statue¶ 20
+¶:¶ ¶:¶ 20
+¶now¶ ¶now¶ 20
+¶the¶ ¶the¶ 20
+¶statue¶ ¶statue¶ 20
+¶is¶ ¶is¶ 20
+¶not¶ ¶not¶ 20
+¶upright¶ ¶upright¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 20
+¶"The statue topples over even more easily than you thought it would."¶ ¶"The statue topples over even more easily than you thought it would."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"push statue / look"¶ ¶"push statue / look"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

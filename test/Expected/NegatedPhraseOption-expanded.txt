@@ -1,0 +1,53 @@
+34 words
+¶stage¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶to¶ ¶hunt¶ ¶the¶ ¶wumpus¶ ¶,¶ ¶fiendishly¶ ¶:¶ ¶if¶ ¶say¶ ¶"Hunting fiendishly."¶ ¶;¶ ¶not¶ ¶"Hunting normally."¶ ¶when¶ ¶play¶ ¶begins¶ ¶"First..."¶ ¶"Second..."¶ 
+24 distinct words
+¶Stage¶ ¶stage¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶hunt¶ ¶hunt¶ 20
+¶the¶ ¶the¶ 20
+¶wumpus¶ ¶wumpus¶ 20
+¶,¶ ¶,¶ 20
+¶fiendishly¶ ¶fiendishly¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 41
+¶fiendishly¶ ¶fiendishly¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"Hunting fiendishly."¶ ¶"Hunting fiendishly."¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶not¶ ¶not¶ 20
+¶fiendishly¶ ¶fiendishly¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"Hunting normally."¶ ¶"Hunting normally."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"First..."¶ ¶"First..."¶ 20
+¶;¶ ¶;¶ 20
+¶hunt¶ ¶hunt¶ 41
+¶the¶ ¶the¶ 20
+¶wumpus¶ ¶wumpus¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Second..."¶ ¶"Second..."¶ 20
+¶;¶ ¶;¶ 20
+¶hunt¶ ¶hunt¶ 41
+¶the¶ ¶the¶ 20
+¶wumpus¶ ¶wumpus¶ 20
+¶,¶ ¶,¶ 20
+¶fiendishly¶ ¶fiendishly¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

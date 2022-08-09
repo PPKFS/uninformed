@@ -1,0 +1,259 @@
+199 words
+¶laboratory¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶the¶ ¶bench¶ ¶here¶ ¶isotope¶ ¶on¶ ¶sack¶ ¶of¶ ¶pitchblende¶ ¶|__¶ ¶definition¶ ¶:¶ ¶thing¶ ¶radioactive¶ ¶if¶ ¶it¶ ¶geiger¶ ¶counter¶ ¶number¶ ¶that¶ ¶varies¶ ¶to¶ ¶say¶ ¶lab¶ ¶name¶ ¶(-¶ ¶ DefArt( (+ Laboratory +) ); ¶ ¶tick¶ ¶ (+ Geiger counter +) ++; ¶ ¶watch¶ ¶dial¶ ¶ print (+ Geiger counter +), "^"; ¶ ¶survey¶ ¶things¶ ¶ objectloop ({-my:1} ofclass (+ thing +)) DefArt({-my:1}); ¶ ¶decide¶ ¶(¶ ¶t¶ ¶-¶ ¶)¶ ¶radiates¶ ¶ ( (+ radioactive +)({T}) ) ¶ ¶helps¶ ¶ ( {T} ofclass (+ supporter +) ) ¶ ¶sacks¶ ¶ ( {T} == (+ sack of pitchblende +) ) ¶ ¶demonstrate¶ ¶vals¶ ¶ print (+ 253 +), " and ",
+		(PrintTimeOfDay) (+ 11:32 PM +), " and ",
+		(TEXT_TY_Say) (+ "some text about it being [time of day] right now" +), "^";
+	¶ ¶when¶ ¶play¶ ¶begins¶ ¶"Should be in [the Lab name]."¶ ¶;¶ ¶showme¶ ¶"All smooshed together are [the survey of things]."¶ ¶repeat¶ ¶with¶ ¶running¶ ¶through¶ ¶"[T] radiates!"¶ ¶otherwise¶ ¶"[T] is safe."¶ ¶"[T] helps!"¶ ¶"[T] is no help."¶ ¶"[T] is a sack!"¶ ¶"[T] is not a sack."¶ 
+71 distinct words
+¶Laboratory¶ ¶laboratory¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶bench¶ ¶bench¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶isotope¶ ¶isotope¶ 20
+¶is¶ ¶is¶ 20
+¶on¶ ¶on¶ 20
+¶the¶ ¶the¶ 20
+¶bench¶ ¶bench¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶sack¶ ¶sack¶ 20
+¶of¶ ¶of¶ 20
+¶pitchblende¶ ¶pitchblende¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Definition¶ ¶definition¶ 20
+¶:¶ ¶:¶ 20
+¶a¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶is¶ ¶is¶ 20
+¶radioactive¶ ¶radioactive¶ 20
+¶if¶ ¶if¶ 20
+¶it¶ ¶it¶ 20
+¶is¶ ¶is¶ 20
+¶the¶ ¶the¶ 20
+¶isotope¶ ¶isotope¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶Geiger¶ ¶geiger¶ 20
+¶counter¶ ¶counter¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶number¶ ¶number¶ 20
+¶that¶ ¶that¶ 20
+¶varies¶ ¶varies¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶say¶ ¶say¶ 20
+¶the¶ ¶the¶ 20
+¶Lab¶ ¶lab¶ 20
+¶name¶ ¶name¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ DefArt( (+ Laboratory +) ); ¶ ¶ DefArt( (+ Laboratory +) ); ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶tick¶ ¶tick¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ (+ Geiger counter +) ++; ¶ ¶ (+ Geiger counter +) ++; ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶watch¶ ¶watch¶ 20
+¶the¶ ¶the¶ 20
+¶dial¶ ¶dial¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ print (+ Geiger counter +), "^"; ¶ ¶ print (+ Geiger counter +), "^"; ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶say¶ ¶say¶ 20
+¶the¶ ¶the¶ 20
+¶survey¶ ¶survey¶ 20
+¶of¶ ¶of¶ 20
+¶things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ objectloop ({-my:1} ofclass (+ thing +)) DefArt({-my:1}); ¶ ¶ objectloop ({-my:1} ofclass (+ thing +)) DefArt({-my:1}); ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶decide¶ ¶decide¶ 20
+¶if¶ ¶if¶ 20
+¶(¶ ¶(¶ 20
+¶T¶ ¶t¶ 20
+¶-¶ ¶-¶ 20
+¶a¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶)¶ ¶)¶ 20
+¶radiates¶ ¶radiates¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ ( (+ radioactive +)({T}) ) ¶ ¶ ( (+ radioactive +)({T}) ) ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶decide¶ ¶decide¶ 20
+¶if¶ ¶if¶ 20
+¶(¶ ¶(¶ 20
+¶T¶ ¶t¶ 20
+¶-¶ ¶-¶ 20
+¶a¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶)¶ ¶)¶ 20
+¶helps¶ ¶helps¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ ( {T} ofclass (+ supporter +) ) ¶ ¶ ( {T} ofclass (+ supporter +) ) ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶decide¶ ¶decide¶ 20
+¶if¶ ¶if¶ 20
+¶(¶ ¶(¶ 20
+¶T¶ ¶t¶ 20
+¶-¶ ¶-¶ 20
+¶a¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶)¶ ¶)¶ 20
+¶helps¶ ¶helps¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ ( {T} ofclass (+ supporter +) ) ¶ ¶ ( {T} ofclass (+ supporter +) ) ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶decide¶ ¶decide¶ 20
+¶if¶ ¶if¶ 20
+¶(¶ ¶(¶ 20
+¶T¶ ¶t¶ 20
+¶-¶ ¶-¶ 20
+¶a¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶)¶ ¶)¶ 20
+¶sacks¶ ¶sacks¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ ( {T} == (+ sack of pitchblende +) ) ¶ ¶ ( {T} == (+ sack of pitchblende +) ) ¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶demonstrate¶ ¶demonstrate¶ 20
+¶vals¶ ¶vals¶ 20
+¶:¶ ¶:¶ 20
+¶(-¶ ¶(-¶ 41
+¶ print (+ 253 +), " and ",
+		(PrintTimeOfDay) (+ 11:32 PM +), " and ",
+		(TEXT_TY_Say) (+ "some text about it being [time of day] right now" +), "^";
+	¶ ¶ print (+ 253 +), " and ",
+		(PrintTimeOfDay) (+ 11:32 PM +), " and ",
+		(TEXT_TY_Say) (+ "some text about it being [time of day] right now" +), "^";
+	¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Should be in [the Lab name]."¶ ¶"Should be in [the Lab name]."¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶the¶ ¶the¶ 20
+¶Geiger¶ ¶geiger¶ 20
+¶counter¶ ¶counter¶ 20
+¶;¶ ¶;¶ 20
+¶tick¶ ¶tick¶ 41
+¶;¶ ¶;¶ 20
+¶tick¶ ¶tick¶ 41
+¶;¶ ¶;¶ 20
+¶tick¶ ¶tick¶ 41
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶the¶ ¶the¶ 20
+¶Geiger¶ ¶geiger¶ 20
+¶counter¶ ¶counter¶ 20
+¶;¶ ¶;¶ 20
+¶watch¶ ¶watch¶ 41
+¶the¶ ¶the¶ 20
+¶dial¶ ¶dial¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"All smooshed together are [the survey of things]."¶ ¶"All smooshed together are [the survey of things]."¶ 20
+¶;¶ ¶;¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶T¶ ¶t¶ 20
+¶running¶ ¶running¶ 20
+¶through¶ ¶through¶ 20
+¶things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 42
+¶T¶ ¶t¶ 20
+¶radiates¶ ¶radiates¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 43
+¶"[T] radiates!"¶ ¶"[T] radiates!"¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 42
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 43
+¶"[T] is safe."¶ ¶"[T] is safe."¶ 20
+¶;¶ ¶;¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶T¶ ¶t¶ 20
+¶running¶ ¶running¶ 20
+¶through¶ ¶through¶ 20
+¶things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 42
+¶T¶ ¶t¶ 20
+¶helps¶ ¶helps¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 43
+¶"[T] helps!"¶ ¶"[T] helps!"¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 42
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 43
+¶"[T] is no help."¶ ¶"[T] is no help."¶ 20
+¶;¶ ¶;¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶T¶ ¶t¶ 20
+¶running¶ ¶running¶ 20
+¶through¶ ¶through¶ 20
+¶things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 42
+¶T¶ ¶t¶ 20
+¶sacks¶ ¶sacks¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 43
+¶"[T] is a sack!"¶ ¶"[T] is a sack!"¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 42
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 43
+¶"[T] is not a sack."¶ ¶"[T] is not a sack."¶ 20
+¶;¶ ¶;¶ 20
+¶demonstrate¶ ¶demonstrate¶ 41
+¶vals¶ ¶vals¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,33 @@
+21 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶the¶ ¶table¶ ¶size¶ ¶always¶ ¶12¶ ¶|__¶ ¶of¶ ¶blogg¶ ¶bloggle¶ ¶(¶ ¶number¶ ¶)¶ ¶with¶ ¶blank¶ ¶rows¶ 
+20 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 0a
+¶table¶ ¶table¶ 20
+¶size¶ ¶size¶ 20
+¶is¶ ¶is¶ 20
+¶always¶ ¶always¶ 20
+¶12¶ ¶12¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Table¶ ¶table¶ 20
+¶of¶ ¶of¶ 20
+¶Blogg¶ ¶blogg¶ 20
+¶bloggle¶ ¶bloggle¶ 0a
+¶(¶ ¶(¶ 20
+¶a¶ ¶a¶ 20
+¶number¶ ¶number¶ 20
+¶)¶ ¶)¶ 20
+¶with¶ ¶with¶ 0a
+¶table¶ ¶table¶ 20
+¶size¶ ¶size¶ 20
+¶blank¶ ¶blank¶ 20
+¶rows¶ ¶rows¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,65 @@
+46 words
+¶math¶ ¶department¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶physics¶ ¶west¶ ¶of¶ ¶|__¶ ¶after¶ ¶going¶ ¶:¶ ¶let¶ ¶var¶ ¶be¶ ¶the¶ ¶gone¶ ¶to¶ ¶;¶ ¶say¶ ¶"var is "¶ ¶,¶ ¶"."¶ ¶now¶ ¶"var is "¶ ¶"."¶ ¶continue¶ ¶action¶ ¶test¶ ¶me¶ ¶with¶ ¶"go west"¶ 
+33 distinct words
+¶Math¶ ¶math¶ 0a
+¶Department¶ ¶department¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶Physics¶ ¶physics¶ 0a
+¶Department¶ ¶department¶ 20
+¶is¶ ¶is¶ 20
+¶west¶ ¶west¶ 20
+¶of¶ ¶of¶ 20
+¶Math¶ ¶math¶ 20
+¶Department¶ ¶department¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶After¶ ¶after¶ 20
+¶going¶ ¶going¶ 20
+¶:¶ ¶:¶ 20
+¶let¶ ¶let¶ 41
+¶var¶ ¶var¶ 20
+¶be¶ ¶be¶ 20
+¶the¶ ¶the¶ 20
+¶room¶ ¶room¶ 20
+¶gone¶ ¶gone¶ 20
+¶to¶ ¶to¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"var is "¶ ¶"var is "¶ 20
+¶,¶ ¶,¶ 20
+¶var¶ ¶var¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶now¶ ¶now¶ 41
+¶var¶ ¶var¶ 20
+¶is¶ ¶is¶ 20
+¶the¶ ¶the¶ 20
+¶room¶ ¶room¶ 20
+¶gone¶ ¶gone¶ 20
+¶to¶ ¶to¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"var is "¶ ¶"var is "¶ 20
+¶,¶ ¶,¶ 20
+¶var¶ ¶var¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 41
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"go west"¶ ¶"go west"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

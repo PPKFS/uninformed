@@ -1,0 +1,201 @@
+157 words
+¶the¶ ¶gallery¶ ¶of¶ ¶lexical¶ ¶monstrosities¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶bastard¶ ¶kind¶ ¶value¶ ¶bastards¶ ¶are¶ ¶@@@¶ ¶,¶ ¶^'^¶ ¶mayn't¶ ¶'do'¶ ¶'cha'¶ ¶~¶ ¶and¶ ¶~@^¶ ¶boy¶ ¶x¶ ¶girl¶ ¶b@t¶ ¶~~¶ ¶flo^flo¶ ¶in¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶say¶ ¶"mayn't is "¶ ¶"."¶ ¶;¶ ¶"'do' is "¶ ¶"."¶ ¶"'cha' 'cha' is "¶ ¶"."¶ ¶"@@@ is "¶ ¶"."¶ ¶"^'^ is "¶ ¶"."¶ ¶"~@^ is "¶ ¶"."¶ ¶provoking¶ ¶an¶ ¶action¶ ¶applying¶ ¶to¶ ¶one¶ ¶understand¶ ¶"provoke "¶ ¶""¶ ¶as¶ ¶carry¶ ¶out¶ ¶"You provoke the "¶ ¶understood¶ ¶"."¶ ¶"/"¶ ¶taking¶ ¶inventory¶ ¶"x^x"¶ ¶test¶ ¶me¶ ¶with¶ ¶"x x / x b@t / x ~~ / x flo^flo / "¶ ¶/¶ ¶" / x^x / provoke @@@ /
+provoke ^"¶ ¶'¶ ¶"^ / provoke mayn"¶ ¶"t / provoke "¶ ¶"do"¶ ¶" / provoke "¶ ¶"cha"¶ ¶" "¶ ¶"cha"¶ ¶" /
+provoke ~ / provoke ~@^"¶ 
+83 distinct words
+¶The¶ ¶the¶ 0a
+¶Gallery¶ ¶gallery¶ 20
+¶of¶ ¶of¶ 20
+¶Lexical¶ ¶lexical¶ 20
+¶Monstrosities¶ ¶monstrosities¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Bastard¶ ¶bastard¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶value¶ ¶value¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶bastards¶ ¶bastards¶ 20
+¶are¶ ¶are¶ 20
+¶@@@¶ ¶@@@¶ 20
+¶,¶ ¶,¶ 20
+¶^'^¶ ¶^'^¶ 20
+¶,¶ ¶,¶ 20
+¶mayn't¶ ¶mayn't¶ 20
+¶,¶ ¶,¶ 20
+¶'do'¶ ¶'do'¶ 20
+¶,¶ ¶,¶ 20
+¶'cha'¶ ¶'cha'¶ 20
+¶'cha'¶ ¶'cha'¶ 20
+¶,¶ ¶,¶ 20
+¶~¶ ¶~¶ 0a
+¶and¶ ¶and¶ 20
+¶~@^¶ ¶~@^¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶boy¶ ¶boy¶ 20
+¶x¶ ¶x¶ 20
+¶girl¶ ¶girl¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶b@t¶ ¶b@t¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶~~¶ ¶~~¶ 20
+¶and¶ ¶and¶ 20
+¶the¶ ¶the¶ 20
+¶flo^flo¶ ¶flo^flo¶ 20
+¶are¶ ¶are¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Gallery¶ ¶gallery¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"mayn't is "¶ ¶"mayn't is "¶ 20
+¶,¶ ¶,¶ 20
+¶mayn't¶ ¶mayn't¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"'do' is "¶ ¶"'do' is "¶ 20
+¶,¶ ¶,¶ 20
+¶'do'¶ ¶'do'¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"'cha' 'cha' is "¶ ¶"'cha' 'cha' is "¶ 20
+¶,¶ ¶,¶ 20
+¶'cha'¶ ¶'cha'¶ 20
+¶'cha'¶ ¶'cha'¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"@@@ is "¶ ¶"@@@ is "¶ 20
+¶,¶ ¶,¶ 20
+¶@@@¶ ¶@@@¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"^'^ is "¶ ¶"^'^ is "¶ 20
+¶,¶ ¶,¶ 20
+¶^'^¶ ¶^'^¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"~@^ is "¶ ¶"~@^ is "¶ 20
+¶,¶ ¶,¶ 20
+¶~@^¶ ¶~@^¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Provoking¶ ¶provoking¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶bastard¶ ¶bastard¶ 20
+¶.¶ ¶.¶ 20
+¶Understand¶ ¶understand¶ 20
+¶"provoke "¶ ¶"provoke "¶ 20
+¶,¶ ¶,¶ 20
+¶bastard¶ ¶bastard¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 0a
+¶provoking¶ ¶provoking¶ 20
+¶.¶ ¶.¶ 20
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶provoking¶ ¶provoking¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"You provoke the "¶ ¶"You provoke the "¶ 20
+¶,¶ ¶,¶ 20
+¶bastard¶ ¶bastard¶ 20
+¶understood¶ ¶understood¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"/"¶ ¶"/"¶ 20
+¶as¶ ¶as¶ 20
+¶taking¶ ¶taking¶ 20
+¶inventory¶ ¶inventory¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"x^x"¶ ¶"x^x"¶ 20
+¶as¶ ¶as¶ 20
+¶taking¶ ¶taking¶ 20
+¶inventory¶ ¶inventory¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"x x / x b@t / x ~~ / x flo^flo / "¶ ¶"x x / x b@t / x ~~ / x flo^flo / "¶ 20
+¶,¶ ¶,¶ 20
+¶/¶ ¶/¶ 20
+¶,¶ ¶,¶ 20
+¶" / x^x / provoke @@@ /
+provoke ^"¶ ¶" / x^x / provoke @@@ /
+provoke ^"¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶"^ / provoke mayn"¶ ¶"^ / provoke mayn"¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶"t / provoke "¶ ¶"t / provoke "¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶"do"¶ ¶"do"¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶" / provoke "¶ ¶" / provoke "¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶"cha"¶ ¶"cha"¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶"cha"¶ ¶"cha"¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶" /
+provoke ~ / provoke ~@^"¶ ¶" /
+provoke ~ / provoke ~@^"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

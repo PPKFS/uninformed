@@ -1,0 +1,35 @@
+21 words
+¶stage¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶the¶ ¶player¶ ¶woman¶ ¶called¶ ¶edna¶ ¶marsh¶ ¶holds¶ ¶wrench¶ ¶test¶ ¶me¶ ¶with¶ ¶"inv"¶ 
+18 distinct words
+¶Stage¶ ¶stage¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶woman¶ ¶woman¶ 20
+¶called¶ ¶called¶ 20
+¶Edna¶ ¶edna¶ 20
+¶Marsh¶ ¶marsh¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶holds¶ ¶holds¶ 20
+¶a¶ ¶a¶ 20
+¶wrench¶ ¶wrench¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"inv"¶ ¶"inv"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

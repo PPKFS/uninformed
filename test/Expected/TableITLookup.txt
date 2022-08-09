@@ -1,0 +1,69 @@
+65 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶table¶ ¶of¶ ¶neptune's¶ ¶moons¶ ¶moon¶ ¶surface¶ ¶(¶ ¶text¶ ¶)¶ ¶"Nereid"¶ ¶"utterly unknown"¶ ¶"Triton"¶ ¶"cryovolcanic ridges"¶ ¶"Proteus"¶ ¶"highly irregular and sooty"¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶let¶ ¶the¶ ¶sought¶ ¶value¶ ¶be¶ ¶;¶ ¶"utterly unknown"¶ ¶if¶ ¶listed¶ ¶in¶ ¶say¶ ¶"The surface of [moon entry] is [surface entry]."¶ ¶otherwise¶ ¶"Not found."¶ 
+39 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Table¶ ¶table¶ 20
+¶of¶ ¶of¶ 20
+¶Neptune's¶ ¶neptune's¶ 20
+¶Moons¶ ¶moons¶ 20
+¶moon¶ ¶moon¶ 0a
+¶surface¶ ¶surface¶ 09
+¶(¶ ¶(¶ 20
+¶text¶ ¶text¶ 20
+¶)¶ ¶)¶ 20
+¶"Nereid"¶ ¶"Nereid"¶ 0a
+¶"utterly unknown"¶ ¶"utterly unknown"¶ 09
+¶"Triton"¶ ¶"Triton"¶ 0a
+¶"cryovolcanic ridges"¶ ¶"cryovolcanic ridges"¶ 09
+¶"Proteus"¶ ¶"Proteus"¶ 0a
+¶"highly irregular and sooty"¶ ¶"highly irregular and sooty"¶ 09
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶let¶ ¶let¶ 41
+¶the¶ ¶the¶ 20
+¶sought¶ ¶sought¶ 20
+¶value¶ ¶value¶ 20
+¶be¶ ¶be¶ 20
+¶text¶ ¶text¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶the¶ ¶the¶ 20
+¶sought¶ ¶sought¶ 20
+¶value¶ ¶value¶ 20
+¶be¶ ¶be¶ 20
+¶"utterly unknown"¶ ¶"utterly unknown"¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶the¶ ¶the¶ 20
+¶sought¶ ¶sought¶ 20
+¶value¶ ¶value¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶surface¶ ¶surface¶ 20
+¶listed¶ ¶listed¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Table¶ ¶table¶ 20
+¶of¶ ¶of¶ 20
+¶Neptune's¶ ¶neptune's¶ 20
+¶Moons¶ ¶moons¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"The surface of [moon entry] is [surface entry]."¶ ¶"The surface of [moon entry] is [surface entry]."¶ 20
+¶;¶ ¶;¶ 20
+¶otherwise¶ ¶otherwise¶ 41
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"Not found."¶ ¶"Not found."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

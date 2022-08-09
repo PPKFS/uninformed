@@ -1,0 +1,63 @@
+94 words
+¶to¶ ¶begin¶ ¶:¶ ¶say¶ ¶"This has a[line break]sudden line break.[line break]"¶ ¶;¶ ¶"There's no skipped line above this one.[no line break]"¶ ¶" And we didn't break a line just then."¶ ¶"But here's a paragraph break.[paragraph break]"¶ ¶"And here I resume.[run paragraph on]"¶ ¶"[conditional paragraph break]"¶ ¶"There wasn't a para break before this line."¶ ¶"[conditional paragraph break]"¶ ¶"But there was before this line."¶ ¶"[paragraph break]"¶ ¶showme¶ ¶whether¶ ¶or¶ ¶not¶ ¶a¶ ¶paragraph¶ ¶break¶ ¶is¶ ¶pending¶ ¶"Now I say something, and "¶ ¶|__¶ 
+26 distinct words
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"This has a[line break]sudden line break.[line break]"¶ ¶"This has a[line break]sudden line break.[line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"There's no skipped line above this one.[no line break]"¶ ¶"There's no skipped line above this one.[no line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶" And we didn't break a line just then."¶ ¶" And we didn't break a line just then."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"But here's a paragraph break.[paragraph break]"¶ ¶"But here's a paragraph break.[paragraph break]"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"And here I resume.[run paragraph on]"¶ ¶"And here I resume.[run paragraph on]"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[conditional paragraph break]"¶ ¶"[conditional paragraph break]"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"There wasn't a para break before this line."¶ ¶"There wasn't a para break before this line."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[conditional paragraph break]"¶ ¶"[conditional paragraph break]"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"But there was before this line."¶ ¶"But there was before this line."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[paragraph break]"¶ ¶"[paragraph break]"¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶whether¶ ¶whether¶ 20
+¶or¶ ¶or¶ 20
+¶not¶ ¶not¶ 20
+¶a¶ ¶a¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶is¶ ¶is¶ 20
+¶pending¶ ¶pending¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Now I say something, and "¶ ¶"Now I say something, and "¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 41
+¶whether¶ ¶whether¶ 20
+¶or¶ ¶or¶ 20
+¶not¶ ¶not¶ 20
+¶a¶ ¶a¶ 20
+¶paragraph¶ ¶paragraph¶ 20
+¶break¶ ¶break¶ 20
+¶is¶ ¶is¶ 20
+¶pending¶ ¶pending¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

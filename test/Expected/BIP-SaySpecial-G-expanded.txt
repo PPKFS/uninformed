@@ -1,0 +1,41 @@
+44 words
+¶to¶ ¶begin¶ ¶:¶ ¶say¶ ¶"Well, look "¶ ¶,¶ ¶bracket¶ ¶"into these squares"¶ ¶close¶ ¶"."¶ ¶;¶ ¶"This is 'clever', but this is "¶ ¶apostrophe¶ ¶"even more so"¶ ¶'¶ ¶"."¶ ¶"Seems unlikely that we need a quot"¶ ¶quotation¶ ¶mark¶ ¶"ation mark inside a word, but you never know."¶ ¶|__¶ 
+21 distinct words
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Well, look "¶ ¶"Well, look "¶ 20
+¶,¶ ¶,¶ 20
+¶bracket¶ ¶bracket¶ 20
+¶,¶ ¶,¶ 20
+¶"into these squares"¶ ¶"into these squares"¶ 20
+¶,¶ ¶,¶ 20
+¶close¶ ¶close¶ 20
+¶bracket¶ ¶bracket¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"This is 'clever', but this is "¶ ¶"This is 'clever', but this is "¶ 20
+¶,¶ ¶,¶ 20
+¶apostrophe¶ ¶apostrophe¶ 20
+¶,¶ ¶,¶ 20
+¶"even more so"¶ ¶"even more so"¶ 20
+¶,¶ ¶,¶ 20
+¶'¶ ¶'¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"Seems unlikely that we need a quot"¶ ¶"Seems unlikely that we need a quot"¶ 20
+¶,¶ ¶,¶ 20
+¶quotation¶ ¶quotation¶ 20
+¶mark¶ ¶mark¶ 20
+¶,¶ ¶,¶ 20
+¶"ation mark inside a word, but you never know."¶ ¶"ation mark inside a word, but you never know."¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

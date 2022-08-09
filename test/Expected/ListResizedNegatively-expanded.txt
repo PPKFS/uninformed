@@ -1,0 +1,30 @@
+17 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶let¶ ¶l¶ ¶be¶ ¶{¶ ¶1¶ ¶}¶ ¶;¶ ¶change¶ ¶to¶ ¶have¶ ¶-2¶ ¶entries¶ ¶|__¶ 
+22 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶When¶ ¶when¶ 0a
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶let¶ ¶let¶ 41
+¶L¶ ¶l¶ 20
+¶be¶ ¶be¶ 20
+¶{¶ ¶{¶ 20
+¶1¶ ¶1¶ 20
+¶}¶ ¶}¶ 20
+¶;¶ ¶;¶ 20
+¶change¶ ¶change¶ 41
+¶L¶ ¶l¶ 20
+¶to¶ ¶to¶ 20
+¶have¶ ¶have¶ 20
+¶-2¶ ¶-2¶ 20
+¶entries¶ ¶entries¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

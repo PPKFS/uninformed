@@ -1,0 +1,41 @@
+28 words
+¶place¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶the¶ ¶inventory¶ ¶here¶ ¶instead¶ ¶of¶ ¶taking¶ ¶,¶ ¶say¶ ¶"INV!"¶ ¶"GET!"¶ ¶test¶ ¶me¶ ¶with¶ ¶"inv / get all"¶ 
+20 distinct words
+¶Place¶ ¶place¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶inventory¶ ¶inventory¶ 20
+¶is¶ ¶is¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶taking¶ ¶taking¶ 20
+¶inventory¶ ¶inventory¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"INV!"¶ ¶"INV!"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶taking¶ ¶taking¶ 20
+¶the¶ ¶the¶ 20
+¶inventory¶ ¶inventory¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"GET!"¶ ¶"GET!"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"inv / get all"¶ ¶"inv / get all"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

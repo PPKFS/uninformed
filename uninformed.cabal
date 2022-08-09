@@ -22,6 +22,8 @@ common common-options
       base
     , containers
     , template-haskell
+    , hashable
+    , unordered-containers
     , text
     , solitude
     , mtl
@@ -76,7 +78,9 @@ common common-options
 library
   import:          common-options
   hs-source-dirs:  src
-  exposed-modules: Uninformed.Lexer
+  exposed-modules:
+    Uninformed.Words.Lexer
+    Uninformed.Words.Vocabulary
 
 test-suite uninformed-test
   import:             common-options
@@ -84,16 +88,16 @@ test-suite uninformed-test
   hs-source-dirs:     test
   main-is:            Spec.hs
   build-depends:
-    , sandwich
+    , tasty
+    , tasty-hunit
     , exceptions
     , uninformed
     , filepath
-    , vty
-    , brick
     , pretty
-    , Diff
+    , split
     , bytestring
-  ghc-options:        -threaded -rtsopts -with-rtsopts=-N
+    , directory
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
   default-extensions:
     QuasiQuotes
     TemplateHaskell

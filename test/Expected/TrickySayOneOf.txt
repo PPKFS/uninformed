@@ -1,0 +1,49 @@
+36 words
+¶when¶ ¶play¶ ¶begins¶ ¶,¶ ¶seed¶ ¶the¶ ¶random-number¶ ¶generator¶ ¶with¶ ¶1234¶ ¶.¶ ¶|__¶ ¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶instead¶ ¶of¶ ¶waiting¶ ¶:¶ ¶repeat¶ ¶n¶ ¶running¶ ¶from¶ ¶1¶ ¶to¶ ¶72¶ ¶say¶ ¶"[N] - "¶ ¶;¶ ¶"[one of]a[or]b[or]c[or]d[or]e[or]f[or]g[or]h[or]i[or]j[or]k[or]l[or]m[or]n[or]o[or]p[or]q[or]r[or]s[or]t[in random order]."¶ ¶test¶ ¶me¶ ¶"z"¶ 
+34 distinct words
+¶When¶ ¶when¶ 0a
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶,¶ ¶,¶ 20
+¶seed¶ ¶seed¶ 20
+¶the¶ ¶the¶ 20
+¶random-number¶ ¶random-number¶ 20
+¶generator¶ ¶generator¶ 20
+¶with¶ ¶with¶ 20
+¶1234¶ ¶1234¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Home¶ ¶home¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶waiting¶ ¶waiting¶ 20
+¶:¶ ¶:¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶N¶ ¶n¶ 20
+¶running¶ ¶running¶ 20
+¶from¶ ¶from¶ 20
+¶1¶ ¶1¶ 20
+¶to¶ ¶to¶ 20
+¶72¶ ¶72¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"[N] - "¶ ¶"[N] - "¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 42
+¶"[one of]a[or]b[or]c[or]d[or]e[or]f[or]g[or]h[or]i[or]j[or]k[or]l[or]m[or]n[or]o[or]p[or]q[or]r[or]s[or]t[in random order]."¶ ¶"[one of]a[or]b[or]c[or]d[or]e[or]f[or]g[or]h[or]i[or]j[or]k[or]l[or]m[or]n[or]o[or]p[or]q[or]r[or]s[or]t[in random order]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z"¶ ¶"z"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

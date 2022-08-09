@@ -1,0 +1,57 @@
+30 words
+¶to¶ ¶judge¶ ¶(¶ ¶v¶ ¶-¶ ¶value¶ ¶)¶ ¶:¶ ¶say¶ ¶""¶ ¶,¶ ¶" is "¶ ¶one¶ ¶of¶ ¶"clearly"¶ ¶or¶ ¶"evidently"¶ ¶"markedly"¶ ¶cycling¶ ¶" just plain "¶ ¶"."¶ ¶begin¶ ¶21¶ ¶;¶ ¶"fishslice"¶ ¶true¶ ¶56¶ ¶.¶ ¶|__¶ 
+29 distinct words
+¶To¶ ¶to¶ 0a
+¶judge¶ ¶judge¶ 20
+¶(¶ ¶(¶ 20
+¶V¶ ¶v¶ 20
+¶-¶ ¶-¶ 20
+¶value¶ ¶value¶ 20
+¶)¶ ¶)¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶V¶ ¶v¶ 20
+¶,¶ ¶,¶ 20
+¶" is "¶ ¶" is "¶ 20
+¶,¶ ¶,¶ 20
+¶one¶ ¶one¶ 20
+¶of¶ ¶of¶ 20
+¶,¶ ¶,¶ 20
+¶"clearly"¶ ¶"clearly"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"evidently"¶ ¶"evidently"¶ 20
+¶,¶ ¶,¶ 20
+¶or¶ ¶or¶ 20
+¶,¶ ¶,¶ 20
+¶"markedly"¶ ¶"markedly"¶ 20
+¶,¶ ¶,¶ 20
+¶cycling¶ ¶cycling¶ 20
+¶,¶ ¶,¶ 20
+¶" just plain "¶ ¶" just plain "¶ 20
+¶,¶ ¶,¶ 20
+¶V¶ ¶v¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶judge¶ ¶judge¶ 41
+¶21¶ ¶21¶ 20
+¶;¶ ¶;¶ 20
+¶judge¶ ¶judge¶ 41
+¶"fishslice"¶ ¶"fishslice"¶ 20
+¶;¶ ¶;¶ 20
+¶judge¶ ¶judge¶ 41
+¶true¶ ¶true¶ 20
+¶;¶ ¶;¶ 20
+¶judge¶ ¶judge¶ 41
+¶56¶ ¶56¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

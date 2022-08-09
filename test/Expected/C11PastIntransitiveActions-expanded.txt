@@ -1,0 +1,75 @@
+80 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶every¶ ¶turn¶ ¶when¶ ¶we¶ ¶have¶ ¶taken¶ ¶inventory¶ ¶:¶ ¶say¶ ¶"You sure are glad that
+your inventory is in order!"¶ ¶waited¶ ¶"Time keeps dragging on."¶ ¶the¶ ¶block¶ ¶waking¶ ¶up¶ ¶rule¶ ¶not¶ ¶listed¶ ¶in¶ ¶any¶ ¶rulebook¶ ¶report¶ ¶"You are now wide awake."¶ ¶woken¶ ¶"It's good that you're awake
+too."¶ ¶test¶ ¶me¶ ¶with¶ ¶"actions / i / z / wake up / z / z"¶ 
+36 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶when¶ ¶when¶ 20
+¶we¶ ¶we¶ 20
+¶have¶ ¶have¶ 20
+¶taken¶ ¶taken¶ 20
+¶inventory¶ ¶inventory¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"You sure are glad that
+your inventory is in order!"¶ ¶"You sure are glad that
+your inventory is in order!"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶when¶ ¶when¶ 20
+¶we¶ ¶we¶ 20
+¶have¶ ¶have¶ 20
+¶waited¶ ¶waited¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Time keeps dragging on."¶ ¶"Time keeps dragging on."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶block¶ ¶block¶ 20
+¶waking¶ ¶waking¶ 20
+¶up¶ ¶up¶ 20
+¶rule¶ ¶rule¶ 20
+¶is¶ ¶is¶ 20
+¶not¶ ¶not¶ 20
+¶listed¶ ¶listed¶ 20
+¶in¶ ¶in¶ 20
+¶any¶ ¶any¶ 20
+¶rulebook¶ ¶rulebook¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Report¶ ¶report¶ 20
+¶waking¶ ¶waking¶ 20
+¶up¶ ¶up¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"You are now wide awake."¶ ¶"You are now wide awake."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶when¶ ¶when¶ 20
+¶we¶ ¶we¶ 20
+¶have¶ ¶have¶ 20
+¶woken¶ ¶woken¶ 20
+¶up¶ ¶up¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"It's good that you're awake
+too."¶ ¶"It's good that you're awake
+too."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"actions / i / z / wake up / z / z"¶ ¶"actions / i / z / wake up / z / z"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,61 @@
+61 words
+¶|__¶ ¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶at¶ ¶9:01¶ ¶am¶ ¶:¶ ¶end¶ ¶the¶ ¶story¶ ¶saying¶ ¶"You have died"¶ ¶9:04¶ ¶finally¶ ¶"Your privileges have been revoked"¶ ¶when¶ ¶play¶ ¶ends¶ ¶has¶ ¶not¶ ¶ended¶ ¶say¶ ¶"You have been granted a reprieve!"¶ ¶;¶ ¶resume¶ ¶test¶ ¶me¶ ¶with¶ ¶"z / z / look / z / z / z"¶ 
+32 distinct words
+¶|__¶ ¶|__¶ 0a
+¶Foo¶ ¶foo¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶At¶ ¶at¶ 20
+¶9:01¶ ¶9:01¶ 20
+¶am¶ ¶am¶ 20
+¶:¶ ¶:¶ 20
+¶end¶ ¶end¶ 41
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 20
+¶saying¶ ¶saying¶ 20
+¶"You have died"¶ ¶"You have died"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶At¶ ¶at¶ 20
+¶9:04¶ ¶9:04¶ 20
+¶am¶ ¶am¶ 20
+¶:¶ ¶:¶ 20
+¶end¶ ¶end¶ 41
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 20
+¶finally¶ ¶finally¶ 20
+¶saying¶ ¶saying¶ 20
+¶"Your privileges have been revoked"¶ ¶"Your privileges have been revoked"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶ends¶ ¶ends¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 20
+¶has¶ ¶has¶ 20
+¶not¶ ¶not¶ 20
+¶ended¶ ¶ended¶ 20
+¶finally¶ ¶finally¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"You have been granted a reprieve!"¶ ¶"You have been granted a reprieve!"¶ 20
+¶;¶ ¶;¶ 20
+¶resume¶ ¶resume¶ 41
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z / z / look / z / z / z"¶ ¶"z / z / look / z / z / z"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

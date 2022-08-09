@@ -1,0 +1,45 @@
+37 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶there¶ ¶vehicle¶ ¶are¶ ¶man¶ ¶and¶ ¶woman¶ ¶in¶ ¶when¶ ¶play¶ ¶begins¶ ¶,¶ ¶say¶ ¶"Things: [the list of all things in brace notation]."¶ 
+19 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶There¶ ¶there¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶vehicle¶ ¶vehicle¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶There¶ ¶there¶ 20
+¶are¶ ¶are¶ 20
+¶a¶ ¶a¶ 20
+¶man¶ ¶man¶ 20
+¶and¶ ¶and¶ 20
+¶a¶ ¶a¶ 20
+¶woman¶ ¶woman¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶There¶ ¶there¶ 20
+¶are¶ ¶are¶ 20
+¶a¶ ¶a¶ 20
+¶man¶ ¶man¶ 20
+¶and¶ ¶and¶ 20
+¶a¶ ¶a¶ 20
+¶woman¶ ¶woman¶ 20
+¶in¶ ¶in¶ 20
+¶Foo¶ ¶foo¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶,¶ ¶,¶ 20
+¶say¶ ¶say¶ 20
+¶"Things: [the list of all things in brace notation]."¶ ¶"Things: [the list of all things in brace notation]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

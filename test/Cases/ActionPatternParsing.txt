@@ -1,0 +1,62 @@
+Radiation Laboratory is a room.
+
+A Geiger counter is here. A bench is a supporter in the Laboratory.
+Hans is a man in the Laboratory.
+
+East of the Laboratory is the Castle.
+
+Eating something is gluttony.
+
+[Should parse]
+
+Test pattern (internal) with looking.
+Test pattern (internal) with looking or waiting.
+Test pattern (internal) with looking or taking.
+Test pattern (internal) with taking the counter.
+Test pattern (internal) with putting the counter on the bench.
+Test pattern (internal) with putting the counter on something.
+Test pattern (internal) with putting a thing on something.
+Test pattern (internal) with putting a thing on a supporter.
+
+Test pattern (internal) with Hans taking the counter.
+Test pattern (internal) with Hans trying taking the counter.
+Test pattern (internal) with asking Hans to try taking the counter.
+Test pattern (internal) with somebody taking the counter.
+Test pattern (internal) with an actor taking the counter.
+
+Test pattern (internal) with examining the counter is nosy behaviour.
+Test pattern (internal) with looking is nosy behaviour.
+Test pattern (internal) with nosy behaviour.
+Test pattern (internal) with looking in the presence of Hans.
+
+[Should fail]
+
+Test pattern (internal) with arfle barfle gloop.
+Test pattern (internal) with looking the counter.
+
+[Specificity]
+
+Test pattern (internal) with taking ~~ doing something.
+Test pattern (internal) with doing something ~~ doing something other than taking.
+Test pattern (internal) with taking ~~ taking a thing.
+Test pattern (internal) with taking the counter ~~ taking a thing.
+Test pattern (internal) with taking or dropping the counter ~~ taking the counter.
+
+Test pattern (internal) with list looking.
+Test pattern (internal) with list looking in the Laboratory.
+Test pattern (internal) with list looking in the Laboratory in the presence of Hans.
+Test pattern (internal) with list dropping in the Laboratory in the presence of Hans.
+Test pattern (internal) with list looking or taking inventory in the Laboratory in the presence of Hans.
+Test pattern (internal) with list looking or taking inventory in the presence of Hans in the Laboratory.
+Test pattern (internal) with list looking in in in in in in in in in in in in in in in in in in in in.
+Test pattern (internal) with list going from the Laboratory to the Castle.
+Test pattern (internal) with list listening.
+Test pattern (internal) with list listening in the presence of Hans.
+
+Test pattern (internal) with list gluttony.
+Test pattern (internal) with list gluttony in the Laboratory.
+
+Test pattern (internal) with experimental looking.
+Test pattern (internal) with experimental taking inventory.
+Test pattern (internal) with experimental looking in the Laboratory.
+Test pattern (internal) with experimental gluttony in the Laboratory.

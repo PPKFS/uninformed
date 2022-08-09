@@ -1,0 +1,95 @@
+118 words
+¶the¶ ¶trampolinium¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶before¶ ¶jumping¶ ¶:¶ ¶say¶ ¶"Before jumping."¶ ¶for¶ ¶third¶ ¶time¶ ¶"Before jumping for the third time."¶ ¶second¶ ¶to¶ ¶"Before jumping for the second to third time."¶ ¶at¶ ¶most¶ ¶"Before jumping for at most the second time."¶ ¶more¶ ¶than¶ ¶"Before jumping for more than the second time."¶ ¶less¶ ¶"Before jumping for less than the third time."¶ ¶least¶ ¶"Before jumping for at least the third time."¶ ¶test¶ ¶me¶ ¶with¶ ¶"jump / jump / jump / jump"¶ 
+33 distinct words
+¶The¶ ¶the¶ 0a
+¶Trampolinium¶ ¶trampolinium¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Before jumping."¶ ¶"Before jumping."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶for¶ ¶for¶ 20
+¶the¶ ¶the¶ 20
+¶third¶ ¶third¶ 20
+¶time¶ ¶time¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Before jumping for the third time."¶ ¶"Before jumping for the third time."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶for¶ ¶for¶ 20
+¶the¶ ¶the¶ 20
+¶second¶ ¶second¶ 20
+¶to¶ ¶to¶ 20
+¶third¶ ¶third¶ 20
+¶time¶ ¶time¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Before jumping for the second to third time."¶ ¶"Before jumping for the second to third time."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶for¶ ¶for¶ 20
+¶at¶ ¶at¶ 20
+¶most¶ ¶most¶ 20
+¶the¶ ¶the¶ 20
+¶second¶ ¶second¶ 20
+¶time¶ ¶time¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Before jumping for at most the second time."¶ ¶"Before jumping for at most the second time."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶for¶ ¶for¶ 20
+¶more¶ ¶more¶ 20
+¶than¶ ¶than¶ 20
+¶the¶ ¶the¶ 20
+¶second¶ ¶second¶ 20
+¶time¶ ¶time¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Before jumping for more than the second time."¶ ¶"Before jumping for more than the second time."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶for¶ ¶for¶ 20
+¶less¶ ¶less¶ 20
+¶than¶ ¶than¶ 20
+¶the¶ ¶the¶ 20
+¶third¶ ¶third¶ 20
+¶time¶ ¶time¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Before jumping for less than the third time."¶ ¶"Before jumping for less than the third time."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶jumping¶ ¶jumping¶ 20
+¶for¶ ¶for¶ 20
+¶at¶ ¶at¶ 20
+¶least¶ ¶least¶ 20
+¶the¶ ¶the¶ 20
+¶third¶ ¶third¶ 20
+¶time¶ ¶time¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Before jumping for at least the third time."¶ ¶"Before jumping for at least the third time."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"jump / jump / jump / jump"¶ ¶"jump / jump / jump / jump"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

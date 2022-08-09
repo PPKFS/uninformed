@@ -1,0 +1,138 @@
+103 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶l¶ ¶list¶ ¶of¶ ¶text¶ ¶that¶ ¶varies¶ ¶{¶ ¶""¶ ¶,¶ ¶the¶ ¶problem¶ ¶""¶ ¶}¶ ¶to¶ ¶say¶ ¶:¶ ¶"This doesn't work."¶ ¶thing¶ ¶has¶ ¶texts¶ ¶called¶ ¶hint¶ ¶instead¶ ¶examining¶ ¶something¶ ¶repeat¶ ¶with¶ ¶h¶ ¶running¶ ¶through¶ ¶noun¶ ¶"- "¶ ¶""¶ ¶line¶ ¶break¶ ¶""¶ ¶;¶ ¶"And L is "¶ ¶"."¶ ¶an¶ ¶apple¶ ¶in¶ ¶it¶ ¶edible¶ ¶"What can you do
+with an apple?"¶ ¶"It's a kind of fruit, isn't it?"¶ ¶"It could perhaps
+provide nutrition."¶ ¶"Just "¶ ¶italic¶ ¶type¶ ¶"eat apple"¶ ¶roman¶ ¶"."¶ ¶test¶ ¶me¶ ¶"x apple"¶ 
+62 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶L¶ ¶l¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶list¶ ¶list¶ 20
+¶of¶ ¶of¶ 20
+¶text¶ ¶text¶ 20
+¶that¶ ¶that¶ 20
+¶varies¶ ¶varies¶ 20
+¶.¶ ¶.¶ 20
+¶L¶ ¶l¶ 20
+¶is¶ ¶is¶ 20
+¶{¶ ¶{¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶problem¶ ¶problem¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶}¶ ¶}¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶say¶ ¶say¶ 20
+¶the¶ ¶the¶ 20
+¶problem¶ ¶problem¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"This doesn't work."¶ ¶"This doesn't work."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶has¶ ¶has¶ 20
+¶a¶ ¶a¶ 20
+¶list¶ ¶list¶ 20
+¶of¶ ¶of¶ 20
+¶texts¶ ¶texts¶ 20
+¶called¶ ¶called¶ 20
+¶the¶ ¶the¶ 20
+¶hint¶ ¶hint¶ 20
+¶list¶ ¶list¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶something¶ ¶something¶ 20
+¶:¶ ¶:¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶H¶ ¶h¶ 20
+¶running¶ ¶running¶ 20
+¶through¶ ¶through¶ 20
+¶the¶ ¶the¶ 20
+¶hint¶ ¶hint¶ 20
+¶list¶ ¶list¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶noun¶ ¶noun¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"- "¶ ¶"- "¶ 20
+¶,¶ ¶,¶ 20
+¶H¶ ¶h¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶line¶ ¶line¶ 20
+¶break¶ ¶break¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"And L is "¶ ¶"And L is "¶ 20
+¶,¶ ¶,¶ 20
+¶L¶ ¶l¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶An¶ ¶an¶ 20
+¶apple¶ ¶apple¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶home¶ ¶home¶ 20
+¶.¶ ¶.¶ 20
+¶It¶ ¶it¶ 20
+¶is¶ ¶is¶ 20
+¶edible¶ ¶edible¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶hint¶ ¶hint¶ 20
+¶list¶ ¶list¶ 20
+¶is¶ ¶is¶ 20
+¶{¶ ¶{¶ 20
+¶"What can you do
+with an apple?"¶ ¶"What can you do
+with an apple?"¶ 20
+¶,¶ ¶,¶ 20
+¶"It's a kind of fruit, isn't it?"¶ ¶"It's a kind of fruit, isn't it?"¶ 20
+¶,¶ ¶,¶ 20
+¶"It could perhaps
+provide nutrition."¶ ¶"It could perhaps
+provide nutrition."¶ 20
+¶,¶ ¶,¶ 20
+¶"Just "¶ ¶"Just "¶ 20
+¶,¶ ¶,¶ 20
+¶italic¶ ¶italic¶ 20
+¶type¶ ¶type¶ 20
+¶,¶ ¶,¶ 20
+¶"eat apple"¶ ¶"eat apple"¶ 20
+¶,¶ ¶,¶ 20
+¶roman¶ ¶roman¶ 20
+¶type¶ ¶type¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶}¶ ¶}¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"x apple"¶ ¶"x apple"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

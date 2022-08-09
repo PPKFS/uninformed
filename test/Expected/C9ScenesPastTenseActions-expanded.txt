@@ -1,0 +1,74 @@
+64 words
+¶the¶ ¶desert¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"These new optical-reflection-triggered bombs
+are a nightmare. Be careful."¶ ¶mysterious¶ ¶object¶ ¶thing¶ ¶in¶ ¶description¶ ¶"Oh n---"¶ ¶|__¶ ¶dangerous¶ ¶times¶ ¶scene¶ ¶begins¶ ¶when¶ ¶play¶ ¶ends¶ ¶we¶ ¶have¶ ¶examined¶ ¶:¶ ¶end¶ ¶story¶ ¶saying¶ ¶"You have died"¶ ¶test¶ ¶me¶ ¶with¶ ¶"scenes/z/z/x object"¶ 
+33 distinct words
+¶The¶ ¶the¶ 0a
+¶Desert¶ ¶desert¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"These new optical-reflection-triggered bombs
+are a nightmare. Be careful."¶ ¶"These new optical-reflection-triggered bombs
+are a nightmare. Be careful."¶ 20
+¶The¶ ¶the¶ 20
+¶mysterious¶ ¶mysterious¶ 20
+¶object¶ ¶object¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶thing¶ ¶thing¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶desert¶ ¶desert¶ 0a
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶description¶ ¶description¶ 20
+¶is¶ ¶is¶ 20
+¶"Oh n---"¶ ¶"Oh n---"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Dangerous¶ ¶dangerous¶ 20
+¶Times¶ ¶times¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶scene¶ ¶scene¶ 20
+¶.¶ ¶.¶ 20
+¶Dangerous¶ ¶dangerous¶ 20
+¶Times¶ ¶times¶ 20
+¶begins¶ ¶begins¶ 20
+¶when¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶.¶ ¶.¶ 20
+¶Dangerous¶ ¶dangerous¶ 0a
+¶Times¶ ¶times¶ 20
+¶ends¶ ¶ends¶ 20
+¶when¶ ¶when¶ 20
+¶we¶ ¶we¶ 20
+¶have¶ ¶have¶ 20
+¶examined¶ ¶examined¶ 20
+¶the¶ ¶the¶ 20
+¶mysterious¶ ¶mysterious¶ 20
+¶object¶ ¶object¶ 20
+¶.¶ ¶.¶ 20
+¶When¶ ¶when¶ 0a
+¶Dangerous¶ ¶dangerous¶ 20
+¶Times¶ ¶times¶ 20
+¶ends¶ ¶ends¶ 20
+¶:¶ ¶:¶ 20
+¶end¶ ¶end¶ 20
+¶the¶ ¶the¶ 20
+¶story¶ ¶story¶ 20
+¶saying¶ ¶saying¶ 20
+¶"You have died"¶ ¶"You have died"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"scenes/z/z/x object"¶ ¶"scenes/z/z/x object"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

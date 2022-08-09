@@ -1,0 +1,38 @@
+38 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶"A nice room."¶ ¶|__¶ ¶the¶ ¶table¶ ¶in¶ ¶"A cool table is here."¶ ¶pair¶ ¶of¶ ¶invisible¶ ¶pants¶ ¶on¶ ¶"Invisible pants! What a time to be alive."¶ ¶undescribed¶ 
+18 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶"A nice room."¶ ¶"A nice room."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶table¶ ¶table¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶Foo¶ ¶foo¶ 20
+¶.¶ ¶.¶ 20
+¶"A cool table is here."¶ ¶"A cool table is here."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶pair¶ ¶pair¶ 20
+¶of¶ ¶of¶ 20
+¶invisible¶ ¶invisible¶ 20
+¶pants¶ ¶pants¶ 20
+¶is¶ ¶is¶ 20
+¶on¶ ¶on¶ 20
+¶the¶ ¶the¶ 20
+¶table¶ ¶table¶ 20
+¶.¶ ¶.¶ 20
+¶"Invisible pants! What a time to be alive."¶ ¶"Invisible pants! What a time to be alive."¶ 20
+¶The¶ ¶the¶ 20
+¶pair¶ ¶pair¶ 0a
+¶is¶ ¶is¶ 20
+¶undescribed¶ ¶undescribed¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

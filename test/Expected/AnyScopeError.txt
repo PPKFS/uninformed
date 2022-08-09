@@ -1,0 +1,50 @@
+52 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶understand¶ ¶"bug [any thing]"¶ ¶as¶ ¶examining¶ ¶rule¶ ¶for¶ ¶printing¶ ¶parser¶ ¶error¶ ¶when¶ ¶latest¶ ¶noun¶ ¶did¶ ¶not¶ ¶make¶ ¶sense¶ ¶in¶ ¶that¶ ¶context¶ ¶:¶ ¶say¶ ¶"Oh, if you must use 'any thing', you deserve all you get."¶ ¶instead¶ ¶test¶ ¶me¶ ¶with¶ ¶"bug me / bug home"¶ 
+33 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"bug [any thing]"¶ ¶"bug [any thing]"¶ 20
+¶as¶ ¶as¶ 20
+¶examining¶ ¶examining¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Rule¶ ¶rule¶ 20
+¶for¶ ¶for¶ 20
+¶printing¶ ¶printing¶ 20
+¶a¶ ¶a¶ 20
+¶parser¶ ¶parser¶ 20
+¶error¶ ¶error¶ 20
+¶when¶ ¶when¶ 20
+¶latest¶ ¶latest¶ 20
+¶parser¶ ¶parser¶ 20
+¶error¶ ¶error¶ 20
+¶is¶ ¶is¶ 20
+¶noun¶ ¶noun¶ 20
+¶did¶ ¶did¶ 20
+¶not¶ ¶not¶ 20
+¶make¶ ¶make¶ 20
+¶sense¶ ¶sense¶ 20
+¶in¶ ¶in¶ 20
+¶that¶ ¶that¶ 20
+¶context¶ ¶context¶ 20
+¶error¶ ¶error¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Oh, if you must use 'any thing', you deserve all you get."¶ ¶"Oh, if you must use 'any thing', you deserve all you get."¶ 20
+¶instead¶ ¶instead¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"bug me / bug home"¶ ¶"bug me / bug home"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

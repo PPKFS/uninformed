@@ -1,0 +1,94 @@
+95 words
+¶someplace¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶joe¶ ¶man¶ ¶in¶ ¶the¶ ¶player¶ ¶carries¶ ¶sign¶ ¶test¶ ¶string¶ ¶text¶ ¶that¶ ¶varies¶ ¶before¶ ¶doing¶ ¶something¶ ¶when¶ ¶can¶ ¶see¶ ¶:¶ ¶now¶ ¶"[the action name part of the current action]"¶ ¶;¶ ¶say¶ ¶"(test string = '[test string]')"¶ ¶continue¶ ¶action¶ ¶instead¶ ¶of¶ ¶if¶ ¶--¶ ¶"jumping"¶ ¶"'Oh, go jump in a lake!'"¶ ¶"waving"¶ ¶"'Oh, wave off!'"¶ ¶otherwise¶ ¶"No idea."¶ ¶me¶ ¶with¶ ¶"x sign / give sign to joe / jump / wave sign"¶ 
+45 distinct words
+¶Someplace¶ ¶someplace¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Joe¶ ¶joe¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶man¶ ¶man¶ 20
+¶in¶ ¶in¶ 20
+¶Someplace¶ ¶someplace¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶carries¶ ¶carries¶ 20
+¶a¶ ¶a¶ 20
+¶sign¶ ¶sign¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶string¶ ¶string¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶text¶ ¶text¶ 20
+¶that¶ ¶that¶ 20
+¶varies¶ ¶varies¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶doing¶ ¶doing¶ 20
+¶something¶ ¶something¶ 20
+¶when¶ ¶when¶ 20
+¶Joe¶ ¶joe¶ 20
+¶can¶ ¶can¶ 20
+¶see¶ ¶see¶ 20
+¶the¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶:¶ ¶:¶ 20
+¶now¶ ¶now¶ 41
+¶test¶ ¶test¶ 20
+¶string¶ ¶string¶ 20
+¶is¶ ¶is¶ 20
+¶"[the action name part of the current action]"¶ ¶"[the action name part of the current action]"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"(test string = '[test string]')"¶ ¶"(test string = '[test string]')"¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 41
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶doing¶ ¶doing¶ 20
+¶something¶ ¶something¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 41
+¶test¶ ¶test¶ 20
+¶string¶ ¶string¶ 20
+¶is¶ ¶is¶ 20
+¶:¶ ¶:¶ 20
+¶--¶ ¶--¶ 42
+¶"jumping"¶ ¶"jumping"¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"'Oh, go jump in a lake!'"¶ ¶"'Oh, go jump in a lake!'"¶ 20
+¶;¶ ¶;¶ 20
+¶--¶ ¶--¶ 42
+¶"waving"¶ ¶"waving"¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"'Oh, wave off!'"¶ ¶"'Oh, wave off!'"¶ 20
+¶;¶ ¶;¶ 20
+¶--¶ ¶--¶ 42
+¶otherwise¶ ¶otherwise¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"No idea."¶ ¶"No idea."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"x sign / give sign to joe / jump / wave sign"¶ ¶"x sign / give sign to joe / jump / wave sign"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

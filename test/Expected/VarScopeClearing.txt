@@ -1,0 +1,49 @@
+37 words
+¶there¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶repeat¶ ¶with¶ ¶counter¶ ¶running¶ ¶from¶ ¶one¶ ¶to¶ ¶two¶ ¶let¶ ¶x¶ ¶be¶ ¶some¶ ¶text¶ ¶;¶ ¶say¶ ¶"At loop start: "¶ ¶showme¶ ¶now¶ ¶"nonempty"¶ ¶"At loop end: "¶ ¶|__¶ 
+30 distinct words
+¶There¶ ¶there¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶When¶ ¶when¶ 0a
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶repeat¶ ¶repeat¶ 41
+¶with¶ ¶with¶ 20
+¶a¶ ¶a¶ 20
+¶counter¶ ¶counter¶ 20
+¶running¶ ¶running¶ 20
+¶from¶ ¶from¶ 20
+¶one¶ ¶one¶ 20
+¶to¶ ¶to¶ 20
+¶two¶ ¶two¶ 20
+¶:¶ ¶:¶ 20
+¶let¶ ¶let¶ 42
+¶x¶ ¶x¶ 20
+¶be¶ ¶be¶ 20
+¶some¶ ¶some¶ 20
+¶text¶ ¶text¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 42
+¶"At loop start: "¶ ¶"At loop start: "¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 42
+¶x¶ ¶x¶ 20
+¶;¶ ¶;¶ 20
+¶now¶ ¶now¶ 42
+¶x¶ ¶x¶ 20
+¶is¶ ¶is¶ 20
+¶"nonempty"¶ ¶"nonempty"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 42
+¶"At loop end: "¶ ¶"At loop end: "¶ 20
+¶;¶ ¶;¶ 20
+¶showme¶ ¶showme¶ 42
+¶x¶ ¶x¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

@@ -1,0 +1,86 @@
+118 words
+¶this¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶after¶ ¶reading¶ ¶command¶ ¶:¶ ¶if¶ ¶the¶ ¶player's¶ ¶matches¶ ¶regular¶ ¶expression¶ ¶"^\p"¶ ¶say¶ ¶"'[the player's command]' matches [fixed letter spacing]^\p[variable letter spacing] [line break]"¶ ¶;¶ ¶"^<\p>"¶ ¶"'[the player's command]' matches [fixed letter spacing]^<\p>[variable letter spacing] [line break]"¶ ¶"^<b\p>"¶ ¶"'[the player's command]' matches [fixed letter spacing]^<b\p>[variable letter spacing] [line break]"¶ ¶"^(b|\p)"¶ ¶"'[the player's command]' matches [fixed letter spacing]^(b|\p)[variable letter spacing] [line break]"¶ ¶understand¶ ¶"pingpong"¶ ¶as¶ ¶mistake¶ ¶(¶ ¶"Pong ping."¶ ¶)¶ ¶test¶ ¶me¶ ¶with¶ ¶". foo / b foo / x foo / pingpong / p foo / \ foo"¶ 
+37 distinct words
+¶This¶ ¶this¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶After¶ ¶after¶ 20
+¶reading¶ ¶reading¶ 20
+¶a¶ ¶a¶ 20
+¶command¶ ¶command¶ 20
+¶:¶ ¶:¶ 20
+¶if¶ ¶if¶ 41
+¶the¶ ¶the¶ 20
+¶player's¶ ¶player's¶ 20
+¶command¶ ¶command¶ 20
+¶matches¶ ¶matches¶ 20
+¶the¶ ¶the¶ 20
+¶regular¶ ¶regular¶ 20
+¶expression¶ ¶expression¶ 20
+¶"^\p"¶ ¶"^\p"¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"'[the player's command]' matches [fixed letter spacing]^\p[variable letter spacing] [line break]"¶ ¶"'[the player's command]' matches [fixed letter spacing]^\p[variable letter spacing] [line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶the¶ ¶the¶ 20
+¶player's¶ ¶player's¶ 20
+¶command¶ ¶command¶ 20
+¶matches¶ ¶matches¶ 20
+¶the¶ ¶the¶ 20
+¶regular¶ ¶regular¶ 20
+¶expression¶ ¶expression¶ 20
+¶"^<\p>"¶ ¶"^<\p>"¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"'[the player's command]' matches [fixed letter spacing]^<\p>[variable letter spacing] [line break]"¶ ¶"'[the player's command]' matches [fixed letter spacing]^<\p>[variable letter spacing] [line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶the¶ ¶the¶ 20
+¶player's¶ ¶player's¶ 20
+¶command¶ ¶command¶ 20
+¶matches¶ ¶matches¶ 20
+¶the¶ ¶the¶ 20
+¶regular¶ ¶regular¶ 20
+¶expression¶ ¶expression¶ 20
+¶"^<b\p>"¶ ¶"^<b\p>"¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"'[the player's command]' matches [fixed letter spacing]^<b\p>[variable letter spacing] [line break]"¶ ¶"'[the player's command]' matches [fixed letter spacing]^<b\p>[variable letter spacing] [line break]"¶ 20
+¶;¶ ¶;¶ 20
+¶if¶ ¶if¶ 41
+¶the¶ ¶the¶ 20
+¶player's¶ ¶player's¶ 20
+¶command¶ ¶command¶ 20
+¶matches¶ ¶matches¶ 20
+¶the¶ ¶the¶ 20
+¶regular¶ ¶regular¶ 20
+¶expression¶ ¶expression¶ 20
+¶"^(b|\p)"¶ ¶"^(b|\p)"¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 42
+¶"'[the player's command]' matches [fixed letter spacing]^(b|\p)[variable letter spacing] [line break]"¶ ¶"'[the player's command]' matches [fixed letter spacing]^(b|\p)[variable letter spacing] [line break]"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"pingpong"¶ ¶"pingpong"¶ 20
+¶as¶ ¶as¶ 20
+¶a¶ ¶a¶ 20
+¶mistake¶ ¶mistake¶ 20
+¶(¶ ¶(¶ 20
+¶"Pong ping."¶ ¶"Pong ping."¶ 20
+¶)¶ ¶)¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶". foo / b foo / x foo / pingpong / p foo / \ foo"¶ ¶". foo / b foo / x foo / pingpong / p foo / \ foo"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

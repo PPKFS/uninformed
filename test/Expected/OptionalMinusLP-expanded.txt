@@ -1,0 +1,144 @@
+128 words
+¶test¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶surreal¶ ¶number¶ ¶kind¶ ¶of¶ ¶value¶ ¶-999999:9999¶ ¶specifies¶ ¶with¶ ¶parts¶ ¶whole¶ ¶and¶ ¶fractional¶ ¶the¶ ¶element-selection¶ ¶set¶ ¶list¶ ¶numbers¶ ¶variable¶ ¶{¶ ¶1¶ ¶}¶ ¶scaling¶ ¶elements¶ ¶an¶ ¶action¶ ¶applying¶ ¶to¶ ¶one¶ ¶understand¶ ¶"scale at "¶ ¶,¶ ¶""¶ ¶or¶ ¶"scale element/elements at "¶ ¶""¶ ¶"scale to "¶ ¶""¶ ¶"scale
+element/elements to "¶ ¶""¶ ¶as¶ ¶"scale "¶ ¶""¶ ¶when¶ ¶entries¶ ¶>¶ ¶0¶ ¶carry¶ ¶out¶ ¶:¶ ¶say¶ ¶"Scaled to "¶ ¶understood¶ ¶"!"¶ ¶me¶ ¶"scale element at 0:8000 / scale element at 1:2500 / scale 0:8000 / scale 1:2500 /
+scale -1:0000 / scale -0:9000 / scale 0:9999 / scale 1:0000"¶ 
+61 distinct words
+¶Test¶ ¶test¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶value¶ ¶value¶ 20
+¶.¶ ¶.¶ 20
+¶-999999:9999¶ ¶-999999:9999¶ 20
+¶specifies¶ ¶specifies¶ 20
+¶a¶ ¶a¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶with¶ ¶with¶ 20
+¶parts¶ ¶parts¶ 20
+¶whole¶ ¶whole¶ 20
+¶and¶ ¶and¶ 20
+¶fractional¶ ¶fractional¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶element-selection¶ ¶element-selection¶ 20
+¶set¶ ¶set¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶list¶ ¶list¶ 20
+¶of¶ ¶of¶ 20
+¶numbers¶ ¶numbers¶ 20
+¶variable¶ ¶variable¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶element-selection¶ ¶element-selection¶ 20
+¶set¶ ¶set¶ 20
+¶is¶ ¶is¶ 20
+¶{¶ ¶{¶ 20
+¶1¶ ¶1¶ 20
+¶}¶ ¶}¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Scaling¶ ¶scaling¶ 20
+¶elements¶ ¶elements¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶.¶ ¶.¶ 20
+¶Understand¶ ¶understand¶ 20
+¶"scale at "¶ ¶"scale at "¶ 20
+¶,¶ ¶,¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶or¶ ¶or¶ 0a
+¶"scale element/elements at "¶ ¶"scale element/elements at "¶ 20
+¶,¶ ¶,¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶or¶ ¶or¶ 20
+¶"scale to "¶ ¶"scale to "¶ 20
+¶,¶ ¶,¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶or¶ ¶or¶ 20
+¶"scale
+element/elements to "¶ ¶"scale
+element/elements to "¶ 20
+¶,¶ ¶,¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶scaling¶ ¶scaling¶ 20
+¶elements¶ ¶elements¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"scale "¶ ¶"scale "¶ 20
+¶,¶ ¶,¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶scaling¶ ¶scaling¶ 20
+¶elements¶ ¶elements¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶number¶ ¶number¶ 20
+¶of¶ ¶of¶ 20
+¶entries¶ ¶entries¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶element-selection¶ ¶element-selection¶ 20
+¶set¶ ¶set¶ 20
+¶>¶ ¶>¶ 20
+¶0¶ ¶0¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶scaling¶ ¶scaling¶ 20
+¶elements¶ ¶elements¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Scaled to "¶ ¶"Scaled to "¶ 20
+¶,¶ ¶,¶ 20
+¶surreal¶ ¶surreal¶ 20
+¶number¶ ¶number¶ 20
+¶understood¶ ¶understood¶ 20
+¶,¶ ¶,¶ 20
+¶"!"¶ ¶"!"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"scale element at 0:8000 / scale element at 1:2500 / scale 0:8000 / scale 1:2500 /
+scale -1:0000 / scale -0:9000 / scale 0:9999 / scale 1:0000"¶ ¶"scale element at 0:8000 / scale element at 1:2500 / scale 0:8000 / scale 1:2500 /
+scale -1:0000 / scale -0:9000 / scale 0:9999 / scale 1:0000"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

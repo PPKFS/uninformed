@@ -1,0 +1,67 @@
+54 words
+¶stage¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶frequency¶ ¶kind¶ ¶of¶ ¶value¶ ¶100khz¶ ¶specifies¶ ¶tuning¶ ¶an¶ ¶action¶ ¶applying¶ ¶to¶ ¶one¶ ¶understand¶ ¶"tune to
+"¶ ¶,¶ ¶""¶ ¶as¶ ¶carry¶ ¶out¶ ¶:¶ ¶say¶ ¶"You tune to "¶ ¶the¶ ¶understood¶ ¶"."¶ ¶test¶ ¶me¶ ¶with¶ ¶"tune to 79kHz / TUNE TO 79KHZ / tune to 79khz"¶ 
+35 distinct words
+¶Stage¶ ¶stage¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶frequency¶ ¶frequency¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶value¶ ¶value¶ 20
+¶.¶ ¶.¶ 20
+¶100kHz¶ ¶100khz¶ 20
+¶specifies¶ ¶specifies¶ 20
+¶a¶ ¶a¶ 20
+¶frequency¶ ¶frequency¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Tuning¶ ¶tuning¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶frequency¶ ¶frequency¶ 20
+¶.¶ ¶.¶ 20
+¶Understand¶ ¶understand¶ 20
+¶"tune to
+"¶ ¶"tune to
+"¶ 20
+¶,¶ ¶,¶ 20
+¶frequency¶ ¶frequency¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶as¶ ¶as¶ 20
+¶tuning¶ ¶tuning¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶tuning¶ ¶tuning¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"You tune to "¶ ¶"You tune to "¶ 20
+¶,¶ ¶,¶ 20
+¶the¶ ¶the¶ 20
+¶frequency¶ ¶frequency¶ 20
+¶understood¶ ¶understood¶ 20
+¶,¶ ¶,¶ 20
+¶"."¶ ¶"."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"tune to 79kHz / TUNE TO 79KHZ / tune to 79khz"¶ ¶"tune to 79kHz / TUNE TO 79KHZ / tune to 79khz"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

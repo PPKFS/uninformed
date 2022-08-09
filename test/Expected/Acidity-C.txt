@@ -1,0 +1,62 @@
+70 words
+¶laboratory¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶acidity¶ ¶kind¶ ¶of¶ ¶value¶ ¶ph¶ ¶7¶ ¶specifies¶ ¶an¶ ¶when¶ ¶play¶ ¶begins¶ ¶:¶ ¶say¶ ¶"[pH 1] is not nice. Nor is [pH 14]."¶ ¶litmus-testing¶ ¶action¶ ¶applying¶ ¶to¶ ¶one¶ ¶understand¶ ¶"dip litmus in [acidity]"¶ ¶as¶ ¶carry¶ ¶out¶ ¶"The litmus turns the right colour for [acidity understood]."¶ ¶test¶ ¶me¶ ¶with¶ ¶"dip litmus in PH 1 / dip litmus in ph 3"¶ 
+35 distinct words
+¶Laboratory¶ ¶laboratory¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Acidity¶ ¶acidity¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶value¶ ¶value¶ 20
+¶.¶ ¶.¶ 20
+¶pH¶ ¶ph¶ 20
+¶7¶ ¶7¶ 20
+¶specifies¶ ¶specifies¶ 20
+¶an¶ ¶an¶ 20
+¶acidity¶ ¶acidity¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶When¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"[pH 1] is not nice. Nor is [pH 14]."¶ ¶"[pH 1] is not nice. Nor is [pH 14]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Litmus-testing¶ ¶litmus-testing¶ 20
+¶is¶ ¶is¶ 20
+¶an¶ ¶an¶ 20
+¶action¶ ¶action¶ 20
+¶applying¶ ¶applying¶ 20
+¶to¶ ¶to¶ 20
+¶one¶ ¶one¶ 20
+¶acidity¶ ¶acidity¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Understand¶ ¶understand¶ 20
+¶"dip litmus in [acidity]"¶ ¶"dip litmus in [acidity]"¶ 20
+¶as¶ ¶as¶ 20
+¶litmus-testing¶ ¶litmus-testing¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Carry¶ ¶carry¶ 20
+¶out¶ ¶out¶ 20
+¶litmus-testing¶ ¶litmus-testing¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"The litmus turns the right colour for [acidity understood]."¶ ¶"The litmus turns the right colour for [acidity understood]."¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"dip litmus in PH 1 / dip litmus in ph 3"¶ ¶"dip litmus in PH 1 / dip litmus in ph 3"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

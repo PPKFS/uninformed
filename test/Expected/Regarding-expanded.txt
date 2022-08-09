@@ -1,0 +1,78 @@
+71 words
+¶foo¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶the¶ ¶torch¶ ¶and¶ ¶banana¶ ¶grapes¶ ¶are¶ ¶here¶ ¶plural-named¶ ¶|__¶ ¶to¶ ¶look¶ ¶verb¶ ¶every¶ ¶turn¶ ¶:¶ ¶say¶ ¶"Every possession is a worry. I wonder if "¶ ¶,¶ ¶regarding¶ ¶things¶ ¶carried¶ ¶by¶ ¶player¶ ¶""¶ ¶they¶ ¶" still "¶ ¶" okay? "¶ ¶"And speaking of fruit, "¶ ¶" "¶ ¶" still edible?"¶ ¶test¶ ¶me¶ ¶with¶ ¶"z / take torch / take banana / drop all / get grapes"¶ 
+39 distinct words
+¶Foo¶ ¶foo¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶torch¶ ¶torch¶ 20
+¶and¶ ¶and¶ 20
+¶the¶ ¶the¶ 20
+¶banana¶ ¶banana¶ 20
+¶and¶ ¶and¶ 20
+¶the¶ ¶the¶ 20
+¶grapes¶ ¶grapes¶ 20
+¶are¶ ¶are¶ 20
+¶here¶ ¶here¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶grapes¶ ¶grapes¶ 20
+¶are¶ ¶are¶ 20
+¶plural-named¶ ¶plural-named¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶To¶ ¶to¶ 20
+¶look¶ ¶look¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶verb¶ ¶verb¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Every¶ ¶every¶ 20
+¶turn¶ ¶turn¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Every possession is a worry. I wonder if "¶ ¶"Every possession is a worry. I wonder if "¶ 20
+¶,¶ ¶,¶ 20
+¶regarding¶ ¶regarding¶ 20
+¶things¶ ¶things¶ 20
+¶carried¶ ¶carried¶ 20
+¶by¶ ¶by¶ 20
+¶the¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶,¶ ¶,¶ 20
+¶""¶ ¶""¶ 20
+¶,¶ ¶,¶ 20
+¶they¶ ¶they¶ 20
+¶,¶ ¶,¶ 20
+¶" still "¶ ¶" still "¶ 20
+¶,¶ ¶,¶ 20
+¶look¶ ¶look¶ 20
+¶,¶ ¶,¶ 20
+¶" okay? "¶ ¶" okay? "¶ 20
+¶,¶ ¶,¶ 20
+¶regarding¶ ¶regarding¶ 20
+¶the¶ ¶the¶ 20
+¶banana¶ ¶banana¶ 20
+¶,¶ ¶,¶ 20
+¶"And speaking of fruit, "¶ ¶"And speaking of fruit, "¶ 20
+¶,¶ ¶,¶ 20
+¶are¶ ¶are¶ 20
+¶,¶ ¶,¶ 20
+¶" "¶ ¶" "¶ 20
+¶,¶ ¶,¶ 20
+¶they¶ ¶they¶ 20
+¶,¶ ¶,¶ 20
+¶" still edible?"¶ ¶" still edible?"¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"z / take torch / take banana / drop all / get grapes"¶ ¶"z / take torch / take banana / drop all / get grapes"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

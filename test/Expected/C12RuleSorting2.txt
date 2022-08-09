@@ -1,0 +1,64 @@
+51 words
+¶the¶ ¶test¶ ¶room¶ ¶is¶ ¶a¶ ¶.¶ ¶|__¶ ¶before¶ ¶touching¶ ¶:¶ ¶say¶ ¶"Touching"¶ ¶doing¶ ¶anything¶ ¶other¶ ¶than¶ ¶looking¶ ¶or¶ ¶eating¶ ¶"Not looking or eating"¶ ¶pushing¶ ¶"Touching or pushing"¶ ¶something¶ ¶"Touching something"¶ ¶"Not looking"¶ ¶me¶ ¶with¶ ¶"touch me"¶ 
+28 distinct words
+¶The¶ ¶the¶ 0a
+¶Test¶ ¶test¶ 20
+¶Room¶ ¶room¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Before¶ ¶before¶ 20
+¶touching¶ ¶touching¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Touching"¶ ¶"Touching"¶ 20
+¶.¶ ¶.¶ 20
+¶Before¶ ¶before¶ 0a
+¶doing¶ ¶doing¶ 20
+¶anything¶ ¶anything¶ 20
+¶other¶ ¶other¶ 20
+¶than¶ ¶than¶ 20
+¶looking¶ ¶looking¶ 20
+¶or¶ ¶or¶ 20
+¶eating¶ ¶eating¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Not looking or eating"¶ ¶"Not looking or eating"¶ 20
+¶.¶ ¶.¶ 20
+¶Before¶ ¶before¶ 0a
+¶touching¶ ¶touching¶ 20
+¶or¶ ¶or¶ 20
+¶pushing¶ ¶pushing¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Touching or pushing"¶ ¶"Touching or pushing"¶ 20
+¶.¶ ¶.¶ 20
+¶Before¶ ¶before¶ 0a
+¶touching¶ ¶touching¶ 20
+¶something¶ ¶something¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Touching something"¶ ¶"Touching something"¶ 20
+¶.¶ ¶.¶ 20
+¶Before¶ ¶before¶ 0a
+¶doing¶ ¶doing¶ 20
+¶anything¶ ¶anything¶ 20
+¶other¶ ¶other¶ 20
+¶than¶ ¶than¶ 20
+¶looking¶ ¶looking¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Not looking"¶ ¶"Not looking"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"touch me"¶ ¶"touch me"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

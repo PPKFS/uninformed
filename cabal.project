@@ -11,3 +11,8 @@ source-repository-package
 packages:
   ./uninformed.cabal
   solitude/solitude.cabal
+
+-- profiling: true
+-- profiling-detail: toplevel-functions
+-- package *
+--  profiling: True

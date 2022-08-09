@@ -1,0 +1,773 @@
+815 words
+¶|__¶ ¶testing¶ ¶room¶ ¶is¶ ¶a¶ ¶.¶ ¶an¶ ¶apple¶ ¶and¶ ¶orange¶ ¶are¶ ¶in¶ ¶the¶ ¶fruit¶ ¶kind¶ ¶of¶ ¶thing¶ ¶looking¶ ¶at¶ ¶things¶ ¶scene¶ ¶begins¶ ¶when¶ ¶play¶ ¶nearby¶ ¶region¶ ¶part¶ ¶i¶ ¶-¶ ¶forwards¶ ¶instead¶ ¶examining¶ ¶:¶ ¶say¶ ¶"Instead of examining the apple."¶ ¶;¶ ¶continue¶ ¶action¶ ¶during¶ ¶"Instead of examining
+the apple during Looking At Things."¶ ¶"Instead of examining the apple in
+Nearby."¶ ¶presence¶ ¶"Instead of examining the apple in the presence of the orange."¶ ¶"Instead of examining the apple when the orange is in the testing room."¶ ¶"Instead of examining the
+apple in the Testing Room."¶ ¶something¶ ¶"Instead of examining something."¶ ¶"Instead of examining
+something during Looking At Things."¶ ¶"Instead of examining something in
+Nearby."¶ ¶"Instead of examining something in the presence of the orange."¶ ¶"Instead of examining something when the orange is in the testing room."¶ ¶"Instead of examining
+something in the Testing Room."¶ ¶"Instead of examining a fruit."¶ ¶"Instead of examining a
+fruit during Looking At Things."¶ ¶"Instead of examining a fruit in
+Nearby."¶ ¶"Instead of examining a fruit in the presence of the orange."¶ ¶"Instead of examining a fruit when the orange is in the testing room."¶ ¶"Instead of examining a fruit
+in the Testing Room."¶ ¶ii¶ ¶backwards¶ ¶eating¶ ¶"Instead of eating a fruit in the
+Testing Room."¶ ¶"Instead of eating a fruit when the orange is in the testing room."¶ ¶"Instead of eating a
+fruit in the presence of the orange."¶ ¶"Instead of eating a fruit in Nearby."¶ ¶"Instead of eating a fruit
+during Looking At Things."¶ ¶"Instead of eating a fruit."¶ ¶"Instead of eating something in
+the Testing Room."¶ ¶"Instead of eating something when the orange is in the testing room."¶ ¶"Instead of eating
+something in the presence of the orange."¶ ¶"Instead of eating something in Nearby."¶ ¶"Instead of eating
+something during Looking At Things."¶ ¶"Instead of eating something."¶ ¶"Instead of eating the apple in
+the Testing Room."¶ ¶"Instead of eating the apple when the orange is in the testing room."¶ ¶"Instead of eating
+the apple in the presence of the orange."¶ ¶"Instead of eating the apple in Nearby."¶ ¶"Instead of eating the
+apple during Looking At Things."¶ ¶"Instead of eating the apple."¶ ¶test¶ ¶me¶ ¶with¶ ¶"x apple / eat apple"¶ 
+83 distinct words
+¶|__¶ ¶|__¶ 0a
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶An¶ ¶an¶ 20
+¶apple¶ ¶apple¶ 20
+¶and¶ ¶and¶ 20
+¶an¶ ¶an¶ 20
+¶orange¶ ¶orange¶ 20
+¶are¶ ¶are¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 0a
+¶fruit¶ ¶fruit¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶kind¶ ¶kind¶ 20
+¶of¶ ¶of¶ 20
+¶thing¶ ¶thing¶ 20
+¶.¶ ¶.¶ 20
+¶The¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶scene¶ ¶scene¶ 20
+¶.¶ ¶.¶ 20
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶begins¶ ¶begins¶ 20
+¶when¶ ¶when¶ 20
+¶play¶ ¶play¶ 20
+¶begins¶ ¶begins¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Nearby¶ ¶nearby¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶region¶ ¶region¶ 20
+¶.¶ ¶.¶ 20
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶Nearby¶ ¶nearby¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Part¶ ¶part¶ 20
+¶I¶ ¶i¶ 20
+¶-¶ ¶-¶ 20
+¶Forwards¶ ¶forwards¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining the apple."¶ ¶"Instead of examining the apple."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶during¶ ¶during¶ 20
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining
+the apple during Looking At Things."¶ ¶"Instead of examining
+the apple during Looking At Things."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶in¶ ¶in¶ 20
+¶Nearby¶ ¶nearby¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining the apple in
+Nearby."¶ ¶"Instead of examining the apple in
+Nearby."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶presence¶ ¶presence¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining the apple in the presence of the orange."¶ ¶"Instead of examining the apple in the presence of the orange."¶ 0a
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 0a
+¶"Instead of examining the apple when the orange is in the testing room."¶ ¶"Instead of examining the apple when the orange is in the testing room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 0a
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining the
+apple in the Testing Room."¶ ¶"Instead of examining the
+apple in the Testing Room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶something¶ ¶something¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining something."¶ ¶"Instead of examining something."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶something¶ ¶something¶ 20
+¶during¶ ¶during¶ 20
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining
+something during Looking At Things."¶ ¶"Instead of examining
+something during Looking At Things."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶something¶ ¶something¶ 20
+¶in¶ ¶in¶ 20
+¶Nearby¶ ¶nearby¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining something in
+Nearby."¶ ¶"Instead of examining something in
+Nearby."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶something¶ ¶something¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶presence¶ ¶presence¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining something in the presence of the orange."¶ ¶"Instead of examining something in the presence of the orange."¶ 0a
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶something¶ ¶something¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 0a
+¶"Instead of examining something when the orange is in the testing room."¶ ¶"Instead of examining something when the orange is in the testing room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 0a
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶something¶ ¶something¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining
+something in the Testing Room."¶ ¶"Instead of examining
+something in the Testing Room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining a fruit."¶ ¶"Instead of examining a fruit."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶during¶ ¶during¶ 20
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining a
+fruit during Looking At Things."¶ ¶"Instead of examining a
+fruit during Looking At Things."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶in¶ ¶in¶ 20
+¶Nearby¶ ¶nearby¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining a fruit in
+Nearby."¶ ¶"Instead of examining a fruit in
+Nearby."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶presence¶ ¶presence¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining a fruit in the presence of the orange."¶ ¶"Instead of examining a fruit in the presence of the orange."¶ 0a
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining a fruit when the orange is in the testing room."¶ ¶"Instead of examining a fruit when the orange is in the testing room."¶ 0a
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶examining¶ ¶examining¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of examining a fruit
+in the Testing Room."¶ ¶"Instead of examining a fruit
+in the Testing Room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Part¶ ¶part¶ 20
+¶II¶ ¶ii¶ 20
+¶-¶ ¶-¶ 20
+¶Backwards¶ ¶backwards¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating a fruit in the
+Testing Room."¶ ¶"Instead of eating a fruit in the
+Testing Room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating a fruit when the orange is in the testing room."¶ ¶"Instead of eating a fruit when the orange is in the testing room."¶ 0a
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶presence¶ ¶presence¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating a
+fruit in the presence of the orange."¶ ¶"Instead of eating a
+fruit in the presence of the orange."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶in¶ ¶in¶ 20
+¶Nearby¶ ¶nearby¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating a fruit in Nearby."¶ ¶"Instead of eating a fruit in Nearby."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 0a
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶during¶ ¶during¶ 20
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating a fruit
+during Looking At Things."¶ ¶"Instead of eating a fruit
+during Looking At Things."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶a¶ ¶a¶ 20
+¶fruit¶ ¶fruit¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating a fruit."¶ ¶"Instead of eating a fruit."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶something¶ ¶something¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating something in
+the Testing Room."¶ ¶"Instead of eating something in
+the Testing Room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶something¶ ¶something¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating something when the orange is in the testing room."¶ ¶"Instead of eating something when the orange is in the testing room."¶ 0a
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶something¶ ¶something¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶presence¶ ¶presence¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating
+something in the presence of the orange."¶ ¶"Instead of eating
+something in the presence of the orange."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶something¶ ¶something¶ 20
+¶in¶ ¶in¶ 20
+¶Nearby¶ ¶nearby¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating something in Nearby."¶ ¶"Instead of eating something in Nearby."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 0a
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶something¶ ¶something¶ 20
+¶during¶ ¶during¶ 20
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating
+something during Looking At Things."¶ ¶"Instead of eating
+something during Looking At Things."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶something¶ ¶something¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating something."¶ ¶"Instead of eating something."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶Testing¶ ¶testing¶ 20
+¶Room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating the apple in
+the Testing Room."¶ ¶"Instead of eating the apple in
+the Testing Room."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶testing¶ ¶testing¶ 20
+¶room¶ ¶room¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating the apple when the orange is in the testing room."¶ ¶"Instead of eating the apple when the orange is in the testing room."¶ 0a
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶presence¶ ¶presence¶ 20
+¶of¶ ¶of¶ 20
+¶the¶ ¶the¶ 20
+¶orange¶ ¶orange¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating
+the apple in the presence of the orange."¶ ¶"Instead of eating
+the apple in the presence of the orange."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶in¶ ¶in¶ 20
+¶Nearby¶ ¶nearby¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating the apple in Nearby."¶ ¶"Instead of eating the apple in Nearby."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 0a
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶during¶ ¶during¶ 20
+¶Looking¶ ¶looking¶ 20
+¶At¶ ¶at¶ 20
+¶Things¶ ¶things¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating the
+apple during Looking At Things."¶ ¶"Instead of eating the
+apple during Looking At Things."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Instead¶ ¶instead¶ 20
+¶of¶ ¶of¶ 20
+¶eating¶ ¶eating¶ 20
+¶the¶ ¶the¶ 20
+¶apple¶ ¶apple¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Instead of eating the apple."¶ ¶"Instead of eating the apple."¶ 20
+¶;¶ ¶;¶ 20
+¶continue¶ ¶continue¶ 20
+¶the¶ ¶the¶ 20
+¶action¶ ¶action¶ 0a
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"x apple / eat apple"¶ ¶"x apple / eat apple"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

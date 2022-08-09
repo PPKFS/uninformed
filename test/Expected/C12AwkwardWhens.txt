@@ -1,0 +1,100 @@
+104 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶john¶ ¶man¶ ¶in¶ ¶james¶ ¶|__¶ ¶check¶ ¶telling¶ ¶it¶ ¶about¶ ¶when¶ ¶the¶ ¶noun¶ ¶not¶ ¶:¶ ¶say¶ ¶"Only speak to John."¶ ¶instead¶ ¶flask¶ ¶parchment¶ ¶player¶ ¶wearing¶ ¶magic¶ ¶glove¶ ¶rule¶ ¶for¶ ¶reaching¶ ¶inside¶ ¶"Your hand passes through the glass as if it were
+not there, chilling you to the bone."¶ ¶;¶ ¶allow¶ ¶access¶ ¶test¶ ¶me¶ ¶with¶ ¶"tell james about when / tell john about when /
+push parchment / remove glove / push parchment"¶ 
+40 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶John¶ ¶john¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶man¶ ¶man¶ 20
+¶in¶ ¶in¶ 20
+¶Home¶ ¶home¶ 20
+¶.¶ ¶.¶ 20
+¶James¶ ¶james¶ 20
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶man¶ ¶man¶ 20
+¶in¶ ¶in¶ 20
+¶Home¶ ¶home¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Check¶ ¶check¶ 20
+¶telling¶ ¶telling¶ 20
+¶it¶ ¶it¶ 20
+¶about¶ ¶about¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶noun¶ ¶noun¶ 20
+¶is¶ ¶is¶ 20
+¶not¶ ¶not¶ 20
+¶John¶ ¶john¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 0a
+¶"Only speak to John."¶ ¶"Only speak to John."¶ 20
+¶instead¶ ¶instead¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶flask¶ ¶flask¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶Home¶ ¶home¶ 20
+¶.¶ ¶.¶ 20
+¶A¶ ¶a¶ 20
+¶parchment¶ ¶parchment¶ 20
+¶is¶ ¶is¶ 20
+¶in¶ ¶in¶ 20
+¶the¶ ¶the¶ 20
+¶flask¶ ¶flask¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶The¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶is¶ ¶is¶ 20
+¶wearing¶ ¶wearing¶ 20
+¶a¶ ¶a¶ 20
+¶magic¶ ¶magic¶ 20
+¶glove¶ ¶glove¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶A¶ ¶a¶ 20
+¶rule¶ ¶rule¶ 20
+¶for¶ ¶for¶ 20
+¶reaching¶ ¶reaching¶ 20
+¶inside¶ ¶inside¶ 20
+¶the¶ ¶the¶ 20
+¶flask¶ ¶flask¶ 20
+¶when¶ ¶when¶ 20
+¶the¶ ¶the¶ 20
+¶player¶ ¶player¶ 20
+¶is¶ ¶is¶ 20
+¶wearing¶ ¶wearing¶ 20
+¶the¶ ¶the¶ 20
+¶magic¶ ¶magic¶ 0a
+¶glove¶ ¶glove¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 20
+¶"Your hand passes through the glass as if it were
+not there, chilling you to the bone."¶ ¶"Your hand passes through the glass as if it were
+not there, chilling you to the bone."¶ 20
+¶;¶ ¶;¶ 20
+¶allow¶ ¶allow¶ 20
+¶access¶ ¶access¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶me¶ ¶me¶ 20
+¶with¶ ¶with¶ 20
+¶"tell james about when / tell john about when /
+push parchment / remove glove / push parchment"¶ ¶"tell james about when / tell john about when /
+push parchment / remove glove / push parchment"¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

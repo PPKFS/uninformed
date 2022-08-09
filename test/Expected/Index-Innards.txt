@@ -1,0 +1,21 @@
+9 words
+¶home¶ ¶is¶ ¶a¶ ¶room¶ ¶.¶ ¶|__¶ ¶test¶ ¶index¶ ¶(¶ ¶internal¶ ¶)¶ ¶with¶ ¶in¶ 
+13 distinct words
+¶Home¶ ¶home¶ 0a
+¶is¶ ¶is¶ 20
+¶a¶ ¶a¶ 20
+¶room¶ ¶room¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶Test¶ ¶test¶ 20
+¶index¶ ¶index¶ 20
+¶(¶ ¶(¶ 20
+¶internal¶ ¶internal¶ 20
+¶)¶ ¶)¶ 20
+¶with¶ ¶with¶ 20
+¶In¶ ¶in¶ 20
+¶.¶ ¶.¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a

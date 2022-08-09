@@ -1,0 +1,58 @@
+75 words
+¶to¶ ¶begin¶ ¶:¶ ¶say¶ ¶"Hello."¶ ¶;¶ ¶"fish"¶ ¶" and fowl!"¶ ¶17¶ ¶,¶ ¶" doors."¶ ¶"[4 in words] ladder[s]."¶ ¶"[1 in words] way[s] out."¶ ¶let¶ ¶n¶ ¶be¶ ¶-32767¶ ¶"The minimum integer is almost [N], which is [N in words]."¶ ¶-¶ ¶1¶ ¶"The minimum integer actually is [N], which is [N in words]."¶ ¶"But the maximum integer is [N], which is [N in words]."¶ ¶|__¶ 
+23 distinct words
+¶To¶ ¶to¶ 0a
+¶begin¶ ¶begin¶ 20
+¶:¶ ¶:¶ 20
+¶say¶ ¶say¶ 41
+¶"Hello."¶ ¶"Hello."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"fish"¶ ¶"fish"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶" and fowl!"¶ ¶" and fowl!"¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶17¶ ¶17¶ 20
+¶,¶ ¶,¶ 20
+¶" doors."¶ ¶" doors."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[4 in words] ladder[s]."¶ ¶"[4 in words] ladder[s]."¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"[1 in words] way[s] out."¶ ¶"[1 in words] way[s] out."¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶N¶ ¶n¶ 20
+¶be¶ ¶be¶ 20
+¶-32767¶ ¶-32767¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The minimum integer is almost [N], which is [N in words]."¶ ¶"The minimum integer is almost [N], which is [N in words]."¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶N¶ ¶n¶ 20
+¶be¶ ¶be¶ 20
+¶N¶ ¶n¶ 20
+¶-¶ ¶-¶ 20
+¶1¶ ¶1¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"The minimum integer actually is [N], which is [N in words]."¶ ¶"The minimum integer actually is [N], which is [N in words]."¶ 20
+¶;¶ ¶;¶ 20
+¶let¶ ¶let¶ 41
+¶N¶ ¶n¶ 20
+¶be¶ ¶be¶ 20
+¶N¶ ¶n¶ 20
+¶-¶ ¶-¶ 20
+¶1¶ ¶1¶ 20
+¶;¶ ¶;¶ 20
+¶say¶ ¶say¶ 41
+¶"But the maximum integer is [N], which is [N in words]."¶ ¶"But the maximum integer is [N], which is [N in words]."¶ 20
+¶;¶ ¶;¶ 20
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
+¶|__¶ ¶|__¶ 0a
