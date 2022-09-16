@@ -1,8 +1,16 @@
+{-# LANGUAGE TemplateHaskell #-}
+
 module Uninformed.Words.Vocabulary
   ( VocabularyEntry(..)
   , VocabType(..)
+  , VocabMap
   , lowerVocabType
+  , identify
+  , _ParagraphBreak
 
+  , pattern Period
+  , pattern Colon
+  , pattern Semicolon
   ) where
 
 import qualified Data.HashMap.Strict as HM
@@ -25,13 +33,13 @@ data VocabularyEntry = VocabularyEntry
 
 type VocabMap = HashMap Int VocabularyEntry
 
-identify :: VocabMap -> VocabType -> (VocabMap, VocabularyEntry)
-identify vm vt = let
+identify :: VocabType -> VocabMap -> (VocabularyEntry, VocabMap)
+identify vt vm = let
   hashStr = hash vt
   ve = makeVocabEntry hashStr vt in
     case HM.lookup hashStr vm of
-      Nothing -> (HM.insert hashStr ve vm, ve)
-      Just x -> (vm, x)
+      Nothing -> (ve, HM.insert hashStr ve vm)
+      Just x -> (x, vm)
 
 makeVocabEntry :: Int -> VocabType -> VocabularyEntry
 makeVocabEntry vh vt = VocabularyEntry
@@ -48,20 +56,22 @@ data VocabType =
   | StringLit Text
   | OrdinaryWord Text
   | StringSub Text
-  | ParagraphBreak deriving stock (Eq, Show, Ord, Generic)
+  | ParagraphBreak deriving stock (Eq, Show, Read, Ord, Generic)
 
 instance Hashable VocabType
+
+pattern Period :: VocabType
+pattern Period = OrdinaryWord "."
+
+pattern Semicolon :: VocabType
+pattern Semicolon = OrdinaryWord ";"
+
+pattern Colon :: VocabType
+pattern Colon = OrdinaryWord ":"
 
 lowerVocabType :: VocabType -> VocabType
 lowerVocabType = \case
   OrdinaryWord txt -> OrdinaryWord $ T.toLower txt
   x -> x
-{-
-instance ToText VocabType where
-  toText = \case
-    I6 txt -> "(-"<>txt<>"-)"
-    StringLit txt -> _
-    OrdinaryWord txt -> _
-    StringSub txt -> _
-    ParagraphBreak -> _
--}
+
+makePrisms ''VocabType

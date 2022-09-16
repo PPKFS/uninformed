@@ -13,6 +13,8 @@ import Text.Megaparsec.Char
 import Prelude hiding (Word)
 import qualified Data.Set as S
 import qualified Data.Text as T
+import Data.Char (isSpace)
+import qualified Data.Vector as V
 
 main :: IO ()
 main = do
@@ -104,10 +106,10 @@ spec :: [(FilePath, Text, LexerInfo)] -> TestTree
 spec fps = testGroup "Lexing" $
   flip map fps $ \(fp, f, e) ->
     testCase ("lexes " <> fp) $ do
-      let res = lex False f
+      let res = lex False Nothing f
       case res of
         Left err -> assertFailure $ error . toText . errorBundlePretty $ err
-        Right r -> compareLexerInfo e $ getLexerInfo r
+        Right (LexedSourceFile _ _ r) -> compareLexerInfo e $ getLexerInfo r
 
 compareLexerInfo :: LexerInfo -> LexerInfo -> Assertion
 compareLexerInfo (LexerInfo eTw eDws eTd eIe) (LexerInfo rTw rDws rTd rIe) = do
@@ -121,19 +123,19 @@ compareLexerInfo (LexerInfo eTw eDws eTd eIe) (LexerInfo rTw rDws rTd rIe) = do
   --S.difference rDws eDws @?= S.empty
   --eTd @=? rTd
 
-getLexerInfo :: [Word] -> LexerInfo
+getLexerInfo :: V.Vector Word -> LexerInfo
 getLexerInfo wl =
-  let (wordSet :: Set VocabType) = fromList $ map (\(Word _ w _) -> lowerVocabType w) wl in
+  let (wordSet :: Set VocabType) = fromList . toList $ V.map (\(Word _ w _) -> lowerVocabType w) wl in
     LexerInfo
       { totalWords = foldl' (\s (Word _ x _) -> wordCount x + s) 0 wl
       , totalDistinct = S.size wordSet
       , distinctWordSet = wordSet
-      , individualEntries = map (\(Word _ w ps) -> (w, lowerVocabType w, ps)) wl
+      , individualEntries = toList $ V.map (\(Word _ w ps) -> (w, lowerVocabType w, ps)) wl
       }
 
 wordCount :: VocabType -> Int
 wordCount = \case
-  (StringLit s) -> length $ filter (/= "") $ T.split isWhitespace s
+  (StringLit s) -> length $ filter (/= "") $ T.split isSpace s
   ParagraphBreak -> 0
   OrdinaryWord w -> if T.all (`S.member` getPunctuation StandardPunctuation) w then 0 else 1
   _ -> 1

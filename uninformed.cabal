@@ -30,6 +30,7 @@ common common-options
     , time
     , megaparsec
     , optics
+    , vector
 
     , formatting
     , pretty-simple
@@ -73,6 +74,7 @@ common common-options
     TypeOperators
     DerivingVia
     QuasiQuotes
+    PatternSynonyms
   mixins: base hiding (Prelude)
           , solitude (Solitude as Prelude)
 library

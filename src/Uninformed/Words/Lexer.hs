@@ -1,28 +1,39 @@
 {-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE NamedFieldPuns #-}
 
 module Uninformed.Words.Lexer
   ( SourceLocation(..)
   , Whitespace(..)
   , Word(..)
+  , word
   , lex
-  , isWhitespace
   , getPunctuation
   , PunctuationSet(..)
+  , LexedSourceFile(..)
+  , matchWord
   ) where
 
-import Text.Megaparsec
-import Text.Megaparsec.Char ( string' )
-import Prelude hiding (many, some, Word)
+import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
 import Data.List (singleton)
 import Data.Set (member)
-import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
 import Optics.State.Operators ( (.=) )
-import Uninformed.Words.Vocabulary ( VocabType(..) )
+import Prelude hiding (many, some, Word)
+import Text.Megaparsec
+import Text.Megaparsec.Char ( string' )
+import Uninformed.Words.Vocabulary
+import qualified Data.Vector as V
+import qualified Data.HashMap.Strict as HM
+
+data LexedSourceFile = LexedSourceFile
+  { _sourceFileName :: Maybe Text
+  , _sourceFileVocab :: VocabMap
+  , _sourceFileWords :: V.Vector Word
+  }
 
 data SourceLocation = SourceLocation
   { _sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))
   , _wordNumber :: Int
-  } deriving stock (Eq, Show, Ord)
+  } deriving stock (Eq, Show, Ord, Read, Generic)
 
 data PunctuationSet = StandardPunctuation deriving stock (Eq, Show)
 
@@ -30,44 +41,12 @@ data Whitespace =
   Space
   | Tab
   | TabIndent Int
-  | Newline deriving stock (Eq, Show, Ord)
+  | Newline deriving stock (Eq, Show, Ord, Read, Generic)
 
 data LexerState = LexerState
   { _previousWhitespace :: Whitespace
   , _forceBreak :: Bool
   }
-
-data Word = Word
-  { _wordLocation :: SourceLocation
-  , _word :: VocabType
-  , _precedingWhitespace :: Whitespace
-  } deriving stock (Eq, Show)
-
-instance Ord Word where
-  compare l1 l2 = _wordLocation l1 `compare` _wordLocation l2
-
-makeLenses ''LexerState
-
-isNewline :: Char -> Bool
-isNewline x = x `elem` ['\n', '\DEL', '\r']
-
-isHSpace :: Char -> Bool
-isHSpace x = isSpace x && not (isNewline x)
-
-isWhitespace :: Char -> Bool
-isWhitespace = isSpace
-
-nonWhitespace ::
- Parser m
-  => m ()
-nonWhitespace = satisfy (not . isWhitespace) >> pass
-
-spaceOrTabOrNewline ::
-  Parser m
-  => m Char
-spaceOrTabOrNewline = satisfy isWhitespace
-
-type Parser m = (MonadState LexerState m, MonadParsec Void Text m)
 
 defaultLexerState :: LexerState
 defaultLexerState = LexerState
@@ -75,28 +54,84 @@ defaultLexerState = LexerState
   , _forceBreak = False
   }
 
+data Word = Word
+  { _wordLocation :: SourceLocation
+  , _word :: VocabType
+  , _precedingWhitespace :: Whitespace
+  } deriving stock (Eq, Show, Read, Generic)
+
+type Parser m = (MonadState LexerState m, MonadParsec Void Text m)
+
+instance Ord Word where
+  compare l1 l2 = _wordLocation l1 `compare` _wordLocation l2
+
+makeLenses ''LexerState
+makeLenses ''Word
+
+matchWord ::
+  (VocabType -> Bool)
+  -> Word
+  -> Bool
+matchWord f Word{_word} = f _word
+
+--- * Whitespace handling
+
+isNewline :: Char -> Bool
+isNewline x = x `elem` ['\n', '\DEL', '\r']
+
+isHspace :: Char -> Bool
+isHspace x = isSpace x && not (isNewline x)
+
+-- | match anything that isn't whitespace
+nonWhitespace ::
+ Parser m
+  => m Char
+nonWhitespace = satisfy (not . isSpace)
+
+space ::
+  Parser m
+  => m Char
+space = satisfy isSpace
+
 lex ::
-  Bool
+  Bool -- ^ divide string literals at substitutions?
+  -> Maybe Text
   -> Text
-  -> Either (ParseErrorBundle Text Void) [Word]
-lex spl t = parse (evalStateT lexer defaultLexerState) "" ("\n" <> t  <> " \n\n\n\n ")
+  -> Either (ParseErrorBundle Text Void) LexedSourceFile
+lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer defaultLexerState) "" ("\n" <> t  <> " \n\n\n\n ")
   where
     ps = StandardPunctuation
     lexer = do
       -- this is more of an inform quirk than anything..because it starts the lexer with a default of
       -- newline as the last seen space, then reading a single newline at the start of a file makes a paragraph break.
       -- ...yeah...
-      pb <- maybe [] toPbreaks <$>
-        ((Nothing <$ optional (admireWhitespace ps)) <|> optional (try pbreak))
-      (\l -> pb ++ mconcat l) <$> manyTill (do
+
+      pb <- initialNewlines ps
+      (pb ++) . mconcat <$> manyTill (do
+        -- lex the actual word
         w <- parseWord spl ps
-        -- the only cases where whitespace is required (breaking an ordinary word) is dealt with, but we may have more.
-        -- we don't want to double check the whitespace after we've broken for a punctuation mark because
-        -- we don't want to add an excess space? Idek exactly what this does but it works
-        (lookAhead (satisfy isPunctuation) >> pass) <|> (do
-          mbWs <- optional (admireWhitespace ps)
-          whenJust mbWs (previousWhitespace .=))
+        -- the only cases where whitespace is required (breaking an ordinary word) is dealt with, but we may have additional whitespace.
+        -- we don't want to double check the whitespace after we've broken for a punctuation mark because we don't want to add an excess space
+        -- this mimics inform's "add in extra spaces everywhere".
+        (lookAhead (satisfy isPunctuation) >> pass) <|> whenJustM (optional (admireWhitespace ps)) (previousWhitespace .=)
         pure w) eof
+    mkVocabMap wordList = first (zip wordList) $ runState (mapM (state . identify . _word) wordList) HM.empty
+    listToSourceFile wordList = let (_, vm) = mkVocabMap wordList in LexedSourceFile
+      { _sourceFileName = mbFilename
+      , _sourceFileWords = V.fromList wordList
+      , _sourceFileVocab = vm
+      }
+
+initialNewlines ::
+  Parser m
+  => PunctuationSet
+  -> m [Word]
+initialNewlines ps = do
+  mbPbreaks <- makeParagraphBreaks <$$> ((Nothing <$ optional (admireWhitespace ps)) <|> optional (try pbreak))
+  pure $ fromMaybe [] mbPbreaks
+
+makeParagraphBreaks :: (Whitespace, Int, SourceLocation) -> [Word]
+makeParagraphBreaks (w, n, srcLoc) = replicate n (Word srcLoc ParagraphBreak w)
 
 admireWhitespace ::
   Parser m
@@ -110,7 +145,7 @@ admireWhitespace ps = do
       -- either we record some amount of tabs and spaces
       -- or we record a pbreak upcoming, but we don't consume it here
       -- or we record a linebreak
-      ws <- reverse <$> someTill spaceOrTabOrNewline (try $ lookAhead (nonWhitespace <|> void pbreak <|> eof))
+      ws <- reverse <$> someTill space (try $ lookAhead (void nonWhitespace <|> void pbreak <|> eof))
       return $ findMostSignificantWhitespace $ break isNewline ws)
 
 pbreak ::
@@ -119,13 +154,13 @@ pbreak ::
 pbreak = do
   ps <- use previousWhitespace
   (s, i) <- annotateToken (do
-    try (takeWhileP Nothing isHSpace >>
+    try (takeWhileP Nothing isHspace >>
       satisfy isNewline <?> "first part of a paragraph break")
     n <- try $ someTill (do
-      takeWhileP Nothing isHSpace
+      takeWhileP Nothing isHspace
       satisfy isNewline <?> "second part of a paragraph break"
-      takeWhileP Nothing isHSpace
-      ) (lookAhead $ eof <|> nonWhitespace)
+      takeWhileP Nothing isHspace
+      ) (lookAhead $ eof <|> void nonWhitespace)
     pure $ length n)
   previousWhitespace .= Space
   pure (ps, i, s)
@@ -149,14 +184,11 @@ parseWord ::
   -> m [Word]
 parseWord spl ps = choice
   [ [] <$ comment
-  , toPbreaks <$> pbreak
+  , makeParagraphBreaks <$> pbreak
   , stringLit spl
   , singleton <$> i6Inclusion
   , singleton <$> ordinaryWord ps
   ]
-
-toPbreaks :: (Whitespace, Int, SourceLocation) -> [Word]
-toPbreaks (w, n, srcLoc) = replicate n (Word srcLoc ParagraphBreak w)
 
 standardPunctuation :: Set Char
 standardPunctuation = fromList ".,:;?!(){}[]"
@@ -202,7 +234,7 @@ standalonePunctuationOrSpace ::
   -> m ()
 standalonePunctuationOrSpace ps = choice
     [ -- whitespace
-      void $ takeWhile1P Nothing (\x -> isWhitespace x || x == '[' || x == '"')
+      void $ takeWhile1P Nothing (\x -> isSpace x || x == '[' || x == '"')
       -- some literal mode entering punctuation
     , void $ string' "(-"
     , isPunctuationNoSlash ps
@@ -219,8 +251,6 @@ isPunctuationNoSlash ps = do
   void $ satisfy (`member` getPunctuation ps)
   notFollowedBy (single '/')
 
-
-
 -- if the /last/ character read was a digit then lc=1
   -- if it was a-z (not A-Z) then lc=2
   -- if the next character is a digit or a '-' then nc=1
@@ -228,7 +258,6 @@ isPunctuationNoSlash ps = do
   -- if both are 1, then no space
   -- if it's a dot and both lc and nc are not 0, then no space
   -- otherwise space
-
 -- if we fail this, which is very likely in the case of just reading word. And...
 -- then we don't need to worry about losing our punctuation mark because we just continue
 -- reading a regular word
@@ -239,9 +268,9 @@ surroundedPunctuation ::
 surroundedPunctuation ps = try $ do
   a <- satisfy (\x -> isLower x || isDigit x) -- read either a digit or a lowercase letter
   b <- satisfy (`member` getPunctuation ps) -- read the internal bit of the punctuation
-  c <- satisfy (\x -> isLower x || isDigit x) -- once again read a lowercase or digit
+  -- once again read a lowercase or digit
+  c <- satisfy (\x -> (isLower x && b == '.' && isLower a) || (isDigit a && isDigit x))
   pure $ toText [a,b,c]
-
 
 i6Inclusion ::
   Parser m
@@ -253,13 +282,12 @@ i6Inclusion = do
   previousWhitespace .= Space
   pure (Word srcL w Space)
 
--- todo: this should handle whitespace better.
 stringLiteralInternal ::
   Parser m
   => m (SourceLocation, VocabType)
 stringLiteralInternal = annotateToken $ do
   t <- toText <$> manyTill (
-    '\n' <$ try (takeWhileP Nothing isHSpace >> satisfy isNewline >> takeWhileP Nothing isHSpace) <|>
+    '\n' <$ try (takeWhileP Nothing isHspace >> satisfy isNewline >> takeWhileP Nothing isHspace) <|>
     ' ' <$ single '\160' <|>
     anySingle) (lookAhead $ single '"')
   pure $ StringLit t
@@ -287,7 +315,7 @@ comment ::
   => m ()
 comment = do
   single '['
-  manyTill ( void comment <|> void anySingle ) (single ']')
+  manyTill (void comment <|> void anySingle) (single ']')
   pass
 
 annotateToken ::
