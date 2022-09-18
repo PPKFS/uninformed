@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'foo is a dark room' {heading 0}
+        SENTENCE_NT'foo is a dark room'
+        SENTENCE_NT'a woman is in every room'
+        SENTENCE_NT'a lit vehicle is in every room'

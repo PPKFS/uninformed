@@ -5,12 +5,16 @@ module Uninformed.Words.Lexer
   ( SourceLocation(..)
   , Whitespace(..)
   , Word(..)
+  , WordList
   , word
   , lex
   , getPunctuation
   , PunctuationSet(..)
   , LexedSourceFile(..)
   , matchWord
+  , precedingWhitespace
+  , displayWord
+  , blankWord
   ) where
 
 import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
@@ -21,13 +25,15 @@ import Prelude hiding (many, some, Word)
 import Text.Megaparsec
 import Text.Megaparsec.Char ( string' )
 import Uninformed.Words.Vocabulary
-import qualified Data.Vector as V
 import qualified Data.HashMap.Strict as HM
+
+
+type WordList = [Word]
 
 data LexedSourceFile = LexedSourceFile
   { _sourceFileName :: Maybe Text
   , _sourceFileVocab :: VocabMap
-  , _sourceFileWords :: V.Vector Word
+  , _sourceFileWords :: WordList
   }
 
 data SourceLocation = SourceLocation
@@ -60,7 +66,22 @@ data Word = Word
   , _precedingWhitespace :: Whitespace
   } deriving stock (Eq, Show, Read, Generic)
 
+blankWord :: Word
+blankWord = Word
+  { _wordLocation = SourceLocation Nothing (-1)
+  , _word = ParagraphBreak
+  , _precedingWhitespace = Newline
+  }
+
 type Parser m = (MonadState LexerState m, MonadParsec Void Text m)
+
+displayWord :: Word -> Text
+displayWord Word{_word} = case _word of
+  I6 txt -> "(-"<>txt<>"-)"
+  StringLit txt -> "\""<>txt<>"\""
+  OrdinaryWord txt -> txt
+  StringSub txt -> "["<>txt<>"]"
+  ParagraphBreak -> "\n\n"
 
 instance Ord Word where
   compare l1 l2 = _wordLocation l1 `compare` _wordLocation l2
@@ -118,7 +139,7 @@ lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer default
     mkVocabMap wordList = first (zip wordList) $ runState (mapM (state . identify . _word) wordList) HM.empty
     listToSourceFile wordList = let (_, vm) = mkVocabMap wordList in LexedSourceFile
       { _sourceFileName = mbFilename
-      , _sourceFileWords = V.fromList wordList
+      , _sourceFileWords = wordList
       , _sourceFileVocab = vm
       }
 

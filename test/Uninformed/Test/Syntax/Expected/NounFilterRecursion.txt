@@ -1,0 +1,8 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'here is a brock'
+        SENTENCE_NT'a person called bob is in place'
+        SENTENCE_NT'understand "[Bob] s" as the brock'
+        SENTENCE_NT'test me with "x bob s / x brock / x bob"'

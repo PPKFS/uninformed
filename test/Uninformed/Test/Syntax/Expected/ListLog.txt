@@ -1,0 +1,14 @@
+Read 105 words
+syntax-test: unexpected semicolon in sentence: truncate the most-recently-taken list to the last 6 entries
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'the piano , the oboe , the bassoon , the french horn , the c'
+        SENTENCE_NT'the violin is in the case'
+        SENTENCE_NT'the most-recently-taken list is a list of objects that varie'
+        SENTENCE_NT'carry out taking something ( called the item )'
+        SENTENCE_NT'truncate the most-recently-taken list to the last 6 entries'
+        SENTENCE_NT'add the item to the most-recently-taken list'
+        SENTENCE_NT'after taking'
+        SENTENCE_NT'say "Taken. (So, your recent acquisitions: [most-recently-ta'
+        SENTENCE_NT'test me with "take all"'

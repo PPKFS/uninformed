@@ -1,0 +1,14 @@
+Read 68 words
+syntax-test: unexpected semicolon in sentence: let L be the list of D
+syntax-test: unexpected semicolon in sentence: say "Today's random list is [L]."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a colour is a kind of value'
+        SENTENCE_NT'the colours are red , green , blue , yellow , orange and tea'
+        SENTENCE_NT'to announce ( d - a description of sayable values )'
+        SENTENCE_NT'let l be the list of d'
+        SENTENCE_NT'say "Today's random list is [L]."'
+        SENTENCE_NT'say "Today's random list is [the list of D]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'announce all colours'

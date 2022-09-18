@@ -1,0 +1,9 @@
+Read 16 words
+syntax-test: unexpected semicolon in sentence: say "I want to be [bold type]bold[roman type] for a moment."
+syntax-test: unexpected semicolon in sentence: say "I want to be [italic type]italic[roman type] for a moment."
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "I want to be [bold type]bold[roman type] for a moment."'
+        SENTENCE_NT'say "I want to be [italic type]italic[roman type] for a mome'
+        SENTENCE_NT'say "I want to be [fixed letter spacing]fixed in my spacing['

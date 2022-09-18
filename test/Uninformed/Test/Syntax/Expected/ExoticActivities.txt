@@ -1,0 +1,9 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'the activision is a room' {heading 0}
+        SENTENCE_NT'the activision is a room'
+        SENTENCE_NT'stringing out something is an activity on numbers'
+        SENTENCE_NT'for stringing out a number ( called n )'
+        SENTENCE_NT'say "Well, I string out [N]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'carry out the stringing out activity with 12'

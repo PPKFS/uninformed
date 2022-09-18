@@ -1,0 +1,15 @@
+Read 62 words
+syntax-test: unexpected semicolon in sentence: say "Containment test [if the containment relation relates the fruit bowl to the apple]succeeded[otherwise]failed[end if]."
+syntax-test: unexpected semicolon in sentence: say "Wearing test [if the wearing relation relates Martina to the coat]succeeded[otherwise]failed[end if]."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a fruit bowl and a plinth are in home'
+        SENTENCE_NT'an apple is in the fruit bowl'
+        SENTENCE_NT'an orange is on the plinth'
+        SENTENCE_NT'martina is in the home'
+        SENTENCE_NT'martina is wearing a coat'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Containment test [if the containment relation relates t'
+        SENTENCE_NT'say "Wearing test [if the wearing relation relates Martina t'
+        SENTENCE_NT'say "Support test [if the support relation relates the plint'

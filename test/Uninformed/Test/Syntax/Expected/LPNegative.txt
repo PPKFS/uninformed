@@ -1,0 +1,10 @@
+Read 39 words
+syntax-test: unexpected semicolon in sentence: let temp be -10.123 kg
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'a weight is a kind of value'
+        SENTENCE_NT'-99.999 kg specifies a weight'
+        SENTENCE_NT'after looking in test'
+        SENTENCE_NT'let temp be -10.123 kg'
+        SENTENCE_NT'say "[temp]"'

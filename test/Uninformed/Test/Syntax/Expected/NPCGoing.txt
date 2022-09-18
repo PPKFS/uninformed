@@ -1,0 +1,16 @@
+Read 76 words
+syntax-test: unexpected semicolon in sentence: if the location of Magnet Man is not the location of the player begin
+syntax-test: unexpected semicolon in sentence: say "You find yourself mysteriously drawn along."
+syntax-test: unexpected semicolon in sentence: move the player to the location of Magnet Man
+ROOT_NT
+    HEADING_NT'b is west of c' {heading 0}
+        SENTENCE_NT'b is west of c'
+        SENTENCE_NT'magnet man is a man in b'
+        SENTENCE_NT'persuasion rule for asking magnet man to try going'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'after magnet man trying going'
+        SENTENCE_NT'if the location of magnet man is not the location of the pla'
+        SENTENCE_NT'say "You find yourself mysteriously drawn along."'
+        SENTENCE_NT'move the player to the location of magnet man'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'test me with "magnet man, go east"'

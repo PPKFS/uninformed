@@ -1,0 +1,16 @@
+Read 81 words
+syntax-test: unexpected semicolon in sentence: say "Sure..."
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'the radio is here'
+        SENTENCE_NT'the radio is a device'
+        SENTENCE_NT'hans is a man in the place'
+        SENTENCE_NT'instead of listening in the presence of the radio'
+        SENTENCE_NT'say "Ugh."'
+        SENTENCE_NT'before doing something in the place'
+        SENTENCE_NT'say "Sure..."'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'before asking someone to try doing something in the presence'
+        SENTENCE_NT'say "Nope."'
+        SENTENCE_NT'test me with "listen / hans, take radio"'

@@ -1,0 +1,16 @@
+Read 118 words
+syntax-test: unexpected semicolon in sentence: say "A sinister odour begins to make itself felt."
+ROOT_NT
+    HEADING_NT'trail shelter is a room' {heading 0}
+        SENTENCE_NT'trail shelter is a room'
+        SENTENCE_NT'fred and george are men in trail shelter'
+        SENTENCE_NT'the possum , the skunk and the weasel are animals'
+        SENTENCE_NT'dixville notch is north of the shelter'
+        SENTENCE_NT'earl is a man in dixville notch'
+        SENTENCE_NT'suspecting relates various people to various people'
+        SENTENCE_NT'the verb to suspect ( he suspects , they suspect , he suspec'
+        SENTENCE_NT'earl suspects the possum'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'say "A sinister odour begins to make itself felt."'
+        SENTENCE_NT'now every person in trail shelter suspects every animal whic'
+        SENTENCE_NT'test me with "relations / z / relations"'

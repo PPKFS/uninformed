@@ -1,0 +1,34 @@
+Read 98 words
+syntax-test: unexpected semicolon in sentence: check sorting 1
+syntax-test: unexpected semicolon in sentence: check sorting 10
+syntax-test: unexpected semicolon in sentence: check sorting 100
+syntax-test: unexpected semicolon in sentence: say "Test of sorting the numbers 1 to [N] from a randomised order."
+syntax-test: unexpected semicolon in sentence: let L be a list of numbers
+syntax-test: unexpected semicolon in sentence: extend L to N entries
+syntax-test: unexpected semicolon in sentence: repeat with X running from 1 to N begin
+syntax-test: unexpected semicolon in sentence: now entry X of L is X
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: say "L unrandomised is [L]."
+syntax-test: unexpected semicolon in sentence: sort L in random order
+syntax-test: unexpected semicolon in sentence: say "L randomised is [L]."
+syntax-test: unexpected semicolon in sentence: sort L
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'check sorting 1'
+        SENTENCE_NT'check sorting 10'
+        SENTENCE_NT'check sorting 100'
+        SENTENCE_NT'check sorting 1000'
+        SENTENCE_NT'to check sorting ( n - a number )'
+        SENTENCE_NT'say "Test of sorting the numbers 1 to [N] from a randomised '
+        SENTENCE_NT'let l be a list of numbers'
+        SENTENCE_NT'extend l to n entries'
+        SENTENCE_NT'repeat with x running from 1 to n begin'
+        SENTENCE_NT'now entry x of l is x'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "L unrandomised is [L]."'
+        SENTENCE_NT'sort l in random order'
+        SENTENCE_NT'say "L randomised is [L]."'
+        SENTENCE_NT'sort l'
+        SENTENCE_NT'say "L in ascending order is [L]."'

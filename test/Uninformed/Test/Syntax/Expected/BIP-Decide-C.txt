@@ -1,0 +1,30 @@
+Read 128 words
+syntax-test: unexpected semicolon in sentence: say "I begin."
+syntax-test: unexpected semicolon in sentence: stop
+syntax-test: unexpected semicolon in sentence: showme the magic number
+syntax-test: unexpected semicolon in sentence: showme whether or not 31 pleases us
+syntax-test: unexpected semicolon in sentence: showme whether or not -417 displeases us
+syntax-test: unexpected semicolon in sentence: showme whether or not a fruit is tasty
+ROOT_NT
+    HEADING_NT'to decide which number is the magic number' {heading 0}
+        SENTENCE_NT'to decide which number is the magic number'
+        SENTENCE_NT'decide on 417'
+        SENTENCE_NT'to decide if ( n - number ) pleases us'
+        SENTENCE_NT'decide yes'
+        SENTENCE_NT'to decide if ( n - number ) displeases us'
+        SENTENCE_NT'decide no'
+        SENTENCE_NT'to demonstrate stop'
+        SENTENCE_NT'say "I begin."'
+        SENTENCE_NT'stop'
+        SENTENCE_NT'say "I do not continue."'
+        SENTENCE_NT'a fruit is a kind of object'
+        SENTENCE_NT'an apple , a pear and an orange are fruits'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a fruit is tasty'
+        SENTENCE_NT'decide yes'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme the magic number'
+        SENTENCE_NT'showme whether or not 31 pleases us'
+        SENTENCE_NT'showme whether or not -417 displeases us'
+        SENTENCE_NT'showme whether or not a fruit is tasty'
+        SENTENCE_NT'demonstrate stop'

@@ -1,0 +1,20 @@
+Read 90 words
+syntax-test: unexpected semicolon in sentence: let dir be the direction of portal from location
+syntax-test: unexpected semicolon in sentence: if dir is north, decide yes
+syntax-test: unexpected semicolon in sentence: repeat with D running through doors begin
+syntax-test: unexpected semicolon in sentence: say "D is [if D is north-facing]n-f[otherwise]not n-f[end if]."
+ROOT_NT
+    HEADING_NT'to decide if ( portal - a door ) is north-facing' {heading 0}
+        SENTENCE_NT'to decide if ( portal - a door ) is north-facing'
+        SENTENCE_NT'let dir be the direction of portal from location'
+        SENTENCE_NT'if dir is north , decide yes'
+        SENTENCE_NT'decide no'
+        SENTENCE_NT'ballroom is a room'
+        SENTENCE_NT'hall is a room'
+        SENTENCE_NT'marble door is north of ballroom and south of hall'
+        SENTENCE_NT'marble door is a door'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'repeat with d running through doors begin'
+        SENTENCE_NT'say "D is [if D is north-facing]n-f[otherwise]not n-f[end if'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'test me with "z / open door / n / z"'

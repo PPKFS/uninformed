@@ -1,0 +1,14 @@
+Read 64 words
+syntax-test: unexpected semicolon in sentence: showme the there is sufficient light outcome
+syntax-test: unexpected semicolon in sentence: showme Fred
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'fred is a rulebook outcome that varies'
+        SENTENCE_NT'a container has a rulebook outcome called blob'
+        SENTENCE_NT'a bag is here'
+        SENTENCE_NT'the marble is in the bag'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the there is sufficient light outcome'
+        SENTENCE_NT'showme fred'
+        SENTENCE_NT'showme the blob of the bag'

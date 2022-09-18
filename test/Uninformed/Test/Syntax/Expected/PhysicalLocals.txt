@@ -1,0 +1,18 @@
+Read 106 words
+syntax-test: unexpected semicolon in sentence: let the debris be a random thing that is supported on the staircase
+ROOT_NT
+    HEADING_NT'the climbing room is a room' {heading 0}
+        SENTENCE_NT'the climbing room is a room'
+        SENTENCE_NT'the magician's staircase is a supporter'
+        SENTENCE_NT'the magician's staircase is here'
+        SENTENCE_NT'the wizard's staircase is a supporter'
+        SENTENCE_NT'the wizard's staircase is here'
+        SENTENCE_NT'a black hat is on the magician's staircase'
+        SENTENCE_NT'a pointy silver hat is on the wizard's staircase'
+        SENTENCE_NT'to sweep ( staircase - a supporter )'
+        SENTENCE_NT'let the debris be a random thing that is supported on the st'
+        SENTENCE_NT'if debris is not nothing'
+        SENTENCE_NT'say "I am sweeping [the debris] off [the staircase]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with item running through supporters'
+        SENTENCE_NT'sweep the item'

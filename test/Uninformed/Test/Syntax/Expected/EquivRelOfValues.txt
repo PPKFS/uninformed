@@ -1,0 +1,12 @@
+Read 68 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'friendship relates various numbers to each other in groups'
+        SENTENCE_NT'the verb to be friends with implies the friendship relation'
+        SENTENCE_NT'6 is friends with 28'
+        SENTENCE_NT'28 is friends with 496'
+        SENTENCE_NT'30 is friends with 140'
+        SENTENCE_NT'80 is friends with 200'
+        SENTENCE_NT'40 is friends with 224'
+        SENTENCE_NT'test me with "relations"'

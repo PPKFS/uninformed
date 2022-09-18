@@ -1,0 +1,15 @@
+Read 79 words
+syntax-test: unexpected semicolon in sentence: let X be 1.5 hr
+syntax-test: unexpected semicolon in sentence: say "1.5 hr = [X] = [X in s] = [X in min]."
+syntax-test: unexpected semicolon in sentence: let X be the duration entry
+ROOT_NT
+    HEADING_NT'include metric units by graham nelson' {heading 0}
+        SENTENCE_NT'include metric units by graham nelson'
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'table of tests input duration "1.5 hr" 1.5 hr "90s" 90s "1.5'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be 1.5 hr'
+        SENTENCE_NT'say "1.5 hr = [X] = [X in s] = [X in min]."'
+        SENTENCE_NT'repeat through table of tests'
+        SENTENCE_NT'let x be the duration entry'
+        SENTENCE_NT'say "[input entry] = [X] = [X in s] = [X in min] = [X in hr]'

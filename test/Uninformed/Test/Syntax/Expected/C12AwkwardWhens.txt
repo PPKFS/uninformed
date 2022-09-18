@@ -1,0 +1,18 @@
+Read 91 words
+syntax-test: unexpected semicolon in sentence: say "Your hand passes through the glass as if it were
+not there, chilling you to the bone."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'john is a man in home'
+        SENTENCE_NT'james is a man in home'
+        SENTENCE_NT'check telling it about when the noun is not john'
+        SENTENCE_NT'say "Only speak to John." instead'
+        SENTENCE_NT'a flask is in home'
+        SENTENCE_NT'a parchment is in the flask'
+        SENTENCE_NT'the player is wearing a magic glove'
+        SENTENCE_NT'a rule for reaching inside the flask when the player is wear'
+        SENTENCE_NT'say "Your hand passes through the glass as if it were
+        not th'
+        SENTENCE_NT'allow access'
+        SENTENCE_NT'test me with "tell james about when / tell john about when /'

@@ -1,0 +1,27 @@
+Read 55 words
+syntax-test: unexpected semicolon in sentence: say "Hello."
+syntax-test: unexpected semicolon in sentence: say "fish"
+syntax-test: unexpected semicolon in sentence: say " and fowl!"
+syntax-test: unexpected semicolon in sentence: say 17, " doors."
+syntax-test: unexpected semicolon in sentence: say "[4 in words] ladder[s]."
+syntax-test: unexpected semicolon in sentence: say "[1 in words] way[s] out."
+syntax-test: unexpected semicolon in sentence: let N be -32767
+syntax-test: unexpected semicolon in sentence: say "The minimum integer is almost [N], which is [N in words]."
+syntax-test: unexpected semicolon in sentence: let N be N - 1
+syntax-test: unexpected semicolon in sentence: say "The minimum integer actually is [N], which is [N in words]."
+syntax-test: unexpected semicolon in sentence: let N be N - 1
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "Hello."'
+        SENTENCE_NT'say "fish"'
+        SENTENCE_NT'say " and fowl!"'
+        SENTENCE_NT'say 17 , " doors."'
+        SENTENCE_NT'say "[4 in words] ladder[s]."'
+        SENTENCE_NT'say "[1 in words] way[s] out."'
+        SENTENCE_NT'let n be -32767'
+        SENTENCE_NT'say "The minimum integer is almost [N], which is [N in words'
+        SENTENCE_NT'let n be n - 1'
+        SENTENCE_NT'say "The minimum integer actually is [N], which is [N in wor'
+        SENTENCE_NT'let n be n - 1'
+        SENTENCE_NT'say "But the maximum integer is [N], which is [N in words]."'

@@ -1,0 +1,22 @@
+Read 158 words
+syntax-test: unexpected semicolon in sentence: say "Crack!"
+ROOT_NT
+    HEADING_NT'a flowerpot is a kind of thing' {heading 0}
+        SENTENCE_NT'a flowerpot is a kind of thing'
+        SENTENCE_NT'understand "pot" as a flowerpot'
+        SENTENCE_NT'a flowerpot can be unbroken or broken'
+        SENTENCE_NT'a flowerpot is usually unbroken'
+        SENTENCE_NT'after dropping an unbroken flowerpot'
+        SENTENCE_NT'say "Crack!"'
+        SENTENCE_NT'now the noun is broken'
+        SENTENCE_NT'understand the broken property as describing a flowerpot'
+        SENTENCE_NT'before printing the name of a broken flowerpot , say "broken'
+        SENTENCE_NT'before printing the name of an unbroken flowerpot'
+        SENTENCE_NT'if a flowerpot is broken , say "unbroken "'
+        SENTENCE_NT'before printing the plural name of a broken flowerpot , say '
+        SENTENCE_NT'before printing the plural name of an unbroken flowerpot'
+        SENTENCE_NT'if a flowerpot is broken , say "unbroken "'
+        SENTENCE_NT'a ming vase is a kind of flowerpot'
+        SENTENCE_NT'the herb garden is a room'
+        SENTENCE_NT'in the herb garden are six flowerpots and ten ming vases'
+        SENTENCE_NT'test me with "get three Ming vases / get four flowerpots / d'

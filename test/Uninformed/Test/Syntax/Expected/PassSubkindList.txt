@@ -1,0 +1,23 @@
+Read 101 words
+syntax-test: unexpected semicolon in sentence: say "I'm randomising in list [L]."
+syntax-test: unexpected semicolon in sentence: let I be a random number from 1 to the number of entries in L
+syntax-test: unexpected semicolon in sentence: say "My rnd is [I]."
+syntax-test: unexpected semicolon in sentence: let L be a list of people
+syntax-test: unexpected semicolon in sentence: add David Attenborough to L
+syntax-test: unexpected semicolon in sentence: showme L
+syntax-test: unexpected semicolon in sentence: let E be a random entry in L
+ROOT_NT
+    HEADING_NT'africa is a room' {heading 0}
+        SENTENCE_NT'africa is a room'
+        SENTENCE_NT'david attenborough is a person in africa'
+        SENTENCE_NT'to decide what object is a random entry in ( l - a list of o'
+        SENTENCE_NT'say "I'm randomising in list [L]."'
+        SENTENCE_NT'let i be a random number from 1 to the number of entries in '
+        SENTENCE_NT'say "My rnd is [I]."'
+        SENTENCE_NT'decide on entry i of l'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be a list of people'
+        SENTENCE_NT'add david attenborough to l'
+        SENTENCE_NT'showme l'
+        SENTENCE_NT'let e be a random entry in l'
+        SENTENCE_NT'showme e'

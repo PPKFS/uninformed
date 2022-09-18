@@ -1,0 +1,25 @@
+Read 135 words
+syntax-test: unexpected semicolon in sentence: say "The [world] [shimmer] into the [grammatical tense understood]."
+syntax-test: unexpected semicolon in sentence: say "[We] [shimmer] into the [narrative viewpoint understood]."
+ROOT_NT
+    HEADING_NT'to stand is a verb' {heading 0}
+        SENTENCE_NT'to stand is a verb'
+        SENTENCE_NT'the taj mahal is a room'
+        SENTENCE_NT'"[We] [stand] to admire the Taj Mahal."'
+        SENTENCE_NT'to shimmer is a verb'
+        SENTENCE_NT'the world is a thing'
+        SENTENCE_NT'adopting is an action applying to one grammatical tense'
+        SENTENCE_NT'carry out adopting'
+        SENTENCE_NT'say "The [world] [shimmer] into the [grammatical tense under'
+        SENTENCE_NT'now the story tense is the grammatical tense understood'
+        SENTENCE_NT'understand "adopt [grammatical tense]" as adopting'
+        SENTENCE_NT'regarding as is an action applying to one narrative viewpoin'
+        SENTENCE_NT'carry out regarding as'
+        SENTENCE_NT'say "[We] [shimmer] into the [narrative viewpoint understood'
+        SENTENCE_NT'now the story viewpoint is the narrative viewpoint understoo'
+        SENTENCE_NT'understand "regard as [narrative viewpoint]" as regarding as'
+        SENTENCE_NT'the fish and some condensers are here'
+        SENTENCE_NT'to move is a verb'
+        SENTENCE_NT'instead of taking something'
+        SENTENCE_NT'say "[The noun] [are] pinned down by Dr Zarkov's force field'
+        SENTENCE_NT'test me with "get me / get fish / get condensers / adopt pas'

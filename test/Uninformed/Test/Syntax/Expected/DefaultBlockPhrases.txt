@@ -1,0 +1,22 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: let P be a phrase text -> number
+syntax-test: unexpected semicolon in sentence: let T be P applied to "some text"
+syntax-test: unexpected semicolon in sentence: showme T
+syntax-test: unexpected semicolon in sentence: let P2 be a phrase text -> text
+syntax-test: unexpected semicolon in sentence: let T2 be P2 applied to "some text"
+syntax-test: unexpected semicolon in sentence: showme T2
+syntax-test: unexpected semicolon in sentence: let P3 be a phrase text -> stored action
+syntax-test: unexpected semicolon in sentence: let T3 be P3 applied to "some text"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let p be a phrase text -> number'
+        SENTENCE_NT'let t be p applied to "some text"'
+        SENTENCE_NT'showme t'
+        SENTENCE_NT'let p2 be a phrase text -> text'
+        SENTENCE_NT'let t2 be p2 applied to "some text"'
+        SENTENCE_NT'showme t2'
+        SENTENCE_NT'let p3 be a phrase text -> stored action'
+        SENTENCE_NT'let t3 be p3 applied to "some text"'
+        SENTENCE_NT'showme t3'

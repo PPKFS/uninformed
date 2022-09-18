@@ -1,0 +1,326 @@
+Read 1206 words
+syntax-test: unexpected semicolon in sentence: showme ceiling of pi
+syntax-test: unexpected semicolon in sentence: showme ceiling of -16.315
+syntax-test: unexpected semicolon in sentence: showme floor of pi
+syntax-test: unexpected semicolon in sentence: showme floor of -16.315
+syntax-test: unexpected semicolon in sentence: showme logarithm of e
+syntax-test: unexpected semicolon in sentence: showme logarithm of 1
+syntax-test: unexpected semicolon in sentence: showme logarithm of 1000
+syntax-test: unexpected semicolon in sentence: showme logarithm of exponential of 7.12
+syntax-test: unexpected semicolon in sentence: showme logarithm to base 10 of 1000000
+syntax-test: unexpected semicolon in sentence: showme logarithm to base 10 of 350
+syntax-test: unexpected semicolon in sentence: showme logarithm to base 2 of 256
+syntax-test: unexpected semicolon in sentence: showme exponential of 0
+syntax-test: unexpected semicolon in sentence: showme exponential of 1
+syntax-test: unexpected semicolon in sentence: showme exponential of -10
+syntax-test: unexpected semicolon in sentence: showme exponential of 10
+syntax-test: unexpected semicolon in sentence: showme exponential of logarithm of 7.12
+syntax-test: unexpected semicolon in sentence: showme 2 to the power 4
+syntax-test: unexpected semicolon in sentence: showme 100 to the power 0.5
+syntax-test: unexpected semicolon in sentence: showme 7 to the power -1
+syntax-test: unexpected semicolon in sentence: showme pi to the power 0
+syntax-test: unexpected semicolon in sentence: showme reciprocal of -2
+syntax-test: unexpected semicolon in sentence: showme reciprocal of 0.1
+syntax-test: unexpected semicolon in sentence: showme reciprocal of 7
+syntax-test: unexpected semicolon in sentence: showme reciprocal of plus infinity
+syntax-test: unexpected semicolon in sentence: showme real square root of 2
+syntax-test: unexpected semicolon in sentence: showme cosine of 2
+syntax-test: unexpected semicolon in sentence: showme cosine of 2.0
+syntax-test: unexpected semicolon in sentence: showme 3 divided by 2
+syntax-test: unexpected semicolon in sentence: showme 3 divided by 2.0
+syntax-test: unexpected semicolon in sentence: showme 3.0 divided by 2
+syntax-test: unexpected semicolon in sentence: showme 3.0 divided by 2.0
+syntax-test: unexpected semicolon in sentence: showme 1.4 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme 1.6 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme -1.6 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme 6 x 10^23 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme sine of 0
+syntax-test: unexpected semicolon in sentence: showme sine of 45 degrees
+syntax-test: unexpected semicolon in sentence: showme sine of (pi divided by 4)
+syntax-test: unexpected semicolon in sentence: showme sine of (pi divided by 2)
+syntax-test: unexpected semicolon in sentence: showme sine of pi
+syntax-test: unexpected semicolon in sentence: showme cosine of 0
+syntax-test: unexpected semicolon in sentence: showme cosine of 45 degrees
+syntax-test: unexpected semicolon in sentence: showme cosine of (pi divided by 4)
+syntax-test: unexpected semicolon in sentence: showme cosine of (pi divided by 2)
+syntax-test: unexpected semicolon in sentence: showme cosine of pi
+syntax-test: unexpected semicolon in sentence: showme tangent of 0
+syntax-test: unexpected semicolon in sentence: showme tangent of 45 degrees
+syntax-test: unexpected semicolon in sentence: showme tangent of (pi divided by 4)
+syntax-test: unexpected semicolon in sentence: showme tangent of (pi divided by 2)
+syntax-test: unexpected semicolon in sentence: showme 3 + 3
+syntax-test: unexpected semicolon in sentence: showme pi + pi
+syntax-test: unexpected semicolon in sentence: showme pi + 3
+syntax-test: unexpected semicolon in sentence: showme 3 + pi
+syntax-test: unexpected semicolon in sentence: showme 3 - 3
+syntax-test: unexpected semicolon in sentence: showme pi - pi
+syntax-test: unexpected semicolon in sentence: showme pi - 3
+syntax-test: unexpected semicolon in sentence: showme 3 - pi
+syntax-test: unexpected semicolon in sentence: showme 3 * 3
+syntax-test: unexpected semicolon in sentence: showme pi * pi
+syntax-test: unexpected semicolon in sentence: showme pi * 3
+syntax-test: unexpected semicolon in sentence: showme 3 * pi
+syntax-test: unexpected semicolon in sentence: showme 3 / 3
+syntax-test: unexpected semicolon in sentence: showme pi / pi
+syntax-test: unexpected semicolon in sentence: showme pi / 3
+syntax-test: unexpected semicolon in sentence: showme 3 / pi
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing pi by 3
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing 3.3 by 1
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing 3.7 by 1
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing -3.3 by 1
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing -3.7 by 1
+syntax-test: unexpected semicolon in sentence: showme the gamma constant
+syntax-test: unexpected semicolon in sentence: showme { 1, 3, 7.5, 4 x 10^21, 8.9256, 4, -1, 0 }
+syntax-test: unexpected semicolon in sentence: let the test list be { 2.345, 5.3 x 10^-7, 1, 3, 7.5, 4 x 10^21, 8.9256, 4, -1, 0.0 }
+syntax-test: unexpected semicolon in sentence: showme the test list
+syntax-test: unexpected semicolon in sentence: sort the test list
+syntax-test: unexpected semicolon in sentence: showme the test list
+syntax-test: unexpected semicolon in sentence: let M be pi
+syntax-test: unexpected semicolon in sentence: showme M
+syntax-test: unexpected semicolon in sentence: increase M by pi
+syntax-test: unexpected semicolon in sentence: showme M
+syntax-test: unexpected semicolon in sentence: decrease M by pi
+syntax-test: unexpected semicolon in sentence: showme M
+syntax-test: unexpected semicolon in sentence: let M be 4
+syntax-test: unexpected semicolon in sentence: showme M
+syntax-test: unexpected semicolon in sentence: now the accuracy entry is the absolute value of (100 times the uncertainty entry divided by the constant value entry)
+syntax-test: unexpected semicolon in sentence: sort the Table of Proton Data in accuracy order
+syntax-test: unexpected semicolon in sentence: say "In order of uncertainty:[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "[constant name entry] is [constant value entry] +/- [uncertainty entry] ([accuracy entry]%)."
+syntax-test: unexpected semicolon in sentence: say "The [constant name entry] is known to 1 part in [reciprocal of (accuracy entry divided by 100) to the nearest whole number]."
+syntax-test: unexpected semicolon in sentence: showme the square root of the exponential of 2
+syntax-test: unexpected semicolon in sentence: showme pi to the power 4
+syntax-test: unexpected semicolon in sentence: showme pi * pi * pi * pi
+syntax-test: unexpected semicolon in sentence: showme pi / 2
+syntax-test: unexpected semicolon in sentence: if plus infinity is infinite, say "Pass."
+syntax-test: unexpected semicolon in sentence: if minus infinity is infinite, say "Pass."
+syntax-test: unexpected semicolon in sentence: if 3.42 is infinite, say "Fail."
+syntax-test: unexpected semicolon in sentence: if the square root of -1.0 is nonexistent, say "Pass."
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic sine of 1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic cosine of 1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic tangent of 1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic sine of -1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic cosine of -1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic tangent of -1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic sine of pi
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic cosine of pi
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic tangent of pi
+syntax-test: unexpected semicolon in sentence: say "Some equations to solve now."
+syntax-test: unexpected semicolon in sentence: say "y = 4/2: "
+syntax-test: unexpected semicolon in sentence: let y be given by y = 4/2 where y is a number
+syntax-test: unexpected semicolon in sentence: showme y
+syntax-test: unexpected semicolon in sentence: say "x = log (pi^2): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = log (pi^2) where x is a real number
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = asinh(1.5): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = arcsinh (1.5)
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = acosh(2): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = arccosh (2)
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = atanh(0.5): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = arctanh (0.5)
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = log pi^2: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = log pi^2
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = (log pi)^2: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = (log pi) ^2
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = log(pi^2): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = log (pi^2)
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = 2 log pi: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = 2 log pi
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = exp(exp(0)): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = exp (exp (0))
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = exp exp 0: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = exp exp 0
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "log x = 1: "
+syntax-test: unexpected semicolon in sentence: let x be given by log x = 1
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "log x = 0: "
+syntax-test: unexpected semicolon in sentence: let x be given by log x = 0
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "exp x = e: "
+syntax-test: unexpected semicolon in sentence: let x be given by exp x = e
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "cos x = -1: "
+syntax-test: unexpected semicolon in sentence: let x be given by cos x = -1
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "sinh x = 1: "
+syntax-test: unexpected semicolon in sentence: let x be given by sinh x = 1.5
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "cosh x = 2: "
+syntax-test: unexpected semicolon in sentence: let x be given by cosh x = 2
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'the gamma constant is a real number that varies'
+        SENTENCE_NT'the gamma constant is 0.5772156649'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme ceiling of pi'
+        SENTENCE_NT'showme ceiling of -16.315'
+        SENTENCE_NT'showme floor of pi'
+        SENTENCE_NT'showme floor of -16.315'
+        SENTENCE_NT'showme logarithm of e'
+        SENTENCE_NT'showme logarithm of 1'
+        SENTENCE_NT'showme logarithm of 1000'
+        SENTENCE_NT'showme logarithm of exponential of 7.12'
+        SENTENCE_NT'showme logarithm to base 10 of 1000000'
+        SENTENCE_NT'showme logarithm to base 10 of 350'
+        SENTENCE_NT'showme logarithm to base 2 of 256'
+        SENTENCE_NT'showme exponential of 0'
+        SENTENCE_NT'showme exponential of 1'
+        SENTENCE_NT'showme exponential of -10'
+        SENTENCE_NT'showme exponential of 10'
+        SENTENCE_NT'showme exponential of logarithm of 7.12'
+        SENTENCE_NT'showme 2 to the power 4'
+        SENTENCE_NT'showme 100 to the power 0.5'
+        SENTENCE_NT'showme 7 to the power -1'
+        SENTENCE_NT'showme pi to the power 0'
+        SENTENCE_NT'showme reciprocal of -2'
+        SENTENCE_NT'showme reciprocal of 0.1'
+        SENTENCE_NT'showme reciprocal of 7'
+        SENTENCE_NT'showme reciprocal of plus infinity'
+        SENTENCE_NT'showme real square root of 2'
+        SENTENCE_NT'showme cosine of 2'
+        SENTENCE_NT'showme cosine of 2.0'
+        SENTENCE_NT'showme 3 divided by 2'
+        SENTENCE_NT'showme 3 divided by 2.0'
+        SENTENCE_NT'showme 3.0 divided by 2'
+        SENTENCE_NT'showme 3.0 divided by 2.0'
+        SENTENCE_NT'showme 1.4 to the nearest whole number'
+        SENTENCE_NT'showme 1.6 to the nearest whole number'
+        SENTENCE_NT'showme -1.6 to the nearest whole number'
+        SENTENCE_NT'showme 6 x 10^23 to the nearest whole number'
+        SENTENCE_NT'showme sine of 0'
+        SENTENCE_NT'showme sine of 45 degrees'
+        SENTENCE_NT'showme sine of ( pi divided by 4 )'
+        SENTENCE_NT'showme sine of ( pi divided by 2 )'
+        SENTENCE_NT'showme sine of pi'
+        SENTENCE_NT'showme cosine of 0'
+        SENTENCE_NT'showme cosine of 45 degrees'
+        SENTENCE_NT'showme cosine of ( pi divided by 4 )'
+        SENTENCE_NT'showme cosine of ( pi divided by 2 )'
+        SENTENCE_NT'showme cosine of pi'
+        SENTENCE_NT'showme tangent of 0'
+        SENTENCE_NT'showme tangent of 45 degrees'
+        SENTENCE_NT'showme tangent of ( pi divided by 4 )'
+        SENTENCE_NT'showme tangent of ( pi divided by 2 )'
+        SENTENCE_NT'showme 3 + 3'
+        SENTENCE_NT'showme pi + pi'
+        SENTENCE_NT'showme pi + 3'
+        SENTENCE_NT'showme 3 + pi'
+        SENTENCE_NT'showme 3 - 3'
+        SENTENCE_NT'showme pi - pi'
+        SENTENCE_NT'showme pi - 3'
+        SENTENCE_NT'showme 3 - pi'
+        SENTENCE_NT'showme 3 * 3'
+        SENTENCE_NT'showme pi * pi'
+        SENTENCE_NT'showme pi * 3'
+        SENTENCE_NT'showme 3 * pi'
+        SENTENCE_NT'showme 3 / 3'
+        SENTENCE_NT'showme pi / pi'
+        SENTENCE_NT'showme pi / 3'
+        SENTENCE_NT'showme 3 / pi'
+        SENTENCE_NT'showme the remainder after dividing pi by 3'
+        SENTENCE_NT'showme the remainder after dividing 3.3 by 1'
+        SENTENCE_NT'showme the remainder after dividing 3.7 by 1'
+        SENTENCE_NT'showme the remainder after dividing -3.3 by 1'
+        SENTENCE_NT'showme the remainder after dividing -3.7 by 1'
+        SENTENCE_NT'showme the gamma constant'
+        SENTENCE_NT'showme { 1 , 3 , 7.5 , 4 x 10^21 , 8.9256 , 4 , -1 , 0 }'
+        SENTENCE_NT'let the test list be { 2.345 , 5.3 x 10^-7 , 1 , 3 , 7.5 , 4'
+        SENTENCE_NT'showme the test list'
+        SENTENCE_NT'sort the test list'
+        SENTENCE_NT'showme the test list'
+        SENTENCE_NT'let m be pi'
+        SENTENCE_NT'showme m'
+        SENTENCE_NT'increase m by pi'
+        SENTENCE_NT'showme m'
+        SENTENCE_NT'decrease m by pi'
+        SENTENCE_NT'showme m'
+        SENTENCE_NT'let m be 4'
+        SENTENCE_NT'showme m'
+        SENTENCE_NT'repeat through the table of proton data'
+        SENTENCE_NT'now the accuracy entry is the absolute value of ( 100 times '
+        SENTENCE_NT'sort the table of proton data in accuracy order'
+        SENTENCE_NT'say "In order of uncertainty:[paragraph break]"'
+        SENTENCE_NT'repeat through the table of proton data'
+        SENTENCE_NT'say "[constant name entry] is [constant value entry] +/- [un'
+        SENTENCE_NT'repeat through the table of proton data'
+        SENTENCE_NT'say "The [constant name entry] is known to 1 part in [recipr'
+        SENTENCE_NT'showme the square root of the exponential of 2'
+        SENTENCE_NT'showme pi to the power 4'
+        SENTENCE_NT'showme pi * pi * pi * pi'
+        SENTENCE_NT'showme pi / 2'
+        SENTENCE_NT'if plus infinity is infinite , say "Pass."'
+        SENTENCE_NT'if minus infinity is infinite , say "Pass."'
+        SENTENCE_NT'if 3.42 is infinite , say "Fail."'
+        SENTENCE_NT'if the square root of -1.0 is nonexistent , say "Pass."'
+        SENTENCE_NT'showme the hyperbolic sine of 1'
+        SENTENCE_NT'showme the hyperbolic cosine of 1'
+        SENTENCE_NT'showme the hyperbolic tangent of 1'
+        SENTENCE_NT'showme the hyperbolic sine of -1'
+        SENTENCE_NT'showme the hyperbolic cosine of -1'
+        SENTENCE_NT'showme the hyperbolic tangent of -1'
+        SENTENCE_NT'showme the hyperbolic sine of pi'
+        SENTENCE_NT'showme the hyperbolic cosine of pi'
+        SENTENCE_NT'showme the hyperbolic tangent of pi'
+        SENTENCE_NT'say "Some equations to solve now."'
+        SENTENCE_NT'say "y = 4/2: "'
+        SENTENCE_NT'let y be given by y = 4/2 where y is a number'
+        SENTENCE_NT'showme y'
+        SENTENCE_NT'say "x = log (pi^2): "'
+        SENTENCE_NT'let x be given by x = log ( pi^2 ) where x is a real number'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = asinh(1.5): "'
+        SENTENCE_NT'let x be given by x = arcsinh ( 1.5 )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = acosh(2): "'
+        SENTENCE_NT'let x be given by x = arccosh ( 2 )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = atanh(0.5): "'
+        SENTENCE_NT'let x be given by x = arctanh ( 0.5 )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = log pi^2: "'
+        SENTENCE_NT'let x be given by x = log pi^2'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = (log pi)^2: "'
+        SENTENCE_NT'let x be given by x = ( log pi ) ^2'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = log(pi^2): "'
+        SENTENCE_NT'let x be given by x = log ( pi^2 )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = 2 log pi: "'
+        SENTENCE_NT'let x be given by x = 2 log pi'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = exp(exp(0)): "'
+        SENTENCE_NT'let x be given by x = exp ( exp ( 0 ) )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = exp exp 0: "'
+        SENTENCE_NT'let x be given by x = exp exp 0'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "log x = 1: "'
+        SENTENCE_NT'let x be given by log x = 1'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "log x = 0: "'
+        SENTENCE_NT'let x be given by log x = 0'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "exp x = e: "'
+        SENTENCE_NT'let x be given by exp x = e'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "cos x = -1: "'
+        SENTENCE_NT'let x be given by cos x = -1'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "sinh x = 1: "'
+        SENTENCE_NT'let x be given by sinh x = 1.5'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "cosh x = 2: "'
+        SENTENCE_NT'let x be given by cosh x = 2'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'table of proton data constant name constant value uncertaint'

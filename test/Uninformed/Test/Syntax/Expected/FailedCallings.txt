@@ -1,0 +1,27 @@
+Read 129 words
+syntax-test: unexpected semicolon in sentence: let foob be the action of the player attacking the player
+syntax-test: unexpected semicolon in sentence: showme the victim
+syntax-test: unexpected semicolon in sentence: showme the mechanism
+syntax-test: unexpected semicolon in sentence: showme the mechanism
+syntax-test: unexpected semicolon in sentence: showme B
+syntax-test: unexpected semicolon in sentence: showme whether or not a foo (called quux) is notable
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'the rock is here'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let foob be the action of the player attacking the player'
+        SENTENCE_NT'if foob is an actor attacking a person ( called the victim )'
+        SENTENCE_NT'showme the victim'
+        SENTENCE_NT'if foob is an actor attacking a device ( called the mechanis'
+        SENTENCE_NT'showme the mechanism'
+        SENTENCE_NT'showme the mechanism'
+        SENTENCE_NT'if the rock is in a container ( called b )'
+        SENTENCE_NT'showme b'
+        SENTENCE_NT'showme b'
+        SENTENCE_NT'foo is a kind of value'
+        SENTENCE_NT'bar is a foo'
+        SENTENCE_NT'a foo can be notable'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme whether or not a foo ( called quux ) is notable'
+        SENTENCE_NT'say "[quux]."'

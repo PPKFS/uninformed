@@ -1,0 +1,23 @@
+Read 164 words
+syntax-test: unexpected semicolon in sentence: now the player clashes the fish
+syntax-test: unexpected semicolon in sentence: if red scratches green, say "Red scratches green."
+ROOT_NT
+    HEADING_NT'the mysterious void is a room' {heading 0}
+        SENTENCE_NT'the mysterious void is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and green'
+        SENTENCE_NT'affinity relates one colour to another'
+        SENTENCE_NT'the verb to scratch ( he scratches , they scratch , he scrat'
+        SENTENCE_NT'disaffinity relates one thing to another'
+        SENTENCE_NT'the verb to clash ( he clashes , they clash , he clashed , i'
+        SENTENCE_NT'red scratches blue'
+        SENTENCE_NT'the fish is a thing'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'now the player clashes the fish'
+        SENTENCE_NT'now red scratches green'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now red does not scratch green'
+        SENTENCE_NT'instead of going north'
+        SENTENCE_NT'if red scratches green , say "Red scratches green."'
+        SENTENCE_NT'otherwise say "Red does not scratch green."'
+        SENTENCE_NT'test me with "n/relations/z/n/relations/jump/n/relations"'

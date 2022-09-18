@@ -1,0 +1,12 @@
+Read 51 words
+ROOT_NT
+    HEADING_NT'the study is a room' {heading 0}
+        SENTENCE_NT'the study is a room'
+        SENTENCE_NT'"A well-appointed study, with a large bookcase and an
+        equall'
+        SENTENCE_NT'the equally impressive desk is here'
+        SENTENCE_NT'it is scenery'
+        SENTENCE_NT'the large bookcase is here'
+        SENTENCE_NT'it is scenery'
+        SENTENCE_NT'understand "look behind [something]" as a mistake ( "There's'
+        SENTENCE_NT'test me with "look behind desk / look / look at desk"'

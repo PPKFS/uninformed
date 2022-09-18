@@ -1,0 +1,11 @@
+Read 63 words
+ROOT_NT
+    HEADING_NT'arenanet is a room' {heading 0}
+        SENTENCE_NT'arenanet is a room'
+        SENTENCE_NT'the cubicle is an enterable container in arenanet'
+        SENTENCE_NT'the swivel chair is an enterable supporter'
+        SENTENCE_NT'it is scenery in the cubicle'
+        SENTENCE_NT'the shelf is a supporter in arenanet'
+        SENTENCE_NT'on the shelf is an unobtrusive pumpkin'
+        SENTENCE_NT'the unobtrusive pumpkin is scenery'
+        SENTENCE_NT'test me with "x cubicle / x shelf"'

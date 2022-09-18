@@ -1,0 +1,21 @@
+Read 66 words
+syntax-test: unexpected semicolon in sentence: say "Empty."
+syntax-test: unexpected semicolon in sentence: say "Not empty."
+syntax-test: unexpected semicolon in sentence: say "[T]."
+syntax-test: unexpected semicolon in sentence: say "Empty."
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the rock is in the kitchen'
+        SENTENCE_NT'the initial appearance of the rock is "[one of]Surprising ro'
+        SENTENCE_NT't is initially "[one of]One[or]Two[or]Three[stopping]"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if t is ""'
+        SENTENCE_NT'say "Empty."'
+        SENTENCE_NT'else'
+        SENTENCE_NT'say "Not empty."'
+        SENTENCE_NT'say "[T]."'
+        SENTENCE_NT'if t is ""'
+        SENTENCE_NT'say "Empty."'
+        SENTENCE_NT'else'
+        SENTENCE_NT'say "Not empty."'

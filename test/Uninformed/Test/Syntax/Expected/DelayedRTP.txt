@@ -1,0 +1,10 @@
+Read 48 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'a person has a number called size'
+        SENTENCE_NT'the player carries a banana'
+        SENTENCE_NT'the description of the banana is "Banana size A: [size]."'
+        SENTENCE_NT'instead of touching the banana'
+        SENTENCE_NT'say "Banana size B: [size]."'
+        SENTENCE_NT'test me with "x banana / touch banana"'

@@ -1,0 +1,94 @@
+Read 398 words
+syntax-test: unexpected semicolon in sentence: say "I fail, I fail."
+syntax-test: unexpected semicolon in sentence: say "I succeed, I succeed."
+syntax-test: unexpected semicolon in sentence: say "I look at 3 en passant."
+syntax-test: unexpected semicolon in sentence: say "I'm going to pass 4."
+syntax-test: unexpected semicolon in sentence: say "I'm going to fail 5."
+syntax-test: unexpected semicolon in sentence: abide by the dismal rule
+syntax-test: unexpected semicolon in sentence: say "So, we seem to have [N]."
+syntax-test: unexpected semicolon in sentence: abide by the happy rule
+syntax-test: unexpected semicolon in sentence: showme the watching paint dry rule
+syntax-test: unexpected semicolon in sentence: follow the watching paint dry rule
+syntax-test: unexpected semicolon in sentence: showme the grading rules
+syntax-test: unexpected semicolon in sentence: say "Grading [N]: "
+syntax-test: unexpected semicolon in sentence: follow the grading rulebook for N
+syntax-test: unexpected semicolon in sentence: showme the strange behavior rules
+syntax-test: unexpected semicolon in sentence: showme the text produced by the strange behavior rules
+syntax-test: unexpected semicolon in sentence: showme the even stranger behavior rules
+syntax-test: unexpected semicolon in sentence: showme the text produced by the even stranger behavior rules for 31
+syntax-test: unexpected semicolon in sentence: say "Judging [N] now."
+syntax-test: unexpected semicolon in sentence: follow the judging rulebook for N
+syntax-test: unexpected semicolon in sentence: say "(Well, so that succeeded.)[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "(Well, so that failed.)[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Inspecting [N]: "
+syntax-test: unexpected semicolon in sentence: follow the inspecting rulebook for N
+ROOT_NT
+    HEADING_NT'this is the watching paint dry rule' {heading 0}
+        SENTENCE_NT'this is the watching paint dry rule'
+        SENTENCE_NT'say "You watch some paint dry."'
+        SENTENCE_NT'grading is a number based rulebook'
+        SENTENCE_NT'grading 5'
+        SENTENCE_NT'say "It's five. What can I say?" instead'
+        SENTENCE_NT'grading an odd number ( called n )'
+        SENTENCE_NT'say "There's something odd about [N]." instead'
+        SENTENCE_NT'grading a number ( called n )'
+        SENTENCE_NT'say "Just [N]." instead'
+        SENTENCE_NT'the strange behavior rules is a rulebook producing a text'
+        SENTENCE_NT'strange behavior'
+        SENTENCE_NT'rule succeeds with result "Shazam!"'
+        SENTENCE_NT'the even stranger behavior rules is a number based rulebook '
+        SENTENCE_NT'even stranger behavior for a number ( called n )'
+        SENTENCE_NT'rule succeeds with result "Shazam! There are [N in words] pu'
+        SENTENCE_NT'judging is a number based rulebook'
+        SENTENCE_NT'this is the dismal rule'
+        SENTENCE_NT'say "I fail, I fail."'
+        SENTENCE_NT'rule fails'
+        SENTENCE_NT'this is the happy rule'
+        SENTENCE_NT'say "I succeed, I succeed."'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'judging 3'
+        SENTENCE_NT'say "I look at 3 en passant."'
+        SENTENCE_NT'make no decision'
+        SENTENCE_NT'judging 4'
+        SENTENCE_NT'say "I'm going to pass 4."'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'judging 5'
+        SENTENCE_NT'say "I'm going to fail 5."'
+        SENTENCE_NT'rule fails'
+        SENTENCE_NT'judging a number ( called n )'
+        SENTENCE_NT'if n is even'
+        SENTENCE_NT'abide by the dismal rule'
+        SENTENCE_NT'say "So, we seem to have [N]."'
+        SENTENCE_NT'if n is odd'
+        SENTENCE_NT'abide by the happy rule'
+        SENTENCE_NT'say "So, we seem to be still here."'
+        SENTENCE_NT'inspecting is a number based rulebook'
+        SENTENCE_NT'inspecting rules have outcomes unsatisfactory ( failure ) , '
+        SENTENCE_NT'inspecting an even number'
+        SENTENCE_NT'adequate'
+        SENTENCE_NT'inspecting an odd number'
+        SENTENCE_NT'unsatisfactory'
+        SENTENCE_NT'inspecting 8'
+        SENTENCE_NT'superlative'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme the watching paint dry rule'
+        SENTENCE_NT'follow the watching paint dry rule'
+        SENTENCE_NT'showme the grading rules'
+        SENTENCE_NT'repeat with n running from 1 to 10'
+        SENTENCE_NT'say "Grading [N]: "'
+        SENTENCE_NT'follow the grading rulebook for n'
+        SENTENCE_NT'showme the strange behavior rules'
+        SENTENCE_NT'showme the text produced by the strange behavior rules'
+        SENTENCE_NT'showme the even stranger behavior rules'
+        SENTENCE_NT'showme the text produced by the even stranger behavior rules'
+        SENTENCE_NT'repeat with n running from 1 to 10'
+        SENTENCE_NT'say "Judging [N] now."'
+        SENTENCE_NT'follow the judging rulebook for n'
+        SENTENCE_NT'if rule succeeded'
+        SENTENCE_NT'say "(Well, so that succeeded.)[paragraph break]"'
+        SENTENCE_NT'if rule failed'
+        SENTENCE_NT'say "(Well, so that failed.)[paragraph break]"'
+        SENTENCE_NT'repeat with n running from 1 to 10'
+        SENTENCE_NT'say "Inspecting [N]: "'
+        SENTENCE_NT'follow the inspecting rulebook for n'
+        SENTENCE_NT'say "[outcome of the rulebook]."'

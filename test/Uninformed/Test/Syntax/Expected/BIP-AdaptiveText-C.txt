@@ -1,0 +1,44 @@
+Read 134 words
+syntax-test: unexpected semicolon in sentence: examine the verb imply
+syntax-test: unexpected semicolon in sentence: examine the verb carry
+syntax-test: unexpected semicolon in sentence: examine the verb whinge
+syntax-test: unexpected semicolon in sentence: examine the verb give
+syntax-test: unexpected semicolon in sentence: examine the verb have
+syntax-test: unexpected semicolon in sentence: say "[V] has infinitive '[infinitive of V]'."
+syntax-test: unexpected semicolon in sentence: say "[V] has past participle '[past participle of V]'."
+syntax-test: unexpected semicolon in sentence: say "[V] has present participle '[present participle of V]'."
+syntax-test: unexpected semicolon in sentence: say "He [adapt V] something."
+syntax-test: unexpected semicolon in sentence: say "He [negate V] something."
+syntax-test: unexpected semicolon in sentence: say "[T]: [adapt V in T]."
+syntax-test: unexpected semicolon in sentence: say "[T]: [negate V in T]."
+syntax-test: unexpected semicolon in sentence: say "[NV]: [adapt V from NV]."
+syntax-test: unexpected semicolon in sentence: say "[NV]: [negate V from NV]."
+syntax-test: unexpected semicolon in sentence: say "[T], [NV]: [adapt V in T from NV]."
+ROOT_NT
+    HEADING_NT'to carry is a verb' {heading 0}
+        SENTENCE_NT'to carry is a verb'
+        SENTENCE_NT'to whinge is a verb'
+        SENTENCE_NT'to give is a verb'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'examine the verb imply'
+        SENTENCE_NT'examine the verb carry'
+        SENTENCE_NT'examine the verb whinge'
+        SENTENCE_NT'examine the verb give'
+        SENTENCE_NT'examine the verb have'
+        SENTENCE_NT'showme the meaning of the verb carry'
+        SENTENCE_NT'to examine ( v - a verb )'
+        SENTENCE_NT'say "[V] has infinitive '[infinitive of V]'."'
+        SENTENCE_NT'say "[V] has past participle '[past participle of V]'."'
+        SENTENCE_NT'say "[V] has present participle '[present participle of V]'.'
+        SENTENCE_NT'say "He [adapt V] something."'
+        SENTENCE_NT'say "He [negate V] something."'
+        SENTENCE_NT'repeat with t running through grammatical tenses'
+        SENTENCE_NT'say "[T]: [adapt V in T]."'
+        SENTENCE_NT'say "[T]: [negate V in T]."'
+        SENTENCE_NT'repeat with nv running through narrative viewpoints'
+        SENTENCE_NT'say "[NV]: [adapt V from NV]."'
+        SENTENCE_NT'say "[NV]: [negate V from NV]."'
+        SENTENCE_NT'repeat with t running through grammatical tenses'
+        SENTENCE_NT'repeat with nv running through narrative viewpoints'
+        SENTENCE_NT'say "[T], [NV]: [adapt V in T from NV]."'
+        SENTENCE_NT'say "[T], [NV]: [negate V in T from NV]."'

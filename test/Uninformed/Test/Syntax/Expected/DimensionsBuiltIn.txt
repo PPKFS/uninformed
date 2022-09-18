@@ -1,0 +1,11 @@
+Read 52 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'frequency is a kind of value'
+        SENTENCE_NT'40/min specifies a frequency'
+        SENTENCE_NT'bus frequency is a frequency that varies'
+        SENTENCE_NT'bus frequency is 2/min'
+        SENTENCE_NT'a frequency times a time specifies a number'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "You can expect [bus frequency times 10 minutes] buses t'

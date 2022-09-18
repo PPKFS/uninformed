@@ -1,0 +1,40 @@
+Read 235 words
+syntax-test: unexpected semicolon in sentence: let N be the number understood
+syntax-test: unexpected semicolon in sentence: let the Fibonacci sequence be { 1, 1 }
+syntax-test: unexpected semicolon in sentence: let N be 3
+syntax-test: unexpected semicolon in sentence: let the last term be entry (N - 1) of the Fibonacci sequence
+syntax-test: unexpected semicolon in sentence: let the penultimate term be entry (N - 2) of the Fibonacci sequence
+syntax-test: unexpected semicolon in sentence: let the next term be the last term plus the penultimate term
+syntax-test: unexpected semicolon in sentence: add the next term to the Fibonacci sequence
+syntax-test: unexpected semicolon in sentence: increase N by 1
+ROOT_NT
+    HEADING_NT'pisa is a room' {heading 0}
+        SENTENCE_NT'pisa is a room'
+        SENTENCE_NT'the pen is here'
+        SENTENCE_NT'the blotter is here'
+        SENTENCE_NT'the ball is here'
+        SENTENCE_NT'a1 is a list of objects that varies'
+        SENTENCE_NT'a1 is { pen , blotter }'
+        SENTENCE_NT'before taking something interesting'
+        SENTENCE_NT'say "(an interesting choice of object) "'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is interesting if it is listed in { pen , blotter }'
+        SENTENCE_NT'leonardo fibonacci is a man in pisa'
+        SENTENCE_NT'sequencing is an action applying to one number'
+        SENTENCE_NT'understand "sequence [number]" as sequencing'
+        SENTENCE_NT'persuasion rule for asking leonardo to try sequencing'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'report leonardo sequencing'
+        SENTENCE_NT'let n be the number understood'
+        SENTENCE_NT'say "Leonardo offers [the first N terms of the Fibonacci seq'
+        SENTENCE_NT'to decide what list of numbers is the first ( f - a number )'
+        SENTENCE_NT'let the fibonacci sequence be { 1 , 1 }'
+        SENTENCE_NT'let n be 3'
+        SENTENCE_NT'while n < f'
+        SENTENCE_NT'let the last term be entry ( n - 1 ) of the fibonacci sequen'
+        SENTENCE_NT'let the penultimate term be entry ( n - 2 ) of the fibonacci'
+        SENTENCE_NT'let the next term be the last term plus the penultimate term'
+        SENTENCE_NT'add the next term to the fibonacci sequence'
+        SENTENCE_NT'increase n by 1'
+        SENTENCE_NT'decide on the fibonacci sequence'
+        SENTENCE_NT'test me with "leonardo, sequence 20 / get all"'

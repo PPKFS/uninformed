@@ -1,0 +1,18 @@
+Read 70 words
+syntax-test: unexpected semicolon in sentence: disregard wasting time
+syntax-test: unexpected semicolon in sentence: let P be wasting time
+syntax-test: unexpected semicolon in sentence: disregard P
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to waste time ( this is wasting time )'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'to disregard ( p - a phrase nothing -> nothing )'
+        SENTENCE_NT'say "General case."'
+        SENTENCE_NT'to disregard ( p - wasting time )'
+        SENTENCE_NT'say "Specific case."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'disregard wasting time'
+        SENTENCE_NT'let p be wasting time'
+        SENTENCE_NT'disregard p'
+        SENTENCE_NT'showme p'

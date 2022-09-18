@@ -1,0 +1,13 @@
+Read 54 words
+syntax-test: unexpected semicolon in sentence: if N is at least 10000, yes
+syntax-test: unexpected semicolon in sentence: if 9999 is large, say "Ouch."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a number ( called n ) is large'
+        SENTENCE_NT'if n is at least 10000 , yes'
+        SENTENCE_NT'otherwise no'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 9999 is large , say "Ouch."'
+        SENTENCE_NT'if 10000 is large , say "Yum."'

@@ -1,0 +1,14 @@
+Read 92 words
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Selected Numbers
+syntax-test: unexpected semicolon in sentence: write the file of Selections from the Table of Selected Numbers
+syntax-test: unexpected semicolon in sentence: read the file of Selections into the Table of Reselected Numbers
+ROOT_NT
+    HEADING_NT'table of selected numbers numeric alphabetic 4 "four" 3 "thr' {heading 0}
+        SENTENCE_NT'table of selected numbers numeric alphabetic 4 "four" 3 "thr'
+        SENTENCE_NT'table of reselected numbers numeric alphabetic with 9 blank '
+        SENTENCE_NT'the file of selections is called "notebook"'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme the contents of the table of selected numbers'
+        SENTENCE_NT'write the file of selections from the table of selected numb'
+        SENTENCE_NT'read the file of selections into the table of reselected num'
+        SENTENCE_NT'showme the contents of the table of reselected numbers'

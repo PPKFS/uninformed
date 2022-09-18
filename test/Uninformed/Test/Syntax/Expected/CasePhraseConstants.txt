@@ -1,0 +1,16 @@
+Read 92 words
+syntax-test: unexpected semicolon in sentence: consider doubling
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to decide which number is ( n - a number ) squared ( this is'
+        SENTENCE_NT'decide on n * n'
+        SENTENCE_NT'to decide which number is ( n - a number ) doubled ( this is'
+        SENTENCE_NT'decide on 2 * n'
+        SENTENCE_NT'to consider ( p - a phrase number -> number )'
+        SENTENCE_NT'if p is'
+        SENTENCE_NT'-- squaring'
+        SENTENCE_NT'say "Considering squaring."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'consider doubling'
+        SENTENCE_NT'consider squaring'

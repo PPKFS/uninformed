@@ -1,0 +1,33 @@
+Read 180 words
+syntax-test: unexpected semicolon in sentence: try factoring 16339
+syntax-test: unexpected semicolon in sentence: say "You consider [the best idea yet]."
+syntax-test: unexpected semicolon in sentence: try the best idea yet
+syntax-test: unexpected semicolon in sentence: say "You then turn your mind to [the second best idea]."
+syntax-test: unexpected semicolon in sentence: say "You consider [the best idea yet]."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'bob is in home'
+        SENTENCE_NT'factoring is an action applying to one number'
+        SENTENCE_NT'the best idea yet is a stored action which varies'
+        SENTENCE_NT'the best idea yet is the action of factoring 15'
+        SENTENCE_NT'the second best idea is a stored action which varies'
+        SENTENCE_NT'the second best idea is the action of asking bob about "melo'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'try factoring 16339'
+        SENTENCE_NT'say "You consider [the best idea yet]."'
+        SENTENCE_NT'try the best idea yet'
+        SENTENCE_NT'say "You then turn your mind to [the second best idea]."'
+        SENTENCE_NT'try the second best idea'
+        SENTENCE_NT'carry out factoring'
+        SENTENCE_NT'say "You factor [the number understood]."'
+        SENTENCE_NT'instead of thinking'
+        SENTENCE_NT'say "You consider [the best idea yet]."'
+        SENTENCE_NT'try the best idea yet'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now the best idea yet is the action of factoring 15'
+        SENTENCE_NT'instead of going'
+        SENTENCE_NT'now the best idea yet is the action of going east'
+        SENTENCE_NT'instead of taking inventory'
+        SENTENCE_NT'now the best idea yet is the action of asking bob about "gra'
+        SENTENCE_NT'test me with "think / i / think / jump / think / e / think"'

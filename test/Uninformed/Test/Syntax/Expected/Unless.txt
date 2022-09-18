@@ -1,0 +1,24 @@
+Read 73 words
+syntax-test: unexpected semicolon in sentence: let M be 3
+syntax-test: unexpected semicolon in sentence: unless M is 2, say "M is not 2."
+syntax-test: unexpected semicolon in sentence: unless M is 1, say "M is not 1."
+syntax-test: unexpected semicolon in sentence: say "M not 3."
+syntax-test: unexpected semicolon in sentence: say "M may be 3, but isn't 2."
+syntax-test: unexpected semicolon in sentence: say "Can never happen."
+syntax-test: unexpected semicolon in sentence: say "Rolled up: [unless M is 2]M is not 2."
+ROOT_NT
+    HEADING_NT'the upper cave is above the rock pool' {heading 0}
+        SENTENCE_NT'the upper cave is above the rock pool'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let m be 3'
+        SENTENCE_NT'unless m is 2 , say "M is not 2."'
+        SENTENCE_NT'unless m is 1 , say "M is not 1."'
+        SENTENCE_NT'unless m is 3'
+        SENTENCE_NT'say "M not 3."'
+        SENTENCE_NT'otherwise unless m is 2'
+        SENTENCE_NT'say "M may be 3, but isn't 2."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Can never happen."'
+        SENTENCE_NT'say "Rolled up: [unless M is 2]M is not 2."'
+        SENTENCE_NT'say "Rolled up: [unless M is 3]M is not 3.[otherwise unless '
+        SENTENCE_NT'test me with "look"'

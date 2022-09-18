@@ -1,0 +1,9 @@
+Read 40 words
+syntax-test: unexpected semicolon in sentence: if every room encloses a person, say "hooray."
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'blob is a person in foo'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if every room encloses a person , say "hooray."'
+        SENTENCE_NT'if every room encloses two people , say "yowza."'

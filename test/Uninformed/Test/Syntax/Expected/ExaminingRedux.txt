@@ -1,0 +1,13 @@
+Read 76 words
+ROOT_NT
+    HEADING_NT'the lounge is a room' {heading 0}
+        SENTENCE_NT'the lounge is a room'
+        SENTENCE_NT'"Ah, the Lounge! How relaxing."'
+        SENTENCE_NT'the comfy green chair is an enterable scenery supporter in t'
+        SENTENCE_NT'the description is "The comfy chair is green."'
+        SENTENCE_NT'the player is on the chair'
+        SENTENCE_NT'the big basket is a container in the lounge'
+        SENTENCE_NT'the big basket is enterable'
+        SENTENCE_NT'the player carries a ball and a box'
+        SENTENCE_NT'the box is a container'
+        SENTENCE_NT'test me with "x chair / enter basket / x basket / drop ball '

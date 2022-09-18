@@ -1,0 +1,11 @@
+Read 62 words
+ROOT_NT
+    HEADING_NT'square one is a room' {heading 0}
+        SENTENCE_NT'square one is a room'
+        SENTENCE_NT'the elegant jacket is a wearable thing in square one'
+        SENTENCE_NT'the top hat is a wearable thing in square one'
+        SENTENCE_NT'instead of taking the jacket'
+        SENTENCE_NT'say "The jacket resists!"'
+        SENTENCE_NT'instead of taking the top hat less than three times'
+        SENTENCE_NT'say "The top hat resists!"'
+        SENTENCE_NT'test me with "actions / wear jacket / wear hat"'

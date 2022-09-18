@@ -1,0 +1,23 @@
+Read 140 words
+syntax-test: unexpected semicolon in sentence: describe the containment relation for item
+syntax-test: unexpected semicolon in sentence: showme the meaning of the verb contain
+syntax-test: unexpected semicolon in sentence: say "[item]: [the list of things to which item relates by R with indefinite articles]."
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'it contains a box'
+        SENTENCE_NT'the box contains a newspaper'
+        SENTENCE_NT'the wallchart is scenery in the lab'
+        SENTENCE_NT'instead of examining something'
+        SENTENCE_NT'say relations for the noun'
+        SENTENCE_NT'to say relations for ( item - a thing )'
+        SENTENCE_NT'describe the containment relation for item'
+        SENTENCE_NT'showme the meaning of the verb contain'
+        SENTENCE_NT'showme the containment relation'
+        SENTENCE_NT'to describe ( r - a relation of objects ) for ( item - a thi'
+        SENTENCE_NT'say "[item]: [the list of things to which item relates by R '
+        SENTENCE_NT'if a thing to which item relates by r is a thing'
+        SENTENCE_NT'say "[The item] [verb rendering applied to a random verb tha'
+        SENTENCE_NT'to decide which text is the rendering of ( v - verb ) ( this'
+        SENTENCE_NT'decide on "[adapt V]"'
+        SENTENCE_NT'test me with "x box / x newspaper"'

@@ -1,0 +1,13 @@
+Read 70 words
+syntax-test: unexpected semicolon in sentence: if the player provides the property brightness, say "Player does."
+ROOT_NT
+    HEADING_NT'brightness is a kind of value' {heading 0}
+        SENTENCE_NT'brightness is a kind of value'
+        SENTENCE_NT'the brightnesses are guttering , weak , radiant and blazing'
+        SENTENCE_NT'the lantern has a brightness'
+        SENTENCE_NT'the lantern is blazing'
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'the lantern is here'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the player provides the property brightness , say "Player'
+        SENTENCE_NT'if the lantern provides the property brightness , say "Lante'

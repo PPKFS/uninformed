@@ -1,0 +1,17 @@
+Read 91 words
+syntax-test: unexpected semicolon in sentence: Now the frozzle-text is the topic understood
+syntax-test: unexpected semicolon in sentence: Add the frozzle-text to the grunion-list
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'the frozzle-text is an indexed text that varies'
+        SENTENCE_NT'the grunion-list is a list of indexed texts that varies'
+        SENTENCE_NT'booing is an action applying to one topic'
+        SENTENCE_NT'understand "boo [text]" as booing'
+        SENTENCE_NT'carry out booing'
+        SENTENCE_NT'now the frozzle-text is the topic understood'
+        SENTENCE_NT'add the frozzle-text to the grunion-list'
+        SENTENCE_NT'say "'[The topic understood]' is now a synonym for the gruni'
+        SENTENCE_NT'the grunion is in the lab'
+        SENTENCE_NT'understand "[text]" as the grunion when the topic understood'
+        SENTENCE_NT'test me with "boo bam/x bam/show bam to me"'

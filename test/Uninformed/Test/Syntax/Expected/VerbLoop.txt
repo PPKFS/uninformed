@@ -1,0 +1,26 @@
+Read 156 words
+syntax-test: unexpected semicolon in sentence: say "Yeah, [frog]."
+syntax-test: unexpected semicolon in sentence: let count be 0
+syntax-test: unexpected semicolon in sentence: increase count by 1
+syntax-test: unexpected semicolon in sentence: say "[count]: [chosen verb]."
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'the ball is in foo'
+        SENTENCE_NT'the bar is in foo'
+        SENTENCE_NT'describing relates various verbs to various action names'
+        SENTENCE_NT'the verb to describe means the describing relation'
+        SENTENCE_NT'to take is a verb'
+        SENTENCE_NT'the verb take describes the taking action'
+        SENTENCE_NT'to snatch is a verb'
+        SENTENCE_NT'the verb snatch describes the taking action'
+        SENTENCE_NT'after an actor doing something to something when a verb desc'
+        SENTENCE_NT'repeat with frog running through things which are in lighted'
+        SENTENCE_NT'say "Yeah, [frog]."'
+        SENTENCE_NT'let count be 0'
+        SENTENCE_NT'repeat with chosen verb running through verbs that describe '
+        SENTENCE_NT'increase count by 1'
+        SENTENCE_NT'say "[count]: [chosen verb]."'
+        SENTENCE_NT'if count > 15'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'test me with "get ball"'

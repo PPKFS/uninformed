@@ -1,0 +1,29 @@
+Read 99 words
+syntax-test: unexpected semicolon in sentence: say "Now testing R = [R]."
+syntax-test: unexpected semicolon in sentence: showme whether or not R is positive
+syntax-test: unexpected semicolon in sentence: showme whether or not R is negative
+syntax-test: unexpected semicolon in sentence: showme whether or not R is infinite
+syntax-test: unexpected semicolon in sentence: showme whether or not R is finite
+syntax-test: unexpected semicolon in sentence: showme whether or not R is nonexistent
+syntax-test: unexpected semicolon in sentence: assay pi
+syntax-test: unexpected semicolon in sentence: assay -1 times pi
+syntax-test: unexpected semicolon in sentence: let R be 1.0 divided by 0.0
+syntax-test: unexpected semicolon in sentence: assay R
+syntax-test: unexpected semicolon in sentence: let R2 be -1.0 divided by 0.0
+ROOT_NT
+    HEADING_NT'to assay ( r - a real number )' {heading 0}
+        SENTENCE_NT'to assay ( r - a real number )'
+        SENTENCE_NT'say "Now testing R = [R]."'
+        SENTENCE_NT'showme whether or not r is positive'
+        SENTENCE_NT'showme whether or not r is negative'
+        SENTENCE_NT'showme whether or not r is infinite'
+        SENTENCE_NT'showme whether or not r is finite'
+        SENTENCE_NT'showme whether or not r is nonexistent'
+        SENTENCE_NT'showme whether or not r is existent'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'assay pi'
+        SENTENCE_NT'assay -1 times pi'
+        SENTENCE_NT'let r be 1.0 divided by 0.0'
+        SENTENCE_NT'assay r'
+        SENTENCE_NT'let r2 be -1.0 divided by 0.0'
+        SENTENCE_NT'assay r2'

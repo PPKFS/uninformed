@@ -1,0 +1,18 @@
+Read 142 words
+syntax-test: unexpected semicolon in sentence: if Zora speaks English, say "Huzzah!"
+ROOT_NT
+    HEADING_NT'institute is a room' {heading 0}
+        SENTENCE_NT'institute is a room'
+        SENTENCE_NT'zora is a woman in the institute'
+        SENTENCE_NT'chloe is a woman'
+        SENTENCE_NT'a language is a kind of value'
+        SENTENCE_NT'the languages are english , zubian , and perplexish'
+        SENTENCE_NT'speaking relates one person to various languages'
+        SENTENCE_NT'the verb to speak ( he speaks , they speak , he spoke , it i'
+        SENTENCE_NT'knowing relates one person to various people'
+        SENTENCE_NT'the verb to know ( he knows , they know , he knew , it is kn'
+        SENTENCE_NT'zora speaks english'
+        SENTENCE_NT'zora knows chloe'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if zora speaks english , say "Huzzah!"'
+        SENTENCE_NT'if zora knows chloe , say "Huzzah again!"'

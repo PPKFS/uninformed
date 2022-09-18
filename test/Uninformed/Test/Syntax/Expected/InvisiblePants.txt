@@ -1,0 +1,10 @@
+Read 35 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'"A nice room."'
+        SENTENCE_NT'the table is in foo'
+        SENTENCE_NT'"A cool table is here."'
+        SENTENCE_NT'the pair of invisible pants is on the table'
+        SENTENCE_NT'"Invisible pants! What a time to be alive."'
+        SENTENCE_NT'the pair is undescribed'

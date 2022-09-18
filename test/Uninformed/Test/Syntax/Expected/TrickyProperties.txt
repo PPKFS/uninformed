@@ -1,0 +1,24 @@
+Read 148 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'brightness is a kind of value'
+        SENTENCE_NT'the brightnesses are guttering , weak , radiant and blazing'
+        SENTENCE_NT'the player carries a candle lantern'
+        SENTENCE_NT'the lantern has a brightness'
+        SENTENCE_NT'the lantern is blazing'
+        SENTENCE_NT'temperature is a kind of value'
+        SENTENCE_NT'70c specifies a temperature'
+        SENTENCE_NT'a brightness has a temperature'
+        SENTENCE_NT'the temperature of a brightness is usually 700c'
+        SENTENCE_NT'the temperature of blazing is 1400c'
+        SENTENCE_NT'the temperature of radiant is 1100c'
+        SENTENCE_NT'a brightness can be adequate or inadequate'
+        SENTENCE_NT'a brightness is usually adequate'
+        SENTENCE_NT'guttering is inadequate'
+        SENTENCE_NT'the player carries a book'
+        SENTENCE_NT'the description of the book is "[if the
+        brightness of the la'
+        SENTENCE_NT'instead of jumping , now the lantern is guttering'
+        SENTENCE_NT'the description of the lantern is "The lantern shines with a'
+        SENTENCE_NT'test me with "x lantern / read book / jump / x lantern / rea'

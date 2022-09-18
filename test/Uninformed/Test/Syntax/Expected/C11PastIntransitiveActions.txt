@@ -1,0 +1,16 @@
+Read 66 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'every turn when we have taken inventory'
+        SENTENCE_NT'say "You sure are glad that
+        your inventory is in order!"'
+        SENTENCE_NT'every turn when we have waited'
+        SENTENCE_NT'say "Time keeps dragging on."'
+        SENTENCE_NT'the block waking up rule is not listed in any rulebook'
+        SENTENCE_NT'report waking up'
+        SENTENCE_NT'say "You are now wide awake."'
+        SENTENCE_NT'every turn when we have woken up'
+        SENTENCE_NT'say "It's good that you're awake
+        too."'
+        SENTENCE_NT'test me with "actions / i / z / wake up / z / z"'

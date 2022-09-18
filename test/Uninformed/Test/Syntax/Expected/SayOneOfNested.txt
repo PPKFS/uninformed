@@ -1,0 +1,6 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'"[one of]A palace on the [one of]Nile[or]Euphrates[purely at'
+        SENTENCE_NT'test me with "look / look / look / look / look / look / look'

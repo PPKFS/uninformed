@@ -1,0 +1,15 @@
+Read 85 words
+syntax-test: unexpected semicolon in sentence: showme the front side of the stair
+syntax-test: unexpected semicolon in sentence: showme the back side of the stair
+syntax-test: unexpected semicolon in sentence: showme the front side of the thang
+ROOT_NT
+    HEADING_NT'the red rock stair is a door' {heading 0}
+        SENTENCE_NT'the red rock stair is a door'
+        SENTENCE_NT'the red rock stair is east of the orchard and south of the u'
+        SENTENCE_NT'the yellow thang is a door'
+        SENTENCE_NT'the yellow thang is south of the orchard and above the under'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the front side of the stair'
+        SENTENCE_NT'showme the back side of the stair'
+        SENTENCE_NT'showme the front side of the thang'
+        SENTENCE_NT'showme the back side of the thang'

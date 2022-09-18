@@ -1,0 +1,20 @@
+Read 425 words
+syntax-test: unexpected semicolon in sentence: let N be 1mm
+syntax-test: unexpected semicolon in sentence: say "[N] is [N in conceptual units]."
+ROOT_NT
+    HEADING_NT'length is a kind of value' {heading 0}
+        SENTENCE_NT'length is a kind of value'
+        SENTENCE_NT'1.0m ( in metric units , in m ) or 1 meter ( in meters , sin'
+        SENTENCE_NT'1mm ( in metric units , in mm ) or 1 millimeter ( in millime'
+        SENTENCE_NT'1cm ( in metric units , in cm ) or 1 centimeter ( in centime'
+        SENTENCE_NT'1km ( in metric units , in km ) or 1 kilometer ( in kilomete'
+        SENTENCE_NT'1 quarter ( in conceptual units , in quarters , singular ) o'
+        SENTENCE_NT'1 pencil ( in conceptual units , in pencils , singular ) or '
+        SENTENCE_NT'1 bathtub ( in conceptual units , in bathtubs , singular ) o'
+        SENTENCE_NT'1 olympic swimming pool ( in conceptual units , in olympic s'
+        SENTENCE_NT'1 empire state building ( in conceptual units , in empire st'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let n be 1mm'
+        SENTENCE_NT'while n < 50km'
+        SENTENCE_NT'say "[N] is [N in conceptual units]."'
+        SENTENCE_NT'now n is 10 times n'

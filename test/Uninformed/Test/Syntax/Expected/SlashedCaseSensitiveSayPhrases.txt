@@ -1,0 +1,19 @@
+Read 119 words
+ROOT_NT
+    HEADING_NT'to say that ( item - an object )' {heading 0}
+        SENTENCE_NT'to say that ( item - an object )'
+        SENTENCE_NT'say "that"'
+        SENTENCE_NT'to say that ( item - an object )'
+        SENTENCE_NT'say "That"'
+        SENTENCE_NT'to say these of/for ( item - an object )'
+        SENTENCE_NT'say "these"'
+        SENTENCE_NT'to say these of/for ( item - an object )'
+        SENTENCE_NT'say "These"'
+        SENTENCE_NT'to say those of ( item - an object )'
+        SENTENCE_NT'say "those"'
+        SENTENCE_NT'to say those of ( item - an object )'
+        SENTENCE_NT'say "Those"'
+        SENTENCE_NT'understand "lower" as a mistake ( "[that the player] [these '
+        SENTENCE_NT'understand "upper" as a mistake ( "[That the player] [These '
+        SENTENCE_NT'test me with "lower/upper"'
+        SENTENCE_NT'there is room'

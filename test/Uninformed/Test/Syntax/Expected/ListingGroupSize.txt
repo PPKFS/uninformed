@@ -1,0 +1,19 @@
+Read 135 words
+ROOT_NT
+    HEADING_NT'ludus is a room' {heading 0}
+        SENTENCE_NT'ludus is a room'
+        SENTENCE_NT'a scrabble piece is a kind of thing'
+        SENTENCE_NT'the x , the w , the f , the y and the z are scrabble pieces '
+        SENTENCE_NT'before listing contents'
+        SENTENCE_NT'group scrabble pieces together'
+        SENTENCE_NT'before grouping together scrabble pieces when the listing gr'
+        SENTENCE_NT'say "some [listing group size in words] tiles ("'
+        SENTENCE_NT'after grouping together scrabble pieces when the listing gro'
+        SENTENCE_NT'say ") from a Scrabble set"'
+        SENTENCE_NT'a block is a kind of thing'
+        SENTENCE_NT'three blocks are in ludus'
+        SENTENCE_NT'before listing contents'
+        SENTENCE_NT'group blocks together'
+        SENTENCE_NT'rule for printing a number of blocks when the listing group '
+        SENTENCE_NT'say "a mystic triad of blocks"'
+        SENTENCE_NT'test me with "get x / get w / get two blocks / i / look / ge'

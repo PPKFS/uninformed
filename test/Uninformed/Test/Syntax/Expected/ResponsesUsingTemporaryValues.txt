@@ -1,0 +1,15 @@
+Read 85 words
+syntax-test: unexpected semicolon in sentence: now implicitly pass through other barriers rule response (A) is "(getting, my goodness, off [the current home])[command clarification break]"
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'mobile home is a room'
+        SENTENCE_NT'the table is in the lab'
+        SENTENCE_NT'the table is an enterable supporter'
+        SENTENCE_NT'the chair is in the lab'
+        SENTENCE_NT'the chair is an enterable supporter'
+        SENTENCE_NT'the implicitly pass through other barriers rule response ( a'
+        SENTENCE_NT'after waiting'
+        SENTENCE_NT'now implicitly pass through other barriers rule response ( a'
+        SENTENCE_NT'say "You resolve to be more civil."'
+        SENTENCE_NT'test me with "get on table / get on chair / wait / get on ta'

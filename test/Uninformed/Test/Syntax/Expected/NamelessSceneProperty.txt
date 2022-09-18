@@ -1,0 +1,10 @@
+Read 62 words
+ROOT_NT
+    HEADING_NT'the overall plot is a scene' {heading 0}
+        SENTENCE_NT'the overall plot is a scene'
+        SENTENCE_NT'the place is a room'
+        SENTENCE_NT'a plot device is a kind of value'
+        SENTENCE_NT'the plot devices are prologue , shocking reveal and epilogue'
+        SENTENCE_NT'the overall plot has a plot device'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the plot device of the overall plot'

@@ -1,0 +1,25 @@
+Read 185 words
+syntax-test: unexpected semicolon in sentence: if the player is wearing the cloak, continue the action
+ROOT_NT
+    HEADING_NT'"Customs"' {heading 0}
+        SENTENCE_NT'"Customs"'
+        SENTENCE_NT'assaying is an action applying to one carried thing'
+        SENTENCE_NT'understand "assay
+        [something]" as assaying'
+        SENTENCE_NT'carry out assaying'
+        SENTENCE_NT'say "You assay [the noun]."'
+        SENTENCE_NT'rule for implicitly taking the curare'
+        SENTENCE_NT'say "Ordinarily you'd pick up the curare in order to be able'
+        SENTENCE_NT'the evidence room is a room'
+        SENTENCE_NT'some shelves are scenery supporters in the evidence room'
+        SENTENCE_NT'a box is a kind of container which is open and not openable'
+        SENTENCE_NT'on the shelves is a box'
+        SENTENCE_NT'it contains a deformed bullet and a driver's license'
+        SENTENCE_NT'the player carries a steel fish hook , a chinese passport , '
+        SENTENCE_NT'in the evidence room is a cloak of distant holding'
+        SENTENCE_NT'the cloak is wearable'
+        SENTENCE_NT'the player-aware carrying requirements rule is listed instea'
+        SENTENCE_NT'this is the player-aware carrying requirements rule'
+        SENTENCE_NT'if the player is wearing the cloak , continue the action'
+        SENTENCE_NT'abide by the carrying requirements rule'
+        SENTENCE_NT'test me with "actions / assay me / actions off / assay hook '

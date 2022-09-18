@@ -1,0 +1,17 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'perform the test'
+        SENTENCE_NT'to perform the test'
+        SENTENCE_NT'(-  beta(); '
+        SENTENCE_NT'to expostulate mildly about ( n - a number ) ( this is the i'
+        SENTENCE_NT'say "I do think this is a pity, given [N]."'
+        SENTENCE_NT'to expostulate firmly ( this is the riled function )'
+        SENTENCE_NT'say "Oh really! This is too much!"'
+        SENTENCE_NT'include (- 
+        [ alpha;
+        print "alpha called^";
+        ];
+
+        [beta n plug'

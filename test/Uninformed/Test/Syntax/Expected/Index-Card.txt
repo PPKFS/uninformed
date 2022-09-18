@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'test index ( internal ) with cd'

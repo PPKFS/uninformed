@@ -1,0 +1,19 @@
+Read 54 words
+syntax-test: unexpected semicolon in sentence: showme 7
+syntax-test: unexpected semicolon in sentence: showme minus 6
+syntax-test: unexpected semicolon in sentence: showme true
+syntax-test: unexpected semicolon in sentence: showme unicode 1164
+syntax-test: unexpected semicolon in sentence: showme the engineering notation option
+syntax-test: unexpected semicolon in sentence: showme "This is textual."
+syntax-test: unexpected semicolon in sentence: showme { 2, 3, 5, 8, 13 }
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme 7'
+        SENTENCE_NT'showme minus 6'
+        SENTENCE_NT'showme true'
+        SENTENCE_NT'showme unicode 1164'
+        SENTENCE_NT'showme the engineering notation option'
+        SENTENCE_NT'showme "This is textual."'
+        SENTENCE_NT'showme { 2 , 3 , 5 , 8 , 13 }'
+        SENTENCE_NT'showme { "martin" , "douglas" , "carolyn" , "arthur" }'

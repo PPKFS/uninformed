@@ -1,0 +1,18 @@
+Read 95 words
+syntax-test: unexpected semicolon in sentence: now reclining blobs standing
+syntax-test: unexpected semicolon in sentence: now reclining does not blob seated
+ROOT_NT
+    HEADING_NT'zot is a room' {heading 0}
+        SENTENCE_NT'zot is a room'
+        SENTENCE_NT'a posture is a kind of value'
+        SENTENCE_NT'the postures are seated , standing , and reclining'
+        SENTENCE_NT'drivel relates postures to each other in groups'
+        SENTENCE_NT'the verb to blob ( he blobs , they blob , he blobbed ) impli'
+        SENTENCE_NT'seated blobs reclining'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'now reclining blobs standing'
+        SENTENCE_NT'say "now reclining blobs standing."'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now reclining does not blob seated'
+        SENTENCE_NT'say "now reclining does not blob seated."'
+        SENTENCE_NT'test me with "relations / z / relations / jump / relations"'

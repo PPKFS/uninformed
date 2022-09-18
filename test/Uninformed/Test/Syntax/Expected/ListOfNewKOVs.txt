@@ -1,0 +1,10 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'the place is a room' {heading 0}
+        SENTENCE_NT'the place is a room'
+        SENTENCE_NT'a temperature is a kind of value'
+        SENTENCE_NT'the temperatures are freezing , cold , and hot'
+        SENTENCE_NT'zz is a list of temperature that varies'
+        SENTENCE_NT'zz is { cold , freezing , hot }'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "ZZ is [ZZ]."'

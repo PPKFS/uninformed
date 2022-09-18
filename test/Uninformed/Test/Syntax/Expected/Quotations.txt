@@ -1,0 +1,9 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'"Quotations"' {heading 0}
+        SENTENCE_NT'"Quotations"'
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "[The Kitchen]'s [apostrophe]decor[quotation mark] is aw'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Lucy says, 'Oh my, the Kitchen looks frightful!'"'

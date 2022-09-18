@@ -1,0 +1,15 @@
+Read 66 words
+syntax-test: unexpected semicolon in sentence: let the sought value be text
+syntax-test: unexpected semicolon in sentence: let the sought value be "utterly unknown"
+syntax-test: unexpected semicolon in sentence: say "The surface of [moon entry] is [surface entry]."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'table of neptune's moons moon surface ( text ) "Nereid" "utt'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let the sought value be text'
+        SENTENCE_NT'let the sought value be "utterly unknown"'
+        SENTENCE_NT'if the sought value is a surface listed in the table of nept'
+        SENTENCE_NT'say "The surface of [moon entry] is [surface entry]."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Not found."'

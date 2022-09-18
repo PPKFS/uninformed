@@ -1,0 +1,15 @@
+Read 107 words
+ROOT_NT
+    HEADING_NT'a phonodisk is a kind of thing' {heading 0}
+        SENTENCE_NT'a phonodisk is a kind of thing'
+        SENTENCE_NT'a phonodisk has a text called song'
+        SENTENCE_NT'a subject is a kind of thing'
+        SENTENCE_NT'the study is a room'
+        SENTENCE_NT'the black box is an openable container in the study'
+        SENTENCE_NT'the black button is part of the black box'
+        SENTENCE_NT'the record is a phonodisk in the study'
+        SENTENCE_NT'the song is "God Save the Queen"'
+        SENTENCE_NT'after pushing the black button when the black box contains a'
+        SENTENCE_NT'say "The black box plays [the song of the source]."'
+        SENTENCE_NT'the two source hypothesis is a subject'
+        SENTENCE_NT'test me with "take record/put it in black box/push button"'

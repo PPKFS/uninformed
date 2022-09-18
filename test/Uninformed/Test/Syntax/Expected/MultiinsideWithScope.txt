@@ -1,0 +1,16 @@
+Read 93 words
+syntax-test: unexpected semicolon in sentence: place the grass in scope
+ROOT_NT
+    HEADING_NT'the balcony is a room' {heading 0}
+        SENTENCE_NT'the balcony is a room'
+        SENTENCE_NT'"Overlooking the great fountain below."'
+        SENTENCE_NT'the bench is an enterable supporter in the balcony'
+        SENTENCE_NT'the garden is down from the balcony'
+        SENTENCE_NT'the fountain is fixed in place in the garden'
+        SENTENCE_NT'the grass is in the garden'
+        SENTENCE_NT'after deciding the scope of the player when the player is in'
+        SENTENCE_NT'if we have jumped'
+        SENTENCE_NT'place the grass in scope'
+        SENTENCE_NT'place the fountain in scope'
+        SENTENCE_NT'the player carries a key'
+        SENTENCE_NT'test me with "get all from bench / get all from key / put ke'

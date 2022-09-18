@@ -1,0 +1,25 @@
+Read 115 words
+syntax-test: unexpected semicolon in sentence: say "Caress"
+syntax-test: unexpected semicolon in sentence: add the apple to foo
+syntax-test: unexpected semicolon in sentence: add the pear to foo
+syntax-test: unexpected semicolon in sentence: showme foo
+syntax-test: unexpected semicolon in sentence: add the noun to the touched-list of the player
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the apple is a thing in the kitchen'
+        SENTENCE_NT'the pear is a thing in the kitchen'
+        SENTENCE_NT'foo is a list of things that varies'
+        SENTENCE_NT'foo is initially { }'
+        SENTENCE_NT'a person has a list of things called touched-list'
+        SENTENCE_NT'the touched-list of a person is usually { }'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Caress"'
+        SENTENCE_NT'add the apple to foo'
+        SENTENCE_NT'add the pear to foo'
+        SENTENCE_NT'showme foo'
+        SENTENCE_NT'say "Foo: [foo]."'
+        SENTENCE_NT'instead of touching'
+        SENTENCE_NT'add the noun to the touched-list of the player'
+        SENTENCE_NT'say "You have touched [touched-list of the player]."'
+        SENTENCE_NT'test me with "touch apple / touch pear"'

@@ -1,0 +1,11 @@
+Read 71 words
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'the shelf system is a backdrop in the lab'
+        SENTENCE_NT'the clear case is a transparent closed fixed in place contai'
+        SENTENCE_NT'it is part of the shelf system'
+        SENTENCE_NT'the stand is a supporter in the clear case'
+        SENTENCE_NT'on the stand is a chocolate'
+        SENTENCE_NT'the chocolate is edible'
+        SENTENCE_NT'test me with "eat chocolate"'

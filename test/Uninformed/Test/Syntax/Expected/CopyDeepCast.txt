@@ -1,0 +1,11 @@
+Read 45 words
+syntax-test: unexpected semicolon in sentence: now my list is { "One", "Two", "Three", "Four" }
+syntax-test: unexpected semicolon in sentence: say "The list contains: [my list].[paragraph break]"
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'my list is a list of text that varies'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now my list is { "One" , "Two" , "Three" , "Four" }'
+        SENTENCE_NT'say "The list contains: [my list].[paragraph break]"'
+        SENTENCE_NT'say "My list contains [the number of entries in my list] ent'

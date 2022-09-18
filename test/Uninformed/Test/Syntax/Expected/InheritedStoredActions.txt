@@ -1,0 +1,22 @@
+Read 105 words
+syntax-test: unexpected semicolon in sentence: say "Bill has [the croz of Bill] and Andy has [the croz of Andy]."
+syntax-test: unexpected semicolon in sentence: say "Bill has [the order of Bill] and Andy has [the order of Andy]."
+syntax-test: unexpected semicolon in sentence: now the order of Bill is the action of going up
+syntax-test: unexpected semicolon in sentence: say "Bill has [the order of Bill] and Andy has [the order of Andy]."
+syntax-test: unexpected semicolon in sentence: now the order of Andy is the action of going down
+ROOT_NT
+    HEADING_NT'the voting booth is a room' {heading 0}
+        SENTENCE_NT'the voting booth is a room'
+        SENTENCE_NT'bill is a person , here'
+        SENTENCE_NT'andy is a person , here'
+        SENTENCE_NT'a person has a stored action called order'
+        SENTENCE_NT'the order of a person is usually the action of waiting'
+        SENTENCE_NT'a person has a text called croz'
+        SENTENCE_NT'the croz of a person is usually "Splodgo [number of people].'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Bill has [the croz of Bill] and Andy has [the croz of A'
+        SENTENCE_NT'say "Bill has [the order of Bill] and Andy has [the order of'
+        SENTENCE_NT'now the order of bill is the action of going up'
+        SENTENCE_NT'say "Bill has [the order of Bill] and Andy has [the order of'
+        SENTENCE_NT'now the order of andy is the action of going down'
+        SENTENCE_NT'say "Bill has [the order of Bill] and Andy has [the order of'

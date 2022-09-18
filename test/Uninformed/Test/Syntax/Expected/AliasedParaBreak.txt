@@ -1,0 +1,8 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'frog is a room' {heading 0}
+        SENTENCE_NT'frog is a room'
+        SENTENCE_NT'to say p -- running on'
+        SENTENCE_NT'say paragraph break'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "One.[p]Two.[p]Three.[paragraph break]Four.[p]Five.[p]Si'

@@ -1,0 +1,8 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'taking something is living dangerously'
+        SENTENCE_NT'eating something is sheer rudeness'
+        SENTENCE_NT'examining a vehicle is living dangerously'
+        SENTENCE_NT'test index ( internal ) with bh'

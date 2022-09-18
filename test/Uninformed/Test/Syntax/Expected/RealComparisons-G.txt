@@ -1,0 +1,14 @@
+Read 53 words
+syntax-test: unexpected semicolon in sentence: showme whether or not 1 < 5
+syntax-test: unexpected semicolon in sentence: showme whether or not 0.1 < 5
+syntax-test: unexpected semicolon in sentence: showme whether or not 1 < 0.5
+ROOT_NT
+    HEADING_NT'math lab is a room' {heading 0}
+        SENTENCE_NT'math lab is a room'
+        SENTENCE_NT'"Let's consider some numbers."'
+        SENTENCE_NT'the player is here'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme whether or not 1 < 5'
+        SENTENCE_NT'showme whether or not 0.1 < 5'
+        SENTENCE_NT'showme whether or not 1 < 0.5'
+        SENTENCE_NT'showme whether or not 0.1 < 0.5'

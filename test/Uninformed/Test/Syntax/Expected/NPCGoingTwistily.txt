@@ -1,0 +1,12 @@
+Read 73 words
+ROOT_NT
+    HEADING_NT'the twisted passage is a room' {heading 0}
+        SENTENCE_NT'the twisted passage is a room'
+        SENTENCE_NT'the twisty passage is east of the twisted passage'
+        SENTENCE_NT'the twisted passage is east of the twisty passage'
+        SENTENCE_NT'west of the twisty passage is nowhere'
+        SENTENCE_NT'west of the twisted passage is nowhere'
+        SENTENCE_NT'the thief is in the twisty passage'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'try the thief trying going east'
+        SENTENCE_NT'test me with "wait/g"'

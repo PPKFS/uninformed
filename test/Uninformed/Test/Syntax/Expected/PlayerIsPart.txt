@@ -1,0 +1,12 @@
+Read 73 words
+ROOT_NT
+    HEADING_NT'the cave is a room' {heading 0}
+        SENTENCE_NT'the cave is a room'
+        SENTENCE_NT'the jelly monster is an animal in the cave'
+        SENTENCE_NT'the parasitic cream blob is an animal'
+        SENTENCE_NT'the blob is part of the monster'
+        SENTENCE_NT'instead of going east'
+        SENTENCE_NT'now the player is part of the jelly monster'
+        SENTENCE_NT'instead of going west'
+        SENTENCE_NT'now the player is the blob'
+        SENTENCE_NT'test me with "e / w"'

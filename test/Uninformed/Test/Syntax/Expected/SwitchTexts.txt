@@ -1,0 +1,24 @@
+Read 91 words
+syntax-test: unexpected semicolon in sentence: now test string is "[the action name part of the current action]"
+syntax-test: unexpected semicolon in sentence: say "(test string = '[test string]')"
+syntax-test: unexpected semicolon in sentence: say "'Oh, go jump in a lake!'"
+syntax-test: unexpected semicolon in sentence: say "'Oh, wave off!'"
+ROOT_NT
+    HEADING_NT'someplace is a room' {heading 0}
+        SENTENCE_NT'someplace is a room'
+        SENTENCE_NT'joe is a man in someplace'
+        SENTENCE_NT'the player carries a sign'
+        SENTENCE_NT'test string is a text that varies'
+        SENTENCE_NT'before doing something when joe can see the player'
+        SENTENCE_NT'now test string is "[the action name part of the current act'
+        SENTENCE_NT'say "(test string = '[test string]')"'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'instead of doing something'
+        SENTENCE_NT'if test string is'
+        SENTENCE_NT'-- "jumping"'
+        SENTENCE_NT'say "'Oh, go jump in a lake!'"'
+        SENTENCE_NT'-- "waving"'
+        SENTENCE_NT'say "'Oh, wave off!'"'
+        SENTENCE_NT'-- otherwise'
+        SENTENCE_NT'say "No idea."'
+        SENTENCE_NT'test me with "x sign / give sign to joe / jump / wave sign"'

@@ -1,0 +1,11 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'test room is a room' {heading 0}
+        SENTENCE_NT'test room is a room'
+        SENTENCE_NT'a folding metal chair is a kind of supporter'
+        SENTENCE_NT'"The chair looks only
+        moderately uncomfortable."'
+        SENTENCE_NT'the small chair is a folding metal chair in test room'
+        SENTENCE_NT'"The chair looks
+        painful to sit in."'
+        SENTENCE_NT'the bigger chair is a folding metal chair in test room'

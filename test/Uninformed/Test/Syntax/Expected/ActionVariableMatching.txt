@@ -1,0 +1,18 @@
+Read 101 words
+ROOT_NT
+    HEADING_NT'the cave is a room' {heading 0}
+        SENTENCE_NT'the cave is a room'
+        SENTENCE_NT'a large stone is here'
+        SENTENCE_NT'"There's a very large stone here, in a small
+        clearing."'
+        SENTENCE_NT'the description is "It's a very large rock, with a thin,
+        slo'
+        SENTENCE_NT'the stone is a fixed in place , opaque container'
+        SENTENCE_NT'a bead is in the stone'
+        SENTENCE_NT'an axehead is in the cave'
+        SENTENCE_NT'the taking action has an object called the former position ('
+        SENTENCE_NT'setting action variables for taking'
+        SENTENCE_NT'now the former position is the holder of the noun'
+        SENTENCE_NT'after taking something from the large stone'
+        SENTENCE_NT'say "Done."'
+        SENTENCE_NT'test me with "get all"'

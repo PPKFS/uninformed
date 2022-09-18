@@ -1,0 +1,14 @@
+Read 47 words
+syntax-test: unexpected semicolon in sentence: let X be the absolute value of -5.1
+syntax-test: unexpected semicolon in sentence: say "X is [X]."
+syntax-test: unexpected semicolon in sentence: let F be the abs function
+syntax-test: unexpected semicolon in sentence: let Y be the abs function applied to -5.2
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be the absolute value of -5.1'
+        SENTENCE_NT'say "X is [X]."'
+        SENTENCE_NT'let f be the abs function'
+        SENTENCE_NT'let y be the abs function applied to -5.2'
+        SENTENCE_NT'showme y'

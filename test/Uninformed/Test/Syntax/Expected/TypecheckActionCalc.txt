@@ -1,0 +1,16 @@
+Read 97 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'hanging around until is an action applying to one time'
+        SENTENCE_NT'understand "wait until [time]" as hanging around until'
+        SENTENCE_NT'carry out hanging around until'
+        SENTENCE_NT'now the time of day is the time understood'
+        SENTENCE_NT'report hanging around until'
+        SENTENCE_NT'say "All right. The time is now
+        [time of day]."'
+        SENTENCE_NT'waiting minutes is an action applying to one number'
+        SENTENCE_NT'understand "wait [number] minutes" as waiting minutes'
+        SENTENCE_NT'carry out waiting minutes'
+        SENTENCE_NT'try hanging around until the time of day plus the number und'
+        SENTENCE_NT'test me with "wait 10 minutes / wait 5 minutes"'

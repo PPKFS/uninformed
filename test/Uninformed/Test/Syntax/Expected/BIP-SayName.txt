@@ -1,0 +1,13 @@
+Read 34 words
+syntax-test: unexpected semicolon in sentence: showme Mars
+syntax-test: unexpected semicolon in sentence: say "Look! It's [Mars]. Yes, [the planet Mars]; not just [a Mars]. [The Mars]. [A Mars]? Nope."
+syntax-test: unexpected semicolon in sentence: showme Ceres
+ROOT_NT
+    HEADING_NT'the planet mars is an object' {heading 0}
+        SENTENCE_NT'the planet mars is an object'
+        SENTENCE_NT'the asteroid ceres is an object'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme mars'
+        SENTENCE_NT'say "Look! It's [Mars]. Yes, [the planet Mars]; not just [a '
+        SENTENCE_NT'showme ceres'
+        SENTENCE_NT'say "Look! It's [Ceres]. Yes, [the asteroid Ceres]; not just'

@@ -1,0 +1,13 @@
+Read 60 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to foo ( x - a thing )'
+        SENTENCE_NT'say "Thing."'
+        SENTENCE_NT'to foo ( x - a person )'
+        SENTENCE_NT'say "Person."'
+        SENTENCE_NT'bar is a thing'
+        SENTENCE_NT'jenkins is a man'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with a counter running from one to ten'
+        SENTENCE_NT'foo a random thing'

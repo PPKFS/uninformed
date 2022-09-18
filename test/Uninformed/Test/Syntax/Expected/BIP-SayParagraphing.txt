@@ -1,0 +1,29 @@
+Read 60 words
+syntax-test: unexpected semicolon in sentence: say "This has a[line break]sudden line break.[line break]"
+syntax-test: unexpected semicolon in sentence: say "There's no skipped line above this one.[no line break]"
+syntax-test: unexpected semicolon in sentence: say " And we didn't break a line just then."
+syntax-test: unexpected semicolon in sentence: say "But here's a paragraph break.[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "And here I resume.[run paragraph on]"
+syntax-test: unexpected semicolon in sentence: say "[conditional paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "There wasn't a para break before this line."
+syntax-test: unexpected semicolon in sentence: say "[conditional paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "But there was before this line."
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: showme whether or not a paragraph break is pending
+syntax-test: unexpected semicolon in sentence: say "Now I say something, and "
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "This has a[line break]sudden line break.[line break]"'
+        SENTENCE_NT'say "There's no skipped line above this one.[no line break]"'
+        SENTENCE_NT'say " And we didn't break a line just then."'
+        SENTENCE_NT'say "But here's a paragraph break.[paragraph break]"'
+        SENTENCE_NT'say "And here I resume.[run paragraph on]"'
+        SENTENCE_NT'say "[conditional paragraph break]"'
+        SENTENCE_NT'say "There wasn't a para break before this line."'
+        SENTENCE_NT'say "[conditional paragraph break]"'
+        SENTENCE_NT'say "But there was before this line."'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'showme whether or not a paragraph break is pending'
+        SENTENCE_NT'say "Now I say something, and "'
+        SENTENCE_NT'showme whether or not a paragraph break is pending'

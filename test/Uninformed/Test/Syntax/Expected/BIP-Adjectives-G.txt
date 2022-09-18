@@ -1,0 +1,116 @@
+Read 536 words
+syntax-test: unexpected semicolon in sentence: say "Now testing N = [N]."
+syntax-test: unexpected semicolon in sentence: showme whether or not N is positive
+syntax-test: unexpected semicolon in sentence: showme whether or not N is negative
+syntax-test: unexpected semicolon in sentence: showme whether or not N is even
+syntax-test: unexpected semicolon in sentence: say "Now testing L = [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: showme whether or not L is empty
+syntax-test: unexpected semicolon in sentence: say "Now testing T = [T]."
+syntax-test: unexpected semicolon in sentence: showme whether or not T is empty
+syntax-test: unexpected semicolon in sentence: showme whether or not T is non-empty
+syntax-test: unexpected semicolon in sentence: showme whether or not T is substituted
+syntax-test: unexpected semicolon in sentence: say "Now testing T = [T]."
+syntax-test: unexpected semicolon in sentence: showme whether or not T is empty
+syntax-test: unexpected semicolon in sentence: showme whether or not T is non-empty
+syntax-test: unexpected semicolon in sentence: showme whether or not T is full
+syntax-test: unexpected semicolon in sentence: say "Now testing R = [R]."
+syntax-test: unexpected semicolon in sentence: showme whether or not R is empty
+syntax-test: unexpected semicolon in sentence: say "Now testing U = [U]."
+syntax-test: unexpected semicolon in sentence: showme whether or not U is active
+syntax-test: unexpected semicolon in sentence: say "Now testing V = [V]."
+syntax-test: unexpected semicolon in sentence: showme whether or not V is modal
+syntax-test: unexpected semicolon in sentence: showme whether or not V is non-modal
+syntax-test: unexpected semicolon in sentence: showme whether or not V is meaningful
+syntax-test: unexpected semicolon in sentence: assay -3
+syntax-test: unexpected semicolon in sentence: assay 0
+syntax-test: unexpected semicolon in sentence: assay 4
+syntax-test: unexpected semicolon in sentence: assay 31767
+syntax-test: unexpected semicolon in sentence: assay the text "peach"
+syntax-test: unexpected semicolon in sentence: assay the text ""
+syntax-test: unexpected semicolon in sentence: assay the table Table of Completed Numbers
+syntax-test: unexpected semicolon in sentence: assay the table Table of Selected Numbers
+syntax-test: unexpected semicolon in sentence: assay the table Table of Unselected Numbers
+syntax-test: unexpected semicolon in sentence: assay the list { 1, 2, 3 }
+syntax-test: unexpected semicolon in sentence: let L be a list of numbers
+syntax-test: unexpected semicolon in sentence: assay the list L
+syntax-test: unexpected semicolon in sentence: showme whether or not commenting on activity is going on
+syntax-test: unexpected semicolon in sentence: carry out the commenting on activity with 4
+syntax-test: unexpected semicolon in sentence: showme whether or not inspecting rules are empty
+syntax-test: unexpected semicolon in sentence: assay the rulebook inspecting rules
+syntax-test: unexpected semicolon in sentence: assay the rulebook grading rules
+syntax-test: unexpected semicolon in sentence: assay the option ineffectual option
+syntax-test: unexpected semicolon in sentence: assay the option predictable randomisation option
+syntax-test: unexpected semicolon in sentence: assay the verb the verb might
+syntax-test: unexpected semicolon in sentence: assay the verb the verb prognosticate
+ROOT_NT
+    HEADING_NT'to assay ( n - a number )' {heading 0}
+        SENTENCE_NT'to assay ( n - a number )'
+        SENTENCE_NT'say "Now testing N = [N]."'
+        SENTENCE_NT'showme whether or not n is positive'
+        SENTENCE_NT'showme whether or not n is negative'
+        SENTENCE_NT'showme whether or not n is even'
+        SENTENCE_NT'showme whether or not n is odd'
+        SENTENCE_NT'to assay the list ( l - a list of values of kind k )'
+        SENTENCE_NT'say "Now testing L = [L in brace notation]."'
+        SENTENCE_NT'showme whether or not l is empty'
+        SENTENCE_NT'showme whether or not l is non-empty'
+        SENTENCE_NT'to assay the text ( t - a text )'
+        SENTENCE_NT'say "Now testing T = [T]."'
+        SENTENCE_NT'showme whether or not t is empty'
+        SENTENCE_NT'showme whether or not t is non-empty'
+        SENTENCE_NT'showme whether or not t is substituted'
+        SENTENCE_NT'showme whether or not t is unsubstituted'
+        SENTENCE_NT'to assay the table ( t - a table name )'
+        SENTENCE_NT'say "Now testing T = [T]."'
+        SENTENCE_NT'showme whether or not t is empty'
+        SENTENCE_NT'showme whether or not t is non-empty'
+        SENTENCE_NT'showme whether or not t is full'
+        SENTENCE_NT'showme whether or not t is non-full'
+        SENTENCE_NT'to assay the rulebook ( r - a rulebook )'
+        SENTENCE_NT'say "Now testing R = [R]."'
+        SENTENCE_NT'showme whether or not r is empty'
+        SENTENCE_NT'showme whether or not r is non-empty'
+        SENTENCE_NT'to assay the option ( u - a use option )'
+        SENTENCE_NT'say "Now testing U = [U]."'
+        SENTENCE_NT'showme whether or not u is active'
+        SENTENCE_NT'showme whether or not u is inactive'
+        SENTENCE_NT'to assay the verb ( v - a verb )'
+        SENTENCE_NT'say "Now testing V = [V]."'
+        SENTENCE_NT'showme whether or not v is modal'
+        SENTENCE_NT'showme whether or not v is non-modal'
+        SENTENCE_NT'showme whether or not v is meaningful'
+        SENTENCE_NT'showme whether or not v is meaningless'
+        SENTENCE_NT'commenting on something is an activity on numbers'
+        SENTENCE_NT'rule for commenting on an even number'
+        SENTENCE_NT'showme whether or not commenting on activity is going on'
+        SENTENCE_NT'table of completed numbers numeric alphabetic 4 "four" 3 "th'
+        SENTENCE_NT'table of selected numbers numeric alphabetic 4 "four" 3 "thr'
+        SENTENCE_NT'table of unselected numbers numeric alphabetic with 4 blank '
+        SENTENCE_NT'inspecting is a rulebook'
+        SENTENCE_NT'grading is a rulebook'
+        SENTENCE_NT'grading'
+        SENTENCE_NT'say "No!" instead'
+        SENTENCE_NT'to prognosticate is a verb'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'assay -3'
+        SENTENCE_NT'assay 0'
+        SENTENCE_NT'assay 4'
+        SENTENCE_NT'assay 31767'
+        SENTENCE_NT'assay the text "peach"'
+        SENTENCE_NT'assay the text ""'
+        SENTENCE_NT'assay the table table of completed numbers'
+        SENTENCE_NT'assay the table table of selected numbers'
+        SENTENCE_NT'assay the table table of unselected numbers'
+        SENTENCE_NT'assay the list { 1 , 2 , 3 }'
+        SENTENCE_NT'let l be a list of numbers'
+        SENTENCE_NT'assay the list l'
+        SENTENCE_NT'showme whether or not commenting on activity is going on'
+        SENTENCE_NT'carry out the commenting on activity with 4'
+        SENTENCE_NT'showme whether or not inspecting rules are empty'
+        SENTENCE_NT'assay the rulebook inspecting rules'
+        SENTENCE_NT'assay the rulebook grading rules'
+        SENTENCE_NT'assay the option ineffectual option'
+        SENTENCE_NT'assay the option predictable randomisation option'
+        SENTENCE_NT'assay the verb the verb might'
+        SENTENCE_NT'assay the verb the verb prognosticate'
+        SENTENCE_NT'assay the verb the verb have'

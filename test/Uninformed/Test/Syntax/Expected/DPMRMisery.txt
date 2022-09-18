@@ -1,0 +1,22 @@
+Read 120 words
+syntax-test: unexpected semicolon in sentence: say "n=[noun] s=[second noun]."
+syntax-test: unexpected semicolon in sentence: foo bar
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'a red apple is in the kitchen'
+        SENTENCE_NT'a red tomato is in the kitchen'
+        SENTENCE_NT'the microwave oven is an open , unopenable container , in th'
+        SENTENCE_NT'the brick oven is an open , unopenable container , in the ki'
+        SENTENCE_NT'does the player mean inserting the apple into something'
+        SENTENCE_NT'it is likely'
+        SENTENCE_NT'does the player mean inserting something into the brick oven'
+        SENTENCE_NT'it is likely'
+        SENTENCE_NT'understand "put [things preferably held] aside/elsewhere" as'
+        SENTENCE_NT'to foo bar'
+        SENTENCE_NT'(-  DB_Action_Details(action, noun, second); print "^"; '
+        SENTENCE_NT'first does the player mean rule'
+        SENTENCE_NT'say "n=[noun] s=[second noun]."'
+        SENTENCE_NT'foo bar'
+        SENTENCE_NT'make no decision'
+        SENTENCE_NT'test me with "get apple and tomato / trace 2 / put red in mi'

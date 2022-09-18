@@ -1,0 +1,19 @@
+Read 94 words
+syntax-test: unexpected semicolon in sentence: let whoIsIt be a random man
+syntax-test: unexpected semicolon in sentence: showme whoIsIt
+syntax-test: unexpected semicolon in sentence: let tempActivity be indexed text
+syntax-test: unexpected semicolon in sentence: now tempActivity is "going"
+syntax-test: unexpected semicolon in sentence: now the activity corresponding to a who of whoIsIt in the Table of NPC Activity is tempActivity
+ROOT_NT
+    HEADING_NT'paul , john , ringo , and george are men' {heading 0}
+        SENTENCE_NT'paul , john , ringo , and george are men'
+        SENTENCE_NT'table of npc activity who activity ( text ) paul "silly" joh'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let whoisit be a random man'
+        SENTENCE_NT'showme whoisit'
+        SENTENCE_NT'let tempactivity be indexed text'
+        SENTENCE_NT'now tempactivity is "going"'
+        SENTENCE_NT'now the activity corresponding to a who of whoisit in the ta'
+        SENTENCE_NT'repeat through the table of npc activity'
+        SENTENCE_NT'say "[who entry] gets [activity entry]."'
+        SENTENCE_NT'there is room'

@@ -1,0 +1,12 @@
+Read 61 words
+ROOT_NT
+    HEADING_NT'the formless void is a room' {heading 0}
+        SENTENCE_NT'the formless void is a room'
+        SENTENCE_NT'"This is where I do dangerous coding."'
+        SENTENCE_NT'a height is a kind of value'
+        SENTENCE_NT'5'11" specifies a height'
+        SENTENCE_NT'every room has a height called ceiling height'
+        SENTENCE_NT'the ceiling height of the formless void is 28'6"'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'say "You jump to the maximum safe height of [ceiling height '
+        SENTENCE_NT'test me with "jump"'

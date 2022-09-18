@@ -1,0 +1,28 @@
+Read 206 words
+syntax-test: unexpected semicolon in sentence: showme the list of fooey things
+syntax-test: unexpected semicolon in sentence: showme the list of ducky people
+ROOT_NT
+    HEADING_NT'schoolyard is a room' {heading 0}
+        SENTENCE_NT'schoolyard is a room'
+        SENTENCE_NT'a person has text called the animal type'
+        SENTENCE_NT'the animal type of a person is usually "duck"'
+        SENTENCE_NT'a person has a number called the animal count'
+        SENTENCE_NT'stan , kyle , eric , and kenny are people in schoolyard'
+        SENTENCE_NT'the animal type of kenny is "goose"'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a person is nifty if its animal count is 25 or more'
+        SENTENCE_NT'the animal count of eric is 24'
+        SENTENCE_NT'the animal count of kenny is 25'
+        SENTENCE_NT'the animal count of stan is 26'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a person is ducky if its animal type is "duck"'
+        SENTENCE_NT'a thing has a list of numbers called the foo'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is fooey if its foo is { 28 , 34 }'
+        SENTENCE_NT'the foo of kenny is { 28 , 34 }'
+        SENTENCE_NT'after printing the name of someone ducky , say " (duck)"'
+        SENTENCE_NT'after printing the name of someone not ducky , say " (goose)'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the list of fooey things'
+        SENTENCE_NT'showme the list of ducky people'
+        SENTENCE_NT'showme the list of nifty people'

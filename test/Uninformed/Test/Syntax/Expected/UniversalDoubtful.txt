@@ -1,0 +1,12 @@
+Read 75 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'susan and elizabeth are women in the home'
+        SENTENCE_NT'a pot plant is in the home'
+        SENTENCE_NT'acquaintance relates various people to each other'
+        SENTENCE_NT'instead of examining a person when the acquaintance relation'
+        SENTENCE_NT'say "An acquaintance of yours."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the acquaintance relation relates the player to susan'
+        SENTENCE_NT'test me with "x susan / x elizabeth / x me / x plant"'

@@ -1,0 +1,22 @@
+Read 127 words
+syntax-test: unexpected semicolon in sentence: say "Viable directions: [list of viable directions]."
+syntax-test: unexpected semicolon in sentence: say "Viable rooms: [the list of viable rooms]."
+ROOT_NT
+    HEADING_NT'the sooty room is a room' {heading 0}
+        SENTENCE_NT'the sooty room is a room'
+        SENTENCE_NT'east of the sooty room is the china room'
+        SENTENCE_NT'the box is in the china room'
+        SENTENCE_NT'in the box is a doll'
+        SENTENCE_NT'the crate is in the sooty room'
+        SENTENCE_NT'the crate is a container'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a direction ( called thataway ) is viable if the room thataw'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a room ( called venue ) is viable if the venue is lighted'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a container ( called the receptacle ) is viable if something'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Viable directions: [list of viable directions]."'
+        SENTENCE_NT'say "Viable rooms: [the list of viable rooms]."'
+        SENTENCE_NT'say "Viable things: [the list of viable things]."'
+        SENTENCE_NT'test me with "look"'

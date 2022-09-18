@@ -1,0 +1,17 @@
+Read 175 words
+syntax-test: unexpected semicolon in sentence: let L be { 26199, -16765, -14760, -14253, -7925, -406, 1287, 9165, 10822, 10822, 16644, 21193, 22688, 24357, 24930, 30329, 31363, -32192, -31033, -24114, -13685, 23718, -22206, 10033, 11093, 31653, -31931, -30725, -27122, -25693, -24571, -24571, -24005, -23593, -23356, -21766, -21047, -18126, -18111, -16263, -16263, -16263, -16263, -16263, -16263, -16263, -16263, -14760, -7902, -5927, -2365, -2365, -1919, -1020, -380, 3650, 4230, 7412, 7502, 10822, 11095, 21773, 26106, -31346, -26954, -14437 }
+syntax-test: unexpected semicolon in sentence: say "[L]."
+syntax-test: unexpected semicolon in sentence: sort L
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]sort: [L]."
+syntax-test: unexpected semicolon in sentence: sort L in reverse order
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be { 26199 , -16765 , -14760 , -14253 , -7925 , -406 ,'
+        SENTENCE_NT'say "[L]."'
+        SENTENCE_NT'sort l'
+        SENTENCE_NT'say "[paragraph break]sort: [L]."'
+        SENTENCE_NT'sort l in reverse order'
+        SENTENCE_NT'say "[paragraph break]rsort: [L]."'
+        SENTENCE_NT'test is a room'

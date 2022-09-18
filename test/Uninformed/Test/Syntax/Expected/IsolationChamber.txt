@@ -1,0 +1,7 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'treatment lab is a room' {heading 0}
+        SENTENCE_NT'treatment lab is a room'
+        SENTENCE_NT'the isolation chamber is a closed , openable , enterable con'
+        SENTENCE_NT'the player is in the isolation chamber'
+        SENTENCE_NT'test me with "actions / listen / smell / open chamber / exit'

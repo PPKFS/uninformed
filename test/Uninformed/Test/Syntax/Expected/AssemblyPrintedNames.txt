@@ -1,0 +1,12 @@
+Read 81 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'an oak tree is a kind of thing'
+        SENTENCE_NT'understand "oak/tree" as an oak tree'
+        SENTENCE_NT'an oak tree is always fixed in place'
+        SENTENCE_NT'some oak leaves are a kind of thing'
+        SENTENCE_NT'some oak leaves are part of every oak tree'
+        SENTENCE_NT'the printed name of an oak tree is usually "a mighty oak"'
+        SENTENCE_NT'oak1 is an oak tree in stage'
+        SENTENCE_NT'test me with "x tree / x leaves"'

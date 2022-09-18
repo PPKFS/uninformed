@@ -1,0 +1,17 @@
+Read 105 words
+ROOT_NT
+    HEADING_NT'the reliquary is a room' {heading 0}
+        SENTENCE_NT'the reliquary is a room'
+        SENTENCE_NT'the wooden door is a door'
+        SENTENCE_NT'the wooden door is inside from the reliquary and outside fro'
+        SENTENCE_NT'the ghost is a person in the reliquary'
+        SENTENCE_NT'instead of going north'
+        SENTENCE_NT'try the ghost closing the wooden door'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "The ghost can[if the ghost cannot touch the wooden door'
+        SENTENCE_NT'the handle is part of the wooden door'
+        SENTENCE_NT'instead of an actor turning the handle'
+        SENTENCE_NT'try the person asked opening the wooden door'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'try the ghost turning the handle'
+        SENTENCE_NT'test me with "actions/z/in/n/jump"'

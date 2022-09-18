@@ -1,0 +1,17 @@
+Read 98 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'a theme is a kind of thing'
+        SENTENCE_NT'love is a theme'
+        SENTENCE_NT'loss is a theme'
+        SENTENCE_NT'lust is a theme'
+        SENTENCE_NT'suggesting relates various themes to each other with fast ro'
+        SENTENCE_NT'the verb to suggest ( he suggests , they suggest , he sugges'
+        SENTENCE_NT'love suggests loss'
+        SENTENCE_NT'loss suggests love'
+        SENTENCE_NT'loss suggests lust'
+        SENTENCE_NT'lust suggests loss'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "[The next step via the suggesting relation from Love to'
+        SENTENCE_NT'test me with "z"'

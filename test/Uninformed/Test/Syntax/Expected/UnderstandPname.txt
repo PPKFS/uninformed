@@ -1,0 +1,10 @@
+Read 59 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the box is a container which is carried by the player'
+        SENTENCE_NT'it is openable and closed'
+        SENTENCE_NT'understand the open property as referring to the box'
+        SENTENCE_NT'understand "opened" as open'
+        SENTENCE_NT'understand "shut/sealed" or "tightly sealed" as closed'
+        SENTENCE_NT'test me with "x open box/x closed box/x shut box/x sealed bo'

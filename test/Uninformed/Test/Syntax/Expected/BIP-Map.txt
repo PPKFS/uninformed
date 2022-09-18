@@ -1,0 +1,56 @@
+Read 534 words
+syntax-test: unexpected semicolon in sentence: replace the regular expression "<aeiou>" in T with "", case insensitively
+syntax-test: unexpected semicolon in sentence: if N > M, decide on N
+syntax-test: unexpected semicolon in sentence: showme joint magnitude relation
+syntax-test: unexpected semicolon in sentence: showme txtng
+syntax-test: unexpected semicolon in sentence: showme maximizing
+syntax-test: unexpected semicolon in sentence: showme doubling applied to 2
+syntax-test: unexpected semicolon in sentence: showme txtng applied to spelling out applied to doubling applied to { 3, 8, 4, 19, 7 }
+syntax-test: unexpected semicolon in sentence: showme the maximizing reduction of { 3, 8, 4, 19, 7 }
+syntax-test: unexpected semicolon in sentence: showme the filter to even numbers of { 3, 8, 4, 19, 7 }
+syntax-test: unexpected semicolon in sentence: showme the maximizing reduction of { -3, -8, -4, -19, -7 }
+syntax-test: unexpected semicolon in sentence: showme the summing reduction of { 3, 8, 4, 19, 7 }
+syntax-test: unexpected semicolon in sentence: showme the concatenation reduction of spelling out applied to { 3, 8, 4, 19, 7 }
+syntax-test: unexpected semicolon in sentence: showme the filter to lengthy texts of spelling out applied to { 3, 8, 4, 19, 7 }
+syntax-test: unexpected semicolon in sentence: showme filter to lengthy texts of spelling out applied to { 15, 2, 20, 29, -4 }
+ROOT_NT
+    HEADING_NT'colour is a kind of value' {heading 0}
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , indigo and chartreuse'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'5kg specifies a weight'
+        SENTENCE_NT'to decide what number is double ( n - a number ) ( this is d'
+        SENTENCE_NT'decide on n plus n'
+        SENTENCE_NT'to decide what number is the square of ( n - a number ) ( th'
+        SENTENCE_NT'decide on n times n'
+        SENTENCE_NT'to decide what text is the longhand form of ( n - a number )'
+        SENTENCE_NT'decide on "[N in words]"'
+        SENTENCE_NT'to decide what text is the consonant form of ( t - text ) ( '
+        SENTENCE_NT'replace the regular expression "<aeiou>" in t with "" , case'
+        SENTENCE_NT'decide on t'
+        SENTENCE_NT'to decide what number is the larger of ( n - number ) and ( '
+        SENTENCE_NT'if n > m , decide on n'
+        SENTENCE_NT'decide on m'
+        SENTENCE_NT'to decide what number is the sum of ( n - number ) and ( m -'
+        SENTENCE_NT'decide on n + m'
+        SENTENCE_NT'to decide what text is the concatenation of ( x - text ) and'
+        SENTENCE_NT'decide on "[X][Y]"'
+        SENTENCE_NT'joint magnitude relates a number ( called n ) to a number ( '
+        SENTENCE_NT'definition'
+        SENTENCE_NT'an text ( called t ) is lengthy if the number of characters '
+        SENTENCE_NT'to decide which number is the length of ( t - an text ) ( th'
+        SENTENCE_NT'decide on the number of characters in t'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme joint magnitude relation'
+        SENTENCE_NT'showme txtng'
+        SENTENCE_NT'showme maximizing'
+        SENTENCE_NT'showme doubling applied to 2'
+        SENTENCE_NT'showme txtng applied to spelling out applied to doubling app'
+        SENTENCE_NT'showme the maximizing reduction of { 3 , 8 , 4 , 19 , 7 }'
+        SENTENCE_NT'showme the filter to even numbers of { 3 , 8 , 4 , 19 , 7 }'
+        SENTENCE_NT'showme the maximizing reduction of { -3 , -8 , -4 , -19 , -7'
+        SENTENCE_NT'showme the summing reduction of { 3 , 8 , 4 , 19 , 7 }'
+        SENTENCE_NT'showme the concatenation reduction of spelling out applied t'
+        SENTENCE_NT'showme the filter to lengthy texts of spelling out applied t'
+        SENTENCE_NT'showme filter to lengthy texts of spelling out applied to { '
+        SENTENCE_NT'showme the filter to negative numbers of { -2 , -1 , 0 , 1 ,'

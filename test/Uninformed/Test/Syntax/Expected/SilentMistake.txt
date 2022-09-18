@@ -1,0 +1,6 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'understand "thact" as a mistake'
+        SENTENCE_NT'test me with "thact"'

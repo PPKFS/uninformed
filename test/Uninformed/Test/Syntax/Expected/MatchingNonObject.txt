@@ -1,0 +1,13 @@
+Read 79 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'testing is an action applying to nothing'
+        SENTENCE_NT'the testing action has a thing called the test thing ( match'
+        SENTENCE_NT'the testing action has a number called the test number ( mat'
+        SENTENCE_NT'carry out testing thing the player'
+        SENTENCE_NT'say "Testing the thing"'
+        SENTENCE_NT'carry out testing number 0'
+        SENTENCE_NT'say "Testing the number"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'try testing'

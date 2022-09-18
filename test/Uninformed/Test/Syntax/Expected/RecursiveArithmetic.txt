@@ -1,0 +1,21 @@
+Read 117 words
+syntax-test: unexpected semicolon in sentence: let x be fib of (n - 1)
+syntax-test: unexpected semicolon in sentence: let y be fib of (n - 2)
+syntax-test: unexpected semicolon in sentence: let n be the number understood
+ROOT_NT
+    HEADING_NT'to decide which number is fib of ( n - 0 )' {heading 0}
+        SENTENCE_NT'to decide which number is fib of ( n - 0 )'
+        SENTENCE_NT'decide on 0'
+        SENTENCE_NT'to decide which number is fib of ( n - 1 )'
+        SENTENCE_NT'decide on 1'
+        SENTENCE_NT'to decide which number is fib of ( n - number )'
+        SENTENCE_NT'let x be fib of ( n - 1 )'
+        SENTENCE_NT'let y be fib of ( n - 2 )'
+        SENTENCE_NT'decide on x + y'
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'understand "fib [number]" as fibbing'
+        SENTENCE_NT'fibbing is an action applying to one number'
+        SENTENCE_NT'report fibbing'
+        SENTENCE_NT'let n be the number understood'
+        SENTENCE_NT'say "Fib [n] is [fib of n]."'
+        SENTENCE_NT'test me with "fib 0 / fib 1 / fib 2 / fib 3 / fib 4 / fib 5 '

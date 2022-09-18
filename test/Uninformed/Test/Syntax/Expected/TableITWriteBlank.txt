@@ -1,0 +1,12 @@
+Read 56 words
+syntax-test: unexpected semicolon in sentence: choose a blank row in Table of Foo
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'table of foo message an text with 5 blank rows'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'choose a blank row in table of foo'
+        SENTENCE_NT'now the message entry is "hello world"'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'repeat through the table of foo'
+        SENTENCE_NT'say "Foo says this: [message entry]."'

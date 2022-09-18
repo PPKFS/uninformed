@@ -1,0 +1,159 @@
+Read 1000 words
+syntax-test: unexpected semicolon in sentence: now the score is the score + 10
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is 100 - the score
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the score * 21
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the score / 3
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the score divided by 7
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the score times 2
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the score multiplied by 2
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the score plus 2
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the remainder after dividing the score by 10
+syntax-test: unexpected semicolon in sentence: report the current score
+syntax-test: unexpected semicolon in sentence: now the score is the score minus 2
+syntax-test: unexpected semicolon in sentence: say "Your score is now [the score][if the score is less than 10]. That's not so great[end if][if the score < 2]. In fact, it's pathetic[end if][if the score > 20]. Well, could be worse[end if][if the score is greater than 100]. A lot worse[end if][if the score is 0]. Nice work, sparky[end if]."
+syntax-test: unexpected semicolon in sentence: if the score is at least 300, say "You'll be famous soon!"
+syntax-test: unexpected semicolon in sentence: if the score is at most 10, say "Your mom would be really disappointed."
+syntax-test: unexpected semicolon in sentence: if the score <= 360, say "360 is kind of a break-even point here."
+syntax-test: unexpected semicolon in sentence: if the score >= 360, say "Good thing you're at or above 360."
+syntax-test: unexpected semicolon in sentence: now the player is carrying the noun
+syntax-test: unexpected semicolon in sentence: now the player is carrying the noun
+syntax-test: unexpected semicolon in sentence: let available amount be the weight of the second noun
+syntax-test: unexpected semicolon in sentence: let total be the unit price of the second noun times the weight understood
+ROOT_NT
+    HEADING_NT'"Chapter 14: Market" by emily short' {heading 0}
+        SENTENCE_NT'"Chapter 14: Market" by emily short'
+        HEADING_NT'chapter 14 - units' {heading 1}
+            SENTENCE_NT'use command line echoing'
+            SENTENCE_NT'use scoring'
+            SENTENCE_NT'the market is a room'
+            HEADING_NT'section 2 - numbers' {heading 2}
+                SENTENCE_NT'when play begins'
+                SENTENCE_NT'now the score is the score + 10'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is 100 - the score'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the score * 21'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the score / 3'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the score divided by 7'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the score times 2'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the score multiplied by 2'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the score plus 2'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the remainder after dividing the score by 1'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'now the score is the score minus 2'
+                SENTENCE_NT'report the current score'
+                SENTENCE_NT'to report the current score'
+                SENTENCE_NT'say "Your score is now [the score][if the score is less than'
+                SENTENCE_NT'if the score is at least 300 , say "You'll be famous soon!"'
+                SENTENCE_NT'if the score is at most 10 , say "Your mom would be really d'
+                SENTENCE_NT'if the score <= 360 , say "360 is kind of a break-even point'
+                SENTENCE_NT'if the score >= 360 , say "Good thing you're at or above 360'
+                SENTENCE_NT'say "[paragraph break]"'
+                SENTENCE_NT'a unit price is a kind of value'
+                SENTENCE_NT'$1.99 per oz specifies a unit price'
+                SENTENCE_NT'a weight is a kind of value'
+                SENTENCE_NT'2lb 15oz specifies a weight with parts pounds and ounces ( o'
+                SENTENCE_NT'a cost is a kind of value'
+                SENTENCE_NT'$1.99 specifies a cost with parts dollars and cents ( option'
+                SENTENCE_NT'a unit price times a weight specifies a cost'
+            HEADING_NT'section 3 - whereabouts on a scale ?' {heading 2}
+                SENTENCE_NT'a spice is a kind of thing'
+                SENTENCE_NT'a spice has a unit price'
+                SENTENCE_NT'a spice has a weight'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a spice is heavy if its weight is 3lb 00oz or more'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a spice is light if its weight is 0lb 5oz or less'
+                SENTENCE_NT'some saffron is a spice in the market'
+                SENTENCE_NT'saffron has weight 0lb 5oz'
+                SENTENCE_NT'saffron has unit price $35.95 per oz'
+                SENTENCE_NT'some oregano is a spice in the market'
+                SENTENCE_NT'oregano has weight 3lb 1oz'
+                SENTENCE_NT'oregano has unit price $5.50 per oz'
+                SENTENCE_NT'some cayenne pepper is a spice in the market'
+                SENTENCE_NT'cayenne pepper has weight 0lb 3oz'
+                SENTENCE_NT'cayenne pepper has unit price $2.00 per oz'
+            HEADING_NT'section 4 - comparing objects' {heading 2}
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a spice is costly if its unit price is $10.00 per oz or more'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a spice is moderate if its unit price is $8.75 per oz'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a spice is cheap if its unit price is $7.00 per oz or less'
+                SENTENCE_NT'some rosemary is a cheap spice in the market'
+                SENTENCE_NT'rosemary has weight 0lb 3oz'
+            HEADING_NT'section 5 - superlatives' {heading 2}
+                SENTENCE_NT'definition'
+                SENTENCE_NT'something is unowned if the player does not have it'
+                SENTENCE_NT'instead of taking a spice which is in the market'
+                SENTENCE_NT'say "You have to buy things here."'
+                SENTENCE_NT'instead of buying a costly spice'
+                SENTENCE_NT'say "Wouldn't you prefer some [cheapest unowned spice]?"'
+                SENTENCE_NT'instead of buying the cheapest spice which is in the market'
+                SENTENCE_NT'now the player is carrying the noun'
+                SENTENCE_NT'say "Good choice!"'
+                SENTENCE_NT'instead of buying a spice'
+                SENTENCE_NT'now the player is carrying the noun'
+                SENTENCE_NT'say "Done."'
+                SENTENCE_NT'instead of dropping the costliest spice carried by the playe'
+                SENTENCE_NT'say "Hey! You paid good money for that!"'
+                SENTENCE_NT'before dropping a spice when the weight of the noun is the w'
+                SENTENCE_NT'say "Yeah, [the noun] is getting heavy..."'
+            HEADING_NT'section 6 - units' {heading 2}
+            HEADING_NT'section 7 - more on specifications' {heading 2}
+                SENTENCE_NT'2 pounds 15 ounces specifies a weight'
+                SENTENCE_NT'2 lb 15 oz specifies a weight'
+                SENTENCE_NT'some fennel is a spice in the market'
+                SENTENCE_NT'fennel has weight 0lb 5oz'
+                SENTENCE_NT'fennel has unit price $8.35 per oz'
+            HEADING_NT'section 8 - multiple-number specifications' {heading 2}
+            HEADING_NT'section 9 - the parts of a number specification' {heading 2}
+            HEADING_NT'section 10 - understanding specified numbers' {heading 2}
+                SENTENCE_NT'understand "price [weight] of [something]" as estimating'
+                SENTENCE_NT'estimating is an action applying to one weight and one visib'
+                SENTENCE_NT'check estimating'
+                SENTENCE_NT'let available amount be the weight of the second noun'
+                SENTENCE_NT'if the weight understood is greater than the available amoun'
+                SENTENCE_NT'carry out estimating'
+                SENTENCE_NT'let total be the unit price of the second noun times the wei'
+                SENTENCE_NT'say "[weight understood] of [the second noun] at [unit price'
+                SENTENCE_NT'understand "pay [cost]" as paying'
+                SENTENCE_NT'paying is an action applying to a cost'
+                SENTENCE_NT'report paying'
+                SENTENCE_NT'say "You fork over [the cost understood]."'
+            HEADING_NT'section 12 - arithmetic with units' {heading 2}
+                SENTENCE_NT'instead of examining a spice'
+                SENTENCE_NT'say "[The noun] weighs [weight] and costs [unit price], or ['
+                SENTENCE_NT'instead of smelling a spice'
+                SENTENCE_NT'say "It smells like something that costs [weight  times unit'
+            HEADING_NT'section 13 - multiplication of units' {heading 2}
+            HEADING_NT'section 14 - totals' {heading 2}
+                SENTENCE_NT'before taking inventory when something is carried by the pla'
+                SENTENCE_NT'say "You are carrying [the total weight of spices carried by'
+                SENTENCE_NT'after printing the name of a heavy spice'
+                SENTENCE_NT'say " (a generous quantity)"'
+                SENTENCE_NT'after printing the name of a costly spice'
+                SENTENCE_NT'say " (quite valuable)"'
+            HEADING_NT'section 15 - making the verb "to weigh"' {heading 2}
+                SENTENCE_NT'the verb to weigh ( it weighs , they weigh , it is weighing '
+                SENTENCE_NT'some green tea is a spice in the market'
+                SENTENCE_NT'it has unit price $8.75 per oz'
+                SENTENCE_NT'it weighs 0lb 10oz'
+                SENTENCE_NT'the verb to cost ( it costs , they cost , it is costing ) im'
+                SENTENCE_NT'some chicory is a spice in the market'
+                SENTENCE_NT'chicory weighs 0lb 4oz'
+                SENTENCE_NT'it costs $1.99 per oz'

@@ -1,0 +1,12 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'a behavior is a kind of value' {heading 0}
+        SENTENCE_NT'a behavior is a kind of value'
+        SENTENCE_NT'a behavior has a number called stuff'
+        SENTENCE_NT'aimless is a behavior with stuff 6'
+        SENTENCE_NT'happy is a behavior with stuff 2'
+        SENTENCE_NT'sad is a behavior'
+        SENTENCE_NT'the place is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with b running through behaviors'
+        SENTENCE_NT'say "[B] has [stuff of B]."'

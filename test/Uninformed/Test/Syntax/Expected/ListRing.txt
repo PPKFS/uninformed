@@ -1,0 +1,27 @@
+Read 205 words
+syntax-test: unexpected semicolon in sentence: now all the luggage items are in the carousel
+syntax-test: unexpected semicolon in sentence: rotate the circle of misery
+syntax-test: unexpected semicolon in sentence: let the bag be entry 1 of the circle of misery
+syntax-test: unexpected semicolon in sentence: remove the bag from the circle of misery, if present
+ROOT_NT
+    HEADING_NT'luggage item is a kind of thing' {heading 0}
+        SENTENCE_NT'luggage item is a kind of thing'
+        SENTENCE_NT'the blue golf bag , the leopardskin suitcase , the green ruc'
+        SENTENCE_NT'heathrow baggage claim is a room'
+        SENTENCE_NT'the carousel is a container in heathrow'
+        SENTENCE_NT'"The luggage carousel, a scaly rubbered ring, does for the r'
+        SENTENCE_NT'the circle of misery is a list of objects that varies'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now all the luggage items are in the carousel'
+        SENTENCE_NT'add the list of luggage items to the circle of misery'
+        SENTENCE_NT'every turn when the number of entries in the circle of miser'
+        SENTENCE_NT'rotate the circle of misery'
+        SENTENCE_NT'let the bag be entry 1 of the circle of misery'
+        SENTENCE_NT'say "The carousel trundles on, bringing [a bag] to within re'
+        SENTENCE_NT'after taking a luggage item ( called the bag )'
+        SENTENCE_NT'remove the bag from the circle of misery , if present'
+        SENTENCE_NT'say "Taken."'
+        SENTENCE_NT'before doing something with a luggage item ( called the bag '
+        SENTENCE_NT'if the bag is not entry 1 of the circle of misery , say "[Th'
+        SENTENCE_NT'instead of inserting something into the carousel , say "In r'
+        SENTENCE_NT'test me with "get suitcase / get suitcase / get suitcase / g'

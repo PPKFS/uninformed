@@ -1,0 +1,19 @@
+Read 92 words
+ROOT_NT
+    HEADING_NT'the trampolinium is a room' {heading 0}
+        SENTENCE_NT'the trampolinium is a room'
+        SENTENCE_NT'before jumping'
+        SENTENCE_NT'say "Before jumping."'
+        SENTENCE_NT'before jumping for the third time'
+        SENTENCE_NT'say "Before jumping for the third time."'
+        SENTENCE_NT'before jumping for the second to third time'
+        SENTENCE_NT'say "Before jumping for the second to third time."'
+        SENTENCE_NT'before jumping for at most the second time'
+        SENTENCE_NT'say "Before jumping for at most the second time."'
+        SENTENCE_NT'before jumping for more than the second time'
+        SENTENCE_NT'say "Before jumping for more than the second time."'
+        SENTENCE_NT'before jumping for less than the third time'
+        SENTENCE_NT'say "Before jumping for less than the third time."'
+        SENTENCE_NT'before jumping for at least the third time'
+        SENTENCE_NT'say "Before jumping for at least the third time."'
+        SENTENCE_NT'test me with "jump / jump / jump / jump"'

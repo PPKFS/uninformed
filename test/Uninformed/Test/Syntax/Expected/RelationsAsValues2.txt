@@ -1,0 +1,46 @@
+Read 195 words
+syntax-test: unexpected semicolon in sentence: say "First."
+syntax-test: unexpected semicolon in sentence: show relation gadget
+syntax-test: unexpected semicolon in sentence: now the gadget relates the raincoat to the umbrella
+syntax-test: unexpected semicolon in sentence: say "Second."
+syntax-test: unexpected semicolon in sentence: let X be a relation of things to things
+syntax-test: unexpected semicolon in sentence: now the gadget is x
+syntax-test: unexpected semicolon in sentence: now the gadget relates yourself to the umbrella
+syntax-test: unexpected semicolon in sentence: show relation gadget
+syntax-test: unexpected semicolon in sentence: say "Third."
+syntax-test: unexpected semicolon in sentence: now the association of X relates X to the raincoat
+syntax-test: unexpected semicolon in sentence: say "Fourth."
+syntax-test: unexpected semicolon in sentence: show relation gadget
+syntax-test: unexpected semicolon in sentence: say "For [X]: "
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'the umbrella is here'
+        SENTENCE_NT'the raincoat is here'
+        SENTENCE_NT'a woman called susie is here'
+        SENTENCE_NT'the gadget is a relation of things to things that varies'
+        SENTENCE_NT'the metagadget is a list of numbers that varies'
+        SENTENCE_NT'a person has a relation of things to things called the assoc'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "First."'
+        SENTENCE_NT'show relation gadget'
+        SENTENCE_NT'now the gadget relates the raincoat to the umbrella'
+        SENTENCE_NT'show relation gadget'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Second."'
+        SENTENCE_NT'let x be a relation of things to things'
+        SENTENCE_NT'now the gadget is x'
+        SENTENCE_NT'now the gadget relates yourself to the umbrella'
+        SENTENCE_NT'show relation gadget'
+        SENTENCE_NT'showme the thing that relates to the umbrella by the gadget'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Third."'
+        SENTENCE_NT'repeat with x running through people'
+        SENTENCE_NT'now the association of x relates x to the raincoat'
+        SENTENCE_NT'say "For [X], [X] ~ raincoat."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Fourth."'
+        SENTENCE_NT'show relation gadget'
+        SENTENCE_NT'repeat with x running through people'
+        SENTENCE_NT'say "For [X]: "'
+        SENTENCE_NT'show relation association of x'

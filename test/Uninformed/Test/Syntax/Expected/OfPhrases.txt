@@ -1,0 +1,11 @@
+Read 72 words
+syntax-test: unexpected semicolon in sentence: now currently shown picture is the room illustration of the location
+ROOT_NT
+    HEADING_NT'nirvana is a room' {heading 0}
+        SENTENCE_NT'nirvana is a room'
+        SENTENCE_NT'the currently shown picture is a figure-name that varies'
+        SENTENCE_NT'a room has a figure-name called room illustration'
+        SENTENCE_NT'the image-setting rule is listed in the carry out looking ru'
+        SENTENCE_NT'this is the image-setting rule'
+        SENTENCE_NT'now currently shown picture is the room illustration of the '
+        SENTENCE_NT'increase the carrying capacity of the player by 1'

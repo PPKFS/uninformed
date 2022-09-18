@@ -1,0 +1,17 @@
+Read 82 words
+syntax-test: unexpected semicolon in sentence: showme the location
+syntax-test: unexpected semicolon in sentence: try Bob going north
+ROOT_NT
+    HEADING_NT'southwest corner is a room' {heading 0}
+        SENTENCE_NT'southwest corner is a room'
+        SENTENCE_NT'northwest corner is north of southwest corner'
+        SENTENCE_NT'the truck is a vehicle in southwest corner'
+        SENTENCE_NT'bob is a man in truck'
+        SENTENCE_NT'the player is in truck'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'showme the location'
+        SENTENCE_NT'if location of bob is southwest corner'
+        SENTENCE_NT'try bob going north'
+        SENTENCE_NT'otherwise if location of bob is northwest corner'
+        SENTENCE_NT'try bob going south'
+        SENTENCE_NT'test me with "wait / wait"'

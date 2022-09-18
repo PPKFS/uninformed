@@ -1,0 +1,85 @@
+Read 257 words
+syntax-test: unexpected semicolon in sentence: say "ENUMERATION TEST."
+syntax-test: unexpected semicolon in sentence: say "Figures: "
+syntax-test: unexpected semicolon in sentence: let fig be the number of figure-names
+syntax-test: unexpected semicolon in sentence: say " [fig]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Sounds: "
+syntax-test: unexpected semicolon in sentence: let fx be the number of sound-names
+syntax-test: unexpected semicolon in sentence: say " [fx]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "External files: "
+syntax-test: unexpected semicolon in sentence: let docket be the number of external-files
+syntax-test: unexpected semicolon in sentence: say " [docket]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Times: "
+syntax-test: unexpected semicolon in sentence: let moment be the number of times
+syntax-test: unexpected semicolon in sentence: say " [moment]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Tables: "
+syntax-test: unexpected semicolon in sentence: let almanac be the number of table-names
+syntax-test: unexpected semicolon in sentence: say " [almanac]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Truth states: "
+syntax-test: unexpected semicolon in sentence: let parity be the number of truth states
+syntax-test: unexpected semicolon in sentence: say " [parity]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Colours: "
+syntax-test: unexpected semicolon in sentence: let hue be the number of colours
+syntax-test: unexpected semicolon in sentence: say " [hue]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: let interlude be the number of scenes
+syntax-test: unexpected semicolon in sentence: say "Scenes: [interlude] are the scenes."
+syntax-test: unexpected semicolon in sentence: let interlude be the number of good scenes
+syntax-test: unexpected semicolon in sentence: say "Good scenes: [interlude]."
+syntax-test: unexpected semicolon in sentence: let interlude be the number of bad scenes
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'figure of woodlands is the file "Woodlands.png"'
+        SENTENCE_NT'sound of rustling leaves is the file "Rustling leaves.ogg"'
+        SENTENCE_NT'the file of glaciers is called "ice"'
+        SENTENCE_NT'lsd experience is a scene'
+        SENTENCE_NT'bach cantata concert is a scene'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is bad if it is the lsd experience'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is good if it is not the lsd experience'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and green'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "ENUMERATION TEST."'
+        SENTENCE_NT'say "Figures: "'
+        SENTENCE_NT'let fig be the number of figure-names'
+        SENTENCE_NT'say " [fig]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Sounds: "'
+        SENTENCE_NT'let fx be the number of sound-names'
+        SENTENCE_NT'say " [fx]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "External files: "'
+        SENTENCE_NT'let docket be the number of external-files'
+        SENTENCE_NT'say " [docket]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Times: "'
+        SENTENCE_NT'let moment be the number of times'
+        SENTENCE_NT'say " [moment]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Tables: "'
+        SENTENCE_NT'let almanac be the number of table-names'
+        SENTENCE_NT'say " [almanac]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Truth states: "'
+        SENTENCE_NT'let parity be the number of truth states'
+        SENTENCE_NT'say " [parity]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Colours: "'
+        SENTENCE_NT'let hue be the number of colours'
+        SENTENCE_NT'say " [hue]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'let interlude be the number of scenes'
+        SENTENCE_NT'say "Scenes: [interlude] are the scenes."'
+        SENTENCE_NT'let interlude be the number of good scenes'
+        SENTENCE_NT'say "Good scenes: [interlude]."'
+        SENTENCE_NT'let interlude be the number of bad scenes'
+        SENTENCE_NT'say "Bad scenes: [interlude]."'

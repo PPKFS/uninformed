@@ -1,0 +1,19 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: showme the number of fruits
+syntax-test: unexpected semicolon in sentence: showme the fruit after the pear
+syntax-test: unexpected semicolon in sentence: showme the fruit after the orange
+syntax-test: unexpected semicolon in sentence: showme the fruit before the pear
+syntax-test: unexpected semicolon in sentence: showme the fruit before the apple
+syntax-test: unexpected semicolon in sentence: showme the first value of fruit
+ROOT_NT
+    HEADING_NT'a fruit is a kind of value' {heading 0}
+        SENTENCE_NT'a fruit is a kind of value'
+        SENTENCE_NT'an apple , a pear and an orange are fruits'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme the number of fruits'
+        SENTENCE_NT'showme the fruit after the pear'
+        SENTENCE_NT'showme the fruit after the orange'
+        SENTENCE_NT'showme the fruit before the pear'
+        SENTENCE_NT'showme the fruit before the apple'
+        SENTENCE_NT'showme the first value of fruit'
+        SENTENCE_NT'showme the last value of fruit'

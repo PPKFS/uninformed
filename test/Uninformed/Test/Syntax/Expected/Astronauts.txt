@@ -1,0 +1,17 @@
+Read 74 words
+syntax-test: unexpected semicolon in sentence: say "[List of astronauts who are not carrying something] are carrying nothing."
+syntax-test: unexpected semicolon in sentence: say "Buzz picks up a rock."
+ROOT_NT
+    HEADING_NT'moon is a room' {heading 0}
+        SENTENCE_NT'moon is a room'
+        SENTENCE_NT'a rock is a thing'
+        SENTENCE_NT'an astronaut is a kind of person'
+        SENTENCE_NT'neil armstrong is an astronaut in the moon'
+        SENTENCE_NT'buzz aldrin is an astronaut in the moon'
+        SENTENCE_NT'after looking'
+        SENTENCE_NT'say "[List of astronauts who are not carrying something] are'
+        SENTENCE_NT'say "In other words: [list of astronauts who are carrying no'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'say "Buzz picks up a rock."'
+        SENTENCE_NT'now buzz is carrying the rock'
+        SENTENCE_NT'test me with "look / z / look"'

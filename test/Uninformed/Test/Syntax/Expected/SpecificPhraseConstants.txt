@@ -1,0 +1,20 @@
+Read 84 words
+syntax-test: unexpected semicolon in sentence: say "Generic: "
+syntax-test: unexpected semicolon in sentence: say "Specific: "
+syntax-test: unexpected semicolon in sentence: disregard wasting time
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to waste time ( this is wasting time )'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'to waste more time ( this is wasting more time )'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'to disregard ( p - phrase nothing -> nothing )'
+        SENTENCE_NT'say "Generic: "'
+        SENTENCE_NT'showme p'
+        SENTENCE_NT'to disregard ( p - wasting time )'
+        SENTENCE_NT'say "Specific: "'
+        SENTENCE_NT'showme p'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'disregard wasting time'
+        SENTENCE_NT'disregard wasting more time'

@@ -1,0 +1,12 @@
+Read 79 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'part 1'
+        SENTENCE_NT'tabulating is a rulebook producing a list of numbers'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme a list of numbers produced by the tabulating rulebook'
+        SENTENCE_NT'part 2'
+        SENTENCE_NT'summing is a ( list of numbers ) based rulebook producing a '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the number produced by the summing rulebook for { 1 ,'

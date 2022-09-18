@@ -1,0 +1,20 @@
+Read 103 words
+syntax-test: unexpected semicolon in sentence: let N be the text produced by the N0123 rules
+syntax-test: unexpected semicolon in sentence: showme text produced by the N0123 rules
+ROOT_NT
+    HEADING_NT'garden is a room' {heading 0}
+        SENTENCE_NT'garden is a room'
+        SENTENCE_NT'the chair is a fixed in place enterable supporter in garden'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "You sit[Begin-sitting]."'
+        SENTENCE_NT'to say begin-sitting'
+        SENTENCE_NT'try silently entering a random visible supporter'
+        SENTENCE_NT'to say current status line'
+        SENTENCE_NT'let n be the text produced by the n0123 rules'
+        SENTENCE_NT'say "it works"'
+        SENTENCE_NT'the n0123 rules is a rulebook producing a text'
+        SENTENCE_NT'a n0123 rule'
+        SENTENCE_NT'rule succeeds with result "dummy"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme text produced by the n0123 rules'
+        SENTENCE_NT'say current status line , "[line break]"'

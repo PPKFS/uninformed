@@ -1,0 +1,51 @@
+Read 162 words
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic sine of 1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic cosine of 1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic tangent of 1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic sine of -1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic cosine of -1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic tangent of -1
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic sine of pi
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic cosine of pi
+syntax-test: unexpected semicolon in sentence: showme the hyperbolic tangent of pi
+syntax-test: unexpected semicolon in sentence: say "x = asinh(1.5): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = arcsinh (1.5) where x is a real number
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = acosh(2): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = arccosh (2)
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = atanh(0.5): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = arctanh (0.5)
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "sinh x = 1: "
+syntax-test: unexpected semicolon in sentence: let x be given by sinh x = 1.5
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "cosh x = 2: "
+syntax-test: unexpected semicolon in sentence: let x be given by cosh x = 2
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme the hyperbolic sine of 1'
+        SENTENCE_NT'showme the hyperbolic cosine of 1'
+        SENTENCE_NT'showme the hyperbolic tangent of 1'
+        SENTENCE_NT'showme the hyperbolic sine of -1'
+        SENTENCE_NT'showme the hyperbolic cosine of -1'
+        SENTENCE_NT'showme the hyperbolic tangent of -1'
+        SENTENCE_NT'showme the hyperbolic sine of pi'
+        SENTENCE_NT'showme the hyperbolic cosine of pi'
+        SENTENCE_NT'showme the hyperbolic tangent of pi'
+        SENTENCE_NT'say "x = asinh(1.5): "'
+        SENTENCE_NT'let x be given by x = arcsinh ( 1.5 ) where x is a real numb'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = acosh(2): "'
+        SENTENCE_NT'let x be given by x = arccosh ( 2 )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = atanh(0.5): "'
+        SENTENCE_NT'let x be given by x = arctanh ( 0.5 )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "sinh x = 1: "'
+        SENTENCE_NT'let x be given by sinh x = 1.5'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "cosh x = 2: "'
+        SENTENCE_NT'let x be given by cosh x = 2'
+        SENTENCE_NT'showme x'

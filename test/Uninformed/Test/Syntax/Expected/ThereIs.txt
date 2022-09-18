@@ -1,0 +1,73 @@
+Read 448 words
+syntax-test: unexpected semicolon in sentence: now nothing incriminates Mr Darcy
+syntax-test: unexpected semicolon in sentence: if there is a man, say "There is a man."
+syntax-test: unexpected semicolon in sentence: if there are men, say "There are men."
+syntax-test: unexpected semicolon in sentence: if there is a vehicle, say "There is a vehicle."
+syntax-test: unexpected semicolon in sentence: if there are vehicles, say "There are vehicles."
+syntax-test: unexpected semicolon in sentence: if there is no vehicle, say "There is no vehicle."
+syntax-test: unexpected semicolon in sentence: if there are no vehicles, say "There are no vehicles."
+syntax-test: unexpected semicolon in sentence: if nothing is in the box, say "Nothing is in the box."
+syntax-test: unexpected semicolon in sentence: if there is nothing in the box, say "There is nothing in the box."
+syntax-test: unexpected semicolon in sentence: if a thing is in the box, say "A thing is in the box."
+syntax-test: unexpected semicolon in sentence: if there is something in the box, say "There is something in the box."
+syntax-test: unexpected semicolon in sentence: if there is something which is in the box, say "There is something which is in the box."
+syntax-test: unexpected semicolon in sentence: if three things are in the box, say "Three things are in the box."
+syntax-test: unexpected semicolon in sentence: if there are three things in the box, say "There are three things in the box."
+syntax-test: unexpected semicolon in sentence: if fewer than three things are in the box, say "Fewer than three things are in the box."
+syntax-test: unexpected semicolon in sentence: if there are fewer than three things in the box, say "There are fewer than three things in the box."
+syntax-test: unexpected semicolon in sentence: if exactly three things are in the box, say "Exactly three things are in the box."
+syntax-test: unexpected semicolon in sentence: if there are exactly three things in the box, say "There are exactly three things in the box."
+syntax-test: unexpected semicolon in sentence: if at least three things are in the box, say "At least three things are in the box."
+syntax-test: unexpected semicolon in sentence: if there are at least three things in the box, say "There are at least three things in the box."
+syntax-test: unexpected semicolon in sentence: if something incriminates Mr Darcy, say "Something incriminates Mr Darcy."
+syntax-test: unexpected semicolon in sentence: if there is something incriminating Mr Darcy, say "There is something incriminating Mr Darcy."
+syntax-test: unexpected semicolon in sentence: if nothing incriminates Mr Darcy, say "Nothing incriminates Mr Darcy."
+syntax-test: unexpected semicolon in sentence: if there is nothing incriminating Mr Darcy, say "There is nothing incriminating Mr Darcy."
+ROOT_NT
+    HEADING_NT'the place is a room' {heading 0}
+        SENTENCE_NT'the place is a room'
+        SENTENCE_NT'the box and the crate are in the place'
+        SENTENCE_NT'a coin is a kind of thing'
+        SENTENCE_NT'there is a room called the shadow world'
+        SENTENCE_NT'there is a coin in the box'
+        SENTENCE_NT'there is a double-bladed axe in the box'
+        SENTENCE_NT'there are three coins in the shadow world'
+        SENTENCE_NT'there are two coins on the crate'
+        SENTENCE_NT'there is a jigsaw puzzle which is in the box'
+        SENTENCE_NT'four coins are in the shadow world'
+        SENTENCE_NT'incrimination relates various things to various people'
+        SENTENCE_NT'the verb to incriminate ( he incriminates , they incriminate'
+        SENTENCE_NT'there is a man called mr darcy'
+        SENTENCE_NT'there is a pair of boxer shorts which incriminates mr darcy'
+        SENTENCE_NT'there is a fishing rod incriminating mr darcy'
+        SENTENCE_NT'there is a woman'
+        SENTENCE_NT'there is a room which is dark'
+        SENTENCE_NT'test me with "showme / showme Shadow / relations / z / get a'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now nothing incriminates mr darcy'
+        SENTENCE_NT'say "By jumping, you destroy the evidence."'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'if there is a man , say "There is a man."'
+        SENTENCE_NT'if there are men , say "There are men."'
+        SENTENCE_NT'if there is a vehicle , say "There is a vehicle."'
+        SENTENCE_NT'if there are vehicles , say "There are vehicles."'
+        SENTENCE_NT'if there is no vehicle , say "There is no vehicle."'
+        SENTENCE_NT'if there are no vehicles , say "There are no vehicles."'
+        SENTENCE_NT'if nothing is in the box , say "Nothing is in the box."'
+        SENTENCE_NT'if there is nothing in the box , say "There is nothing in th'
+        SENTENCE_NT'if a thing is in the box , say "A thing is in the box."'
+        SENTENCE_NT'if there is something in the box , say "There is something i'
+        SENTENCE_NT'if there is something which is in the box , say "There is so'
+        SENTENCE_NT'if three things are in the box , say "Three things are in th'
+        SENTENCE_NT'if there are three things in the box , say "There are three '
+        SENTENCE_NT'if fewer than three things are in the box , say "Fewer than '
+        SENTENCE_NT'if there are fewer than three things in the box , say "There'
+        SENTENCE_NT'if exactly three things are in the box , say "Exactly three '
+        SENTENCE_NT'if there are exactly three things in the box , say "There ar'
+        SENTENCE_NT'if at least three things are in the box , say "At least thre'
+        SENTENCE_NT'if there are at least three things in the box , say "There a'
+        SENTENCE_NT'if something incriminates mr darcy , say "Something incrimin'
+        SENTENCE_NT'if there is something incriminating mr darcy , say "There is'
+        SENTENCE_NT'if nothing incriminates mr darcy , say "Nothing incriminates'
+        SENTENCE_NT'if there is nothing incriminating mr darcy , say "There is n'
+        SENTENCE_NT'say "There are [number of rooms] rooms, of which [number of '

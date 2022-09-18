@@ -1,0 +1,7 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'a woman is a kind' {heading 0}
+        SENTENCE_NT'a woman is a kind'
+        SENTENCE_NT'test refinery ( internal ) with jane is a woman'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "This is a test run."'

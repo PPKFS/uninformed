@@ -1,0 +1,20 @@
+Read 113 words
+ROOT_NT
+    HEADING_NT'the stage is a room' {heading 0}
+        SENTENCE_NT'the stage is a room'
+        SENTENCE_NT'a sword is in stage'
+        SENTENCE_NT'wings is west of stage'
+        SENTENCE_NT'dressing room is north of wings'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is seen if we have examined it'
+        SENTENCE_NT'understand "[any adjacent room]" as going by name'
+        SENTENCE_NT'going by name is an action applying to one thing'
+        SENTENCE_NT'carry out going by name'
+        SENTENCE_NT'move the player to the noun'
+        SENTENCE_NT'understand "[any seen thing]" as remembering'
+        SENTENCE_NT'remembering is an action applying to one thing'
+        SENTENCE_NT'carry out remembering'
+        SENTENCE_NT'say "The last time you
+        saw that, it was in [location of noun'
+        SENTENCE_NT'the basic accessibility rule is not listed in any rulebook'
+        SENTENCE_NT'test me with "w / sword / wings / stage / wings / stage / x '

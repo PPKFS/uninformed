@@ -1,0 +1,8 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the primes are a list of numbers which vary'
+        SENTENCE_NT'the primes are { 2 , 3 , 5 , 7 , 11 }'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Today's prime is [entry -35 of the primes]."'

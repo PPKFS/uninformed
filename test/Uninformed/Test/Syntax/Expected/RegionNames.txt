@@ -1,0 +1,14 @@
+Read 84 words
+ROOT_NT
+    HEADING_NT'zone is a room' {heading 0}
+        SENTENCE_NT'zone is a room'
+        SENTENCE_NT'nigel is in the zone'
+        SENTENCE_NT'area 51 is a region'
+        SENTENCE_NT'roswell is a region'
+        SENTENCE_NT'hq is a region'
+        SENTENCE_NT'the rv is a region'
+        SENTENCE_NT'when play begins , say a list of every region'
+        SENTENCE_NT'when play begins , say a list of things'
+        SENTENCE_NT'when play begins , say "Try visiting [a list of regions whic'
+        SENTENCE_NT'understand "take [any region]" as a mistake ( "You already o'
+        SENTENCE_NT'test me with "take roswell / take HQ / take the RV"'

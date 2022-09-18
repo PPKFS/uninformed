@@ -1,0 +1,16 @@
+Read 64 words
+syntax-test: unexpected semicolon in sentence: now the statue is not upright
+ROOT_NT
+    HEADING_NT'"Negate the Unnegateable"' {heading 0}
+        SENTENCE_NT'"Negate the Unnegateable"'
+        SENTENCE_NT'the town square is a room'
+        SENTENCE_NT'"The only item of interest in this Town Square is the tall, '
+        SENTENCE_NT'the tall unstable statue is here'
+        SENTENCE_NT'the statue is scenery'
+        SENTENCE_NT'the description is "A statue of some ancient worthy from a b'
+        SENTENCE_NT'the statue can be upright'
+        SENTENCE_NT'the statue is upright'
+        SENTENCE_NT'instead of pushing the statue'
+        SENTENCE_NT'now the statue is not upright'
+        SENTENCE_NT'say "The statue topples over even more easily than you thoug'
+        SENTENCE_NT'test me with "push statue / look"'

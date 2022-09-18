@@ -1,0 +1,34 @@
+Read 121 words
+syntax-test: unexpected semicolon in sentence: let T be the container in question
+syntax-test: unexpected semicolon in sentence: say "([The person reaching] cannot reach through [the T].)"
+syntax-test: unexpected semicolon in sentence: deny access
+syntax-test: unexpected semicolon in sentence: say "([The person reaching] [reach] through [the T].)"
+syntax-test: unexpected semicolon in sentence: say "Jack tries to touch the rock..."
+syntax-test: unexpected semicolon in sentence: try Jack touching the rock
+syntax-test: unexpected semicolon in sentence: say "Can Jack touch the rock? "
+syntax-test: unexpected semicolon in sentence: say "Yes."
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the box is an enterable container'
+        SENTENCE_NT'a box is here'
+        SENTENCE_NT'jack is a person in the box'
+        SENTENCE_NT'the player is in the box'
+        SENTENCE_NT'the rock is in the kitchen'
+        SENTENCE_NT'to reach is a verb'
+        SENTENCE_NT'a rule for reaching outside containers'
+        SENTENCE_NT'let t be the container in question'
+        SENTENCE_NT'if the person reaching is jack'
+        SENTENCE_NT'say "([The person reaching] cannot reach through [the T].)"'
+        SENTENCE_NT'deny access'
+        SENTENCE_NT'else'
+        SENTENCE_NT'say "([The person reaching] [reach] through [the T].)"'
+        SENTENCE_NT'allow access'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Jack tries to touch the rock..."'
+        SENTENCE_NT'try jack touching the rock'
+        SENTENCE_NT'say "Can Jack touch the rock? "'
+        SENTENCE_NT'if jack can touch the rock'
+        SENTENCE_NT'say "Yes."'
+        SENTENCE_NT'else'
+        SENTENCE_NT'say "No."'

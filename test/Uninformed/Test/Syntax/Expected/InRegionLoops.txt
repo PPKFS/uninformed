@@ -1,0 +1,11 @@
+Read 56 words
+ROOT_NT
+    HEADING_NT'floor six is a region' {heading 0}
+        SENTENCE_NT'floor six is a region'
+        SENTENCE_NT'room 601 is a room in floor six'
+        SENTENCE_NT'room 602 is a room in floor six'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'pick a room in floor six'
+        SENTENCE_NT'to pick a room in ( r - a region )'
+        SENTENCE_NT'say "Today's random room is [a random room in R]. There are
+        '

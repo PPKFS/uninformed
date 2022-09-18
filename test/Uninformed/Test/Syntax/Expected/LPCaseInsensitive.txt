@@ -1,0 +1,12 @@
+Read 51 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'a frequency is a kind of value'
+        SENTENCE_NT'100khz specifies a frequency'
+        SENTENCE_NT'tuning is an action applying to one frequency'
+        SENTENCE_NT'understand "tune to
+        [frequency]" as tuning'
+        SENTENCE_NT'carry out tuning'
+        SENTENCE_NT'say "You tune to [the frequency understood]."'
+        SENTENCE_NT'test me with "tune to 79kHz / TUNE TO 79KHZ / tune to 79khz"'

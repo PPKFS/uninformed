@@ -1,0 +1,17 @@
+Read 68 words
+syntax-test: unexpected semicolon in sentence: now Clark is off-stage
+ROOT_NT
+    HEADING_NT'the spotlight is a room' {heading 0}
+        SENTENCE_NT'the spotlight is a room'
+        SENTENCE_NT'clark is here'
+        SENTENCE_NT'clark is a man'
+        SENTENCE_NT'instead of doing something while off-stage'
+        SENTENCE_NT'say "After the thrill of the spotlight, life seems not to ex'
+        SENTENCE_NT'instead of clark doing something while off-stage'
+        SENTENCE_NT'say "After the thrill of the spotlight, life seems not to ex'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now clark is off-stage'
+        SENTENCE_NT'say "Clark vanishes with a surprised expression."'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'try clark going east'
+        SENTENCE_NT'test me with "look / wait / jump / wait"'

@@ -1,0 +1,12 @@
+Read 70 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'"Zog is edible: [whether or not Zog is edible]. Zoog is edib'
+        SENTENCE_NT'something not lit is usually edible'
+        SENTENCE_NT'zog is a thing in foo'
+        SENTENCE_NT'zoog is a lit thing in foo'
+        SENTENCE_NT'a thing can be marbled or streaky'
+        SENTENCE_NT'something open is usually marbled'
+        SENTENCE_NT'oog is a closed container in foo'
+        SENTENCE_NT'ooog is an open container in foo'

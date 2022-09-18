@@ -1,0 +1,11 @@
+Read 75 words
+ROOT_NT
+    HEADING_NT'the lounge is a room' {heading 0}
+        SENTENCE_NT'the lounge is a room'
+        SENTENCE_NT'a gold coin is a kind of thing'
+        SENTENCE_NT'four gold coins are in the lounge'
+        SENTENCE_NT'a red chair is an enterable supporter in the lounge'
+        SENTENCE_NT'a blue chairs are an enterable supporter in the lounge'
+        SENTENCE_NT'on the red chair is a gold coin'
+        SENTENCE_NT'three supporters are in the lounge'
+        SENTENCE_NT'test me with "get coins / x supporters / get all supporters '

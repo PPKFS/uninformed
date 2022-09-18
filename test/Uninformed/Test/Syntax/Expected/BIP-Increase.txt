@@ -1,0 +1,68 @@
+Read 245 words
+syntax-test: unexpected semicolon in sentence: let the total raised be 900
+syntax-test: unexpected semicolon in sentence: showme the total raised
+syntax-test: unexpected semicolon in sentence: increase the total raised by 10
+syntax-test: unexpected semicolon in sentence: showme the total raised
+syntax-test: unexpected semicolon in sentence: increment the total raised
+syntax-test: unexpected semicolon in sentence: showme the total raised
+syntax-test: unexpected semicolon in sentence: decrease the total raised by 10
+syntax-test: unexpected semicolon in sentence: showme the total raised
+syntax-test: unexpected semicolon in sentence: decrement the total raised
+syntax-test: unexpected semicolon in sentence: showme the total raised
+syntax-test: unexpected semicolon in sentence: showme the target
+syntax-test: unexpected semicolon in sentence: increase the target by 10
+syntax-test: unexpected semicolon in sentence: showme the target
+syntax-test: unexpected semicolon in sentence: increment the target
+syntax-test: unexpected semicolon in sentence: showme the target
+syntax-test: unexpected semicolon in sentence: decrease the target by 10
+syntax-test: unexpected semicolon in sentence: showme the target
+syntax-test: unexpected semicolon in sentence: decrement the target
+syntax-test: unexpected semicolon in sentence: showme the target
+syntax-test: unexpected semicolon in sentence: showme the size of the apple
+syntax-test: unexpected semicolon in sentence: increase the size of the apple by 10cm
+syntax-test: unexpected semicolon in sentence: showme the size of the apple
+syntax-test: unexpected semicolon in sentence: increment the size of the apple
+syntax-test: unexpected semicolon in sentence: showme the size of the apple
+syntax-test: unexpected semicolon in sentence: decrease the size of the apple by 10cm
+syntax-test: unexpected semicolon in sentence: showme the size of the apple
+syntax-test: unexpected semicolon in sentence: decrement the size of the apple
+ROOT_NT
+    HEADING_NT'the target is a number that varies' {heading 0}
+        SENTENCE_NT'the target is a number that varies'
+        SENTENCE_NT'the target is 1000'
+        SENTENCE_NT'a fruit is a kind of object'
+        SENTENCE_NT'a length is a kind of value'
+        SENTENCE_NT'1cm specifies a length'
+        SENTENCE_NT'an apple , a pear and an orange are fruits'
+        SENTENCE_NT'a fruit has a length called size'
+        SENTENCE_NT'the size of a fruit is usually 10cm'
+        SENTENCE_NT'the size of the apple is 7cm'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let the total raised be 900'
+        SENTENCE_NT'showme the total raised'
+        SENTENCE_NT'increase the total raised by 10'
+        SENTENCE_NT'showme the total raised'
+        SENTENCE_NT'increment the total raised'
+        SENTENCE_NT'showme the total raised'
+        SENTENCE_NT'decrease the total raised by 10'
+        SENTENCE_NT'showme the total raised'
+        SENTENCE_NT'decrement the total raised'
+        SENTENCE_NT'showme the total raised'
+        SENTENCE_NT'showme the target'
+        SENTENCE_NT'increase the target by 10'
+        SENTENCE_NT'showme the target'
+        SENTENCE_NT'increment the target'
+        SENTENCE_NT'showme the target'
+        SENTENCE_NT'decrease the target by 10'
+        SENTENCE_NT'showme the target'
+        SENTENCE_NT'decrement the target'
+        SENTENCE_NT'showme the target'
+        SENTENCE_NT'showme the size of the apple'
+        SENTENCE_NT'increase the size of the apple by 10cm'
+        SENTENCE_NT'showme the size of the apple'
+        SENTENCE_NT'increment the size of the apple'
+        SENTENCE_NT'showme the size of the apple'
+        SENTENCE_NT'decrease the size of the apple by 10cm'
+        SENTENCE_NT'showme the size of the apple'
+        SENTENCE_NT'decrement the size of the apple'
+        SENTENCE_NT'showme the size of the apple'

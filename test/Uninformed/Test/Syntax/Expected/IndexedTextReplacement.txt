@@ -1,0 +1,87 @@
+Read 346 words
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "The capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace word number 7 in Neptune with "banana"
+syntax-test: unexpected semicolon in sentence: say "The intermediate text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace word number 22 in Neptune with "pineapple daiquiri"
+syntax-test: unexpected semicolon in sentence: say "The intermediate text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace character number 5 in Neptune with "z"
+syntax-test: unexpected semicolon in sentence: say "The intermediate text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace character number 50 in Neptune with "(abcdef)"
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "The capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace the text "the" in Neptune with "potato"
+syntax-test: unexpected semicolon in sentence: replace the text "giants." in Neptune with "turtles?"
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "the capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace the word "the" in Neptune with "potato"
+syntax-test: unexpected semicolon in sentence: replace the word "system" in Neptune with "frog"
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "The capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace the punctuated word "system," in Neptune with "toad"
+syntax-test: unexpected semicolon in sentence: replace the punctuated word "." in Neptune with "!"
+syntax-test: unexpected semicolon in sentence: if t2 matches the regular expression t1 begin
+syntax-test: unexpected semicolon in sentence: say "matching [t1] in [t2] --> [text matching regular expression][line break]"
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "matching [t1] in [t2] --> --[line break]"
+syntax-test: unexpected semicolon in sentence: let N be the number of times t2 matches the regular expression t1
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be t2
+syntax-test: unexpected semicolon in sentence: replace the regular expression t1 in Neptune with t3
+ROOT_NT
+    HEADING_NT'the outer solar system is a room' {heading 0}
+        SENTENCE_NT'the outer solar system is a room'
+        SENTENCE_NT'instead of going north'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "The capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace word number 7 in neptune with "banana"'
+        SENTENCE_NT'say "The intermediate text: [Neptune][line break]"'
+        SENTENCE_NT'replace word number 22 in neptune with "pineapple daiquiri"'
+        SENTENCE_NT'say "The intermediate text: [Neptune][line break]"'
+        SENTENCE_NT'replace character number 5 in neptune with "z"'
+        SENTENCE_NT'say "The intermediate text: [Neptune][line break]"'
+        SENTENCE_NT'replace character number 50 in neptune with "(abcdef)"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'
+        SENTENCE_NT'instead of going south'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "The capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace the text "the" in neptune with "potato"'
+        SENTENCE_NT'replace the text "giants." in neptune with "turtles?"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'
+        SENTENCE_NT'instead of going east'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "the capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace the word "the" in neptune with "potato"'
+        SENTENCE_NT'replace the word "system" in neptune with "frog"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'
+        SENTENCE_NT'instead of going west'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "The capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace the punctuated word "system," in neptune with "toad"'
+        SENTENCE_NT'replace the punctuated word "." in neptune with "!"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'
+        SENTENCE_NT'to test matching ( t1 - text ) in ( t2 - text )'
+        SENTENCE_NT'if t2 matches the regular expression t1 begin'
+        SENTENCE_NT'say "matching [t1] in [t2] --> [text matching regular expres'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "matching [t1] in [t2] --> --[line break]"'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'to test counting ( t1 - text ) in ( t2 - text )'
+        SENTENCE_NT'let n be the number of times t2 matches the regular expressi'
+        SENTENCE_NT'say "counting [t1] in [t2] --> [N] time[s][line break]"'
+        SENTENCE_NT'to test replacing ( t1 - text ) in ( t2 - text )'
+        SENTENCE_NT'test replacing t1 with "!" in t2'
+        SENTENCE_NT'to test replacing ( t1 - text ) with ( t3 - text ) in ( t2 -'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be t2'
+        SENTENCE_NT'replace the regular expression t1 in neptune with t3'
+        SENTENCE_NT'say "[line break][t2]: replacing [t1] with [t3] --> [Neptune'
+        SENTENCE_NT'test me with "n/s/e/w"'

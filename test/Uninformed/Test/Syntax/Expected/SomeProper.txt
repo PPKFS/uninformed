@@ -1,0 +1,8 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'some tea is in the kitchen'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the player has some tea'
+        SENTENCE_NT'test me with "inv"'

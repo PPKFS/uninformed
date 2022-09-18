@@ -1,0 +1,13 @@
+Read 59 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'acidity is a kind of value'
+        SENTENCE_NT'ph 7 specifies an acidity'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "[pH 1] is not nice. Nor is [pH 14]."'
+        SENTENCE_NT'litmus-testing is an action applying to one acidity'
+        SENTENCE_NT'understand "dip litmus in [acidity]" as litmus-testing'
+        SENTENCE_NT'carry out litmus-testing'
+        SENTENCE_NT'say "The litmus turns the right colour for [acidity understo'
+        SENTENCE_NT'test me with "dip litmus in PH 1 / dip litmus in ph 3"'

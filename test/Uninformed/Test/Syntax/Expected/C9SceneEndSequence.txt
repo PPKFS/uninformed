@@ -1,0 +1,16 @@
+Read 87 words
+syntax-test: unexpected semicolon in sentence: if Starting ended roundly, say "Roundly."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'starting is a scene'
+        SENTENCE_NT'starting begins when play begins'
+        SENTENCE_NT'starting ends roundly when the player carries the ball'
+        SENTENCE_NT'starting ends squarely when the player carries the cube'
+        SENTENCE_NT'the cube and the ball are here'
+        SENTENCE_NT'ending is a scene'
+        SENTENCE_NT'ending begins when starting ends'
+        SENTENCE_NT'when ending begins'
+        SENTENCE_NT'if starting ended roundly , say "Roundly."'
+        SENTENCE_NT'if starting ended squarely , say "Squarely."'
+        SENTENCE_NT'test me with "scenes / take ball"'

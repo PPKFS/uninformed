@@ -1,0 +1,128 @@
+Read 1005 words
+syntax-test: unexpected semicolon in sentence: repeat through table of Clark Retorts begin
+syntax-test: unexpected semicolon in sentence: if the reason the action failed is the cause entry begin
+syntax-test: unexpected semicolon in sentence: say "[response entry][paragraph break]"
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: repeat through Table of Clark's Bored Remarks begin
+syntax-test: unexpected semicolon in sentence: say "[response entry]"
+syntax-test: unexpected semicolon in sentence: blank out the whole row
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: repeat through Table of Clark's Flirtatious Remarks begin
+syntax-test: unexpected semicolon in sentence: say "[response entry]"
+syntax-test: unexpected semicolon in sentence: blank out the whole row
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: repeat through Table of Clark's Frustrated Denials begin
+syntax-test: unexpected semicolon in sentence: say "[response entry]"
+syntax-test: unexpected semicolon in sentence: blank out the whole row
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: end repeat
+ROOT_NT
+    HEADING_NT'use command line echoing' {heading 0}
+        SENTENCE_NT'use command line echoing'
+        SENTENCE_NT'a hand is a kind of thing'
+        SENTENCE_NT'a hand is part of every person'
+        SENTENCE_NT'the sound stage is a room'
+        SENTENCE_NT'clark gable is a man in the sound stage'
+        SENTENCE_NT'"Clark is here, carrying [the list of things carried by Clar'
+        SENTENCE_NT'clark carries a swagger stick'
+        SENTENCE_NT'clark carries an open openable player's holdall called a bri'
+        SENTENCE_NT'the briefcase contains a signed contract'
+        SENTENCE_NT'clark wears a fedora and a pair of pants'
+        SENTENCE_NT'clark carries a portable supporter called a tray'
+        SENTENCE_NT'a handle is part of the briefcase'
+        SENTENCE_NT'the stage door is west of the sound stage and east of the lo'
+        SENTENCE_NT'it is a door'
+        SENTENCE_NT'a fixed in place container called a cage is in the sound sta'
+        SENTENCE_NT'it is openable , transparent , pushable between rooms , ente'
+        SENTENCE_NT'in the cage is a lion'
+        SENTENCE_NT'the lion is an animal'
+        SENTENCE_NT'a bone is in the cage'
+        SENTENCE_NT'a seat is fixed in place in the cage'
+        SENTENCE_NT'the seat is an enterable supporter'
+        SENTENCE_NT'a persuasion rule for asking clark to try doing something'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'the foam boulder is a thing in the sound stage'
+        SENTENCE_NT'the automobile is a vehicle in the sound stage'
+        SENTENCE_NT'the steering wheel is part of the automobile'
+        SENTENCE_NT'the trunk is part of the automobile'
+        SENTENCE_NT'it is a closed openable container'
+        SENTENCE_NT'the carrying capacity of the trunk is 1'
+        SENTENCE_NT'the ignition is part of the automobile'
+        SENTENCE_NT'it is a device'
+        SENTENCE_NT'the dais is an enterable supporter in the sound stage'
+        SENTENCE_NT'a folding chair is an enterable supporter on the dais'
+        SENTENCE_NT'the carrying capacity of the chair is 1'
+        SENTENCE_NT'a canvas deckchair is an enterable supporter on the dais'
+        SENTENCE_NT'the rubber mat is on the dais'
+        SENTENCE_NT'the rubber mat is fixed in place'
+        SENTENCE_NT'a boom microphone is scenery in the sound stage'
+        SENTENCE_NT'some chains are scenery in the cage'
+        SENTENCE_NT'the player carries a small key , a tent , and variety magazi'
+        SENTENCE_NT'the stage door is lockable and locked'
+        SENTENCE_NT'the small key unlocks the stage door'
+        SENTENCE_NT'the player carries an open openable player's holdall called '
+        SENTENCE_NT'the carrying capacity of the player is 2'
+        SENTENCE_NT'the player wears a sparkly scarf and a slinky dress'
+        SENTENCE_NT'the player carries a portable supporter called a clipboard'
+        SENTENCE_NT'a strap is part of the bag'
+        SENTENCE_NT'the tent is a portable enterable container'
+        SENTENCE_NT'instead of taking off the slinky dress'
+        SENTENCE_NT'say "Rowr! Not that kind of movie, babe."'
+        SENTENCE_NT'instead of taking off the pants'
+        SENTENCE_NT'say "That's not your job, whatever the society pages might s'
+        SENTENCE_NT'instead of clark trying taking off the pants'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'the dumpster is an enterable openable open container in the '
+        SENTENCE_NT'the flashlight is a device in the dumpster'
+        SENTENCE_NT'carry out switching on flashlight'
+        SENTENCE_NT'now the flashlight is lit'
+        SENTENCE_NT'carry out switching off flashlight'
+        SENTENCE_NT'now the flashlight is unlit'
+        SENTENCE_NT'the candy bracelet is a thing in the dumpster'
+        SENTENCE_NT'it is wearable and edible'
+        SENTENCE_NT'the chocolate underwear is worn by clark'
+        SENTENCE_NT'it is edible'
+        SENTENCE_NT'instead of clark trying taking off the underwear'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'the licorice choker is worn by the player'
+        SENTENCE_NT'it is edible'
+        SENTENCE_NT'instead of taking off the choker'
+        SENTENCE_NT'say "No, it looks charming."'
+        SENTENCE_NT'unsuccessful attempt by clark trying doing something'
+        SENTENCE_NT'repeat through table of clark retorts begin'
+        SENTENCE_NT'if the reason the action failed is the cause entry begin'
+        SENTENCE_NT'say "[response entry][paragraph break]"'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "'I don't think that's in the script,' says Clark dubiou'
+        SENTENCE_NT'table of clark retorts cause response can't take yourself ru'
+        SENTENCE_NT'to say already done'
+        SENTENCE_NT'repeat through table of clark's bored remarks begin'
+        SENTENCE_NT'say "[response entry]"'
+        SENTENCE_NT'blank out the whole row'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "'Already done.' "'
+        SENTENCE_NT'table of clark's bored remarks response "'Check,' says Clark'
+        SENTENCE_NT'to say salacious retort'
+        SENTENCE_NT'repeat through table of clark's flirtatious remarks begin'
+        SENTENCE_NT'say "[response entry]"'
+        SENTENCE_NT'blank out the whole row'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "Clark, driven past the point of endurance, seizes you i'
+        SENTENCE_NT'table of clark's flirtatious remarks response "Clark allows '
+        SENTENCE_NT'to say physical impossibility'
+        SENTENCE_NT'repeat through table of clark's frustrated denials begin'
+        SENTENCE_NT'say "[response entry]"'
+        SENTENCE_NT'blank out the whole row'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "Clark makes a helpless gesture about his ability to mov'
+        SENTENCE_NT'table of clark's frustrated denials response "Clark frowns. '
+        SENTENCE_NT'the block giving rule is not listed in any rulebook'

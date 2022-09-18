@@ -1,0 +1,15 @@
+Read 78 words
+ROOT_NT
+    HEADING_NT'swearing obscenely is an action applying to nothing' {heading 0}
+        SENTENCE_NT'swearing obscenely is an action applying to nothing'
+        SENTENCE_NT'understand "Beetlejuice" as swearing obscenely'
+        SENTENCE_NT'instead of swearing obscenely for one turn'
+        SENTENCE_NT'say "Wash you mouth out with soap."'
+        SENTENCE_NT'instead of swearing obscenely for two turns'
+        SENTENCE_NT'say "Wash your mouth out with soup."'
+        SENTENCE_NT'every turn while swearing obscenely for one turn'
+        SENTENCE_NT'say "'Hey, don't say that three times in a row.  Bad things '
+        SENTENCE_NT'every turn while swearing obscenely for two turns'
+        SENTENCE_NT'say "'Hey, doubly so.'"'
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'test me with "beetlejuice / beetlejuice"'

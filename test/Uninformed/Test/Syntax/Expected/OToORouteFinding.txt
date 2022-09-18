@@ -1,0 +1,13 @@
+Read 66 words
+ROOT_NT
+    HEADING_NT'afterness relates one thing to one thing' {heading 0}
+        SENTENCE_NT'afterness relates one thing to one thing'
+        SENTENCE_NT'the verb to be placed after implies the afterness relation'
+        SENTENCE_NT'b , c , and d are things'
+        SENTENCE_NT'c is placed after b'
+        SENTENCE_NT'd is placed after c'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'say "[the number of steps via the afterness relation
+        from D '
+        SENTENCE_NT'the void is a room'
+        SENTENCE_NT'test me with "relations / z"'

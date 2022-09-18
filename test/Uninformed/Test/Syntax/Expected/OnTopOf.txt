@@ -1,0 +1,11 @@
+Read 65 words
+syntax-test: unexpected semicolon in sentence: if the steak is on the grill, say "Steak confirmed as on the grill."
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the grill is a supporter in the kitchen'
+        SENTENCE_NT'a steak is on the grill'
+        SENTENCE_NT'a sausage is on top of the grill'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the steak is on the grill , say "Steak confirmed as on th'
+        SENTENCE_NT'if the steak is on top of the grill , say "Steak confirmed a'

@@ -1,0 +1,109 @@
+Read 436 words
+syntax-test: unexpected semicolon in sentence: let L be the number of characters in string
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to L begin
+syntax-test: unexpected semicolon in sentence: let C be character number N in string
+syntax-test: unexpected semicolon in sentence: say C
+syntax-test: unexpected semicolon in sentence: if C is "s", say "h"
+syntax-test: unexpected semicolon in sentence: let NW be the number of words in string
+syntax-test: unexpected semicolon in sentence: say "[NW] word[s]: "
+syntax-test: unexpected semicolon in sentence: repeat with WN running from 1 to NW begin
+syntax-test: unexpected semicolon in sentence: if WN is greater than 1, say ","
+syntax-test: unexpected semicolon in sentence: say the number of characters in word number WN in string
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptunian System"
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptunian System with Rings and Moons"
+syntax-test: unexpected semicolon in sentence: let W be the number of words in Neptune
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to W begin
+syntax-test: unexpected semicolon in sentence: say "Word [N] is [word number N in Neptune]."
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptunian System"
+syntax-test: unexpected semicolon in sentence: let C be the number of characters in Neptune
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to C begin
+syntax-test: unexpected semicolon in sentence: say "Character [N] is [character number N in Neptune]."
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptunian System with Rings and Moons"
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptunian (Quasi-System), with Rings; -- and Moons! 'Ice-hot... don't you think?'"
+syntax-test: unexpected semicolon in sentence: let W be the number of punctuated words in Neptune
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to W begin
+syntax-test: unexpected semicolon in sentence: say "Punctuated word [N] is [punctuated word number N in Neptune]."
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptunian (Quasi-System), with Rings; -- and Moons! 'Ice-hot... don't you think?'"
+syntax-test: unexpected semicolon in sentence: let W be the number of words in Neptune
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to W begin
+syntax-test: unexpected semicolon in sentence: say "Word [N] is [word number N in Neptune]."
+syntax-test: unexpected semicolon in sentence: let Neptune be "This is a sensational fact.[paragraph break]The Martians have invaded Miranda.[line break](One of the moons of Uranus, that is.)"
+syntax-test: unexpected semicolon in sentence: let W be the number of paragraphs in Neptune
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to W begin
+syntax-test: unexpected semicolon in sentence: say "Paragraph [N] is [paragraph number N in Neptune]."
+syntax-test: unexpected semicolon in sentence: let Neptune be "This is a sensational fact.[paragraph break]The Martians have invaded Miranda.[line break](One of the moons of Uranus, that is.)"
+syntax-test: unexpected semicolon in sentence: let W be the number of lines in Neptune
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to W begin
+syntax-test: unexpected semicolon in sentence: say "Line [N] is [line number N in Neptune]."
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptunian (Quasi-System), with Rings; -- and Moons! 'Ice-hot... don't you think?'"
+syntax-test: unexpected semicolon in sentence: let W be the number of unpunctuated words in Neptune
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to W begin
+syntax-test: unexpected semicolon in sentence: say "Unpunctuated word [N] is [unpunctuated word number N in Neptune]."
+ROOT_NT
+    HEADING_NT'the outer solar system is a room' {heading 0}
+        SENTENCE_NT'the outer solar system is a room'
+        SENTENCE_NT'to say ( string - text ) in a drunken fashion'
+        SENTENCE_NT'let l be the number of characters in string'
+        SENTENCE_NT'repeat with n running from 1 to l begin'
+        SENTENCE_NT'let c be character number n in string'
+        SENTENCE_NT'say c'
+        SENTENCE_NT'if c is "s" , say "h"'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the left hand status line is "[crossword clue of printed'
+        SENTENCE_NT'to say crossword clue of ( string - text )'
+        SENTENCE_NT'let nw be the number of words in string'
+        SENTENCE_NT'say "[NW] word[s]: "'
+        SENTENCE_NT'repeat with wn running from 1 to nw begin'
+        SENTENCE_NT'if wn is greater than 1 , say ","'
+        SENTENCE_NT'say the number of characters in word number wn in string'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'instead of going east'
+        SENTENCE_NT'let neptune be "Neptunian System"'
+        SENTENCE_NT'say "Neptune is now [Neptune], and has [number of characters'
+        SENTENCE_NT'instead of going west'
+        SENTENCE_NT'let neptune be "Neptunian System with Rings and Moons"'
+        SENTENCE_NT'let w be the number of words in neptune'
+        SENTENCE_NT'repeat with n running from 1 to w begin'
+        SENTENCE_NT'say "Word [N] is [word number N in Neptune]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'instead of going north'
+        SENTENCE_NT'let neptune be "Neptunian System"'
+        SENTENCE_NT'let c be the number of characters in neptune'
+        SENTENCE_NT'repeat with n running from 1 to c begin'
+        SENTENCE_NT'say "Character [N] is [character number N in Neptune]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'instead of going south'
+        SENTENCE_NT'let neptune be "Neptunian System with Rings and Moons"'
+        SENTENCE_NT'say "You look drunkenly at [Neptune in a drunken fashion]."'
+        SENTENCE_NT'instead of going up'
+        SENTENCE_NT'let neptune be "Neptunian (Quasi-System), with Rings; -- and'
+        SENTENCE_NT'let w be the number of punctuated words in neptune'
+        SENTENCE_NT'repeat with n running from 1 to w begin'
+        SENTENCE_NT'say "Punctuated word [N] is [punctuated word number N in Nep'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'instead of going down'
+        SENTENCE_NT'let neptune be "Neptunian (Quasi-System), with Rings; -- and'
+        SENTENCE_NT'let w be the number of words in neptune'
+        SENTENCE_NT'repeat with n running from 1 to w begin'
+        SENTENCE_NT'say "Word [N] is [word number N in Neptune]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'instead of going northeast'
+        SENTENCE_NT'let neptune be "This is a sensational fact.[paragraph break]'
+        SENTENCE_NT'let w be the number of paragraphs in neptune'
+        SENTENCE_NT'repeat with n running from 1 to w begin'
+        SENTENCE_NT'say "Paragraph [N] is [paragraph number N in Neptune]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'instead of going northwest'
+        SENTENCE_NT'let neptune be "This is a sensational fact.[paragraph break]'
+        SENTENCE_NT'let w be the number of lines in neptune'
+        SENTENCE_NT'repeat with n running from 1 to w begin'
+        SENTENCE_NT'say "Line [N] is [line number N in Neptune]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'instead of going southeast'
+        SENTENCE_NT'let neptune be "Neptunian (Quasi-System), with Rings; -- and'
+        SENTENCE_NT'let w be the number of unpunctuated words in neptune'
+        SENTENCE_NT'repeat with n running from 1 to w begin'
+        SENTENCE_NT'say "Unpunctuated word [N] is [unpunctuated word number N in'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'test me with "n/s/e/w/u/d/ne/nw/se"'

@@ -1,0 +1,31 @@
+Read 164 words
+syntax-test: unexpected semicolon in sentence: now noun is not following player
+syntax-test: unexpected semicolon in sentence: now noun is following player
+syntax-test: unexpected semicolon in sentence: now every NPC person not following player is in a random room which is not the location
+ROOT_NT
+    HEADING_NT'test me with "bob/privacy/look/bob/south"' {heading 0}
+        SENTENCE_NT'test me with "bob/privacy/look/bob/south"'
+        SENTENCE_NT'northside is north of southside'
+        SENTENCE_NT'aaron , bob , and charlie are men in northside'
+        SENTENCE_NT'player is aaron'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a person is npc if it is not the player'
+        SENTENCE_NT'following relates people to each other'
+        SENTENCE_NT'the verb to be following implies the following relation'
+        SENTENCE_NT'the last carry out going'
+        SENTENCE_NT'now every person following player is in the location'
+        SENTENCE_NT'understand "[person]" as toggling follow'
+        SENTENCE_NT'toggling follow is an action applying to one thing'
+        SENTENCE_NT'carry out toggling follow'
+        SENTENCE_NT'if noun is following player'
+        SENTENCE_NT'now noun is not following player'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'now noun is following player'
+        SENTENCE_NT'say "[list of NPC people following player] will attend you.
+        '
+        SENTENCE_NT'understand "privacy" as ostracizing'
+        SENTENCE_NT'ostracizing is an action applying to nothing'
+        SENTENCE_NT'carry out ostracizing'
+        SENTENCE_NT'now every npc person not following player is in a random roo'
+        SENTENCE_NT'say "[list of every NPC person
+        not following the player] lea'

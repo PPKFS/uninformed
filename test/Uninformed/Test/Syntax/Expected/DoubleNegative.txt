@@ -1,0 +1,19 @@
+Read 108 words
+syntax-test: unexpected semicolon in sentence: if no hat is not worn by a person, say "No hat is not worn by a person."
+syntax-test: unexpected semicolon in sentence: if a hat is not worn by a person, say "There is a hat which is not worn by a person."
+syntax-test: unexpected semicolon in sentence: if no hat is not enclosed by a person, say "No hat is not enclosed by a person."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'bobbette is a woman in home'
+        SENTENCE_NT'a hat is a kind of thing'
+        SENTENCE_NT'a hat is wearable'
+        SENTENCE_NT'bobbette wears a hat'
+        SENTENCE_NT'the homberg is a hat'
+        SENTENCE_NT'the player carries the homberg'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if no hat is not worn by a person , say "No hat is not worn '
+        SENTENCE_NT'if a hat is not worn by a person , say "There is a hat which'
+        SENTENCE_NT'if no hat is not enclosed by a person , say "No hat is not e'
+        SENTENCE_NT'if a hat is not enclosed by a person , say "There is a hat w'
+        SENTENCE_NT'test me with "z / drop homberg / wear homberg"'

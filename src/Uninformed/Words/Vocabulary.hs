@@ -7,6 +7,9 @@ module Uninformed.Words.Vocabulary
   , lowerVocabType
   , identify
   , _ParagraphBreak
+  , _OrdinaryWord
+
+  , isNumber
 
   , pattern Period
   , pattern Colon
@@ -14,9 +17,10 @@ module Uninformed.Words.Vocabulary
   ) where
 
 import qualified Data.HashMap.Strict as HM
-import Data.Hashable
+import Data.Hashable ( Hashable(..) )
 import qualified Data.Set as Set
 import qualified Data.Text as T
+import Numeric.Optics (decimal)
 
 data VocabFlag = VocabFlag deriving stock (Eq, Show)
 
@@ -75,3 +79,8 @@ lowerVocabType = \case
   x -> x
 
 makePrisms ''VocabType
+
+isNumber ::
+  VocabType
+  -> Bool
+isNumber x = isJust $ x ^? _OrdinaryWord % to toString % decimal @Integer

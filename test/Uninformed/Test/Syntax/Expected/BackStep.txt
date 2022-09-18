@@ -1,0 +1,10 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'here is a thing called the shoe'
+        SENTENCE_NT'here is a person called sam'
+        SENTENCE_NT'the shoe has a number called the flop'
+        SENTENCE_NT'the flop of the shoe is two'
+        SENTENCE_NT'understand the flop property as describing the shoe'
+        SENTENCE_NT'test me with "show two shoe to sam / show two shoe filler to'

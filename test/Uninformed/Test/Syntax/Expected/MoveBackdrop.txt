@@ -1,0 +1,12 @@
+Read 78 words
+ROOT_NT
+    HEADING_NT'the upper cave is above the rock pool' {heading 0}
+        SENTENCE_NT'the upper cave is above the rock pool'
+        SENTENCE_NT'the stream is a backdrop'
+        SENTENCE_NT'it is in the upper cave and the ledge'
+        SENTENCE_NT'the ledge is east of the pool'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a room is wet if it is the rock pool or it is the ledge'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'move the stream backdrop to all wet rooms'
+        SENTENCE_NT'test me with "x stream / d / x stream / e / x stream"'

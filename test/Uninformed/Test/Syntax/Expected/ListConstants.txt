@@ -1,0 +1,61 @@
+Read 290 words
+syntax-test: unexpected semicolon in sentence: let S be { 2, 4, 8, 16, 32, 64 }
+syntax-test: unexpected semicolon in sentence: let T be { 2, 4, 6, 10 }
+syntax-test: unexpected semicolon in sentence: let U be { "genius", "brilliance", "ineffability" }
+syntax-test: unexpected semicolon in sentence: let V be { { 1, 2 }, { 3, 4 } }
+syntax-test: unexpected semicolon in sentence: say "Begin with the sets S = [S in brace notation], T = [T in brace notation],
+U = [U in brace notation], V = [V in brace notation]."
+syntax-test: unexpected semicolon in sentence: let Z be entry 2 of V
+syntax-test: unexpected semicolon in sentence: say "Z is [Z in brace notation]."
+syntax-test: unexpected semicolon in sentence: add { 6, 7, 8 } to V
+syntax-test: unexpected semicolon in sentence: say "V is now [V in brace notation]."
+syntax-test: unexpected semicolon in sentence: repeat with W running through V begin
+syntax-test: unexpected semicolon in sentence: say "In this repetition, W is [W in brace notation]."
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: let X be { the tuba, the saxophone }
+syntax-test: unexpected semicolon in sentence: say "X is [X in brace notation]."
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Really Hard Stuff To Do begin
+syntax-test: unexpected semicolon in sentence: say "Task [task entry] involves [subtask entry]."
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Really Hard Stuff To Do begin
+syntax-test: unexpected semicolon in sentence: sort the subtask entry
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Really Hard Stuff To Do begin
+syntax-test: unexpected semicolon in sentence: say "Reexamined, task [task entry] involves [subtask entry]."
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'the tuba and the saxophone are in the conservatoire'
+        SENTENCE_NT'sally and frieda are women in the conservatoire'
+        SENTENCE_NT'table of really hard stuff to do task subtask "shopping" { "'
+        SENTENCE_NT'a person has a list of objects called the revulsion list'
+        SENTENCE_NT'the revulsion list of sally is { frieda , the tuba }'
+        SENTENCE_NT'the revulsion list of frieda is { the saxophone }'
+        SENTENCE_NT'instead of examining a person ( called the subject )'
+        SENTENCE_NT'say "[The subject] is
+        clearly revolted by [revulsion list of'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'let s be { 2 , 4 , 8 , 16 , 32 , 64 }'
+        SENTENCE_NT'let t be { 2 , 4 , 6 , 10 }'
+        SENTENCE_NT'let u be { "genius" , "brilliance" , "ineffability" }'
+        SENTENCE_NT'let v be { { 1 , 2 } , { 3 , 4 } }'
+        SENTENCE_NT'say "Begin with the sets S = [S in brace notation], T = [T i'
+        SENTENCE_NT'let z be entry 2 of v'
+        SENTENCE_NT'say "Z is [Z in brace notation]."'
+        SENTENCE_NT'add { 6 , 7 , 8 } to v'
+        SENTENCE_NT'say "V is now [V in brace notation]."'
+        SENTENCE_NT'repeat with w running through v begin'
+        SENTENCE_NT'say "In this repetition, W is [W in brace notation]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'let x be { the tuba , the saxophone }'
+        SENTENCE_NT'say "X is [X in brace notation]."'
+        SENTENCE_NT'repeat through the table of really hard stuff to do begin'
+        SENTENCE_NT'say "Task [task entry] involves [subtask entry]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'repeat through the table of really hard stuff to do begin'
+        SENTENCE_NT'sort the subtask entry'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'repeat through the table of really hard stuff to do begin'
+        SENTENCE_NT'say "Reexamined, task [task entry] involves [subtask entry].'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'test me with "z/x frieda/x sally"'

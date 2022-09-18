@@ -1,0 +1,12 @@
+Read 70 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'exhibiting success is an action applying to nothing'
+        SENTENCE_NT'the exhibiting success action has a number called bar'
+        SENTENCE_NT'exhibiting failure is an action applying to nothing'
+        SENTENCE_NT'the exhibiting failure action has a number called foo'
+        SENTENCE_NT'check exhibiting success'
+        SENTENCE_NT'if bar is 123 , say "Bar is 123."'
+        SENTENCE_NT'check exhibiting failure when foo is 123'
+        SENTENCE_NT'say "Foo is 123."'

@@ -1,0 +1,23 @@
+Read 163 words
+ROOT_NT
+    HEADING_NT'hypothesis junction is a room' {heading 0}
+        SENTENCE_NT'hypothesis junction is a room'
+        SENTENCE_NT'the waiting room is east of hypothesis junction'
+        SENTENCE_NT'arrival is a scene'
+        SENTENCE_NT'"There's a flourish of trumpets."'
+        SENTENCE_NT'when arrival begins'
+        SENTENCE_NT'say "There's a flourish of trumpets."'
+        SENTENCE_NT'arrival begins when the player is in the hypothesis junction'
+        SENTENCE_NT'luggage trouble is a scene'
+        SENTENCE_NT'luggage trouble begins when railway meeting begins'
+        SENTENCE_NT'railway meeting is a scene'
+        SENTENCE_NT'railway meeting begins when play begins'
+        SENTENCE_NT'railway meeting ends when luggage trouble ends'
+        SENTENCE_NT'train stop is a recurring scene'
+        SENTENCE_NT'train wait is a recurring scene'
+        SENTENCE_NT'train wait begins when play begins'
+        SENTENCE_NT'train stop begins when train wait ends'
+        SENTENCE_NT'train wait begins when train stop ends'
+        SENTENCE_NT'railway meeting ends happily when the time of day is 11:00 p'
+        SENTENCE_NT'railway meeting ends wisely but sadly when the player is in '
+        SENTENCE_NT'test index ( internal ) with pl'

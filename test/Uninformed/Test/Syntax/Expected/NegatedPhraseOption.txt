@@ -1,0 +1,16 @@
+Read 50 words
+syntax-test: unexpected semicolon in sentence: if fiendishly, say "Hunting fiendishly."
+syntax-test: unexpected semicolon in sentence: say "First..."
+syntax-test: unexpected semicolon in sentence: hunt the wumpus
+syntax-test: unexpected semicolon in sentence: say "Second..."
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'to hunt the wumpus , fiendishly'
+        SENTENCE_NT'if fiendishly , say "Hunting fiendishly."'
+        SENTENCE_NT'if not fiendishly , say "Hunting normally."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "First..."'
+        SENTENCE_NT'hunt the wumpus'
+        SENTENCE_NT'say "Second..."'
+        SENTENCE_NT'hunt the wumpus , fiendishly'

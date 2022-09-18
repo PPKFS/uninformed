@@ -1,0 +1,22 @@
+Read 115 words
+syntax-test: unexpected semicolon in sentence: say "The pebble has been examined for "
+syntax-test: unexpected semicolon in sentence: if we have examined the pebble for 0 turns, say "zero"
+syntax-test: unexpected semicolon in sentence: if we have examined the pebble for 1 turn, say "one"
+syntax-test: unexpected semicolon in sentence: if we have examined the pebble for 2 turns, say "two"
+syntax-test: unexpected semicolon in sentence: if we have examined the pebble for 3 turns, say "three"
+syntax-test: unexpected semicolon in sentence: if we have examined the pebble for more than 3 turns, say "many"
+ROOT_NT
+    HEADING_NT'noplace is a room' {heading 0}
+        SENTENCE_NT'noplace is a room'
+        SENTENCE_NT'a pebble is here'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if we have examined the pebble for less than 1 turn , say "T'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "The pebble has been examined for "'
+        SENTENCE_NT'if we have examined the pebble for 0 turns , say "zero"'
+        SENTENCE_NT'if we have examined the pebble for 1 turn , say "one"'
+        SENTENCE_NT'if we have examined the pebble for 2 turns , say "two"'
+        SENTENCE_NT'if we have examined the pebble for 3 turns , say "three"'
+        SENTENCE_NT'if we have examined the pebble for more than 3 turns , say "'
+        SENTENCE_NT'say " turns."'
+        SENTENCE_NT'test me with "z / x pebble / z / z / z / z"'

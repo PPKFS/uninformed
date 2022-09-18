@@ -1,0 +1,119 @@
+Read 353 words
+syntax-test: unexpected semicolon in sentence: let L be a list of numbers
+syntax-test: unexpected semicolon in sentence: say "L is initially [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 11 to L
+syntax-test: unexpected semicolon in sentence: say "L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 7 to L
+syntax-test: unexpected semicolon in sentence: add 200 to L
+syntax-test: unexpected semicolon in sentence: add 5 to L
+syntax-test: unexpected semicolon in sentence: add -6 to L
+syntax-test: unexpected semicolon in sentence: add 0 to L
+syntax-test: unexpected semicolon in sentence: say "L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 5 to L, if absent
+syntax-test: unexpected semicolon in sentence: say "Adding 5 if absent should make no difference: [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: say "Entry 2 of L is [entry 2 of L]."
+syntax-test: unexpected semicolon in sentence: now entry 3 of L is 104
+syntax-test: unexpected semicolon in sentence: say "After changing entry 3 to 104, L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: now entry 3 of L is 208
+syntax-test: unexpected semicolon in sentence: say "After changing entry 3 to 208, L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: now entry 1 of L is 1
+syntax-test: unexpected semicolon in sentence: now entry 6 of L is 6
+syntax-test: unexpected semicolon in sentence: say "After changing the two end entries, L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: say "These, however, should fail as being out of range."
+syntax-test: unexpected semicolon in sentence: now entry 0 of L is 104
+syntax-test: unexpected semicolon in sentence: now entry 7 of L is 104
+syntax-test: unexpected semicolon in sentence: add 208 to L
+syntax-test: unexpected semicolon in sentence: say "L now contains two instances of 208: [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: remove 208 from L
+syntax-test: unexpected semicolon in sentence: say "Both of which go after removing this value: [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: let M be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 2 to M
+syntax-test: unexpected semicolon in sentence: add 3 to M
+syntax-test: unexpected semicolon in sentence: add 5 to M
+syntax-test: unexpected semicolon in sentence: add 7 to M
+syntax-test: unexpected semicolon in sentence: add 11 to M
+syntax-test: unexpected semicolon in sentence: add M to L
+syntax-test: unexpected semicolon in sentence: say "Adding [M in brace notation] to L gives [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: remove M from L
+syntax-test: unexpected semicolon in sentence: say "Removing the same set then gives [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: let N be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 7 to N
+syntax-test: unexpected semicolon in sentence: add 11 to N
+syntax-test: unexpected semicolon in sentence: add 5 to N
+syntax-test: unexpected semicolon in sentence: add 16 to N
+syntax-test: unexpected semicolon in sentence: add N to M, if absent
+syntax-test: unexpected semicolon in sentence: say "Adding [N in brace notation] to M, if absent, gives [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 1001 at entry 3 in M
+syntax-test: unexpected semicolon in sentence: say "Adding 1001 at entry 3 gives [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: remove entry 2 from M
+syntax-test: unexpected semicolon in sentence: say "Removing entry 2 gives [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: remove entries 2 to 4 from M
+syntax-test: unexpected semicolon in sentence: say "Removing entries 2 to 4 gives [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: showme whether or not 71 is listed in M
+syntax-test: unexpected semicolon in sentence: showme whether or not 16 is listed in M
+syntax-test: unexpected semicolon in sentence: showme whether or not 71 is not listed in M
+syntax-test: unexpected semicolon in sentence: showme whether or not 16 is not listed in M
+syntax-test: unexpected semicolon in sentence: showme the list of fruits
+ROOT_NT
+    HEADING_NT'a fruit is a kind of object' {heading 0}
+        SENTENCE_NT'a fruit is a kind of object'
+        SENTENCE_NT'an apple , a pear and an orange are fruits'
+        SENTENCE_NT'a fruit can be bright or dull'
+        SENTENCE_NT'an orange is bright'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let l be a list of numbers'
+        SENTENCE_NT'say "L is initially [L in brace notation]."'
+        SENTENCE_NT'add 11 to l'
+        SENTENCE_NT'say "L is now [L in brace notation]."'
+        SENTENCE_NT'add 7 to l'
+        SENTENCE_NT'add 200 to l'
+        SENTENCE_NT'add 5 to l'
+        SENTENCE_NT'add -6 to l'
+        SENTENCE_NT'add 0 to l'
+        SENTENCE_NT'say "L is now [L in brace notation]."'
+        SENTENCE_NT'add 5 to l , if absent'
+        SENTENCE_NT'say "Adding 5 if absent should make no difference: [L in bra'
+        SENTENCE_NT'say "Entry 2 of L is [entry 2 of L]."'
+        SENTENCE_NT'now entry 3 of l is 104'
+        SENTENCE_NT'say "After changing entry 3 to 104, L is now [L in brace not'
+        SENTENCE_NT'now entry 3 of l is 208'
+        SENTENCE_NT'say "After changing entry 3 to 208, L is now [L in brace not'
+        SENTENCE_NT'now entry 1 of l is 1'
+        SENTENCE_NT'now entry 6 of l is 6'
+        SENTENCE_NT'say "After changing the two end entries, L is now [L in brac'
+        SENTENCE_NT'say "These, however, should fail as being out of range."'
+        SENTENCE_NT'now entry 0 of l is 104'
+        SENTENCE_NT'now entry 7 of l is 104'
+        SENTENCE_NT'add 208 to l'
+        SENTENCE_NT'say "L now contains two instances of 208: [L in brace notati'
+        SENTENCE_NT'remove 208 from l'
+        SENTENCE_NT'say "Both of which go after removing this value: [L in brace'
+        SENTENCE_NT'let m be a list of numbers'
+        SENTENCE_NT'add 2 to m'
+        SENTENCE_NT'add 3 to m'
+        SENTENCE_NT'add 5 to m'
+        SENTENCE_NT'add 7 to m'
+        SENTENCE_NT'add 11 to m'
+        SENTENCE_NT'add m to l'
+        SENTENCE_NT'say "Adding [M in brace notation] to L gives [L in brace not'
+        SENTENCE_NT'remove m from l'
+        SENTENCE_NT'say "Removing the same set then gives [L in brace notation].'
+        SENTENCE_NT'let n be a list of numbers'
+        SENTENCE_NT'add 7 to n'
+        SENTENCE_NT'add 11 to n'
+        SENTENCE_NT'add 5 to n'
+        SENTENCE_NT'add 16 to n'
+        SENTENCE_NT'add n to m , if absent'
+        SENTENCE_NT'say "Adding [N in brace notation] to M, if absent, gives [M '
+        SENTENCE_NT'add 1001 at entry 3 in m'
+        SENTENCE_NT'say "Adding 1001 at entry 3 gives [M in brace notation]."'
+        SENTENCE_NT'remove entry 2 from m'
+        SENTENCE_NT'say "Removing entry 2 gives [M in brace notation]."'
+        SENTENCE_NT'remove entries 2 to 4 from m'
+        SENTENCE_NT'say "Removing entries 2 to 4 gives [M in brace notation]."'
+        SENTENCE_NT'showme whether or not 71 is listed in m'
+        SENTENCE_NT'showme whether or not 16 is listed in m'
+        SENTENCE_NT'showme whether or not 71 is not listed in m'
+        SENTENCE_NT'showme whether or not 16 is not listed in m'
+        SENTENCE_NT'showme the list of fruits'
+        SENTENCE_NT'showme the list of dull fruits'

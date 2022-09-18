@@ -1,0 +1,16 @@
+Read 54 words
+syntax-test: unexpected semicolon in sentence: let var be the room gone to
+syntax-test: unexpected semicolon in sentence: say "var is [var]."
+syntax-test: unexpected semicolon in sentence: now var is the room gone to
+syntax-test: unexpected semicolon in sentence: say "var is [var]."
+ROOT_NT
+    HEADING_NT'math department is a room' {heading 0}
+        SENTENCE_NT'math department is a room'
+        SENTENCE_NT'physics department is west of math department'
+        SENTENCE_NT'after going'
+        SENTENCE_NT'let var be the room gone to'
+        SENTENCE_NT'say "var is [var]."'
+        SENTENCE_NT'now var is the room gone to'
+        SENTENCE_NT'say "var is [var]."'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'test me with "go west"'

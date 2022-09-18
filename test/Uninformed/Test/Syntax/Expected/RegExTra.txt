@@ -1,0 +1,18 @@
+Read 83 words
+syntax-test: unexpected semicolon in sentence: say "'[the player's command]' matches [fixed letter spacing]^\p[variable letter spacing] [line break]"
+syntax-test: unexpected semicolon in sentence: say "'[the player's command]' matches [fixed letter spacing]^<\p>[variable letter spacing] [line break]"
+syntax-test: unexpected semicolon in sentence: say "'[the player's command]' matches [fixed letter spacing]^<b\p>[variable letter spacing] [line break]"
+ROOT_NT
+    HEADING_NT'this is a room' {heading 0}
+        SENTENCE_NT'this is a room'
+        SENTENCE_NT'after reading a command'
+        SENTENCE_NT'if the player's command matches the regular expression "^\p"'
+        SENTENCE_NT'say "'[the player's command]' matches [fixed letter spacing]'
+        SENTENCE_NT'if the player's command matches the regular expression "^<\p'
+        SENTENCE_NT'say "'[the player's command]' matches [fixed letter spacing]'
+        SENTENCE_NT'if the player's command matches the regular expression "^<b\'
+        SENTENCE_NT'say "'[the player's command]' matches [fixed letter spacing]'
+        SENTENCE_NT'if the player's command matches the regular expression "^(b|'
+        SENTENCE_NT'say "'[the player's command]' matches [fixed letter spacing]'
+        SENTENCE_NT'understand "pingpong" as a mistake ( "Pong ping." )'
+        SENTENCE_NT'test me with ". foo / b foo / x foo / pingpong / p foo / \ f'

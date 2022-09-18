@@ -1,0 +1,8 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'agreeing with bong is an action applying to one thing'
+        SENTENCE_NT'jabbing wildly is an action applying to one thing'
+        SENTENCE_NT'the jabbing wildly action has an object called the scarf'
+        SENTENCE_NT'the agreeing with bong action has an object called the hat'

@@ -1,0 +1,49 @@
+Read 739 words
+syntax-test: unexpected semicolon in sentence: sort the Table of Selected Numbers in numeric order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Selected Numbers
+syntax-test: unexpected semicolon in sentence: sort the Table of Selected Numbers in reverse alphabetic order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Selected Numbers
+syntax-test: unexpected semicolon in sentence: sort the Table of Somewhat Blanked Numbers in numeric order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Somewhat Blanked Numbers
+syntax-test: unexpected semicolon in sentence: sort the Table of Somewhat Blanked Numbers in reverse numeric order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Somewhat Blanked Numbers
+syntax-test: unexpected semicolon in sentence: sort the Table of Indices in index order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Indices
+syntax-test: unexpected semicolon in sentence: sort the Table of Indices in reverse index order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Indices
+syntax-test: unexpected semicolon in sentence: insertion-sort the Table of Original Numbers in numeric order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Original Numbers
+syntax-test: unexpected semicolon in sentence: in-place-merge-sort the Table of Duplicate Numbers in numeric order
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Duplicate Numbers
+syntax-test: unexpected semicolon in sentence: sort the Table of Selected Numbers in random order
+ROOT_NT
+    HEADING_NT'table of selected numbers numeric alphabetic 4 "four" 3 "thr' {heading 0}
+        SENTENCE_NT'table of selected numbers numeric alphabetic 4 "four" 3 "thr'
+        SENTENCE_NT'table of somewhat blanked numbers numeric -- 3 -- -647 1 327'
+        SENTENCE_NT'table of indices index correspondence 12 "twelve" 57 "fifty-'
+        SENTENCE_NT'table of indices ( continued ) index correspondence 21 "twen'
+        SENTENCE_NT'table of original numbers numeric -- 3 -- -647 1 -17827 -265'
+        SENTENCE_NT'table of duplicate numbers numeric -- 3 -- -647 1 -17827 -26'
+        SENTENCE_NT'to insertion-sort ( t - table name ) in ( tc - table column '
+        SENTENCE_NT'(-  TableSort({T}, {TC}, 1, InsertionSortAlgorithm); '
+        SENTENCE_NT'to in-place-merge-sort ( t - table name ) in ( tc - table co'
+        SENTENCE_NT'(-  TableSort({T}, {TC}, 1, InPlaceMergeSortAlgorithm); '
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'sort the table of selected numbers in numeric order'
+        SENTENCE_NT'showme the contents of the table of selected numbers'
+        SENTENCE_NT'sort the table of selected numbers in reverse alphabetic ord'
+        SENTENCE_NT'showme the contents of the table of selected numbers'
+        SENTENCE_NT'sort the table of somewhat blanked numbers in numeric order'
+        SENTENCE_NT'showme the contents of the table of somewhat blanked numbers'
+        SENTENCE_NT'sort the table of somewhat blanked numbers in reverse numeri'
+        SENTENCE_NT'showme the contents of the table of somewhat blanked numbers'
+        SENTENCE_NT'sort the table of indices in index order'
+        SENTENCE_NT'showme the contents of the table of indices'
+        SENTENCE_NT'sort the table of indices in reverse index order'
+        SENTENCE_NT'showme the contents of the table of indices'
+        SENTENCE_NT'insertion-sort the table of original numbers in numeric orde'
+        SENTENCE_NT'showme the contents of the table of original numbers'
+        SENTENCE_NT'in-place-merge-sort the table of duplicate numbers in numeri'
+        SENTENCE_NT'showme the contents of the table of duplicate numbers'
+        SENTENCE_NT'sort the table of selected numbers in random order'
+        SENTENCE_NT'showme the contents of the table of selected numbers'

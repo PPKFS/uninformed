@@ -1,0 +1,10 @@
+Read 79 words
+ROOT_NT
+    HEADING_NT'a fruit is a kind of thing' {heading 0}
+        SENTENCE_NT'a fruit is a kind of thing'
+        SENTENCE_NT'a fruit can be early , summer or late'
+        SENTENCE_NT'a fruit can be unripened , ripe , overripe , or mushy ( this'
+        SENTENCE_NT'a fruit can be citrus , berry , melon , or pome'
+        SENTENCE_NT'the orange is an overripe late citrus fruit'
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'test me with "showme orange"'

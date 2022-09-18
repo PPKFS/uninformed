@@ -1,0 +1,13 @@
+Read 93 words
+ROOT_NT
+    HEADING_NT'"Tiny Tiger"' {heading 0}
+        SENTENCE_NT'"Tiny Tiger"'
+        SENTENCE_NT'a ball is a kind of thing'
+        SENTENCE_NT'a ball has a number called size'
+        SENTENCE_NT'the size of a ball is usually 50'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a ball is tiny if its size is 10'
+        SENTENCE_NT'a golf ball is a kind of ball which is tiny'
+        SENTENCE_NT'after printing the name of a ball ( called b ) , say " ([the'
+        SENTENCE_NT'the example is a room'
+        SENTENCE_NT'in the example is a golf ball called tiger woods golf ball'

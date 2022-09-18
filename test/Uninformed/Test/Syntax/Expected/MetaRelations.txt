@@ -1,0 +1,8 @@
+Read 57 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'meta relates various relations of things to various relation'
+        SENTENCE_NT'the verb to meta-relate to ( he meta-relates to , they meta-'
+        SENTENCE_NT'the containment relation meta-relates to the support relatio'
+        SENTENCE_NT'test me with "relations"'

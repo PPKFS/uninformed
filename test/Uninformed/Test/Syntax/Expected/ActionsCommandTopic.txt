@@ -1,0 +1,15 @@
+Read 114 words
+syntax-test: unexpected semicolon in sentence: now the intended setting is -1
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'a dial is a kind of thing'
+        SENTENCE_NT'a device called a timer is in place'
+        SENTENCE_NT'a dial called a graduated dial is part of the timer'
+        SENTENCE_NT'the block setting it to rule is not listed in any rulebook'
+        SENTENCE_NT'the setting it to action has a number called intended settin'
+        SENTENCE_NT'setting action variables for setting something to something '
+        SENTENCE_NT'now the intended setting is -1'
+        SENTENCE_NT'if the player's command includes "[number]"'
+        SENTENCE_NT'now the intended setting is the number understood'
+        SENTENCE_NT'test me with "actions / set dial to infinity / set dial to 3'

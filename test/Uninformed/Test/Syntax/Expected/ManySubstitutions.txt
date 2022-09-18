@@ -1,0 +1,11 @@
+Read 39 words
+syntax-test: unexpected semicolon in sentence: increase counter by 1
+ROOT_NT
+    HEADING_NT'testbed is a room' {heading 0}
+        SENTENCE_NT'testbed is a room'
+        SENTENCE_NT'the description is "[phrase][phrase][phrase][phrase][phrase]'
+        SENTENCE_NT'counter is a number that varies'
+        SENTENCE_NT'counter is 0'
+        SENTENCE_NT'to say phrase'
+        SENTENCE_NT'increase counter by 1'
+        SENTENCE_NT'say "[counter], "'

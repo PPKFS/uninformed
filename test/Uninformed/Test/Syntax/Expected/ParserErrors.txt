@@ -1,0 +1,48 @@
+Read 360 words
+syntax-test: unexpected semicolon in sentence: if the latest parser error is didn't understand error, say "'Speak up, lad, I don't hear as well as I used to.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is only understood as far as error, say "'Too much nonsense at the end of your sentence! Talk simpler!'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is didn't understand that number error, say "'What's the matter with you, son? Can't you count?'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is can't see any such thing error, say "'My eyes might not be what they used to be, sonny, but I can't make out anything remotely like that hereabouts.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is said too little error, say "'Well? Go on, don't just stop in the middle.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is aren't holding that error, say "'Look, you ain't carrying any such thing!'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is can't use multiple objects error, say "'I know your mother always called you her little Houdini, but even Harry couldn't do that to more than one thing at once.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is can only use multiple objects error, say "'What are you, thick? You can't do that one at a time.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is the not sure what it refers to error, say "'C'd you be more specific, runtling?'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is excepted something not included error, say "'Well, now, I wasn't planning on including that anyway, boyo.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is can only do that to something animate error, say "'That ain't something you can do with inanimate objects. It's unnatural.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is the not a verb I recognise error, say "'What kind of action is that? Just because your friends all do it doesn't make it acceptable around here!'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is the not something you need to refer to error, say "'I don't want to ever hear you refer to that again.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is can't see it at the moment error, say "'Not here at the moment, or are you daft?'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is didn't understand the way that finished error, say "'Elocution ain't your strong suit, is it?'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is the not enough of those available error, say "'What, you seeing double? There ain't enough of those to go around.'"
+syntax-test: unexpected semicolon in sentence: if the latest parser error is nothing to do error, say "'Lazy bum.'"
+ROOT_NT
+    HEADING_NT'the garden is a room' {heading 0}
+        SENTENCE_NT'the garden is a room'
+        SENTENCE_NT'a wheelbarrow is here'
+        SENTENCE_NT'it contains a pile of dirt'
+        SENTENCE_NT'the garden contains a flower plot'
+        SENTENCE_NT'the plot is fixed in place'
+        SENTENCE_NT'a marble is a kind of thing'
+        SENTENCE_NT'three marbles are in the garden'
+        SENTENCE_NT'the yard is north of the garden'
+        SENTENCE_NT'rule for printing a parser error'
+        SENTENCE_NT'if the latest parser error is didn't understand error , say '
+        SENTENCE_NT'if the latest parser error is only understood as far as erro'
+        SENTENCE_NT'if the latest parser error is didn't understand that number '
+        SENTENCE_NT'if the latest parser error is can't see any such thing error'
+        SENTENCE_NT'if the latest parser error is said too little error , say "''
+        SENTENCE_NT'if the latest parser error is aren't holding that error , sa'
+        SENTENCE_NT'if the latest parser error is can't use multiple objects err'
+        SENTENCE_NT'if the latest parser error is can only use multiple objects '
+        SENTENCE_NT'if the latest parser error is the not sure what it refers to'
+        SENTENCE_NT'if the latest parser error is excepted something not include'
+        SENTENCE_NT'if the latest parser error is can only do that to something '
+        SENTENCE_NT'if the latest parser error is the not a verb i recognise err'
+        SENTENCE_NT'if the latest parser error is the not something you need to '
+        SENTENCE_NT'if the latest parser error is can't see it at the moment err'
+        SENTENCE_NT'if the latest parser error is didn't understand the way that'
+        SENTENCE_NT'if the latest parser error is the not enough of those availa'
+        SENTENCE_NT'if the latest parser error is nothing to do error , say "'La'
+        SENTENCE_NT'if the latest parser error is i beg your pardon error , say '
+        SENTENCE_NT'test me with "me, / push the wheelbarrow north to the yard /'

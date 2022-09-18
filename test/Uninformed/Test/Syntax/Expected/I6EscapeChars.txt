@@ -1,0 +1,29 @@
+Read 175 words
+syntax-test: unexpected semicolon in sentence: if e is 0, decide on 1
+syntax-test: unexpected semicolon in sentence: decrease e by 1
+syntax-test: unexpected semicolon in sentence: let b be b * (b raised to the power of e)
+syntax-test: unexpected semicolon in sentence: let the answer be the base part of the power understood raised to the power of the exponent part of the power understood
+ROOT_NT
+    HEADING_NT'maths department is a room' {heading 0}
+        SENTENCE_NT'maths department is a room'
+        SENTENCE_NT'"Try typing E.G. 2^3 to do some
+        number crunching."'
+        SENTENCE_NT'a power is a kind of value'
+        SENTENCE_NT'3^9 specifies a power with parts base and exponent'
+        SENTENCE_NT'a wibble is a kind of value'
+        SENTENCE_NT'a^^^b , flob~flab , x\d\x and blob@blab are wibbles'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "a^^^b = [a^^^b], flob~flab = [flob~flab], x\d\x = [x\d\'
+        SENTENCE_NT'to decide which number is ( b - a number ) raised to the pow'
+        SENTENCE_NT'if e is 0 , decide on 1'
+        SENTENCE_NT'decrease e by 1'
+        SENTENCE_NT'let b be b * ( b raised to the power of e )'
+        SENTENCE_NT'decide on b'
+        SENTENCE_NT'raising is an action applying to one power'
+        SENTENCE_NT'understand "[power]" as raising'
+        SENTENCE_NT'check raising 0^0'
+        SENTENCE_NT'say "That is undefined." instead'
+        SENTENCE_NT'carry out raising'
+        SENTENCE_NT'let the answer be the base part of the power understood rais'
+        SENTENCE_NT'say "The result of [power understood] is [answer]."'
+        SENTENCE_NT'test me with "3^4"'

@@ -1,0 +1,15 @@
+Read 61 words
+ROOT_NT
+    HEADING_NT'the test room is a room' {heading 0}
+        SENTENCE_NT'the test room is a room'
+        SENTENCE_NT'before touching'
+        SENTENCE_NT'say "Touching"'
+        SENTENCE_NT'before doing anything other than looking or eating'
+        SENTENCE_NT'say "Not looking or eating"'
+        SENTENCE_NT'before touching or pushing'
+        SENTENCE_NT'say "Touching or pushing"'
+        SENTENCE_NT'before touching something'
+        SENTENCE_NT'say "Touching something"'
+        SENTENCE_NT'before doing anything other than looking'
+        SENTENCE_NT'say "Not looking"'
+        SENTENCE_NT'test me with "touch me"'

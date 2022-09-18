@@ -1,0 +1,182 @@
+Read 1242 words
+syntax-test: unexpected semicolon in sentence: now the lost object is carried by the player
+syntax-test: unexpected semicolon in sentence: now the lost object does not underlie the noun
+syntax-test: unexpected semicolon in sentence: now the noun is nowhere
+syntax-test: unexpected semicolon in sentence: let way be the next step via the overlooking relation from the space to the target
+syntax-test: unexpected semicolon in sentence: if the way is a room, yes
+syntax-test: unexpected semicolon in sentence: repeat with space running through rooms begin
+syntax-test: unexpected semicolon in sentence: if the location offers a view of space, place the contents of the space in scope
+syntax-test: unexpected semicolon in sentence: if the location overlooks the space begin
+syntax-test: unexpected semicolon in sentence: say "You gaze down into [the space]..."
+syntax-test: unexpected semicolon in sentence: continue the action
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if the noun is not scenery, say "It is too far from here to [the space] for you to make out much detail about [the noun]." instead
+syntax-test: unexpected semicolon in sentence: let way be the next step via the overlooking relation from the location to the space
+syntax-test: unexpected semicolon in sentence: let x be the number of steps via the overlooking relation from the location to the space
+syntax-test: unexpected semicolon in sentence: if the way is a room, say "You gaze down across [the way] towards [the space], a good [x times 50] feet..."
+syntax-test: unexpected semicolon in sentence: continue the action
+syntax-test: unexpected semicolon in sentence: if the location offers a view of the noun begin
+syntax-test: unexpected semicolon in sentence: do nothing
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "You can't see any such thing." instead
+syntax-test: unexpected semicolon in sentence: if the noun contains something scenery, say "Off in [the noun], you can see [a list of scenery things in the noun]."
+syntax-test: unexpected semicolon in sentence: if a known person (called the contact) is related to the alien begin
+syntax-test: unexpected semicolon in sentence: say " ([relation between alien and contact] of [the contact])"
+syntax-test: unexpected semicolon in sentence: now the alien is known
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: if the first party is married to the second party begin
+syntax-test: unexpected semicolon in sentence: if the first party is female, say "wife"
+syntax-test: unexpected semicolon in sentence: otherwise say "husband"
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the first party is sibling to the second party begin
+syntax-test: unexpected semicolon in sentence: if the first party is female, say "sister"
+syntax-test: unexpected semicolon in sentence: otherwise say "brother"
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the first party engenders the second party begin
+syntax-test: unexpected semicolon in sentence: say "father"
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the second party is the father of the first party begin
+syntax-test: unexpected semicolon in sentence: if the first party is female, say "daughter"
+syntax-test: unexpected semicolon in sentence: otherwise say "son"
+syntax-test: unexpected semicolon in sentence: rule succeeds
+ROOT_NT
+    HEADING_NT'"Chapter 13: An Exercise in Concealment" by emily short' {heading 0}
+        SENTENCE_NT'"Chapter 13: An Exercise in Concealment" by emily short'
+        HEADING_NT'chapter 1' {heading 1}
+            SENTENCE_NT'use command line echoing'
+            HEADING_NT'section 1 - sentence verbs' {heading 2}
+                SENTENCE_NT'the spire of hidden objects is a room'
+                SENTENCE_NT'the chaise is a supporter in the spire of hidden objects'
+                SENTENCE_NT'the chaise supports a green pillow'
+            HEADING_NT'section 2 - what sentences are made up from' {heading 2}
+            HEADING_NT'section 3 - what are relations ?' {heading 2}
+            HEADING_NT'section 4 - to carry , to wear , to have' {heading 2}
+                SENTENCE_NT'the player carries a book'
+                SENTENCE_NT'the player wears a watch'
+                SENTENCE_NT'instead of examining something had by the player'
+                SENTENCE_NT'say "That's your favorite [noun]."'
+            HEADING_NT'section 5 - making new relations' {heading 2}
+                SENTENCE_NT'underlying relates various things to one thing'
+            HEADING_NT'section 6 - reciprocal relations' {heading 2}
+                SENTENCE_NT'contacting relates things to each other'
+                SENTENCE_NT'the verb to contact ( he contacts , they contact , he contac'
+                SENTENCE_NT'the pillow contacts the chaise'
+                SENTENCE_NT'instead of pushing something which contacts something'
+                SENTENCE_NT'say "[The noun] moves fractionally with respect to [the rand'
+            HEADING_NT'section 7 - relations in groups' {heading 2}
+            HEADING_NT'section 8 - the built-in verbs and their meanings' {heading 2}
+                SENTENCE_NT'a leg is a kind of thing'
+                SENTENCE_NT'four legs are part of the chaise'
+            HEADING_NT'section 9 - defining new assertion verbs' {heading 2}
+                SENTENCE_NT'the verb to underlie ( he underlies , they underlie , he und'
+                SENTENCE_NT'the catalog of exotic cooking supplies underlies the chaise'
+                SENTENCE_NT'the description of the catalog is "Oh, dormice (raised all w'
+                SENTENCE_NT'instead of looking under a thing which is underlaid by somet'
+                SENTENCE_NT'now the lost object is carried by the player'
+                SENTENCE_NT'now the lost object does not underlie the noun'
+                SENTENCE_NT'say "You find [a lost object]!"'
+                SENTENCE_NT'hiding it under is an action applying to one carried thing a'
+                SENTENCE_NT'understand "put [something preferably held] under [something'
+                SENTENCE_NT'check hiding it under'
+                SENTENCE_NT'if the second noun is not fixed in place , say "[The second '
+                SENTENCE_NT'carry out hiding it under'
+                SENTENCE_NT'now the noun is nowhere'
+                SENTENCE_NT'now the noun underlies the second noun'
+                SENTENCE_NT'report hiding it under'
+                SENTENCE_NT'say "You shove [the noun] out of sight beneath [the second n'
+            HEADING_NT'section 10 - defining new prepositions' {heading 2}
+                SENTENCE_NT'the verb to be under implies the underlying relation'
+                SENTENCE_NT'the gold ball is under the chaise'
+                SENTENCE_NT'the description of the gold ball is "It has an irritating ha'
+            HEADING_NT'section 11 - indirect relations' {heading 2}
+                SENTENCE_NT'overlooking relates various rooms to various rooms'
+                SENTENCE_NT'the hedge maze , the middle terrace , and the lower terrace '
+                SENTENCE_NT'the spiral maze is scenery in the hedge maze'
+                SENTENCE_NT'the lily pond is scenery in the middle terrace'
+                SENTENCE_NT'the lily pond contains a frog and a waterlily'
+                SENTENCE_NT'the description of the lily pond is "A neat round pond."'
+                SENTENCE_NT'the reproduction venus de milo is scenery in the lower terra'
+                SENTENCE_NT'the lower terrace contains a discarded silver banner , a wil'
+                SENTENCE_NT'the description of the venus is "She has been given a pair o'
+                SENTENCE_NT'the verb to overlook ( it overlooks , they overlook , it ove'
+                SENTENCE_NT'the spire of hidden objects overlooks the hedge maze and the'
+                SENTENCE_NT'the middle terrace overlooks the lower terrace'
+                SENTENCE_NT'after looking'
+                SENTENCE_NT'say "From here you have a spectacular view of [the list of r'
+                SENTENCE_NT'to decide whether ( space - a room ) offers a view of ( targ'
+                SENTENCE_NT'let way be the next step via the overlooking relation from t'
+                SENTENCE_NT'if the way is a room , yes'
+                SENTENCE_NT'no'
+                SENTENCE_NT'after deciding the scope of the player'
+                SENTENCE_NT'repeat with space running through rooms begin'
+                SENTENCE_NT'if the location offers a view of space , place the contents '
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'instead of examining something which is in a room ( called t'
+                SENTENCE_NT'if the location overlooks the space begin'
+                SENTENCE_NT'say "You gaze down into [the space]..."'
+                SENTENCE_NT'continue the action'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'if the noun is not scenery , say "It is too far from here to'
+                SENTENCE_NT'let way be the next step via the overlooking relation from t'
+                SENTENCE_NT'let x be the number of steps via the overlooking relation fr'
+                SENTENCE_NT'if the way is a room , say "You gaze down across [the way] t'
+                SENTENCE_NT'continue the action'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'understand "examine [any room]" as distance viewing'
+                SENTENCE_NT'distance viewing is an action applying to one thing'
+                SENTENCE_NT'check distance viewing'
+                SENTENCE_NT'if the location offers a view of the noun begin'
+                SENTENCE_NT'do nothing'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'say "You can't see any such thing." instead'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'carry out distance viewing'
+                SENTENCE_NT'if the noun contains something scenery , say "Off in [the no'
+                SENTENCE_NT'otherwise say "From here it's hard to see much of interest i'
+            HEADING_NT'section 13 - relations that express conditions' {heading 2}
+                SENTENCE_NT'marriage relates one person to another ( called the spouse )'
+                SENTENCE_NT'the verb to be married to implies the marriage relation'
+                SENTENCE_NT'fatherhood relates one person ( called father ) to various p'
+                SENTENCE_NT'the verb to engender ( he engenders , they engender ) implie'
+                SENTENCE_NT'siblinghood relates a person ( called a ) to a person ( call'
+                SENTENCE_NT'the verb to be sibling to implies the siblinghood relation'
+                SENTENCE_NT'family relates a person ( called a ) to a person ( called b '
+                SENTENCE_NT'the verb to be related to implies the family relation'
+                SENTENCE_NT'a person can be known or unknown'
+                SENTENCE_NT'after printing the name of an unknown person ( called the al'
+                SENTENCE_NT'if a known person ( called the contact ) is related to the a'
+                SENTENCE_NT'say " ([relation between alien and contact] of [the contact]'
+                SENTENCE_NT'now the alien is known'
+                SENTENCE_NT'rule succeeds'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'to say relation between ( first party - a person ) and ( sec'
+                SENTENCE_NT'if the first party is married to the second party begin'
+                SENTENCE_NT'if the first party is female , say "wife"'
+                SENTENCE_NT'otherwise say "husband"'
+                SENTENCE_NT'rule succeeds'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the first party is sibling to the second party begin'
+                SENTENCE_NT'if the first party is female , say "sister"'
+                SENTENCE_NT'otherwise say "brother"'
+                SENTENCE_NT'rule succeeds'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the first party engenders the second party begin'
+                SENTENCE_NT'say "father"'
+                SENTENCE_NT'rule succeeds'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the second party is the father of the first party begin'
+                SENTENCE_NT'if the first party is female , say "daughter"'
+                SENTENCE_NT'otherwise say "son"'
+                SENTENCE_NT'rule succeeds'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'percival blakeney is a known man in the spire'
+                SENTENCE_NT'marguerite is a woman in the spire'
+                SENTENCE_NT'percival is married to marguerite'
+                SENTENCE_NT'louise is a woman in the maze'
+                SENTENCE_NT'armand st just is a man in the lower terrace'
+                SENTENCE_NT'louise is married to armand'
+                SENTENCE_NT'monsieur st just is a man'
+                SENTENCE_NT'he engenders armand and marguerite'

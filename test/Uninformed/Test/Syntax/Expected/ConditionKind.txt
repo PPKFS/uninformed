@@ -1,0 +1,13 @@
+Read 66 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'a beat is a kind of thing'
+        SENTENCE_NT'a beat can be insistent , dogged , or casual'
+        SENTENCE_NT'a beat is usually casual'
+        SENTENCE_NT'test1 is a beat'
+        SENTENCE_NT'test2 is a beat'
+        SENTENCE_NT'test3 is a beat'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with item running through beats'
+        SENTENCE_NT'say "[item]: [beat condition of item][line break]"'

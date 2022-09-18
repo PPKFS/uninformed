@@ -1,0 +1,47 @@
+Read 177 words
+syntax-test: unexpected semicolon in sentence: let L2 be LN1
+syntax-test: unexpected semicolon in sentence: let L3 be LN1
+syntax-test: unexpected semicolon in sentence: remove X1 from L2
+syntax-test: unexpected semicolon in sentence: now L3 is L2
+syntax-test: unexpected semicolon in sentence: say "Before removing X2 from L3, X2 is [X2]."
+syntax-test: unexpected semicolon in sentence: remove X2 from L3
+syntax-test: unexpected semicolon in sentence: say "After removing X2 from L3, X2 is [X2]."
+syntax-test: unexpected semicolon in sentence: let L2 be LT1
+syntax-test: unexpected semicolon in sentence: let L3 be LT1
+syntax-test: unexpected semicolon in sentence: remove X1 from L2
+syntax-test: unexpected semicolon in sentence: now L3 is L2
+syntax-test: unexpected semicolon in sentence: say "Before removing X2 from L3, X2 is [X2]."
+syntax-test: unexpected semicolon in sentence: remove X2 from L3
+syntax-test: unexpected semicolon in sentence: say "After removing X2 from L3, X2 is [X2]."
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'ln1 is a list of numbers that varies'
+        SENTENCE_NT'ln1 is { 1 , 2 , 3 , 4 }'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'let l2 be ln1'
+        SENTENCE_NT'let l3 be ln1'
+        SENTENCE_NT'repeat with x1 running through ln1'
+        SENTENCE_NT'remove x1 from l2'
+        SENTENCE_NT'now l3 is l2'
+        SENTENCE_NT'repeat with x2 running through l2'
+        SENTENCE_NT'say "Before removing X2 from L3, X2 is [X2]."'
+        SENTENCE_NT'remove x2 from l3'
+        SENTENCE_NT'say "After removing X2 from L3, X2 is [X2]."'
+        SENTENCE_NT'repeat with x3 running through l3'
+        SENTENCE_NT'say "[X1],[X2],[X3]."'
+        SENTENCE_NT'lt1 is a list of text that varies'
+        SENTENCE_NT'lt1 is { "a" , "b" , "c" , "d" }'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'let l2 be lt1'
+        SENTENCE_NT'let l3 be lt1'
+        SENTENCE_NT'repeat with x1 running through lt1'
+        SENTENCE_NT'remove x1 from l2'
+        SENTENCE_NT'now l3 is l2'
+        SENTENCE_NT'repeat with x2 running through l2'
+        SENTENCE_NT'say "Before removing X2 from L3, X2 is [X2]."'
+        SENTENCE_NT'remove x2 from l3'
+        SENTENCE_NT'say "After removing X2 from L3, X2 is [X2]."'
+        SENTENCE_NT'repeat with x3 running through l3'
+        SENTENCE_NT'say "[X1],[X2],[X3]."'
+        SENTENCE_NT'test me with "wait / jump"'

@@ -1,0 +1,17 @@
+Read 92 words
+syntax-test: unexpected semicolon in sentence: now the stone altar is scenery
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'a fixed in place supporter called a stone altar is in place'
+        SENTENCE_NT'a statuette is on the altar'
+        SENTENCE_NT'a container called an ancient basket is on the altar'
+        SENTENCE_NT'a mysterious book is on the altar'
+        SENTENCE_NT'some straw and some loose rocks are in place'
+        SENTENCE_NT'a thing called a crystal is on the stone altar'
+        SENTENCE_NT'"A beautiful, glowing crystal lies upon [a stone
+        altar]."'
+        SENTENCE_NT'test me with "look / x altar / jump / look"'
+        SENTENCE_NT'after jumping'
+        SENTENCE_NT'now the stone altar is scenery'
+        SENTENCE_NT'say "(Altar is now given scenery property.)[line break]"'

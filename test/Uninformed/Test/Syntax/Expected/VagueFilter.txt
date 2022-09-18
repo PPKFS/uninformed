@@ -1,0 +1,12 @@
+Read 54 words
+syntax-test: unexpected semicolon in sentence: let the list be { 4, 9 }
+syntax-test: unexpected semicolon in sentence: let the other list be the list of people
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a number is xunique if it is 9'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let the list be { 4 , 9 }'
+        SENTENCE_NT'let the other list be the list of people'
+        SENTENCE_NT'showme filter to xunique of the list'

@@ -1,0 +1,27 @@
+Read 187 words
+ROOT_NT
+    HEADING_NT'the decontamination station is a room' {heading 0}
+        SENTENCE_NT'the decontamination station is a room'
+        SENTENCE_NT'a control panel is here'
+        SENTENCE_NT'"Three
+        buttons -- red, blue, and green -- adorn the control '
+        SENTENCE_NT'a red button is part of the control panel'
+        SENTENCE_NT'a green button is part of the control panel'
+        SENTENCE_NT'a blue button is part of the control panel'
+        SENTENCE_NT'the lower levels is a region'
+        SENTENCE_NT'the access tunnels is a region'
+        SENTENCE_NT'the residential bays is a region'
+        SENTENCE_NT'purging something is an activity'
+        SENTENCE_NT'before purging a region ( called the purged area ) , say "In'
+        SENTENCE_NT'rule for purging the lower levels'
+        SENTENCE_NT'say "The lower levels have been purged."'
+        SENTENCE_NT'rule for purging the access tunnels'
+        SENTENCE_NT'say "The access tunnels have been purged."'
+        SENTENCE_NT'rule for purging the residential bays'
+        SENTENCE_NT'say "The residential bays have been purged."'
+        SENTENCE_NT'after purging a region'
+        SENTENCE_NT'say "Purge complete."'
+        SENTENCE_NT'instead of pushing the red button , carry out the purging ac'
+        SENTENCE_NT'instead of pushing the green button , carry out the purging '
+        SENTENCE_NT'instead of pushing the blue button , carry out the purging a'
+        SENTENCE_NT'test me with "push red / push blue / push green"'

@@ -1,0 +1,8 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'a rose is a thing in stage'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "The rose has been visible for [if rose has been visible'
+        SENTENCE_NT'test me with "z / z / z / z"'

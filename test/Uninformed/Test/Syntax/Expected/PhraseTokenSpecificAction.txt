@@ -1,0 +1,14 @@
+Read 49 words
+syntax-test: unexpected semicolon in sentence: let Z be the action of looking
+syntax-test: unexpected semicolon in sentence: clomp Z
+syntax-test: unexpected semicolon in sentence: let Z be the action of examining the player
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'to clomp ( z - looking )'
+        SENTENCE_NT'say "Clomp!"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let z be the action of looking'
+        SENTENCE_NT'clomp z'
+        SENTENCE_NT'let z be the action of examining the player'
+        SENTENCE_NT'clomp z'

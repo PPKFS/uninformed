@@ -1,0 +1,12 @@
+Read 46 words
+syntax-test: unexpected semicolon in sentence: showme the player
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'player alice is a person'
+        SENTENCE_NT'instead of examining the player'
+        SENTENCE_NT'say "Examining rule fires."'
+        SENTENCE_NT'test me with "x me"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the player'
+        SENTENCE_NT'showme the action of examining the player'

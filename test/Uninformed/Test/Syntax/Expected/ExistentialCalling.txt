@@ -1,0 +1,10 @@
+Read 48 words
+syntax-test: unexpected semicolon in sentence: showme response to foo
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'there is a nothing based rulebook called response to foo'
+        SENTENCE_NT'there is a nothing based rulebook called in xresponse to foo'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme response to foo'
+        SENTENCE_NT'showme in xresponse to foo'

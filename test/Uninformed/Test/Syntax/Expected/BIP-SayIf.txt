@@ -1,0 +1,15 @@
+Read 25 words
+syntax-test: unexpected semicolon in sentence: say "It seems [if 1 is 1]1 is 1[otherwise]1 is not 1[end if]."
+syntax-test: unexpected semicolon in sentence: say "It seems [if 2 is 3]2 is 3[otherwise]2 is not 3[end if]."
+syntax-test: unexpected semicolon in sentence: say "It seems [unless 1 is 1]1 is not 1[otherwise]1 is 1[end if]."
+syntax-test: unexpected semicolon in sentence: say "It seems [unless 2 is 3]2 is not 3[otherwise]2 is 3[end unless]."
+syntax-test: unexpected semicolon in sentence: say "It seems [if 1 is 3]1 is 3[otherwise if 2 is 3]2 is 3[otherwise]3 is 3[end if]."
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "It seems [if 1 is 1]1 is 1[otherwise]1 is not 1[end if]'
+        SENTENCE_NT'say "It seems [if 2 is 3]2 is 3[otherwise]2 is not 3[end if]'
+        SENTENCE_NT'say "It seems [unless 1 is 1]1 is not 1[otherwise]1 is 1[end'
+        SENTENCE_NT'say "It seems [unless 2 is 3]2 is not 3[otherwise]2 is 3[end'
+        SENTENCE_NT'say "It seems [if 1 is 3]1 is 3[otherwise if 2 is 3]2 is 3[o'
+        SENTENCE_NT'say "It seems [if 1 is 2]1 is 2[otherwise if 2 is 2]2 is 2[o'

@@ -1,0 +1,23 @@
+Read 104 words
+syntax-test: unexpected semicolon in sentence: let L be a list of text
+syntax-test: unexpected semicolon in sentence: let L be { "oranges", "apples", "bananas" }
+syntax-test: unexpected semicolon in sentence: add "pears" to L
+syntax-test: unexpected semicolon in sentence: let tricky be text
+syntax-test: unexpected semicolon in sentence: let tricky be "dfrog"
+ROOT_NT
+    HEADING_NT'the valhalla antechamber is a room' {heading 0}
+        SENTENCE_NT'the valhalla antechamber is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be a list of text'
+        SENTENCE_NT'let l be { "oranges" , "apples" , "bananas" }'
+        SENTENCE_NT'add "pears" to l'
+        SENTENCE_NT'say "Today's random list is [L]."'
+        SENTENCE_NT'to mix ( new entry - k ) with ( exemplar - value of kind k )'
+        SENTENCE_NT'(-  print (TEXT_TY_Say) {new entry}, "^"; '
+        SENTENCE_NT'to announce ( event - text )'
+        SENTENCE_NT'(-  print "I declare ", (TEXT_TY_Say) {event}, ".^"; '
+        SENTENCE_NT'when play begins , announce "Saturnalia"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let tricky be text'
+        SENTENCE_NT'let tricky be "dfrog"'
+        SENTENCE_NT'mix "bat" with tricky'

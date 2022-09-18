@@ -1,0 +1,23 @@
+Read 141 words
+syntax-test: unexpected semicolon in sentence: set key value pair for config line
+syntax-test: unexpected semicolon in sentence: set justkey for config line
+ROOT_NT
+    HEADING_NT'config line is an text variable' {heading 0}
+        SENTENCE_NT'config line is an text variable'
+        SENTENCE_NT'config line is "monsters=25"'
+        SENTENCE_NT'stage is a room'
+        HEADING_NT'section - list of texts - this doesn't work' {heading 2}
+            SENTENCE_NT'key value pair is a list of texts variable'
+            SENTENCE_NT'when play begins'
+            SENTENCE_NT'set key value pair for config line'
+            SENTENCE_NT'showme key value pair'
+            SENTENCE_NT'to set key value pair for ( thisline - an text )'
+            SENTENCE_NT'if thisline matches the regular expression "(.*)=(.*)"'
+            SENTENCE_NT'now key value pair is { "[text matching subexpression 1]" , '
+            SENTENCE_NT'justkey is an text variable'
+            SENTENCE_NT'to set justkey for ( thisline - an text )'
+            SENTENCE_NT'if thisline matches the regular expression "(.*)=(.*)"'
+            SENTENCE_NT'now justkey is "[text matching subexpression 1]"'
+            SENTENCE_NT'when play begins'
+            SENTENCE_NT'set justkey for config line'
+            SENTENCE_NT'showme justkey'

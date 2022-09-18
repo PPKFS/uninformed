@@ -1,0 +1,7 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'kate is a woman'
+        SENTENCE_NT'the player is kate'
+        SENTENCE_NT'test me with "pronouns / trace 5 / x it / pronouns / x him /'

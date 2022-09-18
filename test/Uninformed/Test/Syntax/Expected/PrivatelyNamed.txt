@@ -1,0 +1,16 @@
+Read 111 words
+ROOT_NT
+    HEADING_NT'the wabe is a room' {heading 0}
+        SENTENCE_NT'the wabe is a room'
+        SENTENCE_NT'the blue peacock and the sundial are in the wabe'
+        SENTENCE_NT'the blue peacock is privately-named'
+        SENTENCE_NT'understand "bird" as the peacock'
+        SENTENCE_NT'the drawer is in the wabe'
+        SENTENCE_NT'the secret document is a privately-named thing in the drawer'
+        SENTENCE_NT'the printed name of the secret document is "[if the secret d'
+        SENTENCE_NT'understand "dusty" and "paper" as the secret document'
+        SENTENCE_NT'understand "secret" and "document" as the secret document wh'
+        SENTENCE_NT'after taking the secret document for the first time'
+        SENTENCE_NT'say "Heavens! It
+        is the secret document!"'
+        SENTENCE_NT'test me with "x blue / x peacock / x sundial / x bird / x du'

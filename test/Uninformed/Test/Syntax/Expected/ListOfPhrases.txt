@@ -1,0 +1,13 @@
+Read 77 words
+syntax-test: unexpected semicolon in sentence: showme SOP
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to decide which number is ( n - a number ) unchanged ( this '
+        SENTENCE_NT'decide on n'
+        SENTENCE_NT'the sop is a list of phrases number -> number which varies'
+        SENTENCE_NT'the sop is { wasting time }'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme sop'
+        SENTENCE_NT'repeat with p running through sop'
+        SENTENCE_NT'showme p applied to 3'

@@ -1,0 +1,13 @@
+Read 22 words
+syntax-test: unexpected semicolon in sentence: say "Consider: [pi to 4 decimal places]."
+syntax-test: unexpected semicolon in sentence: say "Consider: [312 in decimal notation]."
+syntax-test: unexpected semicolon in sentence: say "Consider: [123456 to 3 decimal places in decimal notation]."
+syntax-test: unexpected semicolon in sentence: say "Consider: [123456 in scientific notation]."
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "Consider: [pi to 4 decimal places]."'
+        SENTENCE_NT'say "Consider: [312 in decimal notation]."'
+        SENTENCE_NT'say "Consider: [123456 to 3 decimal places in decimal notati'
+        SENTENCE_NT'say "Consider: [123456 in scientific notation]."'
+        SENTENCE_NT'say "Consider: [123456 to 3 decimal places in scientific not'

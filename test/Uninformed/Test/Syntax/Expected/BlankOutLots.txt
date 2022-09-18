@@ -1,0 +1,23 @@
+Read 140 words
+syntax-test: unexpected semicolon in sentence: say "Element [element entry]."
+syntax-test: unexpected semicolon in sentence: choose row 3 from the Table of Selected Elements
+syntax-test: unexpected semicolon in sentence: choose row 1 from the Table of Selected Elements
+ROOT_NT
+    HEADING_NT'splog is a room' {heading 0}
+        SENTENCE_NT'splog is a room'
+        SENTENCE_NT'table 2.1 - selected elements element symbol atomic number a'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'repeat through table 2.1'
+        SENTENCE_NT'say "Element [element entry]."'
+        SENTENCE_NT'if there is an atomic number entry , say "Which has N = [ato'
+        SENTENCE_NT'before jumping'
+        SENTENCE_NT'choose row 3 from the table of selected elements'
+        SENTENCE_NT'blank out the whole row'
+        SENTENCE_NT'after taking inventory'
+        SENTENCE_NT'blank out the whole of the table of selected elements'
+        SENTENCE_NT'before going'
+        SENTENCE_NT'choose row 1 from the table of selected elements'
+        SENTENCE_NT'blank out the atomic number entry'
+        SENTENCE_NT'before eating'
+        SENTENCE_NT'blank out the whole atomic number column in the table of sel'
+        SENTENCE_NT'test me with "z / e / eat me / jump / inv"'

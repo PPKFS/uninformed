@@ -1,0 +1,18 @@
+Read 83 words
+syntax-test: unexpected semicolon in sentence: let X be an object
+syntax-test: unexpected semicolon in sentence: let Y be the Lab
+syntax-test: unexpected semicolon in sentence: let Z be John
+ROOT_NT
+    HEADING_NT'a person has a number called iq' {heading 0}
+        SENTENCE_NT'a person has a number called iq'
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'john is a man in the lab'
+        SENTENCE_NT'to say foo ( c - sayable value )'
+        SENTENCE_NT'say "Foo [C]"'
+        SENTENCE_NT'to say foo ( c - sayable value that provides the property iq'
+        SENTENCE_NT'say "Other Foo [C]"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be an object'
+        SENTENCE_NT'let y be the lab'
+        SENTENCE_NT'let z be john'
+        SENTENCE_NT'say "[foo seven], [foo yourself], [foo John], [foo X], [foo '

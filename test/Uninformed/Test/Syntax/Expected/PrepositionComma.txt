@@ -1,0 +1,21 @@
+Read 149 words
+syntax-test: unexpected semicolon in sentence: showme the list of planar directions
+ROOT_NT
+    HEADING_NT'a direction can be cardinal' {heading 0}
+        SENTENCE_NT'a direction can be cardinal'
+        SENTENCE_NT'a direction is usually not cardinal'
+        SENTENCE_NT'north , south , east , west are cardinal'
+        SENTENCE_NT'a direction can be planar'
+        SENTENCE_NT'a direction is usually planar'
+        SENTENCE_NT'up , down , inside , outside are not planar'
+        SENTENCE_NT'alliance relates people to each other in groups'
+        SENTENCE_NT'the chapel is a room'
+        SENTENCE_NT'elizabeth , wickham and darcy are people in the chapel'
+        SENTENCE_NT'mr bennett and mrs bennett are people in the chapel'
+        SENTENCE_NT'georgiana is a person in the chapel'
+        SENTENCE_NT'the verb to be related to means the alliance relation'
+        SENTENCE_NT'mr bennett is related to mrs bennett and elizabeth'
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the list of planar directions'
+        SENTENCE_NT'showme the list of directions which are not planar'

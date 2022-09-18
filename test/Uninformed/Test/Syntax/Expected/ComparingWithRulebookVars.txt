@@ -1,0 +1,20 @@
+Read 111 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'trading is an action applying to two things'
+        SENTENCE_NT'the trading action has a person called the trader'
+        SENTENCE_NT'check trading when the second noun is held'
+        SENTENCE_NT'stop'
+        SENTENCE_NT'check trading when the second noun is held'
+        SENTENCE_NT'stop'
+        SENTENCE_NT'check trading when the second noun is held'
+        SENTENCE_NT'stop'
+        SENTENCE_NT'check trading when the second noun is held'
+        SENTENCE_NT'stop'
+        SENTENCE_NT'check trading when the second noun is held'
+        SENTENCE_NT'stop'
+        SENTENCE_NT'check trading when trader needs more memories'
+        SENTENCE_NT'stop'
+        SENTENCE_NT'to decide whether ( trader - a person ) needs more memories'
+        SENTENCE_NT'decide yes'

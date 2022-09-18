@@ -1,0 +1,25 @@
+Read 96 words
+syntax-test: unexpected semicolon in sentence: showme whether or not "fish" is in lower case
+syntax-test: unexpected semicolon in sentence: showme whether or not "fish" is in upper case
+syntax-test: unexpected semicolon in sentence: showme whether or not "FISH" is in lower case
+syntax-test: unexpected semicolon in sentence: showme whether or not "FISH" is in upper case
+syntax-test: unexpected semicolon in sentence: showme whether or not "Fry" is in lower case
+syntax-test: unexpected semicolon in sentence: showme whether or not "Fry" is in upper case
+syntax-test: unexpected semicolon in sentence: let T be "a shilling life will give you all the facts"
+syntax-test: unexpected semicolon in sentence: showme T in lower case
+syntax-test: unexpected semicolon in sentence: showme T in upper case
+syntax-test: unexpected semicolon in sentence: showme T in title case
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme whether or not "fish" is in lower case'
+        SENTENCE_NT'showme whether or not "fish" is in upper case'
+        SENTENCE_NT'showme whether or not "FISH" is in lower case'
+        SENTENCE_NT'showme whether or not "FISH" is in upper case'
+        SENTENCE_NT'showme whether or not "Fry" is in lower case'
+        SENTENCE_NT'showme whether or not "Fry" is in upper case'
+        SENTENCE_NT'let t be "a shilling life will give you all the facts"'
+        SENTENCE_NT'showme t in lower case'
+        SENTENCE_NT'showme t in upper case'
+        SENTENCE_NT'showme t in title case'
+        SENTENCE_NT'showme t in sentence case'

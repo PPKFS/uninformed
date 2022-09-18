@@ -1,0 +1,8 @@
+Read 38 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'the inventory is here'
+        SENTENCE_NT'instead of taking inventory , say "INV!"'
+        SENTENCE_NT'instead of taking the inventory , say "GET!"'
+        SENTENCE_NT'test me with "inv / get all"'

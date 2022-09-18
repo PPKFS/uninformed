@@ -1,0 +1,12 @@
+Read 75 words
+ROOT_NT
+    HEADING_NT'the starting room is a room' {heading 0}
+        SENTENCE_NT'the starting room is a room'
+        SENTENCE_NT'"This is the starting room."'
+        SENTENCE_NT'a monkey is a kind of thing'
+        SENTENCE_NT'a monkey can be a hairy critter'
+        SENTENCE_NT'a monkey is a hairy critter'
+        SENTENCE_NT'an ape is a monkey in the starting room'
+        SENTENCE_NT'a hairless chimp is a monkey in the starting room'
+        SENTENCE_NT'a hairless chimp is not hairy critter'
+        SENTENCE_NT'a hairless chimp is not a hairy critter'

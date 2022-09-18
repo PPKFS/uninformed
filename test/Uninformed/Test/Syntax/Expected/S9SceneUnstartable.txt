@@ -1,0 +1,12 @@
+Read 71 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'the dog is a thing in the dome'
+        SENTENCE_NT'scene1 is a scene'
+        SENTENCE_NT'scene2 is a scene'
+        SENTENCE_NT'scene2 begins when the player is holding the dog'
+        SENTENCE_NT'scene2 ends when the player is not holding the dog'
+        SENTENCE_NT'scene1 ends when scene2 ends'
+        SENTENCE_NT'when scene1 ends , say "But this scene cannot start!"'
+        SENTENCE_NT'test me with "scenes/take dog/drop dog"'

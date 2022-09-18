@@ -1,0 +1,9 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'a tennis court is a kind of room' {heading 0}
+        SENTENCE_NT'a tennis court is a kind of room'
+        SENTENCE_NT'a tennis court has numbers called length and width'
+        SENTENCE_NT'court 9 is a tennis court'
+        SENTENCE_NT'the length of court 9 is 22'
+        SENTENCE_NT'the width of court 9 is 35'
+        SENTENCE_NT'the description of a tennis court is usually "You stand on a'

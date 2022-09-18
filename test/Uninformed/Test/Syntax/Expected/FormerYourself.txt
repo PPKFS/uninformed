@@ -1,0 +1,25 @@
+Read 137 words
+ROOT_NT
+    HEADING_NT'singing is an action applying to nothing' {heading 0}
+        SENTENCE_NT'singing is an action applying to nothing'
+        SENTENCE_NT'understand "sing" as singing'
+        SENTENCE_NT'check singing'
+        SENTENCE_NT'say "Your singing is abominable."'
+        SENTENCE_NT'a size is a kind of value'
+        SENTENCE_NT'the sizes are small , medium , and large'
+        SENTENCE_NT'a thing has a size'
+        SENTENCE_NT'a thing is usually medium'
+        SENTENCE_NT'the junk shop is a room'
+        SENTENCE_NT'a super bouncy ball , a tin soldier , and a stuffed mongoose'
+        SENTENCE_NT'the ball and soldier are small'
+        SENTENCE_NT'the mongoose is medium'
+        SENTENCE_NT'lou is a person'
+        SENTENCE_NT'he is large'
+        SENTENCE_NT'he has description "A green hulking
+        brute with a heart of go'
+        SENTENCE_NT'the player is lou'
+        SENTENCE_NT'before singing'
+        SENTENCE_NT'say "Everything, including [the list of things in The Junk S'
+        SENTENCE_NT'before jumping'
+        SENTENCE_NT'say "[The list of small things in The Junk Shop] jump on the'
+        SENTENCE_NT'test me with "x me / sing / jump"'

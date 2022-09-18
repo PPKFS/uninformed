@@ -1,0 +1,11 @@
+Read 42 words
+syntax-test: unexpected semicolon in sentence: let X be a real number
+syntax-test: unexpected semicolon in sentence: let X be 150cm divided by 1cm
+ROOT_NT
+    HEADING_NT'the debugging room is a room' {heading 0}
+        SENTENCE_NT'the debugging room is a room'
+        SENTENCE_NT'include metric units by graham nelson'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be a real number'
+        SENTENCE_NT'let x be 150cm divided by 1cm'
+        SENTENCE_NT'say "[X]"'

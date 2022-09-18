@@ -1,0 +1,96 @@
+Read 662 words
+syntax-test: unexpected semicolon in sentence: let step count be 0
+syntax-test: unexpected semicolon in sentence: let original be the location of the actor
+syntax-test: unexpected semicolon in sentence: while location of the actor is not the noun begin
+syntax-test: unexpected semicolon in sentence: let aim be the best route from the location of the actor to the noun, using doors
+syntax-test: unexpected semicolon in sentence: if aim is not a direction begin
+syntax-test: unexpected semicolon in sentence: if the player is the actor, say "You can't think how to get there from here." instead
+syntax-test: unexpected semicolon in sentence: stop the action
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: let destiny be the room aim from the location of the actor
+syntax-test: unexpected semicolon in sentence: if actor is player, say "(heading [aim])[command clarification break]"
+syntax-test: unexpected semicolon in sentence: increase step count by 1
+syntax-test: unexpected semicolon in sentence: try the actor going aim
+syntax-test: unexpected semicolon in sentence: if the location of the actor is not destiny begin
+syntax-test: unexpected semicolon in sentence: if the player is the actor, say "You're stuck." instead
+syntax-test: unexpected semicolon in sentence: stop the action
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end while
+syntax-test: unexpected semicolon in sentence: repeat with victim running through every person who is not the player begin
+syntax-test: unexpected semicolon in sentence: let goal be a random room
+syntax-test: unexpected semicolon in sentence: try the victim going by name the goal
+ROOT_NT
+    HEADING_NT'use fast route-finding' {heading 0}
+        SENTENCE_NT'use fast route-finding'
+        SENTENCE_NT'barn is west of farm'
+        SENTENCE_NT'farm is west of open plain'
+        SENTENCE_NT'open plain is west of rolling foothills'
+        SENTENCE_NT'rolling foothills is west of steep hills'
+        SENTENCE_NT'steep hills is west of mountain ascent'
+        SENTENCE_NT'narrow crevice is east of mountain ascent'
+        SENTENCE_NT'encircled plateau is east of narrow crevice'
+        SENTENCE_NT'the unexpected door is a door'
+        SENTENCE_NT'the unexpected door is east of plateau and west of crack'
+        SENTENCE_NT'dangerous descent is east of crack'
+        SENTENCE_NT'town is north of farm'
+        SENTENCE_NT'village outskirts is east of town and north of open plain'
+        SENTENCE_NT'neighboring farmland is east of village outskirts and north '
+        SENTENCE_NT'mine entrance is east of neighboring farmland and north of s'
+        SENTENCE_NT'mine depth is below mine entrance'
+        SENTENCE_NT'diamond seam is west of mine depth'
+        SENTENCE_NT'frightening narrowness is north of mine depth and northeast '
+        SENTENCE_NT'road is north of town'
+        SENTENCE_NT'wilderness is east of road and north of village outskirts'
+        SENTENCE_NT'scrubland is east of wilderness and north of neighboring far'
+        SENTENCE_NT'city is north of road'
+        SENTENCE_NT'cathedral is east of city and north of wilderness and northe'
+        SENTENCE_NT'graveyard is east of cathedral and north of scrubland'
+        SENTENCE_NT'landing is east of descent'
+        SENTENCE_NT'rookery is north of landing'
+        SENTENCE_NT'temple is northwest of landing'
+        SENTENCE_NT'sacred chamber is north of temple'
+        SENTENCE_NT'egg polishing grounds is east of landing and southeast of ro'
+        SENTENCE_NT'shell dump is east of polishing grounds'
+        SENTENCE_NT'north of plateau is ridge climb'
+        SENTENCE_NT'north of ridge climb is perilous peak'
+        SENTENCE_NT'north of perilous peak is the forecourt of the gods'
+        SENTENCE_NT'north of forecourt is the divine palace'
+        SENTENCE_NT'northwest of forecourt is the dungbeetle harnessing station'
+        SENTENCE_NT'northeast of forecourt is the vista over clouds'
+        SENTENCE_NT'northwest of vista is cottage of lesser deities'
+        SENTENCE_NT'cottage is northeast of the dungbeetle harnessing station'
+        SENTENCE_NT'dungbeetle feeding station is west of dungbeetle harnessing '
+        SENTENCE_NT'slippery chute is northwest of harnessing station'
+        SENTENCE_NT'long ride is west of slippery chute'
+        SENTENCE_NT'feather heap is south of long ride'
+        SENTENCE_NT'feather heap is northeast of graveyard'
+        SENTENCE_NT'understand "[any room]" as going by name'
+        SENTENCE_NT'understand "go to [any room]" as going by name'
+        SENTENCE_NT'going by name is an action applying to one thing'
+        SENTENCE_NT'carry out an actor going by name'
+        SENTENCE_NT'let step count be 0'
+        SENTENCE_NT'let original be the location of the actor'
+        SENTENCE_NT'while location of the actor is not the noun begin'
+        SENTENCE_NT'let aim be the best route from the location of the actor to '
+        SENTENCE_NT'if aim is not a direction begin'
+        SENTENCE_NT'if the player is the actor , say "You can't think how to get'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'let destiny be the room aim from the location of the actor'
+        SENTENCE_NT'if actor is player , say "(heading [aim])[command clarificat'
+        SENTENCE_NT'increase step count by 1'
+        SENTENCE_NT'try the actor going aim'
+        SENTENCE_NT'if the location of the actor is not destiny begin'
+        SENTENCE_NT'if the player is the actor , say "You're stuck." instead'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end while'
+        SENTENCE_NT'if actor is not player , say "[actor] hikes from [original] '
+        SENTENCE_NT'larry , curly , moe , george , mike , bob , jayson , crito ,'
+        SENTENCE_NT'lisa , tina , maria , benita , sasha , marita , queenie , el'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'repeat with victim running through every person who is not t'
+        SENTENCE_NT'let goal be a random room'
+        SENTENCE_NT'try the victim going by name the goal'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'test me with "go to Plateau/z/z/z/z/open door/z/z/z/z/z"'

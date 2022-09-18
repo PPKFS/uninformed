@@ -1,0 +1,16 @@
+Read 92 words
+syntax-test: unexpected semicolon in sentence: if the noun is blorbed into the second noun, say "Blorbed!"
+syntax-test: unexpected semicolon in sentence: now the screwdriver is blorbed into the pear
+ROOT_NT
+    HEADING_NT'testing is a room' {heading 0}
+        SENTENCE_NT'testing is a room'
+        SENTENCE_NT'an umbrella is here'
+        SENTENCE_NT'a pear is here'
+        SENTENCE_NT'the screwdriver is a device'
+        SENTENCE_NT'blorbing relates various devices to one thing'
+        SENTENCE_NT'the verb to be blorbed into implies the blorbing relation'
+        SENTENCE_NT'instead of inserting something into something'
+        SENTENCE_NT'if the noun is blorbed into the second noun , say "Blorbed!"'
+        SENTENCE_NT'now the screwdriver is blorbed into the pear'
+        SENTENCE_NT'now the noun is blorbed into the second noun'
+        SENTENCE_NT'test me with "put umbrella in pear"'

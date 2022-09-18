@@ -1,0 +1,8 @@
+Read 22 words
+syntax-test: unexpected semicolon in sentence: let S be 3
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let s be 3'
+        SENTENCE_NT'say "(num = [S][s])"'

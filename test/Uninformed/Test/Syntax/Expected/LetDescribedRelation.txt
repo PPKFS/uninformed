@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'temple is a room' {heading 0}
+        SENTENCE_NT'temple is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be a one-to-one relation of numbers to men'

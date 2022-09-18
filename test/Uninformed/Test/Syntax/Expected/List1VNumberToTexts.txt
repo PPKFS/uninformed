@@ -1,0 +1,23 @@
+Read 91 words
+syntax-test: unexpected semicolon in sentence: say "Texts that [n] relates to..."
+syntax-test: unexpected semicolon in sentence: bar 27
+syntax-test: unexpected semicolon in sentence: bar 1
+syntax-test: unexpected semicolon in sentence: bar 2
+ROOT_NT
+    HEADING_NT'fubar relates one number to various texts' {heading 0}
+        SENTENCE_NT'fubar relates one number to various texts'
+        SENTENCE_NT'the verb to foo means the fubar relation'
+        SENTENCE_NT'27 foos "a"'
+        SENTENCE_NT'27 foos "a2"'
+        SENTENCE_NT'1 foos "b"'
+        SENTENCE_NT'2 foos "a"'
+        SENTENCE_NT'2 foos "c"'
+        SENTENCE_NT'to bar ( n - a number )'
+        SENTENCE_NT'say "Texts that [n] relates to..."'
+        SENTENCE_NT'repeat with t running through the list of texts that n relat'
+        SENTENCE_NT'showme t'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'bar 27'
+        SENTENCE_NT'bar 1'
+        SENTENCE_NT'bar 2'
+        SENTENCE_NT'bar 3'

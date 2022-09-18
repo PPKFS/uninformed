@@ -1,0 +1,17 @@
+Read 108 words
+syntax-test: unexpected semicolon in sentence: now the standard report waiting rule response (A) is "Gosh, this is dull."
+syntax-test: unexpected semicolon in sentence: now can't exit closed containers rule response (A) is "Pesky [cage]."
+ROOT_NT
+    HEADING_NT'the paris theatre is a room' {heading 0}
+        SENTENCE_NT'the paris theatre is a room'
+        SENTENCE_NT'the big box is a container in the theatre'
+        SENTENCE_NT'the box is open and openable'
+        SENTENCE_NT'the box is enterable and transparent'
+        SENTENCE_NT'a red button is here'
+        SENTENCE_NT'standard report waiting rule response ( a ) is "Jeepers, thi'
+        SENTENCE_NT'the can't exit closed containers rule response ( a ) is "Wre'
+        SENTENCE_NT'instead of pushing the button'
+        SENTENCE_NT'now the standard report waiting rule response ( a ) is "Gosh'
+        SENTENCE_NT'now can't exit closed containers rule response ( a ) is "Pes'
+        SENTENCE_NT'say "Clunk!"'
+        SENTENCE_NT'test me with "z / enter box / close box / exit / open box / '

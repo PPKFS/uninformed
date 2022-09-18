@@ -1,0 +1,15 @@
+Read 71 words
+syntax-test: unexpected semicolon in sentence: showme whether or not bar is bazzed
+syntax-test: unexpected semicolon in sentence: now the baz of bar is true
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a foo is a kind of value'
+        SENTENCE_NT'the foo is bar'
+        SENTENCE_NT'a foo has a truth state called baz'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a foo is bazzed if its baz is true'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme whether or not bar is bazzed'
+        SENTENCE_NT'now the baz of bar is true'
+        SENTENCE_NT'showme whether or not bar is bazzed'

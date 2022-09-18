@@ -1,0 +1,22 @@
+Read 123 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'"Just a small kitchen."'
+        SENTENCE_NT'a candle is here'
+        SENTENCE_NT'a match is here'
+        SENTENCE_NT'the match is lit'
+        SENTENCE_NT'burning it with is an action applying to two things'
+        SENTENCE_NT'understand the command "burn" as something new'
+        SENTENCE_NT'understand the command "light" as something new'
+        SENTENCE_NT'understand "burn [something] with [something]" as burning it'
+        SENTENCE_NT'understand the command "light" as "burn"'
+        SENTENCE_NT'check burning something lit with something'
+        SENTENCE_NT'say "[The noun] is already lit." instead'
+        SENTENCE_NT'check burning something with something unlit'
+        SENTENCE_NT'say "You can't light anything with something that isn't alre'
+        SENTENCE_NT'carry out burning it with'
+        SENTENCE_NT'now the noun is lit'
+        SENTENCE_NT'report burning it with'
+        SENTENCE_NT'say "You light [the noun] with [the second noun]."'
+        SENTENCE_NT'test me with "light candle with match / burn candle with mat'

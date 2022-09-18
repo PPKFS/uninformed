@@ -1,0 +1,17 @@
+Read 89 words
+syntax-test: unexpected semicolon in sentence: showme doubling
+syntax-test: unexpected semicolon in sentence: showme doubling applied to 2
+syntax-test: unexpected semicolon in sentence: showme length extraction
+syntax-test: unexpected semicolon in sentence: showme length extraction applied to "Hello world!"
+ROOT_NT
+    HEADING_NT'to decide what number is double ( n - a number ) ( this is d' {heading 0}
+        SENTENCE_NT'to decide what number is double ( n - a number ) ( this is d'
+        SENTENCE_NT'decide on n plus n'
+        SENTENCE_NT'to decide which number is the length of ( t - an text ) ( th'
+        SENTENCE_NT'decide on the number of characters in t'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme doubling'
+        SENTENCE_NT'showme doubling applied to 2'
+        SENTENCE_NT'showme length extraction'
+        SENTENCE_NT'showme length extraction applied to "Hello world!"'
+        SENTENCE_NT'showme the length of "Hello world!"'

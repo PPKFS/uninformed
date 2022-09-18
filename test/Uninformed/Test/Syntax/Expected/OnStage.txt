@@ -1,0 +1,14 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: if the stone is on-stage, say "The stone is on-stage."
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'a meteor , a stone , and a long glass of sherbet are in stag'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'now the stone is off-stage'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now the stone is on-stage'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if the stone is on-stage , say "The stone is on-stage."'
+        SENTENCE_NT'if the stone is off-stage , say "The stone is off-stage."'
+        SENTENCE_NT'test me with "look / z / look / jump / get stone / jump / lo'

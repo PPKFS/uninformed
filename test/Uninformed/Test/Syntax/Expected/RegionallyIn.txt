@@ -1,0 +1,29 @@
+Read 118 words
+syntax-test: unexpected semicolon in sentence: if the location provides the property map region begin
+syntax-test: unexpected semicolon in sentence: let R be the map region of the location
+syntax-test: unexpected semicolon in sentence: say "This is iteration over region [R] with the region stored as a variable."
+syntax-test: unexpected semicolon in sentence: repeat with P running through the rooms regionally in R begin
+syntax-test: unexpected semicolon in sentence: say "  [P] is in that region."
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: say "This is the iteration over region Empty Space with the region referred to directly."
+syntax-test: unexpected semicolon in sentence: repeat with P running through the rooms regionally in the Empty Space begin
+syntax-test: unexpected semicolon in sentence: say "  [P] is in that region."
+ROOT_NT
+    HEADING_NT'the mysterious void , the unknowable vastness , and the noth' {heading 0}
+        SENTENCE_NT'the mysterious void , the unknowable vastness , and the noth'
+        SENTENCE_NT'the empty space is a region'
+        SENTENCE_NT'the mysterious void , unknownable vastness , and nothingness'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if the location provides the property map region begin'
+        SENTENCE_NT'let r be the map region of the location'
+        SENTENCE_NT'say "This is iteration over region [R] with the region store'
+        SENTENCE_NT'repeat with p running through the rooms regionally in r begi'
+        SENTENCE_NT'say "  [P] is in that region."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'say "This is the iteration over region Empty Space with the '
+        SENTENCE_NT'repeat with p running through the rooms regionally in the em'
+        SENTENCE_NT'say "  [P] is in that region."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'test me with "z"'

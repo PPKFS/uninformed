@@ -1,0 +1,16 @@
+Read 108 words
+ROOT_NT
+    HEADING_NT'the garden is a room' {heading 0}
+        SENTENCE_NT'the garden is a room'
+        SENTENCE_NT'a fruit dispenser is here'
+        SENTENCE_NT'a container called the glass box is part of the fruit dispen'
+        SENTENCE_NT'it is closed and transparent'
+        SENTENCE_NT'an apple is in the glass box'
+        SENTENCE_NT'the sky is a backdrop'
+        SENTENCE_NT'it is in the garden'
+        SENTENCE_NT'the flock of geese is part of the sky'
+        SENTENCE_NT'it is an animal'
+        SENTENCE_NT'the hot air balloon is part of the sky'
+        SENTENCE_NT'it is a vehicle'
+        SENTENCE_NT'the picnic basket is a container in the hot air balloon'
+        SENTENCE_NT'test me with "push apple / push basket / enter balloon / pus'

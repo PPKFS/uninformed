@@ -1,0 +1,34 @@
+Read 92 words
+syntax-test: unexpected semicolon in sentence: let temp be -0.123 kg
+syntax-test: unexpected semicolon in sentence: say "[temp][line break]"
+syntax-test: unexpected semicolon in sentence: let temp be -1.123 kg
+syntax-test: unexpected semicolon in sentence: say "[temp][line break]"
+syntax-test: unexpected semicolon in sentence: let temp be -10.000 kg
+syntax-test: unexpected semicolon in sentence: say "[temp][line break]"
+syntax-test: unexpected semicolon in sentence: let temp be 0.123 kg
+syntax-test: unexpected semicolon in sentence: say "[temp][line break]"
+syntax-test: unexpected semicolon in sentence: let temp be 1.123 kg
+syntax-test: unexpected semicolon in sentence: say "[temp][line break]"
+syntax-test: unexpected semicolon in sentence: let temp be 10.000 kg
+syntax-test: unexpected semicolon in sentence: say "[temp][line break]"
+syntax-test: unexpected semicolon in sentence: let temp be 0.000 kg
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'a weight is a kind of value'
+        SENTENCE_NT'-99.999 kg specifies a weight'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let temp be -0.123 kg'
+        SENTENCE_NT'say "[temp][line break]"'
+        SENTENCE_NT'let temp be -1.123 kg'
+        SENTENCE_NT'say "[temp][line break]"'
+        SENTENCE_NT'let temp be -10.000 kg'
+        SENTENCE_NT'say "[temp][line break]"'
+        SENTENCE_NT'let temp be 0.123 kg'
+        SENTENCE_NT'say "[temp][line break]"'
+        SENTENCE_NT'let temp be 1.123 kg'
+        SENTENCE_NT'say "[temp][line break]"'
+        SENTENCE_NT'let temp be 10.000 kg'
+        SENTENCE_NT'say "[temp][line break]"'
+        SENTENCE_NT'let temp be 0.000 kg'
+        SENTENCE_NT'say "[temp][line break]"'

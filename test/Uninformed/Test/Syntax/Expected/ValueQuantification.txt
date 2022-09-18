@@ -1,0 +1,55 @@
+Read 294 words
+syntax-test: unexpected semicolon in sentence: say "Materials: "
+syntax-test: unexpected semicolon in sentence: if the player can see a thing made of a strong material, say "The player can see a thing made of a strong material."
+syntax-test: unexpected semicolon in sentence: otherwise say "The player can't see a thing made of a strong material."
+syntax-test: unexpected semicolon in sentence: say "Scenes:[paragraph break]"
+syntax-test: unexpected semicolon in sentence: if a scene (called X) features the player, say "Scene [X] features the player."
+syntax-test: unexpected semicolon in sentence: otherwise say "No scene features the player."
+syntax-test: unexpected semicolon in sentence: if more than two scenes feature the player, say "More than two scenes feature the player."
+syntax-test: unexpected semicolon in sentence: otherwise say "Fewer than two scenes feature the player."
+syntax-test: unexpected semicolon in sentence: if more than two scenes feature Knuth, say "More than two scenes feature Knuth."
+syntax-test: unexpected semicolon in sentence: otherwise say "Fewer than two scenes feature Knuth."
+syntax-test: unexpected semicolon in sentence: say "Number of scenes featuring the player: [number of scenes featuring the player]."
+syntax-test: unexpected semicolon in sentence: say "Number of scenes featuring Knuth: [number of scenes featuring Knuth]."
+syntax-test: unexpected semicolon in sentence: say "Number of bad scenes featuring the player: [number of bad scenes featuring the player]."
+syntax-test: unexpected semicolon in sentence: say "Number of bad scenes featuring Knuth: [number of bad scenes featuring Knuth]."
+syntax-test: unexpected semicolon in sentence: say "Number of good scenes featuring the player: [number of good scenes featuring the player]."
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'lsd experience is a scene'
+        SENTENCE_NT'bach cantata concert is a scene'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is bad if it is the lsd experience'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is good if it is not the lsd experience'
+        SENTENCE_NT'material is a kind of value'
+        SENTENCE_NT'the materials are wood and metal'
+        SENTENCE_NT'a thing has a material'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a material is strong if it is metal'
+        SENTENCE_NT'materiality relates a thing ( called x ) to a material ( cal'
+        SENTENCE_NT'the verb to be made of implies the materiality relation'
+        SENTENCE_NT'the desk and lamp are in stanford'
+        SENTENCE_NT'the desk is wood'
+        SENTENCE_NT'the lamp is metal'
+        SENTENCE_NT'don knuth is a man in stanford'
+        SENTENCE_NT'featuring relates a scene ( called x ) to a person ( called '
+        SENTENCE_NT'the verb to feature ( he features , they feature , it featur'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Materials: "'
+        SENTENCE_NT'if the player can see a thing made of a strong material , sa'
+        SENTENCE_NT'otherwise say "The player can't see a thing made of a strong'
+        SENTENCE_NT'say "Scenes:[paragraph break]"'
+        SENTENCE_NT'if a scene ( called x ) features the player , say "Scene [X]'
+        SENTENCE_NT'otherwise say "No scene features the player."'
+        SENTENCE_NT'if more than two scenes feature the player , say "More than '
+        SENTENCE_NT'otherwise say "Fewer than two scenes feature the player."'
+        SENTENCE_NT'if more than two scenes feature knuth , say "More than two s'
+        SENTENCE_NT'otherwise say "Fewer than two scenes feature Knuth."'
+        SENTENCE_NT'say "Number of scenes featuring the player: [number of scene'
+        SENTENCE_NT'say "Number of scenes featuring Knuth: [number of scenes fea'
+        SENTENCE_NT'say "Number of bad scenes featuring the player: [number of b'
+        SENTENCE_NT'say "Number of bad scenes featuring Knuth: [number of bad sc'
+        SENTENCE_NT'say "Number of good scenes featuring the player: [number of '
+        SENTENCE_NT'say "Number of good scenes featuring Knuth: [number of good '

@@ -1,0 +1,12 @@
+Read 53 words
+syntax-test: unexpected semicolon in sentence: consider { 3 }
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to consider ( l - a list of numbers )'
+        SENTENCE_NT'say "Just some list."'
+        SENTENCE_NT'to consider ( l - { 3 } )'
+        SENTENCE_NT'say "A specific list."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'consider { 3 }'
+        SENTENCE_NT'consider { 2 , 5 }'

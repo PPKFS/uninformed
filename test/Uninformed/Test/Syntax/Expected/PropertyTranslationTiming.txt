@@ -1,0 +1,10 @@
+Read 59 words
+ROOT_NT
+    HEADING_NT'the magic door is north of the starting room' {heading 0}
+        SENTENCE_NT'the magic door is north of the starting room'
+        SENTENCE_NT'the magic door is a door'
+        SENTENCE_NT'the first room is through the magic door'
+        SENTENCE_NT'the second room is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the second room is through the magic door'
+        SENTENCE_NT'test me with "open door/enter door"'

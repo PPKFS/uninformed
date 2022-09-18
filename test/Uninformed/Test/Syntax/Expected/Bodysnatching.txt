@@ -1,0 +1,12 @@
+Read 72 words
+ROOT_NT
+    HEADING_NT'the cell is a room' {heading 0}
+        SENTENCE_NT'the cell is a room'
+        SENTENCE_NT'robert is a man in the cell'
+        SENTENCE_NT'the player is robert'
+        SENTENCE_NT'julian is a man in the cell'
+        SENTENCE_NT'a tattoo is a kind of thing'
+        SENTENCE_NT'a tattoo is part of every man'
+        SENTENCE_NT'a nose is a kind of thing'
+        SENTENCE_NT'a nose is part of every person'
+        SENTENCE_NT'test me with "showme"'

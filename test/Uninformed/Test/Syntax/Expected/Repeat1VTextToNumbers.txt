@@ -1,0 +1,15 @@
+Read 76 words
+syntax-test: unexpected semicolon in sentence: let x be 0
+syntax-test: unexpected semicolon in sentence: say "i: [i] x: [x]."
+syntax-test: unexpected semicolon in sentence: now i abcs x
+ROOT_NT
+    HEADING_NT'xyz relates one text to various numbers' {heading 0}
+        SENTENCE_NT'xyz relates one text to various numbers'
+        SENTENCE_NT'the verb to abc means the xyz relation'
+        SENTENCE_NT'alphabet is always { "a" , "b" , "c" , "d" , "e" , "f" , "g"'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let x be 0'
+        SENTENCE_NT'repeat with i running through alphabet'
+        SENTENCE_NT'say "i: [i] x: [x]."'
+        SENTENCE_NT'now i abcs x'
+        SENTENCE_NT'increment x'

@@ -1,0 +1,17 @@
+Read 46 words
+syntax-test: unexpected semicolon in sentence: let x be some text
+syntax-test: unexpected semicolon in sentence: say "At loop start: "
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: now x is "nonempty"
+syntax-test: unexpected semicolon in sentence: say "At loop end: "
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with a counter running from one to two'
+        SENTENCE_NT'let x be some text'
+        SENTENCE_NT'say "At loop start: "'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'now x is "nonempty"'
+        SENTENCE_NT'say "At loop end: "'
+        SENTENCE_NT'showme x'

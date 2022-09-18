@@ -1,0 +1,35 @@
+Read 189 words
+syntax-test: unexpected semicolon in sentence: say "The [world] [shimmer] into the [grammatical tense understood]."
+syntax-test: unexpected semicolon in sentence: say "[We] [shimmer] into the [narrative viewpoint understood]."
+syntax-test: unexpected semicolon in sentence: say "[We]['re not] sure about that. [We]['ve] thought better. [regarding
+the noun][Those] [are] unlikely to be in [our] possession; [regarding the
+noun][those in the nominative] [are not] what [they] [seem]. [They]
+[are] best in [their] original location. [Their] home; [theirs]."
+ROOT_NT
+    HEADING_NT'to shimmer is a verb' {heading 0}
+        SENTENCE_NT'to shimmer is a verb'
+        SENTENCE_NT'the world is a thing'
+        SENTENCE_NT'adopting is an action applying to one grammatical tense'
+        SENTENCE_NT'carry out adopting'
+        SENTENCE_NT'say "The [world] [shimmer] into the [grammatical tense under'
+        SENTENCE_NT'now the story tense is the grammatical tense understood'
+        SENTENCE_NT'understand "adopt [grammatical tense]" as adopting'
+        SENTENCE_NT'regarding as is an action applying to one narrative viewpoin'
+        SENTENCE_NT'carry out regarding as'
+        SENTENCE_NT'say "[We] [shimmer] into the [narrative viewpoint understood'
+        SENTENCE_NT'now the story viewpoint is the narrative viewpoint understoo'
+        SENTENCE_NT'understand "regard as [narrative viewpoint]" as regarding as'
+        SENTENCE_NT'the conjugation lounge is a room'
+        SENTENCE_NT'the swagger stick is in the lounge'
+        SENTENCE_NT'the verb to grace means to be worn by'
+        SENTENCE_NT'a feather boa graces miss kelly'
+        SENTENCE_NT'miss kelly is a woman in the lounge'
+        SENTENCE_NT'fred astaire is a man in the lounge'
+        SENTENCE_NT'some shoes are in the lounge'
+        SENTENCE_NT'a pair of socks is in the lounge'
+        SENTENCE_NT'the pair is ambiguously plural'
+        SENTENCE_NT'to seem is a verb'
+        SENTENCE_NT'before taking'
+        SENTENCE_NT'say "[We]['re not] sure about that. [We]['ve] thought better'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'test me with "get me / get stick / get kelly / get fred / ge'

@@ -1,0 +1,13 @@
+Read 48 words
+syntax-test: unexpected semicolon in sentence: say "[Combatant entry] goes now."
+syntax-test: unexpected semicolon in sentence: say "Trying [Combatant entry]."
+ROOT_NT
+    HEADING_NT'the church is a room' {heading 0}
+        SENTENCE_NT'the church is a room'
+        SENTENCE_NT'table of combat order combatant "First" "Second" "Third" "Fo'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'repeat through the table of combat order'
+        SENTENCE_NT'say "[Combatant entry] goes now."'
+        SENTENCE_NT'repeat through the table of combat order'
+        SENTENCE_NT'say "Trying [Combatant entry]."'
+        SENTENCE_NT'say "That's it for [Combatant entry].[paragraph break]"'

@@ -1,0 +1,18 @@
+Read 88 words
+syntax-test: unexpected semicolon in sentence: follow blob rules for { 1, 17, 2 }
+syntax-test: unexpected semicolon in sentence: follow blob rules for { 2, 4 }
+ROOT_NT
+    HEADING_NT'blob is a list of numbers based rulebook' {heading 0}
+        SENTENCE_NT'blob is a list of numbers based rulebook'
+        SENTENCE_NT'first blob rule for a list of numbers ( called l )'
+        SENTENCE_NT'say "I now apply blob to [L]."'
+        SENTENCE_NT'blob rule for empty lists of numbers'
+        SENTENCE_NT'say "It's empty!"'
+        SENTENCE_NT'blob rule for { 2 , 4 }'
+        SENTENCE_NT'say "It's the magic one!"'
+        SENTENCE_NT'blob rule'
+        SENTENCE_NT'say "It's a list, anyway."'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'follow blob rules for { 1 , 17 , 2 }'
+        SENTENCE_NT'follow blob rules for { 2 , 4 }'
+        SENTENCE_NT'follow blob rules for { }'

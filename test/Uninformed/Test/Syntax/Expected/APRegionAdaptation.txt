@@ -1,0 +1,23 @@
+Read 102 words
+ROOT_NT
+    HEADING_NT'foo is a region' {heading 0}
+        SENTENCE_NT'foo is a region'
+        SENTENCE_NT'the lab is in foo'
+        SENTENCE_NT'the corridor is south of the lab'
+        SENTENCE_NT'barring is an action applying to one visible thing'
+        SENTENCE_NT'understand "bar [any region]" as barring'
+        SENTENCE_NT'instead of barring foo'
+        SENTENCE_NT'say "Foo barred."'
+        SENTENCE_NT'before going in foo'
+        SENTENCE_NT'say "Going in Foo now."'
+        SENTENCE_NT'before going to foo'
+        SENTENCE_NT'say "Going to Foo now."'
+        SENTENCE_NT'before going from foo'
+        SENTENCE_NT'say "Going from Foo now."'
+        SENTENCE_NT'before going in corridor'
+        SENTENCE_NT'say "Going in Corridor now."'
+        SENTENCE_NT'before going to corridor'
+        SENTENCE_NT'say "Going to Corridor now."'
+        SENTENCE_NT'before going from corridor'
+        SENTENCE_NT'say "Going from Corridor now."'
+        SENTENCE_NT'test me with "actions / bar foo / s / n"'

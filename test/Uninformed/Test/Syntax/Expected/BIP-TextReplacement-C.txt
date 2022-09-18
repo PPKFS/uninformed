@@ -1,0 +1,81 @@
+Read 285 words
+syntax-test: unexpected semicolon in sentence: showme whether or not "fish" exactly matches the text "FIsH"
+syntax-test: unexpected semicolon in sentence: showme whether or not "fish" exactly matches the text "FIsH", case insensitively
+syntax-test: unexpected semicolon in sentence: showme whether or not "Go fish!" matches the text "fish"
+syntax-test: unexpected semicolon in sentence: showme whether or not "I WANT MY FISH" matches the text "fish", case insensitively
+syntax-test: unexpected semicolon in sentence: showme the number of times "Bananagrams to Alpaca" matches the text "a"
+syntax-test: unexpected semicolon in sentence: showme the number of times "Bananagrams to Alpaca" matches the text "a", case insensitively
+syntax-test: unexpected semicolon in sentence: run test A
+syntax-test: unexpected semicolon in sentence: run test B
+syntax-test: unexpected semicolon in sentence: run test C
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "The capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace word number 7 in Neptune with "banana"
+syntax-test: unexpected semicolon in sentence: say "The intermediate text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace word number 22 in Neptune with "pineapple daiquiri"
+syntax-test: unexpected semicolon in sentence: say "The intermediate text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace character number 5 in Neptune with "z"
+syntax-test: unexpected semicolon in sentence: say "The intermediate text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace character number 50 in Neptune with "(abcdef)"
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "The capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace the text "the" in Neptune with "potato"
+syntax-test: unexpected semicolon in sentence: replace the text "giants." in Neptune with "turtles?"
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "the capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace the word "the" in Neptune with "potato"
+syntax-test: unexpected semicolon in sentence: replace the word "system" in Neptune with "frog"
+syntax-test: unexpected semicolon in sentence: let Neptune be text
+syntax-test: unexpected semicolon in sentence: let Neptune be "The capture of Triton may explain a number of features of the Neptunian system, including the extremely eccentric orbit of Neptune's moon Nereid and the scarcity of moons as compared to the other gas giants."
+syntax-test: unexpected semicolon in sentence: say "The original text: [Neptune][line break]"
+syntax-test: unexpected semicolon in sentence: replace the punctuated word "system," in Neptune with "toad"
+syntax-test: unexpected semicolon in sentence: replace the punctuated word "." in Neptune with "!"
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme whether or not "fish" exactly matches the text "FIsH"'
+        SENTENCE_NT'showme whether or not "fish" exactly matches the text "FIsH"'
+        SENTENCE_NT'showme whether or not "Go fish!" matches the text "fish"'
+        SENTENCE_NT'showme whether or not "I WANT MY FISH" matches the text "fis'
+        SENTENCE_NT'showme the number of times "Bananagrams to Alpaca" matches t'
+        SENTENCE_NT'showme the number of times "Bananagrams to Alpaca" matches t'
+        SENTENCE_NT'run test a'
+        SENTENCE_NT'run test b'
+        SENTENCE_NT'run test c'
+        SENTENCE_NT'run test d'
+        SENTENCE_NT'to run test a'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "The capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace word number 7 in neptune with "banana"'
+        SENTENCE_NT'say "The intermediate text: [Neptune][line break]"'
+        SENTENCE_NT'replace word number 22 in neptune with "pineapple daiquiri"'
+        SENTENCE_NT'say "The intermediate text: [Neptune][line break]"'
+        SENTENCE_NT'replace character number 5 in neptune with "z"'
+        SENTENCE_NT'say "The intermediate text: [Neptune][line break]"'
+        SENTENCE_NT'replace character number 50 in neptune with "(abcdef)"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'
+        SENTENCE_NT'to run test b'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "The capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace the text "the" in neptune with "potato"'
+        SENTENCE_NT'replace the text "giants." in neptune with "turtles?"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'
+        SENTENCE_NT'to run test c'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "the capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace the word "the" in neptune with "potato"'
+        SENTENCE_NT'replace the word "system" in neptune with "frog"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'
+        SENTENCE_NT'to run test d'
+        SENTENCE_NT'let neptune be text'
+        SENTENCE_NT'let neptune be "The capture of Triton may explain a number o'
+        SENTENCE_NT'say "The original text: [Neptune][line break]"'
+        SENTENCE_NT'replace the punctuated word "system," in neptune with "toad"'
+        SENTENCE_NT'replace the punctuated word "." in neptune with "!"'
+        SENTENCE_NT'say "The redacted text: [Neptune][line break]"'

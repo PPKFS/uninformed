@@ -1,0 +1,87 @@
+Read 260 words
+syntax-test: unexpected semicolon in sentence: showme logarithm of e
+syntax-test: unexpected semicolon in sentence: showme logarithm of 1
+syntax-test: unexpected semicolon in sentence: showme logarithm of 1000
+syntax-test: unexpected semicolon in sentence: showme logarithm of exponential of 7.12
+syntax-test: unexpected semicolon in sentence: showme logarithm to base 10 of 1000000
+syntax-test: unexpected semicolon in sentence: showme logarithm to base 10 of 350
+syntax-test: unexpected semicolon in sentence: showme logarithm to base 2 of 256
+syntax-test: unexpected semicolon in sentence: showme exponential of 0
+syntax-test: unexpected semicolon in sentence: showme exponential of 1
+syntax-test: unexpected semicolon in sentence: showme exponential of -10
+syntax-test: unexpected semicolon in sentence: showme exponential of 10
+syntax-test: unexpected semicolon in sentence: showme exponential of logarithm of 7.12
+syntax-test: unexpected semicolon in sentence: say "x = log (pi^2): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = log (pi^2) where x is a real number
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = log pi^2: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = log pi^2
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = (log pi)^2: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = (log pi) ^2
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = log(pi^2): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = log (pi^2)
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = 2 log pi: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = 2 log pi
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = exp(exp(0)): "
+syntax-test: unexpected semicolon in sentence: let x be given by x = exp (exp (0))
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "x = exp exp 0: "
+syntax-test: unexpected semicolon in sentence: let x be given by x = exp exp 0
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "log x = 1: "
+syntax-test: unexpected semicolon in sentence: let x be given by log x = 1
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "log x = 0: "
+syntax-test: unexpected semicolon in sentence: let x be given by log x = 0
+syntax-test: unexpected semicolon in sentence: showme x
+syntax-test: unexpected semicolon in sentence: say "exp x = e: "
+syntax-test: unexpected semicolon in sentence: let x be given by exp x = e
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme logarithm of e'
+        SENTENCE_NT'showme logarithm of 1'
+        SENTENCE_NT'showme logarithm of 1000'
+        SENTENCE_NT'showme logarithm of exponential of 7.12'
+        SENTENCE_NT'showme logarithm to base 10 of 1000000'
+        SENTENCE_NT'showme logarithm to base 10 of 350'
+        SENTENCE_NT'showme logarithm to base 2 of 256'
+        SENTENCE_NT'showme exponential of 0'
+        SENTENCE_NT'showme exponential of 1'
+        SENTENCE_NT'showme exponential of -10'
+        SENTENCE_NT'showme exponential of 10'
+        SENTENCE_NT'showme exponential of logarithm of 7.12'
+        SENTENCE_NT'say "x = log (pi^2): "'
+        SENTENCE_NT'let x be given by x = log ( pi^2 ) where x is a real number'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = log pi^2: "'
+        SENTENCE_NT'let x be given by x = log pi^2'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = (log pi)^2: "'
+        SENTENCE_NT'let x be given by x = ( log pi ) ^2'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = log(pi^2): "'
+        SENTENCE_NT'let x be given by x = log ( pi^2 )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = 2 log pi: "'
+        SENTENCE_NT'let x be given by x = 2 log pi'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = exp(exp(0)): "'
+        SENTENCE_NT'let x be given by x = exp ( exp ( 0 ) )'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "x = exp exp 0: "'
+        SENTENCE_NT'let x be given by x = exp exp 0'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "log x = 1: "'
+        SENTENCE_NT'let x be given by log x = 1'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "log x = 0: "'
+        SENTENCE_NT'let x be given by log x = 0'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "exp x = e: "'
+        SENTENCE_NT'let x be given by exp x = e'
+        SENTENCE_NT'showme x'

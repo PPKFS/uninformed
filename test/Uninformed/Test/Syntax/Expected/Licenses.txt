@@ -1,0 +1,13 @@
+Read 88 words
+ROOT_NT
+    HEADING_NT'"Rules as Properties"' {heading 0}
+        SENTENCE_NT'"Rules as Properties"'
+        SENTENCE_NT'a document is a kind of thing'
+        SENTENCE_NT'a document has a rule called the submission'
+        SENTENCE_NT'the player is in a room called starter room'
+        SENTENCE_NT'a document called the license registration is in starter roo'
+        SENTENCE_NT'this is the license submission rule'
+        SENTENCE_NT'say "License has been submitted!"'
+        SENTENCE_NT'the submission of the license registration is the license su'
+        SENTENCE_NT'instead of taking a document , follow the submission of the '
+        SENTENCE_NT'test me with "wait / get registration"'

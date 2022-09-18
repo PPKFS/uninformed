@@ -1,0 +1,27 @@
+Read 87 words
+syntax-test: unexpected semicolon in sentence: let flag be whether or not "xyzzy" is "xyzzy"
+syntax-test: unexpected semicolon in sentence: say "Case 1: [flag]."
+syntax-test: unexpected semicolon in sentence: let flag be whether or not "xyzzy" is "xy[z]zy"
+syntax-test: unexpected semicolon in sentence: say "Case 2: [flag]."
+syntax-test: unexpected semicolon in sentence: let flag be whether or not "xy[z]zy" is "xyzzy"
+syntax-test: unexpected semicolon in sentence: say "Case 3: [flag]."
+syntax-test: unexpected semicolon in sentence: let flag be whether or not "xy[z]zy" is "xy[z]zy"
+syntax-test: unexpected semicolon in sentence: say "Case 4: [flag]."
+syntax-test: unexpected semicolon in sentence: let flag be whether or not "xy[z][z]y" is "xy[doublez]y"
+ROOT_NT
+    HEADING_NT'to say z' {heading 0}
+        SENTENCE_NT'to say z'
+        SENTENCE_NT'say "z"'
+        SENTENCE_NT'to say doublez'
+        SENTENCE_NT'say "zz"'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let flag be whether or not "xyzzy" is "xyzzy"'
+        SENTENCE_NT'say "Case 1: [flag]."'
+        SENTENCE_NT'let flag be whether or not "xyzzy" is "xy[z]zy"'
+        SENTENCE_NT'say "Case 2: [flag]."'
+        SENTENCE_NT'let flag be whether or not "xy[z]zy" is "xyzzy"'
+        SENTENCE_NT'say "Case 3: [flag]."'
+        SENTENCE_NT'let flag be whether or not "xy[z]zy" is "xy[z]zy"'
+        SENTENCE_NT'say "Case 4: [flag]."'
+        SENTENCE_NT'let flag be whether or not "xy[z][z]y" is "xy[doublez]y"'
+        SENTENCE_NT'say "Case 5: [flag]."'

@@ -1,0 +1,35 @@
+Read 181 words
+syntax-test: unexpected semicolon in sentence: showme wolf count
+syntax-test: unexpected semicolon in sentence: showme marmot count
+syntax-test: unexpected semicolon in sentence: showme the preferred person
+syntax-test: unexpected semicolon in sentence: showme the badger count
+syntax-test: unexpected semicolon in sentence: showme the description of the fish
+syntax-test: unexpected semicolon in sentence: let X be the badger count
+syntax-test: unexpected semicolon in sentence: let Y be the dull look
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Bananas
+ROOT_NT
+    HEADING_NT'dummy is a room' {heading 0}
+        SENTENCE_NT'dummy is a room'
+        SENTENCE_NT'trevor carries the fish'
+        SENTENCE_NT'the wolf count is a number which varies'
+        SENTENCE_NT'the marmot count is initially 5'
+        SENTENCE_NT'the preferred person is initially trevor'
+        SENTENCE_NT'the preferred person is a person which varies'
+        SENTENCE_NT'the box is on the table'
+        SENTENCE_NT'the wolf count is initially 7'
+        SENTENCE_NT'the dull look is always "It has a dull look to it."'
+        SENTENCE_NT'the badger count is always 12'
+        SENTENCE_NT'table of bananas rating fruity 10 11 12 badger count'
+        SENTENCE_NT'the trebuchet is initially 16339'
+        SENTENCE_NT'the cuddly animal count is initially the badger count'
+        SENTENCE_NT'the description of the fish is the dull look'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme wolf count'
+        SENTENCE_NT'showme marmot count'
+        SENTENCE_NT'showme the preferred person'
+        SENTENCE_NT'showme the badger count'
+        SENTENCE_NT'showme the description of the fish'
+        SENTENCE_NT'let x be the badger count'
+        SENTENCE_NT'let y be the dull look'
+        SENTENCE_NT'showme the contents of the table of bananas'
+        SENTENCE_NT'showme { 1 , badger count , 7 }'

@@ -1,0 +1,8 @@
+Read 57 words
+ROOT_NT
+    HEADING_NT'there is a room called the spot' {heading 0}
+        SENTENCE_NT'there is a room called the spot'
+        SENTENCE_NT'report an actor jumping ( this is the blameless rule )'
+        SENTENCE_NT'anonymously abide by the report jumping rule'
+        SENTENCE_NT'the blameless rule is listed instead of the report jumping r'
+        SENTENCE_NT'test me with "actions / jump"'

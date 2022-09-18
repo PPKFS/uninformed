@@ -1,0 +1,14 @@
+Read 39 words
+syntax-test: unexpected semicolon in sentence: say Blorp
+syntax-test: unexpected semicolon in sentence: say blorp
+ROOT_NT
+    HEADING_NT'the schoolhouse is a room' {heading 0}
+        SENTENCE_NT'the schoolhouse is a room'
+        SENTENCE_NT'to say blorp'
+        SENTENCE_NT'say "Blorp!"'
+        SENTENCE_NT'to say blorp'
+        SENTENCE_NT'say "blorp."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say blorp'
+        SENTENCE_NT'say blorp'
+        SENTENCE_NT'say "Well, [Blorp]And [blorp]"'

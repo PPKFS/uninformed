@@ -1,0 +1,17 @@
+Read 120 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'the striplamp is in the dome'
+        SENTENCE_NT'the striplamp is not lit'
+        SENTENCE_NT'the dome is south from the dome'
+        SENTENCE_NT'before going south from the dome'
+        SENTENCE_NT'if the striplamp has been dark for at least two turns , say '
+        SENTENCE_NT'before going south from the dome when the striplamp has been'
+        SENTENCE_NT'say "when condition."'
+        SENTENCE_NT'before going south from the dome for at least two turns'
+        SENTENCE_NT'say "when condition without."'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if the striplamp has been dark , say "It has been dark."'
+        SENTENCE_NT'every turn when the striplamp has been dark , say "It has re'
+        SENTENCE_NT'test me with "actions/z/z/s"'

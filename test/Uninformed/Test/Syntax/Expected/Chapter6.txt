@@ -1,0 +1,279 @@
+Read 2071 words
+syntax-test: unexpected semicolon in sentence: say "[The noun] meets [the second noun]; both shriek in pain. But the necessary heat transfer occurs."
+syntax-test: unexpected semicolon in sentence: now the heat of the noun is luke-warm
+syntax-test: unexpected semicolon in sentence: say "[The noun] meets [the second noun]; both shriek in pain. But the necessary heat transfer occurs."
+syntax-test: unexpected semicolon in sentence: now the heat of the noun is luke-warm
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) on the table is drippy, say "'Help! Get me a coaster!' screams the table[if the table is visible], its veneer squirming under [the offending item][otherwise] from the Dining Room[end if]."
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) on the red chair is drippy, say "'Oh dear,' murmurs the red chair, as [the offending item] drips into its velvety seat. 'Oh dear, I will have a damp spot. This is so very -- what will people think?'"
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) on the visible armchair is drippy, say "[The offending item] visibly begins degrading the suede where it sits. The armchair is tactfully silent."
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) on the table is scalding, say "'Hey!' protests the table, practically smoking at [the offending item]. 'Heard of a trivet?'"
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) on the armchair is scalding, say "The armchair doesn't complain about [the offending item]; it just begins, quietly, to give off warm sweet clouds of blue steam, as though its inner opium-nature had been released."
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) on the table is spiky, say "The table holds very very very still lest [the offending item] mar its finish. But its resentment is palpable."
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) on the velvet chair is spiky, say "[The offending item] stabs the velvet of the red velvet chair, which draws itself up even more sharply in a pose of dutiful martyrdom."
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) which is spiky is on the ceramic tile, say "'[The offending item] itches!' cries the ceramic tile."
+syntax-test: unexpected semicolon in sentence: if something (called the offending item) in the location is spiky, say "'[The offending item] should not be on a parquet floor,' sings the parquet floor sadly."
+syntax-test: unexpected semicolon in sentence: if the table supports something which supports a drippy thing (called the offending item), say "'[The offending item] could still theoretically dribble down here,' says the table nonchalantly. 'It's possible.'"
+syntax-test: unexpected semicolon in sentence: let space be the holder of the puppy
+syntax-test: unexpected semicolon in sentence: let the best direction be the best route from space to the location, using doors
+syntax-test: unexpected semicolon in sentence: if the best direction is not a direction begin
+syntax-test: unexpected semicolon in sentence: say "You can hear the puppy whining pathetically in the distance."
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: let next step be the room the best direction from space
+syntax-test: unexpected semicolon in sentence: move puppy to the next step
+syntax-test: unexpected semicolon in sentence: if the puppy is visible, say "Your puppy bounds joyously into the room, coming [best direction] from [the space]!"
+syntax-test: unexpected semicolon in sentence: let space be the holder of the Spirit
+syntax-test: unexpected semicolon in sentence: let the best direction be the best route from space to the location, using even locked doors
+syntax-test: unexpected semicolon in sentence: if the best direction is not a direction begin
+syntax-test: unexpected semicolon in sentence: say "Something wails spookily in the distance."
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: let x be the number of moves from the location to the space
+syntax-test: unexpected semicolon in sentence: if x is -1, say "The house shudders ominously as something passes through the walls."
+syntax-test: unexpected semicolon in sentence: let next step be the room the best direction from space
+syntax-test: unexpected semicolon in sentence: move Spirit to the next step
+syntax-test: unexpected semicolon in sentence: if the Spirit is visible begin
+syntax-test: unexpected semicolon in sentence: say "The Spirit of Furniture Past drifts [best direction] into the room from [the space] to haunt you."
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: let x be the number of moves from the next step to the location
+syntax-test: unexpected semicolon in sentence: if x > 0, say "Something moans [x in words] room[s] away."
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if platter is carried by Alison and the player is in the Dining Room and almost all of the supporters are not concerned begin
+syntax-test: unexpected semicolon in sentence: let the next victim be the red velvet chair
+syntax-test: unexpected semicolon in sentence: move the platter to the next victim
+syntax-test: unexpected semicolon in sentence: say "Humming to herself, Alison brings in a hot platter and sets it down smack on [the next victim], then goes back out."
+syntax-test: unexpected semicolon in sentence: if kettle is carried by Alison and the player is in the Dining Room and at least three fixed in place supporters are contented begin
+syntax-test: unexpected semicolon in sentence: let the next victim be the fussy table
+syntax-test: unexpected semicolon in sentence: move the kettle to the next victim
+syntax-test: unexpected semicolon in sentence: say "Just then the kettle boils in the kitchen. Whistling chirpily, Alison brings it in and sets it down smack on [the next victim], then goes back out."
+syntax-test: unexpected semicolon in sentence: now score is 5 - the number of concerned things
+syntax-test: unexpected semicolon in sentence: if the location is concerned, decrease the score by 1
+syntax-test: unexpected semicolon in sentence: if all of the supporters are concerned and the location is concerned, end the story saying "You have died"
+syntax-test: unexpected semicolon in sentence: if the player is in the Kitchen and fewer than two plates are occupied begin
+syntax-test: unexpected semicolon in sentence: let the snack be a random cookie carried by Alison
+syntax-test: unexpected semicolon in sentence: let the destination be a random empty plate
+syntax-test: unexpected semicolon in sentence: move the snack to the destination
+syntax-test: unexpected semicolon in sentence: say "Alison puts a cookie on one of the plates."
+syntax-test: unexpected semicolon in sentence: rule succeeds
+syntax-test: unexpected semicolon in sentence: if the player is in the Kitchen and exactly two plates are occupied begin
+syntax-test: unexpected semicolon in sentence: say "Alison beams happily on the plate arrangement."
+syntax-test: unexpected semicolon in sentence: if the player is in the Kitchen and at most three plates are occupied begin
+syntax-test: unexpected semicolon in sentence: say "Alison says, 'I do so love having enough plates to go around.'"
+syntax-test: unexpected semicolon in sentence: if the player is in the Kitchen and three plates are not occupied and Alison is carrying a cookie (called the snack) begin
+syntax-test: unexpected semicolon in sentence: let the destination be a random plate which is not occupied
+syntax-test: unexpected semicolon in sentence: move the snack to the destination
+syntax-test: unexpected semicolon in sentence: say "Alison puts a cookie on a plate."
+ROOT_NT
+    HEADING_NT'"Chapter 6: Return of the Fussy Table" by emily short' {heading 0}
+        SENTENCE_NT'"Chapter 6: Return of the Fussy Table" by emily short'
+        HEADING_NT'chapter 6' {heading 1}
+            SENTENCE_NT'use command line echoing'
+            SENTENCE_NT'use scoring'
+            SENTENCE_NT'the kitchen is a room'
+            SENTENCE_NT'"A quiet homelike room heated by a ferocious Aga."'
+            SENTENCE_NT'the dining room is north of the kitchen'
+            SENTENCE_NT'"A room of handsome proportions, with an octagonal dining ta'
+            SENTENCE_NT'the fussy table is a supporter in the dining room'
+            SENTENCE_NT'it is scenery'
+            SENTENCE_NT'the description is "It's hypochondriac: the result of a sojo'
+            SENTENCE_NT'a chair is a kind of supporter with carrying capacity 1'
+            SENTENCE_NT'a chair is enterable'
+            SENTENCE_NT'after entering a chair when the player is wearing a spiky th'
+            SENTENCE_NT'say "You sit on [the noun], lifting [the list of spiky thing'
+            SENTENCE_NT'the blue suede armchair and the red velvet dining chair are '
+            SENTENCE_NT'the description of the blue suede is "Quiet, mellow, and wit'
+            SENTENCE_NT'the red velvet has the description "In temperament, in beari'
+            SENTENCE_NT'the carrying capacity of the player is 2'
+            HEADING_NT'section 3 - sources of adjectives' {heading 2}
+                SENTENCE_NT'a thing can be drippy or dry'
+                SENTENCE_NT'before printing the name of a drippy thing'
+                SENTENCE_NT'say "drippy "'
+                SENTENCE_NT'before printing the name of a cold thing'
+                SENTENCE_NT'say "cold "'
+                SENTENCE_NT'before printing the name of a scalding thing'
+                SENTENCE_NT'say "scalding "'
+                SENTENCE_NT'heat is a kind of value'
+                SENTENCE_NT'the heats are luke-warm , cold , and scalding'
+                SENTENCE_NT'everything has a heat'
+                SENTENCE_NT'the platter is a scalding portable supporter'
+                SENTENCE_NT'it is carried by alison'
+                SENTENCE_NT'it has carrying capacity 1'
+                SENTENCE_NT'the glass of ice water is a cold , drippy thing'
+                SENTENCE_NT'it is on the table'
+                SENTENCE_NT'a thing can be spiky or smooth'
+                SENTENCE_NT'the cleated left shoe is a wearable spiky thing'
+                SENTENCE_NT'it is worn by the player'
+                SENTENCE_NT'the cleated right shoe is a wearable spiky thing'
+                SENTENCE_NT'it is worn'
+                SENTENCE_NT'instead of examining a drippy thing'
+                SENTENCE_NT'say "Pretty drippy."'
+                SENTENCE_NT'the ceramic tile is a cold portable supporter in the dining '
+                SENTENCE_NT'it has carrying capacity 1'
+                SENTENCE_NT'after putting a cold thing on a scalding thing'
+                SENTENCE_NT'say "[The noun] meets [the second noun]; both shriek in pain'
+                SENTENCE_NT'now the heat of the noun is luke-warm'
+                SENTENCE_NT'now the heat of the second noun is luke-warm'
+                SENTENCE_NT'after putting a scalding thing on a cold thing'
+                SENTENCE_NT'say "[The noun] meets [the second noun]; both shriek in pain'
+                SENTENCE_NT'now the heat of the noun is luke-warm'
+                SENTENCE_NT'now the heat of the second noun is luke-warm'
+            HEADING_NT'section 4 - defining new adjectives' {heading 2}
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a supporter is occupied if something is on it'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'something is contented if it is not concerned'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a chair is concerned if something drippy is on it or somethi'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'the table is concerned if something drippy is on it or somet'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'the ceramic tile is concerned if something spiky is on it'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a room is concerned if something drippy is in it or somethin'
+            HEADING_NT'section 5 - which and who' {heading 2}
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if something ( called the offending item ) on the table is d'
+                SENTENCE_NT'if something ( called the offending item ) on the red chair '
+                SENTENCE_NT'if something ( called the offending item ) on the visible ar'
+                SENTENCE_NT'if a drippy thing ( called the offending item ) is in the lo'
+                SENTENCE_NT'an every turn rule when the player is in the dining room'
+                SENTENCE_NT'if a cold dry thing ( called the offending item ) is on the '
+                SENTENCE_NT'an every turn rule when the player is in the dining room'
+                SENTENCE_NT'if something ( called the offending item ) on the table is s'
+                SENTENCE_NT'if something ( called the offending item ) on the armchair i'
+                SENTENCE_NT'if something ( called the offending item ) in the dining roo'
+                SENTENCE_NT'an every turn rule when the player is in the dining room'
+                SENTENCE_NT'if something ( called the offending item ) on the table is s'
+                SENTENCE_NT'if something ( called the offending item ) on the velvet cha'
+                SENTENCE_NT'if something ( called the offending item ) which is spiky is'
+                SENTENCE_NT'if something ( called the offending item ) in the location i'
+                SENTENCE_NT'if someone ( called the offending person ) in the location i'
+                SENTENCE_NT'an every turn rule when the player is in the dining room'
+                SENTENCE_NT'if the table supports something which supports a drippy thin'
+                SENTENCE_NT'if the velvet chair supports a concerned thing ( called the '
+            HEADING_NT'section 6 - to be able to see and touch' {heading 2}
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if the concerned table can see a supporter ( called the obje'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if someone ( called the shouter ) who is not visible can see'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if someone ( called the shouter ) who is in the kitchen cann'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if exactly one visible thing ( called the worried object ) i'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if a touchable thing ( called the dangerous object ) is scal'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if something ( called the threatening heat source ) which ca'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if something ( called the threatening spike source ) which c'
+            HEADING_NT'section 7 - adjacent rooms' {heading 2}
+                SENTENCE_NT'instead of going to an adjacent room when the player is in t'
+                SENTENCE_NT'say "'You're not leaving!?' whimpers the table at once."'
+                SENTENCE_NT'alison is a woman in the kitchen'
+                SENTENCE_NT'the kettle is a scalding thing carried by alison'
+                SENTENCE_NT'the attic is above the kitchen'
+                SENTENCE_NT'the sinister door is north of the attic and south of the gar'
+                SENTENCE_NT'the sinister door is a door'
+                SENTENCE_NT'it is openable , lockable and locked'
+                SENTENCE_NT'the player carries a skeleton key'
+                SENTENCE_NT'the skeleton key unlocks the sinister door'
+                SENTENCE_NT'the living room is west of the dining room and northwest of '
+                SENTENCE_NT'the dachsund puppy is an animal in the attic'
+                SENTENCE_NT'understand "Oscar" as the dachsund'
+                SENTENCE_NT'every turn when the puppy is not in the location'
+                SENTENCE_NT'let space be the holder of the puppy'
+                SENTENCE_NT'let the best direction be the best route from space to the l'
+                SENTENCE_NT'if the best direction is not a direction begin'
+                SENTENCE_NT'say "You can hear the puppy whining pathetically in the dist'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'let next step be the room the best direction from space'
+                SENTENCE_NT'move puppy to the next step'
+                SENTENCE_NT'if the puppy is visible , say "Your puppy bounds joyously in'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'the spirit of furniture past is a man in the garret'
+                SENTENCE_NT'every turn when the spirit is not in the location'
+                SENTENCE_NT'let space be the holder of the spirit'
+                SENTENCE_NT'let the best direction be the best route from space to the l'
+                SENTENCE_NT'if the best direction is not a direction begin'
+                SENTENCE_NT'say "Something wails spookily in the distance."'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'let x be the number of moves from the location to the space'
+                SENTENCE_NT'if x is -1 , say "The house shudders ominously as something '
+                SENTENCE_NT'let next step be the room the best direction from space'
+                SENTENCE_NT'move spirit to the next step'
+                SENTENCE_NT'if the spirit is visible begin'
+                SENTENCE_NT'say "The Spirit of Furniture Past drifts [best direction] in'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'let x be the number of moves from the next step to the locat'
+                SENTENCE_NT'if x > 0 , say "Something moans [x in words] room[s] away."'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'understand "teleport to [any room]" as teleporting to'
+                SENTENCE_NT'teleporting to is an action applying to one thing'
+                SENTENCE_NT'carry out teleporting to'
+                SENTENCE_NT'move the player to the noun'
+            HEADING_NT'section 8 - all , each and every' {heading 2}
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if platter is carried by alison and the player is in the din'
+                SENTENCE_NT'let the next victim be the red velvet chair'
+                SENTENCE_NT'move the platter to the next victim'
+                SENTENCE_NT'say "Humming to herself, Alison brings in a hot platter and '
+                SENTENCE_NT'end if'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if kettle is carried by alison and the player is in the dini'
+                SENTENCE_NT'let the next victim be the fussy table'
+                SENTENCE_NT'move the kettle to the next victim'
+                SENTENCE_NT'say "Just then the kettle boils in the kitchen. Whistling ch'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if some of the things are concerned , say "You sense some re'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'if almost all of the supporters are concerned , say "'I hope'
+                SENTENCE_NT'an every turn rule'
+                SENTENCE_NT'now score is 5 - the number of concerned things'
+                SENTENCE_NT'if the location is concerned , decrease the score by 1'
+                SENTENCE_NT'if all of the supporters are concerned and the location is c'
+                SENTENCE_NT'if none of the supporters are concerned and the location is '
+            HEADING_NT'section 9 - counting while comparing' {heading 2}
+                SENTENCE_NT'a plate is a kind of supporter'
+                SENTENCE_NT'a plate is portable'
+                SENTENCE_NT'ten plates are in the kitchen'
+                SENTENCE_NT'a cookie is a kind of thing'
+                SENTENCE_NT'15 cookies are carried by alison'
+                SENTENCE_NT'a cookie called a chocolate chip cookie is carried by alison'
+                SENTENCE_NT'a cookie called an oatmeal cookie is carried by alison'
+                SENTENCE_NT'a cookie called a manhole cover is carried by alison'
+                SENTENCE_NT'a cookie called a sugar drop is carried by alison'
+                SENTENCE_NT'a hat is a kind of thing'
+                SENTENCE_NT'a hat is wearable'
+                SENTENCE_NT'two hats are worn by alison'
+                SENTENCE_NT'an earring is a kind of thing'
+                SENTENCE_NT'an earring is wearable'
+                SENTENCE_NT'alison wears five earrings'
+                SENTENCE_NT'the stove is a supporter in the kitchen'
+                SENTENCE_NT'a pot is a kind of container'
+                SENTENCE_NT'three pots are supported by the stove'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'if the player is in the kitchen and fewer than two plates ar'
+                SENTENCE_NT'let the snack be a random cookie carried by alison'
+                SENTENCE_NT'let the destination be a random empty plate'
+                SENTENCE_NT'move the snack to the destination'
+                SENTENCE_NT'say "Alison puts a cookie on one of the plates."'
+                SENTENCE_NT'rule succeeds'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a plate is full if it supports a cookie'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a plate is empty if it is not full'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'if the player is in the kitchen and exactly two plates are o'
+                SENTENCE_NT'say "Alison beams happily on the plate arrangement."'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'if the player is in the kitchen and at most three plates are'
+                SENTENCE_NT'say "Alison says, 'I do so love having enough plates to go a'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'if the player is in the kitchen and three plates are not occ'
+                SENTENCE_NT'let the destination be a random plate which is not occupied'
+                SENTENCE_NT'move the snack to the destination'
+                SENTENCE_NT'say "Alison puts a cookie on a plate."'
+                SENTENCE_NT'end if'

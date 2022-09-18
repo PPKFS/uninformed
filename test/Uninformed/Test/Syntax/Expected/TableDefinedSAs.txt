@@ -1,0 +1,10 @@
+Read 83 words
+ROOT_NT
+    HEADING_NT'the mansion is a room' {heading 0}
+        SENTENCE_NT'the mansion is a room'
+        SENTENCE_NT'the large boulder is here'
+        SENTENCE_NT'a task is a kind of thing'
+        SENTENCE_NT'a task has a stored action called the relevant action'
+        SENTENCE_NT'some tasks are defined by the table of unfinished tasks'
+        SENTENCE_NT'table of unfinished tasks task relevant action boulder_touch'
+        SENTENCE_NT'table of splodghu tasks adfadfa asdfadf 1 touching the large'

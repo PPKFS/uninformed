@@ -1,0 +1,9 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'east of home is garden'
+        SENTENCE_NT'the air is a backdrop which is everywhere'
+        SENTENCE_NT'the ground is a backdrop'
+        SENTENCE_NT'the ground is everywhere'
+        SENTENCE_NT'test me with "x air / x ground / e / x air / x ground"'

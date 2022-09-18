@@ -1,0 +1,41 @@
+Read 206 words
+syntax-test: unexpected semicolon in sentence: let R be Region 1
+syntax-test: unexpected semicolon in sentence: showme R
+syntax-test: unexpected semicolon in sentence: say "R is [R]..."
+syntax-test: unexpected semicolon in sentence: say "Check (1a)."
+syntax-test: unexpected semicolon in sentence: say "Check (1b)."
+syntax-test: unexpected semicolon in sentence: say "Check (1c)."
+syntax-test: unexpected semicolon in sentence: say "Check (1d)."
+ROOT_NT
+    HEADING_NT'a crowd is a kind of people' {heading 0}
+        SENTENCE_NT'a crowd is a kind of people'
+        SENTENCE_NT'it is usually plural-named and undescribed'
+        SENTENCE_NT'it has a region called territory'
+        SENTENCE_NT'region 1 is a region'
+        SENTENCE_NT'region 2 is a region in region 1'
+        SENTENCE_NT'qr is a region that varies'
+        SENTENCE_NT'qr is region 1'
+        SENTENCE_NT'wr is initially region 1'
+        SENTENCE_NT'a room called room 1 is in region 2'
+        SENTENCE_NT'crowd 1 is here'
+        SENTENCE_NT'it is a crowd'
+        SENTENCE_NT'the territory of crowd 1 is region 2'
+        SENTENCE_NT'crowd 2 is here'
+        SENTENCE_NT'it is a crowd'
+        SENTENCE_NT'the territory of crowd 2 is region 1'
+        SENTENCE_NT'a room called room 2 is in region 2 and north of room 1'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'let r be region 1'
+        SENTENCE_NT'showme r'
+        SENTENCE_NT'say "R is [R]..."'
+        SENTENCE_NT'if the location is in region 1'
+        SENTENCE_NT'say "Check (1a)."'
+        SENTENCE_NT'if the location is in r'
+        SENTENCE_NT'say "Check (1b)."'
+        SENTENCE_NT'if the location is in the territory of crowd 2'
+        SENTENCE_NT'say "Check (1c)."'
+        SENTENCE_NT'if the location is in qr'
+        SENTENCE_NT'say "Check (1d)."'
+        SENTENCE_NT'if the location is in wr'
+        SENTENCE_NT'say "Check (1e)."'
+        SENTENCE_NT'test me with "showme / n / showme"'

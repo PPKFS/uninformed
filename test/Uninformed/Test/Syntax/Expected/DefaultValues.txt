@@ -1,0 +1,36 @@
+Read 141 words
+syntax-test: unexpected semicolon in sentence: showme default value of number
+syntax-test: unexpected semicolon in sentence: showme default value of time
+syntax-test: unexpected semicolon in sentence: showme default value of table name
+syntax-test: unexpected semicolon in sentence: showme default value of colour
+syntax-test: unexpected semicolon in sentence: showme default value of weight
+syntax-test: unexpected semicolon in sentence: let Q be a phrase numbers -> times
+syntax-test: unexpected semicolon in sentence: showme Q
+syntax-test: unexpected semicolon in sentence: showme Q applied to 4
+syntax-test: unexpected semicolon in sentence: let R be a phrase numbers -> (phrase numbers -> colours)
+syntax-test: unexpected semicolon in sentence: showme R
+syntax-test: unexpected semicolon in sentence: showme R applied to 3
+syntax-test: unexpected semicolon in sentence: showme (R applied to 3) applied to 2
+syntax-test: unexpected semicolon in sentence: let S be a phrase numbers -> nothing
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , indigo and chartreuse'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'5kg specifies a weight'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme default value of number'
+        SENTENCE_NT'showme default value of time'
+        SENTENCE_NT'showme default value of table name'
+        SENTENCE_NT'showme default value of colour'
+        SENTENCE_NT'showme default value of weight'
+        SENTENCE_NT'let q be a phrase numbers -> times'
+        SENTENCE_NT'showme q'
+        SENTENCE_NT'showme q applied to 4'
+        SENTENCE_NT'let r be a phrase numbers -> ( phrase numbers -> colours )'
+        SENTENCE_NT'showme r'
+        SENTENCE_NT'showme r applied to 3'
+        SENTENCE_NT'showme ( r applied to 3 ) applied to 2'
+        SENTENCE_NT'let s be a phrase numbers -> nothing'
+        SENTENCE_NT'showme s'

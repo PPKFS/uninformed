@@ -1,0 +1,30 @@
+Read 178 words
+syntax-test: unexpected semicolon in sentence: let X be text
+syntax-test: unexpected semicolon in sentence: let X be the player's command
+syntax-test: unexpected semicolon in sentence: replace the text "'s" in X with " [']s"
+ROOT_NT
+    HEADING_NT'after reading a command' {heading 0}
+        SENTENCE_NT'after reading a command'
+        SENTENCE_NT'let x be text'
+        SENTENCE_NT'let x be the player's command'
+        SENTENCE_NT'replace the text "'s" in x with " [']s"'
+        SENTENCE_NT'change the text of the player's command to x'
+        SENTENCE_NT'understand "[something related by reversed possession] 's" a'
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'chris is a person in the lab'
+        SENTENCE_NT'a hat is a kind of thing'
+        SENTENCE_NT'understand "chapeau/hat" as a hat'
+        SENTENCE_NT'the stetson is a hat in lab'
+        SENTENCE_NT'the fedora is a hat in lab'
+        SENTENCE_NT'color is a kind of value'
+        SENTENCE_NT'the colors are brown , red , and purple'
+        SENTENCE_NT'a hat has a color'
+        SENTENCE_NT'a hat is usually brown'
+        SENTENCE_NT'chris carries a red box'
+        SENTENCE_NT'chris carries a blue box'
+        SENTENCE_NT'understand the color property as describing a hat'
+        SENTENCE_NT'a key is here'
+        SENTENCE_NT'it is privately-named'
+        SENTENCE_NT'understand "house" or "car" as the key'
+        SENTENCE_NT'understand "key" or "kee" as the key'
+        SENTENCE_NT'test me with "x house / x car / x key / x kee / x house key '

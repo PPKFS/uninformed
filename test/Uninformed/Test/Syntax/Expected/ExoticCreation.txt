@@ -1,0 +1,10 @@
+Read 79 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'scene involvement relates various scenes to various people'
+        SENTENCE_NT'the verb to involve ( he involves , they involve , he involv'
+        SENTENCE_NT'bob is a man in home'
+        SENTENCE_NT'bob's revenge is a scene involving bob'
+        SENTENCE_NT'bob's revenge begins when we have attacked bob'
+        SENTENCE_NT'test me with "relations"'

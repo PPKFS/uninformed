@@ -1,0 +1,19 @@
+Read 95 words
+ROOT_NT
+    HEADING_NT'hunger is a room' {heading 0}
+        SENTENCE_NT'hunger is a room'
+        SENTENCE_NT'the cake is here'
+        SENTENCE_NT'the cake is edible'
+        SENTENCE_NT'the harem girl is here'
+        SENTENCE_NT'the harem girl carries the grapes'
+        SENTENCE_NT'the grapes are edible'
+        SENTENCE_NT'the fungus is here'
+        SENTENCE_NT'"Delicious fungus coats the walls."'
+        SENTENCE_NT'the fungus is edible and fixed in place'
+        SENTENCE_NT'madame cholet is here'
+        SENTENCE_NT'a dining table is here'
+        SENTENCE_NT'a jam tart is on the table'
+        SENTENCE_NT'the tart is edible'
+        SENTENCE_NT'instead of taking the tart'
+        SENTENCE_NT'say "Madame Cholet smacks your hand away."'
+        SENTENCE_NT'test me with "eat cake / eat grapes / eat fungus / eat tart"'

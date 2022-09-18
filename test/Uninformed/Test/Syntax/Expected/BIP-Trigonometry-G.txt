@@ -1,0 +1,41 @@
+Read 142 words
+syntax-test: unexpected semicolon in sentence: showme cosine of 2
+syntax-test: unexpected semicolon in sentence: showme cosine of 2.0
+syntax-test: unexpected semicolon in sentence: showme sine of 0
+syntax-test: unexpected semicolon in sentence: showme sine of 45 degrees
+syntax-test: unexpected semicolon in sentence: showme sine of (pi divided by 4)
+syntax-test: unexpected semicolon in sentence: showme sine of (pi divided by 2)
+syntax-test: unexpected semicolon in sentence: showme sine of pi
+syntax-test: unexpected semicolon in sentence: showme cosine of 0
+syntax-test: unexpected semicolon in sentence: showme cosine of 45 degrees
+syntax-test: unexpected semicolon in sentence: showme cosine of (pi divided by 4)
+syntax-test: unexpected semicolon in sentence: showme cosine of (pi divided by 2)
+syntax-test: unexpected semicolon in sentence: showme cosine of pi
+syntax-test: unexpected semicolon in sentence: showme tangent of 0
+syntax-test: unexpected semicolon in sentence: showme tangent of 45 degrees
+syntax-test: unexpected semicolon in sentence: showme tangent of (pi divided by 4)
+syntax-test: unexpected semicolon in sentence: showme tangent of (pi divided by 2)
+syntax-test: unexpected semicolon in sentence: say "cos x = -1: "
+syntax-test: unexpected semicolon in sentence: let x be given by cos x = -1 where x is a real number
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme cosine of 2'
+        SENTENCE_NT'showme cosine of 2.0'
+        SENTENCE_NT'showme sine of 0'
+        SENTENCE_NT'showme sine of 45 degrees'
+        SENTENCE_NT'showme sine of ( pi divided by 4 )'
+        SENTENCE_NT'showme sine of ( pi divided by 2 )'
+        SENTENCE_NT'showme sine of pi'
+        SENTENCE_NT'showme cosine of 0'
+        SENTENCE_NT'showme cosine of 45 degrees'
+        SENTENCE_NT'showme cosine of ( pi divided by 4 )'
+        SENTENCE_NT'showme cosine of ( pi divided by 2 )'
+        SENTENCE_NT'showme cosine of pi'
+        SENTENCE_NT'showme tangent of 0'
+        SENTENCE_NT'showme tangent of 45 degrees'
+        SENTENCE_NT'showme tangent of ( pi divided by 4 )'
+        SENTENCE_NT'showme tangent of ( pi divided by 2 )'
+        SENTENCE_NT'say "cos x = -1: "'
+        SENTENCE_NT'let x be given by cos x = -1 where x is a real number'
+        SENTENCE_NT'showme x'

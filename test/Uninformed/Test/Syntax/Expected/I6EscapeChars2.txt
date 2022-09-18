@@ -1,0 +1,26 @@
+Read 122 words
+syntax-test: unexpected semicolon in sentence: say "mayn't is [mayn't]."
+syntax-test: unexpected semicolon in sentence: say "'do' is ['do']."
+syntax-test: unexpected semicolon in sentence: say "'cha' 'cha' is ['cha' 'cha']."
+syntax-test: unexpected semicolon in sentence: say "@@@ is [@@@]."
+syntax-test: unexpected semicolon in sentence: say "^'^ is [^'^]."
+ROOT_NT
+    HEADING_NT'the gallery of lexical monstrosities is a room' {heading 0}
+        SENTENCE_NT'the gallery of lexical monstrosities is a room'
+        SENTENCE_NT'bastard is a kind of value'
+        SENTENCE_NT'the bastards are @@@ , ^'^ , mayn't , 'do' , 'cha' 'cha' , ~'
+        SENTENCE_NT'the boy x girl , the b@t , the ~~ and the flo^flo are in the'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "mayn't is [mayn't]."'
+        SENTENCE_NT'say "'do' is ['do']."'
+        SENTENCE_NT'say "'cha' 'cha' is ['cha' 'cha']."'
+        SENTENCE_NT'say "@@@ is [@@@]."'
+        SENTENCE_NT'say "^'^ is [^'^]."'
+        SENTENCE_NT'say "~@^ is [~@^]."'
+        SENTENCE_NT'provoking is an action applying to one bastard'
+        SENTENCE_NT'understand "provoke [bastard]" as provoking'
+        SENTENCE_NT'carry out provoking'
+        SENTENCE_NT'say "You provoke the [bastard understood]."'
+        SENTENCE_NT'understand "/" as taking inventory'
+        SENTENCE_NT'understand "x^x" as taking inventory'
+        SENTENCE_NT'test me with "x x / x b@t / x ~~ / x flo^flo / [/] / x^x / p'

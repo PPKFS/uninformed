@@ -1,0 +1,20 @@
+Read 104 words
+syntax-test: unexpected semicolon in sentence: now McWiggy is upset
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'mcwiggy is a man in the home'
+        SENTENCE_NT'a person can be happy or upset'
+        SENTENCE_NT'mcwiggy is happy'
+        SENTENCE_NT'the hat is in the home'
+        SENTENCE_NT'the hat is wearable'
+        SENTENCE_NT'instead of touching mcwiggy'
+        SENTENCE_NT'now mcwiggy is upset'
+        SENTENCE_NT'say "Whoops, now he's upset."'
+        SENTENCE_NT'every turn when mcwiggy has been upset for two turns'
+        SENTENCE_NT'say "He's been upset for two turns! He explodes!"'
+        SENTENCE_NT'before doing something when the hat has been worn'
+        SENTENCE_NT'say "You've worn the hat at some point."'
+        SENTENCE_NT'before doing something when the hat has been worn for three '
+        SENTENCE_NT'say "You've worn the hat for exactly three turns."'
+        SENTENCE_NT'test me with "wear hat / touch mcwiggy / z / z / z / z"'

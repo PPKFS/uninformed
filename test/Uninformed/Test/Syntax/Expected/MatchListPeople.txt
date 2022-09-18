@@ -1,0 +1,8 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'apartment is a room' {heading 0}
+        SENTENCE_NT'apartment is a room'
+        SENTENCE_NT'a table and a chair are here'
+        SENTENCE_NT'a woman called alice is here'
+        SENTENCE_NT'alice is wearing a dress and some shoes'
+        SENTENCE_NT'test me with "x Alice / ask her about Alice / ask her about '

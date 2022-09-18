@@ -1,0 +1,25 @@
+Read 137 words
+syntax-test: unexpected semicolon in sentence: say "Huge: [list of huge containers][line break]"
+syntax-test: unexpected semicolon in sentence: say "Large: [list of large containers][line break]"
+syntax-test: unexpected semicolon in sentence: say "Standard: [list of standard containers][line break]"
+ROOT_NT
+    HEADING_NT'definition' {heading 0}
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a container is huge if its carrying capacity is 20 or more'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a container is large if its carrying capacity is 10 or more'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a container is standard if its carrying capacity is 7'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a container is small if its carrying capacity is 5 or less'
+        SENTENCE_NT'the shop is a room'
+        SENTENCE_NT'the basket is a large container in the shop'
+        SENTENCE_NT'the thimble is a small container in the shop'
+        SENTENCE_NT'the matchbox is a standard container in the shop'
+        SENTENCE_NT'a crystal ball is a thing carried by the player'
+        SENTENCE_NT'instead of examining the crystal ball'
+        SENTENCE_NT'say "Huge: [list of huge containers][line break]"'
+        SENTENCE_NT'say "Large: [list of large containers][line break]"'
+        SENTENCE_NT'say "Standard: [list of standard containers][line break]"'
+        SENTENCE_NT'say "Small: [list of small containers][line break]"'
+        SENTENCE_NT'test me with "x ball"'

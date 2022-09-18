@@ -1,0 +1,7 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'the player is a woman called edna marsh'
+        SENTENCE_NT'the player holds a wrench'
+        SENTENCE_NT'test me with "inv"'

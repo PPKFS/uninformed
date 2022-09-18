@@ -1,0 +1,60 @@
+Read 166 words
+syntax-test: unexpected semicolon in sentence: let S be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 2 to S
+syntax-test: unexpected semicolon in sentence: add 4 to S
+syntax-test: unexpected semicolon in sentence: add 8 to S
+syntax-test: unexpected semicolon in sentence: add 16 to S
+syntax-test: unexpected semicolon in sentence: add 32 to S
+syntax-test: unexpected semicolon in sentence: add 64 to S
+syntax-test: unexpected semicolon in sentence: let T be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 2 to T
+syntax-test: unexpected semicolon in sentence: add 4 to T
+syntax-test: unexpected semicolon in sentence: add 6 to T
+syntax-test: unexpected semicolon in sentence: add 10 to T
+syntax-test: unexpected semicolon in sentence: say "Begin with the sets S = [S in brace notation], T = [T in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 8 to T, if absent
+syntax-test: unexpected semicolon in sentence: sort T
+syntax-test: unexpected semicolon in sentence: say "Adding 8 to T gives T = [T in brace notation]."
+syntax-test: unexpected semicolon in sentence: let I be T
+syntax-test: unexpected semicolon in sentence: repeat with element running through T begin
+syntax-test: unexpected semicolon in sentence: if element is not listed in S, remove element from I
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: say "The intersection I = [I in brace notation]."
+syntax-test: unexpected semicolon in sentence: let U be S
+syntax-test: unexpected semicolon in sentence: add T to U, if absent
+syntax-test: unexpected semicolon in sentence: sort U
+syntax-test: unexpected semicolon in sentence: say "The union U = [U in brace notation]."
+syntax-test: unexpected semicolon in sentence: let D be S
+syntax-test: unexpected semicolon in sentence: remove T from D, if present
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let s be a list of numbers'
+        SENTENCE_NT'add 2 to s'
+        SENTENCE_NT'add 4 to s'
+        SENTENCE_NT'add 8 to s'
+        SENTENCE_NT'add 16 to s'
+        SENTENCE_NT'add 32 to s'
+        SENTENCE_NT'add 64 to s'
+        SENTENCE_NT'let t be a list of numbers'
+        SENTENCE_NT'add 2 to t'
+        SENTENCE_NT'add 4 to t'
+        SENTENCE_NT'add 6 to t'
+        SENTENCE_NT'add 10 to t'
+        SENTENCE_NT'say "Begin with the sets S = [S in brace notation], T = [T i'
+        SENTENCE_NT'add 8 to t , if absent'
+        SENTENCE_NT'sort t'
+        SENTENCE_NT'say "Adding 8 to T gives T = [T in brace notation]."'
+        SENTENCE_NT'let i be t'
+        SENTENCE_NT'repeat with element running through t begin'
+        SENTENCE_NT'if element is not listed in s , remove element from i'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "The intersection I = [I in brace notation]."'
+        SENTENCE_NT'let u be s'
+        SENTENCE_NT'add t to u , if absent'
+        SENTENCE_NT'sort u'
+        SENTENCE_NT'say "The union U = [U in brace notation]."'
+        SENTENCE_NT'let d be s'
+        SENTENCE_NT'remove t from d , if present'
+        SENTENCE_NT'say "The set difference S\T = [D in brace notation]."'

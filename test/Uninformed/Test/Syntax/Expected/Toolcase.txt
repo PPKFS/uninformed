@@ -1,0 +1,13 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'"Toolcase"' {heading 0}
+        SENTENCE_NT'"Toolcase"'
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'"The kitchen is nice."'
+        SENTENCE_NT'the toolcase is an openable container in the kitchen'
+        SENTENCE_NT'to recite ( something - closed container )'
+        SENTENCE_NT'say "The [noun] is closed."'
+        SENTENCE_NT'to recite ( something - open container )'
+        SENTENCE_NT'say "The [noun] is open."'
+        SENTENCE_NT'instead of searching the toolcase , recite the toolcase'
+        SENTENCE_NT'test me with "open toolcase / search toolcase / close toolca'

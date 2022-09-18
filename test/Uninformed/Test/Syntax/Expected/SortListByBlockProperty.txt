@@ -1,0 +1,29 @@
+Read 138 words
+syntax-test: unexpected semicolon in sentence: let L be the list of things
+syntax-test: unexpected semicolon in sentence: sort L in of-type order
+syntax-test: unexpected semicolon in sentence: say "The list with text in sorts to: [L]."
+syntax-test: unexpected semicolon in sentence: let L be the list of things
+syntax-test: unexpected semicolon in sentence: sort L in noni-of-type order
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'a thing has an text called the of-type'
+        SENTENCE_NT'the of-type of a thing is usually "standard"'
+        SENTENCE_NT'a thing has a text called the noni-of-type'
+        SENTENCE_NT'the noni-of-type of a thing is usually "standard"'
+        SENTENCE_NT'the violin is in test'
+        SENTENCE_NT'the of-type is "special"'
+        SENTENCE_NT'the noni-of-type is "special"'
+        SENTENCE_NT'the viola is in test'
+        SENTENCE_NT'the mustard is in test'
+        SENTENCE_NT'the travesty is in test'
+        SENTENCE_NT'the of-type is "special"'
+        SENTENCE_NT'the noni-of-type is "special"'
+        SENTENCE_NT'the fang is in test'
+        SENTENCE_NT'after looking in test'
+        SENTENCE_NT'let l be the list of things'
+        SENTENCE_NT'sort l in of-type order'
+        SENTENCE_NT'say "The list with text in sorts to: [L]."'
+        SENTENCE_NT'let l be the list of things'
+        SENTENCE_NT'sort l in noni-of-type order'
+        SENTENCE_NT'say "The list with text in sorts to: [L]."'

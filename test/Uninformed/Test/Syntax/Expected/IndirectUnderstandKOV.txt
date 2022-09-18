@@ -1,0 +1,13 @@
+Read 65 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a foobar is a kind of value'
+        SENTENCE_NT'the foobars are foo and bar'
+        SENTENCE_NT'understand "fooey" or "foozle" as "[foo-phrase]"'
+        SENTENCE_NT'understand "[foo-phrase]" as foo'
+        SENTENCE_NT'frogging is an action applying to one foobar'
+        SENTENCE_NT'understand "frog [foobar]" as frogging'
+        SENTENCE_NT'carry out frogging'
+        SENTENCE_NT'say "Ah, frog the [foobar understood], then."'
+        SENTENCE_NT'test me with "frog foo / frog bar / frog fooey / frog foozle'

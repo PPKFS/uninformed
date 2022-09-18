@@ -1,0 +1,8 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'the brass door is in the dome'
+        SENTENCE_NT'the brass handle is part of the brass door'
+        SENTENCE_NT'the brass orange is in the dome'
+        SENTENCE_NT'test me with "take orange and handle"'

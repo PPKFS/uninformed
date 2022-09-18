@@ -1,0 +1,25 @@
+Read 65 words
+syntax-test: unexpected semicolon in sentence: next
+syntax-test: unexpected semicolon in sentence: showme M
+syntax-test: unexpected semicolon in sentence: break
+syntax-test: unexpected semicolon in sentence: let K be 0
+syntax-test: unexpected semicolon in sentence: increment K
+syntax-test: unexpected semicolon in sentence: next
+syntax-test: unexpected semicolon in sentence: showme K
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'repeat with m running from 1 to 10'
+        SENTENCE_NT'if m is 5'
+        SENTENCE_NT'next'
+        SENTENCE_NT'showme m'
+        SENTENCE_NT'if m is 7'
+        SENTENCE_NT'break'
+        SENTENCE_NT'let k be 0'
+        SENTENCE_NT'while k is less than 20'
+        SENTENCE_NT'increment k'
+        SENTENCE_NT'if k is 5'
+        SENTENCE_NT'next'
+        SENTENCE_NT'showme k'
+        SENTENCE_NT'if k is 7'
+        SENTENCE_NT'break'

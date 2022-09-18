@@ -1,0 +1,17 @@
+Read 101 words
+syntax-test: unexpected semicolon in sentence: say "(first opening the bottle)"
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'"Just a small kitchen."'
+        SENTENCE_NT'a bottle is a transparent open openable container in the kit'
+        SENTENCE_NT'in the bottle is the whisky'
+        SENTENCE_NT'the indefinite article of the whisky is "some"'
+        SENTENCE_NT'before doing something other than examining to the whisky wh'
+        SENTENCE_NT'say "(first opening the bottle)"'
+        SENTENCE_NT'silently try opening the bottle'
+        SENTENCE_NT'instead of drinking the whisky for the first time'
+        SENTENCE_NT'say "You take one sip, and feel it burn your tongue."'
+        SENTENCE_NT'instead of drinking the whisky'
+        SENTENCE_NT'say "One sip was enough."'
+        SENTENCE_NT'test me with "close bottle / drink whisky / drink whisky"'

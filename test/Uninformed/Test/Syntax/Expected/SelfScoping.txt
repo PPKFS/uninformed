@@ -1,0 +1,28 @@
+Read 184 words
+syntax-test: unexpected semicolon in sentence: say "The trophy case contains:[line break]"
+syntax-test: unexpected semicolon in sentence: repeat with x running through things in the trophy case begin
+syntax-test: unexpected semicolon in sentence: say "  [x] - [description of x][line break]"
+ROOT_NT
+    HEADING_NT'pavilion is a room' {heading 0}
+        SENTENCE_NT'pavilion is a room'
+        SENTENCE_NT'a thing has a text called contained-description'
+        SENTENCE_NT'the box is a container in the pavilion'
+        SENTENCE_NT'"A box is here. [if the widget is in the box]The [contained-'
+        SENTENCE_NT'the widget is a thing in the box'
+        SENTENCE_NT'the contained-description of the widget is "[The printed nam'
+        SENTENCE_NT'a thing has text called the material'
+        SENTENCE_NT'the material of a thing is usually "ones and zeros"'
+        SENTENCE_NT'a trophy is a kind of thing'
+        SENTENCE_NT'the description of a trophy is usually "It's a trophy made o'
+        SENTENCE_NT'the trophy case is in the pavilion'
+        SENTENCE_NT'the material of the trophy case is "wood and glass"'
+        SENTENCE_NT'in the trophy case is a trophy called the gold trophy'
+        SENTENCE_NT'the material of the gold trophy is "gold"'
+        SENTENCE_NT'in the trophy case is a trophy called the silver trophy'
+        SENTENCE_NT'the material of the silver trophy is "silver"'
+        SENTENCE_NT'instead of examining the trophy case when the trophy case co'
+        SENTENCE_NT'say "The trophy case contains:[line break]"'
+        SENTENCE_NT'repeat with x running through things in the trophy case begi'
+        SENTENCE_NT'say "  [x] - [description of x][line break]"'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'test me with "examine case"'

@@ -1,0 +1,52 @@
+Read 199 words
+syntax-test: unexpected semicolon in sentence: say "There is an almighty explosion!"
+syntax-test: unexpected semicolon in sentence: now the E-bomb is nowhere
+syntax-test: unexpected semicolon in sentence: now the score is 10
+syntax-test: unexpected semicolon in sentence: let X be "Your score is [score]."
+syntax-test: unexpected semicolon in sentence: increase the score by 5
+syntax-test: unexpected semicolon in sentence: now the score is 10
+syntax-test: unexpected semicolon in sentence: let X be "Your score is [score in words]."
+syntax-test: unexpected semicolon in sentence: replace the text "e" in X with "*"
+syntax-test: unexpected semicolon in sentence: increase the score by 5
+syntax-test: unexpected semicolon in sentence: let X be "It's [time of day]."
+syntax-test: unexpected semicolon in sentence: say "Substituted: [X]."
+syntax-test: unexpected semicolon in sentence: say "Unsubstituted: [X]."
+syntax-test: unexpected semicolon in sentence: replace the text "t" in X with "*"
+syntax-test: unexpected semicolon in sentence: say "Substituted: [X]."
+ROOT_NT
+    HEADING_NT'the grange is a room' {heading 0}
+        SENTENCE_NT'the grange is a room'
+        SENTENCE_NT'a green citroen , a fisherman , a brace of pheasants and a t'
+        SENTENCE_NT'the player carries an e-bomb'
+        SENTENCE_NT'after dropping the e-bomb'
+        SENTENCE_NT'say "There is an almighty explosion!"'
+        SENTENCE_NT'now the e-bomb is nowhere'
+        SENTENCE_NT'repeat with item running through things'
+        SENTENCE_NT'replace the text "e" in the printed name of the item with "*'
+        SENTENCE_NT'use scoring'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with item running through things'
+        SENTENCE_NT'say "[item]: [number of words in the printed name of the ite'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the score is 10'
+        SENTENCE_NT'let x be "Your score is [score]."'
+        SENTENCE_NT'increase the score by 5'
+        SENTENCE_NT'say x'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the score is 10'
+        SENTENCE_NT'let x be "Your score is [score in words]."'
+        SENTENCE_NT'replace the text "e" in x with "*"'
+        SENTENCE_NT'increase the score by 5'
+        SENTENCE_NT'say x'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be "It's [time of day]."'
+        SENTENCE_NT'if x is substituted'
+        SENTENCE_NT'say "Substituted: [X]."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Unsubstituted: [X]."'
+        SENTENCE_NT'replace the text "t" in x with "*"'
+        SENTENCE_NT'if x is substituted'
+        SENTENCE_NT'say "Substituted: [X]."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Unsubstituted: [X]."'
+        SENTENCE_NT'test me with "drop all / look"'

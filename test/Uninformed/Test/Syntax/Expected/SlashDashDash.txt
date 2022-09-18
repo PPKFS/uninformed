@@ -1,0 +1,8 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'the library computer is in the lab'
+        SENTENCE_NT'understand "alpha/beta/gamma/--" as "[greek]"'
+        SENTENCE_NT'understand "google [greek] for/aboot/-- [text] in/on [librar'
+        SENTENCE_NT'test me with "google for fish on the computer / google alpha'

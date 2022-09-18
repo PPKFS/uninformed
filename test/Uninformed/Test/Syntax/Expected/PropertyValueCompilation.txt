@@ -1,0 +1,19 @@
+Read 120 words
+syntax-test: unexpected semicolon in sentence: now the complement of green is black
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a signpost is in home'
+        SENTENCE_NT'the signpost is either slightly crooked , very crooked , or '
+        SENTENCE_NT'the printed name of the signpost is "[signpost condition] si'
+        SENTENCE_NT'a colour is a kind of value'
+        SENTENCE_NT'the colours are defined by the table of colours'
+        SENTENCE_NT'table of colours colour complement black white white black r'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Today's colour is [complement of green]."'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'now the complement of green is black'
+        SENTENCE_NT'say "Tomorrow's colour is [complement of green]."'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if the signpost is visible , say "The signpost is still [sig'
+        SENTENCE_NT'test me with "z"'

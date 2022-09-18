@@ -1,0 +1,35 @@
+Read 87 words
+syntax-test: unexpected semicolon in sentence: let M be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 2 to M
+syntax-test: unexpected semicolon in sentence: add 3 to M
+syntax-test: unexpected semicolon in sentence: add 5 to M
+syntax-test: unexpected semicolon in sentence: add 7 to M
+syntax-test: unexpected semicolon in sentence: add 11 to M
+syntax-test: unexpected semicolon in sentence: extend M to 5 entries
+syntax-test: unexpected semicolon in sentence: say "Extending M to 5 entries should not change it: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: extend M to 7 entries
+syntax-test: unexpected semicolon in sentence: say "Extending M to 7 entries should add two 0s: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: truncate M to 8 entries
+syntax-test: unexpected semicolon in sentence: say "Truncating M to 8 entries should make no difference: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: truncate M to 4 entries
+syntax-test: unexpected semicolon in sentence: say "Truncating M to 4 entries should change it: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: truncate M to the last 2 entries
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let m be a list of numbers'
+        SENTENCE_NT'add 2 to m'
+        SENTENCE_NT'add 3 to m'
+        SENTENCE_NT'add 5 to m'
+        SENTENCE_NT'add 7 to m'
+        SENTENCE_NT'add 11 to m'
+        SENTENCE_NT'extend m to 5 entries'
+        SENTENCE_NT'say "Extending M to 5 entries should not change it: [M in br'
+        SENTENCE_NT'extend m to 7 entries'
+        SENTENCE_NT'say "Extending M to 7 entries should add two 0s: [M in brace'
+        SENTENCE_NT'truncate m to 8 entries'
+        SENTENCE_NT'say "Truncating M to 8 entries should make no difference: [M'
+        SENTENCE_NT'truncate m to 4 entries'
+        SENTENCE_NT'say "Truncating M to 4 entries should change it: [M in brace'
+        SENTENCE_NT'truncate m to the last 2 entries'
+        SENTENCE_NT'say "Truncating M to the last 2 entries should certainly cha'

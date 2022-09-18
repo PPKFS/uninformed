@@ -1,0 +1,45 @@
+Read 280 words
+syntax-test: unexpected semicolon in sentence: say "[The C] is an odd thing."
+syntax-test: unexpected semicolon in sentence: say "[The C] is an odd container."
+syntax-test: unexpected semicolon in sentence: if C is odd, say "Among containers, [the C] is odd."
+syntax-test: unexpected semicolon in sentence: if N is an odd number, say "[N] is an odd number."
+syntax-test: unexpected semicolon in sentence: if N is odd, say "[N] is odd."
+syntax-test: unexpected semicolon in sentence: announce N
+syntax-test: unexpected semicolon in sentence: if the time of day is even, say "[the time of day] is even."
+ROOT_NT
+    HEADING_NT'definition' {heading 0}
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a number is odd if the remainder after dividing it by 2 is 1'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a number is even if the remainder after dividing it by 2 is '
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a time ( called t ) is odd if the remainder after dividing t'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a time ( called t ) is even if the remainder after dividing '
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a container ( called c ) is odd if the carrying capacity of '
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is odd if it is in the rucksack'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with c running through odd things'
+        SENTENCE_NT'say "[The C] is an odd thing."'
+        SENTENCE_NT'repeat with c running through odd containers'
+        SENTENCE_NT'say "[The C] is an odd container."'
+        SENTENCE_NT'repeat with c running through containers'
+        SENTENCE_NT'if c is odd , say "Among containers, [the C] is odd."'
+        SENTENCE_NT'repeat with n running from 1 to 10'
+        SENTENCE_NT'if n is an odd number , say "[N] is an odd number."'
+        SENTENCE_NT'if n is odd , say "[N] is odd."'
+        SENTENCE_NT'announce n'
+        SENTENCE_NT'if the time of day is even , say "[the time of day] is even.'
+        SENTENCE_NT'otherwise say "[the time of day] is odd."'
+        SENTENCE_NT'to announce ( n - even number )'
+        SENTENCE_NT'say "I proclaim [N] the even!"'
+        SENTENCE_NT'to announce ( n - odd number )'
+        SENTENCE_NT'say "I proclaim [N] the odd!"'
+        SENTENCE_NT'to announce ( n - number )'
+        SENTENCE_NT'say "I note [N]."'
+        SENTENCE_NT'the lexis is a room'
+        SENTENCE_NT'the rucksack is a container with carrying capacity 1'
+        SENTENCE_NT'the paper bag is a container'
+        SENTENCE_NT'the tourist map is in the rucksack'

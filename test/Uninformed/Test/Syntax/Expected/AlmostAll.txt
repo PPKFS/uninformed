@@ -1,0 +1,10 @@
+Read 67 words
+syntax-test: unexpected semicolon in sentence: if all but one of the devices are switched on, say "All but one of the devices are switched on."
+ROOT_NT
+    HEADING_NT'the tool room is a room' {heading 0}
+        SENTENCE_NT'the tool room is a room'
+        SENTENCE_NT'a switched on device called a blue button is here'
+        SENTENCE_NT'a switched off device called a red button is here'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if all but one of the devices are switched on , say "All but'
+        SENTENCE_NT'if all except one of the devices are switched on , say "All '

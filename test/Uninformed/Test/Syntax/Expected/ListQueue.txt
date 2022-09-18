@@ -1,0 +1,30 @@
+Read 236 words
+syntax-test: unexpected semicolon in sentence: let the customer be a random woman in the Supermarket
+syntax-test: unexpected semicolon in sentence: now the customer is in the Delicatessen
+syntax-test: unexpected semicolon in sentence: if the player is in the Supermarket, say "[The customer] walks into the Delicatessen."
+syntax-test: unexpected semicolon in sentence: if the player is in the Delicatessen, say "[The customer] comes in from the Supermarket, and [if the number of entries in the deli queue is 0]can't believe her luck. The counter is free![otherwise]resignedly queues behind [the deli queue]."
+syntax-test: unexpected semicolon in sentence: let the customer be entry 1 of the deli queue
+syntax-test: unexpected semicolon in sentence: if the player is in the Delicatessen, say "Pete gives a droopy expression as he serves [customer], who nevertheless brightens and leaves."
+syntax-test: unexpected semicolon in sentence: if the player is in the Supermarket, say "[customer] emerges cheerfully from the Delicatessen Counter, and goes about her regular shopping."
+syntax-test: unexpected semicolon in sentence: now the customer is in the Supermarket
+ROOT_NT
+    HEADING_NT'the supermarket is west of the delicatessen counter' {heading 0}
+        SENTENCE_NT'the supermarket is west of the delicatessen counter'
+        SENTENCE_NT'lugubrious pete is in the delicatessen'
+        SENTENCE_NT'"Lugubrious Pete, dolefully slicing meats and cheeses, serve'
+        SENTENCE_NT'alice , beth , gemma , delia , and eliza are women in the su'
+        SENTENCE_NT'the deli queue is a list of objects that varies'
+        SENTENCE_NT'every turn when a woman is in the supermarket and a random c'
+        SENTENCE_NT'let the customer be a random woman in the supermarket'
+        SENTENCE_NT'now the customer is in the delicatessen'
+        SENTENCE_NT'if the player is in the supermarket , say "[The customer] wa'
+        SENTENCE_NT'if the player is in the delicatessen , say "[The customer] c'
+        SENTENCE_NT'add the customer to the deli queue'
+        SENTENCE_NT'every turn when the number of entries in the deli queue is n'
+        SENTENCE_NT'let the customer be entry 1 of the deli queue'
+        SENTENCE_NT'if the player is in the delicatessen , say "Pete gives a dro'
+        SENTENCE_NT'if the player is in the supermarket , say "[customer] emerge'
+        SENTENCE_NT'now the customer is in the supermarket'
+        SENTENCE_NT'remove entry 1 from the deli queue'
+        SENTENCE_NT'instead of waiting in the delicatessen when the number of en'
+        SENTENCE_NT'test me with "z/z/z/z/z/e/z/z/z/z/z/z"'

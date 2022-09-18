@@ -1,0 +1,16 @@
+Read 45 words
+syntax-test: unexpected semicolon in sentence: say "[the counter]"
+syntax-test: unexpected semicolon in sentence: next
+syntax-test: unexpected semicolon in sentence: break
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with the counter running from one to five'
+        SENTENCE_NT'say "[the counter]"'
+        SENTENCE_NT'if the counter is'
+        SENTENCE_NT'-- one'
+        SENTENCE_NT'next'
+        SENTENCE_NT'-- three'
+        SENTENCE_NT'break'
+        SENTENCE_NT'say "-"'

@@ -1,0 +1,15 @@
+Read 65 words
+syntax-test: unexpected semicolon in sentence: showme the threshold
+syntax-test: unexpected semicolon in sentence: now the threshold is completed
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'a prog is a kind of value'
+        SENTENCE_NT'the progs are unstarted , progressing , completed'
+        SENTENCE_NT'a person has a prog'
+        SENTENCE_NT'the threshold is a prog that varies'
+        SENTENCE_NT'the threshold is progressing'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the threshold'
+        SENTENCE_NT'now the threshold is completed'
+        SENTENCE_NT'showme the threshold'

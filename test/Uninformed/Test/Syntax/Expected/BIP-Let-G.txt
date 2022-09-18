@@ -1,0 +1,33 @@
+Read 105 words
+syntax-test: unexpected semicolon in sentence: let the paint colour be "Cerulean Blue"
+syntax-test: unexpected semicolon in sentence: showme the paint colour
+syntax-test: unexpected semicolon in sentence: let the colour number be 117
+syntax-test: unexpected semicolon in sentence: showme the colour number
+syntax-test: unexpected semicolon in sentence: let the colour number be 41
+syntax-test: unexpected semicolon in sentence: showme the colour number
+syntax-test: unexpected semicolon in sentence: let the palette be a list of numbers
+syntax-test: unexpected semicolon in sentence: showme the palette
+syntax-test: unexpected semicolon in sentence: let N be 16
+syntax-test: unexpected semicolon in sentence: let Q be given by N = 4*Q where Q is a number
+syntax-test: unexpected semicolon in sentence: showme Q
+syntax-test: unexpected semicolon in sentence: let Q be given by N = 8*Q
+syntax-test: unexpected semicolon in sentence: showme Q
+syntax-test: unexpected semicolon in sentence: let the correspondence be a relation of numbers to texts
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let the paint colour be "Cerulean Blue"'
+        SENTENCE_NT'showme the paint colour'
+        SENTENCE_NT'let the colour number be 117'
+        SENTENCE_NT'showme the colour number'
+        SENTENCE_NT'let the colour number be 41'
+        SENTENCE_NT'showme the colour number'
+        SENTENCE_NT'let the palette be a list of numbers'
+        SENTENCE_NT'showme the palette'
+        SENTENCE_NT'let n be 16'
+        SENTENCE_NT'let q be given by n = 4*q where q is a number'
+        SENTENCE_NT'showme q'
+        SENTENCE_NT'let q be given by n = 8*q'
+        SENTENCE_NT'showme q'
+        SENTENCE_NT'let the correspondence be a relation of numbers to texts'
+        SENTENCE_NT'showme the correspondence'

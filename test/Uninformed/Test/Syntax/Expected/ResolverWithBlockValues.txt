@@ -1,0 +1,13 @@
+Read 72 words
+syntax-test: unexpected semicolon in sentence: say "Hey "
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to announce ( msg - text ) to ( target - a person )'
+        SENTENCE_NT'say "[target]: [msg]"'
+        SENTENCE_NT'to vigorously announce ( msg - text ) to ( target - a person'
+        SENTENCE_NT'say "Hey "'
+        SENTENCE_NT'announce msg to target'
+        SENTENCE_NT'joe is a person in home'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'vigorously announce "Where you going with that gun in your h'

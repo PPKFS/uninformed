@@ -1,0 +1,18 @@
+Read 101 words
+syntax-test: unexpected semicolon in sentence: increment the turn count
+ROOT_NT
+    HEADING_NT'the fast time rule is listed before the timed events rule in' {heading 0}
+        SENTENCE_NT'the fast time rule is listed before the timed events rule in'
+        SENTENCE_NT'the advance time rule is not listed in the turn sequence rul'
+        SENTENCE_NT'this is the fast time rule'
+        SENTENCE_NT'increment the turn count'
+        SENTENCE_NT'increase the time of day by 15 minutes'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the right hand status line is "[time of day]"'
+        SENTENCE_NT'the temporal hot spot is a room'
+        SENTENCE_NT'the time of day is 11:45 pm'
+        SENTENCE_NT'at 11:58 pm'
+        SENTENCE_NT'say "Two turtles run by, almost too fast to see."'
+        SENTENCE_NT'at 12:02 am'
+        SENTENCE_NT'say "The grass grows."'
+        SENTENCE_NT'test me with "z / z"'

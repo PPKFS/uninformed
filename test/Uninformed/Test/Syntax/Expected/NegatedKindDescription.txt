@@ -1,0 +1,11 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'kitchen is a room' {heading 0}
+        SENTENCE_NT'kitchen is a room'
+        SENTENCE_NT'a closed openable container called a cupboard is in kitchen'
+        SENTENCE_NT'a baseball is in the cupboard'
+        SENTENCE_NT'a dish is kind of thing'
+        SENTENCE_NT'the player carries a plate'
+        SENTENCE_NT'the plate is a dish'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "in the cupboard (not dishes): [a list of things in the '

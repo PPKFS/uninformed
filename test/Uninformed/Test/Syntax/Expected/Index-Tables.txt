@@ -1,0 +1,13 @@
+Read 191 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a dynasty is a kind of value'
+        SENTENCE_NT'the dynasties are stuart , hanover , saxe-coburg-gotha and w'
+        SENTENCE_NT'table 4 - recent monarchs name accession family "Anne" 1702 '
+        SENTENCE_NT'table 2.1 - selected elements element symbol atomic number a'
+        SENTENCE_NT'a jersey is a kind of thing'
+        SENTENCE_NT'a jersey is wearable'
+        SENTENCE_NT'some jerseys in the home are defined by the table of honorar'
+        SENTENCE_NT'table of honorary jerseys jersey year established citation a'
+        SENTENCE_NT'test index ( internal ) with tb'

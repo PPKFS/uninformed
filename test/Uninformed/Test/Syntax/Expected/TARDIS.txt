@@ -1,0 +1,32 @@
+Read 135 words
+syntax-test: unexpected semicolon in sentence: say "[-46 to the nearest 5]."
+syntax-test: unexpected semicolon in sentence: now the time of day is 11:59 pm
+syntax-test: unexpected semicolon in sentence: now the time of day is the time of day plus one minute
+syntax-test: unexpected semicolon in sentence: showme the time of day
+syntax-test: unexpected semicolon in sentence: showme whether or not the time of day is 12:00 am
+syntax-test: unexpected semicolon in sentence: showme whether or not the time of day is 12:00 pm
+syntax-test: unexpected semicolon in sentence: now the time of day is 11:59 pm
+syntax-test: unexpected semicolon in sentence: increment the time of day
+syntax-test: unexpected semicolon in sentence: showme the time of day
+syntax-test: unexpected semicolon in sentence: showme whether or not the time of day is 12:00 am
+syntax-test: unexpected semicolon in sentence: showme whether or not the time of day is 12:00 pm
+syntax-test: unexpected semicolon in sentence: decrement the time of day
+ROOT_NT
+    HEADING_NT'the tardis is a room' {heading 0}
+        SENTENCE_NT'the tardis is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "[-46 to the nearest 5]."'
+        SENTENCE_NT'say "[-63 to the nearest 45]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the time of day is 11:59 pm'
+        SENTENCE_NT'now the time of day is the time of day plus one minute'
+        SENTENCE_NT'showme the time of day'
+        SENTENCE_NT'showme whether or not the time of day is 12:00 am'
+        SENTENCE_NT'showme whether or not the time of day is 12:00 pm'
+        SENTENCE_NT'now the time of day is 11:59 pm'
+        SENTENCE_NT'increment the time of day'
+        SENTENCE_NT'showme the time of day'
+        SENTENCE_NT'showme whether or not the time of day is 12:00 am'
+        SENTENCE_NT'showme whether or not the time of day is 12:00 pm'
+        SENTENCE_NT'decrement the time of day'
+        SENTENCE_NT'showme the time of day'

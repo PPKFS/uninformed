@@ -1,0 +1,8 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'garden is south of home'
+        SENTENCE_NT'going south in the home is frivolous behaviour'
+        SENTENCE_NT'instead of frivolous behaviour , say "No way!"'
+        SENTENCE_NT'test me with "s"'

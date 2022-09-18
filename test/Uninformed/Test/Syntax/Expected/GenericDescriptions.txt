@@ -1,0 +1,21 @@
+Read 140 words
+syntax-test: unexpected semicolon in sentence: let max T be 0 minutes
+syntax-test: unexpected semicolon in sentence: let T be the time since Scn began
+syntax-test: unexpected semicolon in sentence: if T > max T, now max T is T
+ROOT_NT
+    HEADING_NT'to decide which time is the time since ( d - a description o' {heading 0}
+        SENTENCE_NT'to decide which time is the time since ( d - a description o'
+        SENTENCE_NT'let max t be 0 minutes'
+        SENTENCE_NT'repeat with scn running through d'
+        SENTENCE_NT'let t be the time since scn began'
+        SENTENCE_NT'if t > max t , now max t is t'
+        SENTENCE_NT'decide on max t'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is new if it is happening and it is not the entire g'
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'concert is a scene'
+        SENTENCE_NT'concert begins when play begins'
+        SENTENCE_NT'every turn when the time since a new scene began is greater '
+        SENTENCE_NT'say "Get a move on."'
+        SENTENCE_NT'space is a room'
+        SENTENCE_NT'test me with "z / z / z / z / z / z / z / z"'

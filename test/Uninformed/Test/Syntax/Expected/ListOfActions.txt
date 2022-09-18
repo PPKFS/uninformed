@@ -1,0 +1,9 @@
+Read 43 words
+syntax-test: unexpected semicolon in sentence: now action list is { waiting, jumping, taking the Lab }
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'action list is a list of stored actions that varies'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now action list is { waiting , jumping , taking the lab }'
+        SENTENCE_NT'showme the action list'

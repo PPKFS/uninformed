@@ -1,0 +1,42 @@
+Read 155 words
+syntax-test: unexpected semicolon in sentence: let the primes be a list of numbers
+syntax-test: unexpected semicolon in sentence: let the composites be a list of numbers
+syntax-test: unexpected semicolon in sentence: let I be 2
+syntax-test: unexpected semicolon in sentence: while I times I is at most N begin
+syntax-test: unexpected semicolon in sentence: if I is not listed in the composites begin
+syntax-test: unexpected semicolon in sentence: let J be I times 2
+syntax-test: unexpected semicolon in sentence: while J is at most N begin
+syntax-test: unexpected semicolon in sentence: add J to the composites, if absent
+syntax-test: unexpected semicolon in sentence: increase J by I
+syntax-test: unexpected semicolon in sentence: end while
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: increase I by 1
+syntax-test: unexpected semicolon in sentence: end while
+syntax-test: unexpected semicolon in sentence: sort the composites
+syntax-test: unexpected semicolon in sentence: repeat with P running from 2 to N begin
+syntax-test: unexpected semicolon in sentence: if P is not listed in the composites, add P to the primes
+syntax-test: unexpected semicolon in sentence: end repeat
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'to sieve primes up to ( n - a number )'
+        SENTENCE_NT'let the primes be a list of numbers'
+        SENTENCE_NT'let the composites be a list of numbers'
+        SENTENCE_NT'let i be 2'
+        SENTENCE_NT'while i times i is at most n begin'
+        SENTENCE_NT'if i is not listed in the composites begin'
+        SENTENCE_NT'let j be i times 2'
+        SENTENCE_NT'while j is at most n begin'
+        SENTENCE_NT'add j to the composites , if absent'
+        SENTENCE_NT'increase j by i'
+        SENTENCE_NT'end while'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'increase i by 1'
+        SENTENCE_NT'end while'
+        SENTENCE_NT'sort the composites'
+        SENTENCE_NT'repeat with p running from 2 to n begin'
+        SENTENCE_NT'if p is not listed in the composites , add p to the primes'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "The primes up to [N] are [the primes]. The composites a'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'sieve primes up to 100'

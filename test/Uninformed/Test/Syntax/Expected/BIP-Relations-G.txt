@@ -1,0 +1,30 @@
+Read 198 words
+syntax-test: unexpected semicolon in sentence: show relation the affinity relation
+syntax-test: unexpected semicolon in sentence: showme the list of fruits that the affinity relation relates
+syntax-test: unexpected semicolon in sentence: showme the list of fruits that the affinity relation relates to
+syntax-test: unexpected semicolon in sentence: showme the list of fruits that relate to the orange by the affinity relation
+syntax-test: unexpected semicolon in sentence: showme the list of fruits that relate to the pear by the affinity relation
+syntax-test: unexpected semicolon in sentence: showme the list of fruits that the pear relates to by the affinity relation
+syntax-test: unexpected semicolon in sentence: showme whether or not the apple relates to a fruit by the affinity relation
+syntax-test: unexpected semicolon in sentence: showme whether or not a fruit relates to the apple by the affinity relation
+syntax-test: unexpected semicolon in sentence: showme the fruit that the apple relates to by the affinity relation
+ROOT_NT
+    HEADING_NT'the tally is a number that varies' {heading 0}
+        SENTENCE_NT'the tally is a number that varies'
+        SENTENCE_NT'a fruit is a kind of object'
+        SENTENCE_NT'an apple , a pear and an orange are fruits'
+        SENTENCE_NT'affinity relates various fruits to various fruits'
+        SENTENCE_NT'the verb to like means the affinity relation'
+        SENTENCE_NT'an apple likes an orange'
+        SENTENCE_NT'a pear likes an orange'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'show relation the affinity relation'
+        SENTENCE_NT'showme the list of fruits that the affinity relation relates'
+        SENTENCE_NT'showme the list of fruits that the affinity relation relates'
+        SENTENCE_NT'showme the list of fruits that relate to the orange by the a'
+        SENTENCE_NT'showme the list of fruits that relate to the pear by the aff'
+        SENTENCE_NT'showme the list of fruits that the pear relates to by the af'
+        SENTENCE_NT'showme whether or not the apple relates to a fruit by the af'
+        SENTENCE_NT'showme whether or not a fruit relates to the apple by the af'
+        SENTENCE_NT'showme the fruit that the apple relates to by the affinity r'
+        SENTENCE_NT'showme the fruit that relates to the orange by the affinity '

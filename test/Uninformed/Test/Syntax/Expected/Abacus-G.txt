@@ -1,0 +1,8 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'the counting house is a room' {heading 0}
+        SENTENCE_NT'the counting house is a room'
+        SENTENCE_NT'an abacus is here'
+        SENTENCE_NT'a man called the king is here'
+        SENTENCE_NT'the king wears a crown'
+        SENTENCE_NT'test me with "showme / examine me / examine abacus / examine'

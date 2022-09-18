@@ -1,0 +1,26 @@
+Read 115 words
+syntax-test: unexpected semicolon in sentence: say "Ayn Rand is now in [location of Ayn Rand]."
+syntax-test: unexpected semicolon in sentence: if Ayn Rand is in the Mysterious Void begin
+syntax-test: unexpected semicolon in sentence: try Ayn Rand going east
+syntax-test: unexpected semicolon in sentence: otherwise if Ayn Rand is in the Vast Nothingness
+syntax-test: unexpected semicolon in sentence: try Ayn Rand going east
+syntax-test: unexpected semicolon in sentence: move Ayn Rand to the Mysterious Void
+ROOT_NT
+    HEADING_NT'the mysterious void is a room' {heading 0}
+        SENTENCE_NT'the mysterious void is a room'
+        SENTENCE_NT'"Spooky."'
+        SENTENCE_NT'the vast nothingness is east of the mysterious void'
+        SENTENCE_NT'"Empty."'
+        SENTENCE_NT'the nietzschean abyss is east of the vast nothingness'
+        SENTENCE_NT'"Full of gazes."'
+        SENTENCE_NT'instead of an actor going east in the vast nothingness , say'
+        SENTENCE_NT'ayn rand is a person in the mysterious void'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "Ayn Rand is now in [location of Ayn Rand]."'
+        SENTENCE_NT'if ayn rand is in the mysterious void begin'
+        SENTENCE_NT'try ayn rand going east'
+        SENTENCE_NT'otherwise if ayn rand is in the vast nothingness'
+        SENTENCE_NT'try ayn rand going east'
+        SENTENCE_NT'move ayn rand to the mysterious void'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'test me with "actions/z/z/e/z/e"'

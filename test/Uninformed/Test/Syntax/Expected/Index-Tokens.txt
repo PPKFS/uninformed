@@ -1,0 +1,8 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'understand "my [container]" as "[wobbly]"'
+        SENTENCE_NT'understand "that darned [container]" as "[wobbly]"'
+        SENTENCE_NT'understand "your [container]" as "[fish fish]"'
+        SENTENCE_NT'test index ( internal ) with to'

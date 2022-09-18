@@ -1,0 +1,20 @@
+Read 105 words
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'the bench is a supporter in the lab'
+        SENTENCE_NT'the apple is an thing'
+        SENTENCE_NT'it is on the bench'
+        SENTENCE_NT'the sandwich is a thing'
+        SENTENCE_NT'it is on the bench'
+        SENTENCE_NT'the can of cola is a thing on the bench'
+        SENTENCE_NT'the cola can be fizzy or flat'
+        SENTENCE_NT'the cola is fizzy'
+        SENTENCE_NT'instead of taking the apple , say "[if the apple is on the b'
+        SENTENCE_NT'check taking the sandwich'
+        SENTENCE_NT'say "[if the sandwich is on the bench]The
+        sandwich should re'
+        SENTENCE_NT'check taking the cola'
+        SENTENCE_NT'say "[if the cola is flat]What's the
+        point?[otherwise]Oh, no'
+        SENTENCE_NT'test me with "take apple/take cola/take sandwich"'

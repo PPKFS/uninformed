@@ -1,0 +1,42 @@
+Read 179 words
+syntax-test: unexpected semicolon in sentence: say "The time is about [time of day to the nearest 5 minutes]."
+syntax-test: unexpected semicolon in sentence: say "2174 to the nearest 25 is [2174 to the nearest 25]."
+syntax-test: unexpected semicolon in sentence: say "51.82m to the nearest 3m is [51.82m to the nearest 3m]."
+syntax-test: unexpected semicolon in sentence: say "square root of 16 is [square root of 16]."
+syntax-test: unexpected semicolon in sentence: say "square root of 10240000 is [square root of 10240000]."
+syntax-test: unexpected semicolon in sentence: say "square root of 1024 sq m is [square root of 1024 sq m]."
+syntax-test: unexpected semicolon in sentence: let A be square root of 1024 sq m
+syntax-test: unexpected semicolon in sentence: say "squaring which gives [A times A]."
+syntax-test: unexpected semicolon in sentence: say "cube root of 16 is [cube root of 16]."
+syntax-test: unexpected semicolon in sentence: say "cube root of 26 cu m is [cube root of 26 cu m]."
+syntax-test: unexpected semicolon in sentence: let T be cube root of 26 cu m
+ROOT_NT
+    HEADING_NT'length is a kind of value' {heading 0}
+        SENTENCE_NT'length is a kind of value'
+        SENTENCE_NT'1m specifies a length'
+        SENTENCE_NT'1mm specifies a length scaled down by 1000'
+        SENTENCE_NT'1cm specifies a length scaled down by 100'
+        SENTENCE_NT'1km specifies a length scaled up by 1000'
+        SENTENCE_NT'area is a kind of value'
+        SENTENCE_NT'1 sq m specifies an area'
+        SENTENCE_NT'1 sq cm specifies an area scaled down by 10000'
+        SENTENCE_NT'1 hectare specifies an area scaled up by 10000'
+        SENTENCE_NT'length times length specifies an area'
+        SENTENCE_NT'a volume is a kind of value'
+        SENTENCE_NT'1 cu m specifies a volume'
+        SENTENCE_NT'1cc specifies a volume scaled down by 1000000'
+        SENTENCE_NT'length times area specifies a volume'
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "The time is about [time of day to the nearest 5 minutes'
+        SENTENCE_NT'say "2174 to the nearest 25 is [2174 to the nearest 25]."'
+        SENTENCE_NT'say "51.82m to the nearest 3m is [51.82m to the nearest 3m].'
+        SENTENCE_NT'say "square root of 16 is [square root of 16]."'
+        SENTENCE_NT'say "square root of 10240000 is [square root of 10240000]."'
+        SENTENCE_NT'say "square root of 1024 sq m is [square root of 1024 sq m].'
+        SENTENCE_NT'let a be square root of 1024 sq m'
+        SENTENCE_NT'say "squaring which gives [A times A]."'
+        SENTENCE_NT'say "cube root of 16 is [cube root of 16]."'
+        SENTENCE_NT'say "cube root of 26 cu m is [cube root of 26 cu m]."'
+        SENTENCE_NT'let t be cube root of 26 cu m'
+        SENTENCE_NT'say "cubing which gives [T times T times T]."'

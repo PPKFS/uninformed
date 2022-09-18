@@ -1,0 +1,9 @@
+Read 62 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the sack is an openable container in the kitchen'
+        SENTENCE_NT'the rock is in the sack'
+        SENTENCE_NT'the verb to indef-article-refer ( it indef-article-refers , '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now all openable containers indef-article-refer "[if the ite'

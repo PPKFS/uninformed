@@ -1,0 +1,12 @@
+Read 46 words
+syntax-test: unexpected semicolon in sentence: let the target be "fish pie"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the target is a number that varies'
+        SENTENCE_NT'the target is 17'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "The target is [target]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let the target be "fish pie"'
+        SENTENCE_NT'say "This target is [target]."'

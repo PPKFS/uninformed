@@ -1,0 +1,9 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to tally ( d - a description of things )'
+        SENTENCE_NT'say "Too lazy to actually
+        do anything."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'tally all open doors'

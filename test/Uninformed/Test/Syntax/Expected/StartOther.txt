@@ -1,0 +1,10 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'the first spot is a room' {heading 0}
+        SENTENCE_NT'the first spot is a room'
+        SENTENCE_NT'"This is the first room."'
+        SENTENCE_NT'the second spot is east of the first spot'
+        SENTENCE_NT'"This is the second room."'
+        SENTENCE_NT'bob is a person in the second spot'
+        SENTENCE_NT'the player is bob'
+        SENTENCE_NT'test me with "look / e"'

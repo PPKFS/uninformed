@@ -1,0 +1,8 @@
+Read 52 words
+ROOT_NT
+    HEADING_NT'the cage is a room' {heading 0}
+        SENTENCE_NT'the cage is a room'
+        SENTENCE_NT'bobo the monkey is an animal in the cage'
+        SENTENCE_NT'a bag of bananas is here'
+        SENTENCE_NT'instead of asking bobo about "bananas" , say "Bobo looks at '
+        SENTENCE_NT'instead of showing the bag to bobo , try asking bobo about "'

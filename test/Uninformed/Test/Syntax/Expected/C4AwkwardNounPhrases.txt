@@ -1,0 +1,11 @@
+Read 125 words
+ROOT_NT
+    HEADING_NT'the attic is a room' {heading 0}
+        SENTENCE_NT'the attic is a room'
+        SENTENCE_NT'in the attic are a cd entitled no smoke without fire , a 70s'
+        SENTENCE_NT'the shelf is in the attic'
+        SENTENCE_NT'on the shelf are of mice and men and the girl from ipanema'
+        SENTENCE_NT'a person can be asleep or awake'
+        SENTENCE_NT'sleeping beauty is a woman who is asleep in the attic'
+        SENTENCE_NT'beauty's croissant is a thing which is edible in the attic'
+        SENTENCE_NT'test me with "showme / showme beauty / showme croissant"'

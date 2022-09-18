@@ -1,0 +1,10 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the message is an text which varies'
+        SENTENCE_NT'every turn when the message was "send more money"'
+        SENTENCE_NT'say "Just checking."'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now the message is "send more money"'
+        SENTENCE_NT'test me with "wait / jump / wait"'

@@ -1,0 +1,22 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: say "Equal (A)."
+syntax-test: unexpected semicolon in sentence: say "Not equal (A)."
+syntax-test: unexpected semicolon in sentence: say "Equal (B)."
+syntax-test: unexpected semicolon in sentence: say "Not equal (B)."
+syntax-test: unexpected semicolon in sentence: say "Equal (C)."
+ROOT_NT
+    HEADING_NT'the testing room is a room' {heading 0}
+        SENTENCE_NT'the testing room is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the description of the testing room is ""'
+        SENTENCE_NT'say "Equal (A)."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Not equal (A)."'
+        SENTENCE_NT'if the description of the testing room exactly matches the t'
+        SENTENCE_NT'say "Equal (B)."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Not equal (B)."'
+        SENTENCE_NT'if "" exactly matches the text the description of the testin'
+        SENTENCE_NT'say "Equal (C)."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Not equal (C)."'

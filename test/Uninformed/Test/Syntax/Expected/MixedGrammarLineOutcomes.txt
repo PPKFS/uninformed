@@ -1,0 +1,17 @@
+Read 107 words
+ROOT_NT
+    HEADING_NT'room 1 is a room' {heading 0}
+        SENTENCE_NT'room 1 is a room'
+        SENTENCE_NT'color is a kind of value'
+        SENTENCE_NT'the color are red and blue'
+        SENTENCE_NT'dolor is a kind of value'
+        SENTENCE_NT'the dolor are sad and sadder'
+        SENTENCE_NT'a cube is a kind of thing'
+        SENTENCE_NT'a cube has a color'
+        SENTENCE_NT'the color of a cube is usually red'
+        SENTENCE_NT'in room 1 is a cube'
+        SENTENCE_NT'in room 1 is a supporter called the table'
+        SENTENCE_NT'test me with "x cube / x sadder / put box on table"'
+        SENTENCE_NT'understand "[dolor]" as a cube'
+        SENTENCE_NT'understand "[color]" as a cube'
+        SENTENCE_NT'understand "box" as a cube'

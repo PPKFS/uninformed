@@ -83,15 +83,19 @@ library
   exposed-modules:
     Uninformed.Words.Lexer
     Uninformed.Words.Vocabulary
+    Uninformed.Syntax.Sentences
 
 test-suite uninformed-test
   import:             common-options
   type:               exitcode-stdio-1.0
   hs-source-dirs:     test
   main-is:            Spec.hs
+  other-modules:      Uninformed.Test.Words.Lexer
+                      Uninformed.Test.Syntax.Sentences
   build-depends:
     , tasty
     , tasty-hunit
+    , tasty-golden
     , exceptions
     , uninformed
     , filepath

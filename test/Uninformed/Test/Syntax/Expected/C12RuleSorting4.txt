@@ -1,0 +1,15 @@
+Read 94 words
+ROOT_NT
+    HEADING_NT'the empty room is a room' {heading 0}
+        SENTENCE_NT'the empty room is a room'
+        SENTENCE_NT'an every turn rule ( this is the bell rule )'
+        SENTENCE_NT'say "The bell rule."'
+        SENTENCE_NT'an every turn rule ( this is the foo rule )'
+        SENTENCE_NT'say "The foo rule."'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "This is neither the foo nor the bar rule."'
+        SENTENCE_NT'this is the bar rule'
+        SENTENCE_NT'say "The bar rule."'
+        SENTENCE_NT'the bar rule is listed before the foo rule in the every turn'
+        SENTENCE_NT'the bell rule is listed after the foo rule in the every turn'
+        SENTENCE_NT'test me with "wait"'

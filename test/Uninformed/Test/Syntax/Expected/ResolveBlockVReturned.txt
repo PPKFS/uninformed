@@ -1,0 +1,23 @@
+Read 123 words
+syntax-test: unexpected semicolon in sentence: let RR be the xregions of the location
+syntax-test: unexpected semicolon in sentence: let R be a list of objects
+syntax-test: unexpected semicolon in sentence: let R be { }
+syntax-test: unexpected semicolon in sentence: if X is regionally in N, add N to R
+ROOT_NT
+    HEADING_NT'do is a room' {heading 0}
+        SENTENCE_NT'do is a room'
+        SENTENCE_NT're is east of do and west of mi'
+        SENTENCE_NT'not-e is a region'
+        SENTENCE_NT'do is in not-e'
+        SENTENCE_NT'rarely sharped is a region'
+        SENTENCE_NT're is in rarely sharped'
+        SENTENCE_NT'rarely sharped is in not-e'
+        SENTENCE_NT'the last carry out looking rule'
+        SENTENCE_NT'let rr be the xregions of the location'
+        SENTENCE_NT'say "(Within [the xregions of the location].)"'
+        SENTENCE_NT'to decide what list of objects is the xregions of ( x - a ro'
+        SENTENCE_NT'let r be a list of objects'
+        SENTENCE_NT'let r be { }'
+        SENTENCE_NT'repeat with n running through regions'
+        SENTENCE_NT'if x is regionally in n , add n to r'
+        SENTENCE_NT'decide on r'

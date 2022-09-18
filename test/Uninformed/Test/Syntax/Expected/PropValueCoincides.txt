@@ -1,0 +1,26 @@
+Read 141 words
+syntax-test: unexpected semicolon in sentence: now every scene is green
+syntax-test: unexpected semicolon in sentence: now Steeleye Span Concert is red
+ROOT_NT
+    HEADING_NT'right here is a room' {heading 0}
+        SENTENCE_NT'right here is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , white , green and blue'
+        SENTENCE_NT'a scene has a colour'
+        SENTENCE_NT'abba concert is a scene'
+        SENTENCE_NT'ac-dc concert is a recurring scene'
+        SENTENCE_NT'black sabbath concert is a scene'
+        SENTENCE_NT'yes concert is a scene'
+        SENTENCE_NT'a scene is usually white'
+        SENTENCE_NT'steeleye span concert is a blue scene'
+        SENTENCE_NT'the ac-dc concert is blue'
+        SENTENCE_NT'the colour of the black sabbath concert is red'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with c running through scenes'
+        SENTENCE_NT'say "[C] has colour [colour of C]."'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'now every scene is green'
+        SENTENCE_NT'now steeleye span concert is red'
+        SENTENCE_NT'repeat with c running through scenes'
+        SENTENCE_NT'say "[C] has colour [colour of C]."'
+        SENTENCE_NT'test me with "z"'

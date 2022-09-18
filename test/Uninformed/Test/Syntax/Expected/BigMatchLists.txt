@@ -1,0 +1,7 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'a triangle is a kind of thing'
+        SENTENCE_NT'75 triangles are here'
+        SENTENCE_NT'test me with "take twenty triangles / take twenty triangles '

@@ -1,0 +1,8 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'wine cellar is a room' {heading 0}
+        SENTENCE_NT'wine cellar is a room'
+        SENTENCE_NT'a barrel is a kind of thing'
+        SENTENCE_NT'understand "cask" as a barrel'
+        SENTENCE_NT'five barrels are in the wine cellar'
+        SENTENCE_NT'test me with "get barrel/get cask/get casks/get barrels"'

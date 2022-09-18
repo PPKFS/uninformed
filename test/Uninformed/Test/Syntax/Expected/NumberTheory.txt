@@ -1,0 +1,15 @@
+Read 115 words
+syntax-test: unexpected semicolon in sentence: if 2 is a factor of 8, say "2 is a factor of 8."
+syntax-test: unexpected semicolon in sentence: if 2 is not a factor of 17, say "2 is not a factor of 17."
+syntax-test: unexpected semicolon in sentence: if 3 divides 6, say "3 divides 6."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'divisibility relates a number ( called n ) to a number ( cal'
+        SENTENCE_NT'the verb to divide ( it divides , they divide , it divided ,'
+        SENTENCE_NT'the verb to be a factor of implies the divisibility relation'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 2 is a factor of 8 , say "2 is a factor of 8."'
+        SENTENCE_NT'if 2 is not a factor of 17 , say "2 is not a factor of 17."'
+        SENTENCE_NT'if 3 divides 6 , say "3 divides 6."'
+        SENTENCE_NT'if 3 divides 17 , say "3 divides 17."'

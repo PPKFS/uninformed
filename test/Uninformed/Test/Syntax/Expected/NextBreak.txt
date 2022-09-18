@@ -1,0 +1,39 @@
+Read 176 words
+syntax-test: unexpected semicolon in sentence: if X is 4, next
+syntax-test: unexpected semicolon in sentence: say "X is [X]."
+syntax-test: unexpected semicolon in sentence: if X is 7, break
+syntax-test: unexpected semicolon in sentence: if Y is Blakeney, next
+syntax-test: unexpected semicolon in sentence: say "Y is [Y]."
+syntax-test: unexpected semicolon in sentence: if Y is St Just, break
+syntax-test: unexpected semicolon in sentence: let Z be 23
+syntax-test: unexpected semicolon in sentence: increase Z by 7
+syntax-test: unexpected semicolon in sentence: if Z is 37, next
+syntax-test: unexpected semicolon in sentence: say "Z is [Z]."
+ROOT_NT
+    HEADING_NT'when play begins' {heading 0}
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with x running from 1 to 10'
+        SENTENCE_NT'if x is 4 , next'
+        SENTENCE_NT'say "X is [X]."'
+        SENTENCE_NT'if x is 7 , break'
+        SENTENCE_NT'repeat with y running through people'
+        SENTENCE_NT'if y is blakeney , next'
+        SENTENCE_NT'say "Y is [Y]."'
+        SENTENCE_NT'if y is st just , break'
+        SENTENCE_NT'let z be 23'
+        SENTENCE_NT'while z is less than 90'
+        SENTENCE_NT'increase z by 7'
+        SENTENCE_NT'if z is 37 , next'
+        SENTENCE_NT'say "Z is [Z]."'
+        SENTENCE_NT'if z is greater than 70 , break'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 1 is 2'
+        SENTENCE_NT'say "1 is 2"'
+        SENTENCE_NT'pere blanchard's hut is a room'
+        SENTENCE_NT'percival blakeney is a man in the hut'
+        SENTENCE_NT'marguerite is a woman in the hut'
+        SENTENCE_NT'outside from the hut is the garden'
+        SENTENCE_NT'louise is a woman in the garden'
+        SENTENCE_NT'the road to paris is west of the garden'
+        SENTENCE_NT'armand st just is a man in the road'
+        SENTENCE_NT'monsieur st just is a man'

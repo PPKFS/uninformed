@@ -1,0 +1,19 @@
+Read 98 words
+ROOT_NT
+    HEADING_NT'over the river is a room' {heading 0}
+        SENTENCE_NT'over the river is a room'
+        SENTENCE_NT'east is through the woods'
+        SENTENCE_NT'the horse is an animal in over the river'
+        SENTENCE_NT'instead of the horse going'
+        SENTENCE_NT'say "Not without the sleigh!"'
+        SENTENCE_NT'instead of the player going'
+        SENTENCE_NT'say "Not without the horse!"'
+        SENTENCE_NT'before going when the player can see horse'
+        SENTENCE_NT'try horse going noun'
+        SENTENCE_NT'instead of the horse jumping'
+        SENTENCE_NT'say "Not without the sleigh!"'
+        SENTENCE_NT'instead of yourself jumping'
+        SENTENCE_NT'say "Not without the horse!"'
+        SENTENCE_NT'before jumping when the player can see horse'
+        SENTENCE_NT'try horse jumping'
+        SENTENCE_NT'test me with "e / jump"'

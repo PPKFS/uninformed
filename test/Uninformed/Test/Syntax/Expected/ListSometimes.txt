@@ -1,0 +1,19 @@
+Read 130 words
+syntax-test: unexpected semicolon in sentence: say "[The noun] doesn't seem to fit in [the second noun]."
+syntax-test: unexpected semicolon in sentence: stop the action
+ROOT_NT
+    HEADING_NT'a restricted-container is a kind of container' {heading 0}
+        SENTENCE_NT'a restricted-container is a kind of container'
+        SENTENCE_NT'a restricted-container has a list of things called the allow'
+        SENTENCE_NT'the allowed-contents of a restricted-container is usually { '
+        SENTENCE_NT'check inserting something ( called the to-be-inserted ) into'
+        SENTENCE_NT'if the to-be-inserted is not listed in the allowed-contents '
+        SENTENCE_NT'say "[The noun] doesn't seem to fit in [the second noun]."'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'the living room is a room'
+        SENTENCE_NT'the diamond ring is wearable'
+        SENTENCE_NT'the player carries the little red box and the diamond ring'
+        SENTENCE_NT'the little red box is a restricted-container'
+        SENTENCE_NT'the allowed-contents of the little red box is { diamond ring'

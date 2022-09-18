@@ -1,0 +1,21 @@
+Read 128 words
+syntax-test: unexpected semicolon in sentence: say "Water level: [water level]."
+syntax-test: unexpected semicolon in sentence: increase the water level by 2 cubits
+ROOT_NT
+    HEADING_NT'an elevation is a kind of value' {heading 0}
+        SENTENCE_NT'an elevation is a kind of value'
+        SENTENCE_NT'-100 cubits specifies an elevation'
+        SENTENCE_NT'every room has an elevation'
+        SENTENCE_NT'the water level is an elevation that varies'
+        SENTENCE_NT'the water level is -10 cubits'
+        SENTENCE_NT'the first every turn rule'
+        SENTENCE_NT'say "Water level: [water level]."'
+        SENTENCE_NT'increase the water level by 2 cubits'
+        SENTENCE_NT'if water level > elevation of location , say "The water has '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Well, assuming this is a logical universe, you should h'
+        SENTENCE_NT'beach is a room'
+        SENTENCE_NT'the elevation of beach is 2 cubits'
+        SENTENCE_NT'a pile of lumber and a hammer are in beach'
+        SENTENCE_NT'every turn when water level is at least elevation of locatio'
+        SENTENCE_NT'test me with "z/z/z/z/z/z"'

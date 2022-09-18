@@ -1,0 +1,10 @@
+Read 33 words
+syntax-test: unexpected semicolon in sentence: let foo be a random person in a room (called bar)
+syntax-test: unexpected semicolon in sentence: showme foo
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let foo be a random person in a room ( called bar )'
+        SENTENCE_NT'showme foo'
+        SENTENCE_NT'showme bar'

@@ -1,0 +1,9 @@
+Read 56 words
+ROOT_NT
+    HEADING_NT'a behavior is a kind of value' {heading 0}
+        SENTENCE_NT'a behavior is a kind of value'
+        SENTENCE_NT'the behavior are defined by the table of behaviors'
+        SENTENCE_NT'table of behaviors behavior turn rule aimless -- happy -- sa'
+        SENTENCE_NT'this is the interesting rule'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'the lane is a room'

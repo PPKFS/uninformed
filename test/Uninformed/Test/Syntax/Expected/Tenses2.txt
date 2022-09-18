@@ -1,0 +1,40 @@
+Read 177 words
+syntax-test: unexpected semicolon in sentence: if the box was not open, say "The box was not open."
+syntax-test: unexpected semicolon in sentence: if the box was open, say "The box was open."
+syntax-test: unexpected semicolon in sentence: if the box had not been open, say "The box had not been open."
+syntax-test: unexpected semicolon in sentence: if the box had been open, say "The box had been open."
+syntax-test: unexpected semicolon in sentence: if the box is not open, say "The box is not open."
+syntax-test: unexpected semicolon in sentence: if the box is open, say "The box is open."
+syntax-test: unexpected semicolon in sentence: if the box has not been open, say "The box has not been open."
+syntax-test: unexpected semicolon in sentence: say "You are about to open the box."
+syntax-test: unexpected semicolon in sentence: say "You are about to close the box."
+syntax-test: unexpected semicolon in sentence: say "You now open the box."
+syntax-test: unexpected semicolon in sentence: say "You now close the box."
+ROOT_NT
+    HEADING_NT'"Tense Boxing"' {heading 0}
+        SENTENCE_NT'"Tense Boxing"'
+        SENTENCE_NT'the temporal lobe is a room'
+        SENTENCE_NT'the mysterious box is in the temporal lobe'
+        SENTENCE_NT'it is an openable closed container'
+        SENTENCE_NT'to assess the box'
+        SENTENCE_NT'if the box was not open , say "The box was not open."'
+        SENTENCE_NT'if the box was open , say "The box was open."'
+        SENTENCE_NT'if the box had not been open , say "The box had not been ope'
+        SENTENCE_NT'if the box had been open , say "The box had been open."'
+        SENTENCE_NT'if the box is not open , say "The box is not open."'
+        SENTENCE_NT'if the box is open , say "The box is open."'
+        SENTENCE_NT'if the box has not been open , say "The box has not been ope'
+        SENTENCE_NT'if the box has been open , say "The box has been open."'
+        SENTENCE_NT'before opening the mysterious box'
+        SENTENCE_NT'say "You are about to open the box."'
+        SENTENCE_NT'assess the box'
+        SENTENCE_NT'before closing the mysterious box'
+        SENTENCE_NT'say "You are about to close the box."'
+        SENTENCE_NT'assess the box'
+        SENTENCE_NT'after opening the mysterious box'
+        SENTENCE_NT'say "You now open the box."'
+        SENTENCE_NT'assess the box'
+        SENTENCE_NT'after closing the mysterious box'
+        SENTENCE_NT'say "You now close the box."'
+        SENTENCE_NT'assess the box'
+        SENTENCE_NT'test me with "open box / close box / open box"'

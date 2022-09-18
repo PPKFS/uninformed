@@ -1,0 +1,12 @@
+Read 54 words
+syntax-test: unexpected semicolon in sentence: if Robin can see the cash register, say "Robin can see it."
+ROOT_NT
+    HEADING_NT'darkroom is a dark room' {heading 0}
+        SENTENCE_NT'darkroom is a dark room'
+        SENTENCE_NT'one hour photo is south of darkroom'
+        SENTENCE_NT'robin is here'
+        SENTENCE_NT'a cash register is here'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'if robin can see the cash register , say "Robin can see it."'
+        SENTENCE_NT'otherwise say "Whoops!"'
+        SENTENCE_NT'test me with "z / s / z"'

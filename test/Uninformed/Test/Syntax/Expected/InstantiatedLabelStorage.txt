@@ -1,0 +1,13 @@
+Read 29 words
+syntax-test: unexpected semicolon in sentence: judge 21
+syntax-test: unexpected semicolon in sentence: judge "fishslice"
+syntax-test: unexpected semicolon in sentence: judge true
+ROOT_NT
+    HEADING_NT'to judge ( v - value )' {heading 0}
+        SENTENCE_NT'to judge ( v - value )'
+        SENTENCE_NT'say "[V] is [one of]clearly[or]evidently[or]markedly[cycling'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'judge 21'
+        SENTENCE_NT'judge "fishslice"'
+        SENTENCE_NT'judge true'
+        SENTENCE_NT'judge 56'

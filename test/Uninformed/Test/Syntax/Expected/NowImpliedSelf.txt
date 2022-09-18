@@ -1,0 +1,17 @@
+Read 93 words
+syntax-test: unexpected semicolon in sentence: let dx be the X1 - 6
+syntax-test: unexpected semicolon in sentence: now the X1 is the X1 - dx
+ROOT_NT
+    HEADING_NT'a testing-entity is a kind of thing' {heading 0}
+        SENTENCE_NT'a testing-entity is a kind of thing'
+        SENTENCE_NT'a testing-entity has a number called x1'
+        SENTENCE_NT'the test-object is a testing-entity'
+        SENTENCE_NT'the x1 is 12'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'follow the testing rules for the test-object'
+        SENTENCE_NT'the testing rules are an object-based rulebook'
+        SENTENCE_NT'a testing rule for a testing-entity ( called the subject )'
+        SENTENCE_NT'let dx be the x1 - 6'
+        SENTENCE_NT'now the x1 is the x1 - dx'
+        SENTENCE_NT'say "X1: [X1 of the subject]."'
+        SENTENCE_NT'test is a room'

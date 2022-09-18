@@ -1,0 +1,12 @@
+Read 67 words
+syntax-test: unexpected semicolon in sentence: replace character number 1 in the text-handle of Foo_1 with "/"
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'a foo is a kind of thing'
+        SENTENCE_NT'a foo has an text called the text-handle'
+        SENTENCE_NT'some foos are defined by the table of text-bearing objects'
+        SENTENCE_NT'table of text-bearing objects foo text-handle foo_1 "Text_A"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'replace character number 1 in the text-handle of foo_1 with '
+        SENTENCE_NT'say "[Foo_1]: [text-handle of Foo_1]."'

@@ -1,0 +1,7 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'the temple is a room' {heading 0}
+        SENTENCE_NT'the temple is a room'
+        SENTENCE_NT'north is the approach'
+        SENTENCE_NT'the sphinx is east'
+        SENTENCE_NT'test me with "n / s / e / w"'

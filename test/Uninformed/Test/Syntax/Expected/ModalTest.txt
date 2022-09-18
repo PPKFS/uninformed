@@ -1,0 +1,28 @@
+Read 67 words
+syntax-test: unexpected semicolon in sentence: now the story tense is T
+syntax-test: unexpected semicolon in sentence: say "[T]."
+syntax-test: unexpected semicolon in sentence: say "That [lead] to spills."
+syntax-test: unexpected semicolon in sentence: say "That [can lead] to spills. That [cannot lead] to spills. That [can't lead] to spills."
+syntax-test: unexpected semicolon in sentence: say "That [might lead] to spills. That [might not lead] to spills. That [mightn't lead] to spills."
+syntax-test: unexpected semicolon in sentence: say "That [could lead] to spills. That [could not lead] to spills. That [couldn't lead] to spills."
+syntax-test: unexpected semicolon in sentence: say "That [would lead] to spills. That [would not lead] to spills. That [wouldn't lead] to spills."
+syntax-test: unexpected semicolon in sentence: say "That [should lead] to spills. That [should not lead] to spills. That [shouldn't lead] to spills."
+syntax-test: unexpected semicolon in sentence: say "That [must lead] to spills. That [must not lead] to spills. That [mustn't lead] to spills."
+syntax-test: unexpected semicolon in sentence: say "That [may lead] to spills. That [may not lead] to spills. That [mayn't lead] to spills."
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with t running through grammatical tenses'
+        SENTENCE_NT'now the story tense is t'
+        SENTENCE_NT'say "[T]."'
+        SENTENCE_NT'say "That [lead] to spills."'
+        SENTENCE_NT'say "That [can lead] to spills. That [cannot lead] to spills'
+        SENTENCE_NT'say "That [might lead] to spills. That [might not lead] to s'
+        SENTENCE_NT'say "That [could lead] to spills. That [could not lead] to s'
+        SENTENCE_NT'say "That [would lead] to spills. That [would not lead] to s'
+        SENTENCE_NT'say "That [should lead] to spills. That [should not lead] to'
+        SENTENCE_NT'say "That [must lead] to spills. That [must not lead] to spi'
+        SENTENCE_NT'say "That [may lead] to spills. That [may not lead] to spill'
+        SENTENCE_NT'say paragraph break'
+        SENTENCE_NT'to lead is a verb'

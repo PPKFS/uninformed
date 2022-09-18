@@ -1,0 +1,16 @@
+Read 67 words
+syntax-test: unexpected semicolon in sentence: dispatch based on yourself
+syntax-test: unexpected semicolon in sentence: dispatch based on yourself
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to dispatch based on ( x - a thing )'
+        SENTENCE_NT'say "Fail."'
+        SENTENCE_NT'to dispatch based on ( x - a thing that is yourself )'
+        SENTENCE_NT'say "Pass."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'dispatch based on yourself'
+        SENTENCE_NT'dispatch based on yourself'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'dispatch based on yourself'
+        SENTENCE_NT'dispatch based on yourself'

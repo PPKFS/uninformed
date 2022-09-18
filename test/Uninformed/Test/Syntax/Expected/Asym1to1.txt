@@ -1,0 +1,43 @@
+Read 315 words
+syntax-test: unexpected semicolon in sentence: now the player clashes the fish
+syntax-test: unexpected semicolon in sentence: now red scratches green
+syntax-test: unexpected semicolon in sentence: now red does not scratch green
+syntax-test: unexpected semicolon in sentence: if red scratches green, say "Red scratches green."
+ROOT_NT
+    HEADING_NT'the mysterious void is a room' {heading 0}
+        SENTENCE_NT'the mysterious void is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and green'
+        SENTENCE_NT'affinity relates one colour to another'
+        SENTENCE_NT'the verb to scratch ( he scratches , they scratch , he scrat'
+        SENTENCE_NT'disaffinity relates one thing to another'
+        SENTENCE_NT'the verb to clash ( he clashes , they clash , he clashed , i'
+        SENTENCE_NT'red scratches blue'
+        SENTENCE_NT'the fish is a thing'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'now the player clashes the fish'
+        SENTENCE_NT'now red scratches green'
+        SENTENCE_NT'now red is decoded as the player'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'now red does not scratch green'
+        SENTENCE_NT'now the fish is not coded blue'
+        SENTENCE_NT'instead of going north'
+        SENTENCE_NT'if red scratches green , say "Red scratches green."'
+        SENTENCE_NT'otherwise say "Red does not scratch green."'
+        SENTENCE_NT'afterness relates one thing to one thing'
+        SENTENCE_NT'the verb to be placed after implies the afterness relation'
+        SENTENCE_NT'b , c , and d are things'
+        SENTENCE_NT'c is placed after b'
+        SENTENCE_NT'd is placed after c'
+        SENTENCE_NT'brighterness relates one colour to one colour'
+        SENTENCE_NT'the verb to be brighter than implies the brighterness relati'
+        SENTENCE_NT'blue is brighter than red'
+        SENTENCE_NT'red is brighter than green'
+        SENTENCE_NT'codedness relates one thing to one colour'
+        SENTENCE_NT'the verb to be coded implies the codedness relation'
+        SENTENCE_NT'the player is coded yellow'
+        SENTENCE_NT'the fish is coded blue'
+        SENTENCE_NT'decodedness relates one colour to one thing'
+        SENTENCE_NT'the verb to be decoded as implies the decodedness relation'
+        SENTENCE_NT'red is decoded as the fish'
+        SENTENCE_NT'test me with "showme fish/n/relations/z/n/relations/jump/n/r'

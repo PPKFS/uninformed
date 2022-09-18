@@ -1,0 +1,8 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'egyptian tomb is a room' {heading 0}
+        SENTENCE_NT'egyptian tomb is a room'
+        SENTENCE_NT'false door is a door'
+        SENTENCE_NT'it is west of egyptian tomb'
+        SENTENCE_NT'the description is "The
+        faux doorway that leads to the under'

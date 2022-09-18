@@ -1,0 +1,131 @@
+Read 479 words
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now Abba Concert is dull."
+syntax-test: unexpected semicolon in sentence: now Abba Concert is dull
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now Abba Concert is vivid."
+syntax-test: unexpected semicolon in sentence: now Abba Concert is vivid
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now AC-DC Concert is dull."
+syntax-test: unexpected semicolon in sentence: now AC-DC Concert is dull
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now AC-DC Concert is vivid."
+syntax-test: unexpected semicolon in sentence: now AC-DC Concert is vivid
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now Abba Concert is tiresome."
+syntax-test: unexpected semicolon in sentence: now Abba Concert is tiresome
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now Abba Concert is fine."
+syntax-test: unexpected semicolon in sentence: now Abba Concert is fine
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now AC-DC Concert is tiresome."
+syntax-test: unexpected semicolon in sentence: now AC-DC Concert is tiresome
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "now AC-DC Concert is fine."
+syntax-test: unexpected semicolon in sentence: now AC-DC Concert is fine
+syntax-test: unexpected semicolon in sentence: assess the situation
+syntax-test: unexpected semicolon in sentence: say "Test complete."
+syntax-test: unexpected semicolon in sentence: say "now blue is lurid."
+syntax-test: unexpected semicolon in sentence: now blue is lurid
+syntax-test: unexpected semicolon in sentence: if event is dull, say "[event] is dull."
+syntax-test: unexpected semicolon in sentence: if event is not dull, say "[event] is not dull."
+syntax-test: unexpected semicolon in sentence: if event is vivid, say "[event] is vivid."
+syntax-test: unexpected semicolon in sentence: if event is not vivid, say "[event] is not vivid."
+syntax-test: unexpected semicolon in sentence: if event is tiresome, say "[event] is tiresome."
+syntax-test: unexpected semicolon in sentence: if event is not tiresome, say "[event] is not tiresome."
+syntax-test: unexpected semicolon in sentence: if event is fine, say "[event] is fine."
+syntax-test: unexpected semicolon in sentence: say "List of lurid colours: [list of lurid colours]."
+syntax-test: unexpected semicolon in sentence: say "List of pale colours: [list of pale colours]."
+syntax-test: unexpected semicolon in sentence: say "List of recurring scenes: [list of recurring scenes]."
+syntax-test: unexpected semicolon in sentence: say "List of dull scenes: [list of dull scenes]."
+syntax-test: unexpected semicolon in sentence: say "List of vivid scenes: [list of vivid scenes]."
+syntax-test: unexpected semicolon in sentence: say "List of tiresome scenes: [list of tiresome scenes]."
+syntax-test: unexpected semicolon in sentence: say "List of fine scenes: [list of fine scenes]."
+syntax-test: unexpected semicolon in sentence: assess the Abba Concert
+syntax-test: unexpected semicolon in sentence: assess the AC-DC Concert
+syntax-test: unexpected semicolon in sentence: show wavelengths
+syntax-test: unexpected semicolon in sentence: now the wavelength of blue is 21
+ROOT_NT
+    HEADING_NT'right here is a room' {heading 0}
+        SENTENCE_NT'right here is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , white and blue'
+        SENTENCE_NT'a scene can be dull or vivid'
+        SENTENCE_NT'a scene can be tiresome or fine'
+        SENTENCE_NT'a scene is usually dull'
+        SENTENCE_NT'abba concert is a scene'
+        SENTENCE_NT'ac-dc concert is a recurring scene'
+        SENTENCE_NT'abba concert begins when play begins'
+        SENTENCE_NT'abba concert is tiresome'
+        SENTENCE_NT'black sabbath concert is a vivid scene'
+        SENTENCE_NT'the guitar is in right here'
+        SENTENCE_NT'ac-dc concert begins when the player is carrying the guitar'
+        SENTENCE_NT'ac-dc concert ends when the player is not carrying the guita'
+        SENTENCE_NT'every turn during the ac-dc concert'
+        SENTENCE_NT'say "Twang!"'
+        SENTENCE_NT'a colour can be lurid or pale'
+        SENTENCE_NT'a colour is usually pale'
+        SENTENCE_NT'red is lurid'
+        SENTENCE_NT'a colour has a number called wavelength'
+        SENTENCE_NT'the wavelength of a colour is usually 195'
+        SENTENCE_NT'the wavelength of blue is 124'
+        SENTENCE_NT'the box is a container with carrying capacity 7'
+        SENTENCE_NT'mauve is a colour with wavelength 316'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now Abba Concert is dull."'
+        SENTENCE_NT'now abba concert is dull'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now Abba Concert is vivid."'
+        SENTENCE_NT'now abba concert is vivid'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now AC-DC Concert is dull."'
+        SENTENCE_NT'now ac-dc concert is dull'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now AC-DC Concert is vivid."'
+        SENTENCE_NT'now ac-dc concert is vivid'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now Abba Concert is tiresome."'
+        SENTENCE_NT'now abba concert is tiresome'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now Abba Concert is fine."'
+        SENTENCE_NT'now abba concert is fine'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now AC-DC Concert is tiresome."'
+        SENTENCE_NT'now ac-dc concert is tiresome'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "now AC-DC Concert is fine."'
+        SENTENCE_NT'now ac-dc concert is fine'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'say "Test complete."'
+        SENTENCE_NT'say "now blue is lurid."'
+        SENTENCE_NT'now blue is lurid'
+        SENTENCE_NT'assess the situation'
+        SENTENCE_NT'to assess ( event - a scene )'
+        SENTENCE_NT'if event is dull , say "[event] is dull."'
+        SENTENCE_NT'if event is not dull , say "[event] is not dull."'
+        SENTENCE_NT'if event is vivid , say "[event] is vivid."'
+        SENTENCE_NT'if event is not vivid , say "[event] is not vivid."'
+        SENTENCE_NT'if event is tiresome , say "[event] is tiresome."'
+        SENTENCE_NT'if event is not tiresome , say "[event] is not tiresome."'
+        SENTENCE_NT'if event is fine , say "[event] is fine."'
+        SENTENCE_NT'if event is not fine , say "[event] is not fine."'
+        SENTENCE_NT'to assess the situation'
+        SENTENCE_NT'say "List of lurid colours: [list of lurid colours]."'
+        SENTENCE_NT'say "List of pale colours: [list of pale colours]."'
+        SENTENCE_NT'say "List of recurring scenes: [list of recurring scenes]."'
+        SENTENCE_NT'say "List of dull scenes: [list of dull scenes]."'
+        SENTENCE_NT'say "List of vivid scenes: [list of vivid scenes]."'
+        SENTENCE_NT'say "List of tiresome scenes: [list of tiresome scenes]."'
+        SENTENCE_NT'say "List of fine scenes: [list of fine scenes]."'
+        SENTENCE_NT'assess the abba concert'
+        SENTENCE_NT'assess the ac-dc concert'
+        SENTENCE_NT'say paragraph break'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'show wavelengths'
+        SENTENCE_NT'now the wavelength of blue is 21'
+        SENTENCE_NT'show wavelengths'
+        SENTENCE_NT'to show wavelengths'
+        SENTENCE_NT'repeat with c running through colours'
+        SENTENCE_NT'say "[C] has wavelength [wavelength of C]."'
+        SENTENCE_NT'test me with "z / get guitar / z / drop guitar / z / get gui'

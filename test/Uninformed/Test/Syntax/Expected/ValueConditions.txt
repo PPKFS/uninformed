@@ -1,0 +1,20 @@
+Read 82 words
+syntax-test: unexpected semicolon in sentence: say "[C] is [colour condition of C]."
+syntax-test: unexpected semicolon in sentence: now red is flat
+syntax-test: unexpected semicolon in sentence: say "[C] is [colour condition of C]."
+syntax-test: unexpected semicolon in sentence: if red is flat, say "Red is flat."
+ROOT_NT
+    HEADING_NT'workshop is a room' {heading 0}
+        SENTENCE_NT'workshop is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , green and white'
+        SENTENCE_NT'a colour can be bright , neutral or flat'
+        SENTENCE_NT'green is neutral'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with c running through colours'
+        SENTENCE_NT'say "[C] is [colour condition of C]."'
+        SENTENCE_NT'now red is flat'
+        SENTENCE_NT'repeat with c running through colours'
+        SENTENCE_NT'say "[C] is [colour condition of C]."'
+        SENTENCE_NT'if red is flat , say "Red is flat."'
+        SENTENCE_NT'otherwise say "Red isn't flat."'

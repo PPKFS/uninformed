@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'wombats from beyond is a thing'
+        SENTENCE_NT'wombats from beyond can be womp , zomp , or tromp'

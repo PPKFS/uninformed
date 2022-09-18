@@ -1,0 +1,10 @@
+Read 71 words
+syntax-test: unexpected semicolon in sentence: add L2 to L1
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to decide which list of k is ( l1 - a list of values of kind'
+        SENTENCE_NT'add l2 to l1'
+        SENTENCE_NT'decide on l1'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme { 1 , 2 , 3 } next to { 4 , 5 , 6 }'

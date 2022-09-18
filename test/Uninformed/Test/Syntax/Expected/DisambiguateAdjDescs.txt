@@ -1,0 +1,20 @@
+Read 112 words
+syntax-test: unexpected semicolon in sentence: blob Home
+syntax-test: unexpected semicolon in sentence: blab 4
+syntax-test: unexpected semicolon in sentence: let X be the interior volume of Home
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to decide which time is the interior volume of ( r - a light'
+        SENTENCE_NT'decide on 10:10 am'
+        SENTENCE_NT'to decide which time is the exterior volume of ( r - an even'
+        SENTENCE_NT'decide on 10:10 am'
+        SENTENCE_NT'to blob ( r - a lit room )'
+        SENTENCE_NT'say "R is [R]."'
+        SENTENCE_NT'to blab ( r - an even number )'
+        SENTENCE_NT'say "R is [R]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'blob home'
+        SENTENCE_NT'blab 4'
+        SENTENCE_NT'let x be the interior volume of home'
+        SENTENCE_NT'let y be the exterior volume of 16'

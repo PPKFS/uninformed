@@ -1,0 +1,20 @@
+Read 135 words
+ROOT_NT
+    HEADING_NT'a color is a kind of value' {heading 0}
+        SENTENCE_NT'a color is a kind of value'
+        SENTENCE_NT'the colors are red and yellow'
+        SENTENCE_NT'a widget is a kind of thing'
+        SENTENCE_NT'a widget has a color'
+        SENTENCE_NT'understand the color property as describing a widget'
+        SENTENCE_NT'before printing the name of a widget'
+        SENTENCE_NT'say "[color] "'
+        SENTENCE_NT'before printing the plural name of a widget'
+        SENTENCE_NT'say "[color] "'
+        SENTENCE_NT'the oak box is an open container'
+        SENTENCE_NT'the mahogany box is an open container'
+        SENTENCE_NT'does the player mean inserting into the oak box'
+        SENTENCE_NT'it is likely'
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'in the kitchen is a red widget and a yellow widget'
+        SENTENCE_NT'the player carries the oak box and the mahogany box'
+        SENTENCE_NT'test me with "get widgets / put red in box / get red / put w'

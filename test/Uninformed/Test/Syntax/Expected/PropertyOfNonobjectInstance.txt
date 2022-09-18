@@ -1,0 +1,12 @@
+Read 53 words
+syntax-test: unexpected semicolon in sentence: increase the countervalue of Eightball by 1
+ROOT_NT
+    HEADING_NT'the study is a room' {heading 0}
+        SENTENCE_NT'the study is a room'
+        SENTENCE_NT'eightball is a scene'
+        SENTENCE_NT'eightball has a number called countervalue'
+        SENTENCE_NT'eightball begins when play begins'
+        SENTENCE_NT'every turn during eightball'
+        SENTENCE_NT'increase the countervalue of eightball by 1'
+        SENTENCE_NT'say "[countervalue of Eightball]"'
+        SENTENCE_NT'test me with "z/z/z/z/z/z"'

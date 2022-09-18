@@ -1,0 +1,8 @@
+Read 74 words
+ROOT_NT
+    HEADING_NT'the test is a room' {heading 0}
+        SENTENCE_NT'the test is a room'
+        SENTENCE_NT'attraction relates various people to various people'
+        SENTENCE_NT'the verb to desire ( he desires , they desire , he desired ,'
+        SENTENCE_NT'jealousy relates a person ( called x ) to a person ( called '
+        SENTENCE_NT'the verb to be jealous of implies the jealousy relation'

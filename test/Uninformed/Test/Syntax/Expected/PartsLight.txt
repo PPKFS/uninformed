@@ -1,0 +1,8 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'it is dark'
+        SENTENCE_NT'the bulb is a lit thing'
+        SENTENCE_NT'the rod is in the lab'
+        SENTENCE_NT'the bulb is part of the rod'

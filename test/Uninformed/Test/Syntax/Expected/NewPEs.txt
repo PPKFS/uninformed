@@ -1,0 +1,11 @@
+Read 39 words
+syntax-test: unexpected semicolon in sentence: say "The [latest parser error] happened."
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'a rock is here'
+        SENTENCE_NT'bob is a man , here'
+        SENTENCE_NT'for printing a parser error'
+        SENTENCE_NT'say "The [latest parser error] happened."'
+        SENTENCE_NT'continue the activity'
+        SENTENCE_NT'test me with "she said, x me / rock, x me / Bob foobar, x me'

@@ -1,0 +1,13 @@
+Read 61 words
+ROOT_NT
+    HEADING_NT'street is a room' {heading 0}
+        SENTENCE_NT'street is a room'
+        SENTENCE_NT'"There is a nasty looking bar east of here."'
+        SENTENCE_NT'bar is east of street'
+        SENTENCE_NT'setup is a scene'
+        SENTENCE_NT'setup begins when play begins'
+        SENTENCE_NT'setup ends when location is bar'
+        SENTENCE_NT'punchline is a scene'
+        SENTENCE_NT'punchline begins when setup is not happening'
+        SENTENCE_NT'when punchline begins , say "Ouch! You wham your head agains'
+        SENTENCE_NT'test me with "scenes / e"'

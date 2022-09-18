@@ -1,0 +1,177 @@
+Read 928 words
+syntax-test: unexpected semicolon in sentence: now started printing is false
+syntax-test: unexpected semicolon in sentence: truncate the remaining items to 0 entries
+syntax-test: unexpected semicolon in sentence: repeat with item running through things held by the target begin
+syntax-test: unexpected semicolon in sentence: add item to remaining items
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: repeat with item running through things which are part of the target begin
+syntax-test: unexpected semicolon in sentence: add item to remaining items
+syntax-test: unexpected semicolon in sentence: let the directly carried list be a list of objects
+syntax-test: unexpected semicolon in sentence: repeat with item running through the remaining items begin
+syntax-test: unexpected semicolon in sentence: if the target carries the item, add the item to the directly carried list
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: if the number of entries in the directly carried list is greater than zero begin
+syntax-test: unexpected semicolon in sentence: now started printing is true
+syntax-test: unexpected semicolon in sentence: say "[if the target is the player]You are[otherwise][The target] is[end if] carrying [the directly carried list with indefinite articles]. "
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: remove the directly carried list from the remaining items
+syntax-test: unexpected semicolon in sentence: repeat with item running through the directly carried list begin
+syntax-test: unexpected semicolon in sentence: follow the inventory-paragraph rules for the item
+syntax-test: unexpected semicolon in sentence: let the worn list be a list of objects
+syntax-test: unexpected semicolon in sentence: repeat with item running through the remaining items begin
+syntax-test: unexpected semicolon in sentence: if the target wears the item, add the item to the worn list
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: if the number of entries in the worn list is greater than zero begin
+syntax-test: unexpected semicolon in sentence: now started printing is true
+syntax-test: unexpected semicolon in sentence: say "[if the target is the player]You are[otherwise][The target] is[end if] wearing [the worn list with indefinite articles]. "
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: remove the worn list from the remaining items
+syntax-test: unexpected semicolon in sentence: repeat with item running through the worn list begin
+syntax-test: unexpected semicolon in sentence: follow the inventory-paragraph rules for the item
+syntax-test: unexpected semicolon in sentence: let the contained list be a list of objects
+syntax-test: unexpected semicolon in sentence: repeat with item running through the remaining items begin
+syntax-test: unexpected semicolon in sentence: if the target contains the item, add the item to the contained list
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: if the number of entries in the contained list is greater than zero begin
+syntax-test: unexpected semicolon in sentence: now started printing is true
+syntax-test: unexpected semicolon in sentence: say "[The target] contains [the contained list with indefinite articles]. "
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: remove the contained list from the remaining items
+syntax-test: unexpected semicolon in sentence: repeat with item running through the contained list begin
+syntax-test: unexpected semicolon in sentence: follow the inventory-paragraph rules for the item
+syntax-test: unexpected semicolon in sentence: let the supported list be a list of objects
+syntax-test: unexpected semicolon in sentence: repeat with item running through the remaining items begin
+syntax-test: unexpected semicolon in sentence: if the target supports the item, add the item to the supported list
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: if the number of entries in the supported list is greater than zero begin
+syntax-test: unexpected semicolon in sentence: now started printing is true
+syntax-test: unexpected semicolon in sentence: say "[The target] supports [the supported list with indefinite articles]. "
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: remove the supported list from the remaining items
+syntax-test: unexpected semicolon in sentence: repeat with item running through the supported list begin
+syntax-test: unexpected semicolon in sentence: follow the inventory-paragraph rules for the item
+syntax-test: unexpected semicolon in sentence: let the parts list be a list of objects
+syntax-test: unexpected semicolon in sentence: repeat with item running through the remaining items begin
+syntax-test: unexpected semicolon in sentence: if the item is part of the target, add the item to the parts list, if absent
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: if the number of entries in the parts list is greater than zero begin
+syntax-test: unexpected semicolon in sentence: now started printing is true
+syntax-test: unexpected semicolon in sentence: let printed parts list be text
+syntax-test: unexpected semicolon in sentence: let printed parts list be "[parts list with indefinite articles]"
+syntax-test: unexpected semicolon in sentence: say "[printed parts list in sentence case] [if the number of entries in the parts list is 1]is[otherwise]are[end if] part of [the target]. "
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: remove the parts list from the remaining items
+syntax-test: unexpected semicolon in sentence: repeat with item running through the parts list begin
+syntax-test: unexpected semicolon in sentence: follow the inventory-paragraph rules for the item
+syntax-test: unexpected semicolon in sentence: if started printing is true, say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: if crown is listed in the remaining items begin
+syntax-test: unexpected semicolon in sentence: say "Perched on your head is an extravagant crown: everyone who sets eyes on you must be blinded by the 102-carat blue diamond known as the Star of Hopeful Brightness. [paragraph break]"
+syntax-test: unexpected semicolon in sentence: remove the extravagant crown from the remaining items
+ROOT_NT
+    HEADING_NT'"Inventory Recursion"' {heading 0}
+        SENTENCE_NT'"Inventory Recursion"'
+        SENTENCE_NT'instead of taking inventory'
+        SENTENCE_NT'follow the inventory-paragraph rules for the player'
+        SENTENCE_NT'the inventory-paragraph rules are an object-based rulebook'
+        SENTENCE_NT'the inventory-paragraph rulebook has a list of objects calle'
+        SENTENCE_NT'started printing is a truth state that varies'
+        SENTENCE_NT'the first inventory-paragraph rule for something ( called th'
+        SENTENCE_NT'now started printing is false'
+        SENTENCE_NT'truncate the remaining items to 0 entries'
+        SENTENCE_NT'repeat with item running through things held by the target b'
+        SENTENCE_NT'add item to remaining items'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'repeat with item running through things which are part of th'
+        SENTENCE_NT'add item to remaining items'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'an inventory-paragraph rule for a person ( called the target'
+        SENTENCE_NT'let the directly carried list be a list of objects'
+        SENTENCE_NT'repeat with item running through the remaining items begin'
+        SENTENCE_NT'if the target carries the item , add the item to the directl'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'if the number of entries in the directly carried list is gre'
+        SENTENCE_NT'now started printing is true'
+        SENTENCE_NT'say "[if the target is the player]You are[otherwise][The tar'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'remove the directly carried list from the remaining items'
+        SENTENCE_NT'repeat with item running through the directly carried list b'
+        SENTENCE_NT'follow the inventory-paragraph rules for the item'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'an inventory-paragraph rule for a person ( called the target'
+        SENTENCE_NT'let the worn list be a list of objects'
+        SENTENCE_NT'repeat with item running through the remaining items begin'
+        SENTENCE_NT'if the target wears the item , add the item to the worn list'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'if the number of entries in the worn list is greater than ze'
+        SENTENCE_NT'now started printing is true'
+        SENTENCE_NT'say "[if the target is the player]You are[otherwise][The tar'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'remove the worn list from the remaining items'
+        SENTENCE_NT'repeat with item running through the worn list begin'
+        SENTENCE_NT'follow the inventory-paragraph rules for the item'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'an inventory-paragraph rule for a container ( called the tar'
+        SENTENCE_NT'let the contained list be a list of objects'
+        SENTENCE_NT'repeat with item running through the remaining items begin'
+        SENTENCE_NT'if the target contains the item , add the item to the contai'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'if the number of entries in the contained list is greater th'
+        SENTENCE_NT'now started printing is true'
+        SENTENCE_NT'say "[The target] contains [the contained list with indefini'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'remove the contained list from the remaining items'
+        SENTENCE_NT'repeat with item running through the contained list begin'
+        SENTENCE_NT'follow the inventory-paragraph rules for the item'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'an inventory-paragraph rule for a supporter ( called the tar'
+        SENTENCE_NT'let the supported list be a list of objects'
+        SENTENCE_NT'repeat with item running through the remaining items begin'
+        SENTENCE_NT'if the target supports the item , add the item to the suppor'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'if the number of entries in the supported list is greater th'
+        SENTENCE_NT'now started printing is true'
+        SENTENCE_NT'say "[The target] supports [the supported list with indefini'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'remove the supported list from the remaining items'
+        SENTENCE_NT'repeat with item running through the supported list begin'
+        SENTENCE_NT'follow the inventory-paragraph rules for the item'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'an inventory-paragraph rule for something ( called the targe'
+        SENTENCE_NT'let the parts list be a list of objects'
+        SENTENCE_NT'repeat with item running through the remaining items begin'
+        SENTENCE_NT'if the item is part of the target , add the item to the part'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'if the number of entries in the parts list is greater than z'
+        SENTENCE_NT'now started printing is true'
+        SENTENCE_NT'let printed parts list be text'
+        SENTENCE_NT'let printed parts list be "[parts list with indefinite artic'
+        SENTENCE_NT'say "[printed parts list in sentence case] [if the number of'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'remove the parts list from the remaining items'
+        SENTENCE_NT'repeat with item running through the parts list begin'
+        SENTENCE_NT'follow the inventory-paragraph rules for the item'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'the last inventory-paragraph rule ( this is the break rule )'
+        SENTENCE_NT'if started printing is true , say "[paragraph break]"'
+        SENTENCE_NT'now started printing is false'
+        SENTENCE_NT'the throne room is a room'
+        SENTENCE_NT'the player wears an ermine robe and a pair of velvet pantalo'
+        SENTENCE_NT'the player carries a mace and a gilded cage'
+        SENTENCE_NT'in the gilded cage is a canary'
+        SENTENCE_NT'the canary is an animal'
+        SENTENCE_NT'it wears a golden collar'
+        SENTENCE_NT'it carries a seed'
+        SENTENCE_NT'a diamond charm is part of the golden collar'
+        SENTENCE_NT'the player carries a platter'
+        SENTENCE_NT'the platter is a portable supporter'
+        SENTENCE_NT'on the platter is a fish'
+        SENTENCE_NT'the extravagant crown is a wearable thing in the throne room'
+        SENTENCE_NT'an inventory-paragraph rule for the player when the player w'
+        SENTENCE_NT'if crown is listed in the remaining items begin'
+        SENTENCE_NT'say "Perched on your head is an extravagant crown: everyone '
+        SENTENCE_NT'remove the extravagant crown from the remaining items'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'the pocket is a container'
+        SENTENCE_NT'it is part of the velvet pantaloons'
+        SENTENCE_NT'it contains a piece of eight'
+        SENTENCE_NT'test me with "wear crown / i / drop cage / i / take off crow'

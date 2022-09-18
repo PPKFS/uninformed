@@ -1,0 +1,14 @@
+Read 78 words
+syntax-test: unexpected semicolon in sentence: say "Replaced rule firing."
+syntax-test: unexpected semicolon in sentence: say "[The noun] is already here."
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'the player carries a bat'
+        SENTENCE_NT'check an actor dropping ( this is the replaced rule )'
+        SENTENCE_NT'say "Replaced rule firing."'
+        SENTENCE_NT'if the noun is in the holder of the actor'
+        SENTENCE_NT'say "[The noun] is already here."'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'the replaced rule is listed instead of the can't drop what's'
+        SENTENCE_NT'test me with "drop bat"'

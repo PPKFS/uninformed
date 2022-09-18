@@ -1,0 +1,10 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'orchard is a room' {heading 0}
+        SENTENCE_NT'orchard is a room'
+        SENTENCE_NT'an apple tree is here'
+        SENTENCE_NT'instead of examining the apple tree'
+        SENTENCE_NT'say "specific."'
+        SENTENCE_NT'instead of doing something to the apple tree'
+        SENTENCE_NT'say "general."'
+        SENTENCE_NT'test me with "x apple"'

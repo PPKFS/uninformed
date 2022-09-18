@@ -1,0 +1,24 @@
+Read 134 words
+syntax-test: unexpected semicolon in sentence: split 3 to 3
+syntax-test: unexpected semicolon in sentence: split "fudge" to "ice cream"
+syntax-test: unexpected semicolon in sentence: let L be { 2, 3, 6 }
+syntax-test: unexpected semicolon in sentence: say "Twice 5 is [twice 5]."
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'to split ( x - k ) to ( y - arithmetic value of kind k )'
+        SENTENCE_NT'say "Arithmetic version with [X] to [Y]."'
+        SENTENCE_NT'to split ( x - k ) to ( y - sayable value of kind k )'
+        SENTENCE_NT'say "Sayable version with [X] to [Y]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'split 3 to 3'
+        SENTENCE_NT'split "fudge" to "ice cream"'
+        SENTENCE_NT'let l be { 2 , 3 , 6 }'
+        SENTENCE_NT'split l to l'
+        SENTENCE_NT'to decide what k is twice ( amount - arithmetic value of kin'
+        SENTENCE_NT'decide on the amount times 2'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'5kg specifies a weight'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Twice 5 is [twice 5]."'
+        SENTENCE_NT'say "Twice 6kg is [twice 6kg]."'

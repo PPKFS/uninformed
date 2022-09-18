@@ -1,0 +1,14 @@
+Read 60 words
+syntax-test: unexpected semicolon in sentence: showme bijection relation
+syntax-test: unexpected semicolon in sentence: showme R1
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'bijection relates various numbers to various numbers'
+        SENTENCE_NT'r1 is a relation of numbers which varies'
+        SENTENCE_NT'r1 is the bijection relation'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme bijection relation'
+        SENTENCE_NT'showme r1'
+        SENTENCE_NT'now r1 relates 45 to 17'
+        SENTENCE_NT'test me with "relations"'

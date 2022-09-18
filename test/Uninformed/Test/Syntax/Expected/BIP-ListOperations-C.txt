@@ -1,0 +1,53 @@
+Read 165 words
+syntax-test: unexpected semicolon in sentence: let L be { 16, 3, 5, -7, 11, -7, 0, 2 }
+syntax-test: unexpected semicolon in sentence: say "L is [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: reverse L
+syntax-test: unexpected semicolon in sentence: say "L reverses to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: sort L
+syntax-test: unexpected semicolon in sentence: say "L sorts to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: reverse L
+syntax-test: unexpected semicolon in sentence: say "L then reverses to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: rotate L
+syntax-test: unexpected semicolon in sentence: say "L then rotates to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: rotate L backwards
+syntax-test: unexpected semicolon in sentence: say "L then rotates backwards to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: sort L in random order
+syntax-test: unexpected semicolon in sentence: say "L sorts randomly to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: sort L in reverse order
+syntax-test: unexpected semicolon in sentence: say "L sorts in reverse order to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: let F be the list of fruits
+syntax-test: unexpected semicolon in sentence: showme F
+syntax-test: unexpected semicolon in sentence: sort F in size order
+syntax-test: unexpected semicolon in sentence: say "F sorts in size order to [F in brace notation]."
+syntax-test: unexpected semicolon in sentence: sort F in reverse size order
+ROOT_NT
+    HEADING_NT'a fruit is a kind of object' {heading 0}
+        SENTENCE_NT'a fruit is a kind of object'
+        SENTENCE_NT'an apple , a pear and an orange are fruits'
+        SENTENCE_NT'a fruit has a number called size'
+        SENTENCE_NT'the size of a fruit is usually 4'
+        SENTENCE_NT'the size of the apple is 7'
+        SENTENCE_NT'the size of the pear is 6'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let l be { 16 , 3 , 5 , -7 , 11 , -7 , 0 , 2 }'
+        SENTENCE_NT'say "L is [L in brace notation]."'
+        SENTENCE_NT'reverse l'
+        SENTENCE_NT'say "L reverses to [L in brace notation]."'
+        SENTENCE_NT'sort l'
+        SENTENCE_NT'say "L sorts to [L in brace notation]."'
+        SENTENCE_NT'reverse l'
+        SENTENCE_NT'say "L then reverses to [L in brace notation]."'
+        SENTENCE_NT'rotate l'
+        SENTENCE_NT'say "L then rotates to [L in brace notation]."'
+        SENTENCE_NT'rotate l backwards'
+        SENTENCE_NT'say "L then rotates backwards to [L in brace notation]."'
+        SENTENCE_NT'sort l in random order'
+        SENTENCE_NT'say "L sorts randomly to [L in brace notation]."'
+        SENTENCE_NT'sort l in reverse order'
+        SENTENCE_NT'say "L sorts in reverse order to [L in brace notation]."'
+        SENTENCE_NT'let f be the list of fruits'
+        SENTENCE_NT'showme f'
+        SENTENCE_NT'sort f in size order'
+        SENTENCE_NT'say "F sorts in size order to [F in brace notation]."'
+        SENTENCE_NT'sort f in reverse size order'
+        SENTENCE_NT'say "F sorts in reverse size order to [F in brace notation].'

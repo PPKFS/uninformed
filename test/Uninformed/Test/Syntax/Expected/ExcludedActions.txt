@@ -1,0 +1,13 @@
+Read 83 words
+ROOT_NT
+    HEADING_NT'the cave is a room' {heading 0}
+        SENTENCE_NT'the cave is a room'
+        SENTENCE_NT'a creature is an animal in the cave'
+        SENTENCE_NT'talking to is an action applying to one visible thing'
+        SENTENCE_NT'understand "talk to [someone]" as talking to'
+        SENTENCE_NT'understand "talk to [something]" as talking to'
+        SENTENCE_NT'before doing something other than listening to or talking to'
+        SENTENCE_NT'say "Something other than listening to or talking to or exam'
+        SENTENCE_NT'before doing something other than taking or dropping to the '
+        SENTENCE_NT'say "Something other than taking or dropping to the creature'
+        SENTENCE_NT'test me with "look / take creature / drop creature / examine'

@@ -1,0 +1,18 @@
+Read 104 words
+syntax-test: unexpected semicolon in sentence: showme the list of things regionally in Interior
+ROOT_NT
+    HEADING_NT'interior is a region' {heading 0}
+        SENTENCE_NT'interior is a region'
+        SENTENCE_NT'the kitchen is a room in interior'
+        SENTENCE_NT'the screen door is a door'
+        SENTENCE_NT'the screen door is east of the kitchen and west of the garde'
+        SENTENCE_NT'a seagull is a backdrop'
+        SENTENCE_NT'it is not scenery'
+        SENTENCE_NT'it is in interior'
+        SENTENCE_NT'exterior is a region'
+        SENTENCE_NT'garden is in exterior'
+        SENTENCE_NT'the sandwich is in the kitchen'
+        SENTENCE_NT'the croquet hoop is in the garden'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the list of things regionally in interior'
+        SENTENCE_NT'showme the list of things regionally in exterior'

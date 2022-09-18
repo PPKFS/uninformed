@@ -1,0 +1,9 @@
+Read 16 words
+syntax-test: unexpected semicolon in sentence: say "Well, look [bracket]into these squares[close bracket]."
+syntax-test: unexpected semicolon in sentence: say "This is 'clever', but this is [apostrophe]even more so[']."
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "Well, look [bracket]into these squares[close bracket]."'
+        SENTENCE_NT'say "This is 'clever', but this is [apostrophe]even more so['
+        SENTENCE_NT'say "Seems unlikely that we need a quot[quotation mark]ation'

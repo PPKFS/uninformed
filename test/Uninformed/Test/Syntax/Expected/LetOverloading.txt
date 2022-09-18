@@ -1,0 +1,9 @@
+Read 35 words
+ROOT_NT
+    HEADING_NT'smudge is a room' {heading 0}
+        SENTENCE_NT'smudge is a room'
+        SENTENCE_NT'to banana'
+        SENTENCE_NT'let smudge be 6'
+        SENTENCE_NT'the test room is a room'
+        SENTENCE_NT'"This is a test room."'
+        SENTENCE_NT'the player has a number called target'

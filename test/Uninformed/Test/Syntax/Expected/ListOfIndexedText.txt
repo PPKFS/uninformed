@@ -1,0 +1,17 @@
+Read 107 words
+syntax-test: unexpected semicolon in sentence: say "Cl is [chosen list]."
+ROOT_NT
+    HEADING_NT'the library is a room' {heading 0}
+        SENTENCE_NT'the library is a room'
+        SENTENCE_NT'the catalog card is in the library'
+        SENTENCE_NT'it has a list of text called the note'
+        SENTENCE_NT'the description of the catalog card is "It is yellowed with '
+        SENTENCE_NT'the note of the catalog card is { "Rumpelstiltskin" , "Jacob'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "N of the CC is [note of the catalog card]."'
+        SENTENCE_NT'instead of examining something ( called the item )'
+        SENTENCE_NT'say "[description of item][paragraph break]On the catalog ca'
+        SENTENCE_NT'to say ( chosen list - a list of text ) vertically'
+        SENTENCE_NT'say "Cl is [chosen list]."'
+        SENTENCE_NT'repeat with current entry running through chosen list'
+        SENTENCE_NT'say "[current entry][line break]"'

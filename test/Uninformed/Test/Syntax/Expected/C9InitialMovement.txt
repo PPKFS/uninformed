@@ -1,0 +1,10 @@
+Read 46 words
+syntax-test: unexpected semicolon in sentence: now the player is the cat
+ROOT_NT
+    HEADING_NT'nirvana is a room' {heading 0}
+        SENTENCE_NT'nirvana is a room'
+        SENTENCE_NT'a stool is an enterable supporter in nirvana'
+        SENTENCE_NT'a cat is an animal on the stool'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the player is the cat'
+        SENTENCE_NT'move the cat to the stool'

@@ -1,0 +1,20 @@
+Read 90 words
+syntax-test: unexpected semicolon in sentence: say "Ok, let's try looking up '[topic understood]'."
+syntax-test: unexpected semicolon in sentence: Let T be text
+syntax-test: unexpected semicolon in sentence: Let T be the topic understood
+syntax-test: unexpected semicolon in sentence: say "Which, as text, is '[T]'."
+syntax-test: unexpected semicolon in sentence: Let THINGY be the Word corresponding to a Shortcut of T in the Table of Lookups
+ROOT_NT
+    HEADING_NT'the chamber is a room' {heading 0}
+        SENTENCE_NT'the chamber is a room'
+        SENTENCE_NT'lookuping is an action applying to one topic'
+        SENTENCE_NT'understand "lookup [text]" as lookuping'
+        SENTENCE_NT'carry out lookuping'
+        SENTENCE_NT'say "Ok, let's try looking up '[topic understood]'."'
+        SENTENCE_NT'let t be text'
+        SENTENCE_NT'let t be the topic understood'
+        SENTENCE_NT'say "Which, as text, is '[T]'."'
+        SENTENCE_NT'let thingy be the word corresponding to a shortcut of t in t'
+        SENTENCE_NT'say "[THINGY]."'
+        SENTENCE_NT'table of lookups word shortcut ( text ) "One" "1" "Two" "2" '
+        SENTENCE_NT'test me with "lookup 1/lookup 3"'

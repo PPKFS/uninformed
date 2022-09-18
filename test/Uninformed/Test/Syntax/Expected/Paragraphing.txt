@@ -1,0 +1,13 @@
+Read 84 words
+ROOT_NT
+    HEADING_NT'the foreshore is a room' {heading 0}
+        SENTENCE_NT'the foreshore is a room'
+        SENTENCE_NT'"This is the Foreshore."'
+        SENTENCE_NT'the bucket , the ball and the starfish are in the foreshore'
+        SENTENCE_NT'after taking the ball , say "It bounces up to your hand."'
+        SENTENCE_NT'the beach is south of the foreshore'
+        SENTENCE_NT'"A further sandy room."'
+        SENTENCE_NT'the sea is south of the beach'
+        SENTENCE_NT'every turn while the player is in the sea , say "The wave wa'
+        SENTENCE_NT'every turn while the player is in the sea , say "A crab scut'
+        SENTENCE_NT'test me with "LOOK / S / N / S / N / TAKE ALL / S / S / WAIT'

@@ -1,0 +1,10 @@
+Read 57 words
+ROOT_NT
+    HEADING_NT'the church is a room' {heading 0}
+        SENTENCE_NT'the church is a room'
+        SENTENCE_NT'the player is in the church'
+        SENTENCE_NT'an apple is a kind of thing'
+        SENTENCE_NT'a banana is a kind of thing'
+        SENTENCE_NT'the player carries a vehicle'
+        SENTENCE_NT'the player carries an apple and a banana'
+        SENTENCE_NT'test me with "i"'

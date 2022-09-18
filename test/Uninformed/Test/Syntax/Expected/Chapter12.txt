@@ -1,0 +1,263 @@
+Read 1629 words
+syntax-test: unexpected semicolon in sentence: if the person reaching is the player, say "You can't reach through the closed window."
+syntax-test: unexpected semicolon in sentence: if the player is in the Tire Shop, say "You can't very well do that." instead
+syntax-test: unexpected semicolon in sentence: if the noun is the Tire Shop, say "Fat Chance" instead
+syntax-test: unexpected semicolon in sentence: if the location is the Bagel Shop, place the Donut Shop in scope
+syntax-test: unexpected semicolon in sentence: say "You sing a siren song."
+syntax-test: unexpected semicolon in sentence: repeat with victim running through people begin
+syntax-test: unexpected semicolon in sentence: let space be the victim
+syntax-test: unexpected semicolon in sentence: while space is not a room begin
+syntax-test: unexpected semicolon in sentence: let space be the holder of the space
+syntax-test: unexpected semicolon in sentence: end while
+syntax-test: unexpected semicolon in sentence: let way be the best route from the space to the location, using even locked doors
+syntax-test: unexpected semicolon in sentence: if way is a direction begin
+syntax-test: unexpected semicolon in sentence: try the victim trying going way
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: say "'Holy crow!' bellows Ogg[if Ogg is not visible] from the other room[end if]. 'I didn't know you could do that, Igg!'"
+syntax-test: unexpected semicolon in sentence: say "Igg jumps, shaking the towers of rubber until you fear they're all going to come tumbling down. But they don't."
+syntax-test: unexpected semicolon in sentence: say "Igg struggles womanfully with this command."
+syntax-test: unexpected semicolon in sentence: if the person asked cannot touch the player begin
+syntax-test: unexpected semicolon in sentence: say "Ogg looks with a fixed frown at [the noun]."
+syntax-test: unexpected semicolon in sentence: continue the action
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: say "[The person asked] comes up and shakes your arm until you drop [the noun]."
+syntax-test: unexpected semicolon in sentence: say line break
+syntax-test: unexpected semicolon in sentence: if the person asked can see the matching key of the sealed chest begin
+syntax-test: unexpected semicolon in sentence: if the matching key of the sealed chest is in the sealed chest begin
+syntax-test: unexpected semicolon in sentence: say "Seeing the paradoxical location of [the matching key of the sealed chest], [the person asked] gives a howl of rage."
+syntax-test: unexpected semicolon in sentence: increase the score by 1
+syntax-test: unexpected semicolon in sentence: end the story saying "You have thwarted Ogg"
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: try the person asked trying unlocking the sealed chest with the matching key of the sealed chest
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: increase the hunger of Ogg by 1
+syntax-test: unexpected semicolon in sentence: if the hunger of Ogg is 2 and Ogg is visible, say "Ogg's stomach growls."
+syntax-test: unexpected semicolon in sentence: if the hunger of Ogg is 3 and Ogg is visible begin
+syntax-test: unexpected semicolon in sentence: if Ogg can see an edible thing (called the target) begin
+syntax-test: unexpected semicolon in sentence: say "Ogg eyes [the target] with obvious intent."
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "Ogg glances at you in a disturbingly shifty way."
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the hunger of Ogg > 3 begin
+syntax-test: unexpected semicolon in sentence: if Ogg carries an edible thing (called the target) begin
+syntax-test: unexpected semicolon in sentence: try Ogg trying eating the target
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if Ogg can see an edible thing (called the new target) begin
+syntax-test: unexpected semicolon in sentence: try Ogg trying taking the new target
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if Ogg can touch the player, end the story saying "Ogg is gnawing your ankle"
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if Ogg is hungry, persuasion fails
+syntax-test: unexpected semicolon in sentence: if the reason the action failed is a failing listed in the Table of Ogg Retorts begin
+syntax-test: unexpected semicolon in sentence: say "[reply entry][paragraph break]"
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "Ogg looks adorably confused."
+syntax-test: unexpected semicolon in sentence: move the crumbs to the holder of Ogg
+syntax-test: unexpected semicolon in sentence: say "Ogg struggles a bit with [the second noun] in the lock of [the noun], but does eventually succeed. 'Hunh!' says Ogg."
+syntax-test: unexpected semicolon in sentence: say "Ogg forces [the case] so hard that it does break."
+syntax-test: unexpected semicolon in sentence: say "Ogg yanks [the noun] open with such force that you fear for its structural integrity."
+syntax-test: unexpected semicolon in sentence: say "Ogg acquires [the noun] with a look of tender affection."
+syntax-test: unexpected semicolon in sentence: say "Ogg chows down on [the noun], scattering crumbs in all directions."
+syntax-test: unexpected semicolon in sentence: say "Ogg eats [the noun] in his trademark style. You can no longer bear to watch."
+ROOT_NT
+    HEADING_NT'include locksmith by emily short' {heading 0}
+        SENTENCE_NT'include locksmith by emily short'
+        SENTENCE_NT'use command line echoing'
+        SENTENCE_NT'use scoring'
+        SENTENCE_NT'singing is an action applying to nothing'
+        SENTENCE_NT'understand "sing" as singing'
+        SENTENCE_NT'check singing'
+        SENTENCE_NT'say "Your singing is abominable."'
+        SENTENCE_NT'the donut shop is a room'
+        SENTENCE_NT'ogg is a man in the donut shop'
+        SENTENCE_NT'"Ogg is slumped in the corner[if Ogg carries something] with'
+        SENTENCE_NT'ogg is carrying an apple and a banana'
+        SENTENCE_NT'the apple and the banana are edible'
+        SENTENCE_NT'the donut shop contains a transparent closed openable locked'
+        SENTENCE_NT'the case is fixed in place'
+        SENTENCE_NT'the case contains some cake donuts , some jelly donuts , and'
+        SENTENCE_NT'"The [if unopenable]damaged[otherwise]gleaming[end if] donut'
+        SENTENCE_NT'the cake donuts , the jelly donuts , and the apple fritters '
+        SENTENCE_NT'the matching key of the case is a silver key'
+        SENTENCE_NT'the mesh basket is a closed openable transparent container i'
+        SENTENCE_NT'the silver key is in the basket'
+        SENTENCE_NT'the bagel shop is west of the donut shop'
+        SENTENCE_NT'a round door is east of the donut shop and west of the tire '
+        SENTENCE_NT'the round door is a lockable locked door'
+        SENTENCE_NT'the description of the round door is "It has a hole in the m'
+        SENTENCE_NT'the can't reach inside rooms rule does nothing when doing so'
+        SENTENCE_NT'the can't reach through closed window rule substitutes for t'
+        SENTENCE_NT'this is the can't reach through closed window rule'
+        SENTENCE_NT'if the person reaching is the player , say "You can't reach '
+        SENTENCE_NT'deny access'
+        SENTENCE_NT'after looking when a room ( called the next room ) is adjace'
+        SENTENCE_NT'try examining the next room'
+        SENTENCE_NT'the window is a backdrop'
+        SENTENCE_NT'it is in the bagel shop and the donut shop'
+        SENTENCE_NT'the window can be openable'
+        SENTENCE_NT'the window can be open'
+        SENTENCE_NT'the window is openable and closed'
+        SENTENCE_NT'instead of searching the window when the location is the don'
+        SENTENCE_NT'try examining the bagel shop'
+        SENTENCE_NT'instead of searching the window when the location is the bag'
+        SENTENCE_NT'try examining the donut shop'
+        SENTENCE_NT'understand "examine [any adjacent room]" as examining'
+        SENTENCE_NT'instead of examining a room'
+        SENTENCE_NT'if the player is in the tire shop , say "You can't very well'
+        SENTENCE_NT'if the noun is the tire shop , say "Fat Chance" instead'
+        SENTENCE_NT'say "Over in [the noun], you can see [a list of visible thin'
+        SENTENCE_NT'after deciding the scope of the player'
+        SENTENCE_NT'if the location is the bagel shop , place the donut shop in '
+        SENTENCE_NT'if the location is the donut shop , place the bagel shop in '
+        SENTENCE_NT'a persuasion rule for asking someone to try doing something'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'instead of singing'
+        SENTENCE_NT'say "You sing a siren song."'
+        SENTENCE_NT'repeat with victim running through people begin'
+        SENTENCE_NT'let space be the victim'
+        SENTENCE_NT'while space is not a room begin'
+        SENTENCE_NT'let space be the holder of the space'
+        SENTENCE_NT'end while'
+        SENTENCE_NT'let way be the best route from the space to the location , u'
+        SENTENCE_NT'if way is a direction begin'
+        SENTENCE_NT'try the victim trying going way'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'the dolly is pushable between rooms'
+        SENTENCE_NT'it is in the tire shop'
+        SENTENCE_NT'on the dolly is a heavy box'
+        SENTENCE_NT'the player is in the tire shop'
+        SENTENCE_NT'the forklift is a vehicle in the donut shop'
+        SENTENCE_NT'igg is a woman in the forklift'
+        SENTENCE_NT'the gold ball is a passkey carried by igg'
+        SENTENCE_NT'it unlocks the round door'
+        SENTENCE_NT'the description is "It is perfectly round and shiny."'
+        SENTENCE_NT'after igg trying unlocking something with something in the p'
+        SENTENCE_NT'say "'Holy crow!' bellows Ogg[if Ogg is not visible] from th'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'report igg trying going to somewhere ( called the destinatio'
+        SENTENCE_NT'if the player is in the destination , say "There is a tremen'
+        SENTENCE_NT'report ogg trying going through the round door'
+        SENTENCE_NT'say "Ogg grunts as he bumps his head on the low frame of the'
+        SENTENCE_NT'report ogg trying going through the round door with the doll'
+        SENTENCE_NT'say "Ogg is forced to lift the dolly and sort of scooch it o'
+        SENTENCE_NT'report igg trying going to the bagel shop by forklift with t'
+        SENTENCE_NT'say "A look of the most intense concentration occupies Igg's'
+        SENTENCE_NT'report igg trying examining the forklift more than once'
+        SENTENCE_NT'say "Igg ignores you this time, having gleaned all she wants'
+        SENTENCE_NT'instead of igg trying jumping in the tire shop'
+        SENTENCE_NT'say "Igg jumps, shaking the towers of rubber until you fear '
+        SENTENCE_NT'the rule succeeds'
+        SENTENCE_NT'instead of igg trying singing'
+        SENTENCE_NT'say "Igg struggles womanfully with this command."'
+        SENTENCE_NT'the rule succeeds'
+        SENTENCE_NT'instead of ogg trying opening the case for the third time'
+        SENTENCE_NT'say "Ogg swears under his breath when he notices that someon'
+        SENTENCE_NT'before someone trying taking something which is carried by t'
+        SENTENCE_NT'if the person asked cannot touch the player begin'
+        SENTENCE_NT'say "Ogg looks with a fixed frown at [the noun]."'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'say "[The person asked] comes up and shakes your arm until y'
+        SENTENCE_NT'say line break'
+        SENTENCE_NT'silently try dropping the noun'
+        SENTENCE_NT'before someone trying unlocking keylessly a locked thing whe'
+        SENTENCE_NT'if the person asked can see the matching key of the noun , t'
+        SENTENCE_NT'before someone trying unlocking a locked thing with somethin'
+        SENTENCE_NT'try the person asked trying taking the second noun'
+        SENTENCE_NT'before someone trying opening a locked thing ( called the se'
+        SENTENCE_NT'if the person asked can see the matching key of the sealed c'
+        SENTENCE_NT'if the matching key of the sealed chest is in the sealed che'
+        SENTENCE_NT'say "Seeing the paradoxical location of [the matching key of'
+        SENTENCE_NT'increase the score by 1'
+        SENTENCE_NT'end the story saying "You have thwarted Ogg"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'try the person asked trying unlocking the sealed chest with '
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'before someone trying taking something which is in a closed '
+        SENTENCE_NT'try the person asked trying opening the shut chest'
+        SENTENCE_NT'ogg has a number called hunger'
+        SENTENCE_NT'the hunger of ogg is 0'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'increase the hunger of ogg by 1'
+        SENTENCE_NT'if the hunger of ogg is 2 and ogg is visible , say "Ogg's st'
+        SENTENCE_NT'if the hunger of ogg is 3 and ogg is visible begin'
+        SENTENCE_NT'if ogg can see an edible thing ( called the target ) begin'
+        SENTENCE_NT'say "Ogg eyes [the target] with obvious intent."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Ogg glances at you in a disturbingly shifty way."'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'if the hunger of ogg > 3 begin'
+        SENTENCE_NT'if ogg carries an edible thing ( called the target ) begin'
+        SENTENCE_NT'try ogg trying eating the target'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if ogg can see an edible thing ( called the new target ) beg'
+        SENTENCE_NT'try ogg trying taking the new target'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if ogg can touch the player , end the story saying "Ogg is g'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'the crumbs are a thing'
+        SENTENCE_NT'"Crumbs of [the list of edible things which cannot be seen b'
+        SENTENCE_NT'instead of asking ogg to try doing something when ogg cannot'
+        SENTENCE_NT'say "Ogg tilts his head and shrugs, unable to hear your inst'
+        SENTENCE_NT'instead of asking ogg to try eating something'
+        SENTENCE_NT'say "It's not as though Ogg really needs any encouragement i'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'ogg is hungry if the hunger of ogg > 2'
+        SENTENCE_NT'persuasion rule for asking ogg to try doing something'
+        SENTENCE_NT'if ogg is hungry , persuasion fails'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'persuasion rule for asking ogg to try giving something edibl'
+        SENTENCE_NT'persuasion fails'
+        SENTENCE_NT'unsuccessful attempt by ogg trying doing something'
+        SENTENCE_NT'if the reason the action failed is a failing listed in the t'
+        SENTENCE_NT'say "[reply entry][paragraph break]"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Ogg looks adorably confused."'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'table of ogg retorts failing reply can't take people's posse'
+        SENTENCE_NT'carry out ogg trying eating an edible thing'
+        SENTENCE_NT'move the crumbs to the holder of ogg'
+        SENTENCE_NT'now the hunger of ogg is 0'
+        SENTENCE_NT'report ogg trying unlocking something with something'
+        SENTENCE_NT'say "Ogg struggles a bit with [the second noun] in the lock '
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'carry out ogg trying opening the case when the case has been'
+        SENTENCE_NT'now the case is unopenable'
+        SENTENCE_NT'instead of closing the unopenable case'
+        SENTENCE_NT'say "The glass panels are no longer properly seated in their'
+        SENTENCE_NT'report ogg trying opening the unopenable case'
+        SENTENCE_NT'say "Ogg forces [the case] so hard that it does break."'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'report ogg trying opening the case'
+        SENTENCE_NT'say "Ogg yanks [the noun] open with such force that you fear'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'report ogg trying taking something edible'
+        SENTENCE_NT'say "Ogg acquires [the noun] with a look of tender affection'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'report ogg trying eating something'
+        SENTENCE_NT'say "Ogg chows down on [the noun], scattering crumbs in all '
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'report ogg trying eating something when the number of visibl'
+        SENTENCE_NT'say "Ogg eats [the noun] in his trademark style. You can no '
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'after entering the case'
+        SENTENCE_NT'say "You climb inside the case, folding yourself up uncomfor'
+        SENTENCE_NT'after locking the case with something when the player is in '
+        SENTENCE_NT'say "You turn the key firmly in the lock -- amazing it locks'
+        SENTENCE_NT'the maximum score is 1'
+        SENTENCE_NT'singing is complex behavior'
+        SENTENCE_NT'asking someone about something is complex behavior'
+        SENTENCE_NT'thinking is complex behavior'
+        SENTENCE_NT'telling someone about something is complex behavior'
+        SENTENCE_NT'answering someone that something is complex behavior'
+        SENTENCE_NT'instead of asking ogg to try complex behavior'
+        SENTENCE_NT'say "Ogg blinks at you. He probably doesn't understand what '
+        SENTENCE_NT'after igg trying complex behavior'
+        SENTENCE_NT'if igg is visible , say "Igg struggles womanfully with this '

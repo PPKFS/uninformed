@@ -1,0 +1,11 @@
+Read 46 words
+syntax-test: unexpected semicolon in sentence: say "[N] - "
+ROOT_NT
+    HEADING_NT'when play begins , seed the random-number generator with 123' {heading 0}
+        SENTENCE_NT'when play begins , seed the random-number generator with 123'
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'repeat with n running from 1 to 72'
+        SENTENCE_NT'say "[N] - "'
+        SENTENCE_NT'say "[one of]a[or]b[or]c[or]d[or]e[or]f[or]g[or]h[or]i[or]j['
+        SENTENCE_NT'test me with "z"'

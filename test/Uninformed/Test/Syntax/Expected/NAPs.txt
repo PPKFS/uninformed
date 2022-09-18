@@ -1,0 +1,16 @@
+Read 78 words
+ROOT_NT
+    HEADING_NT'the arena is a room' {heading 0}
+        SENTENCE_NT'the arena is a room'
+        SENTENCE_NT'"You're here to fight."'
+        SENTENCE_NT'the player is here'
+        SENTENCE_NT'the lounge is east of the arena'
+        SENTENCE_NT'include action pattern parsing in the debugging log'
+        SENTENCE_NT'attacking is attacklike behaviour'
+        SENTENCE_NT'before attacklike behaviour or taking yourself'
+        SENTENCE_NT'say "That's the spirit!"'
+        SENTENCE_NT'before doing something other than attacklike behaviour'
+        SENTENCE_NT'say "No, you're here to FIGHT!"'
+        SENTENCE_NT'before attacklike behaviour in the lounge'
+        SENTENCE_NT'say "A gentleman wouldn't."'
+        SENTENCE_NT'test me with "look / x me / take me / attack me / east / x m'

@@ -1,0 +1,11 @@
+Read 41 words
+syntax-test: unexpected semicolon in sentence: say "Admire [list of on-stage things]."
+ROOT_NT
+    HEADING_NT'the schoolhouse is a room' {heading 0}
+        SENTENCE_NT'the schoolhouse is a room'
+        SENTENCE_NT'the frog and the toad are in the schoolhouse'
+        SENTENCE_NT'the frog is edible'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "Admire [list of on-stage things]."'
+        SENTENCE_NT'say "It's too late for [list of off-stage things]."'
+        SENTENCE_NT'test me with "wait / eat frog"'

@@ -1,0 +1,14 @@
+Read 81 words
+ROOT_NT
+    HEADING_NT'a box is a kind of container which is closed and openable' {heading 0}
+        SENTENCE_NT'a box is a kind of container which is closed and openable'
+        SENTENCE_NT'a sealed box is a kind of box which is not openable'
+        SENTENCE_NT'the start is a room'
+        SENTENCE_NT'"Here are [list of things which are not closed]."'
+        SENTENCE_NT'the jewel box is a box'
+        SENTENCE_NT'it is here'
+        SENTENCE_NT'the broken box is a box which is not openable'
+        SENTENCE_NT'it is here'
+        SENTENCE_NT'the secret box is a sealed box'
+        SENTENCE_NT'it is here'
+        SENTENCE_NT'test me with "open jewel box / open broken box / open secret'

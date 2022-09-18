@@ -1,0 +1,21 @@
+Read 141 words
+syntax-test: unexpected semicolon in sentence: say "SMA of Ceres is [semimajor axis of Ceres]."
+syntax-test: unexpected semicolon in sentence: say "SMA of Uranus is [semimajor axis of Uranus]."
+ROOT_NT
+    HEADING_NT'the astral plane is a room' {heading 0}
+        SENTENCE_NT'the astral plane is a room'
+        SENTENCE_NT'solar distance is a kind of value'
+        SENTENCE_NT'1000 au specifies a solar distance'
+        SENTENCE_NT'planet is a kind of value'
+        SENTENCE_NT'the planets are defined by the table of outer planets'
+        SENTENCE_NT'table of outer planets planet semimajor axis jupiter 5 au sa'
+        SENTENCE_NT'asteroid is a kind of value'
+        SENTENCE_NT'the asteroids are defined by the table of minor planets'
+        SENTENCE_NT'table of minor planets asteroid semimajor axis ceres 3 au ar'
+        SENTENCE_NT'a woman has a solar distance called semimajor axis'
+        SENTENCE_NT'traci is a woman'
+        SENTENCE_NT'the semimajor axis of traci is 2000 au'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "SMA of Ceres is [semimajor axis of Ceres]."'
+        SENTENCE_NT'say "SMA of Uranus is [semimajor axis of Uranus]."'
+        SENTENCE_NT'say "SMA of Traci is [semimajor axis of Traci]."'

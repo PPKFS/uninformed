@@ -1,0 +1,229 @@
+Read 617 words
+syntax-test: unexpected semicolon in sentence: reckon the day
+syntax-test: unexpected semicolon in sentence: reckon the day
+syntax-test: unexpected semicolon in sentence: reckon the day
+syntax-test: unexpected semicolon in sentence: reckon the day
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the season
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the weather
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the best King Crimson number
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the digits as shuffled
+syntax-test: unexpected semicolon in sentence: reckon the randomly selected letter
+syntax-test: unexpected semicolon in sentence: reckon the randomly selected letter
+syntax-test: unexpected semicolon in sentence: reckon the randomly selected letter
+syntax-test: unexpected semicolon in sentence: reckon the randomly selected letter
+syntax-test: unexpected semicolon in sentence: reckon the signal light
+syntax-test: unexpected semicolon in sentence: reckon the signal light
+syntax-test: unexpected semicolon in sentence: reckon the signal light
+syntax-test: unexpected semicolon in sentence: reckon the signal light
+syntax-test: unexpected semicolon in sentence: reckon the signal light
+syntax-test: unexpected semicolon in sentence: reckon a coin toss
+syntax-test: unexpected semicolon in sentence: reckon a coin toss
+syntax-test: unexpected semicolon in sentence: reckon a coin toss
+syntax-test: unexpected semicolon in sentence: reckon a coin toss
+syntax-test: unexpected semicolon in sentence: reckon a coin toss
+syntax-test: unexpected semicolon in sentence: reckon a coin toss
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the murderer
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon the victim
+syntax-test: unexpected semicolon in sentence: reckon a noise
+syntax-test: unexpected semicolon in sentence: reckon a noise
+ROOT_NT
+    HEADING_NT'to reckon the day' {heading 0}
+        SENTENCE_NT'to reckon the day'
+        SENTENCE_NT'say "This is [one of]Monday[or]Tuesday[or]Wednesday[stopping'
+        SENTENCE_NT'to reckon the season'
+        SENTENCE_NT'say "This is [one of]Spring[or]Summer[or]Autumn[or]Winter[cy'
+        SENTENCE_NT'to reckon the weather'
+        SENTENCE_NT'say "This is a [one of]cloudy[or]rainy[or]sunny[or]scorching'
+        SENTENCE_NT'to reckon the best king crimson number'
+        SENTENCE_NT'say "Clearly it's [one of]Starless[or]Fracture[or]Epitaph[or'
+        SENTENCE_NT'to reckon a coin toss'
+        SENTENCE_NT'say "The coin comes up [one of]heads[or]tails[purely at rand'
+        SENTENCE_NT'to reckon the digits as shuffled'
+        SENTENCE_NT'say "The digit is [one of]1[or]2[or]3[or]4[or]5[in random or'
+        SENTENCE_NT'to reckon the randomly selected letter'
+        SENTENCE_NT'say "The letter is [one of]A[or]B[or]C[or]D[or]E[sticky rand'
+        SENTENCE_NT'to reckon the signal light'
+        SENTENCE_NT'say "The light changes randomly again; now it's [one of]gree'
+        SENTENCE_NT'to reckon the murderer'
+        SENTENCE_NT'say "Maybe the murderer is [one of]Colonel Mustard[or]Profes'
+        SENTENCE_NT'to reckon the victim'
+        SENTENCE_NT'say "Maybe the victim is [one of]Colonel Mustard[or]Professo'
+        SENTENCE_NT'to reckon a noise'
+        SENTENCE_NT'say "The screen door squeaks [first time]surprisingly [only]'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'reckon the day'
+        SENTENCE_NT'reckon the day'
+        SENTENCE_NT'reckon the day'
+        SENTENCE_NT'reckon the day'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the season'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the weather'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the best king crimson number'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the digits as shuffled'
+        SENTENCE_NT'reckon the randomly selected letter'
+        SENTENCE_NT'reckon the randomly selected letter'
+        SENTENCE_NT'reckon the randomly selected letter'
+        SENTENCE_NT'reckon the randomly selected letter'
+        SENTENCE_NT'reckon the signal light'
+        SENTENCE_NT'reckon the signal light'
+        SENTENCE_NT'reckon the signal light'
+        SENTENCE_NT'reckon the signal light'
+        SENTENCE_NT'reckon the signal light'
+        SENTENCE_NT'reckon a coin toss'
+        SENTENCE_NT'reckon a coin toss'
+        SENTENCE_NT'reckon a coin toss'
+        SENTENCE_NT'reckon a coin toss'
+        SENTENCE_NT'reckon a coin toss'
+        SENTENCE_NT'reckon a coin toss'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the murderer'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon the victim'
+        SENTENCE_NT'reckon a noise'
+        SENTENCE_NT'reckon a noise'
+        SENTENCE_NT'reckon a noise'

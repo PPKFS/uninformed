@@ -1,0 +1,13 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'limbo is a room' {heading 0}
+        SENTENCE_NT'limbo is a room'
+        SENTENCE_NT'guy is a man in limbo'
+        SENTENCE_NT'understand "Athenians/Spartans/Greeks" as "[Greeks]"'
+        SENTENCE_NT'instead of asking guy about "[Greeks]"'
+        SENTENCE_NT'say "He tells you about the Greeks."'
+        SENTENCE_NT'instead of asking guy about'
+        SENTENCE_NT'say "He grunts."'
+        SENTENCE_NT'instead of examining guy'
+        SENTENCE_NT'try asking guy about "Athenians"'
+        SENTENCE_NT'test me with "actions/ask guy about greeks/x guy"'

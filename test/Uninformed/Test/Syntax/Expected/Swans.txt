@@ -1,0 +1,10 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a swan is a kind of animal'
+        SENTENCE_NT'a swan can be black or white'
+        SENTENCE_NT'there are five white swans in home'
+        SENTENCE_NT'there is a swan in home'
+        SENTENCE_NT'in home are six white swans'
+        SENTENCE_NT'there are three black swans'

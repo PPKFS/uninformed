@@ -1,0 +1,87 @@
+Read 254 words
+syntax-test: unexpected semicolon in sentence: say "RANDOMNESS TEST."
+syntax-test: unexpected semicolon in sentence: say "Figures: "
+syntax-test: unexpected semicolon in sentence: let fig be a random figure-name
+syntax-test: unexpected semicolon in sentence: say " [fig]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Sounds: "
+syntax-test: unexpected semicolon in sentence: let fx be a random sound-name
+syntax-test: unexpected semicolon in sentence: say " [fx]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "External files: "
+syntax-test: unexpected semicolon in sentence: let docket be a random external-file
+syntax-test: unexpected semicolon in sentence: say " [docket]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Times: "
+syntax-test: unexpected semicolon in sentence: let moment be a random time
+syntax-test: unexpected semicolon in sentence: say " [moment]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Tables: "
+syntax-test: unexpected semicolon in sentence: let almanac be a random table-name
+syntax-test: unexpected semicolon in sentence: say " [almanac]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Truth states: "
+syntax-test: unexpected semicolon in sentence: let parity be a random truth state
+syntax-test: unexpected semicolon in sentence: say " [parity]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Colours: "
+syntax-test: unexpected semicolon in sentence: let hue be a random colour
+syntax-test: unexpected semicolon in sentence: say " [hue]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: let interlude be the Entire Game
+syntax-test: unexpected semicolon in sentence: let interlude be a random scene
+syntax-test: unexpected semicolon in sentence: say "[interlude] is a random scene."
+syntax-test: unexpected semicolon in sentence: let interlude be a random good scene
+syntax-test: unexpected semicolon in sentence: say "[interlude] is a random good scene."
+syntax-test: unexpected semicolon in sentence: let interlude be a random bad scene
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'figure of woodlands is the file "Woodlands.png"'
+        SENTENCE_NT'sound of rustling leaves is the file "Rustling leaves.ogg"'
+        SENTENCE_NT'the file of glaciers is called "ice"'
+        SENTENCE_NT'lsd experience is a scene'
+        SENTENCE_NT'bach cantata concert is a scene'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is bad if it is the lsd experience'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is good if it is not the lsd experience'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and green'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "RANDOMNESS TEST."'
+        SENTENCE_NT'say "Figures: "'
+        SENTENCE_NT'let fig be a random figure-name'
+        SENTENCE_NT'say " [fig]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Sounds: "'
+        SENTENCE_NT'let fx be a random sound-name'
+        SENTENCE_NT'say " [fx]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "External files: "'
+        SENTENCE_NT'let docket be a random external-file'
+        SENTENCE_NT'say " [docket]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Times: "'
+        SENTENCE_NT'let moment be a random time'
+        SENTENCE_NT'say " [moment]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Tables: "'
+        SENTENCE_NT'let almanac be a random table-name'
+        SENTENCE_NT'say " [almanac]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Truth states: "'
+        SENTENCE_NT'let parity be a random truth state'
+        SENTENCE_NT'say " [parity]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Colours: "'
+        SENTENCE_NT'let hue be a random colour'
+        SENTENCE_NT'say " [hue]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'let interlude be the entire game'
+        SENTENCE_NT'let interlude be a random scene'
+        SENTENCE_NT'say "[interlude] is a random scene."'
+        SENTENCE_NT'let interlude be a random good scene'
+        SENTENCE_NT'say "[interlude] is a random good scene."'
+        SENTENCE_NT'let interlude be a random bad scene'
+        SENTENCE_NT'say "[interlude] is a random bad scene."'

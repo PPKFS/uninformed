@@ -1,0 +1,11 @@
+Read 111 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'bob is a man in place'
+        SENTENCE_NT'table of remapped inquiries topic alternate action "home/her'
+        SENTENCE_NT'after asking bob about "shack" ( this is the bob approves ru'
+        SENTENCE_NT'say "'I like it all right,' Bob drawls."'
+        SENTENCE_NT'instead of asking bob about a topic listed in the table of r'
+        SENTENCE_NT'try the alternate action entry instead'
+        SENTENCE_NT'test me with "actions / ask bob about shack / ask bob about '

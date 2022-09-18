@@ -1,0 +1,10 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'porch is a room' {heading 0}
+        SENTENCE_NT'porch is a room'
+        SENTENCE_NT'use maximum things understood at once of at least 200'
+        SENTENCE_NT'a log is a kind of thing'
+        SENTENCE_NT'the carrying capacity of the player is 1000'
+        SENTENCE_NT'90 logs are in porch'
+        SENTENCE_NT'90 logs are in porch'
+        SENTENCE_NT'test me with "get all / look / inventory / drop all"'

@@ -1,0 +1,13 @@
+Read 58 words
+syntax-test: unexpected semicolon in sentence: say "You have been granted a reprieve!"
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'at 9:01 am'
+        SENTENCE_NT'end the story saying "You have died"'
+        SENTENCE_NT'at 9:04 am'
+        SENTENCE_NT'end the story finally saying "Your privileges have been revo'
+        SENTENCE_NT'when play ends when the story has not ended finally'
+        SENTENCE_NT'say "You have been granted a reprieve!"'
+        SENTENCE_NT'resume the story'
+        SENTENCE_NT'test me with "z / z / look / z / z / z"'

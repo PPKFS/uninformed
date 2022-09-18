@@ -1,0 +1,11 @@
+Read 72 words
+syntax-test: unexpected semicolon in sentence: if { 3 } belongs with { 7 }, say "Test succeeded."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'partnership relates various lists of numbers to various list'
+        SENTENCE_NT'the verb to belong with ( he belongs with , they belong with'
+        SENTENCE_NT'{ 3 } belongs with { 7 }'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if { 3 } belongs with { 7 } , say "Test succeeded."'
+        SENTENCE_NT'otherwise say "Test failed."'

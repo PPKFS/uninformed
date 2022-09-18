@@ -1,0 +1,12 @@
+Read 62 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are grey and blue'
+        SENTENCE_NT'a colour has an text called warcry'
+        SENTENCE_NT'the warcry of grey is "huzzah"'
+        SENTENCE_NT'the warcry of blue is "rebel yell"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with c running through colours'
+        SENTENCE_NT'say "[C] says [warcry of C]."'

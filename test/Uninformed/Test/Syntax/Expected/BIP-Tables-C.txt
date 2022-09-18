@@ -1,0 +1,86 @@
+Read 432 words
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: choose row 2 in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: say "The surface of [moon entry] is [surface entry]."
+syntax-test: unexpected semicolon in sentence: choose row 3 in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: say "We seem to find [the current table row]."
+syntax-test: unexpected semicolon in sentence: choose a random row in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: say "The surface of [moon entry] is [surface entry]."
+syntax-test: unexpected semicolon in sentence: let the sought value be "utterly unknown"
+syntax-test: unexpected semicolon in sentence: showme whether or not the sought value is a surface listed in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme moon entry
+syntax-test: unexpected semicolon in sentence: showme surface entry
+syntax-test: unexpected semicolon in sentence: choose the row with moon column of "Triton" in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme moon entry
+syntax-test: unexpected semicolon in sentence: showme surface entry
+syntax-test: unexpected semicolon in sentence: showme the number of rows in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the number of blank rows in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the number of filled rows in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: choose a blank row in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: now the moon entry is "Dolcelatte"
+syntax-test: unexpected semicolon in sentence: now the surface entry is "surprisingly aromatic"
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the number of rows in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the number of blank rows in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the number of filled rows in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme whether or not there is a moon of "Dolcelatte" in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme whether or not there is a moon of "Dione" in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme whether or not there is no moon of "Dolcelatte" in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme whether or not there is no moon of "Dione" in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the surface corresponding to a moon of "Proteus" in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: say "Row 2 looks like [row 2 in the Table of Neptune's Moons]."
+syntax-test: unexpected semicolon in sentence: say "Row 2 looks like [row 2 from the Table of Neptune's Moons]."
+syntax-test: unexpected semicolon in sentence: say "Column 2 looks like [surface column in the Table of Neptune's Moons]."
+syntax-test: unexpected semicolon in sentence: blank out the surface corresponding to a moon of "Proteus" in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: choose row 3 in the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: blank out the whole row
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: blank out the whole moon column of the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: showme the contents of the Table of Neptune's Moons
+syntax-test: unexpected semicolon in sentence: blank out the whole of the Table of Neptune's Moons
+ROOT_NT
+    HEADING_NT'table of neptune's moons moon surface ( text ) "Nereid" "utt' {heading 0}
+        SENTENCE_NT'table of neptune's moons moon surface ( text ) "Nereid" "utt'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme the contents of the table of neptune's moons'
+        SENTENCE_NT'choose row 2 in the table of neptune's moons'
+        SENTENCE_NT'say "The surface of [moon entry] is [surface entry]."'
+        SENTENCE_NT'choose row 3 in the table of neptune's moons'
+        SENTENCE_NT'say "We seem to find [the current table row]."'
+        SENTENCE_NT'choose a random row in the table of neptune's moons'
+        SENTENCE_NT'say "The surface of [moon entry] is [surface entry]."'
+        SENTENCE_NT'let the sought value be "utterly unknown"'
+        SENTENCE_NT'showme whether or not the sought value is a surface listed i'
+        SENTENCE_NT'showme moon entry'
+        SENTENCE_NT'showme surface entry'
+        SENTENCE_NT'choose the row with moon column of "Triton" in the table of '
+        SENTENCE_NT'showme moon entry'
+        SENTENCE_NT'showme surface entry'
+        SENTENCE_NT'showme the number of rows in the table of neptune's moons'
+        SENTENCE_NT'showme the number of blank rows in the table of neptune's mo'
+        SENTENCE_NT'showme the number of filled rows in the table of neptune's m'
+        SENTENCE_NT'choose a blank row in the table of neptune's moons'
+        SENTENCE_NT'now the moon entry is "Dolcelatte"'
+        SENTENCE_NT'now the surface entry is "surprisingly aromatic"'
+        SENTENCE_NT'showme the contents of the table of neptune's moons'
+        SENTENCE_NT'showme the number of rows in the table of neptune's moons'
+        SENTENCE_NT'showme the number of blank rows in the table of neptune's mo'
+        SENTENCE_NT'showme the number of filled rows in the table of neptune's m'
+        SENTENCE_NT'showme whether or not there is a moon of "Dolcelatte" in the'
+        SENTENCE_NT'showme whether or not there is a moon of "Dione" in the tabl'
+        SENTENCE_NT'showme whether or not there is no moon of "Dolcelatte" in th'
+        SENTENCE_NT'showme whether or not there is no moon of "Dione" in the tab'
+        SENTENCE_NT'showme the surface corresponding to a moon of "Proteus" in t'
+        SENTENCE_NT'say "Row 2 looks like [row 2 in the Table of Neptune's Moons'
+        SENTENCE_NT'say "Row 2 looks like [row 2 from the Table of Neptune's Moo'
+        SENTENCE_NT'say "Column 2 looks like [surface column in the Table of Nep'
+        SENTENCE_NT'blank out the surface corresponding to a moon of "Proteus" i'
+        SENTENCE_NT'showme the contents of the table of neptune's moons'
+        SENTENCE_NT'choose row 3 in the table of neptune's moons'
+        SENTENCE_NT'blank out the whole row'
+        SENTENCE_NT'showme the contents of the table of neptune's moons'
+        SENTENCE_NT'blank out the whole moon column of the table of neptune's mo'
+        SENTENCE_NT'showme the contents of the table of neptune's moons'
+        SENTENCE_NT'blank out the whole of the table of neptune's moons'
+        SENTENCE_NT'showme the contents of the table of neptune's moons'

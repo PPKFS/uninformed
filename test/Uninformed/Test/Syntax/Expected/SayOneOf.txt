@@ -1,0 +1,39 @@
+Read 64 words
+syntax-test: unexpected semicolon in sentence: say "You flip the coin. [one of]Heads[or]Tails[purely at random]."
+syntax-test: unexpected semicolon in sentence: say "[one of]The phone rings[or]The phone rings a second time[or]The phone
+rings again[stopping]."
+syntax-test: unexpected semicolon in sentence: say "You turn the light switch [one of]off[or]on[cycling]. Nothing happens."
+syntax-test: unexpected semicolon in sentence: say "The newspaper headline is:
+[one of]War Casualties[or]Terrorists[or]Banks[sticky random]
+[one of]Continue To Expand[or]Lose Out[sticky random]."
+syntax-test: unexpected semicolon in sentence: say "The light changes randomly again; now it's
+[one of]green[or]amber[or]red[at random]."
+syntax-test: unexpected semicolon in sentence: say "George Bush [one of]yawns[or]scratches[or]bombs
+somebody[or]inappropriately touches a monarch[or]eats fried
+chicken[or]reads a Dr Seuss book[or]reads a Tom Clancy book[or]reads a
+Jean-Paul Sartre book[as decreasingly likely outcomes]."
+syntax-test: unexpected semicolon in sentence: repeat with w running from 1 to 4 begin
+syntax-test: unexpected semicolon in sentence: say "[one of]hearts[or]clubs[or]diamonds[or]spades[in random order] - "
+syntax-test: unexpected semicolon in sentence: end repeat
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'"This is Foo, the leading [one of]pet
+        shop[or]haberdashery[o'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "You flip the coin. [one of]Heads[or]Tails[purely at ran'
+        SENTENCE_NT'say "[one of]The phone rings[or]The phone rings a second tim'
+        SENTENCE_NT'say "You turn the light switch [one of]off[or]on[cycling]. N'
+        SENTENCE_NT'say "The newspaper headline is:
+        [one of]War Casualties[or]Te'
+        SENTENCE_NT'say "The light changes randomly again; now it's
+        [one of]gree'
+        SENTENCE_NT'say "George Bush [one of]yawns[or]scratches[or]bombs
+        somebod'
+        SENTENCE_NT'say "Trumps are [one of]hearts[or]clubs[or]diamonds[or]spade'
+        SENTENCE_NT'instead of waiting'
+        SENTENCE_NT'repeat with w running from 1 to 4 begin'
+        SENTENCE_NT'say "[one of]hearts[or]clubs[or]diamonds[or]spades[in random'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "are trumps."'
+        SENTENCE_NT'test me with "z / z / z / z / z / z / z / z / z / z / z / z '

@@ -1,0 +1,10 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'volume 1g ( for glulx only )'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "This is a Glulx game."'
+        SENTENCE_NT'volume 1z ( for z-machine only )'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "This is a Z-machine game."'

@@ -1,0 +1,10 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'the lounge is a room' {heading 0}
+        SENTENCE_NT'the lounge is a room'
+        SENTENCE_NT'the pre-jump rule is listed first in the before rules'
+        SENTENCE_NT'before jumping ( this is the pre-jump rule )'
+        SENTENCE_NT'say "You're about to jump!"'
+        SENTENCE_NT'before jumping in the lounge ( this is the lounge-jump rule '
+        SENTENCE_NT'say "You're about to jump in the Lounge."'
+        SENTENCE_NT'test me with "jump"'

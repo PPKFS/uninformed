@@ -1,0 +1,48 @@
+Read 177 words
+syntax-test: unexpected semicolon in sentence: assess "jackdaws love my big sphinx of quartz."
+syntax-test: unexpected semicolon in sentence: assess "This is a tumble-down house, with a door/portal at one end."
+syntax-test: unexpected semicolon in sentence: assess "Shahbaz Khan replied in the high-pitched voice of the mountaineer:
+'Hast thou seen?'The answer came back: 'Yes. God deliver us from all evil spirits!'There was a pause, and then: 'Hafiz Ullah, I am alone! Come to me!''Shahbaz Khan, I am alone also; but I dare not leave my post!''That is a lie; thou art afraid.'A longer pause followed, and then: 'I am afraid. Be silent! They are
+below us still. Pray to God and sleep.'The troopers listened and wondered, for they could not understand
+what save earth and stone could lie below the watch-towers."
+syntax-test: unexpected semicolon in sentence: let T be the substituted form of the magic text
+syntax-test: unexpected semicolon in sentence: increase the magic number by 1
+syntax-test: unexpected semicolon in sentence: showme the magic text
+syntax-test: unexpected semicolon in sentence: showme the number of characters in T
+syntax-test: unexpected semicolon in sentence: showme the number of words in T
+syntax-test: unexpected semicolon in sentence: showme the number of punctuated words in T
+syntax-test: unexpected semicolon in sentence: showme the number of unpunctuated words in T
+syntax-test: unexpected semicolon in sentence: showme the number of lines in T
+syntax-test: unexpected semicolon in sentence: showme the number of paragraphs in T
+syntax-test: unexpected semicolon in sentence: showme character number 7 in T
+syntax-test: unexpected semicolon in sentence: showme word number 4 in T
+syntax-test: unexpected semicolon in sentence: showme punctuated word number 4 in T
+syntax-test: unexpected semicolon in sentence: showme unpunctuated word number 4 in T
+syntax-test: unexpected semicolon in sentence: showme line number 1 in T
+ROOT_NT
+    HEADING_NT'the magic number is a number that varies' {heading 0}
+        SENTENCE_NT'the magic number is a number that varies'
+        SENTENCE_NT'the magic number is 1102'
+        SENTENCE_NT'the magic text is a text that varies'
+        SENTENCE_NT'the magic text is "N is now [the magic number]."'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'assess "jackdaws love my big sphinx of quartz."'
+        SENTENCE_NT'assess "This is a tumble-down house, with a door/portal at o'
+        SENTENCE_NT'assess "Shahbaz Khan replied in the high-pitched voice of th'
+        SENTENCE_NT'let t be the substituted form of the magic text'
+        SENTENCE_NT'increase the magic number by 1'
+        SENTENCE_NT'showme the magic text'
+        SENTENCE_NT'showme t'
+        SENTENCE_NT'to assess ( t - a text )'
+        SENTENCE_NT'showme the number of characters in t'
+        SENTENCE_NT'showme the number of words in t'
+        SENTENCE_NT'showme the number of punctuated words in t'
+        SENTENCE_NT'showme the number of unpunctuated words in t'
+        SENTENCE_NT'showme the number of lines in t'
+        SENTENCE_NT'showme the number of paragraphs in t'
+        SENTENCE_NT'showme character number 7 in t'
+        SENTENCE_NT'showme word number 4 in t'
+        SENTENCE_NT'showme punctuated word number 4 in t'
+        SENTENCE_NT'showme unpunctuated word number 4 in t'
+        SENTENCE_NT'showme line number 1 in t'
+        SENTENCE_NT'showme paragraph number 1 in t'

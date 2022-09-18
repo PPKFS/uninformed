@@ -1,0 +1,18 @@
+Read 130 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'color is a kind of value'
+        SENTENCE_NT'the colors are light blue , dark blue , light green , dark g'
+        SENTENCE_NT'understand "light" , "blue" as light blue'
+        SENTENCE_NT'understand "light" , "green" as light green'
+        SENTENCE_NT'understand "dark" , "blue" as dark blue'
+        SENTENCE_NT'understand "dark" , "green" as dark green'
+        SENTENCE_NT'a shape is a kind of thing'
+        SENTENCE_NT'a shape has a color'
+        SENTENCE_NT'understand the color property as describing a shape'
+        SENTENCE_NT'before printing the name of a shape'
+        SENTENCE_NT'say "[the color of the item described] "'
+        SENTENCE_NT'the cube is a light blue shape in the kitchen'
+        SENTENCE_NT'the ball is a dark green shape in the kitchen'
+        SENTENCE_NT'test me with "x light / x light cube / x blue / x light blue'

@@ -1,0 +1,22 @@
+Read 127 words
+syntax-test: unexpected semicolon in sentence: if going inside or going up or going down, say "You can't go that way."
+ROOT_NT
+    HEADING_NT'"Tiny Forest"' {heading 0}
+        SENTENCE_NT'"Tiny Forest"'
+        SENTENCE_NT'include rulebook compilation and rule attachments in the deb'
+        SENTENCE_NT'a forest room is a kind of room'
+        SENTENCE_NT'to avoid briars'
+        SENTENCE_NT'if going inside or going up or going down , say "You can't g'
+        SENTENCE_NT'otherwise say "The briars in that direction are impassable."'
+        SENTENCE_NT'instead of going nowhere from a forest room , avoid briars'
+        SENTENCE_NT'the clearing is a forest room'
+        SENTENCE_NT'"You are in the middle of an ancient forest, much overgrown '
+        SENTENCE_NT'east is the mighty oak'
+        SENTENCE_NT'instead of going south in the clearing , say "You take anoth'
+        SENTENCE_NT'the mighty oak is a forest room'
+        SENTENCE_NT'"There is a tremendous old oak here. A path heads west to th'
+        SENTENCE_NT'up is the treetop'
+        SENTENCE_NT'instead of going north in the mighty oak , say "You take ano'
+        SENTENCE_NT'the treetop is a room'
+        SENTENCE_NT'"Now you are here, you can see the forest stretches out to t'
+        SENTENCE_NT'test me with "north / south / east / north / south"'

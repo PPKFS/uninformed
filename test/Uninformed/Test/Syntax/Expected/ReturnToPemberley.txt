@@ -1,0 +1,58 @@
+Read 392 words
+syntax-test: unexpected semicolon in sentence: diagnose the loving relation
+syntax-test: unexpected semicolon in sentence: diagnose the noticing relation
+syntax-test: unexpected semicolon in sentence: diagnose the impressing relation
+syntax-test: unexpected semicolon in sentence: diagnose the fancying relation
+syntax-test: unexpected semicolon in sentence: diagnose the acquaintance relation
+syntax-test: unexpected semicolon in sentence: diagnose the marriage relation
+syntax-test: unexpected semicolon in sentence: say "[line break]Diagnosing [R]..."
+syntax-test: unexpected semicolon in sentence: say "[person who relates to P by R] --> [P]; [P] --> [person to whom P relates by R]; [list of people who relate to P by R in brace notation]."
+syntax-test: unexpected semicolon in sentence: showme the list of people whom R relates
+ROOT_NT
+    HEADING_NT'big house is a room' {heading 0}
+        SENTENCE_NT'big house is a room'
+        SENTENCE_NT'elizabeth and lydia are women in the big house'
+        SENTENCE_NT'darcy , wickham and mr bennett are men in the big house'
+        SENTENCE_NT'loving relates one person to one person'
+        SENTENCE_NT'the verb to love ( he loves , they love , he loved , he is l'
+        SENTENCE_NT'elizabeth loves darcy'
+        SENTENCE_NT'noticing relates various people to one person'
+        SENTENCE_NT'the verb to notice ( he notices , they notice , he noticed ,'
+        SENTENCE_NT'elizabeth notices darcy'
+        SENTENCE_NT'lydia notices mr wickham'
+        SENTENCE_NT'mr bennett notices mr wickham'
+        SENTENCE_NT'impressing relates one person to various people'
+        SENTENCE_NT'the verb to impress ( he impresses , they impress , he impre'
+        SENTENCE_NT'elizabeth impresses darcy'
+        SENTENCE_NT'darcy impresses mr bennett'
+        SENTENCE_NT'fancying relates various people to various people'
+        SENTENCE_NT'the verb to fancy ( he fancies , they fancy , he fancied , h'
+        SENTENCE_NT'elizabeth fancies darcy'
+        SENTENCE_NT'lydia fancies darcy'
+        SENTENCE_NT'wickham fancies lydia'
+        SENTENCE_NT'marriage relates one person to another'
+        SENTENCE_NT'the verb to be married to implies the marriage relation'
+        SENTENCE_NT'elizabeth is married to darcy'
+        SENTENCE_NT'acquaintance relates people to each other'
+        SENTENCE_NT'the verb to know ( he knows , they know , he knew , he is kn'
+        SENTENCE_NT'elizabeth knows darcy'
+        SENTENCE_NT'wickham knows darcy'
+        SENTENCE_NT'elizabeth knows mr bennett'
+        SENTENCE_NT'alliance relates people to each other in groups'
+        SENTENCE_NT'the verb to be related to implies the alliance relation'
+        SENTENCE_NT'elizabeth is related to darcy'
+        SENTENCE_NT'lydia is related to elizabeth'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'diagnose the loving relation'
+        SENTENCE_NT'diagnose the noticing relation'
+        SENTENCE_NT'diagnose the impressing relation'
+        SENTENCE_NT'diagnose the fancying relation'
+        SENTENCE_NT'diagnose the acquaintance relation'
+        SENTENCE_NT'diagnose the marriage relation'
+        SENTENCE_NT'diagnose the alliance relation'
+        SENTENCE_NT'to diagnose ( r - relation )'
+        SENTENCE_NT'say "[line break]Diagnosing [R]..."'
+        SENTENCE_NT'repeat with p running through people'
+        SENTENCE_NT'say "[person who relates to P by R] --> [P]; [P] --> [person'
+        SENTENCE_NT'showme the list of people whom r relates'
+        SENTENCE_NT'showme the list of people to whom r relates'

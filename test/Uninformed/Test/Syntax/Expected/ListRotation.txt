@@ -1,0 +1,62 @@
+Read 160 words
+syntax-test: unexpected semicolon in sentence: let S be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 2 to S
+syntax-test: unexpected semicolon in sentence: add 4 to S
+syntax-test: unexpected semicolon in sentence: add 8 to S
+syntax-test: unexpected semicolon in sentence: add 16 to S
+syntax-test: unexpected semicolon in sentence: add 32 to S
+syntax-test: unexpected semicolon in sentence: add 64 to S
+syntax-test: unexpected semicolon in sentence: let T be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 2 to T
+syntax-test: unexpected semicolon in sentence: add 4 to T
+syntax-test: unexpected semicolon in sentence: add 6 to T
+syntax-test: unexpected semicolon in sentence: add 10 to T
+syntax-test: unexpected semicolon in sentence: say "Begin with the sets S = [S in brace notation], T = [T in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 3 at entry 3 in S
+syntax-test: unexpected semicolon in sentence: say "S is now [S in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 2 at entry 8 in S
+syntax-test: unexpected semicolon in sentence: say "S is now [S in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 2 at entry 0 in S
+syntax-test: unexpected semicolon in sentence: add 2 at entry 10 in S
+syntax-test: unexpected semicolon in sentence: add T at entry 3 in S
+syntax-test: unexpected semicolon in sentence: say "S is now [S in brace notation]."
+syntax-test: unexpected semicolon in sentence: rotate S
+syntax-test: unexpected semicolon in sentence: say "S rotated is now [S in brace notation]."
+syntax-test: unexpected semicolon in sentence: rotate S
+syntax-test: unexpected semicolon in sentence: say "S rotated is now [S in brace notation]."
+syntax-test: unexpected semicolon in sentence: rotate S backwards
+syntax-test: unexpected semicolon in sentence: say "S rotated is now [S in brace notation]."
+syntax-test: unexpected semicolon in sentence: rotate S backwards
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let s be a list of numbers'
+        SENTENCE_NT'add 2 to s'
+        SENTENCE_NT'add 4 to s'
+        SENTENCE_NT'add 8 to s'
+        SENTENCE_NT'add 16 to s'
+        SENTENCE_NT'add 32 to s'
+        SENTENCE_NT'add 64 to s'
+        SENTENCE_NT'let t be a list of numbers'
+        SENTENCE_NT'add 2 to t'
+        SENTENCE_NT'add 4 to t'
+        SENTENCE_NT'add 6 to t'
+        SENTENCE_NT'add 10 to t'
+        SENTENCE_NT'say "Begin with the sets S = [S in brace notation], T = [T i'
+        SENTENCE_NT'add 3 at entry 3 in s'
+        SENTENCE_NT'say "S is now [S in brace notation]."'
+        SENTENCE_NT'add 2 at entry 8 in s'
+        SENTENCE_NT'say "S is now [S in brace notation]."'
+        SENTENCE_NT'add 2 at entry 0 in s'
+        SENTENCE_NT'add 2 at entry 10 in s'
+        SENTENCE_NT'add t at entry 3 in s'
+        SENTENCE_NT'say "S is now [S in brace notation]."'
+        SENTENCE_NT'rotate s'
+        SENTENCE_NT'say "S rotated is now [S in brace notation]."'
+        SENTENCE_NT'rotate s'
+        SENTENCE_NT'say "S rotated is now [S in brace notation]."'
+        SENTENCE_NT'rotate s backwards'
+        SENTENCE_NT'say "S rotated is now [S in brace notation]."'
+        SENTENCE_NT'rotate s backwards'
+        SENTENCE_NT'say "S rotated is now [S in brace notation]."'

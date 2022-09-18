@@ -1,0 +1,19 @@
+Read 150 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the player carries the apple'
+        SENTENCE_NT'the player carries the pear'
+        SENTENCE_NT'the player carries the banana'
+        SENTENCE_NT'the small pillar is a fixed in place supporter in the kitche'
+        SENTENCE_NT'before doing something other than touching the pear ( this i'
+        SENTENCE_NT'say "Rule 1 fires."'
+        SENTENCE_NT'before doing something other than putting the apple on the p'
+        SENTENCE_NT'say "Rule 2 fires."'
+        SENTENCE_NT'before doing something other than taking to the apple ( this'
+        SENTENCE_NT'say "Rule 3 fires."'
+        SENTENCE_NT'before doing something other than taking ( this is the fourt'
+        SENTENCE_NT'say "Rule 4 fires."'
+        SENTENCE_NT'before doing something other than taking inventory ( this is'
+        SENTENCE_NT'say "Rule 5 fires."'
+        SENTENCE_NT'test me with "drop banana / get banana / drop apple / get ap'

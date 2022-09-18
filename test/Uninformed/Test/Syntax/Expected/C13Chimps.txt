@@ -1,0 +1,12 @@
+Read 65 words
+ROOT_NT
+    HEADING_NT'the starting room is a room' {heading 0}
+        SENTENCE_NT'the starting room is a room'
+        SENTENCE_NT'"This is the starting room."'
+        SENTENCE_NT'a monkey is a kind of thing'
+        SENTENCE_NT'a tail is a kind of thing'
+        SENTENCE_NT'a tail is part of every monkey'
+        SENTENCE_NT'understand "appendage" as "[extremity]"'
+        SENTENCE_NT'understand "fur" and "[extremity]" as a tail'
+        SENTENCE_NT'chimpy is a monkey in the starting room'
+        SENTENCE_NT'test me with "x chimpy's fur / x chimpy's tail / x fur / x t'

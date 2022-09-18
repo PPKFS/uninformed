@@ -1,0 +1,21 @@
+Read 129 words
+syntax-test: unexpected semicolon in sentence: if the player is not on the chair, now everything on the shelf is mentioned
+syntax-test: unexpected semicolon in sentence: if the player is not on the chair begin
+syntax-test: unexpected semicolon in sentence: say "To sit might be to squish [the Donut]."
+syntax-test: unexpected semicolon in sentence: end if
+ROOT_NT
+    HEADING_NT'mrs luxor's home is a room' {heading 0}
+        SENTENCE_NT'mrs luxor's home is a room'
+        SENTENCE_NT'the ceramic dog and the carved walrus are on the high shelf'
+        SENTENCE_NT'the high shelf is in mrs luxor's home'
+        SENTENCE_NT'for choosing notable locale objects'
+        SENTENCE_NT'if the player is not on the chair , now everything on the sh'
+        SENTENCE_NT'continue the activity'
+        SENTENCE_NT'the chair is an enterable supporter in the home'
+        SENTENCE_NT'for printing a locale paragraph about the chair'
+        SENTENCE_NT'if the player is not on the chair begin'
+        SENTENCE_NT'say "To sit might be to squish [the Donut]."'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'continue the activity'
+        SENTENCE_NT'the versace clutch , the boston krispy kreme donut and the g'
+        SENTENCE_NT'test me with "look / get on chair / look"'

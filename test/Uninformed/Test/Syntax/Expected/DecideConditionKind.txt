@@ -1,0 +1,10 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to decide whether pluto is a planet ( this is ruling on plut'
+        SENTENCE_NT'decide no'
+        SENTENCE_NT'to present ( decider - a phrase nothing -> truth state )'
+        SENTENCE_NT'showme the decider'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'present ruling on pluto's status'

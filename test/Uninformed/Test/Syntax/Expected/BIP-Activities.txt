@@ -1,0 +1,20 @@
+Read 95 words
+syntax-test: unexpected semicolon in sentence: say "That's even."
+syntax-test: unexpected semicolon in sentence: carry out the commenting on activity with 4
+syntax-test: unexpected semicolon in sentence: carry out the commenting on activity with 5
+syntax-test: unexpected semicolon in sentence: carry out the commenting on activity with 6
+ROOT_NT
+    HEADING_NT'commenting on something is an activity on numbers' {heading 0}
+        SENTENCE_NT'commenting on something is an activity on numbers'
+        SENTENCE_NT'rule for commenting on an even number'
+        SENTENCE_NT'say "That's even."'
+        SENTENCE_NT'continue the activity'
+        SENTENCE_NT'rule for commenting on an odd number'
+        SENTENCE_NT'say "That's odd."'
+        SENTENCE_NT'rule for commenting on a number ( called n )'
+        SENTENCE_NT'say "It would seem to be [N]."'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'carry out the commenting on activity with 4'
+        SENTENCE_NT'carry out the commenting on activity with 5'
+        SENTENCE_NT'carry out the commenting on activity with 6'
+        SENTENCE_NT'carry out the commenting on activity with 7'

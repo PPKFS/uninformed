@@ -1,0 +1,14 @@
+Read 104 words
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'a surreal number is a kind of value'
+        SENTENCE_NT'-999999:9999 specifies a surreal number with parts whole and'
+        SENTENCE_NT'the element-selection set is a list of numbers variable'
+        SENTENCE_NT'the element-selection set is { 1 }'
+        SENTENCE_NT'scaling elements is an action applying to one surreal number'
+        SENTENCE_NT'understand "scale at [surreal number]" or "scale element/ele'
+        SENTENCE_NT'understand "scale [surreal number]" as scaling elements when'
+        SENTENCE_NT'carry out scaling elements'
+        SENTENCE_NT'say "Scaled to [surreal number understood]!"'
+        SENTENCE_NT'test me with "scale element at 0:8000 / scale element at 1:2'

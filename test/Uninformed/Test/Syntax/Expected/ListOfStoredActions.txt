@@ -1,0 +1,15 @@
+Read 81 words
+syntax-test: unexpected semicolon in sentence: if the current action is listed in the tally, say "(Oh, not again!)"
+syntax-test: unexpected semicolon in sentence: sort the tally
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'the tuba and the trombone are in the conservatoire'
+        SENTENCE_NT'the tally is a list of stored actions that varies'
+        SENTENCE_NT'before doing something other than taking inventory'
+        SENTENCE_NT'if the current action is listed in the tally , say "(Oh, not'
+        SENTENCE_NT'otherwise add the current action to the tally'
+        SENTENCE_NT'before taking inventory'
+        SENTENCE_NT'sort the tally'
+        SENTENCE_NT'say "You have thus far tried the actions: [the tally]."'
+        SENTENCE_NT'test me with "look / wait / wait / take all / drop tuba / ta'

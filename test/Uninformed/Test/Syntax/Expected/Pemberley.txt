@@ -1,0 +1,134 @@
+Read 783 words
+syntax-test: unexpected semicolon in sentence: show relation the loving relation
+syntax-test: unexpected semicolon in sentence: if the loving relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: now the loving relation is empty
+syntax-test: unexpected semicolon in sentence: show relation the loving relation
+syntax-test: unexpected semicolon in sentence: if the loving relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: show relation the noticing relation
+syntax-test: unexpected semicolon in sentence: if the noticing relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: now the noticing relation is empty
+syntax-test: unexpected semicolon in sentence: show relation the noticing relation
+syntax-test: unexpected semicolon in sentence: if the noticing relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: show relation the impressing relation
+syntax-test: unexpected semicolon in sentence: if the impressing relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: now the impressing relation is empty
+syntax-test: unexpected semicolon in sentence: show relation the impressing relation
+syntax-test: unexpected semicolon in sentence: if the impressing relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: show relation the fancying relation
+syntax-test: unexpected semicolon in sentence: if the fancying relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: now the fancying relation is empty
+syntax-test: unexpected semicolon in sentence: show relation the fancying relation
+syntax-test: unexpected semicolon in sentence: if the fancying relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: show relation the marriage relation
+syntax-test: unexpected semicolon in sentence: if the marriage relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: now the marriage relation is empty
+syntax-test: unexpected semicolon in sentence: show relation the marriage relation
+syntax-test: unexpected semicolon in sentence: if the marriage relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: show relation the acquaintance relation
+syntax-test: unexpected semicolon in sentence: if the acquaintance relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: now the acquaintance relation is empty
+syntax-test: unexpected semicolon in sentence: show relation the acquaintance relation
+syntax-test: unexpected semicolon in sentence: if the acquaintance relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: show relation the alliance relation
+syntax-test: unexpected semicolon in sentence: if the alliance relation is empty, say "Which is empty."
+syntax-test: unexpected semicolon in sentence: now the alliance relation is empty
+syntax-test: unexpected semicolon in sentence: show relation the alliance relation
+ROOT_NT
+    HEADING_NT'big house is a room' {heading 0}
+        SENTENCE_NT'big house is a room'
+        SENTENCE_NT'elizabeth is a woman in the big house'
+        SENTENCE_NT'darcy is a man in the big house'
+        SENTENCE_NT'loving relates one person to one person'
+        SENTENCE_NT'the verb to love ( he loves , they love , he loved , he is l'
+        SENTENCE_NT'elizabeth loves darcy'
+        SENTENCE_NT'understand "man infatuated with [something related by loving'
+        SENTENCE_NT'understand "woman infatuated with [something related by lovi'
+        SENTENCE_NT'understand "man loved by [something related by reversed lovi'
+        SENTENCE_NT'understand "woman loved by [something related by reversed lo'
+        SENTENCE_NT'test love with "x woman infatuated with Darcy/ x man loved b'
+        SENTENCE_NT'noticing relates various people to one person'
+        SENTENCE_NT'the verb to notice ( he notices , they notice , he noticed ,'
+        SENTENCE_NT'elizabeth notices darcy'
+        SENTENCE_NT'understand "man noticed by [something related by reversed no'
+        SENTENCE_NT'understand "woman noticed with [something related by reverse'
+        SENTENCE_NT'understand "man who notices [something related by noticing]"'
+        SENTENCE_NT'understand "woman who notices [something related by noticing'
+        SENTENCE_NT'test noticing with "x man noticed by elizabeth / x woman who'
+        SENTENCE_NT'impressing relates one person to various people'
+        SENTENCE_NT'the verb to impress ( he impresses , they impress , he impre'
+        SENTENCE_NT'elizabeth impresses darcy'
+        SENTENCE_NT'understand "man impressed by [something related by reversed '
+        SENTENCE_NT'understand "woman impressed with [something related by rever'
+        SENTENCE_NT'understand "man who impresses [something related by impressi'
+        SENTENCE_NT'understand "woman who impresses [something related by impres'
+        SENTENCE_NT'test impressing with "x woman who impresses darcy / x man im'
+        SENTENCE_NT'fancying relates various people to various people'
+        SENTENCE_NT'the verb to fancy ( he fancies , they fancy , he fancied , h'
+        SENTENCE_NT'elizabeth fancies darcy'
+        SENTENCE_NT'understand "man who fancies [something related by fancying]"'
+        SENTENCE_NT'understand "woman who fancies [something related by fancying'
+        SENTENCE_NT'understand "man fancied by [something related by reversed fa'
+        SENTENCE_NT'understand "woman fancied by [something related by reversed '
+        SENTENCE_NT'test fancying with "x woman who fancies darcy / x man fancie'
+        SENTENCE_NT'marriage relates one person to another'
+        SENTENCE_NT'the verb to be married to implies the marriage relation'
+        SENTENCE_NT'elizabeth is married to darcy'
+        SENTENCE_NT'understand "wife of [something related by marriage]" as a wo'
+        SENTENCE_NT'understand "husband of [something related by marriage]" as a'
+        SENTENCE_NT'understand "spouse of [something related by reversed marriag'
+        SENTENCE_NT'understand "spouse of [something related by reversed marriag'
+        SENTENCE_NT'test marriage with "x wife of Darcy / x husband of Elizabeth'
+        SENTENCE_NT'acquaintance relates people to each other'
+        SENTENCE_NT'the verb to know ( he knows , they know , he knew , he is kn'
+        SENTENCE_NT'elizabeth knows darcy'
+        SENTENCE_NT'understand "man acquainted with [something related by acquai'
+        SENTENCE_NT'understand "woman acquainted with [something related by acqu'
+        SENTENCE_NT'understand "man known by [something related by reversed acqu'
+        SENTENCE_NT'understand "woman known by [something related by reversed
+        ac'
+        SENTENCE_NT'test acquaintance with "x woman acquainted with darcy / x ma'
+        SENTENCE_NT'alliance relates people to each other in groups'
+        SENTENCE_NT'the verb to be related to implies the alliance relation'
+        SENTENCE_NT'elizabeth is related to darcy'
+        SENTENCE_NT'understand "man allied to [something related by alliance]" a'
+        SENTENCE_NT'understand "woman allied to [something related by alliance]"'
+        SENTENCE_NT'understand "man connected to [something related by reversed '
+        SENTENCE_NT'understand "woman connected to [something related by reverse'
+        SENTENCE_NT'test alliance with "x man allied to elizabeth / x woman alli'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'show relation the loving relation'
+        SENTENCE_NT'if the loving relation is empty , say "Which is empty."'
+        SENTENCE_NT'now the loving relation is empty'
+        SENTENCE_NT'show relation the loving relation'
+        SENTENCE_NT'if the loving relation is empty , say "Which is empty."'
+        SENTENCE_NT'show relation the noticing relation'
+        SENTENCE_NT'if the noticing relation is empty , say "Which is empty."'
+        SENTENCE_NT'now the noticing relation is empty'
+        SENTENCE_NT'show relation the noticing relation'
+        SENTENCE_NT'if the noticing relation is empty , say "Which is empty."'
+        SENTENCE_NT'show relation the impressing relation'
+        SENTENCE_NT'if the impressing relation is empty , say "Which is empty."'
+        SENTENCE_NT'now the impressing relation is empty'
+        SENTENCE_NT'show relation the impressing relation'
+        SENTENCE_NT'if the impressing relation is empty , say "Which is empty."'
+        SENTENCE_NT'show relation the fancying relation'
+        SENTENCE_NT'if the fancying relation is empty , say "Which is empty."'
+        SENTENCE_NT'now the fancying relation is empty'
+        SENTENCE_NT'show relation the fancying relation'
+        SENTENCE_NT'if the fancying relation is empty , say "Which is empty."'
+        SENTENCE_NT'show relation the marriage relation'
+        SENTENCE_NT'if the marriage relation is empty , say "Which is empty."'
+        SENTENCE_NT'now the marriage relation is empty'
+        SENTENCE_NT'show relation the marriage relation'
+        SENTENCE_NT'if the marriage relation is empty , say "Which is empty."'
+        SENTENCE_NT'show relation the acquaintance relation'
+        SENTENCE_NT'if the acquaintance relation is empty , say "Which is empty.'
+        SENTENCE_NT'now the acquaintance relation is empty'
+        SENTENCE_NT'show relation the acquaintance relation'
+        SENTENCE_NT'if the acquaintance relation is empty , say "Which is empty.'
+        SENTENCE_NT'show relation the alliance relation'
+        SENTENCE_NT'if the alliance relation is empty , say "Which is empty."'
+        SENTENCE_NT'now the alliance relation is empty'
+        SENTENCE_NT'show relation the alliance relation'
+        SENTENCE_NT'if the alliance relation is empty , say "Which is empty."'
+        SENTENCE_NT'test me with "test love / test noticing / test impressing / '

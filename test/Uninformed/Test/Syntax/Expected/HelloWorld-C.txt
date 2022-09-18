@@ -1,0 +1,5 @@
+Read 9 words
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "Hello world."'

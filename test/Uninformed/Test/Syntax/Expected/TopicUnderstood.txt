@@ -1,0 +1,7 @@
+Read 41 words
+ROOT_NT
+    HEADING_NT'the hidden library is a room' {heading 0}
+        SENTENCE_NT'the hidden library is a room'
+        SENTENCE_NT'the tome of celestial secrets is a thing in the hidden libra'
+        SENTENCE_NT'instead of consulting the tome of celestial secrets about th'
+        SENTENCE_NT'say "That's insufficiently celestial."'

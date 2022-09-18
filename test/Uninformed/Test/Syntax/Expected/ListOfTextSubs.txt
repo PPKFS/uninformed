@@ -1,0 +1,19 @@
+Read 101 words
+syntax-test: unexpected semicolon in sentence: say "- [H][line break]"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'l is a list of text that varies'
+        SENTENCE_NT'l is { "[the problem]" }'
+        SENTENCE_NT'to say the problem'
+        SENTENCE_NT'say "This doesn't work."'
+        SENTENCE_NT'a thing has a list of texts called the hint list'
+        SENTENCE_NT'instead of examining something'
+        SENTENCE_NT'repeat with h running through the hint list of the noun'
+        SENTENCE_NT'say "- [H][line break]"'
+        SENTENCE_NT'say "And L is [L]."'
+        SENTENCE_NT'an apple is in home'
+        SENTENCE_NT'it is edible'
+        SENTENCE_NT'the hint list is { "What can you do
+        with an apple?" , "It's '
+        SENTENCE_NT'test me with "x apple"'

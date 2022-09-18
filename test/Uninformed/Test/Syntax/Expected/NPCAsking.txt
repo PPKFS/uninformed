@@ -1,0 +1,38 @@
+Read 199 words
+syntax-test: unexpected semicolon in sentence: say "'No way!' Bob declares."
+syntax-test: unexpected semicolon in sentence: say "''Right,' says Sally."
+syntax-test: unexpected semicolon in sentence: say "''Right,' says Sally."
+ROOT_NT
+    HEADING_NT'the place is a room' {heading 0}
+        SENTENCE_NT'the place is a room'
+        SENTENCE_NT'bob is a man in the place'
+        SENTENCE_NT'sally is a woman in the place'
+        SENTENCE_NT'rick is a man in the place'
+        SENTENCE_NT'persuasion rule for asking bob to try jumping'
+        SENTENCE_NT'say "'No way!' Bob declares."'
+        SENTENCE_NT'persuasion fails'
+        SENTENCE_NT'persuasion rule for asking sally to try jumping'
+        SENTENCE_NT'say "''Right,' says Sally."'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'persuasion rule for asking sally to try looking'
+        SENTENCE_NT'say "''Right,' says Sally."'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'instead of an actor jumping'
+        SENTENCE_NT'say "[The actor] prepares to leap."'
+        SENTENCE_NT'the goggles are in the place'
+        SENTENCE_NT'the goggles are wearable'
+        SENTENCE_NT'a dance-name is a kind of thing'
+        SENTENCE_NT'argentine tango , samba , merengue , cha-cha , street salsa '
+        SENTENCE_NT'dancing is an action applying to one visible thing'
+        SENTENCE_NT'understand "dance [any
+        dance-name]" as dancing'
+        SENTENCE_NT'understand "dance" as dancing'
+        SENTENCE_NT'rule for supplying a missing noun while an actor dancing'
+        SENTENCE_NT'now the noun is street salsa'
+        SENTENCE_NT'report someone dancing'
+        SENTENCE_NT'say "[The actor] dances a few steps of [the noun] for you."'
+        SENTENCE_NT'report dancing'
+        SENTENCE_NT'say "You dance a few steps of [the noun]."'
+        SENTENCE_NT'persuasion rule for asking someone to try dancing'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'test me with "actions / wear goggles / jump / bob, jump / bo'

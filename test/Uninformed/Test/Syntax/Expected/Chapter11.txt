@@ -1,0 +1,234 @@
+Read 1238 words
+syntax-test: unexpected semicolon in sentence: say "Things are already going so well this morning."
+syntax-test: unexpected semicolon in sentence: say "Then things go horribly wrong!"
+syntax-test: unexpected semicolon in sentence: say "[The box] cracks[if something is in the box], dumping out [the list of things in the box][end if]!"
+syntax-test: unexpected semicolon in sentence: now all the things in the box are in the location
+syntax-test: unexpected semicolon in sentence: now all the fragile things on the table are broken
+syntax-test: unexpected semicolon in sentence: now all the things on the table are in the location
+syntax-test: unexpected semicolon in sentence: now the table is broken
+syntax-test: unexpected semicolon in sentence: now the crushable item is broken
+syntax-test: unexpected semicolon in sentence: now the trash is broken
+syntax-test: unexpected semicolon in sentence: if the noun is carrying something or the noun is wearing something, say "[The noun] is wearing [a list of things worn by the noun] and carrying [a list of things carried by the noun]."
+syntax-test: unexpected semicolon in sentence: while Florence is holding a wearable thing (called the attire) which is not worn by Florence begin
+syntax-test: unexpected semicolon in sentence: say "Florence dons [the attire].[line break]"
+syntax-test: unexpected semicolon in sentence: now the attire is worn by Florence
+syntax-test: unexpected semicolon in sentence: if the victim is carrying something begin
+syntax-test: unexpected semicolon in sentence: if the victim is the player, say "You drop [the list of things carried by the victim]. "
+syntax-test: unexpected semicolon in sentence: otherwise say "[The victim] drops [the list of things carried by the victim]. "
+syntax-test: unexpected semicolon in sentence: now all the things carried by the victim are in the location
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the victim is wearing something begin
+syntax-test: unexpected semicolon in sentence: say "[The list of things worn by the victim] wind up on the floor also. "
+syntax-test: unexpected semicolon in sentence: now all the things worn by the victim are in the location
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: now the victim is nowhere
+syntax-test: unexpected semicolon in sentence: if the victim is the player, say "You vanish!"
+syntax-test: unexpected semicolon in sentence: while Florence is in the location and something wearable is in the location begin
+syntax-test: unexpected semicolon in sentence: if a wearable thing (called the new acquisition) is in the location, move the new acquisition to Florence
+syntax-test: unexpected semicolon in sentence: say "Florence picks up [the new acquisition].[line break]"
+syntax-test: unexpected semicolon in sentence: if the portal is closed begin
+syntax-test: unexpected semicolon in sentence: now the portal is open
+syntax-test: unexpected semicolon in sentence: now the portal is unopenable
+syntax-test: unexpected semicolon in sentence: say "[The portal] breaks from its hinges, becoming permanently open."
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "[The portal] is already just gaping space."
+syntax-test: unexpected semicolon in sentence: if the turn count < 2 begin
+syntax-test: unexpected semicolon in sentence: cause irritation, extensively
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if the turn count < 5 begin
+syntax-test: unexpected semicolon in sentence: cause irritation
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if the turn count < 7, cause irritation, in a minor way
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: say "You leap up in the air and come down again, bringing yourself into new contact with the room."
+syntax-test: unexpected semicolon in sentence: now the place is broken
+syntax-test: unexpected semicolon in sentence: let refuge be a random whole room
+syntax-test: unexpected semicolon in sentence: if the refuge is not a room begin
+syntax-test: unexpected semicolon in sentence: cause trouble
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: repeat with refugee running through things in the place begin
+syntax-test: unexpected semicolon in sentence: move the refugee to the refuge
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: let the maximum be 4
+syntax-test: unexpected semicolon in sentence: now the maximum is 3
+syntax-test: unexpected semicolon in sentence: now the maximum is 5
+syntax-test: unexpected semicolon in sentence: yes
+syntax-test: unexpected semicolon in sentence: decide on the silver handbag
+syntax-test: unexpected semicolon in sentence: now the nice clothing is sow ear
+syntax-test: unexpected semicolon in sentence: if forward, now the material of the bad clothing is the material before the material of the bad clothing
+syntax-test: unexpected semicolon in sentence: recycle the noun, forward
+syntax-test: unexpected semicolon in sentence: recycle the noun, backward
+syntax-test: unexpected semicolon in sentence: while second matter is not silk begin
+syntax-test: unexpected semicolon in sentence: let first matter be the material after first matter
+syntax-test: unexpected semicolon in sentence: let second matter be the material before second matter
+syntax-test: unexpected semicolon in sentence: end while
+ROOT_NT
+    HEADING_NT'"Chapter 11: The Midas Touch" by emily short' {heading 0}
+        SENTENCE_NT'"Chapter 11: The Midas Touch" by emily short'
+        HEADING_NT'chapter 11' {heading 1}
+            SENTENCE_NT'use command line echoing'
+            SENTENCE_NT'use scoring'
+            HEADING_NT'section 1 - fitting values into phrases' {heading 2}
+                SENTENCE_NT'the fitting room is a room'
+                SENTENCE_NT'the round door is west of the fitting room and east of the c'
+                SENTENCE_NT'it is a door'
+                SENTENCE_NT'florence is a woman in the fitting room'
+                SENTENCE_NT'she is carrying a daisy'
+                SENTENCE_NT'she is wearing a hat and a pair of lace gloves'
+                SENTENCE_NT'the pair of snake-skin shoes , a lavender suit , and a chick'
+                SENTENCE_NT'the silver handbag is a wearable container in the fitting ro'
+                SENTENCE_NT'the pearl brooch is a wearable thing in the fitting room'
+                SENTENCE_NT'when play begins'
+                SENTENCE_NT'say "Things are already going so well this morning."'
+                SENTENCE_NT'increase the score by 10'
+                SENTENCE_NT'a thing can be fragile or sturdy'
+                SENTENCE_NT'a thing can be broken or whole'
+                SENTENCE_NT'the candy room contains a counter'
+                SENTENCE_NT'the vase is a fragile container'
+                SENTENCE_NT'it is on the counter'
+                SENTENCE_NT'the vase contains a rubber chicken'
+                SENTENCE_NT'instead of touching something'
+                SENTENCE_NT'destroy the noun'
+                SENTENCE_NT'before printing the name of a broken thing'
+                SENTENCE_NT'say "broken "'
+            HEADING_NT'section 2 - the phrasebook' {heading 2}
+                SENTENCE_NT'to cause trouble'
+                SENTENCE_NT'say "Then things go horribly wrong!"'
+                SENTENCE_NT'end the story saying "You have died"'
+            HEADING_NT'section 3 - pattern matching' {heading 2}
+                SENTENCE_NT'instead of putting something on a broken supporter'
+                SENTENCE_NT'say "[The second noun] is no longer up to supporting things.'
+                SENTENCE_NT'instead of inserting something into a broken container'
+                SENTENCE_NT'say "[The second noun] lacks the structural integrity requir'
+                SENTENCE_NT'to destroy ( box - a container )'
+                SENTENCE_NT'say "[The box] cracks[if something is in the box], dumping o'
+                SENTENCE_NT'now all the things in the box are in the location'
+                SENTENCE_NT'now the box is broken'
+                SENTENCE_NT'to destroy ( table - a supporter )'
+                SENTENCE_NT'now all the fragile things on the table are broken'
+                SENTENCE_NT'now all the things on the table are in the location'
+                SENTENCE_NT'now the table is broken'
+                SENTENCE_NT'say "[The table] goes away in a puff of smoke[if something i'
+                SENTENCE_NT'to destroy ( crushable item - a fragile thing )'
+                SENTENCE_NT'now the crushable item is broken'
+                SENTENCE_NT'say "[The crushable item] breaks colorfully."'
+                SENTENCE_NT'to destroy ( trash - a thing )'
+                SENTENCE_NT'now the trash is broken'
+                SENTENCE_NT'say "[The trash] vanishes."'
+            HEADING_NT'section 4 - if' {heading 2}
+                SENTENCE_NT'instead of examining a person'
+                SENTENCE_NT'if the noun is carrying something or the noun is wearing som'
+                SENTENCE_NT'otherwise continue the action'
+            HEADING_NT'section 5 - while' {heading 2}
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'while florence is holding a wearable thing ( called the atti'
+                SENTENCE_NT'say "Florence dons [the attire].[line break]"'
+                SENTENCE_NT'now the attire is worn by florence'
+                SENTENCE_NT'end while'
+            HEADING_NT'section 6 - begin and end' {heading 2}
+                SENTENCE_NT'to destroy ( victim - a person )'
+                SENTENCE_NT'if the victim is carrying something begin'
+                SENTENCE_NT'if the victim is the player , say "You drop [the list of thi'
+                SENTENCE_NT'otherwise say "[The victim] drops [the list of things carrie'
+                SENTENCE_NT'now all the things carried by the victim are in the location'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the victim is wearing something begin'
+                SENTENCE_NT'say "[The list of things worn by the victim] wind up on the '
+                SENTENCE_NT'now all the things worn by the victim are in the location'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'now the victim is nowhere'
+                SENTENCE_NT'if the victim is the player , say "You vanish!"'
+                SENTENCE_NT'otherwise say "[The victim] vanishes."'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'while florence is in the location and something wearable is '
+                SENTENCE_NT'if a wearable thing ( called the new acquisition ) is in the'
+                SENTENCE_NT'say "Florence picks up [the new acquisition].[line break]"'
+                SENTENCE_NT'end while'
+            HEADING_NT'section 7 - otherwise' {heading 2}
+                SENTENCE_NT'to destroy ( portal - a door )'
+                SENTENCE_NT'if the portal is closed begin'
+                SENTENCE_NT'now the portal is open'
+                SENTENCE_NT'now the portal is unopenable'
+                SENTENCE_NT'say "[The portal] breaks from its hinges, becoming permanent'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'say "[The portal] is already just gaping space."'
+                SENTENCE_NT'end if'
+            HEADING_NT'section 8 - repeat' {heading 2}
+                SENTENCE_NT'every turn when florence is visible'
+                SENTENCE_NT'if the turn count < 2 begin'
+                SENTENCE_NT'cause irritation , extensively'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'if the turn count < 5 begin'
+                SENTENCE_NT'cause irritation'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'if the turn count < 7 , cause irritation , in a minor way'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end if'
+            HEADING_NT'section 9 - repeat running through' {heading 2}
+                SENTENCE_NT'instead of jumping'
+                SENTENCE_NT'say "You leap up in the air and come down again, bringing yo'
+                SENTENCE_NT'destroy the location'
+                SENTENCE_NT'to destroy ( place - a room )'
+                SENTENCE_NT'now the place is broken'
+                SENTENCE_NT'let refuge be a random whole room'
+                SENTENCE_NT'if the refuge is not a room begin'
+                SENTENCE_NT'cause trouble'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'repeat with refugee running through things in the place begi'
+                SENTENCE_NT'move the refugee to the refuge'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'end if'
+            HEADING_NT'section 10 - phrase options' {heading 2}
+                SENTENCE_NT'to cause irritation , in a minor way or extensively'
+                SENTENCE_NT'let the maximum be 4'
+                SENTENCE_NT'if in a minor way'
+                SENTENCE_NT'now the maximum is 3'
+                SENTENCE_NT'if extensively'
+                SENTENCE_NT'now the maximum is 5'
+                SENTENCE_NT'repeat with my counter running from 1 to the maximum'
+                SENTENCE_NT'say "'[my counter],' mutters Florence, counting on her finge'
+            HEADING_NT'section 11 - temporary variables' {heading 2}
+            HEADING_NT'section 14 - new conditions , new adjectives' {heading 2}
+                SENTENCE_NT'to decide whether florence feels wrath'
+                SENTENCE_NT'if fewer than four things are worn by florence'
+                SENTENCE_NT'yes'
+                SENTENCE_NT'no'
+                SENTENCE_NT'instead of waiting when florence is visible and florence fee'
+                SENTENCE_NT'say "Florence clears her throat in an annoyed way."'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a person is well-clad if it is wearing at least three things'
+                SENTENCE_NT'after printing the name of a well-clad person , say " (looki'
+            HEADING_NT'section 15 - phrases to decide other things' {heading 2}
+                SENTENCE_NT'to decide which thing is the prettiest clothing'
+                SENTENCE_NT'if the silver handbag is handled'
+                SENTENCE_NT'decide on the silver handbag'
+                SENTENCE_NT'decide on the hat'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'if florence can see the prettiest clothing and florence is n'
+            HEADING_NT'section 16 - arithmetic on new kinds of value' {heading 2}
+                SENTENCE_NT'material is a kind of value'
+                SENTENCE_NT'the materials are silk , velvet , and sow ear'
+                SENTENCE_NT'a thing has a material'
+                SENTENCE_NT'to destroy ( nice clothing - a wearable thing )'
+                SENTENCE_NT'now the nice clothing is sow ear'
+                SENTENCE_NT'say "[The nice clothing] is now hideous!"'
+                SENTENCE_NT'to recycle ( bad clothing - a wearable thing ) , forward or '
+                SENTENCE_NT'if forward , now the material of the bad clothing is the mat'
+                SENTENCE_NT'if backward , now the material of the bad clothing is the ma'
+                SENTENCE_NT'blowing is an action applying to one thing'
+                SENTENCE_NT'understand "blow [something]" as blowing'
+                SENTENCE_NT'instead of blowing a wearable thing'
+                SENTENCE_NT'recycle the noun , forward'
+                SENTENCE_NT'say "You blow, and now have [a noun]."'
+                SENTENCE_NT'instead of waving a wearable thing'
+                SENTENCE_NT'recycle the noun , backward'
+                SENTENCE_NT'say "You wave, and now have [a noun]."'
+                SENTENCE_NT'after printing the name of a wearable thing ( called the sub'
+                SENTENCE_NT'say " (made of [material of the substance])"'
+            HEADING_NT'section 17 - making new kinds of arithmetic' {heading 2}
+                SENTENCE_NT'to decide which material is ( first matter - a material ) + '
+                SENTENCE_NT'while second matter is not silk begin'
+                SENTENCE_NT'let first matter be the material after first matter'
+                SENTENCE_NT'let second matter be the material before second matter'
+                SENTENCE_NT'end while'
+                SENTENCE_NT'decide on first matter'

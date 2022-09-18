@@ -1,20 +1,20 @@
 module Uninformed.Syntax.Sentences where
 
-import Uninformed.Syntax.SyntaxTree
 import Uninformed.Words.Lexer
-import Prelude hiding (Word)
+import Prelude hiding ((|>), Word)
 import Uninformed.Words.Vocabulary
-import qualified Data.Vector as V
+import qualified Data.Text as T
+import Data.Char (isUpper, isPunctuation)
+import Data.Sequence ( (|>) )
 
-type WordList = [Word]
 
 breakIntoSentences ::
-  SyntaxTree a
-  -> WordList
-  -> SyntaxTree a
-breakIntoSentences sTree wl =
-  let (newTree, remaining) = breakOffSentence sTree (trimText wl)
-  in error ""
+  WordList
+  -> [WordList]
+breakIntoSentences wl = toList $ go wl empty
+  where
+    go [] s = s
+    go wl' s = let (ns, r) = breakOffSentence (trimText wl') in go r (s |> ns)
 
 trimText ::
   WordList
@@ -22,44 +22,62 @@ trimText ::
 trimText = dropWhile (\w -> w ^. word == ParagraphBreak)
 
 breakOffSentence ::
-  SyntaxTree a
-  -> WordList
-  -> (SyntaxTree a, WordList)
-breakOffSentence sTree wl =
-  let enterTableMode = considerTableMode wl in
-  (sTree, fst $ lookForSentenceBreak enterTableMode wl)
+  WordList
+  -> (WordList, WordList)
+breakOffSentence wl = lookForSentenceBreak (considerTableMode wl) wl
 
 lookForSentenceBreak ::
   Bool
   -> WordList
   -> (WordList, WordList)
 lookForSentenceBreak _ [] = ([], [])
-lookForSentenceBreak inTableMode wl@(w:wr) = (map snd firstPart, otherStops)
-  where (firstPart, (_, stopChar):rest) = break findFirstStop (zip wl (tail (w :| wr)))
-        otherStops = takeWhile (findNextStops stopChar) rest
-        findFirstStop (prev, curr) = matchWord
-          (\case
-            ParagraphBreak -> True
-            Period -> True
-            Semicolon -> True
-            Colon -> considerColonDivision prev
-            x -> considerQuotedPunctuation prev x
+lookForSentenceBreak inTableMode wl@(_:wr) = (map (view _2) firstPart, otherStops)
+  where
+    translateLeft = blankWord:wl
+    (firstPart, stopAndRemainder) = break findFirstStop (zip3 translateLeft wl (snoc wr blankWord))
+    (stopChar, rest) = maybe (blankWord, []) (first (view _2)) $ uncons stopAndRemainder
+    otherStops = dropWhile findNextStops (map (view _2) rest)
+    findFirstStop (prev, curr, lookA) = matchWord
+      (\case
+        ParagraphBreak -> True
+        Period -> True
+        Semicolon -> True
+        Colon -> considerColonDivision prev lookA
+        x -> considerQuotedPunctuation (_word curr) (_word lookA)
+        ) curr
+    findNextStops = matchWord
+      (\w' -> case (_word stopChar, w') of
+        (Colon, ParagraphBreak) -> error "colon at end of paragraph"
+        (_, ParagraphBreak) -> True
+        --let's ignore dialogue mode for now.
+        (Colon, Period) -> error "colon at end of sentence"
+        (Semicolon, Period) -> error "semicolon at end of sentence"
+        (_, Period) -> True
+        (Colon, Semicolon) -> error "semicolon after colon"
+        (Period, Semicolon) -> error "semicolon after period"
+        (_, Semicolon) -> True
+        x -> False
+      )
+    considerQuotedPunctuation curr next = not inTableMode && endsInPunctuation curr && isUppercaseWord next
+    isUppercaseWord (OrdinaryWord w') = maybe False (\x -> isUpper . fst $ x) $ T.uncons w'
+    isUppercaseWord _ = False
+    endsInPunctuation (StringLit w') = maybe False (isPunctuation . snd) $ T.unsnoc w'
+    endsInPunctuation _ = False
 
-            ) curr
+-- we also ignore this DIVIDE_AT_COLON_SYNTAX_CALLBACK nonsense.
+-- inform checks if we do not break file boundaries, which we also ignore for now.
+-- basically this is a long winded check for 4:50pm (e.g.)
+considerColonDivision ::
+  Word
+  -> Word
+  -> Bool
+considerColonDivision prev lookA = not $
+  matchWord isNumber prev
+  && matchWord isNumber lookA
+  && (lookA ^. precedingWhitespace) `elem` [Space, Tab]
 
 considerTableMode ::
   WordList
   -> Bool
 considerTableMode [] = False
 considerTableMode (w:_) = matchWord (== OrdinaryWord "table") w
-
--- the second sentence::make_node is actually OUTSIDE the looping, so it's about amending a full stop to
--- any floating words.
--- https://ganelson.github.io/inform/supervisor-module/6-st.html
--- is where the whole structural sentence preform is
--- get rid of all the pbreaks
--- maybe enter table mode
--- for each word:
--- look for a sentence break
--- count the stop words
--- go into table sentence mode if needed

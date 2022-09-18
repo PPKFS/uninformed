@@ -1,0 +1,135 @@
+Read 469 words
+syntax-test: unexpected semicolon in sentence: say "Emrby."
+syntax-test: unexpected semicolon in sentence: let L be a list of text
+syntax-test: unexpected semicolon in sentence: showme L
+syntax-test: unexpected semicolon in sentence: let L be { "oranges", "apples", "bananas", "apple" }
+syntax-test: unexpected semicolon in sentence: let L2 be { "oranges", "apples", "bananas", "apple" }
+syntax-test: unexpected semicolon in sentence: let L3 be a list of text
+syntax-test: unexpected semicolon in sentence: let L4 be { "pears", "plums" }
+syntax-test: unexpected semicolon in sentence: let L5 be { "passionfruit", "apples", "bananas" }
+syntax-test: unexpected semicolon in sentence: let IT1 be an text
+syntax-test: unexpected semicolon in sentence: let IT2 be an text
+syntax-test: unexpected semicolon in sentence: let IT3 be an text
+syntax-test: unexpected semicolon in sentence: let IT4 be an text
+syntax-test: unexpected semicolon in sentence: let IT1 be "oranges"
+syntax-test: unexpected semicolon in sentence: let IT2 be "apples"
+syntax-test: unexpected semicolon in sentence: let IT3 be "bananas"
+syntax-test: unexpected semicolon in sentence: let IT4 be "apple"
+syntax-test: unexpected semicolon in sentence: add IT1 to L3
+syntax-test: unexpected semicolon in sentence: add IT2 to L3
+syntax-test: unexpected semicolon in sentence: add IT3 to L3
+syntax-test: unexpected semicolon in sentence: add IT4 to L3
+syntax-test: unexpected semicolon in sentence: showme L
+syntax-test: unexpected semicolon in sentence: showme L2
+syntax-test: unexpected semicolon in sentence: showme L3
+syntax-test: unexpected semicolon in sentence: sort L
+syntax-test: unexpected semicolon in sentence: sort L2
+syntax-test: unexpected semicolon in sentence: sort L3
+syntax-test: unexpected semicolon in sentence: say "Today's list of IT is [L]."
+syntax-test: unexpected semicolon in sentence: say "Today's list of T is [L2]."
+syntax-test: unexpected semicolon in sentence: say "Today's list of IT by hand is [L3]."
+syntax-test: unexpected semicolon in sentence: showme X
+syntax-test: unexpected semicolon in sentence: say "Char 1 is [character number 1 in X]."
+syntax-test: unexpected semicolon in sentence: let GL be a list of lists of texts
+syntax-test: unexpected semicolon in sentence: add L2 to GL
+syntax-test: unexpected semicolon in sentence: add L4 to GL
+syntax-test: unexpected semicolon in sentence: add L5 to GL
+syntax-test: unexpected semicolon in sentence: say "Grand list is [GL]."
+syntax-test: unexpected semicolon in sentence: sort GL
+syntax-test: unexpected semicolon in sentence: say "Grand list sorts to [GL]."
+syntax-test: unexpected semicolon in sentence: let L6 be { yourself, Peter, Jane }
+syntax-test: unexpected semicolon in sentence: showme L6
+syntax-test: unexpected semicolon in sentence: sort L6 in carrying capacity order
+syntax-test: unexpected semicolon in sentence: showme L6
+syntax-test: unexpected semicolon in sentence: sort L6 in reverse carrying capacity order
+syntax-test: unexpected semicolon in sentence: say "words:[line break]"
+syntax-test: unexpected semicolon in sentence: say "[the word entry][line break]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]indexed words:[line break]"
+syntax-test: unexpected semicolon in sentence: sort the Table of Junk in string order
+syntax-test: unexpected semicolon in sentence: let L be the list of things
+syntax-test: unexpected semicolon in sentence: sort L in of-type order
+syntax-test: unexpected semicolon in sentence: say "The list with text in sorts to: [L]."
+syntax-test: unexpected semicolon in sentence: let L be the list of things
+syntax-test: unexpected semicolon in sentence: sort L in noni-of-type order
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'peter and jane are people in test'
+        SENTENCE_NT'peter has carrying capacity 20'
+        SENTENCE_NT'jane has carrying capacity 10'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Emrby."'
+        SENTENCE_NT'let l be a list of text'
+        SENTENCE_NT'showme l'
+        SENTENCE_NT'let l be { "oranges" , "apples" , "bananas" , "apple" }'
+        SENTENCE_NT'let l2 be { "oranges" , "apples" , "bananas" , "apple" }'
+        SENTENCE_NT'let l3 be a list of text'
+        SENTENCE_NT'let l4 be { "pears" , "plums" }'
+        SENTENCE_NT'let l5 be { "passionfruit" , "apples" , "bananas" }'
+        SENTENCE_NT'let it1 be an text'
+        SENTENCE_NT'let it2 be an text'
+        SENTENCE_NT'let it3 be an text'
+        SENTENCE_NT'let it4 be an text'
+        SENTENCE_NT'let it1 be "oranges"'
+        SENTENCE_NT'let it2 be "apples"'
+        SENTENCE_NT'let it3 be "bananas"'
+        SENTENCE_NT'let it4 be "apple"'
+        SENTENCE_NT'add it1 to l3'
+        SENTENCE_NT'add it2 to l3'
+        SENTENCE_NT'add it3 to l3'
+        SENTENCE_NT'add it4 to l3'
+        SENTENCE_NT'showme l'
+        SENTENCE_NT'showme l2'
+        SENTENCE_NT'showme l3'
+        SENTENCE_NT'sort l'
+        SENTENCE_NT'sort l2'
+        SENTENCE_NT'sort l3'
+        SENTENCE_NT'say "Today's list of IT is [L]."'
+        SENTENCE_NT'say "Today's list of T is [L2]."'
+        SENTENCE_NT'say "Today's list of IT by hand is [L3]."'
+        SENTENCE_NT'repeat with x running through l'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'say "Char 1 is [character number 1 in X]."'
+        SENTENCE_NT'let gl be a list of lists of texts'
+        SENTENCE_NT'add l2 to gl'
+        SENTENCE_NT'add l4 to gl'
+        SENTENCE_NT'add l5 to gl'
+        SENTENCE_NT'say "Grand list is [GL]."'
+        SENTENCE_NT'sort gl'
+        SENTENCE_NT'say "Grand list sorts to [GL]."'
+        SENTENCE_NT'let l6 be { yourself , peter , jane }'
+        SENTENCE_NT'showme l6'
+        SENTENCE_NT'sort l6 in carrying capacity order'
+        SENTENCE_NT'showme l6'
+        SENTENCE_NT'sort l6 in reverse carrying capacity order'
+        SENTENCE_NT'showme l6'
+        SENTENCE_NT'table of stuff word "abacus" "zoo" "vacuum" "cheese"'
+        SENTENCE_NT'table of junk string ( text ) "abacus" "zoo" "vacuum" "chees'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "words:[line break]"'
+        SENTENCE_NT'repeat through the table of stuff in word order'
+        SENTENCE_NT'say "[the word entry][line break]"'
+        SENTENCE_NT'say "[paragraph break]indexed words:[line break]"'
+        SENTENCE_NT'sort the table of junk in string order'
+        SENTENCE_NT'repeat through the table of junk'
+        SENTENCE_NT'say "[the string entry][line break]"'
+        SENTENCE_NT'a thing has an text called the of-type'
+        SENTENCE_NT'the of-type of a thing is usually "standard"'
+        SENTENCE_NT'a thing has a text called the noni-of-type'
+        SENTENCE_NT'the noni-of-type of a thing is usually "standard"'
+        SENTENCE_NT'the violin is in test'
+        SENTENCE_NT'the of-type is "special"'
+        SENTENCE_NT'the noni-of-type is "special"'
+        SENTENCE_NT'the viola is in test'
+        SENTENCE_NT'the mustard is in test'
+        SENTENCE_NT'the travesty is in test'
+        SENTENCE_NT'the of-type is "special"'
+        SENTENCE_NT'the noni-of-type is "special"'
+        SENTENCE_NT'the fang is in test'
+        SENTENCE_NT'after looking in test'
+        SENTENCE_NT'let l be the list of things'
+        SENTENCE_NT'sort l in of-type order'
+        SENTENCE_NT'say "The list with text in sorts to: [L]."'
+        SENTENCE_NT'let l be the list of things'
+        SENTENCE_NT'sort l in noni-of-type order'
+        SENTENCE_NT'say "The list with text in sorts to: [L]."'

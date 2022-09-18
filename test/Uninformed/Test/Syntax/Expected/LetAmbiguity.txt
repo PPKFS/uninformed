@@ -1,0 +1,14 @@
+Read 55 words
+syntax-test: unexpected semicolon in sentence: let F be the first thing held by the robot
+syntax-test: unexpected semicolon in sentence: say "F is [F]."
+syntax-test: unexpected semicolon in sentence: let N be the next thing held after F
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a robot is here'
+        SENTENCE_NT'the robot carries a sandwich and an umbrella'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let f be the first thing held by the robot'
+        SENTENCE_NT'say "F is [F]."'
+        SENTENCE_NT'let n be the next thing held after f'
+        SENTENCE_NT'say "N is [N]."'

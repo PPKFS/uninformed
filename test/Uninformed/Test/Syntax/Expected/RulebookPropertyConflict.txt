@@ -1,0 +1,11 @@
+Read 57 words
+syntax-test: unexpected semicolon in sentence: now the participants list is the list of people
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'the initiative rules are a rulebook'
+        SENTENCE_NT'a person has a number called initiative'
+        SENTENCE_NT'the participants list is a list of people that varies'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the participants list is the list of people'
+        SENTENCE_NT'sort the participants list in initiative order'

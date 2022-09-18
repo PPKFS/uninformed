@@ -1,0 +1,11 @@
+Read 55 words
+syntax-test: unexpected semicolon in sentence: if nothing is in the box, say "Nothing is in the box."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the player is carrying a box'
+        SENTENCE_NT'in the box is a banana and a peach'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if nothing is in the box , say "Nothing is in the box."'
+        SENTENCE_NT'if the box contains nothing , say "Nothing is in the box."'
+        SENTENCE_NT'test me with "z / get banana / get peach / put banana in box'

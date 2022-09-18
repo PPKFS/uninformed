@@ -1,0 +1,102 @@
+Read 382 words
+syntax-test: unexpected semicolon in sentence: say "At this point the marble is nowhere."
+syntax-test: unexpected semicolon in sentence: diagnose the marble
+syntax-test: unexpected semicolon in sentence: say "At this point the marble is in Aleph."
+syntax-test: unexpected semicolon in sentence: now the marble is in Aleph
+syntax-test: unexpected semicolon in sentence: diagnose the marble
+syntax-test: unexpected semicolon in sentence: say "At this point the marble is in Beth."
+syntax-test: unexpected semicolon in sentence: now the marble is in Beth
+syntax-test: unexpected semicolon in sentence: diagnose the marble
+syntax-test: unexpected semicolon in sentence: say "At this point the rain is nowhere."
+syntax-test: unexpected semicolon in sentence: diagnose the rain
+syntax-test: unexpected semicolon in sentence: say "At this point the rain is in Alephland."
+syntax-test: unexpected semicolon in sentence: now the rain is in Alephland
+syntax-test: unexpected semicolon in sentence: diagnose the rain
+syntax-test: unexpected semicolon in sentence: say "At this point the rain is in Bethland."
+syntax-test: unexpected semicolon in sentence: now the rain is in Bethland
+syntax-test: unexpected semicolon in sentence: diagnose the rain
+syntax-test: unexpected semicolon in sentence: say "At this point the rain is nowhere."
+syntax-test: unexpected semicolon in sentence: now the rain is nowhere
+syntax-test: unexpected semicolon in sentence: diagnose the rain
+syntax-test: unexpected semicolon in sentence: say "At this point the rain is everywhere."
+syntax-test: unexpected semicolon in sentence: now the rain is everywhere
+syntax-test: unexpected semicolon in sentence: diagnose the rain
+syntax-test: unexpected semicolon in sentence: say "X = [X]."
+syntax-test: unexpected semicolon in sentence: if X is in Aleph, say "[X] is in Aleph."
+syntax-test: unexpected semicolon in sentence: if X is in Beth, say "[X] is in Beth."
+syntax-test: unexpected semicolon in sentence: showme whether or not Aleph is somewhere lighted
+syntax-test: unexpected semicolon in sentence: showme whether or not Beth is somewhere lighted
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is in Aleph
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is everywhere which is Aleph
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is somewhere which is Aleph
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is somewhere
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is not somewhere
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is somewhere lighted
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is in somewhere lighted
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is somewhere which is lighted
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is somewhere which is not lighted
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is nowhere
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is not nowhere
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is in every room
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is everywhere
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is not in every room
+syntax-test: unexpected semicolon in sentence: showme whether or not the X is not everywhere
+ROOT_NT
+    HEADING_NT'aleph and beth are rooms' {heading 0}
+        SENTENCE_NT'aleph and beth are rooms'
+        SENTENCE_NT'beth is dark'
+        SENTENCE_NT'alephland is a region'
+        SENTENCE_NT'aleph is in alephland'
+        SENTENCE_NT'bethland is a region'
+        SENTENCE_NT'beth is in bethland'
+        SENTENCE_NT'the air is a backdrop'
+        SENTENCE_NT'the air is everywhere'
+        SENTENCE_NT'the rain is a backdrop'
+        SENTENCE_NT'the rain is nowhere'
+        SENTENCE_NT'the marble is nowhere'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "At this point the marble is nowhere."'
+        SENTENCE_NT'diagnose the marble'
+        SENTENCE_NT'say "At this point the marble is in Aleph."'
+        SENTENCE_NT'now the marble is in aleph'
+        SENTENCE_NT'diagnose the marble'
+        SENTENCE_NT'say "At this point the marble is in Beth."'
+        SENTENCE_NT'now the marble is in beth'
+        SENTENCE_NT'diagnose the marble'
+        SENTENCE_NT'say "At this point the rain is nowhere."'
+        SENTENCE_NT'diagnose the rain'
+        SENTENCE_NT'say "At this point the rain is in Alephland."'
+        SENTENCE_NT'now the rain is in alephland'
+        SENTENCE_NT'diagnose the rain'
+        SENTENCE_NT'say "At this point the rain is in Bethland."'
+        SENTENCE_NT'now the rain is in bethland'
+        SENTENCE_NT'diagnose the rain'
+        SENTENCE_NT'say "At this point the rain is nowhere."'
+        SENTENCE_NT'now the rain is nowhere'
+        SENTENCE_NT'diagnose the rain'
+        SENTENCE_NT'say "At this point the rain is everywhere."'
+        SENTENCE_NT'now the rain is everywhere'
+        SENTENCE_NT'diagnose the rain'
+        SENTENCE_NT'now the marble is everywhere'
+        SENTENCE_NT'to diagnose ( x - an object )'
+        SENTENCE_NT'say "X = [X]."'
+        SENTENCE_NT'if x is in aleph , say "[X] is in Aleph."'
+        SENTENCE_NT'if x is in beth , say "[X] is in Beth."'
+        SENTENCE_NT'showme whether or not aleph is somewhere lighted'
+        SENTENCE_NT'showme whether or not beth is somewhere lighted'
+        SENTENCE_NT'showme whether or not the x is in aleph'
+        SENTENCE_NT'showme whether or not the x is everywhere which is aleph'
+        SENTENCE_NT'showme whether or not the x is somewhere which is aleph'
+        SENTENCE_NT'showme whether or not the x is somewhere'
+        SENTENCE_NT'showme whether or not the x is not somewhere'
+        SENTENCE_NT'showme whether or not the x is somewhere lighted'
+        SENTENCE_NT'showme whether or not the x is in somewhere lighted'
+        SENTENCE_NT'showme whether or not the x is somewhere which is lighted'
+        SENTENCE_NT'showme whether or not the x is somewhere which is not lighte'
+        SENTENCE_NT'showme whether or not the x is nowhere'
+        SENTENCE_NT'showme whether or not the x is not nowhere'
+        SENTENCE_NT'showme whether or not the x is in every room'
+        SENTENCE_NT'showme whether or not the x is everywhere'
+        SENTENCE_NT'showme whether or not the x is not in every room'
+        SENTENCE_NT'showme whether or not the x is not everywhere'
+        SENTENCE_NT'say "[paragraph break]"'

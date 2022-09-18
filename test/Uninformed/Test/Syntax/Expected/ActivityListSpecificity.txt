@@ -1,0 +1,17 @@
+Read 106 words
+ROOT_NT
+    HEADING_NT'for printing a parser error when the best match is at least ' {heading 0}
+        SENTENCE_NT'for printing a parser error when the best match is at least '
+        SENTENCE_NT'say "I only understood you as far as '[the best match]'. I d'
+        SENTENCE_NT'for printing a parser error when the best match is at least '
+        SENTENCE_NT'say "I only understood you as far as '[the best match]' ([fo'
+        SENTENCE_NT'to decide which snippet is the first word'
+        SENTENCE_NT'(-  101 '
+        SENTENCE_NT'to decide which snippet is the best match'
+        SENTENCE_NT'(-  101 '
+        SENTENCE_NT'the foobar is an object that varies'
+        SENTENCE_NT'the foobar is yourself'
+        SENTENCE_NT'spot is room'
+        SENTENCE_NT'after waiting'
+        SENTENCE_NT'now foobar is nothing'
+        SENTENCE_NT'test me with "hi / montelimar / asdf / z / what"'

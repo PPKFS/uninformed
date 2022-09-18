@@ -1,0 +1,16 @@
+Read 109 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'french curves and dutch cheese are in the home'
+        SENTENCE_NT'language is a kind of value'
+        SENTENCE_NT'there is a language called french'
+        SENTENCE_NT'there is a language called double dutch'
+        SENTENCE_NT'spell is a kind of value'
+        SENTENCE_NT'the spells are defined by the table of spells'
+        SENTENCE_NT'table of spells spell comment fireball "Real Men cast Fireba'
+        SENTENCE_NT'the smite manual is in the home'
+        SENTENCE_NT'the ring of infinite nose-picking is in the home'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat through the table of spells'
+        SENTENCE_NT'say "[spell entry]: [comment entry]."'

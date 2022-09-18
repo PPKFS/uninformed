@@ -1,0 +1,20 @@
+Read 101 words
+syntax-test: unexpected semicolon in sentence: say "Hi!"
+syntax-test: unexpected semicolon in sentence: if stuck begin
+syntax-test: unexpected semicolon in sentence: rule fails
+ROOT_NT
+    HEADING_NT'the mysterious void is a room' {heading 0}
+        SENTENCE_NT'the mysterious void is a room'
+        SENTENCE_NT'"Spooky."'
+        SENTENCE_NT'cassie is a woman in the mysterious void'
+        SENTENCE_NT'persuasion rule for asking people to try doing something'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'this is the replacement can't go that way rule'
+        SENTENCE_NT'say "Hi!"'
+        SENTENCE_NT'if stuck begin'
+        SENTENCE_NT'rule fails'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'the replacement can't go that way rule is listed instead of '
+        SENTENCE_NT'to decide if stuck'
+        SENTENCE_NT'decide yes'
+        SENTENCE_NT'test me with "u / cassie, u"'

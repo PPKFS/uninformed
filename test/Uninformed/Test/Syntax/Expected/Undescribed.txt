@@ -1,0 +1,20 @@
+Read 163 words
+ROOT_NT
+    HEADING_NT'the bar is a room' {heading 0}
+        SENTENCE_NT'the bar is a room'
+        SENTENCE_NT'the counter is a thing in the bar'
+        SENTENCE_NT'the unnoticed change is an undescribed thing on the counter'
+        SENTENCE_NT'the indefinite article is "some"'
+        SENTENCE_NT'the obvious item is a thing in the bar'
+        SENTENCE_NT'the hidden object is an undescribed thing in the bar'
+        SENTENCE_NT'the glass jar is on the counter'
+        SENTENCE_NT'a scrap of paper is a kind of thing'
+        SENTENCE_NT'a scrap of paper is usually undescribed'
+        SENTENCE_NT'the plural of scrap of paper is scraps of paper'
+        SENTENCE_NT'three scraps of paper are in the glass jar'
+        SENTENCE_NT'the table of invisibility is an undescribed supporter in the'
+        SENTENCE_NT'the secret sequined dress is on the table'
+        SENTENCE_NT'the dress is undescribed and wearable'
+        SENTENCE_NT'the mostly unseen podium is an undescribed supporter in the '
+        SENTENCE_NT'the trophy is on the podium'
+        SENTENCE_NT'test me with "x jar / x hidden object / look / take all / ta'

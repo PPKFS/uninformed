@@ -1,0 +1,39 @@
+Read 232 words
+syntax-test: unexpected semicolon in sentence: let the total be the adds part of dr
+syntax-test: unexpected semicolon in sentence: say "[dr]: "
+syntax-test: unexpected semicolon in sentence: repeat with counter running from 1 to the dice part of dr begin
+syntax-test: unexpected semicolon in sentence: let the roll be a random number from 1 to the sides part of dr
+syntax-test: unexpected semicolon in sentence: if the counter is not 1, say ","
+syntax-test: unexpected semicolon in sentence: say the roll
+syntax-test: unexpected semicolon in sentence: increase the total by the roll
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: if the adds part of dr is 0 and the dice part of dr is 1, decide on the total
+syntax-test: unexpected semicolon in sentence: if the adds part of dr is not 0, say "+", adds part of dr
+syntax-test: unexpected semicolon in sentence: say "=", total
+syntax-test: unexpected semicolon in sentence: say "For your own amusement, you roll "
+syntax-test: unexpected semicolon in sentence: let the dicing result be the roll of the die roll understood
+ROOT_NT
+    HEADING_NT'game room is a room' {heading 0}
+        SENTENCE_NT'game room is a room'
+        SENTENCE_NT'a die roll is a kind of value'
+        SENTENCE_NT'3d20+9 specifies a die roll with parts dice , sides ( withou'
+        SENTENCE_NT'to decide which number is roll of ( dr - a die roll )'
+        SENTENCE_NT'let the total be the adds part of dr'
+        SENTENCE_NT'say "[dr]: "'
+        SENTENCE_NT'repeat with counter running from 1 to the dice part of dr be'
+        SENTENCE_NT'let the roll be a random number from 1 to the sides part of '
+        SENTENCE_NT'if the counter is not 1 , say ","'
+        SENTENCE_NT'say the roll'
+        SENTENCE_NT'increase the total by the roll'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'if the adds part of dr is 0 and the dice part of dr is 1 , d'
+        SENTENCE_NT'if the adds part of dr is not 0 , say "+" , adds part of dr'
+        SENTENCE_NT'say "=" , total'
+        SENTENCE_NT'decide on the total'
+        SENTENCE_NT'test rolling is an action out of world applying to one die r'
+        SENTENCE_NT'understand "dice [die roll]" as test rolling'
+        SENTENCE_NT'carry out test rolling'
+        SENTENCE_NT'say "For your own amusement, you roll "'
+        SENTENCE_NT'let the dicing result be the roll of the die roll understood'
+        SENTENCE_NT'say ", making [dicing result in words]."'
+        SENTENCE_NT'test me with "dice 2d20+1 / dice 2d20+ / dice 2d20"'

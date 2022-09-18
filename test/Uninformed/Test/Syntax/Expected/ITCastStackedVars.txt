@@ -1,0 +1,23 @@
+Read 120 words
+syntax-test: unexpected semicolon in sentence: let B be bar
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'exhibiting success is an action applying to nothing'
+        SENTENCE_NT'the exhibiting success action has a number called bar'
+        SENTENCE_NT'exhibiting failure is an action applying to nothing'
+        SENTENCE_NT'the exhibiting failure action has a number called foo'
+        SENTENCE_NT'to announce ( t - text )'
+        SENTENCE_NT'say t'
+        SENTENCE_NT'carry out exhibiting success'
+        SENTENCE_NT'now bar is 12'
+        SENTENCE_NT'carry out exhibiting failure'
+        SENTENCE_NT'now foo is 13'
+        SENTENCE_NT'report exhibiting success'
+        SENTENCE_NT'let b be bar'
+        SENTENCE_NT'announce "Reporting [B]."'
+        SENTENCE_NT'report exhibiting failure'
+        SENTENCE_NT'announce "Reporting [foo]."'
+        SENTENCE_NT'understand "good" as exhibiting success'
+        SENTENCE_NT'understand "bad" as exhibiting failure'
+        SENTENCE_NT'test me with "good / bad"'

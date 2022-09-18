@@ -1,0 +1,17 @@
+Read 148 words
+ROOT_NT
+    HEADING_NT'"The Of Of Fear"' {heading 0}
+        SENTENCE_NT'"The Of Of Fear"'
+        SENTENCE_NT'the duke of clarence is a room'
+        SENTENCE_NT'"A fine public house in the 18th-century
+        style."'
+        SENTENCE_NT'in the duke of clarence are a pack of cards and a set of win'
+        SENTENCE_NT'the description of the pack of cards is "A crudely-printed d'
+        SENTENCE_NT'instead of waiting in the presence of the pack of cards , sa'
+        SENTENCE_NT'east of the duke of clarence is the back of the duke of clar'
+        SENTENCE_NT'the back of the duke of clarence is north of the garden of t'
+        SENTENCE_NT'a queen of england is a kind of woman'
+        SENTENCE_NT'eleanor of aquitaine is a queen of england in the garden of '
+        SENTENCE_NT'a queen of england has a text called point of view'
+        SENTENCE_NT'the point of view of eleanor of aquitaine is "That the Old F'
+        SENTENCE_NT'test me with "showme / east / south / showme eleanor"'

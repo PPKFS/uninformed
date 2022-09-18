@@ -1,0 +1,20 @@
+Read 144 words
+syntax-test: unexpected semicolon in sentence: apply greeting
+syntax-test: unexpected semicolon in sentence: apply greeting again to 5
+syntax-test: unexpected semicolon in sentence: apply greeting again and again to 5 and 6
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to greet the world ( this is greeting )'
+        SENTENCE_NT'say "Hello world!"'
+        SENTENCE_NT'to greet the world with ( n - number ) ( this is greeting ag'
+        SENTENCE_NT'say "Hello world! It's [N]."'
+        SENTENCE_NT'to greet the world with ( n - number ) and ( m - number ) ( '
+        SENTENCE_NT'say "Hello world! It's [N] and [M]."'
+        SENTENCE_NT'to greet the world with ( n - number ) and ( m - number ) an'
+        SENTENCE_NT'say "Hello world! It's [N] and [M] and [O]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'apply greeting'
+        SENTENCE_NT'apply greeting again to 5'
+        SENTENCE_NT'apply greeting again and again to 5 and 6'
+        SENTENCE_NT'apply greeting again and again and again to 5 and 6 and 7'

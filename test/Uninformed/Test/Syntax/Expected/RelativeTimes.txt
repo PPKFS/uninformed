@@ -1,0 +1,27 @@
+Read 111 words
+syntax-test: unexpected semicolon in sentence: increase the time of day by the time understood
+syntax-test: unexpected semicolon in sentence: say "You wait around until [the time of day]."
+syntax-test: unexpected semicolon in sentence: follow the turn sequence rules
+syntax-test: unexpected semicolon in sentence: now the time of day is the time understood
+syntax-test: unexpected semicolon in sentence: say "You wait around until [the time of day]."
+syntax-test: unexpected semicolon in sentence: follow the turn sequence rules
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'understand "wait for [a time period]" as waiting for'
+        SENTENCE_NT'waiting for is an action applying to one time'
+        SENTENCE_NT'understand "wait until [a time]" as waiting until'
+        SENTENCE_NT'waiting until is an action applying to one time'
+        SENTENCE_NT'carry out waiting for'
+        SENTENCE_NT'increase the time of day by the time understood'
+        SENTENCE_NT'say "You wait around until [the time of day]."'
+        SENTENCE_NT'follow the turn sequence rules'
+        SENTENCE_NT'try looking'
+        SENTENCE_NT'carry out waiting until'
+        SENTENCE_NT'now the time of day is the time understood'
+        SENTENCE_NT'say "You wait around until [the time of day]."'
+        SENTENCE_NT'follow the turn sequence rules'
+        SENTENCE_NT'try looking'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "The time is now [the time of day]."'
+        SENTENCE_NT'test me with "wait for 4 hours / wait for 6 minutes / wait f'

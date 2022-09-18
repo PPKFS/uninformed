@@ -1,0 +1,18 @@
+Read 105 words
+syntax-test: unexpected semicolon in sentence: write "[heading of the notebook][paragraph break]" to the text file of the notebook
+syntax-test: unexpected semicolon in sentence: append "Here's a comment.[line break]" to the text file of the notebook
+syntax-test: unexpected semicolon in sentence: append "Here's a secomd comment.[line break]" to the text file of the notebook
+ROOT_NT
+    HEADING_NT'a jotter is a kind of value' {heading 0}
+        SENTENCE_NT'a jotter is a kind of value'
+        SENTENCE_NT'a jotter has an external file called the text file'
+        SENTENCE_NT'a jotter has a text called the heading'
+        SENTENCE_NT'the notebook is a jotter'
+        SENTENCE_NT'the file of observations is called "notebook"'
+        SENTENCE_NT'the text file of the notebook is the file of observations'
+        SENTENCE_NT'the heading of the notebook is "Observations in the Pottingh'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'write "[heading of the notebook][paragraph break]" to the te'
+        SENTENCE_NT'append "Here's a comment.[line break]" to the text file of t'
+        SENTENCE_NT'append "Here's a secomd comment.[line break]" to the text fi'
+        SENTENCE_NT'say "You read back: [paragraph break][text of the text file '

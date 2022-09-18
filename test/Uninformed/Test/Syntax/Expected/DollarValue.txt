@@ -1,0 +1,11 @@
+Read 51 words
+syntax-test: unexpected semicolon in sentence: let B be a random bill
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a bill is a kind of thing'
+        SENTENCE_NT'a bill has a number called dollar value'
+        SENTENCE_NT'home contains a bill with dollar value 5'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let b be a random bill'
+        SENTENCE_NT'say "Value: [dollar value of B]."'

@@ -1,0 +1,20 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'"Not Visited"' {heading 0}
+        SENTENCE_NT'"Not Visited"'
+        SENTENCE_NT'include expressions and predicate calculus workings in the d'
+        SENTENCE_NT'start is a room'
+        SENTENCE_NT'"You start here."'
+        SENTENCE_NT'room 1 is west of start'
+        SENTENCE_NT'"This is Room 1 and [self].[if not visited]You haven't
+        been '
+        SENTENCE_NT'room 3 is north of start'
+        SENTENCE_NT'"This is Room 3 and [self].[if visited]You have been
+        here be'
+        SENTENCE_NT'room 2 is south of start'
+        SENTENCE_NT'"This is Room 2 and [self].[if unvisited]You haven't
+        been he'
+        SENTENCE_NT'test me with "verbose / n / s / n / s / w / e / w / e / s / '
+        SENTENCE_NT'to say self'
+        SENTENCE_NT'(-  print "(Self is: ", (the) self, ") ";
+        	if (self has visi'

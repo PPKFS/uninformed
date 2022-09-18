@@ -1,0 +1,14 @@
+Read 56 words
+syntax-test: unexpected semicolon in sentence: if the player's command is a topic listed in the Table of Test Words begin
+syntax-test: unexpected semicolon in sentence: say "Match."
+syntax-test: unexpected semicolon in sentence: rule succeeds
+ROOT_NT
+    HEADING_NT'after reading a command' {heading 0}
+        SENTENCE_NT'after reading a command'
+        SENTENCE_NT'if the player's command is a topic listed in the table of te'
+        SENTENCE_NT'say "Match."'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'table of test words topic "sofa" "breadbox" "counter"'
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'test me with "jump / go east / sofa / counter / breadbox me"'

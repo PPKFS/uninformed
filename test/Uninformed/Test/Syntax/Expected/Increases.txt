@@ -1,0 +1,110 @@
+Read 279 words
+syntax-test: unexpected semicolon in sentence: choose row 1 in Table 1
+syntax-test: unexpected semicolon in sentence: let N be 45
+syntax-test: unexpected semicolon in sentence: let L be { 3, 5, 6, 11 }
+syntax-test: unexpected semicolon in sentence: showme N
+syntax-test: unexpected semicolon in sentence: showme score
+syntax-test: unexpected semicolon in sentence: showme carrying capacity of the player
+syntax-test: unexpected semicolon in sentence: showme cat entry
+syntax-test: unexpected semicolon in sentence: showme L
+syntax-test: unexpected semicolon in sentence: say "Now increase by 5..."
+syntax-test: unexpected semicolon in sentence: increase N by 5
+syntax-test: unexpected semicolon in sentence: increase score by 5
+syntax-test: unexpected semicolon in sentence: increase carrying capacity of the player by 5
+syntax-test: unexpected semicolon in sentence: increase the cat entry by 5
+syntax-test: unexpected semicolon in sentence: increase entry 2 of L by 5
+syntax-test: unexpected semicolon in sentence: showme N
+syntax-test: unexpected semicolon in sentence: showme score
+syntax-test: unexpected semicolon in sentence: showme carrying capacity of the player
+syntax-test: unexpected semicolon in sentence: showme cat entry
+syntax-test: unexpected semicolon in sentence: showme L
+syntax-test: unexpected semicolon in sentence: say "Now decrease by 7..."
+syntax-test: unexpected semicolon in sentence: decrease N by 7
+syntax-test: unexpected semicolon in sentence: decrease score by 7
+syntax-test: unexpected semicolon in sentence: decrease carrying capacity of the player by 7
+syntax-test: unexpected semicolon in sentence: decrease the cat entry by 7
+syntax-test: unexpected semicolon in sentence: decrease entry 2 of L by 7
+syntax-test: unexpected semicolon in sentence: showme N
+syntax-test: unexpected semicolon in sentence: showme score
+syntax-test: unexpected semicolon in sentence: showme carrying capacity of the player
+syntax-test: unexpected semicolon in sentence: showme cat entry
+syntax-test: unexpected semicolon in sentence: showme L
+syntax-test: unexpected semicolon in sentence: say "Now increment..."
+syntax-test: unexpected semicolon in sentence: increment N
+syntax-test: unexpected semicolon in sentence: increment score
+syntax-test: unexpected semicolon in sentence: increment carrying capacity of the player
+syntax-test: unexpected semicolon in sentence: increment the cat entry
+syntax-test: unexpected semicolon in sentence: increment entry 2 of L
+syntax-test: unexpected semicolon in sentence: showme N
+syntax-test: unexpected semicolon in sentence: showme score
+syntax-test: unexpected semicolon in sentence: showme carrying capacity of the player
+syntax-test: unexpected semicolon in sentence: showme cat entry
+syntax-test: unexpected semicolon in sentence: showme L
+syntax-test: unexpected semicolon in sentence: say "Now decrement..."
+syntax-test: unexpected semicolon in sentence: decrement N
+syntax-test: unexpected semicolon in sentence: decrement score
+syntax-test: unexpected semicolon in sentence: decrement carrying capacity of the player
+syntax-test: unexpected semicolon in sentence: decrement the cat entry
+syntax-test: unexpected semicolon in sentence: decrement entry 2 of L
+syntax-test: unexpected semicolon in sentence: showme N
+syntax-test: unexpected semicolon in sentence: showme score
+syntax-test: unexpected semicolon in sentence: showme carrying capacity of the player
+syntax-test: unexpected semicolon in sentence: showme cat entry
+ROOT_NT
+    HEADING_NT'table 1 fish cat "chub" 2 "bream" 16' {heading 0}
+        SENTENCE_NT'table 1 fish cat "chub" 2 "bream" 16'
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'use scoring'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'choose row 1 in table 1'
+        SENTENCE_NT'let n be 45'
+        SENTENCE_NT'let l be { 3 , 5 , 6 , 11 }'
+        SENTENCE_NT'showme n'
+        SENTENCE_NT'showme score'
+        SENTENCE_NT'showme carrying capacity of the player'
+        SENTENCE_NT'showme cat entry'
+        SENTENCE_NT'showme l'
+        SENTENCE_NT'say "Now increase by 5..."'
+        SENTENCE_NT'increase n by 5'
+        SENTENCE_NT'increase score by 5'
+        SENTENCE_NT'increase carrying capacity of the player by 5'
+        SENTENCE_NT'increase the cat entry by 5'
+        SENTENCE_NT'increase entry 2 of l by 5'
+        SENTENCE_NT'showme n'
+        SENTENCE_NT'showme score'
+        SENTENCE_NT'showme carrying capacity of the player'
+        SENTENCE_NT'showme cat entry'
+        SENTENCE_NT'showme l'
+        SENTENCE_NT'say "Now decrease by 7..."'
+        SENTENCE_NT'decrease n by 7'
+        SENTENCE_NT'decrease score by 7'
+        SENTENCE_NT'decrease carrying capacity of the player by 7'
+        SENTENCE_NT'decrease the cat entry by 7'
+        SENTENCE_NT'decrease entry 2 of l by 7'
+        SENTENCE_NT'showme n'
+        SENTENCE_NT'showme score'
+        SENTENCE_NT'showme carrying capacity of the player'
+        SENTENCE_NT'showme cat entry'
+        SENTENCE_NT'showme l'
+        SENTENCE_NT'say "Now increment..."'
+        SENTENCE_NT'increment n'
+        SENTENCE_NT'increment score'
+        SENTENCE_NT'increment carrying capacity of the player'
+        SENTENCE_NT'increment the cat entry'
+        SENTENCE_NT'increment entry 2 of l'
+        SENTENCE_NT'showme n'
+        SENTENCE_NT'showme score'
+        SENTENCE_NT'showme carrying capacity of the player'
+        SENTENCE_NT'showme cat entry'
+        SENTENCE_NT'showme l'
+        SENTENCE_NT'say "Now decrement..."'
+        SENTENCE_NT'decrement n'
+        SENTENCE_NT'decrement score'
+        SENTENCE_NT'decrement carrying capacity of the player'
+        SENTENCE_NT'decrement the cat entry'
+        SENTENCE_NT'decrement entry 2 of l'
+        SENTENCE_NT'showme n'
+        SENTENCE_NT'showme score'
+        SENTENCE_NT'showme carrying capacity of the player'
+        SENTENCE_NT'showme cat entry'
+        SENTENCE_NT'showme l'

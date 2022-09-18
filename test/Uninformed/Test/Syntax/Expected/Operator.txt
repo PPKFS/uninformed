@@ -1,0 +1,10 @@
+Read 40 words
+syntax-test: unexpected semicolon in sentence: showme whether or not 10 && 5
+syntax-test: unexpected semicolon in sentence: showme whether or not 10 && 15
+ROOT_NT
+    HEADING_NT'the operator && means the numerically-greater-than relation' {heading 0}
+        SENTENCE_NT'the operator && means the numerically-greater-than relation'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme whether or not 10 && 5'
+        SENTENCE_NT'showme whether or not 10 && 15'
+        SENTENCE_NT'showme whether or not 10 && 10'

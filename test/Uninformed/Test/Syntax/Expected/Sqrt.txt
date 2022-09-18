@@ -1,0 +1,10 @@
+Read 54 words
+ROOT_NT
+    HEADING_NT'numbering is an action applying to one number' {heading 0}
+        SENTENCE_NT'numbering is an action applying to one number'
+        SENTENCE_NT'understand "[number]" as numbering'
+        SENTENCE_NT'report numbering ( this is the standard report numbering rul'
+        SENTENCE_NT'say "[number understood] => [square root of number understoo'
+        SENTENCE_NT'the testing room is a room'
+        SENTENCE_NT'test me with "16383 / 16384 / 32767 / 32768"'
+        SENTENCE_NT'test glulx with "1073741823 / 1073741824 / 2147483647 / 2147'

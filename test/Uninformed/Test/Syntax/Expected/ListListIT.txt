@@ -1,0 +1,22 @@
+Read 62 words
+syntax-test: unexpected semicolon in sentence: let L be a list of lists of texts
+syntax-test: unexpected semicolon in sentence: let L1 be a list of texts
+syntax-test: unexpected semicolon in sentence: let T be text
+syntax-test: unexpected semicolon in sentence: let T be "hi"
+syntax-test: unexpected semicolon in sentence: add T to L1
+syntax-test: unexpected semicolon in sentence: say L1
+syntax-test: unexpected semicolon in sentence: say line break
+syntax-test: unexpected semicolon in sentence: add L1 to L
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be a list of lists of texts'
+        SENTENCE_NT'let l1 be a list of texts'
+        SENTENCE_NT'let t be text'
+        SENTENCE_NT'let t be "hi"'
+        SENTENCE_NT'add t to l1'
+        SENTENCE_NT'say l1'
+        SENTENCE_NT'say line break'
+        SENTENCE_NT'add l1 to l'
+        SENTENCE_NT'say l'

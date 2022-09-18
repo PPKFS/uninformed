@@ -1,0 +1,43 @@
+Read 179 words
+syntax-test: unexpected semicolon in sentence: say "Double."
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptune"
+syntax-test: unexpected semicolon in sentence: let Triton be "in retrograde motion about " & Neptune
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptune"
+syntax-test: unexpected semicolon in sentence: let Triton be "in retrograde motion about " & Neptune
+syntax-test: unexpected semicolon in sentence: now Triton is double Triton
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptune"
+syntax-test: unexpected semicolon in sentence: let Triton be "in retrograde motion about " & Neptune
+syntax-test: unexpected semicolon in sentence: let Neptune be an text
+syntax-test: unexpected semicolon in sentence: let Neptune be "Neptune"
+syntax-test: unexpected semicolon in sentence: now Neptune is double double double Neptune
+ROOT_NT
+    HEADING_NT'the outer solar system is a room' {heading 0}
+        SENTENCE_NT'the outer solar system is a room'
+        SENTENCE_NT'to decide which text is the moon of the moment'
+        SENTENCE_NT'decide on "Dione at [time of day]"'
+        SENTENCE_NT'to decide which text is double ( tb - text )'
+        SENTENCE_NT'say "Double."'
+        SENTENCE_NT'decide on tb & tb'
+        SENTENCE_NT'to decide which text is ( tb1 - text ) & ( tb2 - text )'
+        SENTENCE_NT'(-  TEXT_TY_Concatenate({-by-value:TB1}, {-by-reference:TB2}'
+        SENTENCE_NT'instead of going east'
+        SENTENCE_NT'let neptune be "Neptune"'
+        SENTENCE_NT'let triton be "in retrograde motion about " & neptune'
+        SENTENCE_NT'say "Neptune is now [Neptune], Triton is [Triton]."'
+        SENTENCE_NT'instead of going west'
+        SENTENCE_NT'let neptune be "Neptune"'
+        SENTENCE_NT'let triton be "in retrograde motion about " & neptune'
+        SENTENCE_NT'now triton is double triton'
+        SENTENCE_NT'say "Doubled, Triton becomes [Triton]."'
+        SENTENCE_NT'instead of going north'
+        SENTENCE_NT'let neptune be "Neptune"'
+        SENTENCE_NT'let triton be "in retrograde motion about " & neptune'
+        SENTENCE_NT'say "The join is: [Neptune & Triton]."'
+        SENTENCE_NT'instead of going south'
+        SENTENCE_NT'let neptune be an text'
+        SENTENCE_NT'let neptune be "Neptune"'
+        SENTENCE_NT'now neptune is double double double neptune'
+        SENTENCE_NT'say "Octupled, Neptune becomes [Neptune]."'
+        SENTENCE_NT'instead of going up'
+        SENTENCE_NT'say "Moon of the moment is: [moon of the moment]."'
+        SENTENCE_NT'test me with "n/s/e/w/u"'

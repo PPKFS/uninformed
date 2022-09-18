@@ -1,0 +1,87 @@
+Read 266 words
+syntax-test: unexpected semicolon in sentence: say "REPETITION TEST."
+syntax-test: unexpected semicolon in sentence: say "Figures: "
+syntax-test: unexpected semicolon in sentence: say " [fig]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Sounds: "
+syntax-test: unexpected semicolon in sentence: say " [fx]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "External files: "
+syntax-test: unexpected semicolon in sentence: say " [docket]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Times: "
+syntax-test: unexpected semicolon in sentence: say " [moment]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Tables: "
+syntax-test: unexpected semicolon in sentence: say " [almanac]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Truth states: "
+syntax-test: unexpected semicolon in sentence: say " [parity]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Colours: "
+syntax-test: unexpected semicolon in sentence: say " [hue]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Scenes: "
+syntax-test: unexpected semicolon in sentence: say " [interlude]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Good scenes: "
+syntax-test: unexpected semicolon in sentence: say " [interlude]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]"
+syntax-test: unexpected semicolon in sentence: say "Bad scenes: "
+syntax-test: unexpected semicolon in sentence: say " [interlude]"
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'figure of woodlands is the file "Woodlands.png"'
+        SENTENCE_NT'sound of rustling leaves is the file "Rustling leaves.ogg"'
+        SENTENCE_NT'the file of glaciers is called "ice"'
+        SENTENCE_NT'lsd experience is a scene'
+        SENTENCE_NT'bach cantata concert is a scene'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is bad if it is the lsd experience'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a scene is good if it is not the lsd experience'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and green'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "REPETITION TEST."'
+        SENTENCE_NT'say "Figures: "'
+        SENTENCE_NT'repeat with fig running through figure-names'
+        SENTENCE_NT'say " [fig]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Sounds: "'
+        SENTENCE_NT'repeat with fx running through sound-names'
+        SENTENCE_NT'say " [fx]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "External files: "'
+        SENTENCE_NT'repeat with docket running through external-files'
+        SENTENCE_NT'say " [docket]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Times: "'
+        SENTENCE_NT'repeat with moment running through times'
+        SENTENCE_NT'say " [moment]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Tables: "'
+        SENTENCE_NT'repeat with almanac running through table-names'
+        SENTENCE_NT'say " [almanac]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Truth states: "'
+        SENTENCE_NT'repeat with parity running through truth states'
+        SENTENCE_NT'say " [parity]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Colours: "'
+        SENTENCE_NT'repeat with hue running through colours'
+        SENTENCE_NT'say " [hue]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Scenes: "'
+        SENTENCE_NT'repeat with interlude running through scenes'
+        SENTENCE_NT'say " [interlude]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Good scenes: "'
+        SENTENCE_NT'repeat with interlude running through good scenes'
+        SENTENCE_NT'say " [interlude]"'
+        SENTENCE_NT'say "[paragraph break]"'
+        SENTENCE_NT'say "Bad scenes: "'
+        SENTENCE_NT'repeat with interlude running through bad scenes'
+        SENTENCE_NT'say " [interlude]"'
+        SENTENCE_NT'say "[paragraph break]"'

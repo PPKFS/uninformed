@@ -1,0 +1,5 @@
+Read 41 words
+ROOT_NT
+    HEADING_NT'current place is a room' {heading 0}
+        SENTENCE_NT'current place is a room'
+        SENTENCE_NT'table 3 - undiscovered periodic table element ( text ) symbo'

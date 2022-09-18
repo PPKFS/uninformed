@@ -1,0 +1,22 @@
+Read 131 words
+syntax-test: unexpected semicolon in sentence: let lumens be the brightness of the table lamp
+syntax-test: unexpected semicolon in sentence: now the brightness of the table lamp is the capped successor to lumens
+syntax-test: unexpected semicolon in sentence: decide on the original
+ROOT_NT
+    HEADING_NT'brightness is a kind of value' {heading 0}
+        SENTENCE_NT'brightness is a kind of value'
+        SENTENCE_NT'the brightnesses are guttering , weak , radiant , and blazin'
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'the table lamp is in lab'
+        SENTENCE_NT'the table lamp has a brightness'
+        SENTENCE_NT'before printing the name of a lamp'
+        SENTENCE_NT'say "[brightness of the item described] "'
+        SENTENCE_NT'after jumping'
+        SENTENCE_NT'let lumens be the brightness of the table lamp'
+        SENTENCE_NT'now the brightness of the table lamp is the capped successor'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'to decide which k is the capped successor to ( original - en'
+        SENTENCE_NT'if the original is the last value of k'
+        SENTENCE_NT'decide on the original'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'decide on the k after the original'

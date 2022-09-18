@@ -1,0 +1,37 @@
+Read 86 words
+syntax-test: unexpected semicolon in sentence: say "One."
+syntax-test: unexpected semicolon in sentence: say "Two."
+syntax-test: unexpected semicolon in sentence: say "Yes, 1 is 1."
+syntax-test: unexpected semicolon in sentence: say "No, 1 is not 1."
+syntax-test: unexpected semicolon in sentence: say "No, 1 is not 1."
+syntax-test: unexpected semicolon in sentence: say "Yes, 1 is 1."
+syntax-test: unexpected semicolon in sentence: say "Yes, 1 is 1."
+syntax-test: unexpected semicolon in sentence: say "No, 1 is not 1."
+syntax-test: unexpected semicolon in sentence: check 1
+syntax-test: unexpected semicolon in sentence: check 2
+ROOT_NT
+    HEADING_NT'to check ( v - a number )' {heading 0}
+        SENTENCE_NT'to check ( v - a number )'
+        SENTENCE_NT'if v is'
+        SENTENCE_NT'-- 1'
+        SENTENCE_NT'say "One."'
+        SENTENCE_NT'-- 2'
+        SENTENCE_NT'say "Two."'
+        SENTENCE_NT'-- otherwise'
+        SENTENCE_NT'say "Something larger."'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'if 1 is 1'
+        SENTENCE_NT'say "Yes, 1 is 1."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "No, 1 is not 1."'
+        SENTENCE_NT'unless 1 is 1'
+        SENTENCE_NT'say "No, 1 is not 1."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Yes, 1 is 1."'
+        SENTENCE_NT'if 1 is 1'
+        SENTENCE_NT'say "Yes, 1 is 1."'
+        SENTENCE_NT'else'
+        SENTENCE_NT'say "No, 1 is not 1."'
+        SENTENCE_NT'check 1'
+        SENTENCE_NT'check 2'
+        SENTENCE_NT'check 3'

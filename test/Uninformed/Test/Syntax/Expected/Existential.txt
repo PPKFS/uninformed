@@ -1,0 +1,8 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'there is a vehicle'
+        SENTENCE_NT'there are a man and a woman'
+        SENTENCE_NT'there are a man and a woman in foo'
+        SENTENCE_NT'when play begins , say "Things: [the list of all things in b'

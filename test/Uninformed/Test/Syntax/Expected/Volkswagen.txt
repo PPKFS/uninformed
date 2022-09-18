@@ -1,0 +1,13 @@
+Read 89 words
+syntax-test: unexpected semicolon in sentence: showme the thing to which the player relates by the infatuation relation
+ROOT_NT
+    HEADING_NT'the park is a room' {heading 0}
+        SENTENCE_NT'the park is a room'
+        SENTENCE_NT'the volkswagen is a vehicle'
+        SENTENCE_NT'infatuation relates various people to one thing'
+        SENTENCE_NT'the verb to be infatuated with implies the infatuation relat'
+        SENTENCE_NT'the player is infatuated with the volkswagen'
+        SENTENCE_NT'every turn when the player is infatuated with something'
+        SENTENCE_NT'showme the thing to which the player relates by the infatuat'
+        SENTENCE_NT'showme the person who relates to the volkswagen by the infat'
+        SENTENCE_NT'test me with "relations / z"'

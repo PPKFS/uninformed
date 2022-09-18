@@ -1,0 +1,14 @@
+Read 78 words
+ROOT_NT
+    HEADING_NT'a colour is a kind of value' {heading 0}
+        SENTENCE_NT'a colour is a kind of value'
+        SENTENCE_NT'the colours are green , red and blue'
+        SENTENCE_NT'a tile is a kind of thing'
+        SENTENCE_NT'a tile has a colour'
+        SENTENCE_NT'world is a room'
+        SENTENCE_NT'in world is a red tile'
+        SENTENCE_NT'world contains a tile'
+        SENTENCE_NT'world contains a blue tile'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with t running through tiles in the world'
+        SENTENCE_NT'say "[T] is of colour [colour of T]."'

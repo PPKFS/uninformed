@@ -1,0 +1,10 @@
+Read 61 words
+ROOT_NT
+    HEADING_NT'the parlor is a room' {heading 0}
+        SENTENCE_NT'the parlor is a room'
+        SENTENCE_NT'town square and access tunnel are rooms'
+        SENTENCE_NT'the attic is a room above the parlor'
+        SENTENCE_NT'the attic2 is above the parlor2'
+        SENTENCE_NT'the manhole cover is a door'
+        SENTENCE_NT'it is below the town square and above the access tunnel'
+        SENTENCE_NT'test me with "u/d/gonear attic/d/u/gonear parlor2/u/d/gonear'

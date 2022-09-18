@@ -1,0 +1,11 @@
+Read 37 words
+syntax-test: unexpected semicolon in sentence: now foo is { }
+syntax-test: unexpected semicolon in sentence: add "hello" to foo
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'foo is a list of text that varies'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now foo is { }'
+        SENTENCE_NT'add "hello" to foo'
+        SENTENCE_NT'say "Foo is [foo]."'

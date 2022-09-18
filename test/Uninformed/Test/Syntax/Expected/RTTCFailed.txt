@@ -1,0 +1,13 @@
+Read 78 words
+ROOT_NT
+    HEADING_NT'to greet ( m - a man )' {heading 0}
+        SENTENCE_NT'to greet ( m - a man )'
+        SENTENCE_NT'say "Hi, [M]."'
+        SENTENCE_NT'to greet ( w - a woman )'
+        SENTENCE_NT'say "Well hello there, [W]."'
+        SENTENCE_NT'before kissing someone ( called the partner ) , greet the pa'
+        SENTENCE_NT'the arena is a room'
+        SENTENCE_NT'fred is a man in the arena'
+        SENTENCE_NT'daphne is a woman in the arena'
+        SENTENCE_NT'felix is an animal in the arena'
+        SENTENCE_NT'test me with "kiss Fred / kiss Daphne / kiss Felix"'

@@ -1,0 +1,19 @@
+Read 103 words
+syntax-test: unexpected semicolon in sentence: say "Yes (1)."
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'a material is a kind of value'
+        SENTENCE_NT'the materials are metal , ceramic , and polymer'
+        SENTENCE_NT'a resistance is a kind of value'
+        SENTENCE_NT'the resistances are brittle , hard , and soft'
+        SENTENCE_NT'a material has a resistance called the stiffness'
+        SENTENCE_NT'the verb to feel means the stiffness property'
+        SENTENCE_NT'metal feels hard'
+        SENTENCE_NT'ceramic feels brittle'
+        SENTENCE_NT'polymer feels soft'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the stiffness of metal is hard'
+        SENTENCE_NT'say "Yes (1)."'
+        SENTENCE_NT'if metal feels hard'
+        SENTENCE_NT'say "Yes (2)."'

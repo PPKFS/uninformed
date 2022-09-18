@@ -1,0 +1,29 @@
+Read 145 words
+syntax-test: unexpected semicolon in sentence: add { 1, 1 } to myL of player
+syntax-test: unexpected semicolon in sentence: add { 1, 0 } to myL of player
+syntax-test: unexpected semicolon in sentence: add { 0, 1 } to myL of player
+syntax-test: unexpected semicolon in sentence: add { 0, 0 } to myL of player
+syntax-test: unexpected semicolon in sentence: sort myL of player
+syntax-test: unexpected semicolon in sentence: say myL of player
+syntax-test: unexpected semicolon in sentence: say line break
+syntax-test: unexpected semicolon in sentence: add { 1, 0 } to myL of Bob
+syntax-test: unexpected semicolon in sentence: add { 0, 0 } to myL of Bob
+syntax-test: unexpected semicolon in sentence: sort myL of Bob
+ROOT_NT
+    HEADING_NT'test room is a room' {heading 0}
+        SENTENCE_NT'test room is a room'
+        SENTENCE_NT'every thing has a list of lists of numbers called myl'
+        SENTENCE_NT'bob is a person in test room'
+        SENTENCE_NT'myl of bob is { { 1 , 1 } , { 0 , 1 } }'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'add { 1 , 1 } to myl of player'
+        SENTENCE_NT'add { 1 , 0 } to myl of player'
+        SENTENCE_NT'add { 0 , 1 } to myl of player'
+        SENTENCE_NT'add { 0 , 0 } to myl of player'
+        SENTENCE_NT'sort myl of player'
+        SENTENCE_NT'say myl of player'
+        SENTENCE_NT'say line break'
+        SENTENCE_NT'add { 1 , 0 } to myl of bob'
+        SENTENCE_NT'add { 0 , 0 } to myl of bob'
+        SENTENCE_NT'sort myl of bob'
+        SENTENCE_NT'say myl of bob'

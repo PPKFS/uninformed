@@ -1,0 +1,46 @@
+Read 210 words
+syntax-test: unexpected semicolon in sentence: if the topic understood is not a topic listed in the Table of Driving begin
+syntax-test: unexpected semicolon in sentence: say "'Trouble is, I don't know where that is, miss,' says Jeeves, apologetically." instead
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if location entry is the location of the player, say "Jeeves says, quizzically, 'We're already here, miss.'" instead
+syntax-test: unexpected semicolon in sentence: if the topic understood is a topic listed in the Table of Driving begin
+syntax-test: unexpected semicolon in sentence: say "'Miss, we're here, at [location entry],' says Jeeves."
+syntax-test: unexpected semicolon in sentence: move the player to location entry
+syntax-test: unexpected semicolon in sentence: move Jeeves to location entry
+syntax-test: unexpected semicolon in sentence: if the topic understood is a topic listed in the Table of Driving begin
+syntax-test: unexpected semicolon in sentence: say "'Miss, we're here, at [location entry],' says Jeeves."
+syntax-test: unexpected semicolon in sentence: move the player to location entry
+syntax-test: unexpected semicolon in sentence: move Jeeves to location entry
+syntax-test: unexpected semicolon in sentence: say "'I'd be happy to, miss,' Jeeves says, ducking his head respectfully."
+ROOT_NT
+    HEADING_NT'outside house and outside first presbyterian are rooms' {heading 0}
+        SENTENCE_NT'outside house and outside first presbyterian are rooms'
+        SENTENCE_NT'jeeves is a man in outside house'
+        SENTENCE_NT'the description of jeeves is "He'll
+        get you where you want t'
+        SENTENCE_NT'driving to is an action applying to one topic'
+        SENTENCE_NT'understand "drive to
+        [text]" or "drive [text]" as driving to'
+        SENTENCE_NT'table of driving topic location "home" outside house "church'
+        SENTENCE_NT'check jeeves trying driving to'
+        SENTENCE_NT'if the topic understood is not a topic listed in the table o'
+        SENTENCE_NT'say "'Trouble is, I don't know where that is, miss,' says Je'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if location entry is the location of the player , say "Jeeve'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'carry out jeeves trying driving to'
+        SENTENCE_NT'if the topic understood is a topic listed in the table of dr'
+        SENTENCE_NT'say "'Miss, we're here, at [location entry],' says Jeeves."'
+        SENTENCE_NT'move the player to location entry'
+        SENTENCE_NT'move jeeves to location entry'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'carry out driving to'
+        SENTENCE_NT'if the topic understood is a topic listed in the table of dr'
+        SENTENCE_NT'say "'Miss, we're here, at [location entry],' says Jeeves."'
+        SENTENCE_NT'move the player to location entry'
+        SENTENCE_NT'move jeeves to location entry'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'persuasion rule for asking jeeves to try driving to'
+        SENTENCE_NT'say "'I'd be happy to, miss,' Jeeves says, ducking his head '
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'test me with "jeeves, drive to church"'

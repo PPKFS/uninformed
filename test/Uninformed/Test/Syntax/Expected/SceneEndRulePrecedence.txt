@@ -1,0 +1,15 @@
+Read 82 words
+ROOT_NT
+    HEADING_NT'once upon a time is a scene' {heading 0}
+        SENTENCE_NT'once upon a time is a scene'
+        SENTENCE_NT'once upon a time begins when play begins'
+        SENTENCE_NT'once upon a time ends musically when waving'
+        SENTENCE_NT'once upon a time ends bouncily when jumping'
+        SENTENCE_NT'when once upon a time ends'
+        SENTENCE_NT'say "This should happen second."'
+        SENTENCE_NT'when once upon a time ends bouncily'
+        SENTENCE_NT'say "This should happen first."'
+        SENTENCE_NT'when a scene ends'
+        SENTENCE_NT'say "This should happen last."'
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'test me with "scenes/jump"'

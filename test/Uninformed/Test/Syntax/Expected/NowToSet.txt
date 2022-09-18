@@ -1,0 +1,38 @@
+Read 189 words
+syntax-test: unexpected semicolon in sentence: say "Hmm."
+syntax-test: unexpected semicolon in sentence: now the carrying capacity of the player is 6
+syntax-test: unexpected semicolon in sentence: now the wobbly number is 6
+syntax-test: unexpected semicolon in sentence: now the cheese de jour is parmesan
+syntax-test: unexpected semicolon in sentence: now the rhetorical yes rule is the ahh rule
+syntax-test: unexpected semicolon in sentence: say "Ahh."
+syntax-test: unexpected semicolon in sentence: now the carrying capacity of the player is 7
+syntax-test: unexpected semicolon in sentence: now the wobbly number is 5
+syntax-test: unexpected semicolon in sentence: now the cheese de jour is cheddar
+syntax-test: unexpected semicolon in sentence: now the rhetorical yes rule is the hmm rule
+ROOT_NT
+    HEADING_NT'"Now to Set Torne's Variables"' {heading 0}
+        SENTENCE_NT'"Now to Set Torne's Variables"'
+        SENTENCE_NT'world is a room'
+        SENTENCE_NT'include predicate calculus workings in the debugging log'
+        SENTENCE_NT'cheese is a kind of value'
+        SENTENCE_NT'the cheeses are parmesan and cheddar'
+        SENTENCE_NT'the wobbly number is a number which varies'
+        SENTENCE_NT'the cheese de jour is a cheese which varies'
+        SENTENCE_NT'the rhetorical yes rule is a rule which varies'
+        SENTENCE_NT'the rhetorical yes rule is the hmm rule'
+        SENTENCE_NT'this is the hmm rule'
+        SENTENCE_NT'say "Hmm."'
+        SENTENCE_NT'now the carrying capacity of the player is 6'
+        SENTENCE_NT'now the wobbly number is 6'
+        SENTENCE_NT'now the cheese de jour is parmesan'
+        SENTENCE_NT'now the rhetorical yes rule is the ahh rule'
+        SENTENCE_NT'say "CCOP: [carrying capacity of the player]; WN: [wobbly nu'
+        SENTENCE_NT'this is the ahh rule'
+        SENTENCE_NT'say "Ahh."'
+        SENTENCE_NT'now the carrying capacity of the player is 7'
+        SENTENCE_NT'now the wobbly number is 5'
+        SENTENCE_NT'now the cheese de jour is cheddar'
+        SENTENCE_NT'now the rhetorical yes rule is the hmm rule'
+        SENTENCE_NT'say "CCOP: [carrying capacity of the player]; WN: [wobbly nu'
+        SENTENCE_NT'instead of saying yes , abide by the rhetorical yes rule'
+        SENTENCE_NT'test me with "yes / yes / yes"'

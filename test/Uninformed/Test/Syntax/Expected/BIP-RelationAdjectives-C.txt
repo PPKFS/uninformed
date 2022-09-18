@@ -1,0 +1,46 @@
+Read 214 words
+syntax-test: unexpected semicolon in sentence: showme R
+syntax-test: unexpected semicolon in sentence: showme whether or not R is empty
+syntax-test: unexpected semicolon in sentence: showme whether or not R is equivalence
+syntax-test: unexpected semicolon in sentence: showme whether or not R is symmetric
+syntax-test: unexpected semicolon in sentence: showme whether or not R is one-to-one
+syntax-test: unexpected semicolon in sentence: showme whether or not R is one-to-various
+syntax-test: unexpected semicolon in sentence: showme whether or not R is various-to-one
+syntax-test: unexpected semicolon in sentence: showme vague connection relation
+syntax-test: unexpected semicolon in sentence: showme whether or not the vague connection relation is empty
+syntax-test: unexpected semicolon in sentence: now vague connection relation relates 55 to 17
+syntax-test: unexpected semicolon in sentence: check out the vague connection relation
+syntax-test: unexpected semicolon in sentence: check out the sturdy connection relation
+syntax-test: unexpected semicolon in sentence: check out the feeble connection relation
+syntax-test: unexpected semicolon in sentence: check out the tenuous connection relation
+syntax-test: unexpected semicolon in sentence: check out the pairing relation
+syntax-test: unexpected semicolon in sentence: check out the joining relation
+ROOT_NT
+    HEADING_NT'vague connection relates various numbers to various numbers' {heading 0}
+        SENTENCE_NT'vague connection relates various numbers to various numbers'
+        SENTENCE_NT'sturdy connection relates one number to various numbers'
+        SENTENCE_NT'feeble connection relates various numbers to one number'
+        SENTENCE_NT'tenuous connection relates one number to one number'
+        SENTENCE_NT'joining relates numbers to each other'
+        SENTENCE_NT'pairing relates one number to another'
+        SENTENCE_NT'clumping relates numbers to each other in groups'
+        SENTENCE_NT'to check out ( r - a relation )'
+        SENTENCE_NT'showme r'
+        SENTENCE_NT'showme whether or not r is empty'
+        SENTENCE_NT'showme whether or not r is equivalence'
+        SENTENCE_NT'showme whether or not r is symmetric'
+        SENTENCE_NT'showme whether or not r is one-to-one'
+        SENTENCE_NT'showme whether or not r is one-to-various'
+        SENTENCE_NT'showme whether or not r is various-to-one'
+        SENTENCE_NT'showme whether or not r is various-to-various'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme vague connection relation'
+        SENTENCE_NT'showme whether or not the vague connection relation is empty'
+        SENTENCE_NT'now vague connection relation relates 55 to 17'
+        SENTENCE_NT'check out the vague connection relation'
+        SENTENCE_NT'check out the sturdy connection relation'
+        SENTENCE_NT'check out the feeble connection relation'
+        SENTENCE_NT'check out the tenuous connection relation'
+        SENTENCE_NT'check out the pairing relation'
+        SENTENCE_NT'check out the joining relation'
+        SENTENCE_NT'check out the clumping relation'

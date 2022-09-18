@@ -1,0 +1,8 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'understand "bug [any thing]" as examining'
+        SENTENCE_NT'rule for printing a parser error when latest parser error is'
+        SENTENCE_NT'say "Oh, if you must use 'any thing', you deserve all you ge'
+        SENTENCE_NT'test me with "bug me / bug home"'

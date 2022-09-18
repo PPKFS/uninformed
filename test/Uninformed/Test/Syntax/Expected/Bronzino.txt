@@ -1,0 +1,11 @@
+Read 60 words
+ROOT_NT
+    HEADING_NT'a container can be empty or full' {heading 0}
+        SENTENCE_NT'a container can be empty or full'
+        SENTENCE_NT'guest bedroom is a room'
+        SENTENCE_NT'the tapestry is scenery in the guest bedroom'
+        SENTENCE_NT'the description of the tapestry is "It is hard to make out t'
+        SENTENCE_NT'understand "demon" or "dwarf" or "god" or "man" as tapestry'
+        SENTENCE_NT'the empty bedroom is southeast of the private parlor'
+        SENTENCE_NT'"Like a monk's
+        chamber compared to every other part of the p'

@@ -1,0 +1,13 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'"Ah, Spring"' {heading 0}
+        SENTENCE_NT'"Ah, Spring"'
+        SENTENCE_NT'ranking it as is an action applying to one visible thing and'
+        SENTENCE_NT'understand "give [something] [number]" as ranking it as'
+        SENTENCE_NT'carry out ranking it as'
+        SENTENCE_NT'say "You mentally give [the noun] a rating of
+        [the number un'
+        SENTENCE_NT'the park is a room'
+        SENTENCE_NT'a woman called elaine is here'
+        SENTENCE_NT'the player is carrying some flowers'
+        SENTENCE_NT'test me with "give Elaine 10 / give Elaine flowers / give El'

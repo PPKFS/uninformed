@@ -1,0 +1,14 @@
+Read 58 words
+syntax-test: unexpected semicolon in sentence: let N be text
+syntax-test: unexpected semicolon in sentence: let N be the player's command
+syntax-test: unexpected semicolon in sentence: replace the text "[apostrophe]foo" in N with "bar"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the bar is in home'
+        SENTENCE_NT'after reading a command'
+        SENTENCE_NT'let n be text'
+        SENTENCE_NT'let n be the player's command'
+        SENTENCE_NT'replace the text "[apostrophe]foo" in n with "bar"'
+        SENTENCE_NT'change the text of the player's command to n'
+        SENTENCE_NT'test me with "x me / x [']foo"'

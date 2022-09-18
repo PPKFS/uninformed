@@ -1,0 +1,15 @@
+Read 77 words
+syntax-test: unexpected semicolon in sentence: showme counter
+syntax-test: unexpected semicolon in sentence: showme moment
+ROOT_NT
+    HEADING_NT'splog is a room' {heading 0}
+        SENTENCE_NT'splog is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , orange , yellow , green , blue , indig'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with counter running from 1 to 10'
+        SENTENCE_NT'showme counter'
+        SENTENCE_NT'repeat with moment running from 4 pm to 4:07 pm'
+        SENTENCE_NT'showme moment'
+        SENTENCE_NT'repeat with hue running from orange to indigo'
+        SENTENCE_NT'showme hue'

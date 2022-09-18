@@ -1,0 +1,9 @@
+Read 95 words
+ROOT_NT
+    HEADING_NT'the attic is a room' {heading 0}
+        SENTENCE_NT'the attic is a room'
+        SENTENCE_NT'the old blue rucksack is a player's holdall'
+        SENTENCE_NT'the player is wearing the rucksack'
+        SENTENCE_NT'the carrying capacity of the player is 3'
+        SENTENCE_NT'in the attic are a cd entitled no smoke without fire , a 70s'
+        SENTENCE_NT'test me with "get cd / get 70s / get branch / get urn / drop'

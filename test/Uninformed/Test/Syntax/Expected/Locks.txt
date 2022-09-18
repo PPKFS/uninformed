@@ -1,0 +1,17 @@
+Read 115 words
+ROOT_NT
+    HEADING_NT'"Locks" by emily short' {heading 0}
+        SENTENCE_NT'"Locks" by emily short'
+        SENTENCE_NT'use command line echoing'
+        SENTENCE_NT'include locksmith by emily short'
+        SENTENCE_NT'the summoning room is a room'
+        SENTENCE_NT'the protected door is east of the summoning room and west of'
+        SENTENCE_NT'it is a door'
+        SENTENCE_NT'it is closed , lockable , and locked'
+        SENTENCE_NT'the passcard unlocks the protected door'
+        SENTENCE_NT'it is carried by the player'
+        SENTENCE_NT'the safe is a closed openable lockable locked container in t'
+        SENTENCE_NT'in the safe is an amphora'
+        SENTENCE_NT'the goat-headed key is a passkey'
+        SENTENCE_NT'it unlocks the safe'
+        SENTENCE_NT'it is in the summoning room'

@@ -1,0 +1,25 @@
+Read 145 words
+syntax-test: unexpected semicolon in sentence: say "What is this? According to the scroll, a humble Panda is destined to
+defeat the mighty Tai Lung!"
+syntax-test: unexpected semicolon in sentence: move Panda to the Jade Temple Dojo
+ROOT_NT
+    HEADING_NT'the jade temple dojo is a room' {heading 0}
+        SENTENCE_NT'the jade temple dojo is a room'
+        SENTENCE_NT'"Here is where the great kung fu masters --
+        [Furious Five] -'
+        SENTENCE_NT'tiger is an animal , here'
+        SENTENCE_NT'snake is an animal , here'
+        SENTENCE_NT'mantis is an animal , here'
+        SENTENCE_NT'crane is an animal , here'
+        SENTENCE_NT'monkey is an animal , here'
+        SENTENCE_NT'the furious five is a list of animals that varies'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with kung fu master running through animals in the ja'
+        SENTENCE_NT'add the kung fu master to the furious five'
+        SENTENCE_NT'panda is an animal'
+        SENTENCE_NT'the dragon scroll is carried by the player'
+        SENTENCE_NT'instead of examining the dragon scroll'
+        SENTENCE_NT'say "What is this? According to the scroll, a humble Panda i'
+        SENTENCE_NT'move panda to the jade temple dojo'
+        SENTENCE_NT'add panda at entry 6 in the furious five , if absent'
+        SENTENCE_NT'test me with "x scroll / l / x scroll / l"'

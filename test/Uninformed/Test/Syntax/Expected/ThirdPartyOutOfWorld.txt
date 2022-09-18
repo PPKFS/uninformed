@@ -1,0 +1,16 @@
+Read 64 words
+syntax-test: unexpected semicolon in sentence: try requesting the pronoun meanings
+syntax-test: unexpected semicolon in sentence: try the actor saying yes
+ROOT_NT
+    HEADING_NT'instead of an actor waiting' {heading 0}
+        SENTENCE_NT'instead of an actor waiting'
+        SENTENCE_NT'try requesting the pronoun meanings'
+        SENTENCE_NT'try the actor saying yes'
+        SENTENCE_NT'instead of an actor jumping'
+        SENTENCE_NT'try the actor saying yes'
+        SENTENCE_NT'try requesting the pronoun meanings'
+        SENTENCE_NT'spot is a room'
+        SENTENCE_NT'bob is a man in spot'
+        SENTENCE_NT'persuasion'
+        SENTENCE_NT'rule succeeds'
+        SENTENCE_NT'test me with "actions /  yes / z / bob, yes / bob, pronouns '

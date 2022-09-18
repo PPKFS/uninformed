@@ -1,0 +1,7 @@
+Read 38 words
+ROOT_NT
+    HEADING_NT'frozen in solid ice is a room' {heading 0}
+        SENTENCE_NT'frozen in solid ice is a room'
+        SENTENCE_NT'instead of doing something other than waiting or examining o'
+        SENTENCE_NT'say "You're not really at liberty to do that." instead'
+        SENTENCE_NT'test me with "i / take me"'

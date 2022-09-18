@@ -1,0 +1,10 @@
+Read 62 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'to decide if ( a - a room ) qualifies'
+        SENTENCE_NT'decide no'
+        SENTENCE_NT'to decide if ( a - a room ) abutting ( b - a room ) qualifie'
+        SENTENCE_NT'decide yes'
+        SENTENCE_NT'wwfocus is a scene'
+        SENTENCE_NT'wwfocus ends when dome abutting the dome qualifies'

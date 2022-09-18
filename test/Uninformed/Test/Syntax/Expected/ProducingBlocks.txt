@@ -1,0 +1,22 @@
+Read 103 words
+syntax-test: unexpected semicolon in sentence: let N be the text produced by the foo rulebook
+syntax-test: unexpected semicolon in sentence: if the rule succeeded, say "Success: [N]."
+syntax-test: unexpected semicolon in sentence: let N be the stored action produced by the goo rulebook
+syntax-test: unexpected semicolon in sentence: if the rule succeeded, say "Success: [N]."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'foo is a rulebook producing an text'
+        SENTENCE_NT'foo'
+        SENTENCE_NT'rule succeeds with result "hello"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let n be the text produced by the foo rulebook'
+        SENTENCE_NT'if the rule succeeded , say "Success: [N]."'
+        SENTENCE_NT'otherwise say "Failure."'
+        SENTENCE_NT'goo is a rulebook producing a stored action'
+        SENTENCE_NT'goo'
+        SENTENCE_NT'rule succeeds with result the action of taking inventory'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let n be the stored action produced by the goo rulebook'
+        SENTENCE_NT'if the rule succeeded , say "Success: [N]."'
+        SENTENCE_NT'otherwise say "Failure."'

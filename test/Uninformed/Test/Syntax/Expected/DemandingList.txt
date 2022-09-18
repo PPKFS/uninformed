@@ -1,0 +1,6 @@
+Read 134 words
+ROOT_NT
+    HEADING_NT'x is a room' {heading 0}
+        SENTENCE_NT'x is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme { taking action , removing it from action , taking of'

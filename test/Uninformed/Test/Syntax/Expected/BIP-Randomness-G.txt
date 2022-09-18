@@ -1,0 +1,61 @@
+Read 289 words
+syntax-test: unexpected semicolon in sentence: showme a random fruit
+syntax-test: unexpected semicolon in sentence: showme a random fruit
+syntax-test: unexpected semicolon in sentence: showme a random fruit
+syntax-test: unexpected semicolon in sentence: showme a random fruit
+syntax-test: unexpected semicolon in sentence: showme a random fruit between pear and yuzu
+syntax-test: unexpected semicolon in sentence: showme a random fruit between pear and yuzu
+syntax-test: unexpected semicolon in sentence: showme a random fruit from pear to yuzu
+syntax-test: unexpected semicolon in sentence: showme a random fruit from pear to yuzu
+syntax-test: unexpected semicolon in sentence: showme a random number between 10 and 19
+syntax-test: unexpected semicolon in sentence: showme a random number between 10 and 19
+syntax-test: unexpected semicolon in sentence: showme a random number between 10 and 19
+syntax-test: unexpected semicolon in sentence: showme a random number from 10 to 19
+syntax-test: unexpected semicolon in sentence: showme a random number from 10 to 19
+syntax-test: unexpected semicolon in sentence: showme a random number from 10 to 19
+syntax-test: unexpected semicolon in sentence: showme whether or not a random chance of 1 in 3 succeeds
+syntax-test: unexpected semicolon in sentence: showme whether or not a random chance of 1 in 3 succeeds
+syntax-test: unexpected semicolon in sentence: showme whether or not a random chance of 1 in 3 succeeds
+syntax-test: unexpected semicolon in sentence: showme whether or not a random chance of 1 in 3 succeeds
+syntax-test: unexpected semicolon in sentence: showme whether or not a random chance of 1 in 3 succeeds
+syntax-test: unexpected semicolon in sentence: showme whether or not a random chance of 1 in 3 succeeds
+syntax-test: unexpected semicolon in sentence: seed the random-number generator with 3715
+syntax-test: unexpected semicolon in sentence: showme a random number between 1 and 100
+syntax-test: unexpected semicolon in sentence: showme a random number between 1 and 100
+syntax-test: unexpected semicolon in sentence: showme a random number between 1 and 100
+syntax-test: unexpected semicolon in sentence: seed the random-number generator with 3715
+syntax-test: unexpected semicolon in sentence: showme a random number between 1 and 100
+syntax-test: unexpected semicolon in sentence: showme a random number between 1 and 100
+ROOT_NT
+    HEADING_NT'a fruit is a kind of value' {heading 0}
+        SENTENCE_NT'a fruit is a kind of value'
+        SENTENCE_NT'an apple , a pear , a persimmon , a yuzu and an orange are f'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme a random fruit'
+        SENTENCE_NT'showme a random fruit'
+        SENTENCE_NT'showme a random fruit'
+        SENTENCE_NT'showme a random fruit'
+        SENTENCE_NT'showme a random fruit between pear and yuzu'
+        SENTENCE_NT'showme a random fruit between pear and yuzu'
+        SENTENCE_NT'showme a random fruit from pear to yuzu'
+        SENTENCE_NT'showme a random fruit from pear to yuzu'
+        SENTENCE_NT'showme a random number between 10 and 19'
+        SENTENCE_NT'showme a random number between 10 and 19'
+        SENTENCE_NT'showme a random number between 10 and 19'
+        SENTENCE_NT'showme a random number from 10 to 19'
+        SENTENCE_NT'showme a random number from 10 to 19'
+        SENTENCE_NT'showme a random number from 10 to 19'
+        SENTENCE_NT'showme whether or not a random chance of 1 in 3 succeeds'
+        SENTENCE_NT'showme whether or not a random chance of 1 in 3 succeeds'
+        SENTENCE_NT'showme whether or not a random chance of 1 in 3 succeeds'
+        SENTENCE_NT'showme whether or not a random chance of 1 in 3 succeeds'
+        SENTENCE_NT'showme whether or not a random chance of 1 in 3 succeeds'
+        SENTENCE_NT'showme whether or not a random chance of 1 in 3 succeeds'
+        SENTENCE_NT'seed the random-number generator with 3715'
+        SENTENCE_NT'showme a random number between 1 and 100'
+        SENTENCE_NT'showme a random number between 1 and 100'
+        SENTENCE_NT'showme a random number between 1 and 100'
+        SENTENCE_NT'seed the random-number generator with 3715'
+        SENTENCE_NT'showme a random number between 1 and 100'
+        SENTENCE_NT'showme a random number between 1 and 100'
+        SENTENCE_NT'showme a random number between 1 and 100'

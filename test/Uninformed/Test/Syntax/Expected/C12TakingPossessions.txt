@@ -1,0 +1,9 @@
+Read 50 words
+ROOT_NT
+    HEADING_NT'a shape is a kind of thing' {heading 0}
+        SENTENCE_NT'a shape is a kind of thing'
+        SENTENCE_NT'a triangle is a kind of shape'
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'the table is a supporter in the lab'
+        SENTENCE_NT'on the table are three triangles'
+        SENTENCE_NT'test me with "get triangle / get triangle / get triangle / p'

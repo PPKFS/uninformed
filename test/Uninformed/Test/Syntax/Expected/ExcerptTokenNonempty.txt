@@ -1,0 +1,10 @@
+Read 65 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'table 1 character bricks "Mario" 5 "Luigi" 3'
+        SENTENCE_NT'to smash ( n - a number ) bricks for ( reason - a text )'
+        SENTENCE_NT'say "Oh, [N] bricks smashed."'
+        SENTENCE_NT'every turn when "Mario" is a character listed in table 1'
+        SENTENCE_NT'smash bricks entry bricks for "fun"'
+        SENTENCE_NT'test me with "z"'

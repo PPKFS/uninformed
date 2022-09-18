@@ -1,0 +1,27 @@
+Read 125 words
+syntax-test: unexpected semicolon in sentence: if S is xyzzy, yes
+syntax-test: unexpected semicolon in sentence: if it is xyzzy, yes
+ROOT_NT
+    HEADING_NT'a spell is a kind of value' {heading 0}
+        SENTENCE_NT'a spell is a kind of value'
+        SENTENCE_NT'xyzzy is a spell'
+        SENTENCE_NT'plugh is a spell'
+        SENTENCE_NT'casting is an action applying to one spell'
+        SENTENCE_NT'understand "acast [spell]" as casting'
+        SENTENCE_NT'understand "bcast [possible spell]" as casting'
+        SENTENCE_NT'understand "ccast [passible spell]" as casting'
+        SENTENCE_NT'understand "dcast [plausible spell]" as casting'
+        SENTENCE_NT'carry out casting'
+        SENTENCE_NT'say "You cast [spell understood]."'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a spell ( called s ) is possible'
+        SENTENCE_NT'if s is xyzzy , yes'
+        SENTENCE_NT'no'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a spell is passible'
+        SENTENCE_NT'if it is xyzzy , yes'
+        SENTENCE_NT'no'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a spell is plausible if it is xyzzy'
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'test me with "acast xyzzy / acast plugh / bcast xyzzy / bcas'

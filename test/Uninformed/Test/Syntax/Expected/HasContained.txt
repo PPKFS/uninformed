@@ -1,0 +1,8 @@
+Read 35 words
+syntax-test: unexpected semicolon in sentence: if Foo has contained the player, say "huzzah."
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if foo has contained the player , say "huzzah."'
+        SENTENCE_NT'if foo had provided the property lighted , say "huzzah."'

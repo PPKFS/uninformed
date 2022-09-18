@@ -1,0 +1,8 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the table is a supporter in home'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "On the table [is-are a list of things on the table].
+        [A'

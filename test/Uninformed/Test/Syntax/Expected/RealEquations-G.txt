@@ -1,0 +1,19 @@
+Read 76 words
+syntax-test: unexpected semicolon in sentence: let y be 2
+syntax-test: unexpected semicolon in sentence: let x be given by sinitude
+syntax-test: unexpected semicolon in sentence: say "x is [x]."
+syntax-test: unexpected semicolon in sentence: now x is the real square root of 2
+syntax-test: unexpected semicolon in sentence: say "x is [x]."
+syntax-test: unexpected semicolon in sentence: now x is the sine of 2
+ROOT_NT
+    HEADING_NT'equation - sinitude x = sin ( y ) where x is a real number a' {heading 0}
+        SENTENCE_NT'equation - sinitude x = sin ( y ) where x is a real number a'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let y be 2'
+        SENTENCE_NT'let x be given by sinitude'
+        SENTENCE_NT'say "x is [x]."'
+        SENTENCE_NT'now x is the real square root of 2'
+        SENTENCE_NT'say "x is [x]."'
+        SENTENCE_NT'now x is the sine of 2'
+        SENTENCE_NT'say "x is [x]."'
+        SENTENCE_NT'frog is a room'

@@ -1,0 +1,26 @@
+Read 130 words
+syntax-test: unexpected semicolon in sentence: let the Fibonacci sequence be { 1, 1 }
+syntax-test: unexpected semicolon in sentence: let N be 3
+syntax-test: unexpected semicolon in sentence: while N < F begin
+syntax-test: unexpected semicolon in sentence: let the last term be entry (N - 1) of the Fibonacci sequence
+syntax-test: unexpected semicolon in sentence: let the penultimate term be entry (N - 2) of the Fibonacci sequence
+syntax-test: unexpected semicolon in sentence: let the next term be the last term plus the penultimate term
+syntax-test: unexpected semicolon in sentence: add the next term to the Fibonacci sequence
+syntax-test: unexpected semicolon in sentence: increase N by 1
+syntax-test: unexpected semicolon in sentence: end while
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'to decide what list of numbers is the first ( f - a number )'
+        SENTENCE_NT'let the fibonacci sequence be { 1 , 1 }'
+        SENTENCE_NT'let n be 3'
+        SENTENCE_NT'while n < f begin'
+        SENTENCE_NT'let the last term be entry ( n - 1 ) of the fibonacci sequen'
+        SENTENCE_NT'let the penultimate term be entry ( n - 2 ) of the fibonacci'
+        SENTENCE_NT'let the next term be the last term plus the penultimate term'
+        SENTENCE_NT'add the next term to the fibonacci sequence'
+        SENTENCE_NT'increase n by 1'
+        SENTENCE_NT'end while'
+        SENTENCE_NT'decide on the fibonacci sequence'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "The Fibonacci sequence is [the first 20 terms of the Fi'

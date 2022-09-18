@@ -1,0 +1,17 @@
+Read 132 words
+syntax-test: unexpected semicolon in sentence: if R relates N to M, say "[N] <=> [M]   "
+syntax-test: unexpected semicolon in sentence: let L be { parity relation, joint magnitude relation }
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'to judge ( r - a relation of numbers to numbers )'
+        SENTENCE_NT'repeat with n running from 1 to 5'
+        SENTENCE_NT'repeat with m running from 1 to 5'
+        SENTENCE_NT'if r relates n to m , say "[N] <=> [M]   "'
+        SENTENCE_NT'say "[line break]"'
+        SENTENCE_NT'parity relates a number ( called n ) to a number ( called m '
+        SENTENCE_NT'joint magnitude relates a number ( called n ) to a number ( '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be { parity relation , joint magnitude relation }'
+        SENTENCE_NT'repeat with r running through l'
+        SENTENCE_NT'judge r'

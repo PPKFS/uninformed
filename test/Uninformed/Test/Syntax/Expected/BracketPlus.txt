@@ -1,0 +1,68 @@
+Read 247 words
+syntax-test: unexpected semicolon in sentence: say "Should be in [the Lab name]."
+syntax-test: unexpected semicolon in sentence: showme the Geiger counter
+syntax-test: unexpected semicolon in sentence: tick
+syntax-test: unexpected semicolon in sentence: tick
+syntax-test: unexpected semicolon in sentence: tick
+syntax-test: unexpected semicolon in sentence: showme the Geiger counter
+syntax-test: unexpected semicolon in sentence: watch the dial
+syntax-test: unexpected semicolon in sentence: say "All smooshed together are [the survey of things]."
+syntax-test: unexpected semicolon in sentence: say "[T] radiates!"
+syntax-test: unexpected semicolon in sentence: say "[T] is safe."
+syntax-test: unexpected semicolon in sentence: say "[T] helps!"
+syntax-test: unexpected semicolon in sentence: say "[T] is no help."
+syntax-test: unexpected semicolon in sentence: say "[T] is a sack!"
+syntax-test: unexpected semicolon in sentence: say "[T] is not a sack."
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'the bench is here'
+        SENTENCE_NT'the isotope is on the bench'
+        SENTENCE_NT'the sack of pitchblende is here'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is radioactive if it is the isotope'
+        SENTENCE_NT'the geiger counter is a number that varies'
+        SENTENCE_NT'to say the lab name'
+        SENTENCE_NT'(-  DefArt( (+ Laboratory +) ); '
+        SENTENCE_NT'to tick'
+        SENTENCE_NT'(-  (+ Geiger counter +) ++; '
+        SENTENCE_NT'to watch the dial'
+        SENTENCE_NT'(-  print (+ Geiger counter +), "^"; '
+        SENTENCE_NT'to say the survey of things'
+        SENTENCE_NT'(-  objectloop ({-my:1} ofclass (+ thing +)) DefArt({-my:1})'
+        SENTENCE_NT'to decide if ( t - a thing ) radiates'
+        SENTENCE_NT'(-  ( (+ radioactive +)({T}) ) '
+        SENTENCE_NT'to decide if ( t - a thing ) helps'
+        SENTENCE_NT'(-  ( {T} ofclass (+ supporter +) ) '
+        SENTENCE_NT'to decide if ( t - a thing ) helps'
+        SENTENCE_NT'(-  ( {T} ofclass (+ supporter +) ) '
+        SENTENCE_NT'to decide if ( t - a thing ) sacks'
+        SENTENCE_NT'(-  ( {T} == (+ sack of pitchblende +) ) '
+        SENTENCE_NT'to demonstrate vals'
+        SENTENCE_NT'(-  print (+ 253 +), " and ",
+        		(PrintTimeOfDay) (+ 11:32 PM'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Should be in [the Lab name]."'
+        SENTENCE_NT'showme the geiger counter'
+        SENTENCE_NT'tick'
+        SENTENCE_NT'tick'
+        SENTENCE_NT'tick'
+        SENTENCE_NT'showme the geiger counter'
+        SENTENCE_NT'watch the dial'
+        SENTENCE_NT'say "All smooshed together are [the survey of things]."'
+        SENTENCE_NT'repeat with t running through things'
+        SENTENCE_NT'if t radiates'
+        SENTENCE_NT'say "[T] radiates!"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "[T] is safe."'
+        SENTENCE_NT'repeat with t running through things'
+        SENTENCE_NT'if t helps'
+        SENTENCE_NT'say "[T] helps!"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "[T] is no help."'
+        SENTENCE_NT'repeat with t running through things'
+        SENTENCE_NT'if t sacks'
+        SENTENCE_NT'say "[T] is a sack!"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "[T] is not a sack."'
+        SENTENCE_NT'demonstrate vals'

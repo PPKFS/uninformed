@@ -1,0 +1,11 @@
+Read 70 words
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'a vessel is a kind of thing'
+        SENTENCE_NT'a vessel can be full or empty'
+        SENTENCE_NT'the shot glass is full vessel in test'
+        SENTENCE_NT'the handbag is a container with carrying capacity 1'
+        SENTENCE_NT'it is carried by the player'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'the handbag is full rather than empty if it contains somethi'

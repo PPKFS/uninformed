@@ -1,0 +1,12 @@
+Read 76 words
+ROOT_NT
+    HEADING_NT'subject is a kind of value' {heading 0}
+        SENTENCE_NT'subject is a kind of value'
+        SENTENCE_NT'the subjects are defined by the table of testsubjects'
+        SENTENCE_NT'table of testsubjects subject followers mass subja { subja ,'
+        SENTENCE_NT'testlab is a room'
+        SENTENCE_NT'when play begins , showme subja'
+        SENTENCE_NT'when play begins , say "Followers: [Followers of subjA], M: '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat through the table of testsubjects'
+        SENTENCE_NT'say "[subject entry] - followers: [followers entry] - mass: '

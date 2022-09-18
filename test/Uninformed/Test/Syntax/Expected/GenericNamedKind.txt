@@ -1,0 +1,22 @@
+Read 81 words
+syntax-test: unexpected semicolon in sentence: say "People..."
+syntax-test: unexpected semicolon in sentence: assay people
+syntax-test: unexpected semicolon in sentence: say "Things..."
+syntax-test: unexpected semicolon in sentence: assay thing
+syntax-test: unexpected semicolon in sentence: say "Colours..."
+ROOT_NT
+    HEADING_NT'heart of the sun is a room' {heading 0}
+        SENTENCE_NT'heart of the sun is a room'
+        SENTENCE_NT'the fish and the fowl are here'
+        SENTENCE_NT'to assay ( name of kind of value k )'
+        SENTENCE_NT'repeat with item running through ks'
+        SENTENCE_NT'say "There's [item]."'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and purple'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "People..."'
+        SENTENCE_NT'assay people'
+        SENTENCE_NT'say "Things..."'
+        SENTENCE_NT'assay thing'
+        SENTENCE_NT'say "Colours..."'
+        SENTENCE_NT'assay colours'

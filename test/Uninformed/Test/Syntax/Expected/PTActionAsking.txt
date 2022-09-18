@@ -1,0 +1,10 @@
+Read 53 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'will is a man in the kitchen'
+        SENTENCE_NT'cooking is an action applying to nothing'
+        SENTENCE_NT'understand "cook dinner" as cooking'
+        SENTENCE_NT'instead of asking will to try cooking for the second time'
+        SENTENCE_NT'say "Are you sure you wan't to ask will to cook dinner? He d'
+        SENTENCE_NT'test me with "will, cook dinner / g / will, cook dinner"'

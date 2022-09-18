@@ -1,0 +1,7 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'some things are defined by the table of stuff' {heading 0}
+        SENTENCE_NT'some things are defined by the table of stuff'
+        SENTENCE_NT'table of stuff thing description thing 1 "This is [paragraph'
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'test me with "showme thing 1 / showme thing 2"'

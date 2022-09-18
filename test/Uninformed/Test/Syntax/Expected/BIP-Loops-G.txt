@@ -1,0 +1,49 @@
+Read 210 words
+syntax-test: unexpected semicolon in sentence: let N be 31
+syntax-test: unexpected semicolon in sentence: showme N
+syntax-test: unexpected semicolon in sentence: now N is N divided by 2
+syntax-test: unexpected semicolon in sentence: now N is N times 3 plus 1
+syntax-test: unexpected semicolon in sentence: showme M
+syntax-test: unexpected semicolon in sentence: showme C
+syntax-test: unexpected semicolon in sentence: showme C2
+syntax-test: unexpected semicolon in sentence: showme K
+syntax-test: unexpected semicolon in sentence: say "First run."
+syntax-test: unexpected semicolon in sentence: say "[moon entry] has a surface best described as [surface entry]."
+syntax-test: unexpected semicolon in sentence: say "Second run."
+syntax-test: unexpected semicolon in sentence: say "[moon entry] has a surface best described as [surface entry]."
+syntax-test: unexpected semicolon in sentence: say "Third run."
+syntax-test: unexpected semicolon in sentence: say "[moon entry] has a surface best described as [surface entry]."
+syntax-test: unexpected semicolon in sentence: say "Fourth run."
+ROOT_NT
+    HEADING_NT'colour is a kind of value' {heading 0}
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , orange , yellow , green , blue , indig'
+        SENTENCE_NT'table of neptune's moons moon surface ( text ) "Nereid" "utt'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let n be 31'
+        SENTENCE_NT'while n is not 1'
+        SENTENCE_NT'showme n'
+        SENTENCE_NT'if n is even'
+        SENTENCE_NT'now n is n divided by 2'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'now n is n times 3 plus 1'
+        SENTENCE_NT'repeat with m running from 1 to 5'
+        SENTENCE_NT'showme m'
+        SENTENCE_NT'repeat with c running from orange to indigo'
+        SENTENCE_NT'showme c'
+        SENTENCE_NT'repeat with c2 running through colours'
+        SENTENCE_NT'showme c2'
+        SENTENCE_NT'repeat with k running through { 2 , 3 , 5 , 7 , 11 , 13 }'
+        SENTENCE_NT'showme k'
+        SENTENCE_NT'say "First run."'
+        SENTENCE_NT'repeat through the table of neptune's moons'
+        SENTENCE_NT'say "[moon entry] has a surface best described as [surface e'
+        SENTENCE_NT'say "Second run."'
+        SENTENCE_NT'repeat through the table of neptune's moons in reverse order'
+        SENTENCE_NT'say "[moon entry] has a surface best described as [surface e'
+        SENTENCE_NT'say "Third run."'
+        SENTENCE_NT'repeat through the table of neptune's moons in surface order'
+        SENTENCE_NT'say "[moon entry] has a surface best described as [surface e'
+        SENTENCE_NT'say "Fourth run."'
+        SENTENCE_NT'repeat through the table of neptune's moons in reverse surfa'
+        SENTENCE_NT'say "[moon entry] has a surface best described as [surface e'

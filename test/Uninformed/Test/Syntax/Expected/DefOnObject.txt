@@ -1,0 +1,10 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'the armoury is a room' {heading 0}
+        SENTENCE_NT'the armoury is a room'
+        SENTENCE_NT'the player holds a knife'
+        SENTENCE_NT'the player holds a book'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'an object is weaponlike if it is the knife'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "The weaponlike stuff: [a list of weaponlike things]."'

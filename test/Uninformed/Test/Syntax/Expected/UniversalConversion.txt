@@ -1,0 +1,12 @@
+Read 67 words
+syntax-test: unexpected semicolon in sentence: now the bijection relation relates 45 to 17
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the provision relation relates 4 to the property lighted '
+        SENTENCE_NT'partnership relates various texts to various texts'
+        SENTENCE_NT'bijection relates various numbers to various numbers'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the bijection relation relates 45 to 17'
+        SENTENCE_NT'now the partnership relation relates "apples" to "bananas"'

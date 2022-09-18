@@ -1,0 +1,13 @@
+Read 82 words
+ROOT_NT
+    HEADING_NT'"The Broken Diagonals Affair"' {heading 0}
+        SENTENCE_NT'"The Broken Diagonals Affair"'
+        SENTENCE_NT'blockhouse a is east of blockhouse b'
+        SENTENCE_NT'blockhouse b is south of blockhouse a'
+        SENTENCE_NT'blockhouse c is east of blockhouse d'
+        SENTENCE_NT'blockhouse d is north of blockhouse c'
+        SENTENCE_NT'blockhouse e is west of blockhouse f'
+        SENTENCE_NT'blockhouse f is south of blockhouse e'
+        SENTENCE_NT'blockhouse g is west of blockhouse h'
+        SENTENCE_NT'blockhouse h is north of blockhouse g'
+        SENTENCE_NT'test index ( internal ) with mp'

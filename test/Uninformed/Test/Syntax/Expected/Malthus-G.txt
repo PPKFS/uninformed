@@ -1,0 +1,14 @@
+Read 81 words
+syntax-test: unexpected semicolon in sentence: let R be given by Malthus where T is 6.0
+syntax-test: unexpected semicolon in sentence: say "[R]."
+syntax-test: unexpected semicolon in sentence: let R be given by Grandmalthus where T is 6.0
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'equation 1 - malthus r = 2.0^t where r is a number , t is a '
+        SENTENCE_NT'equation 2 - grandmalthus r = 2^t where r is a number , t is'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let r be given by malthus where t is 6.0'
+        SENTENCE_NT'say "[R]."'
+        SENTENCE_NT'let r be given by grandmalthus where t is 6.0'
+        SENTENCE_NT'say "[R]."'

@@ -1,0 +1,8 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'park is a room' {heading 0}
+        SENTENCE_NT'park is a room'
+        SENTENCE_NT'a blanket is an enterable supporter in the park'
+        SENTENCE_NT'the player wears a watch'
+        SENTENCE_NT'the player is on the blanket'
+        SENTENCE_NT'the player is a woman called terry'

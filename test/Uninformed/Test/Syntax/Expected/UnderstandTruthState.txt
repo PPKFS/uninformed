@@ -1,0 +1,16 @@
+Read 79 words
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'a status display is here'
+        SENTENCE_NT'the status display has a truth state called parity'
+        SENTENCE_NT'"The sober status display reads '[parity of the
+        status displ'
+        SENTENCE_NT'judging is an action applying to one truth state'
+        SENTENCE_NT'understand "yeah" as true'
+        SENTENCE_NT'carry out judging'
+        SENTENCE_NT'now the parity of the status display is the truth state unde'
+        SENTENCE_NT'report judging'
+        SENTENCE_NT'say "A bell pings, and the status display reads [parity of t'
+        SENTENCE_NT'understand "judge [truth state]" as judging'
+        SENTENCE_NT'test me with "judge true / judge false / judge yeah / judge '

@@ -1,0 +1,7 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'the bat is here'
+        SENTENCE_NT'understand "purloin [thing]" as examining'
+        SENTENCE_NT'test me with "purloin bat / !purloin bat"'

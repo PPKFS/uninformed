@@ -1,0 +1,9 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'graham is a man in the place'
+        SENTENCE_NT'understand "i7" or "inform" or "inform 7" as "[inform]"'
+        SENTENCE_NT'after asking graham about "[inform]"'
+        SENTENCE_NT'say "It's really rather good."'
+        SENTENCE_NT'test me with "ask graham about inform / ask graham about inf'

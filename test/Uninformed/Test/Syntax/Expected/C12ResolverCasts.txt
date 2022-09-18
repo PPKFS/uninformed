@@ -1,0 +1,14 @@
+Read 84 words
+syntax-test: unexpected semicolon in sentence: write "Monkeys ate my guava" for the item
+ROOT_NT
+    HEADING_NT'the study is a room' {heading 0}
+        SENTENCE_NT'the study is a room'
+        SENTENCE_NT'the duck is in the study'
+        SENTENCE_NT'instead of taking something ( called the item )'
+        SENTENCE_NT'write "Monkeys ate my guava" for the item'
+        SENTENCE_NT'xwrite "Monkeys stole my cheese" for the item'
+        SENTENCE_NT'to write ( t - text ) for ( p - a thing )'
+        SENTENCE_NT'say "t is: [t]."'
+        SENTENCE_NT'to xwrite ( t - text ) for ( p - object )'
+        SENTENCE_NT'say "t is: [t]."'
+        SENTENCE_NT'test me with "take duck"'

@@ -1,0 +1,20 @@
+Read 144 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a posture is a kind of value'
+        SENTENCE_NT'the postures are standing , sitting and lying'
+        SENTENCE_NT'a person has a posture'
+        SENTENCE_NT'posture-allowance relates various things to various postures'
+        SENTENCE_NT'the verb to allow ( he allows , they allow , he allowed , it'
+        SENTENCE_NT'the armchair is in home'
+        SENTENCE_NT'the table is in home'
+        SENTENCE_NT'the armchair allows sitting'
+        SENTENCE_NT'the table allows lying'
+        SENTENCE_NT'sitting on is an action applying to one thing'
+        SENTENCE_NT'before sitting on something which does not allow sitting'
+        SENTENCE_NT'say "That's not something you can sit on." instead'
+        SENTENCE_NT'before sitting on something which allows sitting'
+        SENTENCE_NT'say "That's something you can sit on." instead'
+        SENTENCE_NT'understand "sit down on [thing]" as sitting on'
+        SENTENCE_NT'test me with "sit down on armchair / sit down on table"'

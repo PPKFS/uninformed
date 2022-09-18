@@ -1,0 +1,164 @@
+Read 598 words
+syntax-test: unexpected semicolon in sentence: showme 2 + 3
+syntax-test: unexpected semicolon in sentence: showme 2 plus -3
+syntax-test: unexpected semicolon in sentence: showme 2 - 3
+syntax-test: unexpected semicolon in sentence: showme 2 minus -3
+syntax-test: unexpected semicolon in sentence: showme 4 * 5
+syntax-test: unexpected semicolon in sentence: showme -4 times 5
+syntax-test: unexpected semicolon in sentence: showme 7 multiplied by 9
+syntax-test: unexpected semicolon in sentence: showme 256 / 4
+syntax-test: unexpected semicolon in sentence: showme 440 divided by -10
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing 17 by 3
+syntax-test: unexpected semicolon in sentence: showme 93 to the nearest 10
+syntax-test: unexpected semicolon in sentence: showme 99 to the nearest 10
+syntax-test: unexpected semicolon in sentence: showme the square root of 144
+syntax-test: unexpected semicolon in sentence: showme the cube root of 64
+syntax-test: unexpected semicolon in sentence: showme the total size of the fruits
+syntax-test: unexpected semicolon in sentence: showme 2m + 3m
+syntax-test: unexpected semicolon in sentence: showme 2m plus -3m
+syntax-test: unexpected semicolon in sentence: showme 2m - 3m
+syntax-test: unexpected semicolon in sentence: showme 2m minus -3m
+syntax-test: unexpected semicolon in sentence: showme 4m * 5m
+syntax-test: unexpected semicolon in sentence: showme -4m times 5m
+syntax-test: unexpected semicolon in sentence: showme 7m multiplied by 9m
+syntax-test: unexpected semicolon in sentence: showme 256m / 4m
+syntax-test: unexpected semicolon in sentence: showme 440 sq m divided by 10m
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing 17m by 3
+syntax-test: unexpected semicolon in sentence: showme 93m to the nearest 10m
+syntax-test: unexpected semicolon in sentence: showme 99m to the nearest 10m
+syntax-test: unexpected semicolon in sentence: showme the square root of 144 sq m
+syntax-test: unexpected semicolon in sentence: showme the total length of the fruits
+syntax-test: unexpected semicolon in sentence: showme 3 divided by 2
+syntax-test: unexpected semicolon in sentence: showme 3 divided by 2.0
+syntax-test: unexpected semicolon in sentence: showme 3.0 divided by 2
+syntax-test: unexpected semicolon in sentence: showme 3.0 divided by 2.0
+syntax-test: unexpected semicolon in sentence: showme 3 + 3
+syntax-test: unexpected semicolon in sentence: showme pi + pi
+syntax-test: unexpected semicolon in sentence: showme pi + 3
+syntax-test: unexpected semicolon in sentence: showme 3 + pi
+syntax-test: unexpected semicolon in sentence: showme 3 - 3
+syntax-test: unexpected semicolon in sentence: showme pi - pi
+syntax-test: unexpected semicolon in sentence: showme pi - 3
+syntax-test: unexpected semicolon in sentence: showme 3 - pi
+syntax-test: unexpected semicolon in sentence: showme 3 * 3
+syntax-test: unexpected semicolon in sentence: showme pi * pi
+syntax-test: unexpected semicolon in sentence: showme pi * 3
+syntax-test: unexpected semicolon in sentence: showme 3 * pi
+syntax-test: unexpected semicolon in sentence: showme 3 / 3
+syntax-test: unexpected semicolon in sentence: showme pi / pi
+syntax-test: unexpected semicolon in sentence: showme pi / 3
+syntax-test: unexpected semicolon in sentence: showme 3 / pi
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing pi by 3
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing 3.3 by 1
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing 3.7 by 1
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing -3.3 by 1
+syntax-test: unexpected semicolon in sentence: showme the remainder after dividing -3.7 by 1
+syntax-test: unexpected semicolon in sentence: showme 2 to the power 4
+syntax-test: unexpected semicolon in sentence: showme 100 to the power 0.5
+syntax-test: unexpected semicolon in sentence: showme 7 to the power -1
+syntax-test: unexpected semicolon in sentence: showme pi to the power 0
+syntax-test: unexpected semicolon in sentence: showme reciprocal of -2
+syntax-test: unexpected semicolon in sentence: showme reciprocal of 0.1
+syntax-test: unexpected semicolon in sentence: showme reciprocal of 7
+syntax-test: unexpected semicolon in sentence: showme reciprocal of plus infinity
+syntax-test: unexpected semicolon in sentence: showme real square root of 2
+syntax-test: unexpected semicolon in sentence: showme 1.4 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme 1.6 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme -1.6 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme 6 x 10^23 to the nearest whole number
+syntax-test: unexpected semicolon in sentence: showme pi to the power 4
+syntax-test: unexpected semicolon in sentence: showme pi * pi * pi * pi
+syntax-test: unexpected semicolon in sentence: showme 2 times holdings
+ROOT_NT
+    HEADING_NT'a fruit is a kind of object' {heading 0}
+        SENTENCE_NT'a fruit is a kind of object'
+        SENTENCE_NT'an apple , a pear and an orange are fruits'
+        SENTENCE_NT'an fruit has a number called size'
+        SENTENCE_NT'the size of a fruit is usually 4'
+        SENTENCE_NT'the size of the apple is 7'
+        SENTENCE_NT'a length is a kind of value'
+        SENTENCE_NT'1m specifies a length'
+        SENTENCE_NT'1km specifies a length scaled up by 1000'
+        SENTENCE_NT'an area is a kind of value'
+        SENTENCE_NT'10 sq m specifies an area'
+        SENTENCE_NT'a length times a length specifies an area'
+        SENTENCE_NT'a fruit has a length'
+        SENTENCE_NT'an apple has length 1m'
+        SENTENCE_NT'a pear has length 6m'
+        SENTENCE_NT'an orange has length 3m'
+        SENTENCE_NT'cash-value is a kind of value'
+        SENTENCE_NT'$1.99 specifies a cash-value'
+        SENTENCE_NT'holdings is a cash-value that varies'
+        SENTENCE_NT'holdings is $3.50'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme 2 + 3'
+        SENTENCE_NT'showme 2 plus -3'
+        SENTENCE_NT'showme 2 - 3'
+        SENTENCE_NT'showme 2 minus -3'
+        SENTENCE_NT'showme 4 * 5'
+        SENTENCE_NT'showme -4 times 5'
+        SENTENCE_NT'showme 7 multiplied by 9'
+        SENTENCE_NT'showme 256 / 4'
+        SENTENCE_NT'showme 440 divided by -10'
+        SENTENCE_NT'showme the remainder after dividing 17 by 3'
+        SENTENCE_NT'showme 93 to the nearest 10'
+        SENTENCE_NT'showme 99 to the nearest 10'
+        SENTENCE_NT'showme the square root of 144'
+        SENTENCE_NT'showme the cube root of 64'
+        SENTENCE_NT'showme the total size of the fruits'
+        SENTENCE_NT'showme 2m + 3m'
+        SENTENCE_NT'showme 2m plus -3m'
+        SENTENCE_NT'showme 2m - 3m'
+        SENTENCE_NT'showme 2m minus -3m'
+        SENTENCE_NT'showme 4m * 5m'
+        SENTENCE_NT'showme -4m times 5m'
+        SENTENCE_NT'showme 7m multiplied by 9m'
+        SENTENCE_NT'showme 256m / 4m'
+        SENTENCE_NT'showme 440 sq m divided by 10m'
+        SENTENCE_NT'showme the remainder after dividing 17m by 3'
+        SENTENCE_NT'showme 93m to the nearest 10m'
+        SENTENCE_NT'showme 99m to the nearest 10m'
+        SENTENCE_NT'showme the square root of 144 sq m'
+        SENTENCE_NT'showme the total length of the fruits'
+        SENTENCE_NT'showme 3 divided by 2'
+        SENTENCE_NT'showme 3 divided by 2.0'
+        SENTENCE_NT'showme 3.0 divided by 2'
+        SENTENCE_NT'showme 3.0 divided by 2.0'
+        SENTENCE_NT'showme 3 + 3'
+        SENTENCE_NT'showme pi + pi'
+        SENTENCE_NT'showme pi + 3'
+        SENTENCE_NT'showme 3 + pi'
+        SENTENCE_NT'showme 3 - 3'
+        SENTENCE_NT'showme pi - pi'
+        SENTENCE_NT'showme pi - 3'
+        SENTENCE_NT'showme 3 - pi'
+        SENTENCE_NT'showme 3 * 3'
+        SENTENCE_NT'showme pi * pi'
+        SENTENCE_NT'showme pi * 3'
+        SENTENCE_NT'showme 3 * pi'
+        SENTENCE_NT'showme 3 / 3'
+        SENTENCE_NT'showme pi / pi'
+        SENTENCE_NT'showme pi / 3'
+        SENTENCE_NT'showme 3 / pi'
+        SENTENCE_NT'showme the remainder after dividing pi by 3'
+        SENTENCE_NT'showme the remainder after dividing 3.3 by 1'
+        SENTENCE_NT'showme the remainder after dividing 3.7 by 1'
+        SENTENCE_NT'showme the remainder after dividing -3.3 by 1'
+        SENTENCE_NT'showme the remainder after dividing -3.7 by 1'
+        SENTENCE_NT'showme 2 to the power 4'
+        SENTENCE_NT'showme 100 to the power 0.5'
+        SENTENCE_NT'showme 7 to the power -1'
+        SENTENCE_NT'showme pi to the power 0'
+        SENTENCE_NT'showme reciprocal of -2'
+        SENTENCE_NT'showme reciprocal of 0.1'
+        SENTENCE_NT'showme reciprocal of 7'
+        SENTENCE_NT'showme reciprocal of plus infinity'
+        SENTENCE_NT'showme real square root of 2'
+        SENTENCE_NT'showme 1.4 to the nearest whole number'
+        SENTENCE_NT'showme 1.6 to the nearest whole number'
+        SENTENCE_NT'showme -1.6 to the nearest whole number'
+        SENTENCE_NT'showme 6 x 10^23 to the nearest whole number'
+        SENTENCE_NT'showme pi to the power 4'
+        SENTENCE_NT'showme pi * pi * pi * pi'
+        SENTENCE_NT'showme 2 times holdings'
+        SENTENCE_NT'showme 2.7 times holdings'

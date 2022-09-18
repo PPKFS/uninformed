@@ -1,0 +1,9 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'a key is a kind of thing'
+        SENTENCE_NT'a key is always improper-named'
+        SENTENCE_NT'the locker is a locked container in the kitchen'
+        SENTENCE_NT'matching key of locker is red key'
+        SENTENCE_NT'the red key is a key in the kitchen'

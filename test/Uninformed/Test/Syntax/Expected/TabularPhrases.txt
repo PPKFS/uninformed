@@ -1,0 +1,13 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'to grub ( this is grubbing )'
+        SENTENCE_NT'say "Grubbing."'
+        SENTENCE_NT'to flub ( this is flubbing )'
+        SENTENCE_NT'say "Flubbing."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat through the table of phrases'
+        SENTENCE_NT'apply the func entry'
+        SENTENCE_NT'include table construction in the debugging log'
+        SENTENCE_NT'table of phrases func grubbing flubbing'

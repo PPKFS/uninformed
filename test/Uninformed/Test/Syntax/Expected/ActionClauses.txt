@@ -1,0 +1,15 @@
+Read 81 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'otherwhere is east of place'
+        SENTENCE_NT'the jumping action has an object called the current place ( '
+        SENTENCE_NT'setting action variables for jumping'
+        SENTENCE_NT'now the current place is the location'
+        SENTENCE_NT'check jumping at the place'
+        SENTENCE_NT'say "You can be bothered."'
+        SENTENCE_NT'report jumping at the place'
+        SENTENCE_NT'say "You were bothered."'
+        SENTENCE_NT'instead of jumping at the place'
+        SENTENCE_NT'say "You can't be bothered."'
+        SENTENCE_NT'test me with "jump / e / jump"'

@@ -1,0 +1,8 @@
+Read 38 words
+ROOT_NT
+    HEADING_NT'room1 is a room' {heading 0}
+        SENTENCE_NT'room1 is a room'
+        SENTENCE_NT'room2 is east of room1'
+        SENTENCE_NT'every turn when the player is in room2 for the first time'
+        SENTENCE_NT'say "Here we are!"'
+        SENTENCE_NT'test me with "e / z / w / e / z"'

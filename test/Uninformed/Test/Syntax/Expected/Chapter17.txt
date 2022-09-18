@@ -1,0 +1,338 @@
+Read 2208 words
+syntax-test: unexpected semicolon in sentence: now the noun is nowhere
+syntax-test: unexpected semicolon in sentence: if something is on the platter, say "platter supporting [the list of things on the platter]"
+syntax-test: unexpected semicolon in sentence: otherwise say "empty platter"
+syntax-test: unexpected semicolon in sentence: now the left hand status line is "[location]"
+syntax-test: unexpected semicolon in sentence: now the right hand status line is "[location]"
+syntax-test: unexpected semicolon in sentence: let place be location
+syntax-test: unexpected semicolon in sentence: say "You can go: [line break]"
+syntax-test: unexpected semicolon in sentence: repeat with way running through directions begin
+syntax-test: unexpected semicolon in sentence: let place be the room way from the location
+syntax-test: unexpected semicolon in sentence: if place is a room, say "  [way][if place is visited] to [the place][end if][line break]"
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: let place be location
+syntax-test: unexpected semicolon in sentence: repeat with way running through directions begin
+syntax-test: unexpected semicolon in sentence: let place be the room way from the location
+syntax-test: unexpected semicolon in sentence: if place is a room, say " [way]"
+syntax-test: unexpected semicolon in sentence: if the blur is marked for listing begin
+syntax-test: unexpected semicolon in sentence: say "[The blur] catches your eye."
+syntax-test: unexpected semicolon in sentence: now the blur is not marked for listing
+syntax-test: unexpected semicolon in sentence: say "Sketched on the floor"
+syntax-test: unexpected semicolon in sentence: list the contents of the location, as a sentence, tersely, listing marked items only, prefacing with is/are, including contents and giving brief inventory information
+syntax-test: unexpected semicolon in sentence: if a chair (called the seat) is visible, now the noun is the seat
+syntax-test: unexpected semicolon in sentence: if the skeleton key is carried by the player, now the second noun is the skeleton key
+syntax-test: unexpected semicolon in sentence: if the player's command includes "thank" begin
+syntax-test: unexpected semicolon in sentence: say "No thanks."
+syntax-test: unexpected semicolon in sentence: reject the player's command
+syntax-test: unexpected semicolon in sentence: if the player's command includes "please" begin
+syntax-test: unexpected semicolon in sentence: say "(Quelle politesse! But no need to say please.)"
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: if the player's command includes "[using] [body part]" begin
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the player's command includes "[iteration]" begin
+syntax-test: unexpected semicolon in sentence: say "(You must issue a separate command each time you wish to do something.)[line break]"
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the player's command includes "[number] times" begin
+syntax-test: unexpected semicolon in sentence: say "(You must issue a separate command each time you wish to do something.)[line break]"
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the player's command includes "[adverb]" begin
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the player's command includes "[temporal adverb]" begin
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the player's command includes "[future tense]" begin
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the player's command includes "[want to]" begin
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the player's command includes "try to" begin
+syntax-test: unexpected semicolon in sentence: cut the matched text
+syntax-test: unexpected semicolon in sentence: if the player is not in the Simon Says Room, make no decision
+syntax-test: unexpected semicolon in sentence: if player's command does not include "simon says" begin
+syntax-test: unexpected semicolon in sentence: say "Simon didn't say!"
+syntax-test: unexpected semicolon in sentence: reject the player's command
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if the player's command includes "simon says", cut the matched text
+syntax-test: unexpected semicolon in sentence: say "Success!"
+ROOT_NT
+    HEADING_NT'"Chapter 17: Vanity" by emily short' {heading 0}
+        SENTENCE_NT'"Chapter 17: Vanity" by emily short'
+        SENTENCE_NT'use command line echoing'
+        HEADING_NT'chapter 1' {heading 1}
+            HEADING_NT'section 1 - what are activities ?' {heading 2}
+                SENTENCE_NT'a beverage is a kind of thing'
+                SENTENCE_NT'instead of drinking a beverage'
+                SENTENCE_NT'now the noun is nowhere'
+                SENTENCE_NT'say "Mm, glug."'
+                SENTENCE_NT'the silver platter is a portable supporter carried by the pl'
+                SENTENCE_NT'a coke is a kind of beverage'
+                SENTENCE_NT'seven cokes are on the platter'
+                SENTENCE_NT'a sprite is a kind of beverage'
+                SENTENCE_NT'two sprites are on the platter'
+                SENTENCE_NT'a root beer is a kind of beverage'
+                SENTENCE_NT'three root beers are on the platter'
+                SENTENCE_NT'a ginger ale is a kind of beverage'
+                SENTENCE_NT'five ginger ales are on the platter'
+                SENTENCE_NT'the souvenir hat is worn by the player'
+                SENTENCE_NT'the exhibition room is a room'
+                SENTENCE_NT'the storage closet is a dark room'
+                SENTENCE_NT'it is west of the exhibition room'
+                SENTENCE_NT'a broom is in the storage closet'
+                SENTENCE_NT'the simon says room is north of the exhibition room'
+                SENTENCE_NT'a picture is a kind of container'
+                SENTENCE_NT'a picture is usually enterable , open , unopenable , and fix'
+                SENTENCE_NT'before printing the name of a picture , say "[italic type]"'
+                SENTENCE_NT'after printing the name of a picture , say "[roman type]"'
+                SENTENCE_NT'bronzino is a picture in the exhibition room'
+                SENTENCE_NT'instead of entering the bronzino , move the player to bronzi'
+                SENTENCE_NT'the printed name of the bronzino is "Venus, Cupid, Folly and'
+                SENTENCE_NT'understand "venus" or "cupid" or "folly" or "time" or "bronz'
+                SENTENCE_NT'holbein is a picture in the exhibition room'
+                SENTENCE_NT'instead of entering the holbein , move the player to the hol'
+                SENTENCE_NT'the printed name of the holbein is "The Ambassadors"'
+                SENTENCE_NT'the corkscrew is carried by the player'
+                SENTENCE_NT'a painting is a kind of room'
+                SENTENCE_NT'understand "zip" as returning to home'
+                SENTENCE_NT'returning to home is an action applying to nothing'
+                SENTENCE_NT'carry out returning to home'
+                SENTENCE_NT'move the player to the exhibition room'
+                SENTENCE_NT'holbein interior is a painting'
+                SENTENCE_NT'"You're on display. 'Look at me, look at my goods.' That's w'
+                SENTENCE_NT'the blur is a thing in the holbein interior'
+                SENTENCE_NT'"There's something at your feet, obscuring the neat pattern '
+                SENTENCE_NT'the description of the blur is "There's something wrong with'
+                SENTENCE_NT'bronzino interior is a painting'
+                SENTENCE_NT'"The first thing you notice is how little room there is in h'
+                SENTENCE_NT'cupid is a man in bronzino interior'
+                SENTENCE_NT'he is scenery'
+                SENTENCE_NT'the description of cupid is "He has all his mother's attenti'
+                SENTENCE_NT'the mask is a wearable thing in the bronzino interior'
+                SENTENCE_NT'the description is "It looks about your size."'
+                SENTENCE_NT'venus is a woman in bronzino interior'
+                SENTENCE_NT'she is scenery'
+                SENTENCE_NT'the description of venus is "Despite the careful rendering t'
+                SENTENCE_NT'venus is carrying a shining golden ball'
+                SENTENCE_NT'the description of the ball is "It shares the primitive appe'
+                SENTENCE_NT'father time is a man in bronzino interior'
+                SENTENCE_NT'he is scenery'
+                SENTENCE_NT'the description is "An old man with a long grasp."'
+                SENTENCE_NT'folly is a woman in bronzino interior'
+                SENTENCE_NT'she is scenery'
+                SENTENCE_NT'understand "girl" or "snake" as folly'
+                SENTENCE_NT'the description of folly is "She's got a nice face.  The res'
+                SENTENCE_NT'instead of doing something except examining to folly'
+                SENTENCE_NT'say "She doesn't look at you, but her mind touches yours, an'
+                SENTENCE_NT'instead of asking folly to try taking the golden ball when t'
+                SENTENCE_NT'say "'Who do you think gave it to her in the first place?'"'
+            HEADING_NT'section 2 - how activities work' {heading 2}
+            HEADING_NT'section 3 - rules applied to activities' {heading 2}
+                SENTENCE_NT'rule for printing the name of the blur when we have taken th'
+                SENTENCE_NT'say "skull"'
+                SENTENCE_NT'after printing the name of something which is carried by the'
+                SENTENCE_NT'say " (in paint)"'
+            HEADING_NT'section 4 - while clauses' {heading 2}
+                SENTENCE_NT'rule for printing the name of the player while the player is'
+                SENTENCE_NT'say "your painted self"'
+                SENTENCE_NT'rule for printing the name of the blur while listing content'
+                SENTENCE_NT'say "sinister skull"'
+            HEADING_NT'section 5 - printing the name of something' {heading 2}
+                SENTENCE_NT'before printing the name of a person who is in a painting'
+                SENTENCE_NT'say "Painted "'
+                SENTENCE_NT'instead of attacking a person'
+                SENTENCE_NT'say "[The noun] avoids you."'
+                SENTENCE_NT'rule for printing the name of the silver platter while not p'
+                SENTENCE_NT'if something is on the platter , say "platter supporting [th'
+                SENTENCE_NT'otherwise say "empty platter"'
+                SENTENCE_NT'omit contents in listing'
+                SENTENCE_NT'after printing the name of a picture'
+                SENTENCE_NT'omit contents in listing'
+            HEADING_NT'section 6 - listing contents of something' {heading 2}
+                SENTENCE_NT'rule for printing the name of the corkscrew while listing co'
+                SENTENCE_NT'say "dangerous corkscrew"'
+                SENTENCE_NT'before listing contents'
+                SENTENCE_NT'group beverages together as "drinks"'
+                SENTENCE_NT'before listing contents'
+                SENTENCE_NT'group things worn by the player together'
+            HEADING_NT'section 7 - grouping together something' {heading 2}
+                SENTENCE_NT'a scrabble piece is a kind of thing'
+                SENTENCE_NT'the x , the y and the z are scrabble pieces in the exhibitio'
+                SENTENCE_NT'before listing contents'
+                SENTENCE_NT'group scrabble pieces together'
+                SENTENCE_NT'before printing the name of a scrabble piece while not group'
+                SENTENCE_NT'after printing the name of a scrabble piece while not groupi'
+                SENTENCE_NT'before grouping together scrabble pieces , say "the tiles "'
+                SENTENCE_NT'after grouping together scrabble pieces , say " from a Scrab'
+                SENTENCE_NT'rule for grouping together things worn by the player while l'
+                SENTENCE_NT'say "your clothing"'
+            HEADING_NT'section 8 - constructing the status line' {heading 2}
+                SENTENCE_NT'rule for printing the name of west while constructing the st'
+                SENTENCE_NT'say "W"'
+                SENTENCE_NT'rule for printing the name of southwest while constructing t'
+                SENTENCE_NT'say "SW"'
+                SENTENCE_NT'rule for printing the name of east while constructing the st'
+                SENTENCE_NT'say "E"'
+                SENTENCE_NT'rule for printing the name of southeast while constructing t'
+                SENTENCE_NT'say "SE"'
+                SENTENCE_NT'rule for printing the name of south while constructing the s'
+                SENTENCE_NT'say "S"'
+                SENTENCE_NT'rule for printing the name of northwest while constructing t'
+                SENTENCE_NT'say "NW"'
+                SENTENCE_NT'rule for printing the name of north while constructing the s'
+                SENTENCE_NT'say "N"'
+                SENTENCE_NT'rule for printing the name of northeast while constructing t'
+                SENTENCE_NT'say "NE"'
+                SENTENCE_NT'rule for printing the name of up while constructing the stat'
+                SENTENCE_NT'say "U"'
+                SENTENCE_NT'rule for printing the name of down while constructing the st'
+                SENTENCE_NT'say "D"'
+                SENTENCE_NT'rule for printing the name of inside while constructing the '
+                SENTENCE_NT'say "IN"'
+                SENTENCE_NT'rule for printing the name of outside while constructing the'
+                SENTENCE_NT'say "OUT"'
+                SENTENCE_NT'before constructing the status line while the location is a '
+                SENTENCE_NT'now the left hand status line is "[location]"'
+                SENTENCE_NT'now the right hand status line is "Room: [number of visited '
+                SENTENCE_NT'before constructing the status line while the location is no'
+                SENTENCE_NT'now the right hand status line is "[location]"'
+                SENTENCE_NT'now the left hand status line is "Exits: [Exit list]"'
+                SENTENCE_NT'understand "dirs" or "directions" or "exits" as listing exit'
+                SENTENCE_NT'listing exits is an action applying to nothing'
+                SENTENCE_NT'carry out listing exits'
+                SENTENCE_NT'let place be location'
+                SENTENCE_NT'say "You can go: [line break]"'
+                SENTENCE_NT'repeat with way running through directions begin'
+                SENTENCE_NT'let place be the room way from the location'
+                SENTENCE_NT'if place is a room , say "  [way][if place is visited] to [t'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'say line break'
+                SENTENCE_NT'to say exit list'
+                SENTENCE_NT'let place be location'
+                SENTENCE_NT'repeat with way running through directions begin'
+                SENTENCE_NT'let place be the room way from the location'
+                SENTENCE_NT'if place is a room , say " [way]"'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'rule for constructing the status line while the mask is worn'
+                SENTENCE_NT'do nothing'
+            HEADING_NT'section 9 - writing a paragraph about' {heading 2}
+                SENTENCE_NT'rule for writing a paragraph about the ball'
+                SENTENCE_NT'say "A golden ball on the floor reflects [a list of non-ball'
+                SENTENCE_NT'definition'
+                SENTENCE_NT'a thing is non-ball if it is not the ball'
+                SENTENCE_NT'rule for writing a paragraph about a scrabble piece ( called'
+                SENTENCE_NT'say "[The item] has fallen under [the obstruction]."'
+            HEADING_NT'section 10 - listing nondescript items of something' {heading 2}
+                SENTENCE_NT'before listing nondescript items'
+                SENTENCE_NT'if the blur is marked for listing begin'
+                SENTENCE_NT'say "[The blur] catches your eye."'
+                SENTENCE_NT'now the blur is not marked for listing'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'rule for listing nondescript items of a painting'
+                SENTENCE_NT'say "Sketched on the floor"'
+                SENTENCE_NT'list the contents of the location , as a sentence , tersely '
+                SENTENCE_NT'say "."'
+            HEADING_NT'section 11 - deciding the scope of something' {heading 2}
+                SENTENCE_NT'after deciding the scope of the player while the location is'
+                SENTENCE_NT'repeat with view running through paintings'
+                SENTENCE_NT'place view in scope'
+                SENTENCE_NT'after deciding the scope of the player while in darkness'
+                SENTENCE_NT'place the location in scope'
+            HEADING_NT'section 12 - supplying a missing noun / second noun' {heading 2}
+                SENTENCE_NT'understand "sit" as entering'
+                SENTENCE_NT'a chair is a kind of supporter'
+                SENTENCE_NT'a chair is always enterable'
+                SENTENCE_NT'a chair is usually fixed in place'
+                SENTENCE_NT'the bench is a chair in the exhibition room'
+                SENTENCE_NT'rule for supplying a missing noun while entering'
+                SENTENCE_NT'if a chair ( called the seat ) is visible , now the noun is '
+                SENTENCE_NT'otherwise say "What, on the floor? No." instead'
+                SENTENCE_NT'understand "unlock [something]" as unlocking it with'
+                SENTENCE_NT'rule for supplying a missing second noun while unlocking'
+                SENTENCE_NT'if the skeleton key is carried by the player , now the secon'
+                SENTENCE_NT'otherwise say "You will have to specify what to unlock [the '
+                SENTENCE_NT'the safe is a locked lockable openable closed container in t'
+                SENTENCE_NT'it is fixed in place'
+                SENTENCE_NT'it contains a beverage called jolt'
+                SENTENCE_NT'the skeleton key is carried by the player'
+                SENTENCE_NT'it unlocks the safe'
+                SENTENCE_NT'the description of jolt is "A cola product of special potenc'
+            HEADING_NT'section 13 - reading a command' {heading 2}
+                SENTENCE_NT'before reading a command while the turn count is 1 , say "(T'
+                SENTENCE_NT'after reading a command'
+                SENTENCE_NT'if the player's command includes "thank" begin'
+                SENTENCE_NT'say "No thanks."'
+                SENTENCE_NT'reject the player's command'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'after reading a command'
+                SENTENCE_NT'if the player's command includes "please" begin'
+                SENTENCE_NT'say "(Quelle politesse! But no need to say please.)"'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'after reading a command'
+                SENTENCE_NT'if the player's command matches "grab" , replace the player''
+                SENTENCE_NT'understand "want to" or "wish to" or "would like to" or "wil'
+                SENTENCE_NT'understand "foot" or "feet" or "hand" or "hands" or "finger"'
+                SENTENCE_NT'understand "with" or "using" or "with my" or "using my" as "'
+                SENTENCE_NT'understand "twice" or "thrice" as "[iteration]"'
+                SENTENCE_NT'understand "quickly" or "slowly" or "suddenly" or "secretly"'
+                SENTENCE_NT'understand "annually" or "daily" or "monthly" or "soon" or "'
+                SENTENCE_NT'understand "am going to" or "am about to" or "start to" or "'
+                SENTENCE_NT'understand "score" and "full score" and "full" as "[score]"'
+                SENTENCE_NT'understand "tell [someone] that/how [text]" as telling it ab'
+                SENTENCE_NT'after reading a command'
+                SENTENCE_NT'if the player's command includes "[using] [body part]" begin'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the player's command includes "[iteration]" begin'
+                SENTENCE_NT'say "(You must issue a separate command each time you wish t'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the player's command includes "[number] times" begin'
+                SENTENCE_NT'say "(You must issue a separate command each time you wish t'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the player's command includes "[adverb]" begin'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the player's command includes "[temporal adverb]" begin'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the player's command includes "[future tense]" begin'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the player's command includes "[want to]" begin'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the player's command includes "try to" begin'
+                SENTENCE_NT'cut the matched text'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'after reading a command'
+                SENTENCE_NT'if the player is not in the simon says room , make no decisi'
+                SENTENCE_NT'if player's command does not include "simon says" begin'
+                SENTENCE_NT'say "Simon didn't say!"'
+                SENTENCE_NT'reject the player's command'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'if the player's command includes "simon says" , cut the matc'
+                SENTENCE_NT'end if'
+            HEADING_NT'section 14 - deciding whether all includes' {heading 2}
+                SENTENCE_NT'rule for deciding whether all includes scenery'
+                SENTENCE_NT'it does not'
+                SENTENCE_NT'rule for deciding whether all includes a fixed in place thin'
+                SENTENCE_NT'it does not'
+            HEADING_NT'section 15 - printing the player's obituary' {heading 2}
+                SENTENCE_NT'instead of attacking the player'
+                SENTENCE_NT'say "Success!"'
+                SENTENCE_NT'end the story saying "You have died"'
+                SENTENCE_NT'instead of eating the ball'
+                SENTENCE_NT'end the story finally saying "You have won"'
+                SENTENCE_NT'the print final score rule does nothing'
+                SENTENCE_NT'after printing the player's obituary'
+                SENTENCE_NT'say "And you visited the interior of [number of visited pain'
+            HEADING_NT'section 16 - amusing a victorious player' {heading 2}
+                SENTENCE_NT'rule for amusing a victorious player'
+                SENTENCE_NT'say "Most of the descriptive content of this one is taken fr'
+                SENTENCE_NT'use the serial comma'

@@ -1,0 +1,18 @@
+Read 74 words
+syntax-test: unexpected semicolon in sentence: say "words:[line break]"
+syntax-test: unexpected semicolon in sentence: say "[the word entry][line break]"
+syntax-test: unexpected semicolon in sentence: say "[paragraph break]indexed words:[line break]"
+syntax-test: unexpected semicolon in sentence: sort the Table of Junk in string order
+ROOT_NT
+    HEADING_NT'the placeholder is a room' {heading 0}
+        SENTENCE_NT'the placeholder is a room'
+        SENTENCE_NT'table of stuff word "abacus" "zoo" "vacuum" "cheese"'
+        SENTENCE_NT'table of junk string ( text ) "abacus" "zoo" "vacuum" "chees'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "words:[line break]"'
+        SENTENCE_NT'repeat through the table of stuff in word order'
+        SENTENCE_NT'say "[the word entry][line break]"'
+        SENTENCE_NT'say "[paragraph break]indexed words:[line break]"'
+        SENTENCE_NT'sort the table of junk in string order'
+        SENTENCE_NT'repeat through the table of junk'
+        SENTENCE_NT'say "[the string entry][line break]"'

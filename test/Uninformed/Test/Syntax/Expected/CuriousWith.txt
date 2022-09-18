@@ -1,0 +1,11 @@
+Read 60 words
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'object x with the printed name "Object A" is a thing'
+        SENTENCE_NT'object y is a thing with the printed name "Object Z"'
+        SENTENCE_NT'object b is a thing'
+        SENTENCE_NT'object c is a thing'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with t running through things'
+        SENTENCE_NT'say "[T]."'

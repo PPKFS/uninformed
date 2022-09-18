@@ -1,0 +1,8 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'the arena is a room' {heading 0}
+        SENTENCE_NT'the arena is a room'
+        SENTENCE_NT'weird time is a time that varies'
+        SENTENCE_NT'weird time is 8 hours 3 minutes'
+        SENTENCE_NT'instead of looking'
+        SENTENCE_NT'say "[hours part of weird time] hours and [minutes part of w'

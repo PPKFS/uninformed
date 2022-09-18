@@ -1,0 +1,13 @@
+Read 68 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'at 11:32 am'
+        SENTENCE_NT'say "Goodness!"'
+        SENTENCE_NT'at 7:12 am ( this is the dawn greeting rule )'
+        SENTENCE_NT'say "Hello!"'
+        SENTENCE_NT'at the time when the clock strikes midnight'
+        SENTENCE_NT'say "Oh!"'
+        SENTENCE_NT'after looking'
+        SENTENCE_NT'the clock strikes midnight in 18 minutes from now'
+        SENTENCE_NT'test index ( internal ) with ev'

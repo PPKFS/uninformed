@@ -1,0 +1,128 @@
+Read 643 words
+syntax-test: unexpected semicolon in sentence: if N is odd, say "[N] is odd."
+syntax-test: unexpected semicolon in sentence: if N is even, say "[N] is even."
+syntax-test: unexpected semicolon in sentence: if N is negative, say "[N] is negative."
+syntax-test: unexpected semicolon in sentence: if N is positive, say "[N] is positive."
+syntax-test: unexpected semicolon in sentence: let T1 be "Knowing Me, Knowing You"
+syntax-test: unexpected semicolon in sentence: let T2 be ""
+syntax-test: unexpected semicolon in sentence: if T1 is empty, say "'[T1]' is empty."
+syntax-test: unexpected semicolon in sentence: if T1 is non-empty, say "'[T1]' is non-empty."
+syntax-test: unexpected semicolon in sentence: if T2 is empty, say "'[T2]' is empty."
+syntax-test: unexpected semicolon in sentence: if T2 is non-empty, say "'[T2]' is non-empty."
+syntax-test: unexpected semicolon in sentence: let IT1 be text
+syntax-test: unexpected semicolon in sentence: let IT2 be text
+syntax-test: unexpected semicolon in sentence: let IT1 be "Voulez Vous"
+syntax-test: unexpected semicolon in sentence: let IT2 be ""
+syntax-test: unexpected semicolon in sentence: if IT1 is empty, say "'[IT1]' is empty."
+syntax-test: unexpected semicolon in sentence: if IT1 is non-empty, say "'[IT1]' is non-empty."
+syntax-test: unexpected semicolon in sentence: if IT2 is empty, say "'[IT2]' is empty."
+syntax-test: unexpected semicolon in sentence: if IT2 is non-empty, say "'[IT2]' is non-empty."
+syntax-test: unexpected semicolon in sentence: if the Table of Vacancy is empty, say "[Table of Vacancy] is empty."
+syntax-test: unexpected semicolon in sentence: if the Table of Vacancy is full, say "[Table of Vacancy] is full."
+syntax-test: unexpected semicolon in sentence: if the Table of Vacancy is non-empty, say "[Table of Vacancy] is non-empty."
+syntax-test: unexpected semicolon in sentence: if the Table of Vacancy is non-full, say "[Table of Vacancy] is non-full."
+syntax-test: unexpected semicolon in sentence: if the Table of Plenitude is empty, say "[Table of Plenitude] is empty."
+syntax-test: unexpected semicolon in sentence: if the Table of Plenitude is full, say "[Table of Plenitude] is full."
+syntax-test: unexpected semicolon in sentence: if the Table of Plenitude is non-empty, say "[Table of Plenitude] is non-empty."
+syntax-test: unexpected semicolon in sentence: if the Table of Plenitude is non-full, say "[Table of Plenitude] is non-full."
+syntax-test: unexpected semicolon in sentence: if the Table of Middlingness is empty, say "[Table of Middlingness] is empty."
+syntax-test: unexpected semicolon in sentence: if the Table of Middlingness is full, say "[Table of Middlingness] is full."
+syntax-test: unexpected semicolon in sentence: if the Table of Middlingness is non-empty, say "[Table of Middlingness] is non-empty."
+syntax-test: unexpected semicolon in sentence: if the Table of Middlingness is non-full, say "[Table of Middlingness] is non-full."
+syntax-test: unexpected semicolon in sentence: if the Abba Concert is happening, say "[Abba Concert] is happening."
+syntax-test: unexpected semicolon in sentence: if the Abba Concert is not happening, say "[Abba Concert] is not happening."
+syntax-test: unexpected semicolon in sentence: if the AC-DC Concert is happening, say "[AC-DC Concert] is happening."
+syntax-test: unexpected semicolon in sentence: if the AC-DC Concert is not happening, say "[AC-DC Concert] is not happening."
+syntax-test: unexpected semicolon in sentence: if the Abba Concert is recurring, say "[Abba Concert] is recurring."
+syntax-test: unexpected semicolon in sentence: if the Abba Concert is not recurring, say "[Abba Concert] is not recurring."
+syntax-test: unexpected semicolon in sentence: if the AC-DC Concert is recurring, say "[AC-DC Concert] is recurring."
+syntax-test: unexpected semicolon in sentence: if the AC-DC Concert is not recurring, say "[AC-DC Concert] is not recurring."
+syntax-test: unexpected semicolon in sentence: let L1 be { 2, 3, 4 }
+syntax-test: unexpected semicolon in sentence: let L2 be a list of numbers
+syntax-test: unexpected semicolon in sentence: let L2 be { }
+syntax-test: unexpected semicolon in sentence: if L1 is empty, say "'[L1 in brace notation]' is empty."
+syntax-test: unexpected semicolon in sentence: if L1 is non-empty, say "'[L1 in brace notation]' is non-empty."
+syntax-test: unexpected semicolon in sentence: if L2 is empty, say "'[L2 in brace notation]' is empty."
+syntax-test: unexpected semicolon in sentence: if L2 is non-empty, say "'[L2 in brace notation]' is non-empty."
+syntax-test: unexpected semicolon in sentence: if the Reading a command activity is empty, say "Reading a command activity is empty."
+syntax-test: unexpected semicolon in sentence: if the Reading a command activity is not empty, say "Reading a command activity is not empty."
+syntax-test: unexpected semicolon in sentence: if the adjective testing activity is empty, say "adjective testing activity is empty."
+syntax-test: unexpected semicolon in sentence: if the adjective testing activity is not empty, say "adjective testing activity is not empty."
+syntax-test: unexpected semicolon in sentence: if the Reading a command activity is going on, say "Reading a command activity is going on."
+syntax-test: unexpected semicolon in sentence: if the Reading a command activity is not going on, say "Reading a command activity is not going on."
+syntax-test: unexpected semicolon in sentence: if the adjective testing activity is going on, say "adjective testing activity is going on."
+syntax-test: unexpected semicolon in sentence: if the adjective testing activity is not going on, say "adjective testing activity is not going on."
+syntax-test: unexpected semicolon in sentence: if the turn sequence rulebook is empty, say "turn sequence rulebook is empty."
+syntax-test: unexpected semicolon in sentence: if the turn sequence rulebook is not empty, say "turn sequence rulebook is not empty."
+syntax-test: unexpected semicolon in sentence: if the every turn rulebook is empty, say "every turn rulebook is empty."
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'abba concert is a scene'
+        SENTENCE_NT'ac-dc concert is a recurring scene'
+        SENTENCE_NT'abba concert begins when play begins'
+        SENTENCE_NT'table of vacancy angels dream a number a text with 10 blank '
+        SENTENCE_NT'table of plenitude angels dream 4 "a string quartet" 3 "the '
+        SENTENCE_NT'table of middlingness angels dream 6 "a really complicated o'
+        SENTENCE_NT'adjective testing is an activity'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'carry out the adjective testing activity'
+        SENTENCE_NT'for adjective testing'
+        SENTENCE_NT'repeat with n running from -5 to 5'
+        SENTENCE_NT'if n is odd , say "[N] is odd."'
+        SENTENCE_NT'if n is even , say "[N] is even."'
+        SENTENCE_NT'if n is negative , say "[N] is negative."'
+        SENTENCE_NT'if n is positive , say "[N] is positive."'
+        SENTENCE_NT'let t1 be "Knowing Me, Knowing You"'
+        SENTENCE_NT'let t2 be ""'
+        SENTENCE_NT'if t1 is empty , say "'[T1]' is empty."'
+        SENTENCE_NT'if t1 is non-empty , say "'[T1]' is non-empty."'
+        SENTENCE_NT'if t2 is empty , say "'[T2]' is empty."'
+        SENTENCE_NT'if t2 is non-empty , say "'[T2]' is non-empty."'
+        SENTENCE_NT'let it1 be text'
+        SENTENCE_NT'let it2 be text'
+        SENTENCE_NT'let it1 be "Voulez Vous"'
+        SENTENCE_NT'let it2 be ""'
+        SENTENCE_NT'if it1 is empty , say "'[IT1]' is empty."'
+        SENTENCE_NT'if it1 is non-empty , say "'[IT1]' is non-empty."'
+        SENTENCE_NT'if it2 is empty , say "'[IT2]' is empty."'
+        SENTENCE_NT'if it2 is non-empty , say "'[IT2]' is non-empty."'
+        SENTENCE_NT'if the table of vacancy is empty , say "[Table of Vacancy] i'
+        SENTENCE_NT'if the table of vacancy is full , say "[Table of Vacancy] is'
+        SENTENCE_NT'if the table of vacancy is non-empty , say "[Table of Vacanc'
+        SENTENCE_NT'if the table of vacancy is non-full , say "[Table of Vacancy'
+        SENTENCE_NT'if the table of plenitude is empty , say "[Table of Plenitud'
+        SENTENCE_NT'if the table of plenitude is full , say "[Table of Plenitude'
+        SENTENCE_NT'if the table of plenitude is non-empty , say "[Table of Plen'
+        SENTENCE_NT'if the table of plenitude is non-full , say "[Table of Pleni'
+        SENTENCE_NT'if the table of middlingness is empty , say "[Table of Middl'
+        SENTENCE_NT'if the table of middlingness is full , say "[Table of Middli'
+        SENTENCE_NT'if the table of middlingness is non-empty , say "[Table of M'
+        SENTENCE_NT'if the table of middlingness is non-full , say "[Table of Mi'
+        SENTENCE_NT'if the abba concert is happening , say "[Abba Concert] is ha'
+        SENTENCE_NT'if the abba concert is not happening , say "[Abba Concert] i'
+        SENTENCE_NT'if the ac-dc concert is happening , say "[AC-DC Concert] is '
+        SENTENCE_NT'if the ac-dc concert is not happening , say "[AC-DC Concert]'
+        SENTENCE_NT'if the abba concert is recurring , say "[Abba Concert] is re'
+        SENTENCE_NT'if the abba concert is not recurring , say "[Abba Concert] i'
+        SENTENCE_NT'if the ac-dc concert is recurring , say "[AC-DC Concert] is '
+        SENTENCE_NT'if the ac-dc concert is not recurring , say "[AC-DC Concert]'
+        SENTENCE_NT'let l1 be { 2 , 3 , 4 }'
+        SENTENCE_NT'let l2 be a list of numbers'
+        SENTENCE_NT'let l2 be { }'
+        SENTENCE_NT'if l1 is empty , say "'[L1 in brace notation]' is empty."'
+        SENTENCE_NT'if l1 is non-empty , say "'[L1 in brace notation]' is non-em'
+        SENTENCE_NT'if l2 is empty , say "'[L2 in brace notation]' is empty."'
+        SENTENCE_NT'if l2 is non-empty , say "'[L2 in brace notation]' is non-em'
+        SENTENCE_NT'if the reading a command activity is empty , say "Reading a '
+        SENTENCE_NT'if the reading a command activity is not empty , say "Readin'
+        SENTENCE_NT'if the adjective testing activity is empty , say "adjective '
+        SENTENCE_NT'if the adjective testing activity is not empty , say "adject'
+        SENTENCE_NT'if the reading a command activity is going on , say "Reading'
+        SENTENCE_NT'if the reading a command activity is not going on , say "Rea'
+        SENTENCE_NT'if the adjective testing activity is going on , say "adjecti'
+        SENTENCE_NT'if the adjective testing activity is not going on , say "adj'
+        SENTENCE_NT'if the turn sequence rulebook is empty , say "turn sequence '
+        SENTENCE_NT'if the turn sequence rulebook is not empty , say "turn seque'
+        SENTENCE_NT'if the every turn rulebook is empty , say "every turn rulebo'
+        SENTENCE_NT'if the every turn rulebook is not empty , say "every turn ru'

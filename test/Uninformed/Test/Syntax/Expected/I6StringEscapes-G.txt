@@ -1,0 +1,12 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'include (- 
+    [ JunkFn;
+    	print (char) '^', " might be a caret,' {heading 0}
+        SENTENCE_NT'include (- 
+        [ JunkFn;
+        	print (char) '^', " might be a caret,'
+        SENTENCE_NT'to gojunk'
+        SENTENCE_NT'(-  JunkFn(); '
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'gojunk'

@@ -1,0 +1,14 @@
+Read 68 words
+ROOT_NT
+    HEADING_NT'the desert is a room' {heading 0}
+        SENTENCE_NT'the desert is a room'
+        SENTENCE_NT'"These new optical-reflection-triggered bombs
+        are a nightmar'
+        SENTENCE_NT'the mysterious object is a thing in the desert'
+        SENTENCE_NT'the description is "Oh n---"'
+        SENTENCE_NT'dangerous times is a scene'
+        SENTENCE_NT'dangerous times begins when play begins'
+        SENTENCE_NT'dangerous times ends when we have examined the mysterious ob'
+        SENTENCE_NT'when dangerous times ends'
+        SENTENCE_NT'end the story saying "You have died"'
+        SENTENCE_NT'test me with "scenes/z/z/x object"'

@@ -1,0 +1,15 @@
+Read 85 words
+syntax-test: unexpected semicolon in sentence: if the actor is the player, say "(first taking [the noun])[command clarification break]"
+syntax-test: unexpected semicolon in sentence: silently try the actor taking the noun
+ROOT_NT
+    HEADING_NT'the mysterious void is a room' {heading 0}
+        SENTENCE_NT'the mysterious void is a room'
+        SENTENCE_NT'the frog is in the void'
+        SENTENCE_NT'trevor is a man in the void'
+        SENTENCE_NT'persuasion rule'
+        SENTENCE_NT'persuasion succeeds'
+        SENTENCE_NT'check an actor waving when the noun is not held by the actor'
+        SENTENCE_NT'if the actor is the player , say "(first taking [the noun])['
+        SENTENCE_NT'silently try the actor taking the noun'
+        SENTENCE_NT'if the actor is not holding the noun , stop the action'
+        SENTENCE_NT'test me with "actions / wave frog / wave frog / drop frog / '

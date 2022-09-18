@@ -1,0 +1,21 @@
+Read 117 words
+syntax-test: unexpected semicolon in sentence: say "From [noun] to [Brian] is [the number of steps via the fatherhood
+relation from the noun to Brian]."
+syntax-test: unexpected semicolon in sentence: say "From [Brian] to [noun] is [the number of steps via the fatherhood
+relation from the Brian to noun]."
+syntax-test: unexpected semicolon in sentence: if the number of steps via the fatherhood relation from the noun to brian is greater than 0, say "Brian steps in and stops you.
+'None of that,' he says. 'Don't hit my ancestor.'"
+ROOT_NT
+    HEADING_NT'fatherhood relates one person to various people' {heading 0}
+        SENTENCE_NT'fatherhood relates one person to various people'
+        SENTENCE_NT'the verb to engender ( he engenders , they engender ) implie'
+        SENTENCE_NT'the study is a room'
+        SENTENCE_NT'nigel , bill , bob and brian are people in the study'
+        SENTENCE_NT'bill engenders bob'
+        SENTENCE_NT'bob engenders brian'
+        SENTENCE_NT'instead of attacking someone'
+        SENTENCE_NT'say "From [noun] to [Brian] is [the number of steps via the '
+        SENTENCE_NT'say "From [Brian] to [noun] is [the number of steps via the '
+        SENTENCE_NT'if the number of steps via the fatherhood relation from the '
+        SENTENCE_NT'if the number of steps via the fatherhood relation from the '
+        SENTENCE_NT'test me with "hit bill / hit bob / hit brian / hit nigel"'

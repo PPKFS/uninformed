@@ -1,0 +1,171 @@
+Read 1165 words
+syntax-test: unexpected semicolon in sentence: now all rooms are lighted
+syntax-test: unexpected semicolon in sentence: now every dead end is dark
+syntax-test: unexpected semicolon in sentence: now the Barren Valley is lighted
+syntax-test: unexpected semicolon in sentence: if the location provides the property danger count, say "You hear a sound like [the danger count of location in words] breath[s] sharply drawn in."
+syntax-test: unexpected semicolon in sentence: say "[The signpost] currently puts you on the road to [italic type][the destination of the signpost][roman type], but it swiftly alters again."
+syntax-test: unexpected semicolon in sentence: now the destination of the signpost is the destination after the destination of the signpost
+syntax-test: unexpected semicolon in sentence: now the ultimate goal is the destination of the signpost
+syntax-test: unexpected semicolon in sentence: say "It is a path that goes gently ever down and down with no stumbling block or any distraction at either side; there are no bandits and no tolls."
+syntax-test: unexpected semicolon in sentence: say "A long road whose scenery does not change, nor anything on the horizon move but the sun. When at last you come to Noon, she hangs above your head like a hat."
+syntax-test: unexpected semicolon in sentence: now the signpost is straight
+syntax-test: unexpected semicolon in sentence: now the signpost is slightly crooked
+syntax-test: unexpected semicolon in sentence: now the signpost is very crooked
+ROOT_NT
+    HEADING_NT'"Chapter 4: Miles Cross"' {heading 0}
+        SENTENCE_NT'"Chapter 4: Miles Cross"'
+        HEADING_NT'chapter 4' {heading 1}
+            SENTENCE_NT'use command line echoing'
+            HEADING_NT'section 1 - new kinds' {heading 2}
+                SENTENCE_NT'a crossroad and a dead end are kinds of room'
+                SENTENCE_NT'miles cross is a crossroad'
+                SENTENCE_NT'"No marker nor signpost nor hanged man identifies the place.'
+                SENTENCE_NT'the forest is a dead end'
+                SENTENCE_NT'it is west of miles cross'
+                SENTENCE_NT'south of miles cross is the barren valley'
+                SENTENCE_NT'the barren valley is a dead end'
+                SENTENCE_NT'carter hall is east of miles cross'
+                SENTENCE_NT'in carter hall is a lantern'
+                SENTENCE_NT'the description of the lantern is "Glowing and leaping with '
+                SENTENCE_NT'it is lit'
+                SENTENCE_NT'the chest is an openable closed lockable locked container in'
+                SENTENCE_NT'the lid is part of the chest'
+                SENTENCE_NT'it is an enterable supporter'
+                SENTENCE_NT'north of miles cross is a crossroad called seven dials'
+                SENTENCE_NT'the description of seven dials is "There is a signpost, on w'
+                SENTENCE_NT'seven dials contains a signpost'
+                SENTENCE_NT'the signpost is scenery'
+                SENTENCE_NT'understand "sign" and "post" as the signpost'
+                SENTENCE_NT'a horse is a kind of animal'
+                SENTENCE_NT'the placid pony is a horse in carter hall'
+                SENTENCE_NT'it is wearing a bell'
+                SENTENCE_NT'it is carrying an openable container called the pack'
+                SENTENCE_NT'a milk-white mare is a horse in the barren valley'
+                SENTENCE_NT'a faerie is a kind of person with description "Skin dead, ey'
+            HEADING_NT'section 2 - degrees of certainty' {heading 2}
+                SENTENCE_NT'a crossroad is always lighted'
+                SENTENCE_NT'a dead end is usually dark'
+                SENTENCE_NT'the barren valley is lighted'
+                SENTENCE_NT'a horse is seldom pushable between rooms'
+                SENTENCE_NT'it is never portable'
+                SENTENCE_NT'the moon switch is a device in the barren valley'
+                SENTENCE_NT'"On a wicker platform is a switch, currently [if switched on'
+                SENTENCE_NT'after switching on the moon switch'
+                SENTENCE_NT'now all rooms are lighted'
+                SENTENCE_NT'say "The moon comes on in a flood of false light."'
+                SENTENCE_NT'after switching off the moon switch'
+                SENTENCE_NT'now every dead end is dark'
+                SENTENCE_NT'now the barren valley is lighted'
+                SENTENCE_NT'say "With a snap, the moon goes out, leaving a fading afterg'
+                SENTENCE_NT'before looking in a lighted dead end'
+                SENTENCE_NT'say "The moon casts a false light on the scene..."'
+                SENTENCE_NT'before looking in a dark room when the lit lantern is carrie'
+                SENTENCE_NT'say "The lantern lights up only your immediate surroundings.'
+            HEADING_NT'section 3 - plural assertions' {heading 2}
+                SENTENCE_NT'some menacing trees and some deep shadows are fixed in place'
+                SENTENCE_NT'some branches are part of the trees'
+                SENTENCE_NT'some trunks are part of the trees'
+                SENTENCE_NT'some faces are part of the trees'
+                SENTENCE_NT'rule for printing the name of the shadows when the moon swit'
+                SENTENCE_NT'say "shifting shadows"'
+                SENTENCE_NT'the plural of hoof is hooves'
+                SENTENCE_NT'a hoof is a kind of thing'
+            HEADING_NT'section 4 - duplicates' {heading 2}
+                SENTENCE_NT'three faeries are in the forest'
+            HEADING_NT'section 5 - assemblies and body parts' {heading 2}
+                SENTENCE_NT'a saddle is a kind of vehicle'
+                SENTENCE_NT'a saddle is part of every horse'
+                SENTENCE_NT'a wreath is a kind of thing with description "A fragile crow'
+                SENTENCE_NT'a wreath is in every room'
+                SENTENCE_NT'a wreath is usually wearable'
+                SENTENCE_NT'a footprint is a kind of thing with description "Narrow and '
+                SENTENCE_NT'two footprints are in every crossroads'
+                SENTENCE_NT'a footprint is usually fixed in place'
+                SENTENCE_NT'four hooves are part of every horse'
+            HEADING_NT'section 6 - new either/or properties' {heading 2}
+                SENTENCE_NT'a thing is either illusory or genuine'
+                SENTENCE_NT'horses are always genuine'
+                SENTENCE_NT'people are usually illusory'
+                SENTENCE_NT'a faerie can be sly'
+                SENTENCE_NT'faeries are usually sly'
+                SENTENCE_NT'faeries are seldom not sly'
+            HEADING_NT'section 7 - new value properties' {heading 2}
+                SENTENCE_NT'a horse has some text called coat'
+                SENTENCE_NT'the coat of a horse is usually "dun"'
+                SENTENCE_NT'the coat of the mare is "spectral"'
+                SENTENCE_NT'a crossroads has a number called danger count'
+                SENTENCE_NT'seven dials has danger count 7'
+                SENTENCE_NT'miles cross has danger count 1'
+                SENTENCE_NT'instead of listening to a room'
+                SENTENCE_NT'if the location provides the property danger count , say "Yo'
+                SENTENCE_NT'otherwise continue the action'
+                SENTENCE_NT'height is a kind of value'
+                SENTENCE_NT'the heights are tall and short'
+                SENTENCE_NT'a horse has a height'
+                SENTENCE_NT'a horse is usually tall'
+                SENTENCE_NT'the pony is short'
+            HEADING_NT'section 8 - text with substitutions' {heading 2}
+                SENTENCE_NT'instead of examining a horse'
+                SENTENCE_NT'say "[The noun] appears [height] and [coat][if the noun is s'
+            HEADING_NT'section 9 - text with numbers' {heading 2}
+                SENTENCE_NT'instead of waiting'
+                SENTENCE_NT'say "You've already expended [turn count in words] act[s]. H'
+                SENTENCE_NT'instead of waiting in a crossroads'
+                SENTENCE_NT'say "You feel [the danger count of location in words] breath'
+            HEADING_NT'section 10 - text with lists' {heading 2}
+                SENTENCE_NT'instead of examining something which is not a horse when som'
+                SENTENCE_NT'say "You notice [a list of things which are part of the noun'
+                SENTENCE_NT'instead of going nowhere'
+                SENTENCE_NT'say "Nearby [is-are a list of adjacent rooms]."'
+                SENTENCE_NT'before examining the pony'
+                SENTENCE_NT'say "You first notice [the list of things carried by pony], '
+            HEADING_NT'section 11 - text with variations' {heading 2}
+                SENTENCE_NT'the printed name of the barren valley is "[if unvisited]Vall'
+                SENTENCE_NT'the description of the barren valley is "[if unvisited]A gre'
+            HEADING_NT'section 12 - text with type styles' {heading 2}
+                SENTENCE_NT'instead of attacking the trees'
+                SENTENCE_NT'say "[bold type]Snap[roman type] goes the branch, tweaking a'
+                SENTENCE_NT'instead of climbing or listening to the trees'
+                SENTENCE_NT'say "'[fixed letter spacing]NO[variable letter spacing],' sa'
+            HEADING_NT'section 13 - kinds of value' {heading 2}
+                SENTENCE_NT'destination is a kind of value'
+                SENTENCE_NT'the destinations are london , abingdon , luton , weston-supe'
+                SENTENCE_NT'the signpost has a destination'
+                SENTENCE_NT'instead of examining the signpost'
+                SENTENCE_NT'say "[The signpost] currently puts you on the road to [itali'
+                SENTENCE_NT'now the destination of the signpost is the destination after'
+                SENTENCE_NT'instead of turning the signpost'
+                SENTENCE_NT'now the destination of the signpost is the destination after'
+                SENTENCE_NT'now the ultimate goal is the destination of the signpost'
+                SENTENCE_NT'say "With a hand's touch you turn the signpost to mark your '
+                SENTENCE_NT'instead of going north in seven dials when the ultimate goal'
+                SENTENCE_NT'say "It is a path that goes gently ever down and down with n'
+                SENTENCE_NT'end the story saying "You have died"'
+                SENTENCE_NT'instead of going north in seven dials when the ultimate goal'
+                SENTENCE_NT'say "A long road whose scenery does not change, nor anything'
+                SENTENCE_NT'end the story saying "You have won"'
+            HEADING_NT'section 14 - using new kinds of value in properties' {heading 2}
+                SENTENCE_NT'the signpost has destination runnymede'
+            HEADING_NT'section 15 - conditions of things' {heading 2}
+                SENTENCE_NT'the signpost is either slightly crooked , very crooked , or '
+                SENTENCE_NT'the printed name of the signpost is "[signpost condition] si'
+                SENTENCE_NT'instead of pushing the very crooked signpost'
+                SENTENCE_NT'now the signpost is straight'
+                SENTENCE_NT'say "You give a shove to the signpost, now [signpost conditi'
+                SENTENCE_NT'instead of pushing the straight signpost'
+                SENTENCE_NT'now the signpost is slightly crooked'
+                SENTENCE_NT'say "You give a shove to the signpost, now [signpost conditi'
+                SENTENCE_NT'instead of pushing the slightly crooked signpost'
+                SENTENCE_NT'now the signpost is very crooked'
+                SENTENCE_NT'say "You give a shove to the signpost, now [signpost conditi'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'if the signpost is visible , say "The signpost is still [sig'
+            HEADING_NT'section 16 - values that vary' {heading 2}
+                SENTENCE_NT'our dearest friend is a person that varies'
+                SENTENCE_NT'the ultimate goal is a destination which varies'
+                SENTENCE_NT'the number of our foes is a number variable'
+                SENTENCE_NT'the number of our foes is 33'
+            HEADING_NT'section 17 - bibliographic data' {heading 2}
+                SENTENCE_NT'the release number is 12'
+                SENTENCE_NT'the story author is "Emily V. Short"'
+                SENTENCE_NT'the story genre is "An Interactive Test"'

@@ -1,0 +1,6 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'the table size is always 12'
+        SENTENCE_NT'table of blogg bloggle ( a number ) with table size blank ro'

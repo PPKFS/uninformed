@@ -1,0 +1,13 @@
+Read 54 words
+syntax-test: unexpected semicolon in sentence: follow the frotzing rule
+syntax-test: unexpected semicolon in sentence: now the frotzing rule response (A) is "Replacement frotz."
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'this is the frotzing rule'
+        SENTENCE_NT'say "Original frotz." ( a )'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'follow the frotzing rule'
+        SENTENCE_NT'now the frotzing rule response ( a ) is "Replacement frotz."'
+        SENTENCE_NT'follow the frotzing rule'
+        SENTENCE_NT'test me with "jump / jump"'

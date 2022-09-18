@@ -1,0 +1,10 @@
+Read 56 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'john is here'
+        SENTENCE_NT'he is a man'
+        SENTENCE_NT'capability relates various people to various stored actions'
+        SENTENCE_NT'the verb to be capable of implies the capability relation'
+        SENTENCE_NT'john is capable of the action of taking inventory'
+        SENTENCE_NT'test me with "relations"'

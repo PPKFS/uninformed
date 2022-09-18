@@ -1,0 +1,244 @@
+Read 1857 words
+syntax-test: unexpected semicolon in sentence: choose a random row in the table of Private Ships of War
+syntax-test: unexpected semicolon in sentence: sort the Table of Private Ships of War in type order
+syntax-test: unexpected semicolon in sentence: say "The ships currently at dock number [the number of filled rows in the Table of Private Ships of War in words], and are as follow:[line break]"
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to the number of rows in the Table of Private Ships of War begin
+syntax-test: unexpected semicolon in sentence: if there is a commander in row N of the Table of Private Ships of War, say "[line break]The [Type in row N of the Table of Private Ships of War] belonging to Captain [Commander in row N of the Table of Private Ships of War]."
+syntax-test: unexpected semicolon in sentence: if there is a Type corresponding to a Men of 100 in the Table of Private Ships of War, say "The loudest is the [the Type corresponding to a Men of 100 in the Table of Private Ships of War] belonging to [the Commander corresponding to a Men of 100 in the Table of Private Ships of War]."
+syntax-test: unexpected semicolon in sentence: if there is a Type of pinke in the Table of Private Ships of War, say "The stinkiest is the pinke belonging to [the Commander corresponding to a Type of pinke in the Table of Private Ships of War]."
+syntax-test: unexpected semicolon in sentence: repeat with N running from 1 to the number of rows in the Table of Private Ships of War begin
+syntax-test: unexpected semicolon in sentence: if there is a commander in row N of the Table of Private Ships of War begin
+syntax-test: unexpected semicolon in sentence: choose row N in the Table of Private Ships of War
+syntax-test: unexpected semicolon in sentence: decrease guns entry by 1
+syntax-test: unexpected semicolon in sentence: say "You fire upon Captain [Commander entry] and his [Type entry], knocking the number of guns down to [guns entry in words]. There is some hullaballoo there."
+syntax-test: unexpected semicolon in sentence: stop the action
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: choose row 5 in the Table of Private Ships of War
+syntax-test: unexpected semicolon in sentence: decrease guns entry by 1
+syntax-test: unexpected semicolon in sentence: choose row with a type of frigate in the Table of Private Ships of War
+syntax-test: unexpected semicolon in sentence: decrease men entry by 1
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Private Ships of War begin
+syntax-test: unexpected semicolon in sentence: if (guns entry) is 0 or (men entry) is 0 begin
+syntax-test: unexpected semicolon in sentence: say "The [Type entry] of [Commander entry] sinks.[line break]"
+syntax-test: unexpected semicolon in sentence: if type entry is brigantine, record "sinking a brigantine" as achieved
+syntax-test: unexpected semicolon in sentence: if type entry is frigate, record "sinking a frigate" as achieved
+syntax-test: unexpected semicolon in sentence: if type entry is pinke, record "sinking a pinke" as achieved
+syntax-test: unexpected semicolon in sentence: if type entry is barque, record "sinking a barque" as achieved
+syntax-test: unexpected semicolon in sentence: blank out the whole row
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: sort the Table of Overheard Conversation in remark order
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Overheard Conversation begin
+syntax-test: unexpected semicolon in sentence: say "[remark entry][paragraph break]"
+syntax-test: unexpected semicolon in sentence: blank out the whole row
+syntax-test: unexpected semicolon in sentence: stop the action
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Smells begin
+syntax-test: unexpected semicolon in sentence: say "[scent entry][paragraph break]"
+syntax-test: unexpected semicolon in sentence: blank out the whole row
+syntax-test: unexpected semicolon in sentence: stop the action
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: choose row 5 in the Table of Occupations and People
+syntax-test: unexpected semicolon in sentence: let the new profession be the trade entry
+syntax-test: unexpected semicolon in sentence: choose row 10 in the Table of Occupations and People
+syntax-test: unexpected semicolon in sentence: let the new personal name be the first name entry
+syntax-test: unexpected semicolon in sentence: choose row 15 in the Table of Occupations and People
+syntax-test: unexpected semicolon in sentence: let the new surname be the last name entry
+syntax-test: unexpected semicolon in sentence: let the year be 1691
+syntax-test: unexpected semicolon in sentence: choose a blank row in the Table of Occupations and People
+syntax-test: unexpected semicolon in sentence: now trade entry is the new profession
+syntax-test: unexpected semicolon in sentence: now first name entry is the new personal name
+syntax-test: unexpected semicolon in sentence: now last name entry is the new surname
+syntax-test: unexpected semicolon in sentence: now the date attested entry is the year
+syntax-test: unexpected semicolon in sentence: if the location is a site listed in the Table of Port Royal Taverns begin
+syntax-test: unexpected semicolon in sentence: say "There's nothing to eat out here, but there are tantalizing smells from [sign entry]."
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "Ick!"
+syntax-test: unexpected semicolon in sentence: if the location is a site listed in the Table of Port Royal Taverns, say "Your cavorting attracts derisive attention from the patrons coming out of [sign entry]."
+syntax-test: unexpected semicolon in sentence: choose row with a citation of T in the Table of Tasks Achieved
+syntax-test: unexpected semicolon in sentence: if there is no time entry begin
+syntax-test: unexpected semicolon in sentence: now time entry is the time of day
+syntax-test: unexpected semicolon in sentence: increase the score by (Points entry)
+ROOT_NT
+    HEADING_NT'"Chapter 15: Port Royal" by emily short' {heading 0}
+        SENTENCE_NT'"Chapter 15: Port Royal" by emily short'
+        HEADING_NT'chapter 15' {heading 1}
+            SENTENCE_NT'use command line echoing'
+            SENTENCE_NT'use scoring'
+            SENTENCE_NT'fort james is a room'
+            SENTENCE_NT'"The enclosure of Fort James is a large, roughly hexagonal c'
+            SENTENCE_NT'thames street end is south of fort james'
+            SENTENCE_NT'"The ill-named Thames Street runs from here -- at the point '
+            SENTENCE_NT'water lane is east of thames street end'
+            SENTENCE_NT'"Here Thames Street -- never very straight -- goes steeply s'
+            SENTENCE_NT'east of water lane is a room called thames street at the whe'
+            SENTENCE_NT'thames street at the wherry bridge has the description "To t'
+            SENTENCE_NT'the fishmarket is southwest of thames street at the wherry b'
+            SENTENCE_NT'the private alley is south of thames street at the wherry br'
+            SENTENCE_NT'"Just west of here is the tavern the Feathers. To the north,'
+            SENTENCE_NT'the overhanging balcony is in the private alley'
+            SENTENCE_NT'it is scenery'
+            SENTENCE_NT'the feathers is west of the private alley'
+            SENTENCE_NT'"Newly built with brick, replacing the older Feathers tavern'
+            SENTENCE_NT'thames street by the king's house is east of thames street a'
+            SENTENCE_NT'"The King's House is reserved for the use of the Governor, b'
+            SENTENCE_NT'thames street before fort carlisle is east of thames street '
+            SENTENCE_NT'"Here Thames Street, formerly a respectable width, narrows t'
+            SENTENCE_NT'lime street is south of thames street end'
+            SENTENCE_NT'queen street end is south of lime street'
+            SENTENCE_NT'south of thames street before fort carlisle is a room called'
+            SENTENCE_NT'the description of fort carlisle is "Handsomely arrayed with'
+            SENTENCE_NT'some left cannons are scenery in fort carlisle'
+            SENTENCE_NT'some right cannons are scenery in fort carlisle'
+            SENTENCE_NT'the ships are a backdrop'
+            SENTENCE_NT'they are in thames street before fort carlisle and fort carl'
+            SENTENCE_NT'the dock is a backdrop'
+            SENTENCE_NT'it is in thames street before fort carlisle and fort carlisl'
+            SENTENCE_NT'understand "fire [something]" as firing'
+            SENTENCE_NT'firing is an action applying to one thing'
+            SENTENCE_NT'carry out firing'
+            SENTENCE_NT'say "[The noun] is not something that can be fired."'
+            SENTENCE_NT'queen street middle is east of queen street end'
+            SENTENCE_NT'queen street east is east of queen street middle and south o'
+            SENTENCE_NT'queen street at the prison is east of queen street east'
+            HEADING_NT'section 1 - laying out tables' {heading 2}
+                SENTENCE_NT'table 1.1 - private ships of war type commander men guns fri'
+                SENTENCE_NT'ship type is a kind of value'
+                SENTENCE_NT'the ship types are frigate , brigantine , pinke , and barque'
+            HEADING_NT'section 2 - looking up entries' {heading 2}
+                SENTENCE_NT'before entering the ships'
+                SENTENCE_NT'say "The closest is a [Type in row 3 of Table 1.1], but Capt'
+                SENTENCE_NT'instead of examining the ships'
+                SENTENCE_NT'choose a random row in the table of private ships of war'
+                SENTENCE_NT'say "Nearby you catch the [Type entry] belonging to Captain '
+                SENTENCE_NT'instead of examining the dock'
+                SENTENCE_NT'sort the table of private ships of war in type order'
+                SENTENCE_NT'say "The ships currently at dock number [the number of fille'
+                SENTENCE_NT'repeat with n running from 1 to the number of rows in the ta'
+                SENTENCE_NT'if there is a commander in row n of the table of private shi'
+                SENTENCE_NT'end repeat'
+            HEADING_NT'section 3 - corresponding entries' {heading 2}
+                SENTENCE_NT'instead of listening to the ships'
+                SENTENCE_NT'if there is a type corresponding to a men of 100 in the tabl'
+                SENTENCE_NT'otherwise say "They all sound about the same."'
+                SENTENCE_NT'instead of smelling the ships'
+                SENTENCE_NT'if there is a type of pinke in the table of private ships of'
+                SENTENCE_NT'otherwise say "You can't make out individual smells."'
+            HEADING_NT'section 4 - changing entries' {heading 2}
+                SENTENCE_NT'instead of firing the left cannons'
+                SENTENCE_NT'repeat with n running from 1 to the number of rows in the ta'
+                SENTENCE_NT'if there is a commander in row n of the table of private shi'
+                SENTENCE_NT'choose row n in the table of private ships of war'
+                SENTENCE_NT'decrease guns entry by 1'
+                SENTENCE_NT'say "You fire upon Captain [Commander entry] and his [Type e'
+                SENTENCE_NT'stop the action'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end repeat'
+            HEADING_NT'section 5 - choosing rows' {heading 2}
+                SENTENCE_NT'instead of firing the right cannons'
+                SENTENCE_NT'choose row 5 in the table of private ships of war'
+                SENTENCE_NT'decrease guns entry by 1'
+                SENTENCE_NT'say "You fire upon Captain [Commander entry] and his [Type e'
+                SENTENCE_NT'the musket is a thing carried by the player'
+                SENTENCE_NT'instead of firing the musket in fort carlisle when there is '
+                SENTENCE_NT'choose row with a type of frigate in the table of private sh'
+                SENTENCE_NT'decrease men entry by 1'
+                SENTENCE_NT'say "With unnerving accuracy, you shoot a man from the deck '
+            HEADING_NT'section 6 - repeating through tables' {heading 2}
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'repeat through the table of private ships of war begin'
+                SENTENCE_NT'if ( guns entry ) is 0 or ( men entry ) is 0 begin'
+                SENTENCE_NT'say "The [Type entry] of [Commander entry] sinks.[line break'
+                SENTENCE_NT'if type entry is brigantine , record "sinking a brigantine" '
+                SENTENCE_NT'if type entry is frigate , record "sinking a frigate" as ach'
+                SENTENCE_NT'if type entry is pinke , record "sinking a pinke" as achieve'
+                SENTENCE_NT'if type entry is barque , record "sinking a barque" as achie'
+                SENTENCE_NT'blank out the whole row'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'sort the table of private ships of war in type order'
+                SENTENCE_NT'table of overheard conversation remark "You overhear two sol'
+                SENTENCE_NT'instead of listening to fort james'
+                SENTENCE_NT'sort the table of overheard conversation in remark order'
+                SENTENCE_NT'repeat through the table of overheard conversation begin'
+                SENTENCE_NT'say "[remark entry][paragraph break]"'
+                SENTENCE_NT'blank out the whole row'
+                SENTENCE_NT'stop the action'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'say "You hear nothing worthy of note."'
+                SENTENCE_NT'table of smells scent "Ah, the stink of three-day fish in a '
+                SENTENCE_NT'instead of smelling fishmarket'
+                SENTENCE_NT'repeat through the table of smells begin'
+                SENTENCE_NT'say "[scent entry][paragraph break]"'
+                SENTENCE_NT'blank out the whole row'
+                SENTENCE_NT'stop the action'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'say "You smell nothing extraordinary."'
+            HEADING_NT'section 7 - blank entries' {heading 2}
+                SENTENCE_NT'table of port royal taverns sign date attested site "The Cat'
+            HEADING_NT'section 8 - blank columns' {heading 2}
+                SENTENCE_NT'table of tasks achieved points citation time 2 "sinking a br'
+            HEADING_NT'section 9 - blank rows' {heading 2}
+                SENTENCE_NT'table of occupations and people trade first name last name d'
+                SENTENCE_NT'table of occupations and people ( continued ) trade first na'
+                SENTENCE_NT'instead of firing the left cannons when the number of filled'
+                SENTENCE_NT'say "There is nothing left to sink."'
+                SENTENCE_NT'instead of firing the right cannons when the number of fille'
+                SENTENCE_NT'say "There are no longer any ships in that direction."'
+                SENTENCE_NT'instead of examining the ships when the number of filled row'
+                SENTENCE_NT'say "All the ships have sunk!"'
+                SENTENCE_NT'instead of examining the dock when the number of blank rows '
+                SENTENCE_NT'say "All the ships have sunk!"'
+            HEADING_NT'section 10 - adding and removing rows' {heading 2}
+                SENTENCE_NT'to supply a new character'
+                SENTENCE_NT'choose row 5 in the table of occupations and people'
+                SENTENCE_NT'let the new profession be the trade entry'
+                SENTENCE_NT'choose row 10 in the table of occupations and people'
+                SENTENCE_NT'let the new personal name be the first name entry'
+                SENTENCE_NT'choose row 15 in the table of occupations and people'
+                SENTENCE_NT'let the new surname be the last name entry'
+                SENTENCE_NT'let the year be 1691'
+                SENTENCE_NT'choose a blank row in the table of occupations and people'
+                SENTENCE_NT'now trade entry is the new profession'
+                SENTENCE_NT'now first name entry is the new personal name'
+                SENTENCE_NT'now last name entry is the new surname'
+                SENTENCE_NT'now the date attested entry is the year'
+                SENTENCE_NT'say "You are [first name entry] [last name entry], a [trade '
+                SENTENCE_NT'when play begins'
+                SENTENCE_NT'supply a new character'
+            HEADING_NT'section 11 - sorting' {heading 2}
+                SENTENCE_NT'when play begins'
+                SENTENCE_NT'sort the table of private ships of war in type order'
+            HEADING_NT'section 12 - listed in' {heading 2}
+                SENTENCE_NT'instead of listening to a site listed in the table of port r'
+                SENTENCE_NT'say "Not far off is the sign of [sign entry], where a raucou'
+                SENTENCE_NT'instead of eating something inedible'
+                SENTENCE_NT'if the location is a site listed in the table of port royal '
+                SENTENCE_NT'say "There's nothing to eat out here, but there are tantaliz'
+                SENTENCE_NT'otherwise'
+                SENTENCE_NT'say "Ick!"'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'instead of jumping'
+                SENTENCE_NT'if the location is a site listed in the table of port royal '
+                SENTENCE_NT'otherwise say "You leap in sprightly fashion."'
+            HEADING_NT'section 13 - topic columns' {heading 2}
+                SENTENCE_NT'ann mills is a woman in the feathers'
+                SENTENCE_NT'instead of asking ann about a topic listed in the table of a'
+                SENTENCE_NT'say "[response entry][paragraph break]"'
+                SENTENCE_NT'instead of telling ann about a topic listed in the table of '
+                SENTENCE_NT'try asking ann about it'
+                SENTENCE_NT'table of ann's replies topic response "wine" "'Yes, we have '
+                SENTENCE_NT'understand "remember [text]" as remembering'
+                SENTENCE_NT'remembering is an action applying to one topic'
+                SENTENCE_NT'carry out remembering'
+                SENTENCE_NT'say "Nothing comes to mind."'
+                SENTENCE_NT'instead of remembering a topic listed in the table of recoll'
+                SENTENCE_NT'say "[response entry][paragraph break]"'
+                SENTENCE_NT'table of recollections topic response "weather" "It's warm, '
+            HEADING_NT'section 14 - another scoring example' {heading 2}
+                SENTENCE_NT'to record ( t - text ) as achieved'
+                SENTENCE_NT'choose row with a citation of t in the table of tasks achiev'
+                SENTENCE_NT'if there is no time entry begin'
+                SENTENCE_NT'now time entry is the time of day'
+                SENTENCE_NT'increase the score by ( points entry )'
+                SENTENCE_NT'end if'

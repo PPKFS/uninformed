@@ -1,0 +1,9 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'to throne room ( p - phrase )' {heading 0}
+        SENTENCE_NT'to throne room ( p - phrase )'
+        SENTENCE_NT'(-  for ({-my:1}=1: {-my:1}<=2: {-my:1}++) {-open-brace} {P}'
+        SENTENCE_NT'to village'
+        SENTENCE_NT'say "+1 Card, +2 Actions."'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'throne room village'

@@ -1,0 +1,6 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'bababadalgharaghtakamminarronnkonnbronntonnerronntuonnthunnt' {heading 0}
+        SENTENCE_NT'bababadalgharaghtakamminarronnkonnbronntonnerronntuonnthunnt'
+        SENTENCE_NT'taumatawhakatang-ihangakoauauot-amateaturipukaka-pikimaunga-'
+        SENTENCE_NT'llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogochuc'

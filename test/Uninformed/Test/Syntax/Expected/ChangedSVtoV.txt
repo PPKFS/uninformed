@@ -1,0 +1,31 @@
+Read 165 words
+syntax-test: unexpected semicolon in sentence: now AAA links BBB
+syntax-test: unexpected semicolon in sentence: let count be the number of steps via the linking relation from AAA to BBB
+syntax-test: unexpected semicolon in sentence: say "AAA -> BBB - count = [count][line break]"
+syntax-test: unexpected semicolon in sentence: let count be the number of steps via the linking relation from BBB to AAA
+syntax-test: unexpected semicolon in sentence: say "BBB -> AAA - count = [count][line break]"
+syntax-test: unexpected semicolon in sentence: let count be the number of steps via the linking relation from CCC to DDD
+syntax-test: unexpected semicolon in sentence: say "CCC -> DDD - count = [count][line break]"
+syntax-test: unexpected semicolon in sentence: let count be the number of steps via the linking relation from DDD to CCC
+ROOT_NT
+    HEADING_NT'"Stepping Through Changed Reciprocal V-to-V Relation"' {heading 0}
+        SENTENCE_NT'"Stepping Through Changed Reciprocal V-to-V Relation"'
+        SENTENCE_NT'linking relates things to each other'
+        SENTENCE_NT'the verb to link ( he links , they link , he linked , it is '
+        SENTENCE_NT'aaa is a thing'
+        SENTENCE_NT'bbb is a thing'
+        SENTENCE_NT'ccc is a thing'
+        SENTENCE_NT'ddd is a thing'
+        SENTENCE_NT'ddd links ccc'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now aaa links bbb'
+        SENTENCE_NT'let count be the number of steps via the linking relation fr'
+        SENTENCE_NT'say "AAA -> BBB - count = [count][line break]"'
+        SENTENCE_NT'let count be the number of steps via the linking relation fr'
+        SENTENCE_NT'say "BBB -> AAA - count = [count][line break]"'
+        SENTENCE_NT'let count be the number of steps via the linking relation fr'
+        SENTENCE_NT'say "CCC -> DDD - count = [count][line break]"'
+        SENTENCE_NT'let count be the number of steps via the linking relation fr'
+        SENTENCE_NT'say "DDD -> CCC - count = [count][line break]"'
+        SENTENCE_NT'the stage is a room'
+        SENTENCE_NT'test me with "relations"'

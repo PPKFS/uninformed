@@ -1,0 +1,7 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'venice is a room' {heading 0}
+        SENTENCE_NT'venice is a room'
+        SENTENCE_NT'a bug is in venice'
+        SENTENCE_NT'the indefinite article of the bug is "this"'
+        SENTENCE_NT'"[A bug] regards you fondly."'

@@ -1,0 +1,16 @@
+Read 74 words
+syntax-test: unexpected semicolon in sentence: showme the grid
+syntax-test: unexpected semicolon in sentence: showme entry 1 of the grid
+syntax-test: unexpected semicolon in sentence: showme entry 1 of entry 1 of the grid
+syntax-test: unexpected semicolon in sentence: let L be entry 1 of the grid
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the grid is a list of lists of texts which varies'
+        SENTENCE_NT'the grid is { { "foo" , "bar" } }'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the grid'
+        SENTENCE_NT'showme entry 1 of the grid'
+        SENTENCE_NT'showme entry 1 of entry 1 of the grid'
+        SENTENCE_NT'let l be entry 1 of the grid'
+        SENTENCE_NT'showme entry 1 of l'

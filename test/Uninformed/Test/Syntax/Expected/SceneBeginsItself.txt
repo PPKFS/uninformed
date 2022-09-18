@@ -1,0 +1,9 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'repetition is a recurring scene'
+        SENTENCE_NT'repetition begins when play begins'
+        SENTENCE_NT'repetition ends when the time since repetition began is 3 mi'
+        SENTENCE_NT'repetition begins when repetition ends'
+        SENTENCE_NT'test me with "scenes / z / z / z / z / scenes"'

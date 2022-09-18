@@ -1,0 +1,10 @@
+Read 45 words
+ROOT_NT
+    HEADING_NT'"The Inner Quadrangle Affair"' {heading 0}
+        SENTENCE_NT'"The Inner Quadrangle Affair"'
+        SENTENCE_NT'alpha is west of beta'
+        SENTENCE_NT'gamma is south of alpha'
+        SENTENCE_NT'delta is east of gamma'
+        SENTENCE_NT'beta is north of delta'
+        SENTENCE_NT'epsilon is northwest of delta'
+        SENTENCE_NT'test index ( internal ) with mt'

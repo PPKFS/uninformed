@@ -1,0 +1,16 @@
+Read 88 words
+ROOT_NT
+    HEADING_NT'the forest is a region' {heading 0}
+        SENTENCE_NT'the forest is a region'
+        SENTENCE_NT'the ruined chapel , by the waterfall and final darkness are '
+        SENTENCE_NT'the ruined chapel is north of by the waterfall'
+        SENTENCE_NT'"One room."'
+        SENTENCE_NT'the nose is here'
+        SENTENCE_NT'the eye is here'
+        SENTENCE_NT'by the waterfall is north of the final darkness'
+        SENTENCE_NT'"Another room."'
+        SENTENCE_NT'the mouth is here'
+        SENTENCE_NT'final darkness is a room'
+        SENTENCE_NT'"Boy, it sure is dark in here."'
+        SENTENCE_NT'the ear is here'
+        SENTENCE_NT'test me with "s/s"'

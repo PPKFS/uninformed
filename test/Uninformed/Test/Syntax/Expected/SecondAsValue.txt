@@ -1,0 +1,34 @@
+Read 207 words
+syntax-test: unexpected semicolon in sentence: if the color understood is white, say "yes"
+syntax-test: unexpected semicolon in sentence: showme the color understood
+syntax-test: unexpected semicolon in sentence: showme the color understood
+syntax-test: unexpected semicolon in sentence: showme the color understood
+syntax-test: unexpected semicolon in sentence: showme the color understood
+syntax-test: unexpected semicolon in sentence: now the color of the noun is the color understood
+ROOT_NT
+    HEADING_NT'shoe store is a room' {heading 0}
+        SENTENCE_NT'shoe store is a room'
+        SENTENCE_NT'a color is a kind of value'
+        SENTENCE_NT'the colors are white , lavender , lilac , light purple , and'
+        SENTENCE_NT'a thing has a color'
+        SENTENCE_NT'a thing is usually white'
+        SENTENCE_NT'dyeing it to is an action applying to one thing and one colo'
+        SENTENCE_NT'understand "dye [something] [color]" as dyeing it to'
+        SENTENCE_NT'check dyeing something to the color understood when the colo'
+        SENTENCE_NT'if the color understood is white , say "yes"'
+        SENTENCE_NT'showme the color understood'
+        SENTENCE_NT'say "You have dyes, but not bleach." instead'
+        SENTENCE_NT'check dyeing something to the color understood when the colo'
+        SENTENCE_NT'showme the color understood'
+        SENTENCE_NT'say "[The noun] is already dyed [color of the noun]." instea'
+        SENTENCE_NT'check dyeing something to the color understood'
+        SENTENCE_NT'showme the color understood'
+        SENTENCE_NT'say "[The noun] is already dyed [color of the noun]." instea'
+        SENTENCE_NT'carry out dyeing something to'
+        SENTENCE_NT'showme the color understood'
+        SENTENCE_NT'now the color of the noun is the color understood'
+        SENTENCE_NT'showme the color of the noun'
+        SENTENCE_NT'report dyeing something to'
+        SENTENCE_NT'say "There! [The noun] is now [the color understood]. Perfec'
+        SENTENCE_NT'the satin shoe and the dress are carried by the player'
+        SENTENCE_NT'test me with "actions / rules all / dye shoe white / dye dre'

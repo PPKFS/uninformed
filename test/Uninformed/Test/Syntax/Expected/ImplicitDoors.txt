@@ -1,0 +1,8 @@
+Read 48 words
+ROOT_NT
+    HEADING_NT'neutrality is a room' {heading 0}
+        SENTENCE_NT'neutrality is a room'
+        SENTENCE_NT'the white door is a door'
+        SENTENCE_NT'the white door is south of neutrality'
+        SENTENCE_NT'the red door is north of a room'
+        SENTENCE_NT'the white door is north of a room called the hot and cold ro'

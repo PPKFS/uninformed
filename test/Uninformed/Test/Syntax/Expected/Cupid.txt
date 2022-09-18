@@ -1,0 +1,67 @@
+Read 206 words
+syntax-test: unexpected semicolon in sentence: say "[W] will be given [gift list of W] on 14 February."
+syntax-test: unexpected semicolon in sentence: analyse gift list of W
+syntax-test: unexpected semicolon in sentence: add "a sports car" to the gift list of Emily
+syntax-test: unexpected semicolon in sentence: say "[W] will be given [gift list of W] on 14 February."
+syntax-test: unexpected semicolon in sentence: analyse gift list of W
+syntax-test: unexpected semicolon in sentence: let Q be the gift list of Emily
+syntax-test: unexpected semicolon in sentence: showme Q
+syntax-test: unexpected semicolon in sentence: let X be an text
+syntax-test: unexpected semicolon in sentence: let X be "Emily's apple"
+syntax-test: unexpected semicolon in sentence: showme X
+syntax-test: unexpected semicolon in sentence: analyse X
+syntax-test: unexpected semicolon in sentence: let Y be X
+syntax-test: unexpected semicolon in sentence: showme Y
+syntax-test: unexpected semicolon in sentence: analyse Y
+syntax-test: unexpected semicolon in sentence: replace word number 2 in X with "peach"
+syntax-test: unexpected semicolon in sentence: showme X
+syntax-test: unexpected semicolon in sentence: analyse X
+syntax-test: unexpected semicolon in sentence: showme Y
+syntax-test: unexpected semicolon in sentence: analyse Y
+syntax-test: unexpected semicolon in sentence: let Y be X
+syntax-test: unexpected semicolon in sentence: showme Y
+syntax-test: unexpected semicolon in sentence: analyse Y
+syntax-test: unexpected semicolon in sentence: let X be "Kate's banana"
+syntax-test: unexpected semicolon in sentence: showme X
+syntax-test: unexpected semicolon in sentence: analyse X
+syntax-test: unexpected semicolon in sentence: showme Y
+ROOT_NT
+    HEADING_NT'the temple of cupid is a room' {heading 0}
+        SENTENCE_NT'the temple of cupid is a room'
+        SENTENCE_NT'a woman has an list of texts called the gift list'
+        SENTENCE_NT'the gift list of a woman is usually { "chocolates" , "flower'
+        SENTENCE_NT'emily , kate and helen are women in the temple'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with w running through women'
+        SENTENCE_NT'say "[W] will be given [gift list of W] on 14 February."'
+        SENTENCE_NT'analyse gift list of w'
+        SENTENCE_NT'add "a sports car" to the gift list of emily'
+        SENTENCE_NT'repeat with w running through women'
+        SENTENCE_NT'say "[W] will be given [gift list of W] on 14 February."'
+        SENTENCE_NT'analyse gift list of w'
+        SENTENCE_NT'let q be the gift list of emily'
+        SENTENCE_NT'showme q'
+        SENTENCE_NT'analyse q'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be an text'
+        SENTENCE_NT'let x be "Emily's apple"'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'analyse x'
+        SENTENCE_NT'let y be x'
+        SENTENCE_NT'showme y'
+        SENTENCE_NT'analyse y'
+        SENTENCE_NT'replace word number 2 in x with "peach"'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'analyse x'
+        SENTENCE_NT'showme y'
+        SENTENCE_NT'analyse y'
+        SENTENCE_NT'let y be x'
+        SENTENCE_NT'showme y'
+        SENTENCE_NT'analyse y'
+        SENTENCE_NT'let x be "Kate's banana"'
+        SENTENCE_NT'showme x'
+        SENTENCE_NT'analyse x'
+        SENTENCE_NT'showme y'
+        SENTENCE_NT'analyse y'
+        SENTENCE_NT'to analyse ( v - value )'
+        SENTENCE_NT'(-  BlkValueDebug({-by-reference:V}, true); print "^"; '

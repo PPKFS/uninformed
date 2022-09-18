@@ -1,0 +1,22 @@
+Read 117 words
+syntax-test: unexpected semicolon in sentence: showme the default value of number
+syntax-test: unexpected semicolon in sentence: showme the default value of colour
+syntax-test: unexpected semicolon in sentence: showme the default value of fruit
+syntax-test: unexpected semicolon in sentence: showme the default value of truth state
+syntax-test: unexpected semicolon in sentence: showme the default value of text
+ROOT_NT
+    HEADING_NT'the tally is a number that varies' {heading 0}
+        SENTENCE_NT'the tally is a number that varies'
+        SENTENCE_NT'a fruit is a kind of object'
+        SENTENCE_NT'an apple , a pear and a persimmon are fruits'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , orange , yellow , green , blue , indig'
+        SENTENCE_NT'distance is a kind of value'
+        SENTENCE_NT'10km specifies a distance'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'showme the default value of number'
+        SENTENCE_NT'showme the default value of colour'
+        SENTENCE_NT'showme the default value of fruit'
+        SENTENCE_NT'showme the default value of truth state'
+        SENTENCE_NT'showme the default value of text'
+        SENTENCE_NT'showme the default value of distance'

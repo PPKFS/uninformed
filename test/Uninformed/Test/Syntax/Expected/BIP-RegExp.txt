@@ -1,0 +1,201 @@
+Read 1802 words
+syntax-test: unexpected semicolon in sentence: now lower bound is 1
+syntax-test: unexpected semicolon in sentence: now upper bound is the number of rows in the Table of Perl Test Cases
+syntax-test: unexpected semicolon in sentence: say "Complete test set."
+syntax-test: unexpected semicolon in sentence: repeat with N running from lower bound to upper bound begin
+syntax-test: unexpected semicolon in sentence: run single test N
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: if N is greater than the number of rows in the Table of Perl Test Cases, stop
+syntax-test: unexpected semicolon in sentence: choose row N in the Table of Perl Test Cases
+syntax-test: unexpected semicolon in sentence: if outcome entry is "c", say "test [N]: compiling [pattern entry] should produce error [resultant entry]."
+syntax-test: unexpected semicolon in sentence: otherwise say "test [N]: compiling [pattern entry] should work."
+syntax-test: unexpected semicolon in sentence: if N is 1, say "insensitive"
+syntax-test: unexpected semicolon in sentence: if N is greater than the number of rows in the Table of Perl Test Cases, stop
+syntax-test: unexpected semicolon in sentence: choose row N in the Table of Perl Test Cases
+syntax-test: unexpected semicolon in sentence: if outcome entry is "c" begin
+syntax-test: unexpected semicolon in sentence: say "test [N]: compiling [pattern entry] to error [resultant entry] --> "
+syntax-test: unexpected semicolon in sentence: otherwise if outcome entry is "r"
+syntax-test: unexpected semicolon in sentence: say "test [N]: replacing [pattern entry] in [target entry] with '!' case [casing of insens entry] --> "
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "test [N]: matching [pattern entry] in [target entry] case [casing of insens entry] --> "
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: let failure be 0
+syntax-test: unexpected semicolon in sentence: let match be 0
+syntax-test: unexpected semicolon in sentence: let EXP be an text
+syntax-test: unexpected semicolon in sentence: if exactly entry is 1 begin
+syntax-test: unexpected semicolon in sentence: if insens entry is 1 begin
+syntax-test: unexpected semicolon in sentence: if target entry exactly matches the regular expression pattern entry, case insensitively begin
+syntax-test: unexpected semicolon in sentence: let match be 1
+syntax-test: unexpected semicolon in sentence: let EXP be expand entry
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if target entry exactly matches the regular expression pattern entry begin
+syntax-test: unexpected semicolon in sentence: let match be 1
+syntax-test: unexpected semicolon in sentence: let EXP be expand entry
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if insens entry is 1 begin
+syntax-test: unexpected semicolon in sentence: if the outcome entry is "r" begin
+syntax-test: unexpected semicolon in sentence: let EXP be the target entry
+syntax-test: unexpected semicolon in sentence: replace the regular expression pattern entry in EXP with "!", case insensitively
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if target entry matches the regular expression pattern entry, case insensitively begin
+syntax-test: unexpected semicolon in sentence: let match be 1
+syntax-test: unexpected semicolon in sentence: let EXP be expand entry
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if the outcome entry is "r" begin
+syntax-test: unexpected semicolon in sentence: let EXP be the target entry
+syntax-test: unexpected semicolon in sentence: replace the regular expression pattern entry in EXP with "!"
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if target entry matches the regular expression pattern entry begin
+syntax-test: unexpected semicolon in sentence: let match be 1
+syntax-test: unexpected semicolon in sentence: let EXP be expand entry
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: let EXP be the substituted form of EXP
+syntax-test: unexpected semicolon in sentence: if a regexp error occurred, let failure be 1
+syntax-test: unexpected semicolon in sentence: otherwise say "<[number of rewinds]> "
+syntax-test: unexpected semicolon in sentence: if outcome entry is "c" begin
+syntax-test: unexpected semicolon in sentence: let failure be 1
+syntax-test: unexpected semicolon in sentence: if a regexp error occurred, let failure be 0
+syntax-test: unexpected semicolon in sentence: otherwise if outcome entry is "y"
+syntax-test: unexpected semicolon in sentence: if match is 0, let failure be 1
+syntax-test: unexpected semicolon in sentence: if match is 1 and EXP is not resultant entry, let failure be 1
+syntax-test: unexpected semicolon in sentence: otherwise if outcome entry is "n"
+syntax-test: unexpected semicolon in sentence: if match is 1, let failure be 1
+syntax-test: unexpected semicolon in sentence: otherwise if outcome entry is "r"
+syntax-test: unexpected semicolon in sentence: if EXP is not resultant entry, let failure be 1
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if outcome entry is "r" begin
+syntax-test: unexpected semicolon in sentence: say "[resultant entry][line break]"
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: if match is 1, say "[text matching regular expression][line break]"
+syntax-test: unexpected semicolon in sentence: if match is 0 and outcome entry is not "c", say "--[line break]"
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if failure is 1 begin
+syntax-test: unexpected semicolon in sentence: say "[bold type]FAILED[roman type] - should have "
+syntax-test: unexpected semicolon in sentence: if outcome entry is "n", say "failed to match"
+syntax-test: unexpected semicolon in sentence: if outcome entry is "r", say "produced replacement [resultant entry]"
+syntax-test: unexpected semicolon in sentence: if outcome entry is "y", say "had result of [perl form entry] equal to [resultant entry]"
+syntax-test: unexpected semicolon in sentence: if outcome entry is "c", say "failed to compile with error [resultant entry]"
+syntax-test: unexpected semicolon in sentence: say line break
+ROOT_NT
+    HEADING_NT'the lower bound is a number that varies' {heading 0}
+        SENTENCE_NT'the lower bound is a number that varies'
+        SENTENCE_NT'the upper bound is a number that varies'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'now lower bound is 1'
+        SENTENCE_NT'now upper bound is the number of rows in the table of perl t'
+        SENTENCE_NT'say "Complete test set."'
+        SENTENCE_NT'repeat with n running from lower bound to upper bound begin'
+        SENTENCE_NT'run single test n'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'say "Batch complete."'
+        SENTENCE_NT'to debug mode ( n - a number )'
+        SENTENCE_NT'(-  TEXT_TY_RE_SetTrace({N}); '
+        SENTENCE_NT'to decide if a regexp error occurred'
+        SENTENCE_NT'(-  (((TEXT_TY_RE_Err<0) || (TEXT_TY_RE_Err>=32))) '
+        SENTENCE_NT'to decide what text is regexp error message'
+        SENTENCE_NT'(-  (TEXT_TY_RE_Err) '
+        SENTENCE_NT'to say match ( n - number )'
+        SENTENCE_NT'say text matching subexpression n'
+        SENTENCE_NT'to say match start pos ( n - number )'
+        SENTENCE_NT'(-  if (TEXT_TY_MV_End({N},0) >= 0) print TEXT_TY_MV_End({N}'
+        SENTENCE_NT'to say match end pos ( n - number )'
+        SENTENCE_NT'(-  if (TEXT_TY_MV_End({N},1) >= 0) print TEXT_TY_MV_End({N}'
+        SENTENCE_NT'to test-compile the regular expression ( t - text )'
+        SENTENCE_NT'(-  TEXT_TY_RE_CompileTree({-by-reference:T});
+        	if ((TEXT_TY'
+        SENTENCE_NT'to compile single test ( n - a number )'
+        SENTENCE_NT'if n is greater than the number of rows in the table of perl'
+        SENTENCE_NT'choose row n in the table of perl test cases'
+        SENTENCE_NT'if outcome entry is "c" , say "test [N]: compiling [pattern '
+        SENTENCE_NT'otherwise say "test [N]: compiling [pattern entry] should wo'
+        SENTENCE_NT'test-compile the regular expression pattern entry'
+        SENTENCE_NT'to say casing of ( n - a number )'
+        SENTENCE_NT'if n is 1 , say "insensitive"'
+        SENTENCE_NT'otherwise say "sensitive"'
+        SENTENCE_NT'to say number of rewinds'
+        SENTENCE_NT'(-  TEXT_TY_RE_PrintNoRewinds(); '
+        SENTENCE_NT'to run single test ( n - a number )'
+        SENTENCE_NT'if n is greater than the number of rows in the table of perl'
+        SENTENCE_NT'choose row n in the table of perl test cases'
+        SENTENCE_NT'if outcome entry is "c" begin'
+        SENTENCE_NT'say "test [N]: compiling [pattern entry] to error [resultant'
+        SENTENCE_NT'otherwise if outcome entry is "r"'
+        SENTENCE_NT'say "test [N]: replacing [pattern entry] in [target entry] w'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "test [N]: matching [pattern entry] in [target entry] ca'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'let failure be 0'
+        SENTENCE_NT'let match be 0'
+        SENTENCE_NT'let exp be an text'
+        SENTENCE_NT'if exactly entry is 1 begin'
+        SENTENCE_NT'if insens entry is 1 begin'
+        SENTENCE_NT'if target entry exactly matches the regular expression patte'
+        SENTENCE_NT'let match be 1'
+        SENTENCE_NT'let exp be expand entry'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if target entry exactly matches the regular expression patte'
+        SENTENCE_NT'let match be 1'
+        SENTENCE_NT'let exp be expand entry'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if insens entry is 1 begin'
+        SENTENCE_NT'if the outcome entry is "r" begin'
+        SENTENCE_NT'let exp be the target entry'
+        SENTENCE_NT'replace the regular expression pattern entry in exp with "!"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if target entry matches the regular expression pattern entry'
+        SENTENCE_NT'let match be 1'
+        SENTENCE_NT'let exp be expand entry'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if the outcome entry is "r" begin'
+        SENTENCE_NT'let exp be the target entry'
+        SENTENCE_NT'replace the regular expression pattern entry in exp with "!"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if target entry matches the regular expression pattern entry'
+        SENTENCE_NT'let match be 1'
+        SENTENCE_NT'let exp be expand entry'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'let exp be the substituted form of exp'
+        SENTENCE_NT'if a regexp error occurred , let failure be 1'
+        SENTENCE_NT'otherwise say "<[number of rewinds]> "'
+        SENTENCE_NT'if outcome entry is "c" begin'
+        SENTENCE_NT'let failure be 1'
+        SENTENCE_NT'if a regexp error occurred , let failure be 0'
+        SENTENCE_NT'otherwise if outcome entry is "y"'
+        SENTENCE_NT'if match is 0 , let failure be 1'
+        SENTENCE_NT'if match is 1 and exp is not resultant entry , let failure b'
+        SENTENCE_NT'otherwise if outcome entry is "n"'
+        SENTENCE_NT'if match is 1 , let failure be 1'
+        SENTENCE_NT'otherwise if outcome entry is "r"'
+        SENTENCE_NT'if exp is not resultant entry , let failure be 1'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'if outcome entry is "r" begin'
+        SENTENCE_NT'say "[resultant entry][line break]"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'if match is 1 , say "[text matching regular expression][line'
+        SENTENCE_NT'if match is 0 and outcome entry is not "c" , say "--[line br'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'if failure is 1 begin'
+        SENTENCE_NT'say "[bold type]FAILED[roman type] - should have "'
+        SENTENCE_NT'if outcome entry is "n" , say "failed to match"'
+        SENTENCE_NT'if outcome entry is "r" , say "produced replacement [resulta'
+        SENTENCE_NT'if outcome entry is "y" , say "had result of [perl form entr'
+        SENTENCE_NT'if outcome entry is "c" , say "failed to compile with error '
+        SENTENCE_NT'say line break'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'table of perl test cases pattern insens exactly target outco'

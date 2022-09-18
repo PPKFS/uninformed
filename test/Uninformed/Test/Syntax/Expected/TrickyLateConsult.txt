@@ -1,0 +1,15 @@
+Read 66 words
+syntax-test: unexpected semicolon in sentence: say "'masculine' triggered."
+syntax-test: unexpected semicolon in sentence: say "'if includes' triggered."
+ROOT_NT
+    HEADING_NT'frog is a room' {heading 0}
+        SENTENCE_NT'frog is a room'
+        SENTENCE_NT'to decide if masculine'
+        SENTENCE_NT'decide on whether or not the player's command includes "male'
+        SENTENCE_NT'after reading a command when masculine'
+        SENTENCE_NT'say "'masculine' triggered."'
+        SENTENCE_NT'continue the activity'
+        SENTENCE_NT'after reading a command when the player's command includes "'
+        SENTENCE_NT'say "'if includes' triggered."'
+        SENTENCE_NT'continue the activity'
+        SENTENCE_NT'test me with "x he / x guy / guy / male"'

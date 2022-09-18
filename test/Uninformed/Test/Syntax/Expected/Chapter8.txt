@@ -1,0 +1,265 @@
+Read 1655 words
+syntax-test: unexpected semicolon in sentence: now the vengeful deity is Loki
+syntax-test: unexpected semicolon in sentence: now the vengeful deity is Surt
+syntax-test: unexpected semicolon in sentence: if the vengeful deity is flaming, now the command prompt is "[bold type][vengeful deity] (in flames)[roman type] > "
+syntax-test: unexpected semicolon in sentence: now the vengeful deity is Surt
+syntax-test: unexpected semicolon in sentence: now the noun is flammable
+syntax-test: unexpected semicolon in sentence: if a flaming portable thing (called the lighter) is touchable begin
+syntax-test: unexpected semicolon in sentence: say "(with [the lighter], which you first take)[paragraph break]"
+syntax-test: unexpected semicolon in sentence: try taking the lighter
+syntax-test: unexpected semicolon in sentence: say "You light [the noun] with [the flame source]."
+syntax-test: unexpected semicolon in sentence: move the sword to the table
+syntax-test: unexpected semicolon in sentence: say "One of the dogs begins to bark at you, whereupon you become nervous and return to the Great Hall."
+syntax-test: unexpected semicolon in sentence: say "The sound of baying begins to bother you; unthinkingly you revert to the Great Hall."
+syntax-test: unexpected semicolon in sentence: now Loki is nowhere
+syntax-test: unexpected semicolon in sentence: now Surt is nowhere
+syntax-test: unexpected semicolon in sentence: say "The sword cuts through the god, killing him and sending fire everywhere."
+syntax-test: unexpected semicolon in sentence: let turns remaining be the endurance of the noun minus the turns of burning of the noun
+syntax-test: unexpected semicolon in sentence: repeat with item running through flaming things begin
+syntax-test: unexpected semicolon in sentence: if the item is held by the player begin
+syntax-test: unexpected semicolon in sentence: let turns remaining be the endurance of the item minus the turns of burning of the item
+syntax-test: unexpected semicolon in sentence: if turns remaining is less than two begin
+syntax-test: unexpected semicolon in sentence: say "[The item] becomes too hot to hold! "
+syntax-test: unexpected semicolon in sentence: try dropping the item
+syntax-test: unexpected semicolon in sentence: if the item is held by the player, say "This is certainly painful."
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: repeat with item running through flaming things begin
+syntax-test: unexpected semicolon in sentence: if the turns of burning of the item is one begin
+syntax-test: unexpected semicolon in sentence: spread the flames outward from the item
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: repeat with item running through flaming things begin
+syntax-test: unexpected semicolon in sentence: if the turns of burning of the item is two begin
+syntax-test: unexpected semicolon in sentence: spread the flames inward from the item
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the item is a container which contains a flammable whole thing (called the sacrifice) begin
+syntax-test: unexpected semicolon in sentence: if the sacrifice is visible, say "Flames engulf [the list of flammable whole things in the item]."
+syntax-test: unexpected semicolon in sentence: now all the flammable whole things in the item are flaming
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the item is a supporter which supports a flammable whole thing begin
+syntax-test: unexpected semicolon in sentence: if the item is visible, say "Flames engulf [the list of flammable whole things on the item]."
+syntax-test: unexpected semicolon in sentence: now all the flammable whole things on the item are flaming
+syntax-test: unexpected semicolon in sentence: if the item is on a flammable whole supporter (called the pyre) begin
+syntax-test: unexpected semicolon in sentence: if the pyre is visible, say "[The pyre] catches from [the item]."
+syntax-test: unexpected semicolon in sentence: now the heat of the pyre is flaming
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the item is in a flammable whole container (called the urn) begin
+syntax-test: unexpected semicolon in sentence: if the urn is visible, say "[The urn] catches from [the item]."
+syntax-test: unexpected semicolon in sentence: now the urn is flaming
+syntax-test: unexpected semicolon in sentence: repeat with item running through flaming things begin
+syntax-test: unexpected semicolon in sentence: increase the turns of burning of the item by 1
+syntax-test: unexpected semicolon in sentence: if the turns of burning of the item is greater than the endurance of the item, destroy the item
+syntax-test: unexpected semicolon in sentence: if the item is a container begin
+syntax-test: unexpected semicolon in sentence: now all of the things in the item are in the location
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: if the item is a supporter begin
+syntax-test: unexpected semicolon in sentence: now all of the things on the item are in the location
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: now the item is nowhere
+syntax-test: unexpected semicolon in sentence: now the item is damp
+syntax-test: unexpected semicolon in sentence: repeat with item running through flaming things begin
+syntax-test: unexpected semicolon in sentence: now item is damp
+ROOT_NT
+    HEADING_NT'"Chapter 8: Ragnarok" by emily short' {heading 0}
+        SENTENCE_NT'"Chapter 8: Ragnarok" by emily short'
+        HEADING_NT'chapter 8' {heading 1}
+            SENTENCE_NT'use command line echoing'
+            SENTENCE_NT'the great hall is a room'
+            SENTENCE_NT'the kennel is west of the great hall'
+            SENTENCE_NT'heat is a kind of value'
+            SENTENCE_NT'the heats are whole , damp , and flaming'
+            SENTENCE_NT'a thing has a heat'
+            SENTENCE_NT'a thing is usually whole'
+            SENTENCE_NT'a thing has a number called endurance'
+            SENTENCE_NT'the endurance of a thing is usually 5'
+            SENTENCE_NT'a thing has a number called turns of burning'
+            SENTENCE_NT'a thing can be flammable or flame-retardant'
+            SENTENCE_NT'the vengeful deity is a person that varies'
+            SENTENCE_NT'the vengeful deity is surt'
+            SENTENCE_NT'surt is a man in the great hall'
+            SENTENCE_NT'loki is a man in the great hall'
+            SENTENCE_NT'freya is a woman in the great hall'
+            SENTENCE_NT'surt carries a sword'
+            SENTENCE_NT'the sword is flammable and flaming'
+            SENTENCE_NT'the endurance of the sword is 1000'
+            SENTENCE_NT'loki wears a metal mask'
+            SENTENCE_NT'the table is a flammable supporter in the great hall'
+            SENTENCE_NT'the table supports a twig'
+            SENTENCE_NT'the twig is flammable'
+            SENTENCE_NT'a box is on the table'
+            SENTENCE_NT'the box contains a stone , a length of linen , and a yellow '
+            SENTENCE_NT'the yellow piece of paper , the linen , and the box are flam'
+            SENTENCE_NT'the yellow piece of paper has endurance 1'
+            SENTENCE_NT'the metal fittings are part of the box'
+            SENTENCE_NT'the fittings are flame-retardant'
+            SENTENCE_NT'the hearth is a flame-retardant supporter in the great hall'
+            SENTENCE_NT'the torch is a flammable flaming thing in the great hall'
+            SENTENCE_NT'it has endurance 60'
+            HEADING_NT'section 1 - change of values that vary' {heading 2}
+                SENTENCE_NT'every turn when surt was the vengeful deity'
+                SENTENCE_NT'now the vengeful deity is loki'
+                SENTENCE_NT'if surt can be seen by the player , say "Surt attacks Loki w'
+                SENTENCE_NT'every turn when loki was the vengeful deity'
+                SENTENCE_NT'now the vengeful deity is surt'
+                SENTENCE_NT'if loki can be seen by the player , say "Loki mocks Surt wit'
+            HEADING_NT'section 2 - changing the command prompt' {heading 2}
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'if the vengeful deity is flaming , now the command prompt is'
+                SENTENCE_NT'otherwise now the command prompt is "[bold type][vengeful de'
+                SENTENCE_NT'when play begins'
+                SENTENCE_NT'now the vengeful deity is surt'
+                SENTENCE_NT'now the command prompt is "[bold type][vengeful deity][roman'
+            HEADING_NT'section 3 - changing the status line' {heading 2}
+                SENTENCE_NT'when play begins'
+                SENTENCE_NT'now the right hand status line is "Time: [time of day]"'
+            HEADING_NT'section 4 - change of either/or properties' {heading 2}
+                SENTENCE_NT'instead of attacking something flame-retardant when the swor'
+                SENTENCE_NT'now the noun is flammable'
+                SENTENCE_NT'say "The sword makes even [the noun] vulnerable to fire."'
+            HEADING_NT'section 5 - change of properties with values' {heading 2}
+                SENTENCE_NT'before printing the name of something flaming'
+                SENTENCE_NT'say "flaming "'
+                SENTENCE_NT'before burning something when the player is not carrying som'
+                SENTENCE_NT'if a flaming portable thing ( called the lighter ) is toucha'
+                SENTENCE_NT'say "(with [the lighter], which you first take)[paragraph br'
+                SENTENCE_NT'try taking the lighter'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'instead of burning something when the player is not carrying'
+                SENTENCE_NT'say "You would first need a fire source."'
+                SENTENCE_NT'instead of burning something flame-retardant'
+                SENTENCE_NT'say "[The noun] is not the sort of thing that catches fire."'
+                SENTENCE_NT'instead of burning something flammable when the player is ca'
+                SENTENCE_NT'say "You light [the noun] with [the flame source]."'
+                SENTENCE_NT'now the heat of the noun is flaming'
+                SENTENCE_NT'instead of burning something when the player is in the noun'
+                SENTENCE_NT'say "That seems dangerous given that you yourself are in [th'
+                SENTENCE_NT'instead of burning something when the player is on the noun'
+                SENTENCE_NT'say "That seems dangerous given that you yourself are on [th'
+            HEADING_NT'section 6 - whose property ?' {heading 2}
+                SENTENCE_NT'instead of examining something'
+                SENTENCE_NT'say "Hm, the [printed name] appears to be [heat]."'
+            HEADING_NT'section 7 - moving things' {heading 2}
+                SENTENCE_NT'instead of asking surt about "fire" when surt has the sword'
+                SENTENCE_NT'move the sword to the table'
+                SENTENCE_NT'say "Surt bellows, and swings his sword about his head, then'
+            HEADING_NT'section 8 - moving the player' {heading 2}
+                SENTENCE_NT'instead of waiting in the kennel'
+                SENTENCE_NT'say "One of the dogs begins to bark at you, whereupon you be'
+                SENTENCE_NT'move the player to the great hall'
+                SENTENCE_NT'instead of listening to the kennel'
+                SENTENCE_NT'say "The sound of baying begins to bother you; unthinkingly '
+                SENTENCE_NT'move the player to the great hall , without printing a room '
+            HEADING_NT'section 9 - removing things from play' {heading 2}
+                SENTENCE_NT'instead of attacking loki when the sword is carried by the p'
+                SENTENCE_NT'now loki is nowhere'
+                SENTENCE_NT'say "The sword cuts through the god, killing him. His body, '
+            HEADING_NT'section 10 - now' {heading 2}
+                SENTENCE_NT'instead of attacking surt when the sword is carried by the p'
+                SENTENCE_NT'now surt is nowhere'
+                SENTENCE_NT'say "The sword cuts through the god, killing him and sending'
+                SENTENCE_NT'now all of the flammable things are flaming'
+                SENTENCE_NT'after dropping something'
+                SENTENCE_NT'say "You have dropped [the noun]."'
+                SENTENCE_NT'before taking a flaming thing'
+                SENTENCE_NT'let turns remaining be the endurance of the noun minus the t'
+                SENTENCE_NT'if turns remaining is less than two , say "There's no portio'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'repeat with item running through flaming things begin'
+                SENTENCE_NT'if the item is held by the player begin'
+                SENTENCE_NT'let turns remaining be the endurance of the item minus the t'
+                SENTENCE_NT'if turns remaining is less than two begin'
+                SENTENCE_NT'say "[The item] becomes too hot to hold! "'
+                SENTENCE_NT'try dropping the item'
+                SENTENCE_NT'if the item is held by the player , say "This is certainly p'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'repeat with item running through flaming things begin'
+                SENTENCE_NT'if the turns of burning of the item is one begin'
+                SENTENCE_NT'spread the flames outward from the item'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'repeat with item running through flaming things begin'
+                SENTENCE_NT'if the turns of burning of the item is two begin'
+                SENTENCE_NT'spread the flames inward from the item'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'to spread the flames inward from ( item - a thing )'
+                SENTENCE_NT'if the item is a container which contains a flammable whole '
+                SENTENCE_NT'if the sacrifice is visible , say "Flames engulf [the list o'
+                SENTENCE_NT'now all the flammable whole things in the item are flaming'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the item is a supporter which supports a flammable whole '
+                SENTENCE_NT'if the item is visible , say "Flames engulf [the list of fla'
+                SENTENCE_NT'now all the flammable whole things on the item are flaming'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'to spread the flames outward from ( item - a thing )'
+                SENTENCE_NT'if the item is on a flammable whole supporter ( called the p'
+                SENTENCE_NT'if the pyre is visible , say "[The pyre] catches from [the i'
+                SENTENCE_NT'now the heat of the pyre is flaming'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the item is in a flammable whole container ( called the u'
+                SENTENCE_NT'if the urn is visible , say "[The urn] catches from [the ite'
+                SENTENCE_NT'now the urn is flaming'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'every turn'
+                SENTENCE_NT'repeat with item running through flaming things begin'
+                SENTENCE_NT'increase the turns of burning of the item by 1'
+                SENTENCE_NT'if the turns of burning of the item is greater than the endu'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'to destroy ( item - a thing )'
+                SENTENCE_NT'if the item is a container begin'
+                SENTENCE_NT'now all of the things in the item are in the location'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'if the item is a supporter begin'
+                SENTENCE_NT'now all of the things on the item are in the location'
+                SENTENCE_NT'end if'
+                SENTENCE_NT'now the item is nowhere'
+                SENTENCE_NT'now the item is damp'
+                SENTENCE_NT'say "[The item] burns away completely."'
+            HEADING_NT'section 11 - checking on whereabouts' {heading 2}
+                SENTENCE_NT'instead of doing something to the table when the sword is on'
+                SENTENCE_NT'say "The sword frightens you."'
+                SENTENCE_NT'instead of attacking loki when surt does not have the sword '
+                SENTENCE_NT'say "Surt looks as though he'd like to do something to Loki '
+                SENTENCE_NT'instead of attacking loki when surt has the sword and surt c'
+                SENTENCE_NT'say "Surt looks as though he'd like to do something to Loki '
+                SENTENCE_NT'instead of attacking loki when the player has the sword and '
+                SENTENCE_NT'say "The sword makes contact with the mask and suddenly the '
+                SENTENCE_NT'instead of taking something when the noun is contained by th'
+                SENTENCE_NT'say "You don't quite dare reach into the flaming box."'
+                SENTENCE_NT'instead of touching something which is within the flaming bo'
+                SENTENCE_NT'say "It seems a little risky since the box is on fire."'
+                SENTENCE_NT'instead of turning something when the noun is contained in t'
+                SENTENCE_NT'say "It seems a little risky since the box is on fire."'
+                SENTENCE_NT'instead of pushing or pulling something when the noun is ins'
+                SENTENCE_NT'say "The burning box deters you."'
+            HEADING_NT'section 12 - more flexible descriptions of whereabouts' {heading 2}
+                SENTENCE_NT'instead of doing something to the sword when the sword is ca'
+                SENTENCE_NT'say "[The warrior] does not look eager to permit that."'
+                SENTENCE_NT'instead of doing something to freya in the presence of a man'
+                SENTENCE_NT'say "[The guard] looks jealously in your direction, making y'
+            HEADING_NT'section 14 - counting the number of things' {heading 2}
+                SENTENCE_NT'when play begins'
+                SENTENCE_NT'now the left hand status line is "Burning: [the number of fl'
+            HEADING_NT'section 15 - looking at containment by hand' {heading 2}
+                SENTENCE_NT'before burning something which is in a container when the ho'
+                SENTENCE_NT'say "This could make things toasty for you..."'
+                SENTENCE_NT'blowing is an action applying to one carried thing'
+                SENTENCE_NT'understand "blow [something]" as blowing'
+            HEADING_NT'section 18 - testing' {heading 2}
+                SENTENCE_NT'test waiting with "wait / wait / wait / wait"'
+                SENTENCE_NT'test torch with "burn table / blow torch / wait / wait / wai'
+                SENTENCE_NT'test kennel with "wait / wait / wait" in the kennel'
+                SENTENCE_NT'test stone with "burn box / take stone" in the great hall ho'
+            HEADING_NT'section 20 - material not for release - not for release' {heading 2}
+                SENTENCE_NT'understand "deluge" as universal extinguishing'
+                SENTENCE_NT'universal extinguishing is an action applying to nothing'
+                SENTENCE_NT'carry out universal extinguishing'
+                SENTENCE_NT'repeat with item running through flaming things begin'
+                SENTENCE_NT'now item is damp'
+                SENTENCE_NT'end repeat'
+                SENTENCE_NT'report universal extinguishing'
+                SENTENCE_NT'say "All fires are out."'

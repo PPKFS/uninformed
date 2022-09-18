@@ -1,0 +1,22 @@
+Read 111 words
+syntax-test: unexpected semicolon in sentence: say "** carry out: [the number understood] on [the second noun] **"
+ROOT_NT
+    HEADING_NT'the living room is a room' {heading 0}
+        SENTENCE_NT'the living room is a room'
+        SENTENCE_NT'the remote control is in the living room'
+        SENTENCE_NT'"A multi function remote control."'
+        SENTENCE_NT'tuning is an action applying to a number'
+        SENTENCE_NT'understand "tune to [a number]" as tuning'
+        SENTENCE_NT'number punching is an action applying to one number and one '
+        SENTENCE_NT'understand "punch [a number] on [the thing]" as number punch'
+        SENTENCE_NT'understand "dial [a number] on [the thing]" as number punchi'
+        SENTENCE_NT'check number punching'
+        SENTENCE_NT'say "** check: [the number understood] on [the second noun] '
+        SENTENCE_NT'carry out number punching'
+        SENTENCE_NT'say "** carry out: [the number understood] on [the second no'
+        SENTENCE_NT'try tuning the number understood'
+        SENTENCE_NT'check tuning'
+        SENTENCE_NT'say "** check: [the number understood] **"'
+        SENTENCE_NT'carry out tuning'
+        SENTENCE_NT'say "** carry out: [the number understood] **"'
+        SENTENCE_NT'test me with "punch 50 / punch -17 / punch 0 / punch 9999 / '

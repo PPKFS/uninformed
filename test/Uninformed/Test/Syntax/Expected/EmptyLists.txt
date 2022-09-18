@@ -1,0 +1,10 @@
+Read 29 words
+syntax-test: unexpected semicolon in sentence: let L be a list of numbers
+syntax-test: unexpected semicolon in sentence: now L is { }
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'let l be a list of numbers'
+        SENTENCE_NT'now l is { }'
+        SENTENCE_NT'if l is { }'
+        SENTENCE_NT'say "[L] is empty."'

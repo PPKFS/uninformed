@@ -1,0 +1,12 @@
+Read 80 words
+syntax-test: unexpected semicolon in sentence: say "Look at ", { 1, 4, 9 }, "."
+syntax-test: unexpected semicolon in sentence: say "Look at ", { 1, 4, 9 } in brace notation, "."
+syntax-test: unexpected semicolon in sentence: say "Look at ", { apple, pear, orange } with definite articles, "."
+ROOT_NT
+    HEADING_NT'an apple , a pear and an orange are objects' {heading 0}
+        SENTENCE_NT'an apple , a pear and an orange are objects'
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'say "Look at " , { 1 , 4 , 9 } , "."'
+        SENTENCE_NT'say "Look at " , { 1 , 4 , 9 } in brace notation , "."'
+        SENTENCE_NT'say "Look at " , { apple , pear , orange } with definite art'
+        SENTENCE_NT'say "Look at " , { apple , pear , orange } with indefinite a'

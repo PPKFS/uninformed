@@ -1,0 +1,79 @@
+Read 287 words
+syntax-test: unexpected semicolon in sentence: say line break
+syntax-test: unexpected semicolon in sentence: say "Assaying S = {[the list of the selection]}."
+syntax-test: unexpected semicolon in sentence: say "N(S) is [number of members of the selection]."
+syntax-test: unexpected semicolon in sentence: let rnd be a random member of the selection
+syntax-test: unexpected semicolon in sentence: if rnd is a thing, say "R(S) is [rnd]."
+syntax-test: unexpected semicolon in sentence: let tccs be the total carrying capacity of the selection
+syntax-test: unexpected semicolon in sentence: say "Total carrying capacity of S is [tccs]."
+syntax-test: unexpected semicolon in sentence: say "Total weight of S is [total weight of selection]."
+syntax-test: unexpected semicolon in sentence: say "The heftiest member of S is [the heftiest member of the selection]."
+syntax-test: unexpected semicolon in sentence: repeat with item running through the selection begin
+syntax-test: unexpected semicolon in sentence: say "-- [the item]."
+syntax-test: unexpected semicolon in sentence: say line break
+syntax-test: unexpected semicolon in sentence: say "Assaying by hand: {[the list of men]}."
+syntax-test: unexpected semicolon in sentence: say "N(men) is [number of men]."
+syntax-test: unexpected semicolon in sentence: say "R(men) is [a random man]."
+syntax-test: unexpected semicolon in sentence: say "TCC(men) is [total carrying capacity of men]."
+syntax-test: unexpected semicolon in sentence: say "TW(men) is [total weight of men]."
+syntax-test: unexpected semicolon in sentence: say "Heftiest(men) is [heftiest man]."
+syntax-test: unexpected semicolon in sentence: repeat with item running through men begin
+syntax-test: unexpected semicolon in sentence: say "-- [the item]."
+syntax-test: unexpected semicolon in sentence: assay men
+syntax-test: unexpected semicolon in sentence: assay men by hand
+syntax-test: unexpected semicolon in sentence: assay stylish men
+syntax-test: unexpected semicolon in sentence: assay men in the Hotel Alpina
+syntax-test: unexpected semicolon in sentence: assay stylish men in the Hotel Alpina
+syntax-test: unexpected semicolon in sentence: assay stylish men in the Zentrum
+ROOT_NT
+    HEADING_NT'"Kandersteg"' {heading 0}
+        SENTENCE_NT'"Kandersteg"'
+        SENTENCE_NT'a man can be stylish or unstylish'
+        SENTENCE_NT'men are usually unstylish'
+        SENTENCE_NT'hotel alpina is a room'
+        SENTENCE_NT'rolf and matthieu are men in the hotel alpina'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'10kg specifies a weight'
+        SENTENCE_NT'a person has a weight'
+        SENTENCE_NT'the weight of a person is usually 50kg'
+        SENTENCE_NT'rolf is 20kg'
+        SENTENCE_NT'matthieu is 100kg'
+        SENTENCE_NT'the carrying capacity of rolf is 17'
+        SENTENCE_NT'matthieu is stylish'
+        SENTENCE_NT'north of the alpina is the pfadfinder zentrum'
+        SENTENCE_NT'the bergfuehrer is a man in the zentrum'
+        SENTENCE_NT'the zentrum is dark'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a man is hefty if his carrying capacity is 50 or more'
+        SENTENCE_NT'to assay ( selection - a description of objects )'
+        SENTENCE_NT'say line break'
+        SENTENCE_NT'say "Assaying S = {[the list of the selection]}."'
+        SENTENCE_NT'say "N(S) is [number of members of the selection]."'
+        SENTENCE_NT'let rnd be a random member of the selection'
+        SENTENCE_NT'if rnd is a thing , say "R(S) is [rnd]."'
+        SENTENCE_NT'let tccs be the total carrying capacity of the selection'
+        SENTENCE_NT'say "Total carrying capacity of S is [tccs]."'
+        SENTENCE_NT'say "Total weight of S is [total weight of selection]."'
+        SENTENCE_NT'say "The heftiest member of S is [the heftiest member of the'
+        SENTENCE_NT'repeat with item running through the selection begin'
+        SENTENCE_NT'say "-- [the item]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'to assay men by hand'
+        SENTENCE_NT'say line break'
+        SENTENCE_NT'say "Assaying by hand: {[the list of men]}."'
+        SENTENCE_NT'say "N(men) is [number of men]."'
+        SENTENCE_NT'say "R(men) is [a random man]."'
+        SENTENCE_NT'say "TCC(men) is [total carrying capacity of men]."'
+        SENTENCE_NT'say "TW(men) is [total weight of men]."'
+        SENTENCE_NT'say "Heftiest(men) is [heftiest man]."'
+        SENTENCE_NT'repeat with item running through men begin'
+        SENTENCE_NT'say "-- [the item]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'assay men'
+        SENTENCE_NT'assay men by hand'
+        SENTENCE_NT'assay stylish men'
+        SENTENCE_NT'assay men in the hotel alpina'
+        SENTENCE_NT'assay stylish men in the hotel alpina'
+        SENTENCE_NT'assay stylish men in the zentrum'
+        SENTENCE_NT'assay men in dark rooms'

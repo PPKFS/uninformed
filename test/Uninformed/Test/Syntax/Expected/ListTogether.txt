@@ -1,0 +1,47 @@
+Read 261 words
+syntax-test: unexpected semicolon in sentence: group pots together as "pots"
+syntax-test: unexpected semicolon in sentence: group pots together as the substituted form of "pots"
+syntax-test: unexpected semicolon in sentence: let N be 1
+syntax-test: unexpected semicolon in sentence: group pots together as "implement-[N]"
+syntax-test: unexpected semicolon in sentence: increment N
+syntax-test: unexpected semicolon in sentence: let N be 1
+syntax-test: unexpected semicolon in sentence: group pots together as the substituted form of "implement-[N]"
+syntax-test: unexpected semicolon in sentence: increment N
+syntax-test: unexpected semicolon in sentence: say "Inventory: "
+syntax-test: unexpected semicolon in sentence: list the contents of the player, as a sentence
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the dining room is east of the kitchen'
+        SENTENCE_NT'the living room is east of the dining room'
+        SENTENCE_NT'the bathroom is east of the living room'
+        SENTENCE_NT'the garden is east of the bathroom'
+        SENTENCE_NT'a pot is a kind of thing'
+        SENTENCE_NT'the red pot , the green pot , and the blue pot are pots carr'
+        SENTENCE_NT'a pan is a kind of thing'
+        SENTENCE_NT'the white pan , the black pan , and the gray pan are pans ca'
+        SENTENCE_NT'before listing contents when the location is the kitchen'
+        SENTENCE_NT'group pots together as "pots"'
+        SENTENCE_NT'group pans together as "pans"'
+        SENTENCE_NT'to meta'
+        SENTENCE_NT'(- 
+        	objectloop ({-my:1}) {
+        		if (LT_Compare({-my:1}.list_to'
+        SENTENCE_NT'before listing contents when the location is the dining room'
+        SENTENCE_NT'group pots together as the substituted form of "pots"'
+        SENTENCE_NT'group pans together as the substituted form of "pans"'
+        SENTENCE_NT'before listing contents when the location is the living room'
+        SENTENCE_NT'let n be 1'
+        SENTENCE_NT'group pots together as "implement-[N]"'
+        SENTENCE_NT'increment n'
+        SENTENCE_NT'group pans together as "implement-[N]"'
+        SENTENCE_NT'before listing contents when the location is the bathroom'
+        SENTENCE_NT'let n be 1'
+        SENTENCE_NT'group pots together as the substituted form of "implement-[N'
+        SENTENCE_NT'increment n'
+        SENTENCE_NT'group pans together as the substituted form of "implement-[N'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "Inventory: "'
+        SENTENCE_NT'list the contents of the player , as a sentence'
+        SENTENCE_NT'say "."'
+        SENTENCE_NT'test me with "i / e / e / e / e"'

@@ -1,0 +1,134 @@
+Read 338 words
+syntax-test: unexpected semicolon in sentence: let x1 be 1
+syntax-test: unexpected semicolon in sentence: let x2 be 2
+syntax-test: unexpected semicolon in sentence: let x3 be 3
+syntax-test: unexpected semicolon in sentence: let x4 be 4
+syntax-test: unexpected semicolon in sentence: let x5 be 5
+syntax-test: unexpected semicolon in sentence: let x6 be 6
+syntax-test: unexpected semicolon in sentence: let x7 be 7
+syntax-test: unexpected semicolon in sentence: let x8 be 8
+syntax-test: unexpected semicolon in sentence: let x9 be 9
+syntax-test: unexpected semicolon in sentence: let x10 be 10
+syntax-test: unexpected semicolon in sentence: let x11 be 11
+syntax-test: unexpected semicolon in sentence: let x12 be 12
+syntax-test: unexpected semicolon in sentence: let x13 be 13
+syntax-test: unexpected semicolon in sentence: let x14 be 14
+syntax-test: unexpected semicolon in sentence: let x15 be 15
+syntax-test: unexpected semicolon in sentence: let x16 be 16
+syntax-test: unexpected semicolon in sentence: let y1 be 1
+syntax-test: unexpected semicolon in sentence: let y2 be 2
+syntax-test: unexpected semicolon in sentence: let y3 be 3
+syntax-test: unexpected semicolon in sentence: let y4 be 4
+syntax-test: unexpected semicolon in sentence: let y5 be 5
+syntax-test: unexpected semicolon in sentence: let y6 be 6
+syntax-test: unexpected semicolon in sentence: let y7 be 7
+syntax-test: unexpected semicolon in sentence: let y8 be 8
+syntax-test: unexpected semicolon in sentence: let y9 be 9
+syntax-test: unexpected semicolon in sentence: let y10 be 10
+syntax-test: unexpected semicolon in sentence: let y11 be 11
+syntax-test: unexpected semicolon in sentence: let y12 be 12
+syntax-test: unexpected semicolon in sentence: let y13 be 13
+syntax-test: unexpected semicolon in sentence: let y14 be 14
+syntax-test: unexpected semicolon in sentence: let y15 be 15
+syntax-test: unexpected semicolon in sentence: let y16 be 16
+syntax-test: unexpected semicolon in sentence: let z1 be 1
+syntax-test: unexpected semicolon in sentence: let z2 be 2
+syntax-test: unexpected semicolon in sentence: let z3 be 3
+syntax-test: unexpected semicolon in sentence: let z4 be 4
+syntax-test: unexpected semicolon in sentence: let z5 be 5
+syntax-test: unexpected semicolon in sentence: let z6 be 6
+syntax-test: unexpected semicolon in sentence: let z7 be 7
+syntax-test: unexpected semicolon in sentence: let z8 be 8
+syntax-test: unexpected semicolon in sentence: let z9 be 9
+syntax-test: unexpected semicolon in sentence: let z10 be 10
+syntax-test: unexpected semicolon in sentence: let z11 be 11
+syntax-test: unexpected semicolon in sentence: let z12 be 12
+syntax-test: unexpected semicolon in sentence: let z13 be 13
+syntax-test: unexpected semicolon in sentence: let z14 be 14
+syntax-test: unexpected semicolon in sentence: let z15 be 15
+syntax-test: unexpected semicolon in sentence: let z16 be 16
+syntax-test: unexpected semicolon in sentence: let w1 be 1
+syntax-test: unexpected semicolon in sentence: let w2 be 2
+syntax-test: unexpected semicolon in sentence: let w3 be 3
+syntax-test: unexpected semicolon in sentence: let w4 be 4
+syntax-test: unexpected semicolon in sentence: let w5 be 5
+syntax-test: unexpected semicolon in sentence: let w6 be 6
+syntax-test: unexpected semicolon in sentence: let w7 be 7
+syntax-test: unexpected semicolon in sentence: let w8 be 8
+syntax-test: unexpected semicolon in sentence: let w9 be 9
+syntax-test: unexpected semicolon in sentence: let w10 be 10
+syntax-test: unexpected semicolon in sentence: let w11 be 11
+syntax-test: unexpected semicolon in sentence: let w12 be 12
+syntax-test: unexpected semicolon in sentence: let w13 be 13
+syntax-test: unexpected semicolon in sentence: let w14 be 14
+syntax-test: unexpected semicolon in sentence: let w15 be 15
+syntax-test: unexpected semicolon in sentence: let w16 be 16
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x1 be 1'
+        SENTENCE_NT'let x2 be 2'
+        SENTENCE_NT'let x3 be 3'
+        SENTENCE_NT'let x4 be 4'
+        SENTENCE_NT'let x5 be 5'
+        SENTENCE_NT'let x6 be 6'
+        SENTENCE_NT'let x7 be 7'
+        SENTENCE_NT'let x8 be 8'
+        SENTENCE_NT'let x9 be 9'
+        SENTENCE_NT'let x10 be 10'
+        SENTENCE_NT'let x11 be 11'
+        SENTENCE_NT'let x12 be 12'
+        SENTENCE_NT'let x13 be 13'
+        SENTENCE_NT'let x14 be 14'
+        SENTENCE_NT'let x15 be 15'
+        SENTENCE_NT'let x16 be 16'
+        SENTENCE_NT'let y1 be 1'
+        SENTENCE_NT'let y2 be 2'
+        SENTENCE_NT'let y3 be 3'
+        SENTENCE_NT'let y4 be 4'
+        SENTENCE_NT'let y5 be 5'
+        SENTENCE_NT'let y6 be 6'
+        SENTENCE_NT'let y7 be 7'
+        SENTENCE_NT'let y8 be 8'
+        SENTENCE_NT'let y9 be 9'
+        SENTENCE_NT'let y10 be 10'
+        SENTENCE_NT'let y11 be 11'
+        SENTENCE_NT'let y12 be 12'
+        SENTENCE_NT'let y13 be 13'
+        SENTENCE_NT'let y14 be 14'
+        SENTENCE_NT'let y15 be 15'
+        SENTENCE_NT'let y16 be 16'
+        SENTENCE_NT'let z1 be 1'
+        SENTENCE_NT'let z2 be 2'
+        SENTENCE_NT'let z3 be 3'
+        SENTENCE_NT'let z4 be 4'
+        SENTENCE_NT'let z5 be 5'
+        SENTENCE_NT'let z6 be 6'
+        SENTENCE_NT'let z7 be 7'
+        SENTENCE_NT'let z8 be 8'
+        SENTENCE_NT'let z9 be 9'
+        SENTENCE_NT'let z10 be 10'
+        SENTENCE_NT'let z11 be 11'
+        SENTENCE_NT'let z12 be 12'
+        SENTENCE_NT'let z13 be 13'
+        SENTENCE_NT'let z14 be 14'
+        SENTENCE_NT'let z15 be 15'
+        SENTENCE_NT'let z16 be 16'
+        SENTENCE_NT'let w1 be 1'
+        SENTENCE_NT'let w2 be 2'
+        SENTENCE_NT'let w3 be 3'
+        SENTENCE_NT'let w4 be 4'
+        SENTENCE_NT'let w5 be 5'
+        SENTENCE_NT'let w6 be 6'
+        SENTENCE_NT'let w7 be 7'
+        SENTENCE_NT'let w8 be 8'
+        SENTENCE_NT'let w9 be 9'
+        SENTENCE_NT'let w10 be 10'
+        SENTENCE_NT'let w11 be 11'
+        SENTENCE_NT'let w12 be 12'
+        SENTENCE_NT'let w13 be 13'
+        SENTENCE_NT'let w14 be 14'
+        SENTENCE_NT'let w15 be 15'
+        SENTENCE_NT'let w16 be 16'
+        SENTENCE_NT'showme w16'

@@ -1,0 +1,11 @@
+Read 51 words
+syntax-test: unexpected semicolon in sentence: let P be 2.0
+syntax-test: unexpected semicolon in sentence: let T be given by the Stefan-Boltzmann Law
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'equation - stefan-boltzmann law p = t^4 where p is a real nu'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let p be 2.0'
+        SENTENCE_NT'let t be given by the stefan-boltzmann law'
+        SENTENCE_NT'say "[T] vs. [2.0 to the power 0.25]."'

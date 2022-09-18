@@ -1,0 +1,10 @@
+Read 44 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'the torch and the banana and the grapes are here'
+        SENTENCE_NT'the grapes are plural-named'
+        SENTENCE_NT'to look is a verb'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'say "Every possession is a worry. I wonder if [regarding thi'
+        SENTENCE_NT'test me with "z / take torch / take banana / drop all / get '
