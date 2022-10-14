@@ -1,53 +1,47 @@
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE NamedFieldPuns #-}
+{-# LANGUAGE StrictData #-}
+{-# LANGUAGE InstanceSigs #-}
 
 module Uninformed.Words.Lexer
   ( SourceLocation(..)
   , Whitespace(..)
-  , Word(..)
+  , InformWord(..)
   , WordList
-  , word
   , lex
-  , getPunctuation
-  , PunctuationSet(..)
-  , LexedSourceFile(..)
-  , matchWord
-  , precedingWhitespace
   , displayWord
   , blankWord
   ) where
 
 import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
-import Data.List (singleton)
 import Data.Set (member)
-import Optics.State.Operators ( (.=) )
-import Prelude hiding (many, some, Word)
+
 import Text.Megaparsec
+    ( getOffset,
+      getSourcePos,
+      single,
+      anySingle,
+      choice,
+      (<?>),
+      someTill,
+      manyTill,
+      parse,
+      satisfy,
+      ParseErrorBundle,
+      MonadParsec(..) )
 import Text.Megaparsec.Char ( string' )
-import Uninformed.Words.Vocabulary
+import Uninformed.Words.Vocabulary ( identify, VocabType(..), VocabMap, PunctuationSet (..), getPunctuation )
 import qualified Data.HashMap.Strict as HM
+import Uninformed.Words.Lexer.Types
+    ( InformWord(..),
+      Whitespace(..),
+      SourceLocation(..),
+      blankWord,
+      displayWord )
+import Uninformed.Words.TextFromFiles ( SourceFile(..), wordCount, quotedWordCount )
 
+type WordList = [InformWord]
 
-type WordList = [Word]
-
-data LexedSourceFile = LexedSourceFile
-  { _sourceFileName :: Maybe Text
-  , _sourceFileVocab :: VocabMap
-  , _sourceFileWords :: WordList
-  }
-
-data SourceLocation = SourceLocation
-  { _sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))
-  , _wordNumber :: Int
-  } deriving stock (Eq, Show, Ord, Read, Generic)
-
-data PunctuationSet = StandardPunctuation deriving stock (Eq, Show)
-
-data Whitespace =
-  Space
-  | Tab
-  | TabIndent Int
-  | Newline deriving stock (Eq, Show, Ord, Read, Generic)
 
 data LexerState = LexerState
   { _previousWhitespace :: Whitespace
@@ -60,40 +54,9 @@ defaultLexerState = LexerState
   , _forceBreak = False
   }
 
-data Word = Word
-  { _wordLocation :: SourceLocation
-  , _word :: VocabType
-  , _precedingWhitespace :: Whitespace
-  } deriving stock (Eq, Show, Read, Generic)
-
-blankWord :: Word
-blankWord = Word
-  { _wordLocation = SourceLocation Nothing (-1)
-  , _word = ParagraphBreak
-  , _precedingWhitespace = Newline
-  }
-
 type Parser m = (MonadState LexerState m, MonadParsec Void Text m)
 
-displayWord :: Word -> Text
-displayWord Word{_word} = case _word of
-  I6 txt -> "(-"<>txt<>"-)"
-  StringLit txt -> "\""<>txt<>"\""
-  OrdinaryWord txt -> txt
-  StringSub txt -> "["<>txt<>"]"
-  ParagraphBreak -> "\n\n"
-
-instance Ord Word where
-  compare l1 l2 = _wordLocation l1 `compare` _wordLocation l2
-
 makeLenses ''LexerState
-makeLenses ''Word
-
-matchWord ::
-  (VocabType -> Bool)
-  -> Word
-  -> Bool
-matchWord f Word{_word} = f _word
 
 --- * Whitespace handling
 
@@ -118,7 +81,7 @@ lex ::
   Bool -- ^ divide string literals at substitutions?
   -> Maybe Text
   -> Text
-  -> Either (ParseErrorBundle Text Void) LexedSourceFile
+  -> Either (ParseErrorBundle Text Void) (SourceFile WordList, VocabMap)
 lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer defaultLexerState) "" ("\n" <> t  <> " \n\n\n\n ")
   where
     ps = StandardPunctuation
@@ -126,7 +89,6 @@ lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer default
       -- this is more of an inform quirk than anything..because it starts the lexer with a default of
       -- newline as the last seen space, then reading a single newline at the start of a file makes a paragraph break.
       -- ...yeah...
-
       pb <- initialNewlines ps
       (pb ++) . mconcat <$> manyTill (do
         -- lex the actual word
@@ -137,22 +99,40 @@ lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer default
         (lookAhead (satisfy isPunctuation) >> pass) <|> whenJustM (optional (admireWhitespace ps)) (previousWhitespace .=)
         pure w) eof
     mkVocabMap wordList = first (zip wordList) $ runState (mapM (state . identify . _word) wordList) HM.empty
-    listToSourceFile wordList = let (_, vm) = mkVocabMap wordList in LexedSourceFile
+    listToSourceFile wordList = let (_, vm) = mkVocabMap wordList in (SourceFile
       { _sourceFileName = mbFilename
-      , _sourceFileWords = wordList
-      , _sourceFileVocab = vm
-      }
+      , _sourceFileText  = t
+      , _sourceFileData = wordList
+      , _sourceFileQuotedWordCount = sum $ map (quotedWordCount . _word) wordList
+      , _sourceFileRawWordCount = length wordList
+      , _sourceFileWordCount = sum $ map (wordCount . _word) wordList
+      }, vm)
 
 initialNewlines ::
   Parser m
   => PunctuationSet
-  -> m [Word]
+  -> m [InformWord]
 initialNewlines ps = do
   mbPbreaks <- makeParagraphBreaks <$$> ((Nothing <$ optional (admireWhitespace ps)) <|> optional (try pbreak))
   pure $ fromMaybe [] mbPbreaks
 
-makeParagraphBreaks :: (Whitespace, Int, SourceLocation) -> [Word]
-makeParagraphBreaks (w, n, srcLoc) = replicate n (Word srcLoc ParagraphBreak w)
+makeParagraphBreaks ::
+  (Whitespace, Int, SourceLocation)
+  -> [InformWord]
+makeParagraphBreaks (w, n, srcLoc) = replicate n (InformWord srcLoc ParagraphBreak w)
+
+parseWord ::
+  Parser m
+  => Bool
+  -> PunctuationSet
+  -> m [InformWord]
+parseWord spl ps = choice
+  [ [] <$ comment
+  , makeParagraphBreaks <$> pbreak
+  , stringLit spl
+  , one <$> i6Inclusion
+  , one <$> ordinaryWord ps
+  ]
 
 admireWhitespace ::
   Parser m
@@ -198,42 +178,23 @@ findMostSignificantWhitespace (run, mbNewline) = case longestSequence (=='\t') r
   0 -> if null mbNewline then Space else Newline
   x -> if null mbNewline then Tab else TabIndent x
 
-parseWord ::
-  Parser m
-  => Bool
-  -> PunctuationSet
-  -> m [Word]
-parseWord spl ps = choice
-  [ [] <$ comment
-  , makeParagraphBreaks <$> pbreak
-  , stringLit spl
-  , singleton <$> i6Inclusion
-  , singleton <$> ordinaryWord ps
-  ]
-
-standardPunctuation :: Set Char
-standardPunctuation = fromList ".,:;?!(){}[]"
-
-getPunctuation :: PunctuationSet -> Set Char
-getPunctuation StandardPunctuation = standardPunctuation
-
 ordinaryWord ::
   Parser m
   => PunctuationSet
-  -> m Word
+  -> m InformWord
 ordinaryWord ps = do
   pw <- use previousWhitespace
   (srcL, w) <- annotateToken $ do
     w <- mconcat <$> someTill (choice [
       surroundedPunctuation ps
-      , toText . singleton <$> punctuationThenLetter ps
-      , toText . singleton <$> anySingle
+      , one <$> punctuationThenLetter ps
+      , one <$> anySingle
       ]) (guardM (use forceBreak) <|> lookAhead (standalonePunctuationOrSpace ps))
     ifM (use forceBreak)
       (forceBreak .= False >> previousWhitespace .= Space)
       (admireWhitespace ps >>= (previousWhitespace .=))
     return $ OrdinaryWord w
-  pure (Word srcL w pw)
+  pure (InformWord srcL w pw)
 
 punctuationThenLetter ::
   Parser m
@@ -295,13 +256,13 @@ surroundedPunctuation ps = try $ do
 
 i6Inclusion ::
   Parser m
-  => m Word
+  => m InformWord
 i6Inclusion = do
   (srcL, w) <- annotateToken $ do
     string' "(-"
     I6 . toText <$> manyTill anySingle (string' "-)")
   previousWhitespace .= Space
-  pure (Word srcL w Space)
+  pure (InformWord srcL w Space)
 
 stringLiteralInternal ::
   Parser m
@@ -316,7 +277,7 @@ stringLiteralInternal = annotateToken $ do
 stringLit ::
   Parser m
   => Bool
-  -> m [Word]
+  -> m [InformWord]
 stringLit spl = do
   pw <- use previousWhitespace
   ls <- annotateToken $ do
@@ -328,8 +289,8 @@ stringLit spl = do
         else stringLiteralInternal) (single '"')
   previousWhitespace .= Space
   case ls of
-    (s, []) -> pure [Word s (StringLit "") pw]
-    (_, (sx, wx):xs) -> pure $ Word sx wx pw : map (\(sx', wx') -> Word sx' wx' Space) xs
+    (s, []) -> pure [InformWord s (StringLit "") pw]
+    (_, (sx, wx):xs) -> pure $ InformWord sx wx pw : map (\(sx', wx') -> InformWord sx' wx' Space) xs
 
 comment ::
   Parser m

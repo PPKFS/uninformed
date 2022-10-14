@@ -3,7 +3,6 @@ module Uninformed.Test.Words.Lexer
   ) where
 
 
-import Data.Char ( isSpace )
 import Prelude hiding ( Word )
 
 import System.FilePath ( dropExtensions, takeFileName, (</>) )
@@ -15,10 +14,10 @@ import Text.Megaparsec.Char ( string, string' )
 import Text.Megaparsec.Char.Lexer ( decimal )
 
 import Uninformed.Words.Lexer
-import Uninformed.Words.Vocabulary ( lowerVocabType, VocabType(..) )
+import Uninformed.Words.Vocabulary
 import qualified Data.Set as S
 import qualified Data.Text as T
-import qualified Data.Vector as V
+import Uninformed.Words.TextFromFiles
 
 anyWords :: Parsec Void Text [VocabType]
 anyWords = manyTill (do
@@ -107,7 +106,7 @@ spec allFiles = do
         let res = lex False Nothing f
         case res of
           Left err -> assertFailure $ error . toText . errorBundlePretty $ err
-          Right (LexedSourceFile _ _ r) -> compareLexerInfo e $ getLexerInfo r
+          Right (sf, vm) -> compareLexerInfo e $ getLexerInfo sf
 
 compareLexerInfo :: LexerInfo -> LexerInfo -> Assertion
 compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe) = do
@@ -121,20 +120,12 @@ compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe)
   --S.difference rDws eDws @?= S.empty
   --eTd @=? rTd
 
-getLexerInfo :: WordList -> LexerInfo
-getLexerInfo wl =
-  let (wordSet :: Set VocabType) = fromList . toList $ map (\(Word _ w _) -> lowerVocabType w) wl in
+getLexerInfo :: SourceFile WordList -> LexerInfo
+getLexerInfo sf@SourceFile{_sourceFileData = wl} =
+  let (wordSet :: Set VocabType) = fromList . toList $ map (\(InformWord _ w _) -> lowerVocabType w) wl in
     LexerInfo
-      { totalWords = foldl' (\s (Word _ x _) -> wordCount x + s) 0 wl
+      { totalWords = _sourceFileRawWordCount sf
       , totalDistinct = S.size wordSet
       , distinctWordSet = wordSet
-      , individualEntries = toList $ map (\(Word _ w ps) -> (w, lowerVocabType w, ps)) wl
+      , individualEntries = toList $ map (\(InformWord _ w ps) -> (w, lowerVocabType w, ps)) wl
       }
-
-wordCount :: VocabType -> Int
-wordCount = \case
-  (StringLit s) -> length $ filter (/= "") $ T.split isSpace s
-  ParagraphBreak -> 0
-  OrdinaryWord w -> if T.all (`S.member` getPunctuation StandardPunctuation) w then 0 else 1
-  _ -> 1
-

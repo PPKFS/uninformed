@@ -9,6 +9,8 @@ import Test.Tasty.HUnit
 import Uninformed.Syntax.Sentences ( breakIntoSentences )
 import Text.Megaparsec (errorBundlePretty)
 import qualified Data.Text as T
+import Uninformed.Words.TextFromFiles
+    ( SourceFile(..) )
 
 spec :: [(FilePath, Text)] -> IO TestTree
 spec allFiles = do
@@ -25,7 +27,7 @@ spec allFiles = do
         let res = lex False Nothing f
         case res of
           Left err -> assertFailure $ error . toText . errorBundlePretty $ err
-          Right (LexedSourceFile _ _ r) -> compareSentenceInfo (breakIntoSentences r) e
+          Right (sf, vm) -> compareSentenceInfo (breakIntoSentences (_sourceFileData sf)) e
 
 zipWithPadding :: a -> b -> [a] -> [b] -> [(a,b)]
 zipWithPadding a b (x:xs) (y:ys) = (x,y) : zipWithPadding a b xs ys

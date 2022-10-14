@@ -3,6 +3,9 @@
 module Uninformed.Words.Vocabulary
   ( VocabularyEntry(..)
   , VocabType(..)
+  , PunctuationSet(..)
+  , standardPunctuation
+  , getPunctuation
   , VocabMap
   , lowerVocabType
   , identify
@@ -72,6 +75,14 @@ pattern Semicolon = OrdinaryWord ";"
 
 pattern Colon :: VocabType
 pattern Colon = OrdinaryWord ":"
+
+data PunctuationSet = StandardPunctuation deriving stock (Eq, Show)
+
+standardPunctuation :: Set Char
+standardPunctuation = fromList ".,:;?!(){}[]"
+
+getPunctuation :: PunctuationSet -> Set Char
+getPunctuation StandardPunctuation = standardPunctuation
 
 lowerVocabType :: VocabType -> VocabType
 lowerVocabType = \case

@@ -57,6 +57,7 @@ common common-options
     FunctionalDependencies
     LambdaCase
     MultiWayIf
+    InstanceSigs
     OverloadedStrings
     TypeFamilies
     TypeApplications
@@ -81,7 +82,9 @@ library
   import:          common-options
   hs-source-dirs:  src
   exposed-modules:
+    Uninformed.Words.Lexer.Types
     Uninformed.Words.Lexer
+    Uninformed.Words.TextFromFiles
     Uninformed.Words.Vocabulary
     Uninformed.Syntax.Sentences
 

@@ -1,11 +1,12 @@
 module Uninformed.Syntax.Sentences where
 
 import Uninformed.Words.Lexer
-import Prelude hiding ((|>), Word)
+import Prelude hiding ( (|>) )
 import Uninformed.Words.Vocabulary
 import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)
 import Data.Sequence ( (|>) )
+import Uninformed.Words.Lexer.Types ( matchWord, precedingWhitespace, word )
 
 
 breakIntoSentences ::
@@ -59,7 +60,7 @@ lookForSentenceBreak inTableMode wl@(_:wr) = (map (view _2) firstPart, otherStop
         x -> False
       )
     considerQuotedPunctuation curr next = not inTableMode && endsInPunctuation curr && isUppercaseWord next
-    isUppercaseWord (OrdinaryWord w') = maybe False (\x -> isUpper . fst $ x) $ T.uncons w'
+    isUppercaseWord (OrdinaryWord w') = maybe False (isUpper . fst) $ T.uncons w'
     isUppercaseWord _ = False
     endsInPunctuation (StringLit w') = maybe False (isPunctuation . snd) $ T.unsnoc w'
     endsInPunctuation _ = False
@@ -68,8 +69,8 @@ lookForSentenceBreak inTableMode wl@(_:wr) = (map (view _2) firstPart, otherStop
 -- inform checks if we do not break file boundaries, which we also ignore for now.
 -- basically this is a long winded check for 4:50pm (e.g.)
 considerColonDivision ::
-  Word
-  -> Word
+  InformWord
+  -> InformWord
   -> Bool
 considerColonDivision prev lookA = not $
   matchWord isNumber prev

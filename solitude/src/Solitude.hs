@@ -7,10 +7,12 @@ See README for more info
 -}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE InstanceSigs #-}
 
 module Solitude (
 module Relude
 , module Optics
+, module Optics.State.Operators
 , module Relude.Extra.Bifunctor
 , module Relude.Extra.Tuple
 , module Formatting.Buildable
@@ -43,8 +45,9 @@ import qualified Data.List.NonEmpty as NonEmpty
 import Formatting.Buildable
 import Data.List ((\\))
 import Text.Interpolation.Nyan
+import Optics.State.Operators
 
-  -- | Obtain a list of all members of a type universe, sans a finite list
+-- | Obtain a list of all members of a type universe, sans a finite list
 universeSans
   :: Bounded x
   => Enum x
@@ -57,12 +60,14 @@ class Reversing t where
   reversing :: t -> t
 
 instance Reversing (NonEmpty a) where
+  reversing :: NonEmpty a -> NonEmpty a
   reversing = NonEmpty.reverse
 
 reversed :: Reversing a => Iso' a a
 reversed = involuted reversing
 
 instance Reversing [a] where
+  reversing :: [a] -> [a]
   reversing = reverse
 
 bothAnd ::
