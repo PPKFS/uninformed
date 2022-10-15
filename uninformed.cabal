@@ -31,14 +31,14 @@ common common-options
     , megaparsec
     , optics
     , vector
+    , Earley
 
     , formatting
     , pretty-simple
     , prettyprinter
     , prettyprinter-ansi-terminal
 
-    , aeson
-    , katip
+    , chapelure
     , enummapset
     , haskell-src-meta
     , haskell-src-exts
@@ -87,6 +87,7 @@ library
     Uninformed.Words.TextFromFiles
     Uninformed.Words.Vocabulary
     Uninformed.Syntax.Sentences
+    Uninformed.Words.Grammar
 
 test-suite uninformed-test
   import:             common-options

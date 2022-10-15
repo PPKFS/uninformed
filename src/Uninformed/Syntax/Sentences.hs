@@ -8,7 +8,6 @@ import Data.Char (isUpper, isPunctuation)
 import Data.Sequence ( (|>) )
 import Uninformed.Words.Lexer.Types ( matchWord, precedingWhitespace, word )
 
-
 breakIntoSentences ::
   WordList
   -> [WordList]
@@ -20,7 +19,7 @@ breakIntoSentences wl = toList $ go wl empty
 trimText ::
   WordList
   -> WordList
-trimText = dropWhile (\w -> w ^. word == ParagraphBreak)
+trimText = dropWhile ((ParagraphBreak ==) . view word)
 
 breakOffSentence ::
   WordList

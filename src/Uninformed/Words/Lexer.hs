@@ -2,6 +2,7 @@
 {-# LANGUAGE NamedFieldPuns #-}
 {-# LANGUAGE StrictData #-}
 {-# LANGUAGE InstanceSigs #-}
+{-# LANGUAGE RecordWildCards #-}
 
 module Uninformed.Words.Lexer
   ( SourceLocation(..)
@@ -17,18 +18,6 @@ import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
 import Data.Set (member)
 
 import Text.Megaparsec
-    ( getOffset,
-      getSourcePos,
-      single,
-      anySingle,
-      choice,
-      (<?>),
-      someTill,
-      manyTill,
-      parse,
-      satisfy,
-      ParseErrorBundle,
-      MonadParsec(..) )
 import Text.Megaparsec.Char ( string' )
 import Uninformed.Words.Vocabulary ( identify, VocabType(..), VocabMap, PunctuationSet (..), getPunctuation )
 import qualified Data.HashMap.Strict as HM
@@ -54,7 +43,9 @@ defaultLexerState = LexerState
   , _forceBreak = False
   }
 
-type Parser m = (MonadState LexerState m, MonadParsec Void Text m)
+data LexerError
+
+type Parser m = (MonadState LexerState m, MonadParsec LexerError Text m)
 
 makeLenses ''LexerState
 
@@ -77,14 +68,22 @@ space ::
   => m Char
 space = satisfy isSpace
 
-lex ::
-  Bool -- ^ divide string literals at substitutions?
-  -> Maybe Text
-  -> Text
-  -> Either (ParseErrorBundle Text Void) (SourceFile WordList, VocabMap)
-lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer defaultLexerState) "" ("\n" <> t  <> " \n\n\n\n ")
+type StructuredError = Text
+type PipelineStage i o = i -> Either StructuredError o
+
+data LexerInput = LexerInput
+  { divideLiteralsAtSubstitutions :: Bool
+  , sourceFilename :: Maybe Text
+  , textStream :: Text
+  }
+
+lex :: PipelineStage LexerInput (SourceFile WordList, VocabMap)
+lex LexerInput{..} =
+  bimap makeError listToSourceFile $
+    parse (evalStateT lexer defaultLexerState) "" ("\n" <> textStream  <> " \n\n\n\n ")
   where
     ps = StandardPunctuation
+    lexer :: StateT LexerState (Parsec LexerError Text) [InformWord]
     lexer = do
       -- this is more of an inform quirk than anything..because it starts the lexer with a default of
       -- newline as the last seen space, then reading a single newline at the start of a file makes a paragraph break.
@@ -92,7 +91,7 @@ lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer default
       pb <- initialNewlines ps
       (pb ++) . mconcat <$> manyTill (do
         -- lex the actual word
-        w <- parseWord spl ps
+        w <- parseWord divideLiteralsAtSubstitutions ps
         -- the only cases where whitespace is required (breaking an ordinary word) is dealt with, but we may have additional whitespace.
         -- we don't want to double check the whitespace after we've broken for a punctuation mark because we don't want to add an excess space
         -- this mimics inform's "add in extra spaces everywhere".
@@ -100,13 +99,16 @@ lex spl mbFilename t = second listToSourceFile $ parse (evalStateT lexer default
         pure w) eof
     mkVocabMap wordList = first (zip wordList) $ runState (mapM (state . identify . _word) wordList) HM.empty
     listToSourceFile wordList = let (_, vm) = mkVocabMap wordList in (SourceFile
-      { _sourceFileName = mbFilename
-      , _sourceFileText  = t
+      { _sourceFileName = sourceFilename
+      , _sourceFileText = textStream
       , _sourceFileData = wordList
       , _sourceFileQuotedWordCount = sum $ map (quotedWordCount . _word) wordList
       , _sourceFileRawWordCount = length wordList
       , _sourceFileWordCount = sum $ map (wordCount . _word) wordList
       }, vm)
+
+makeError :: ParseErrorBundle Text LexerError  -> StructuredError
+makeError = error ""
 
 initialNewlines ::
   Parser m
