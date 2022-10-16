@@ -34,7 +34,8 @@ module Relude
 , eitherJoin
 , thenATraverse
 , (<$?>)
-, MonadRS) where
+, MonadRS
+, longestSequence) where
 
 import Relude
 import Optics hiding (uncons)
@@ -194,3 +195,10 @@ thenATraverse o1 o2 = atraversal
   (\s b -> s & castOptic @An_AffineTraversal o1 .~ b
            & castOptic @An_AffineTraversal o2 .~ b
   )
+
+longestSequence :: (a -> Bool) -> [a] -> Int
+longestSequence p x = ls x 0 0
+  where ls [] mx cur = max mx cur
+        ls (x':xs) mx cur
+          | p x' = ls xs mx (cur+1)
+          | otherwise = ls xs (max mx cur) 0

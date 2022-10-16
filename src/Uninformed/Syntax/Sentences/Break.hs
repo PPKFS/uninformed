@@ -1,4 +1,7 @@
-module Uninformed.Syntax.Sentences where
+module Uninformed.Syntax.Sentences.Break
+  ( breakIntoSentences
+
+  ) where
 
 import Uninformed.Words.Lexer
 import Prelude hiding ( (|>) )
@@ -15,35 +18,27 @@ breakIntoSentences wl = toList $ go wl empty
   where
     go [] s = s
     go wl' s = let (ns, r) = breakOffSentence (trimText wl') in go r (s |> ns)
-
-trimText ::
-  WordList
-  -> WordList
-trimText = dropWhile ((ParagraphBreak ==) . view word)
-
-breakOffSentence ::
-  WordList
-  -> (WordList, WordList)
-breakOffSentence wl = lookForSentenceBreak (considerTableMode wl) wl
+    trimText = dropWhile ((ParagraphBreak ==) . view word)
+    breakOffSentence = considerTableMode >>= lookForSentenceBreak
 
 lookForSentenceBreak ::
   Bool
   -> WordList
   -> (WordList, WordList)
 lookForSentenceBreak _ [] = ([], [])
-lookForSentenceBreak inTableMode wl@(_:wr) = (map (view _2) firstPart, otherStops)
+lookForSentenceBreak inTableMode wl@(_:wr) = (map (view _2) firstPart, remainder)
   where
     translateLeft = blankWord:wl
     (firstPart, stopAndRemainder) = break findFirstStop (zip3 translateLeft wl (snoc wr blankWord))
     (stopChar, rest) = maybe (blankWord, []) (first (view _2)) $ uncons stopAndRemainder
-    otherStops = dropWhile findNextStops (map (view _2) rest)
+    remainder = dropWhile findNextStops (map (view _2) rest)
     findFirstStop (prev, curr, lookA) = matchWord
       (\case
         ParagraphBreak -> True
         Period -> True
         Semicolon -> True
         Colon -> considerColonDivision prev lookA
-        x -> considerQuotedPunctuation (_word curr) (_word lookA)
+        _ -> considerQuotedPunctuation (_word curr) (_word lookA)
         ) curr
     findNextStops = matchWord
       (\w' -> case (_word stopChar, w') of
@@ -56,7 +51,7 @@ lookForSentenceBreak inTableMode wl@(_:wr) = (map (view _2) firstPart, otherStop
         (Colon, Semicolon) -> error "semicolon after colon"
         (Period, Semicolon) -> error "semicolon after period"
         (_, Semicolon) -> True
-        x -> False
+        _ -> False
       )
     considerQuotedPunctuation curr next = not inTableMode && endsInPunctuation curr && isUppercaseWord next
     isUppercaseWord (OrdinaryWord w') = maybe False (isUpper . fst) $ T.uncons w'

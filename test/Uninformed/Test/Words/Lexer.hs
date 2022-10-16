@@ -18,6 +18,7 @@ import Uninformed.Words.Vocabulary
 import qualified Data.Set as S
 import qualified Data.Text as T
 import Uninformed.Words.TextFromFiles
+import Uninformed.Test.Common
 
 anyWords :: Parsec Void Text [VocabType]
 anyWords = manyTill (do
@@ -92,21 +93,12 @@ data LexerInfo = LexerInfo
   } deriving stock (Eq, Show)
 
 spec :: [(FilePath, Text)] -> IO TestTree
-spec allFiles = do
+spec allFiles =
   let prfx2 = "test/Uninformed/Test/Words/Expected"
-      fps = map fst allFiles
-  allFiles2 <- mapM (fmap decodeUtf8 . readFileBS . (prfx2 </>)) fps
-  let cmb = zip3
-        (map (takeFileName . dropExtensions) fps)
-        (map snd allFiles)
-        (map (either (error . toText . errorBundlePretty) id . parse parseExemplar "") allFiles2)
-  return $ testGroup "Lexing" $
-    flip map cmb $ \(fp, f, e) ->
-      testCase ("lexes " <> fp) $ do
-        let res = lex False Nothing f
-        case res of
-          Left err -> assertFailure $ error . toText . errorBundlePretty $ err
-          Right (sf, vm) -> compareLexerInfo e $ getLexerInfo sf
+  in
+    runTestSuite allFiles "Lexing" prfx2 (Proxy @'LexingStage)
+      (either (error . toText . errorBundlePretty) id . parse parseExemplar "")
+      (\e (s, _) -> compareLexerInfo e $ getLexerInfo s)
 
 compareLexerInfo :: LexerInfo -> LexerInfo -> Assertion
 compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe) = do

@@ -3,31 +3,17 @@ module Uninformed.Test.Syntax.Sentences
   ) where
 import Test.Tasty
 import Uninformed.Words.Lexer
-import System.FilePath ( (</>), dropExtensions, takeFileName )
 import Test.Tasty.HUnit
-    ( testCase, (@=?), assertFailure, Assertion )
-import Uninformed.Syntax.Sentences ( breakIntoSentences )
-import Text.Megaparsec (errorBundlePretty)
+    ( (@=?), assertFailure, Assertion )
 import qualified Data.Text as T
-import Uninformed.Words.TextFromFiles
-    ( SourceFile(..) )
+import Uninformed.Test.Common
 
 spec :: [(FilePath, Text)] -> IO TestTree
-spec allFiles = do
+spec allFiles =
   let prfx2 = "test/Uninformed/Test/Syntax/Expected"
-      fps = map fst allFiles
-  allFiles2 <- mapM (fmap decodeUtf8 . readFileBS . (prfx2 </>)) fps
-  let cmb = zip3
-        (map (takeFileName . dropExtensions) fps)
-        (map snd allFiles)
-        (map parseExemplar allFiles2)
-  return $ testGroup "Sentence Breaking" $
-    flip map cmb $ \(fp, f, e) ->
-      testCase ("breaks sentences for " <> fp) $ do
-        let res = lex False Nothing f
-        case res of
-          Left err -> assertFailure $ error . toText . errorBundlePretty $ err
-          Right (sf, vm) -> compareSentenceInfo (breakIntoSentences (_sourceFileData sf)) e
+  in
+    runTestSuite allFiles "Sentence Breaking" prfx2 (Proxy @'SentenceBreakingStage)
+      parseExemplar compareSentenceInfo
 
 zipWithPadding :: a -> b -> [a] -> [b] -> [(a,b)]
 zipWithPadding a b (x:xs) (y:ys) = (x,y) : zipWithPadding a b xs ys

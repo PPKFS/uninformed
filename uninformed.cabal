@@ -96,6 +96,7 @@ test-suite uninformed-test
   main-is:            Spec.hs
   other-modules:      Uninformed.Test.Words.Lexer
                       Uninformed.Test.Syntax.Sentences
+                      Uninformed.Test.Common
   build-depends:
     , tasty
     , tasty-hunit

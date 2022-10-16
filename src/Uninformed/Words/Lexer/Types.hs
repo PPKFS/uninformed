@@ -6,6 +6,7 @@ module Uninformed.Words.Lexer.Types
   ( SourceLocation(..)
   , Whitespace(..)
   , InformWord(..)
+  , LexerInput(..)
 
   , displayWord
   , blankWord
@@ -18,6 +19,12 @@ module Uninformed.Words.Lexer.Types
 
 import Text.Megaparsec (SourcePos)
 import Uninformed.Words.Vocabulary
+
+data LexerInput = LexerInput
+  { divideLiteralsAtSubstitutions :: Bool
+  , sourceFilename :: Maybe Text
+  , textStream :: Text
+  }
 
 data SourceLocation = SourceLocation
   { _sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))

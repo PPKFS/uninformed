@@ -26,7 +26,7 @@ import Uninformed.Words.Lexer.Types
       Whitespace(..),
       SourceLocation(..),
       blankWord,
-      displayWord )
+      displayWord, LexerInput (..) )
 import Uninformed.Words.TextFromFiles ( SourceFile(..), wordCount, quotedWordCount )
 
 type WordList = [InformWord]
@@ -43,7 +43,7 @@ defaultLexerState = LexerState
   , _forceBreak = False
   }
 
-data LexerError
+type LexerError = Void
 
 type Parser m = (MonadState LexerState m, MonadParsec LexerError Text m)
 
@@ -71,15 +71,9 @@ space = satisfy isSpace
 type StructuredError = Text
 type PipelineStage i o = i -> Either StructuredError o
 
-data LexerInput = LexerInput
-  { divideLiteralsAtSubstitutions :: Bool
-  , sourceFilename :: Maybe Text
-  , textStream :: Text
-  }
-
 lex :: PipelineStage LexerInput (SourceFile WordList, VocabMap)
 lex LexerInput{..} =
-  bimap makeError listToSourceFile $
+  bimap (makeError "") listToSourceFile $
     parse (evalStateT lexer defaultLexerState) "" ("\n" <> textStream  <> " \n\n\n\n ")
   where
     ps = StandardPunctuation
@@ -107,8 +101,11 @@ lex LexerInput{..} =
       , _sourceFileWordCount = sum $ map (wordCount . _word) wordList
       }, vm)
 
-makeError :: ParseErrorBundle Text LexerError  -> StructuredError
-makeError = error ""
+makeError ::
+  Text
+  -> ParseErrorBundle Text LexerError
+  -> StructuredError
+makeError _ = toText . errorBundlePretty
 
 initialNewlines ::
   Parser m
@@ -167,13 +164,6 @@ pbreak = do
     pure $ length n)
   previousWhitespace .= Space
   pure (ps, i, s)
-
-longestSequence :: (a -> Bool) -> [a] -> Int
-longestSequence p x = ls x 0 0
-  where ls [] mx cur = max mx cur
-        ls (x':xs) mx cur
-          | p x' = ls xs mx (cur+1)
-          | otherwise = ls xs (max mx cur) 0
 
 findMostSignificantWhitespace :: (String, String) -> Whitespace
 findMostSignificantWhitespace (run, mbNewline) = case longestSequence (=='\t') run of
