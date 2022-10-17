@@ -10,11 +10,12 @@ import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)
 import Data.Sequence ( (|>) )
 import Uninformed.Words.Lexer.Types ( matchWord, precedingWhitespace, word )
+import Uninformed.Syntax.Sentences
 
 breakIntoSentences ::
-  WordList
-  -> [WordList]
-breakIntoSentences wl = toList $ go wl empty
+  [InformWord]
+  -> [Sentence]
+breakIntoSentences wl = catMaybes . toList $ go wl empty
   where
     go [] s = s
     go wl' s = let (ns, r) = breakOffSentence (trimText wl') in go r (s |> ns)
@@ -23,15 +24,14 @@ breakIntoSentences wl = toList $ go wl empty
 
 lookForSentenceBreak ::
   Bool
-  -> WordList
-  -> (WordList, WordList)
-lookForSentenceBreak _ [] = ([], [])
-lookForSentenceBreak inTableMode wl@(_:wr) = (map (view _2) firstPart, remainder)
+  -> [InformWord]
+  -> (Maybe Sentence, [InformWord])
+lookForSentenceBreak _ [] = (Nothing, [])
+lookForSentenceBreak inTableMode wl@(_:wr) =
+  (viaNonEmpty Sentence (map (view _2) firstPart), dropWhile findNextStops (map (view _2) rest))
   where
-    translateLeft = blankWord:wl
-    (firstPart, stopAndRemainder) = break findFirstStop (zip3 translateLeft wl (snoc wr blankWord))
+    (firstPart, stopAndRemainder) = break findFirstStop (zip3 (blankWord:wl) wl (snoc wr blankWord))
     (stopChar, rest) = maybe (blankWord, []) (first (view _2)) $ uncons stopAndRemainder
-    remainder = dropWhile findNextStops (map (view _2) rest)
     findFirstStop (prev, curr, lookA) = matchWord
       (\case
         ParagraphBreak -> True
@@ -72,7 +72,7 @@ considerColonDivision prev lookA = not $
   && (lookA ^. precedingWhitespace) `elem` [Space, Tab]
 
 considerTableMode ::
-  WordList
+  [InformWord]
   -> Bool
 considerTableMode [] = False
 considerTableMode (w:_) = matchWord (== OrdinaryWord "table") w

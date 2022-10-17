@@ -86,7 +86,8 @@ library
     Uninformed.Words.Lexer
     Uninformed.Words.TextFromFiles
     Uninformed.Words.Vocabulary
-    Uninformed.Syntax.Sentences
+    Uninformed.Syntax.Sentences.Break
+    Uninformed.Syntax.Sentences.Arrange
     Uninformed.Words.Grammar
 
 test-suite uninformed-test

@@ -14,6 +14,8 @@ module Uninformed.Words.Lexer.Types
 
   , precedingWhitespace
   , word
+  , wordLocation
+  , sourceLocationFile
 
   ) where
 
@@ -27,7 +29,8 @@ data LexerInput = LexerInput
   }
 
 data SourceLocation = SourceLocation
-  { _sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))
+  { _sourceLocationFile :: Maybe Text
+  , _sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))
   , _wordNumber :: Int
   } deriving stock (Eq, Show, Ord, Read, Generic)
 
@@ -45,7 +48,7 @@ data InformWord = InformWord
 
 blankWord :: InformWord
 blankWord = InformWord
-  { _wordLocation = SourceLocation Nothing (-1)
+  { _wordLocation = SourceLocation Nothing Nothing (-1)
   , _word = ParagraphBreak
   , _precedingWhitespace = Newline
   }
@@ -71,3 +74,4 @@ matchWord ::
 matchWord f InformWord{_word} = f _word
 
 makeLenses ''InformWord
+makeLenses ''SourceLocation

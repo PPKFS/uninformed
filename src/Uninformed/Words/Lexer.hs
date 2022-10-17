@@ -8,7 +8,6 @@ module Uninformed.Words.Lexer
   ( SourceLocation(..)
   , Whitespace(..)
   , InformWord(..)
-  , WordList
   , lex
   , displayWord
   , blankWord
@@ -22,25 +21,19 @@ import Text.Megaparsec.Char ( string' )
 import Uninformed.Words.Vocabulary ( identify, VocabType(..), VocabMap, PunctuationSet (..), getPunctuation )
 import qualified Data.HashMap.Strict as HM
 import Uninformed.Words.Lexer.Types
-    ( InformWord(..),
-      Whitespace(..),
-      SourceLocation(..),
-      blankWord,
-      displayWord, LexerInput (..) )
 import Uninformed.Words.TextFromFiles ( SourceFile(..), wordCount, quotedWordCount )
-
-type WordList = [InformWord]
-
 
 data LexerState = LexerState
   { _previousWhitespace :: Whitespace
   , _forceBreak :: Bool
+  , currentFilename :: Maybe Text
   }
 
 defaultLexerState :: LexerState
 defaultLexerState = LexerState
   { _previousWhitespace = Newline
   , _forceBreak = False
+  , currentFilename = Nothing
   }
 
 type LexerError = Void
@@ -71,7 +64,7 @@ space = satisfy isSpace
 type StructuredError = Text
 type PipelineStage i o = i -> Either StructuredError o
 
-lex :: PipelineStage LexerInput (SourceFile WordList, VocabMap)
+lex :: PipelineStage LexerInput (SourceFile [InformWord], VocabMap)
 lex LexerInput{..} =
   bimap (makeError "") listToSourceFile $
     parse (evalStateT lexer defaultLexerState) "" ("\n" <> textStream  <> " \n\n\n\n ")
@@ -259,12 +252,13 @@ i6Inclusion = do
 stringLiteralInternal ::
   Parser m
   => m (SourceLocation, VocabType)
-stringLiteralInternal = annotateToken $ do
-  t <- toText <$> manyTill (
-    '\n' <$ try (takeWhileP Nothing isHspace >> satisfy isNewline >> takeWhileP Nothing isHspace) <|>
-    ' ' <$ single '\160' <|>
-    anySingle) (lookAhead $ single '"')
-  pure $ StringLit t
+stringLiteralInternal = do
+  annotateToken $ do
+    t <- toText <$> manyTill (
+      '\n' <$ try (takeWhileP Nothing isHspace >> satisfy isNewline >> takeWhileP Nothing isHspace) <|>
+      ' ' <$ single '\160' <|>
+      anySingle) (lookAhead $ single '"')
+    pure $ StringLit t
 
 stringLit ::
   Parser m
@@ -293,13 +287,14 @@ comment = do
   pass
 
 annotateToken ::
-  (MonadParsec e Text m)
+  (MonadParsec e Text m, MonadState LexerState m)
   => m a
   -> m (SourceLocation, a)
 annotateToken p = do
+  fn <- gets currentFilename
   b <- getSourcePos
   b' <- getOffset
   r <- p
   a <- getSourcePos
   a' <- getOffset
-  return (SourceLocation (Just ((b', b), (a', a))) 0, r)
+  return (SourceLocation fn (Just ((b', b), (a', a))) 0, r)
