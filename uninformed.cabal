@@ -42,6 +42,7 @@ common common-options
     , enummapset
     , haskell-src-meta
     , haskell-src-exts
+    , nonempty-vector
 
   ghc-options:
     -Wall -Wcompat -Widentities -Wredundant-constraints
@@ -86,6 +87,7 @@ library
     Uninformed.Words.Lexer
     Uninformed.Words.TextFromFiles
     Uninformed.Words.Vocabulary
+    Uninformed.Syntax.Sentences
     Uninformed.Syntax.Sentences.Break
     Uninformed.Syntax.Sentences.Arrange
     Uninformed.Words.Grammar

@@ -5,6 +5,7 @@ module Uninformed.Syntax.SyntaxTree where
 import qualified Data.Vector as V
 import qualified Data.Set as S
 import Uninformed.Words.Lexer.Types
+import qualified Data.Vector.NonEmpty as VNE
 
 data NodeType = HeadingNode Int | RootNode deriving stock (Show)
 
@@ -19,7 +20,7 @@ data Node a = Node
 instance Eq (Node a) where
   (==) n1 n2 = _nodeId n1 == _nodeId n2
 
-data SyntaxTree a = Leaf (Node a) | Branch (Node a) (V.Vector (SyntaxTree a)) deriving stock (Show, Eq)
+data SyntaxTree a = Leaf (Node a) | Branch (Node a) (VNE.NonEmptyVector (SyntaxTree a)) deriving stock (Show, Eq)
 
 data Crumb a = Crumb (Node a) (V.Vector (SyntaxTree a)) (V.Vector (SyntaxTree a)) deriving stock (Show)
 
@@ -59,22 +60,47 @@ newSyntaxTree fn = Zipper (Leaf (Node
   , _nodeLocation = SourceLocation (Just fn) Nothing (-1)
   }), [])
 
-up :: Zipper a -> Zipper a
-up (Zipper (n, [])) = Zipper (n, [])
-up (Zipper (n, (Crumb node ls rs):bs)) = Zipper (Branch node (V.concat [ls, V.singleton n, rs]), bs)
+consVector ::
+  V.Vector a
+  -> VNE.NonEmptyVector a
+  -> VNE.NonEmptyVector a
+consVector v vn = case VNE.fromVector v of
+  Nothing -> vn
+  Just x -> x VNE.++ vn
 
-upWhile :: 
+up ::
+  Zipper a
+  -> Zipper a
+up (Zipper (_, [])) = error "cannot go up from the root."
+up (Zipper (n, (Crumb node ls rs):bs)) = Zipper (Branch node (consVector ls (VNE.consV n rs)), bs)
+
+down ::
+  Zipper a
+  -> Zipper a
+down (Zipper (Leaf _, _)) = error "cannot go down from a leaf."
+down (Zipper (Branch a vs, cs)) = let (h, hs) = VNE.uncons vs in Zipper (h, Crumb a V.empty hs:cs)
+
+safeUp ::
+  Zipper a
+  -> Maybe (Zipper a)
+safeUp (Zipper (_, [])) = Nothing
+safeUp z = Just (up z)
+
+-- either look for a condition at the current level, and then extract some info
+-- if not, then try to move up and recurse
+safeFindUp ::
+  (Node a -> Maybe b)
+  -> (b -> c)
+  -> Zipper a
+  -> Maybe c
+safeFindUp f cont z = fmap cont (f . focus $ z) <|> (safeUp z >>= safeFindUp f cont)
+
+-- whilst some condition holds, keep going up. stop the zipper at the first instance of a broken condition.
+upWhile ::
   (Zipper a -> Bool)
   -> Zipper a
   -> Zipper a
-upWhile f z = 
-  if f z
-    then 
-      let upN = up z in 
-        if upN == z then error "oops you hit the root"
-        else upWhile f upN
-    else
-      z
+upWhile f z = if f z then upWhile f (up z) else z
 
 left :: Zipper a -> Zipper a
 left (Zipper (n, c)) = fromMaybe (Zipper (n, [])) $ do
@@ -88,6 +114,10 @@ right (Zipper (n, c)) = fromMaybe (Zipper (n, [])) $ do
   (r, rs') <- V.uncons rs
   return $ Zipper (r, Crumb node (V.snoc ls n) rs':bs)
 
+downFurthestRight :: Zipper a -> Zipper a
+downFurthestRight (Zipper (Leaf _, _)) = error "cannot go down from a leaf."
+downFurthestRight (Zipper (Branch a vs, cs)) = let (hs, h) = VNE.unsnoc vs in Zipper (h, Crumb a hs V.empty:cs)
+
 graftNodeChild ::
   Node a
   -> Zipper a
@@ -98,7 +128,8 @@ graftTreeChild ::
   SyntaxTree a
   -> Zipper a
   -> Zipper a
-graftTreeChild t z = error ""
+graftTreeChild t (Zipper (Leaf a, cs)) = down (Zipper (Branch a (VNE.singleton t), cs))
+graftTreeChild t (Zipper (Branch a ns, cs)) = downFurthestRight (Zipper (Branch a (VNE.snoc ns t), cs))
 
 graftTreeSibling ::
   SyntaxTree a

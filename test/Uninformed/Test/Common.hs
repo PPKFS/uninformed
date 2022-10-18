@@ -11,6 +11,8 @@ import Uninformed.Words.Vocabulary
 import System.FilePath
 import Test.Tasty
 import Test.Tasty.HUnit
+import Uninformed.Syntax.Sentences
+import Uninformed.Syntax.Sentences.Break
 
 data Stage =
   LexingStage
@@ -21,8 +23,14 @@ class HasPipeline (s :: Stage) where
   runPipeline :: Proxy s -> Text -> Either Text (PipelineOutput s)
 
 instance HasPipeline 'LexingStage where
-  type PipelineOutput 'LexingStage = (SourceFile WordList, VocabMap)
+  type PipelineOutput 'LexingStage = (SourceFile [InformWord], VocabMap)
   runPipeline _ sf = lex (LexerInput False Nothing sf)
+
+instance HasPipeline 'SentenceBreakingStage where
+  type PipelineOutput 'SentenceBreakingStage = [Sentence]
+  runPipeline _ sf = do
+    (sf', _) <- lex (LexerInput False Nothing sf)
+    pure $ breakIntoSentences (_sourceFileData sf')
 
 runTestSuite ::
   forall s b.

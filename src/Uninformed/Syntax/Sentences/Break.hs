@@ -28,7 +28,12 @@ lookForSentenceBreak ::
   -> (Maybe Sentence, [InformWord])
 lookForSentenceBreak _ [] = (Nothing, [])
 lookForSentenceBreak inTableMode wl@(_:wr) =
-  (viaNonEmpty Sentence (map (view _2) firstPart), dropWhile findNextStops (map (view _2) rest))
+  (case viaNonEmpty Sentence (map (view _2) firstPart) of
+    -- this happens when the stopchar is part of the actual word.
+    -- for example, a sentence consisting of a single quoted string is a 1 word sentence that contains its own
+    -- stopchar.
+    Nothing -> Just (Sentence (stopChar :| []))
+    Just x -> Just x, dropWhile findNextStops (map (view _2) rest))
   where
     (firstPart, stopAndRemainder) = break findFirstStop (zip3 (blankWord:wl) wl (snoc wr blankWord))
     (stopChar, rest) = maybe (blankWord, []) (first (view _2)) $ uncons stopAndRemainder

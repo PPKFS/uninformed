@@ -16,8 +16,10 @@ acceptSentence ::
   Zipper Word
   -> Sentence
   -> Zipper Word
-acceptSentence z sentence = do
-  detectChangeOfSourceFile z sentence
+acceptSentence z sentence =
+  detectChangeOfSourceFile z sentence &
+  parseDividingSentence
+
 
   -- if this sentence is in a different file to our current focus, then
   -- we want a new implicit super heading.
@@ -33,18 +35,18 @@ detectChangeOfSourceFile z sentence = if lastFile /= sentenceFileOfOrigin senten
   where
     lastFile = focus z ^. nodeLocation % sourceLocationFile
 
-makeNewHeadingNode :: 
-  HeadingType 
-  -> Int 
-  -> Maybe Text 
+makeNewHeadingNode ::
+  HeadingType
+  -> Int
+  -> Maybe Text
   -> Zipper Word
   -> Zipper Word
-makeNewHeadingNode ht hl hfn z = 
-  upWhile (\z' -> getHeadingLevel z' > hl) z & 
-  graftNodeChild (newNode)
+makeNewHeadingNode ht hl hfn z =
+  upWhile (\z' -> getHeadingLevel z' > hl) z &
+  graftNodeChild newNode
 
-newNode :: Node Word
-newNode = _
+newNode :: Node a
+newNode = error ""
   -- if the new heading level is lower than the current heading level, then
   -- we need to go *up* until we hit a higher level.
 

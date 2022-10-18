@@ -6,7 +6,7 @@ module Uninformed.Syntax.Sentences
 
 import Uninformed.Words.Lexer.Types
 
-newtype Sentence = Sentence (NonEmpty InformWord)
+newtype Sentence = Sentence { unSentence :: NonEmpty InformWord }
 
 sentenceFileOfOrigin ::
   Sentence

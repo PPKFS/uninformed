@@ -112,7 +112,7 @@ compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe)
   --S.difference rDws eDws @?= S.empty
   --eTd @=? rTd
 
-getLexerInfo :: SourceFile WordList -> LexerInfo
+getLexerInfo :: SourceFile [InformWord] -> LexerInfo
 getLexerInfo sf@SourceFile{_sourceFileData = wl} =
   let (wordSet :: Set VocabType) = fromList . toList $ map (\(InformWord _ w _) -> lowerVocabType w) wl in
     LexerInfo

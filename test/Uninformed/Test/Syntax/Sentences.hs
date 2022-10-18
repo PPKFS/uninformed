@@ -6,6 +6,7 @@ import Uninformed.Words.Lexer
 import Test.Tasty.HUnit
     ( (@=?), assertFailure, Assertion )
 import qualified Data.Text as T
+import Uninformed.Syntax.Sentences
 import Uninformed.Test.Common
 
 spec :: [(FilePath, Text)] -> IO TestTree
@@ -26,11 +27,11 @@ parseExemplar t = let l = filter isRelevantSentenceNode . map T.stripStart . lin
 isRelevantSentenceNode :: Text -> Bool
 isRelevantSentenceNode t = "SENTENCE_NT" `T.isPrefixOf` t || ("HEADING_NT" `T.isPrefixOf` t && not ("0}" `T.isSuffixOf` t))
 
-compareSentenceInfo :: [WordList] -> (Int, [Text]) -> Assertion
-compareSentenceInfo wl (numSentences, fullSentenceList) = if
+compareSentenceInfo :: (Int, [Text]) -> [Sentence] -> Assertion
+compareSentenceInfo (numSentences, fullSentenceList) wl = if
   numSentences /= length wl
   then
-    let zipL = zipWithPadding "" "" fullSentenceList (map (T.intercalate " " . map displayWord) wl) in
+    let zipL = zipWithPadding "" "" fullSentenceList (map (T.intercalate " " . map displayWord . toList . unSentence) wl) in
     assertFailure $ toString $ "Failed to match the right number of sentences, and instead we got \n" <>
       unlines (map show zipL) <> " exp" <> show numSentences <> " act" <> show (length wl)
   else
