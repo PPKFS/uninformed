@@ -4,30 +4,34 @@ import Uninformed.Syntax.SyntaxTree
 import Uninformed.Words.Lexer.Types
 import Uninformed.Syntax.Sentences
 
-data HeadingType = Implicit | Explicit
-
 createSyntaxTreeSkeleton ::
   Text
   -> [Sentence]
-  -> SyntaxTree Word
-createSyntaxTreeSkeleton fn = fst . unzipper . foldl' acceptSentence (newSyntaxTree fn)
+  -> SyntaxTree a
+createSyntaxTreeSkeleton fn = fst . unzipper . toTop . foldl' acceptSentence (newSyntaxTree fn)
+
+toTop :: Zipper a -> Zipper a
+toTop = upWhile (\s -> case _nodeType $ focus s of
+  RootNode -> False
+  _ -> True
+  )
 
 acceptSentence ::
-  Zipper Word
+  Zipper a
   -> Sentence
-  -> Zipper Word
+  -> Zipper a
 acceptSentence z sentence =
-  detectChangeOfSourceFile z sentence &
-  parseDividingSentence
+  detectChangeOfSourceFile z sentence -- &
+  --parseDividingSentence
 
 
   -- if this sentence is in a different file to our current focus, then
   -- we want a new implicit super heading.
 detectChangeOfSourceFile ::
-  Zipper Word
+  Zipper a
   -> Sentence
-  -> Zipper Word
-detectChangeOfSourceFile z sentence = if lastFile /= sentenceFileOfOrigin sentence
+  -> Zipper a
+detectChangeOfSourceFile z sentence = if traceShow (lastFile, sentenceFileOfOrigin sentence) (lastFile /= sentenceFileOfOrigin sentence)
   then
     makeNewHeadingNode Implicit 0 (sentenceFileOfOrigin sentence) z
   else
@@ -39,15 +43,16 @@ makeNewHeadingNode ::
   HeadingType
   -> Int
   -> Maybe Text
-  -> Zipper Word
-  -> Zipper Word
+  -> Zipper a
+  -> Zipper a
 makeNewHeadingNode ht hl hfn z =
-  upWhile (\z' -> getHeadingLevel z' > hl) z &
-  graftNodeChild newNode
-
-newNode :: Node a
-newNode = error ""
   -- if the new heading level is lower than the current heading level, then
   -- we need to go *up* until we hit a higher level.
+  upWhile (\z' -> getHeadingLevel z' > hl) z &
+  graftNodeChild ((blankNode "" ("imp_heading_" <> fromMaybe "" hfn))
+    { _nodeType = HeadingNode ht hl
+    } )
+
+
 
 

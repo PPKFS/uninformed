@@ -1,5 +1,6 @@
 module Uninformed.Test.Syntax.Sentences
   ( spec
+  , spec2
   ) where
 import Test.Tasty
 import Uninformed.Words.Lexer
@@ -8,6 +9,7 @@ import Test.Tasty.HUnit
 import qualified Data.Text as T
 import Uninformed.Syntax.Sentences
 import Uninformed.Test.Common
+import Uninformed.Syntax.SyntaxTree
 
 spec :: [(FilePath, Text)] -> IO TestTree
 spec allFiles =
@@ -15,6 +17,13 @@ spec allFiles =
   in
     runTestSuite allFiles "Sentence Breaking" prfx2 (Proxy @'SentenceBreakingStage)
       parseExemplar compareSentenceInfo
+
+spec2 :: [(FilePath, Text)] -> IO TestTree
+spec2 allFiles =
+  let prfx2 = "test/Uninformed/Test/Syntax/Expected"
+  in
+    runTestSuite allFiles "Sentence Arranging" prfx2 (Proxy @'SyntaxTreeArrangingStage)
+      parseExemplar ensureAtLeastOneHeading
 
 zipWithPadding :: a -> b -> [a] -> [b] -> [(a,b)]
 zipWithPadding a b (x:xs) (y:ys) = (x,y) : zipWithPadding a b xs ys
@@ -36,3 +45,6 @@ compareSentenceInfo (numSentences, fullSentenceList) wl = if
       unlines (map show zipL) <> " exp" <> show numSentences <> " act" <> show (length wl)
   else
     numSentences @=? length wl
+
+ensureAtLeastOneHeading :: (Int, [Text]) -> SyntaxTree () -> Assertion
+ensureAtLeastOneHeading _ s = assertFailure (show s)

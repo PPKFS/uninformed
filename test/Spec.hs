@@ -6,16 +6,19 @@ import Test.Tasty
 import System.Directory (listDirectory)
 import System.FilePath ((</>), dropExtensions, takeFileName)
 import qualified Data.Map as Map
-
+import qualified Uninformed.Test.Syntax.Zipper as Z
 
 main :: IO ()
 main = do
   lc <- readTestCases "test/Uninformed/Test/"
   l <- Lexer.spec lc
   s <- Sentences.spec lc
+  s2 <- Sentences.spec2 lc
   defaultMain $ testGroup "Tests"
     [ l
     , s
+    , Z.spec
+    , s2
     ]
 
 readTestCases :: FilePath -> IO [(FilePath, Text)]

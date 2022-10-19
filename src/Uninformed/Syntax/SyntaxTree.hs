@@ -7,7 +7,9 @@ import qualified Data.Set as S
 import Uninformed.Words.Lexer.Types
 import qualified Data.Vector.NonEmpty as VNE
 
-data NodeType = HeadingNode Int | RootNode deriving stock (Show)
+data HeadingType = Implicit | Explicit deriving stock ( Show )
+
+data NodeType = HeadingNode HeadingType Int | RootNode deriving stock (Show)
 
 data Node a = Node
   { _nodeAnnotations :: Set a
@@ -43,22 +45,28 @@ getNode (Branch n _) = n
 getHeadingLevel ::
   Zipper a
   -> Int
-getHeadingLevel z = upWhile (\n -> case _nodeType . focus $ n of
-  HeadingNode _ -> False
-  _ -> True) z & focus & _nodeType & (\case
-    HeadingNode n -> n
-    _ -> error "impossible")
+getHeadingLevel = fromMaybe (error "no heading")
+  . safeFindUp (\n -> case _nodeType n of
+    (HeadingNode _ lvl ) -> Just lvl
+    RootNode -> Just (-69)
+    _ -> Nothing)
 
 newSyntaxTree ::
   Text
   -> Zipper a
-newSyntaxTree fn = Zipper (Leaf (Node
+newSyntaxTree fn = Zipper (Leaf (blankNode fn "root"), [])
+
+blankNode ::
+  Text
+  -> Text
+  -> Node a
+blankNode r i = Node
   { _nodeAnnotations = S.empty
   , _nodeType = RootNode
-  , _nodeRaw = fn
-  , _nodeId = "root"
-  , _nodeLocation = SourceLocation (Just fn) Nothing (-1)
-  }), [])
+  , _nodeRaw = r
+  , _nodeId = i
+  , _nodeLocation = SourceLocation (Just r) Nothing (-1)
+  }
 
 consVector ::
   V.Vector a
@@ -90,10 +98,9 @@ safeUp z = Just (up z)
 -- if not, then try to move up and recurse
 safeFindUp ::
   (Node a -> Maybe b)
-  -> (b -> c)
   -> Zipper a
-  -> Maybe c
-safeFindUp f cont z = fmap cont (f . focus $ z) <|> (safeUp z >>= safeFindUp f cont)
+  -> Maybe b
+safeFindUp f z = (f . focus $ z) <|> (safeUp z >>= safeFindUp f)
 
 -- whilst some condition holds, keep going up. stop the zipper at the first instance of a broken condition.
 upWhile ::

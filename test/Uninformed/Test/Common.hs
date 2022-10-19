@@ -13,10 +13,13 @@ import Test.Tasty
 import Test.Tasty.HUnit
 import Uninformed.Syntax.Sentences
 import Uninformed.Syntax.Sentences.Break
+import Uninformed.Syntax.SyntaxTree
+import Uninformed.Syntax.Sentences.Arrange
 
 data Stage =
   LexingStage
   | SentenceBreakingStage
+  | SyntaxTreeArrangingStage
 
 class HasPipeline (s :: Stage) where
   type PipelineOutput s
@@ -31,6 +34,13 @@ instance HasPipeline 'SentenceBreakingStage where
   runPipeline _ sf = do
     (sf', _) <- lex (LexerInput False Nothing sf)
     pure $ breakIntoSentences (_sourceFileData sf')
+
+instance HasPipeline 'SyntaxTreeArrangingStage where
+  type PipelineOutput 'SyntaxTreeArrangingStage = SyntaxTree ()
+  runPipeline _ sf = do
+    (sf', _) <- lex (LexerInput False Nothing sf)
+    let s = breakIntoSentences (_sourceFileData sf')
+    pure $ createSyntaxTreeSkeleton (fromMaybe "aaaa" $ _sourceFileName sf') s
 
 runTestSuite ::
   forall s b.

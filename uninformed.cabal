@@ -88,6 +88,7 @@ library
     Uninformed.Words.TextFromFiles
     Uninformed.Words.Vocabulary
     Uninformed.Syntax.Sentences
+    Uninformed.Syntax.SyntaxTree
     Uninformed.Syntax.Sentences.Break
     Uninformed.Syntax.Sentences.Arrange
     Uninformed.Words.Grammar
@@ -98,6 +99,7 @@ test-suite uninformed-test
   hs-source-dirs:     test
   main-is:            Spec.hs
   other-modules:      Uninformed.Test.Words.Lexer
+                      Uninformed.Test.Syntax.Zipper
                       Uninformed.Test.Syntax.Sentences
                       Uninformed.Test.Common
   build-depends:
