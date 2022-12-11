@@ -12,15 +12,11 @@ module Uninformed.Words.Lexer.Types
   , blankWord
   , matchWord
 
-  , precedingWhitespace
-  , word
-  , wordLocation
-  , sourceLocationFile
-
   ) where
 
-import Text.Megaparsec (SourcePos)
-import Uninformed.Words.Vocabulary
+import Text.Megaparsec ( SourcePos )
+import Uninformed.Words.Vocabulary ( VocabType(..) )
+import Data.Text.Lazy.Builder (fromText)
 
 data LexerInput = LexerInput
   { divideLiteralsAtSubstitutions :: Bool
@@ -29,9 +25,9 @@ data LexerInput = LexerInput
   }
 
 data SourceLocation = SourceLocation
-  { _sourceLocationFile :: Maybe Text
-  , _sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))
-  , _wordNumber :: Int
+  { sourceLocationFile :: Maybe Text
+  , sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))
+  , wordNumber :: Int
   } deriving stock (Eq, Show, Ord, Read, Generic)
 
 data Whitespace =
@@ -41,22 +37,25 @@ data Whitespace =
   | Newline deriving stock (Eq, Show, Ord, Read, Generic)
 
 data InformWord = InformWord
-  { _wordLocation :: SourceLocation
-  , _word :: VocabType
-  , _precedingWhitespace :: Whitespace
+  { wordLocation :: SourceLocation
+  , word :: VocabType
+  , precedingWhitespace :: Whitespace
   } deriving stock (Eq, Show, Read, Generic)
 
 blankWord :: InformWord
 blankWord = InformWord
-  { _wordLocation = SourceLocation Nothing Nothing (-1)
-  , _word = ParagraphBreak
-  , _precedingWhitespace = Newline
+  { wordLocation = SourceLocation Nothing Nothing (-1)
+  , word = ParagraphBreak
+  , precedingWhitespace = Newline
   }
+
+instance Display InformWord where
+  displayBuilder = fromText . displayWord
 
 displayWord ::
   InformWord
   -> Text
-displayWord InformWord{_word} = case _word of
+displayWord InformWord{word} = case word of
   I6 txt -> "(-"<>txt<>"-)"
   StringLit txt -> "\""<>txt<>"\""
   OrdinaryWord txt -> txt
@@ -65,13 +64,13 @@ displayWord InformWord{_word} = case _word of
 
 instance Ord InformWord where
   compare :: InformWord -> InformWord -> Ordering
-  compare l1 l2 = _wordLocation l1 `compare` _wordLocation l2
+  compare l1 l2 = wordLocation l1 `compare` wordLocation l2
 
 matchWord ::
   (VocabType -> Bool)
   -> InformWord
   -> Bool
-matchWord f InformWord{_word} = f _word
+matchWord f InformWord{word} = f word
 
 makeLenses ''InformWord
 makeLenses ''SourceLocation

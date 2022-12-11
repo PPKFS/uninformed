@@ -13,12 +13,12 @@ import qualified Data.Text as T
 import Data.Char (isSpace)
 
 data SourceFile a = SourceFile
-  { _sourceFileName :: Maybe Text
-  , _sourceFileText :: Text
-  , _sourceFileWordCount :: Int
-  , _sourceFileRawWordCount :: Int
-  , _sourceFileQuotedWordCount :: Int
-  , _sourceFileData :: a
+  { sourceFileName :: Maybe Text
+  , sourceFileText :: Text
+  , sourceFileWordCount :: Int
+  , sourceFileRawWordCount :: Int
+  , sourceFileQuotedWordCount :: Int
+  , sourceFileData :: a
   } deriving stock (Eq, Show, Ord, Read, Generic, Functor)
 
 wordCount :: VocabType -> Int

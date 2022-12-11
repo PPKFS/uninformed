@@ -12,6 +12,7 @@ packages:
   ./uninformed.cabal
   solitude/solitude.cabal
 
+constraints: diagnose +megaparsec-compat
 -- profiling: true
 -- profiling-detail: toplevel-functions
 -- package *

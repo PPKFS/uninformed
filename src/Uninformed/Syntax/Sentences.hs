@@ -11,4 +11,4 @@ newtype Sentence = Sentence { unSentence :: NonEmpty InformWord }
 sentenceFileOfOrigin ::
   Sentence
   -> Maybe Text
-sentenceFileOfOrigin (Sentence (x :| _)) = x ^. wordLocation % sourceLocationFile
+sentenceFileOfOrigin (Sentence (x :| _)) = x ^. #wordLocation % #sourceLocationFile

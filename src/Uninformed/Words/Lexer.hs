@@ -1,8 +1,6 @@
-{-# LANGUAGE TemplateHaskell #-}
-{-# LANGUAGE NamedFieldPuns #-}
 {-# LANGUAGE StrictData #-}
-{-# LANGUAGE InstanceSigs #-}
 {-# LANGUAGE RecordWildCards #-}
+{-# OPTIONS_GHC -Wno-orphans #-}
 
 module Uninformed.Words.Lexer
   ( SourceLocation(..)
@@ -13,6 +11,7 @@ module Uninformed.Words.Lexer
   , blankWord
   ) where
 
+import Prelude hiding ( gets, get, modify, state )
 import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
 import Data.Set (member)
 
@@ -22,25 +21,26 @@ import Uninformed.Words.Vocabulary ( identify, VocabType(..), VocabMap, Punctuat
 import qualified Data.HashMap.Strict as HM
 import Uninformed.Words.Lexer.Types
 import Uninformed.Words.TextFromFiles ( SourceFile(..), wordCount, quotedWordCount )
+import Control.Monad.State ( runState, state, gets )
+import Optics.State.Operators ((.=))
+import Optics.State (use)
+import Error.Diagnose
+import Error.Diagnose.Compat.Megaparsec
 
 data LexerState = LexerState
-  { _previousWhitespace :: Whitespace
-  , _forceBreak :: Bool
+  { previousWhitespace :: Whitespace
+  , forceBreak :: Bool
   , currentFilename :: Maybe Text
-  }
+  } deriving stock (Generic)
 
 defaultLexerState :: LexerState
 defaultLexerState = LexerState
-  { _previousWhitespace = Newline
-  , _forceBreak = False
+  { previousWhitespace = Newline
+  , forceBreak = False
   , currentFilename = Nothing
   }
 
-type LexerError = Void
-
-type Parser m = (MonadState LexerState m, MonadParsec LexerError Text m)
-
-makeLenses ''LexerState
+type Parser m = (MonadState LexerState m, MonadParsec Void Text m)
 
 --- * Whitespace handling
 
@@ -61,16 +61,18 @@ space ::
   => m Char
 space = satisfy isSpace
 
-type StructuredError = Text
+type StructuredError = Diagnostic Text
 type PipelineStage i o = i -> Either StructuredError o
 
 lex :: PipelineStage LexerInput (SourceFile [InformWord], VocabMap)
 lex LexerInput{..} =
-  bimap (makeError "") listToSourceFile $
-    parse (evalStateT lexer defaultLexerState) "" ("\n" <> textStream  <> " \n\n\n\n ")
+  bimap (makeError sfn updatedInput) listToSourceFile $
+    parse (evalStateT lexer defaultLexerState) (toString sfn) updatedInput
   where
+    sfn = fromMaybe "<interactive>" sourceFilename
+    updatedInput = "\n" <> textStream  <> " \n\n\n\n "
     ps = StandardPunctuation
-    lexer :: StateT LexerState (Parsec LexerError Text) [InformWord]
+    lexer :: StateT LexerState (Parsec Void Text) [InformWord]
     lexer = do
       -- this is more of an inform quirk than anything..because it starts the lexer with a default of
       -- newline as the last seen space, then reading a single newline at the start of a file makes a paragraph break.
@@ -82,23 +84,31 @@ lex LexerInput{..} =
         -- the only cases where whitespace is required (breaking an ordinary word) is dealt with, but we may have additional whitespace.
         -- we don't want to double check the whitespace after we've broken for a punctuation mark because we don't want to add an excess space
         -- this mimics inform's "add in extra spaces everywhere".
-        (lookAhead (satisfy isPunctuation) >> pass) <|> whenJustM (optional (admireWhitespace ps)) (previousWhitespace .=)
+        (lookAhead (satisfy isPunctuation) >> pass) <|> whenJustM (optional (admireWhitespace ps)) (#previousWhitespace .=)
         pure w) eof
-    mkVocabMap wordList = first (zip wordList) $ runState (mapM (state . identify . _word) wordList) HM.empty
+    mkVocabMap wordList = first (zip wordList) $ runState (mapM (state . identify . word) wordList) HM.empty
     listToSourceFile wordList = let (_, vm) = mkVocabMap wordList in (SourceFile
-      { _sourceFileName = sourceFilename
-      , _sourceFileText = textStream
-      , _sourceFileData = wordList
-      , _sourceFileQuotedWordCount = sum $ map (quotedWordCount . _word) wordList
-      , _sourceFileRawWordCount = length wordList
-      , _sourceFileWordCount = sum $ map (wordCount . _word) wordList
+      { sourceFileName = sourceFilename
+      , sourceFileText = textStream
+      , sourceFileData = wordList
+      , sourceFileQuotedWordCount = sum $ map (quotedWordCount . word) wordList
+      , sourceFileRawWordCount = length wordList
+      , sourceFileWordCount = sum $ map (wordCount . word) wordList
       }, vm)
 
+instance HasHints Void msg where
+  hints _ = mempty
 makeError ::
   Text
-  -> ParseErrorBundle Text LexerError
+  -> Text
+  -> ParseErrorBundle Text Void
   -> StructuredError
-makeError _ = toText . errorBundlePretty
+makeError filename content bundle =
+  let diag  = errorDiagnosticFromBundle Nothing "Parse error on input" Nothing bundle
+           --   Creates a new diagnostic with no default hints from the bundle returned by megaparsec
+      diag' = addFile diag (toString filename) (toString content)
+                 --   Add the file used when parsing with the same filename given to 'MP.runParser'
+  in diag'
 
 initialNewlines ::
   Parser m
@@ -145,21 +155,25 @@ pbreak ::
   Parser m
   => m (Whitespace, Int, SourceLocation)
 pbreak = do
-  ps <- use previousWhitespace
+  ps <- use #previousWhitespace
   (s, i) <- annotateToken (do
     try (takeWhileP Nothing isHspace >>
-      satisfy isNewline <?> "first part of a paragraph break")
+      satisfy isNewline)
     n <- try $ someTill (do
       takeWhileP Nothing isHspace
-      satisfy isNewline <?> "second part of a paragraph break"
+      satisfy isNewline
       takeWhileP Nothing isHspace
       ) (lookAhead $ eof <|> void nonWhitespace)
     pure $ length n)
-  previousWhitespace .= Space
+  #previousWhitespace .= Space
   pure (ps, i, s)
 
+longestSpan :: (a -> Bool) -> [a] -> Int
+longestSpan f lst = fst $ foldl'
+  (\(best, cur) v -> if f v then (if cur >= best then cur+1 else best, cur+1) else (best, 0)) (0, 0) lst
+
 findMostSignificantWhitespace :: (String, String) -> Whitespace
-findMostSignificantWhitespace (run, mbNewline) = case longestSequence (=='\t') run of
+findMostSignificantWhitespace (run, mbNewline) = case longestSpan (=='\t') run of
   0 -> if null mbNewline then Space else Newline
   x -> if null mbNewline then Tab else TabIndent x
 
@@ -168,16 +182,16 @@ ordinaryWord ::
   => PunctuationSet
   -> m InformWord
 ordinaryWord ps = do
-  pw <- use previousWhitespace
+  pw <- use #previousWhitespace
   (srcL, w) <- annotateToken $ do
     w <- mconcat <$> someTill (choice [
       surroundedPunctuation ps
       , one <$> punctuationThenLetter ps
       , one <$> anySingle
-      ]) (guardM (use forceBreak) <|> lookAhead (standalonePunctuationOrSpace ps))
-    ifM (use forceBreak)
-      (forceBreak .= False >> previousWhitespace .= Space)
-      (admireWhitespace ps >>= (previousWhitespace .=))
+      ]) (guardM (use #forceBreak) <|> lookAhead (standalonePunctuationOrSpace ps))
+    ifM (use #forceBreak)
+      (#forceBreak .= False >> #previousWhitespace .= Space)
+      (admireWhitespace ps >>= (#previousWhitespace .=))
     return $ OrdinaryWord w
   pure (InformWord srcL w pw)
 
@@ -188,7 +202,7 @@ punctuationThenLetter ::
 punctuationThenLetter ps = try $ do
   p <- satisfy (`member` getPunctuation ps)
   lookAhead (satisfy (\x -> not (x `member` getPunctuation ps)))
-  forceBreak .= True
+  #forceBreak .= True
   pure p
 
 -- basically if we see something which would cause us to break the word *now*
@@ -201,7 +215,7 @@ standalonePunctuationOrSpace ::
   -> m ()
 standalonePunctuationOrSpace ps = choice
     [ -- whitespace
-      void $ takeWhile1P Nothing (\x -> isSpace x || x == '[' || x == '"')
+      void $ satisfy (\x -> isSpace x || x == '[') >> takeWhileP Nothing (\x -> isSpace x || x == '[' || x == '"')
       -- some literal mode entering punctuation
     , void $ string' "(-"
     , isPunctuationNoSlash ps
@@ -246,7 +260,7 @@ i6Inclusion = do
   (srcL, w) <- annotateToken $ do
     string' "(-"
     I6 . toText <$> manyTill anySingle (string' "-)")
-  previousWhitespace .= Space
+  #previousWhitespace .= Space
   pure (InformWord srcL w Space)
 
 stringLiteralInternal ::
@@ -265,15 +279,15 @@ stringLit ::
   => Bool
   -> m [InformWord]
 stringLit spl = do
-  pw <- use previousWhitespace
+  pw <- use #previousWhitespace
   ls <- annotateToken $ do
-    single '"'
+    single '"' <?> "ass"
     manyTill (
       if spl
         then annotateToken (StringSub <$> (single '[' >> toText <$> manyTill anySingle (single ']')))
          <|> stringLiteralInternal
         else stringLiteralInternal) (single '"')
-  previousWhitespace .= Space
+  #previousWhitespace .= Space
   case ls of
     (s, []) -> pure [InformWord s (StringLit "") pw]
     (_, (sx, wx):xs) -> pure $ InformWord sx wx pw : map (\(sx', wx') -> InformWord sx' wx' Space) xs

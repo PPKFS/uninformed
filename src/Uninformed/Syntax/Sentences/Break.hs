@@ -3,13 +3,12 @@ module Uninformed.Syntax.Sentences.Break
 
   ) where
 
-import Uninformed.Words.Lexer
+import Uninformed.Words.Lexer.Types
 import Prelude hiding ( (|>) )
 import Uninformed.Words.Vocabulary
 import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)
 import Data.Sequence ( (|>) )
-import Uninformed.Words.Lexer.Types ( matchWord, precedingWhitespace, word )
 import Uninformed.Syntax.Sentences
 
 breakIntoSentences ::
@@ -19,7 +18,7 @@ breakIntoSentences wl = catMaybes . toList $ go wl empty
   where
     go [] s = s
     go wl' s = let (ns, r) = breakOffSentence (trimText wl') in go r (s |> ns)
-    trimText = dropWhile ((ParagraphBreak ==) . view word)
+    trimText = dropWhile ((ParagraphBreak ==) . view #word)
     breakOffSentence = considerTableMode >>= lookForSentenceBreak
 
 lookForSentenceBreak ::
@@ -43,10 +42,10 @@ lookForSentenceBreak inTableMode wl@(_:wr) =
         Period -> True
         Semicolon -> True
         Colon -> considerColonDivision prev lookA
-        _ -> considerQuotedPunctuation (_word curr) (_word lookA)
+        _ -> considerQuotedPunctuation (word curr) (word lookA)
         ) curr
     findNextStops = matchWord
-      (\w' -> case (_word stopChar, w') of
+      (\w' -> case (word stopChar, w') of
         (Colon, ParagraphBreak) -> error "colon at end of paragraph"
         (_, ParagraphBreak) -> True
         --let's ignore dialogue mode for now.
@@ -74,7 +73,7 @@ considerColonDivision ::
 considerColonDivision prev lookA = not $
   matchWord isNumber prev
   && matchWord isNumber lookA
-  && (lookA ^. precedingWhitespace) `elem` [Space, Tab]
+  && (lookA ^. #precedingWhitespace) `elem` [Space, Tab]
 
 considerTableMode ::
   [InformWord]

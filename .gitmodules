@@ -1,4 +1,7 @@
 [submodule "solitude"]
 	path = solitude
-	url = https://github.com/PPKFS/solitude.git
+	url = https://github.com/ppkfs/solitude
 	branch = main
+[submodule "breadcrumbs"]
+	path = breadcrumbs
+	url = https://github.com/ppkfs/breadcrumbs

@@ -12,15 +12,15 @@ data HeadingType = Implicit | Explicit deriving stock ( Show )
 data NodeType = HeadingNode HeadingType Int | RootNode deriving stock (Show)
 
 data Node a = Node
-  { _nodeAnnotations :: Set a
-  , _nodeType :: NodeType
-  , _nodeRaw :: Text
-  , _nodeLocation :: SourceLocation
-  , _nodeId :: Text
-  } deriving stock Show
+  { nodeAnnotations :: Set a
+  , nodeType :: NodeType
+  , nodeRaw :: Text
+  , nodeLocation :: SourceLocation
+  , nodeId :: Text
+  } deriving stock (Generic, Show)
 
 instance Eq (Node a) where
-  (==) n1 n2 = _nodeId n1 == _nodeId n2
+  (==) n1 n2 = nodeId n1 == nodeId n2
 
 data SyntaxTree a = Leaf (Node a) | Branch (Node a) (VNE.NonEmptyVector (SyntaxTree a)) deriving stock (Show, Eq)
 
@@ -46,10 +46,10 @@ getHeadingLevel ::
   Zipper a
   -> Int
 getHeadingLevel = fromMaybe (error "no heading")
-  . safeFindUp (\n -> case _nodeType n of
+  . safeFindUp (\n -> case nodeType n of
     (HeadingNode _ lvl ) -> Just lvl
     RootNode -> Just (-69)
-    _ -> Nothing)
+    )
 
 newSyntaxTree ::
   Text
@@ -61,11 +61,11 @@ blankNode ::
   -> Text
   -> Node a
 blankNode r i = Node
-  { _nodeAnnotations = S.empty
-  , _nodeType = RootNode
-  , _nodeRaw = r
-  , _nodeId = i
-  , _nodeLocation = SourceLocation (Just r) Nothing (-1)
+  { nodeAnnotations = S.empty
+  , nodeType = RootNode
+  , nodeRaw = r
+  , nodeId = i
+  , nodeLocation = SourceLocation (Just r) Nothing (-1)
   }
 
 consVector ::

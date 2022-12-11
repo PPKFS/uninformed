@@ -25,6 +25,10 @@ common common-options
     , hashable
     , unordered-containers
     , text
+    , transformers
+    , effectful-core
+    , effectful
+    , effectful-th
     , solitude
     , mtl
     , time
@@ -37,8 +41,8 @@ common common-options
     , pretty-simple
     , prettyprinter
     , prettyprinter-ansi-terminal
+    , diagnose
 
-    , chapelure
     , enummapset
     , haskell-src-meta
     , haskell-src-exts
@@ -77,12 +81,14 @@ common common-options
     DerivingVia
     QuasiQuotes
     PatternSynonyms
+    OverloadedLabels
   mixins: base hiding (Prelude)
           , solitude (Solitude as Prelude)
 library
   import:          common-options
   hs-source-dirs:  src
   exposed-modules:
+    Uninformed.Pipeline
     Uninformed.Words.Lexer.Types
     Uninformed.Words.Lexer
     Uninformed.Words.TextFromFiles
@@ -102,10 +108,10 @@ test-suite uninformed-test
                       Uninformed.Test.Syntax.Zipper
                       Uninformed.Test.Syntax.Sentences
                       Uninformed.Test.Common
+                      Uninformed.Test.Bulk
   build-depends:
     , tasty
     , tasty-hunit
-    , tasty-golden
     , exceptions
     , uninformed
     , filepath

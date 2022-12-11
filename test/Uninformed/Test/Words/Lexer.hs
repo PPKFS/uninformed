@@ -1,13 +1,13 @@
 module Uninformed.Test.Words.Lexer
-  ( spec
+  ( parseExemplar
+  , compareLexerInfo
+  , getLexerInfo
   ) where
 
 
 import Prelude hiding ( Word )
 
-import System.FilePath ( dropExtensions, takeFileName, (</>) )
-import Test.Tasty ( testGroup, TestTree )
-import Test.Tasty.HUnit ( (@=?), assertEqual, Assertion, assertFailure, testCase )
+import Test.Tasty.HUnit ( (@=?), assertEqual, Assertion )
 
 import Text.Megaparsec
 import Text.Megaparsec.Char ( string, string' )
@@ -18,7 +18,6 @@ import Uninformed.Words.Vocabulary
 import qualified Data.Set as S
 import qualified Data.Text as T
 import Uninformed.Words.TextFromFiles
-import Uninformed.Test.Common
 
 anyWords :: Parsec Void Text [VocabType]
 anyWords = manyTill (do
@@ -92,14 +91,6 @@ data LexerInfo = LexerInfo
   , individualEntries :: [(VocabType, VocabType, Whitespace)]
   } deriving stock (Eq, Show)
 
-spec :: [(FilePath, Text)] -> IO TestTree
-spec allFiles =
-  let prfx2 = "test/Uninformed/Test/Words/Expected"
-  in
-    runTestSuite allFiles "Lexing" prfx2 (Proxy @'LexingStage)
-      (either (error . toText . errorBundlePretty) id . parse parseExemplar "")
-      (\e (s, _) -> compareLexerInfo e $ getLexerInfo s)
-
 compareLexerInfo :: LexerInfo -> LexerInfo -> Assertion
 compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe) = do
   let cmp = zip3 eIe rIe ([1..] :: [Integer])
@@ -113,11 +104,16 @@ compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe)
   --eTd @=? rTd
 
 getLexerInfo :: SourceFile [InformWord] -> LexerInfo
-getLexerInfo sf@SourceFile{_sourceFileData = wl} =
+getLexerInfo sf@SourceFile{sourceFileData = wl} =
   let (wordSet :: Set VocabType) = fromList . toList $ map (\(InformWord _ w _) -> lowerVocabType w) wl in
     LexerInfo
-      { totalWords = _sourceFileRawWordCount sf
+      { totalWords = sourceFileRawWordCount sf
       , totalDistinct = S.size wordSet
       , distinctWordSet = wordSet
       , individualEntries = toList $ map (\(InformWord _ w ps) -> (w, lowerVocabType w, ps)) wl
       }
+{-
+manualSpec :: IO TestTree
+manualSpec = runGoldenSuite "Lexer Problems" "test/Uninformed/Test/Words/Manual"
+  (Proxy @'LexingStage) (pure . encodeUtf8 . mconcat . map display . sourceFileData . fst)
+-}

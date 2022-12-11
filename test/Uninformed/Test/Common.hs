@@ -1,68 +1,53 @@
 module Uninformed.Test.Common
-  ( HasPipeline(..)
-  , Stage(..)
-
-  , runTestSuite
+  ( runGoldenSuite
+  , readTestCases
   ) where
-import Uninformed.Words.TextFromFiles
-import Uninformed.Words.Lexer
-import Uninformed.Words.Lexer.Types
-import Uninformed.Words.Vocabulary
 import System.FilePath
 import Test.Tasty
 import Test.Tasty.HUnit
-import Uninformed.Syntax.Sentences
-import Uninformed.Syntax.Sentences.Break
-import Uninformed.Syntax.SyntaxTree
-import Uninformed.Syntax.Sentences.Arrange
+import Error.Diagnose
+import System.Directory
+import qualified Data.Map as Map
+import Uninformed.Pipeline
 
-data Stage =
-  LexingStage
-  | SentenceBreakingStage
-  | SyntaxTreeArrangingStage
 
-class HasPipeline (s :: Stage) where
-  type PipelineOutput s
-  runPipeline :: Proxy s -> Text -> Either Text (PipelineOutput s)
+missingCaseMap :: Map.Map String String
+missingCaseMap = fromList
+  [ --("Chapter12", "has some weird reason it doesn't lex but should be easy to fix")
+  ]
 
-instance HasPipeline 'LexingStage where
-  type PipelineOutput 'LexingStage = (SourceFile [InformWord], VocabMap)
-  runPipeline _ sf = lex (LexerInput False Nothing sf)
+missingCases :: String -> IO Bool
+missingCases t = do
+  let mbErr = Map.lookup t missingCaseMap
+  case mbErr of
+    Nothing -> pure True
+    Just e -> print ("Skipping test " <> t <> " because it " <> e) >> pure False
 
-instance HasPipeline 'SentenceBreakingStage where
-  type PipelineOutput 'SentenceBreakingStage = [Sentence]
-  runPipeline _ sf = do
-    (sf', _) <- lex (LexerInput False Nothing sf)
-    pure $ breakIntoSentences (_sourceFileData sf')
 
-instance HasPipeline 'SyntaxTreeArrangingStage where
-  type PipelineOutput 'SyntaxTreeArrangingStage = SyntaxTree ()
-  runPipeline _ sf = do
-    (sf', _) <- lex (LexerInput False Nothing sf)
-    let s = breakIntoSentences (_sourceFileData sf')
-    pure $ createSyntaxTreeSkeleton (fromMaybe "aaaa" $ _sourceFileName sf') s
+readTestCases :: FilePath -> IO [(FilePath, Text)]
+readTestCases fp = do
+  let prfx = fp </> "Cases"
+  fps <- liftIO (listDirectory prfx)
+  fs <- mapM (fmap decodeUtf8 . readFileBS . (prfx </>)) fps
+  filterM (\(fp', _) -> missingCases $ takeFileName . dropExtensions $ fp') (zip fps fs)
 
-runTestSuite ::
-  forall s b.
+
+
+runGoldenSuite ::
+  forall s.
   HasPipeline s
-  => [(FilePath, Text)]
-  -> String
+  => String
   -> String
   -> Proxy (s :: Stage)
-  -> (Text -> b)
-  -> (b -> PipelineOutput s -> Assertion)
+  -> (PipelineOutput s -> Text)
   -> IO TestTree
-runTestSuite allFiles grpName exemplarPrefix _ parseExemplar compareExemplar = do
-  let fps = map fst allFiles
-  allFiles2 <- mapM (fmap decodeUtf8 . readFileBS . (exemplarPrefix </>)) fps
-  let cmb = zip3
-        (map (takeFileName . dropExtensions) fps)
-        (map snd allFiles)
-        (map parseExemplar allFiles2)
+runGoldenSuite grpName exemplarPrefix _ makeOutput = do
+  fps <- liftIO (listDirectory (exemplarPrefix </> "Input"))
+  files <- mapM (fmap decodeUtf8 . readFileBS . ((exemplarPrefix </> "Input") </>)) fps
   return $ testGroup grpName $
-    flip map cmb $ \(fp, f, e) ->
-      testCase fp $ do
+    flip map (zip fps files) $ \(fp, f) -> testCase fp $ do
         let res = runPipeline (Proxy @s) f
-        case res of
-          Left err -> assertFailure $ toString err
-          Right sf -> compareExemplar e sf
+            output = case res of
+              Left err' -> show $ prettyDiagnostic True 4 err'
+              Right sf -> makeOutput sf
+        error ""
