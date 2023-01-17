@@ -10,6 +10,7 @@ import Uninformed.Syntax.SyntaxTree
 import Uninformed.Words.Lexer.Types
 import Uninformed.Syntax.Sentences.Break
 import Uninformed.Syntax.Sentences.Arrange
+import qualified Control.Monad.State.Strict as S
 
 data Source = Source (Maybe Text) Text Bool
 data Stage =
@@ -36,7 +37,7 @@ instance HasPipeline 'SentenceBreakingStage where
     (sf', _) <- runPipelineStage (Proxy @'LexingStage) sf
     runPipelineStage (Proxy @'SentenceBreakingStage) sf'
   runPipelineStage _ sf = do
-    pure $ breakIntoSentences (sourceFileData sf)
+    pure $ S.evalState breakIntoSentences (defaultSentenceBreakerState sf)
 
 instance HasPipeline 'SyntaxTreeArrangingStage where
   type PipelineOutput 'SyntaxTreeArrangingStage = SyntaxTree ()

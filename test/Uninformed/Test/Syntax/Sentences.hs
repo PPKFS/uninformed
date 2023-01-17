@@ -9,19 +9,35 @@ import Test.Tasty.HUnit
     ( (@=?), assertFailure, Assertion )
 import qualified Data.Text as T
 import Uninformed.Syntax.Sentences
-import Uninformed.Syntax.SyntaxTree
 
+-- | Parse an exemplar as given by the Inform syntax-test. return a list of sentence nodes
+-- and the total number of sentences.
+parseExemplar ::
+  Text
+  -> (Int, [Text])
+parseExemplar t =
+  let l = t &
+        lines &
+        map T.stripStart & -- clean whitespace
+        dropWhile (/= "ROOT_NT") & -- drop the initial error lines
+        drop 1 & --and also throw away the root node.
+        mapMaybe toSentenceNode & -- make sentence nodes
+        map (\x -> fromMaybe x ((\y -> T.stripSuffix "{level " y <|> T.stripSuffix "{heading" y) (T.dropEnd 2 x) ))
+  in (length l, l)
 
-zipWithPadding :: a -> b -> [a] -> [b] -> [(a,b)]
-zipWithPadding a b (x:xs) (y:ys) = (x,y) : zipWithPadding a b xs ys
-zipWithPadding a _ []     ys     = zip (repeat a) ys
-zipWithPadding _ b xs     []     = zip xs (repeat b)
+sentencePrefixes :: [Text]
+sentencePrefixes = ["SENTENCE_NT", "DIALOGUE_CUE_NT", "DIALOGUE_LINE_NT", "UNKNOWN_NT", "DIALOGUE_SELECTION_NT"
+-- just ignore the actual subdivision of dialogue for now
+   {- ,"DIALOGUE_CLAUSE_NT", "DIALOGUE_SPEECH_NT", "DIALOGUE_SPEAKER_NT"-} ]
 
-parseExemplar :: Text -> (Int, [Text])
-parseExemplar t = let l = filter isRelevantSentenceNode . map T.stripStart . lines $ t in (length l, l)
-
-isRelevantSentenceNode :: Text -> Bool
-isRelevantSentenceNode t = "SENTENCE_NT" `T.isPrefixOf` t || ("HEADING_NT" `T.isPrefixOf` t && not ("0}" `T.isSuffixOf` t))
+toSentenceNode ::
+  Text
+  -> Maybe Text
+toSentenceNode t
+  | Just x <- listToMaybe (mapMaybe (`T.stripPrefix` t) sentencePrefixes) = Just $ T.dropEnd 1 x
+  | Just _ <- T.stripPrefix "HEADING_NT" t >>= T.stripSuffix "{heading 0}" = Nothing
+  | Just x <- T.stripPrefix "HEADING_NT" t = Just $ T.dropEnd 1 x
+  | otherwise = Nothing
 
 compareSentenceInfo :: (Int, [Text]) -> [Sentence] -> Assertion
 compareSentenceInfo (numSentences, fullSentenceList) wl = if
@@ -32,6 +48,3 @@ compareSentenceInfo (numSentences, fullSentenceList) wl = if
       unlines (map show zipL) <> " exp" <> show numSentences <> " act" <> show (length wl)
   else
     numSentences @=? length wl
-
-ensureAtLeastOneHeading :: (Int, [Text]) -> SyntaxTree () -> Assertion
-ensureAtLeastOneHeading _ s = assertFailure (show s)

@@ -17,6 +17,8 @@ module Uninformed.Words.Vocabulary
   , pattern Period
   , pattern Colon
   , pattern Semicolon
+  , pattern CloseParenthesis
+  , pattern OpenParenthesis
   ) where
 
 import Uninformed.Prelude
@@ -79,6 +81,12 @@ pattern Semicolon = OrdinaryWord ";"
 
 pattern Colon :: VocabType
 pattern Colon = OrdinaryWord ":"
+
+pattern OpenParenthesis :: VocabType
+pattern OpenParenthesis = OrdinaryWord "("
+
+pattern CloseParenthesis :: VocabType
+pattern CloseParenthesis = OrdinaryWord ")"
 
 data PunctuationSet = StandardPunctuation deriving stock (Eq, Show)
 
