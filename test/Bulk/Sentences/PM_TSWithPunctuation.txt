@@ -1,0 +1,13 @@
+Read 40 words
+syntax-test: unexpected semicolon in sentence: say "Hello [.]"
+syntax-test: unexpected semicolon in sentence: say "Goodbye [;] and"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Hello [.]"'
+        SENTENCE_NT'say "Goodbye [;] and"'
+        SENTENCE_NT'say "Farewell [:]"'
+        SENTENCE_NT'table 1.1 - bogus hello there 10 12'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Hello [Table 1.1]"'

@@ -1,0 +1,6 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be 1.7125'

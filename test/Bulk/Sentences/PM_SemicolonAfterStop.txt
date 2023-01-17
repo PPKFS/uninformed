@@ -1,0 +1,5 @@
+Read 10 words
+syntax-test: paragraph ends with a full stop and semicolon: Rog is a room . ;
+ROOT_NT
+    HEADING_NT'rog is a room' {heading 0}
+        SENTENCE_NT'rog is a room'

@@ -3,8 +3,8 @@ module Uninformed.Syntax.Sentences.Break
 
   ) where
 
+import Uninformed.Prelude hiding ( (|>) )
 import Uninformed.Words.Lexer.Types
-import Prelude hiding ( (|>) )
 import Uninformed.Words.Vocabulary
 import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)
@@ -12,7 +12,7 @@ import Data.Sequence ( (|>) )
 import Uninformed.Syntax.Sentences
 
 breakIntoSentences ::
-  [InformWord]
+  [Word]
   -> [Sentence]
 breakIntoSentences wl = catMaybes . toList $ go wl empty
   where
@@ -23,8 +23,8 @@ breakIntoSentences wl = catMaybes . toList $ go wl empty
 
 lookForSentenceBreak ::
   Bool
-  -> [InformWord]
-  -> (Maybe Sentence, [InformWord])
+  -> [Word]
+  -> (Maybe Sentence, [Word])
 lookForSentenceBreak _ [] = (Nothing, [])
 lookForSentenceBreak inTableMode wl@(_:wr) =
   (case viaNonEmpty Sentence (map (view _2) firstPart) of
@@ -67,8 +67,8 @@ lookForSentenceBreak inTableMode wl@(_:wr) =
 -- inform checks if we do not break file boundaries, which we also ignore for now.
 -- basically this is a long winded check for 4:50pm (e.g.)
 considerColonDivision ::
-  InformWord
-  -> InformWord
+  Word
+  -> Word
   -> Bool
 considerColonDivision prev lookA = not $
   matchWord isNumber prev
@@ -76,7 +76,7 @@ considerColonDivision prev lookA = not $
   && (lookA ^. #precedingWhitespace) `elem` [Space, Tab]
 
 considerTableMode ::
-  [InformWord]
+  [Word]
   -> Bool
 considerTableMode [] = False
 considerTableMode (w:_) = matchWord (== OrdinaryWord "table") w

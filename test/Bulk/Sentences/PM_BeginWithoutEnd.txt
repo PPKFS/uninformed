@@ -1,0 +1,8 @@
+Read 28 words
+syntax-test: unexpected semicolon in sentence: repeat with item running through things in the Burrow begin
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'to trigger an error'
+        SENTENCE_NT'repeat with item running through things in the burrow begin'
+        SENTENCE_NT'say "Oh look, there's [the item]."'

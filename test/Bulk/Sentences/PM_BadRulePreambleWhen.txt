@@ -1,0 +1,6 @@
+Read 17 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when the badger runs'
+        SENTENCE_NT'say "Yes."'

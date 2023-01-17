@@ -1,0 +1,12 @@
+Read 62 words
+syntax-test: unexpected semicolon in sentence: let m be 2
+syntax-test: unexpected semicolon in sentence: let F be 0
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'to decide what number is the adjusted value of ( n - a numbe'
+        SENTENCE_NT'decide on n+7'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let m be 2'
+        SENTENCE_NT'let f be 0'
+        SENTENCE_NT'let f be given by m = wibble f'

@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'the carrying capacity of 10 is 5'

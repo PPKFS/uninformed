@@ -1,0 +1,8 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'the white room is a room' {heading 0}
+        SENTENCE_NT'the white room is a room'
+        SENTENCE_NT'the painting is a thing in the white room'
+        SENTENCE_NT'"A lovely painting hangs on the wall."'
+        SENTENCE_NT'the description is "The medium seems to be crayon."'
+        SENTENCE_NT'the painting is scenery'

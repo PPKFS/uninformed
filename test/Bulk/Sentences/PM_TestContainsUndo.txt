@@ -1,0 +1,5 @@
+Read 17 words
+ROOT_NT
+    HEADING_NT'the fudge palace is a room' {heading 0}
+        SENTENCE_NT'the fudge palace is a room'
+        SENTENCE_NT'test me with "eat fudge/undo"'

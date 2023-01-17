@@ -1,0 +1,13 @@
+Read 34 words
+syntax-test: unexpected semicolon in sentence: if 1 is 2 begin
+syntax-test: unexpected semicolon in sentence: say "yes"
+syntax-test: unexpected semicolon in sentence: end if
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 1 is 2 begin'
+        SENTENCE_NT'say "yes"'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'while 1 is 2'
+        SENTENCE_NT'say "oh yes"'

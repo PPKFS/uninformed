@@ -1,0 +1,18 @@
+Read 142 words
+syntax-test: unexpected semicolon in sentence: Let zog be the target of the noun
+ROOT_NT
+    HEADING_NT'"Testcase" by andrew plotkin' {heading 0}
+        SENTENCE_NT'"Testcase" by andrew plotkin'
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'a trigger is a kind of thing'
+        SENTENCE_NT'a remote is a kind of thing'
+        SENTENCE_NT'transmission relates one remote to one trigger ( called the '
+        SENTENCE_NT'the verb to notify ( it notifies , they notify , it notified'
+        SENTENCE_NT'the verb to be aimed at implies the transmission relation'
+        SENTENCE_NT'the squeaker and the squawker are remotes in the kitchen'
+        SENTENCE_NT'the bell and the whistle are triggers in the kitchen'
+        SENTENCE_NT'the squeaker notifies the bell'
+        SENTENCE_NT'the squawker notifies the whistle'
+        SENTENCE_NT'before taking a remote ( called item )'
+        SENTENCE_NT'let zog be the target of the noun'
+        SENTENCE_NT'say "The [item] notifies [zog]."'

@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'mumbling is an action applying to one thing'
+        SENTENCE_NT'understand nothing as mumbling when 1 is 2'

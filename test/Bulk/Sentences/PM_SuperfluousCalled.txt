@@ -1,0 +1,7 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'sanitarium is a room' {heading 0}
+        SENTENCE_NT'sanitarium is a room'
+        SENTENCE_NT'theme is a kind of value'
+        SENTENCE_NT'movie is a thing'
+        SENTENCE_NT'movie has a theme called theme'

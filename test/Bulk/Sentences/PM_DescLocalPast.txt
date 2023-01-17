@@ -1,0 +1,8 @@
+Read 33 words
+syntax-test: unexpected semicolon in sentence: let T be the School
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let t be the school'
+        SENTENCE_NT'if t had been the school , say "No."'

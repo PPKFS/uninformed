@@ -1,0 +1,6 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'the taj mahal and the grassy slope are rooms' {heading 0}
+        SENTENCE_NT'the taj mahal and the grassy slope are rooms'
+        SENTENCE_NT'the cyberman is a device'
+        SENTENCE_NT'index map with grassy slope mapped east of cyberman'

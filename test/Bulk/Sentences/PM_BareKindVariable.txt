@@ -1,0 +1,16 @@
+Read 80 words
+syntax-test: unexpected semicolon in sentence: if an M is a K, yes
+syntax-test: unexpected semicolon in sentence: if M is K, yes
+syntax-test: unexpected semicolon in sentence: let X be the Errea
+syntax-test: unexpected semicolon in sentence: let Y be the player
+ROOT_NT
+    HEADING_NT'the errea is a room' {heading 0}
+        SENTENCE_NT'the errea is a room'
+        SENTENCE_NT'to decide whether ( x - a value of kind k ) is sibling to ( '
+        SENTENCE_NT'if an m is a k , yes'
+        SENTENCE_NT'if m is k , yes'
+        SENTENCE_NT'no'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'let x be the errea'
+        SENTENCE_NT'let y be the player'
+        SENTENCE_NT'if x is sibling to y , say "Eureka."'

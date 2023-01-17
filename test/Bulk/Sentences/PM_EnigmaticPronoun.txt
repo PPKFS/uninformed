@@ -1,0 +1,5 @@
+Read 14 words
+ROOT_NT
+    HEADING_NT'it is lighted' {heading 0}
+        SENTENCE_NT'it is lighted'
+        SENTENCE_NT'xanadu is a room'

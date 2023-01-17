@@ -1,0 +1,6 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'the starting location is a room' {heading 0}
+        SENTENCE_NT'the starting location is a room'
+        SENTENCE_NT'the player is in the starting location'
+        SENTENCE_NT'understand "t [a person] about [a topic]" as telling it abou'

@@ -1,0 +1,7 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'a weight is a kind of value'
+        SENTENCE_NT'1 kg specifies a weight'
+        SENTENCE_NT'1 nkg specifies a weight scaled down by -1'

@@ -1,0 +1,7 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'act i is a scene'
+        SENTENCE_NT'the entire game begins when act i ends'
+        SENTENCE_NT'the entire game ends when act i ends'

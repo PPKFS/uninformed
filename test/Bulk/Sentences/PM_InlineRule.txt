@@ -1,0 +1,6 @@
+Read 22 words
+ROOT_NT
+    HEADING_NT'entrance is a room' {heading 0}
+        SENTENCE_NT'entrance is a room'
+        SENTENCE_NT'before printing the description of a dark room'
+        SENTENCE_NT'(-  x '

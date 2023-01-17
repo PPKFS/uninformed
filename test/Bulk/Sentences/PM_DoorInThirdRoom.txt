@@ -1,0 +1,10 @@
+Read 60 words
+ROOT_NT
+    HEADING_NT'the taj mahal is a room' {heading 0}
+        SENTENCE_NT'the taj mahal is a room'
+        SENTENCE_NT'the temple is a room'
+        SENTENCE_NT'the grassy slope is a room'
+        SENTENCE_NT'the great gate is a door'
+        SENTENCE_NT'east of the taj mahal is the great gate'
+        SENTENCE_NT'west of the temple is the great gate'
+        SENTENCE_NT'the great gate is in the grassy slope'

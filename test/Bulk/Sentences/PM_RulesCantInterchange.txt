@@ -1,0 +1,13 @@
+Read 76 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'quoggle is a number based rulebook'
+        SENTENCE_NT'quoggle a number ( this is the blob rule )'
+        SENTENCE_NT'say "number."'
+        SENTENCE_NT'foggle is a text based rulebook'
+        SENTENCE_NT'foggle a text ( called the utterance ) ( this is the fog rul'
+        SENTENCE_NT'say the utterance'
+        SENTENCE_NT'the fog rule substitutes for the blob rule'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'follow the quoggle rules for 10'

@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'understand the command "two words" as something new'

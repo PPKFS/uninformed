@@ -1,0 +1,10 @@
+Read 75 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a posture is a kind of value'
+        SENTENCE_NT'the postures are standing , sitting and lying'
+        SENTENCE_NT'posture-allowance relates various things to various postures'
+        SENTENCE_NT'the verb to allow ( he allows , they allow , he allowed , it'
+        SENTENCE_NT'a chair is a kind of thing'
+        SENTENCE_NT'a chair usually allows sitting'

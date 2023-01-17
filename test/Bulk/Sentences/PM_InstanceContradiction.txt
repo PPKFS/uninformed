@@ -1,0 +1,12 @@
+Read 66 words
+ROOT_NT
+    HEADING_NT'a room can be roomy or cramped' {heading 0}
+        SENTENCE_NT'a room can be roomy or cramped'
+        SENTENCE_NT'a room is always roomy'
+        SENTENCE_NT'the closet is a room'
+        SENTENCE_NT'the closet is cramped'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and green'
+        SENTENCE_NT'a colour can be vivid or drab'
+        SENTENCE_NT'a colour is always vivid'
+        SENTENCE_NT'green is drab'

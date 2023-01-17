@@ -1,0 +1,10 @@
+Read 36 words
+syntax-test: unexpected semicolon in sentence: let X be 17
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to disregard ( act - an existing variable )'
+        SENTENCE_NT'showme act'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be 17'
+        SENTENCE_NT'disregard x'

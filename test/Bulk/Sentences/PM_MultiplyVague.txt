@@ -1,0 +1,4 @@
+Read 9 words
+ROOT_NT
+    HEADING_NT'five rooms are lighted' {heading 0}
+        SENTENCE_NT'five rooms are lighted'

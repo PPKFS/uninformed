@@ -1,0 +1,6 @@
+Read 45 words
+ROOT_NT
+    HEADING_NT'dis is a room' {heading 0}
+        SENTENCE_NT'dis is a room'
+        SENTENCE_NT'fieryness is a kind of value'
+        SENTENCE_NT'the fierynesses are unburnt , cinders , flames , burning , s'

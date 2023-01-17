@@ -1,0 +1,5 @@
+Read 17 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a kind has a number called x'

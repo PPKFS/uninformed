@@ -1,0 +1,11 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'horatio and marcellus are here'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about marcellus . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about marcellus'
+            DIALOGUE_LINE_NT'75 : "What am I doing here?"' {level 0}
+                DIALOGUE_SPEAKER_NT'75'
+                DIALOGUE_SPEECH_NT'"What am I doing here?"'

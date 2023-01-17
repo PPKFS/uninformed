@@ -1,0 +1,11 @@
+Read 82 words
+ROOT_NT
+    HEADING_NT'right here is a room' {heading 0}
+        SENTENCE_NT'right here is a room'
+        SENTENCE_NT'an idea is a kind'
+        SENTENCE_NT'the piper is a person'
+        SENTENCE_NT'the piper's plan is an idea'
+        SENTENCE_NT'the piper's other plan is an idea'
+        SENTENCE_NT'a skill is a kind of thing'
+        SENTENCE_NT'some skills are defined by the table of machiavelli'
+        SENTENCE_NT'table of machiavelli skill performer instrument result ( an '

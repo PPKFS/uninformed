@@ -1,0 +1,17 @@
+Read 74 words
+syntax-test: unexpected semicolon in sentence: say "Near it, you see: [line break]"
+syntax-test: unexpected semicolon in sentence: repeat with the item running through the collection begin
+syntax-test: unexpected semicolon in sentence: say "-- [The item]."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a ball is here'
+        SENTENCE_NT'after examining something'
+        SENTENCE_NT'elaborate on the noun'
+        SENTENCE_NT'to elaborate on ( item - thing )'
+        SENTENCE_NT'enumerate things in the location of the item'
+        SENTENCE_NT'to enumerate ( collection - a description of objects )'
+        SENTENCE_NT'say "Near it, you see: [line break]"'
+        SENTENCE_NT'repeat with the item running through the collection begin'
+        SENTENCE_NT'say "-- [The item]."'
+        SENTENCE_NT'end repeat'

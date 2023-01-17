@@ -1,0 +1,6 @@
+Read 22 words
+ROOT_NT
+    HEADING_NT'the test is a room' {heading 0}
+        SENTENCE_NT'the test is a room'
+        SENTENCE_NT'the artifact is a thing'
+        SENTENCE_NT'understand "" as the artifact'

@@ -1,0 +1,9 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'use scoring' {heading 0}
+        SENTENCE_NT'use scoring'
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'to award ( n - number ) points'
+        SENTENCE_NT'increase the score by n'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'award "fish" points'

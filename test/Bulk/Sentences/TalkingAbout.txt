@@ -1,0 +1,88 @@
+Read 295 words
+syntax-test: unexpected semicolon in sentence: say "Bong! This seems to summon Liza's attention to the deep issues."
+syntax-test: unexpected semicolon in sentence: let N be the number of entries in the leading beats
+syntax-test: unexpected semicolon in sentence: perform entry 1 of the leading beats
+syntax-test: unexpected semicolon in sentence: say "Choose..."
+syntax-test: unexpected semicolon in sentence: say "[conditional paragraph break]"
+syntax-test: unexpected semicolon in sentence: let X be 0
+syntax-test: unexpected semicolon in sentence: increase X by 1
+syntax-test: unexpected semicolon in sentence: say "([X]). [textual content of opening line of B][line break]"
+syntax-test: unexpected semicolon in sentence: say "[conditional paragraph break]"
+syntax-test: unexpected semicolon in sentence: let Y be the chosen dialogue number up to X
+syntax-test: unexpected semicolon in sentence: perform entry Y of the leading beats
+syntax-test: unexpected semicolon in sentence: stop the action
+syntax-test: unexpected semicolon in sentence: let N be the number of entries in the other beats
+syntax-test: unexpected semicolon in sentence: let R be a random number from 1 to N
+syntax-test: unexpected semicolon in sentence: perform entry R of the other beats
+syntax-test: unexpected semicolon in sentence: stop the action
+syntax-test: unexpected semicolon in sentence: say "There is no reply."
+syntax-test: unexpected semicolon in sentence: say "[The actor] [talk] about [T]."
+ROOT_NT
+    HEADING_NT'use command line echoing' {heading 0}
+        SENTENCE_NT'use command line echoing'
+        SENTENCE_NT'philosophy and haute cuisine are concepts'
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'liza is a person in the laboratory'
+        SENTENCE_NT'a gong is in the laboratory'
+        SENTENCE_NT'instead of attacking the gong'
+        SENTENCE_NT'say "Bong! This seems to summon Liza's attention to the deep'
+        SENTENCE_NT'try liza talking about philosophy'
+        SENTENCE_NT'first carry out an actor talking about an object ( called t '
+        SENTENCE_NT'if the leading beats is not empty'
+        SENTENCE_NT'let n be the number of entries in the leading beats'
+        SENTENCE_NT'if n is 1'
+        SENTENCE_NT'perform entry 1 of the leading beats'
+        SENTENCE_NT'if n is greater than 1'
+        SENTENCE_NT'say "Choose..."'
+        SENTENCE_NT'say "[conditional paragraph break]"'
+        SENTENCE_NT'let x be 0'
+        SENTENCE_NT'repeat with b running through the leading beats'
+        SENTENCE_NT'increase x by 1'
+        SENTENCE_NT'say "([X]). [textual content of opening line of B][line brea'
+        SENTENCE_NT'say "[conditional paragraph break]"'
+        SENTENCE_NT'let y be the chosen dialogue number up to x'
+        SENTENCE_NT'perform entry y of the leading beats'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'if the other beats is not empty'
+        SENTENCE_NT'let n be the number of entries in the other beats'
+        SENTENCE_NT'let r be a random number from 1 to n'
+        SENTENCE_NT'perform entry r of the other beats'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'if the player is the actor'
+        SENTENCE_NT'say "There is no reply."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "[The actor] [talk] about [T]."'
+        SENTENCE_NT'stop the action'
+        HEADING_NT'section a ( dialog )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the going active scene . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the going active scene'
+            DIALOGUE_LINE_NT'narration : "Bong! The director activity chime goes off."' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Bong! The director activity chime goes off."'
+            DIALOGUE_CUE_NT'( about philosophy . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about philosophy'
+            DIALOGUE_LINE_NT'liza : "I favour Cartesian dualism. Well, half of me does."' {level 0}
+                DIALOGUE_SPEAKER_NT'liza'
+                DIALOGUE_SPEECH_NT'"I favour Cartesian dualism. Well, half of me does."'
+            DIALOGUE_CUE_NT'( about philosophy . later . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about philosophy'
+                DIALOGUE_CLAUSE_NT'later'
+            DIALOGUE_LINE_NT'liza : "Existentialism might work for me. If it's real."' {level 0}
+                DIALOGUE_SPEAKER_NT'liza'
+                DIALOGUE_SPEECH_NT'"Existentialism might work for me. If it's real."'
+            DIALOGUE_CUE_NT'( about philosophy . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about philosophy'
+            DIALOGUE_LINE_NT'player : "I do wonder what it's all about."' {level 0}
+                DIALOGUE_SPEAKER_NT'player'
+                DIALOGUE_SPEECH_NT'"I do wonder what it's all about."'
+            DIALOGUE_LINE_NT'liza : "And therefore you are."' {level 0}
+                DIALOGUE_SPEAKER_NT'liza'
+                DIALOGUE_SPEECH_NT'"And therefore you are."'
+            DIALOGUE_CUE_NT'( about philosophy . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about philosophy'
+            DIALOGUE_LINE_NT'player : "Any view on whether science is a social construct?' {level 0}
+                DIALOGUE_SPEAKER_NT'player'
+                DIALOGUE_SPEECH_NT'"Any view on whether science is a social construct?"'
+            DIALOGUE_LINE_NT'liza : "Only that it's not a falsifiable hypothesis."' {level 0}
+                DIALOGUE_SPEAKER_NT'liza'
+                DIALOGUE_SPEECH_NT'"Only that it's not a falsifiable hypothesis."'

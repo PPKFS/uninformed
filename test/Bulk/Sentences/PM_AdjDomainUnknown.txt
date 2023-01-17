@@ -1,0 +1,6 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a blorgle is wibbly if it is 100 years old'

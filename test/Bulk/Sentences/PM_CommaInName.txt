@@ -1,0 +1,5 @@
+Read 22 words
+ROOT_NT
+    HEADING_NT'the building is a room' {heading 0}
+        SENTENCE_NT'the building is a room'
+        SENTENCE_NT'in the building is a person called wallace , gromit too'

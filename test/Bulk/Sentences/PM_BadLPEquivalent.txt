@@ -1,0 +1,7 @@
+Read 38 words
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'mass is a kind of value'
+        SENTENCE_NT'1 kg specifies a mass'
+        SENTENCE_NT'2 rels specifies a mass equivalent to "Fish."'

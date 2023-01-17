@@ -1,0 +1,12 @@
+Read 84 words
+syntax-test: unexpected semicolon in sentence: let F be given by F = 1 + + 1, where F is a number
+syntax-test: unexpected semicolon in sentence: let F be given by F = + 1, where F is a number
+syntax-test: unexpected semicolon in sentence: let F be given by F = 1 +, where F is a number
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let f be given by f = 1 + + 1 , where f is a number'
+        SENTENCE_NT'let f be given by f = + 1 , where f is a number'
+        SENTENCE_NT'let f be given by f = 1 + , where f is a number'
+        SENTENCE_NT'let f be given by f = ( 1 + 1 ) - , where f is a number'

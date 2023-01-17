@@ -1,0 +1,7 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'downstream is a direction' {heading 0}
+        SENTENCE_NT'downstream is a direction'
+        SENTENCE_NT'the opposite of downstream is upstream'
+        SENTENCE_NT'end of the road is a room'
+        SENTENCE_NT'south and downstream from end of the road is a room called i'

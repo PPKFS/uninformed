@@ -1,0 +1,8 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'south view is a room' {heading 0}
+        SENTENCE_NT'south view is a room'
+        SENTENCE_NT'the drawbridge is north of south view'
+        SENTENCE_NT'it is an open door'
+        SENTENCE_NT'through it is dauphin battery'
+        SENTENCE_NT'dauphin battery is north of drawbridge'

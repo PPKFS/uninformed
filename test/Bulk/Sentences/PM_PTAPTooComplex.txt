@@ -1,0 +1,9 @@
+Read 50 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a utensil is a kind of thing'
+        SENTENCE_NT'a knife , a fork and a spoon are utensils in home'
+        SENTENCE_NT'an apple is in home'
+        SENTENCE_NT'every turn when we have taken a utensil'
+        SENTENCE_NT'say "You're a utensil taker!"'

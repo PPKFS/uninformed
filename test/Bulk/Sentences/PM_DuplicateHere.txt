@@ -1,0 +1,7 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'beginning is a room' {heading 0}
+        SENTENCE_NT'beginning is a room'
+        SENTENCE_NT'a chair is here'
+        SENTENCE_NT'finale is north of beginning'
+        SENTENCE_NT'a chair is here'

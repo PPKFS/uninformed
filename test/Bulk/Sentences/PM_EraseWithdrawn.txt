@@ -1,0 +1,10 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to spong'
+        SENTENCE_NT'(- 
+        		print {-erase} "Hello.";
+        	'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'spong'

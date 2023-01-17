@@ -1,0 +1,8 @@
+Read 84 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'to w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w1'
+        SENTENCE_NT'say "Bang!"'
+        SENTENCE_NT'to w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 w12 w13 w14 w15 w16 w1'
+        SENTENCE_NT'say "Bang! Bang!"'

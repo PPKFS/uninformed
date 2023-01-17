@@ -1,0 +1,9 @@
+Read 57 words
+syntax-test: unexpected semicolon in sentence: let m be 1
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'equation 2 f = ma where f is a number , m is a number , a is'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let m be 1'
+        SENTENCE_NT'let f be given by equation 2 where a = 5 , z = 10'

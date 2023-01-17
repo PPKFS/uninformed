@@ -1,0 +1,6 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'the cave is a room' {heading 0}
+        SENTENCE_NT'the cave is a room'
+        SENTENCE_NT'the jelly monster is an animal in the cave'
+        SENTENCE_NT'the player is part of the jelly monster'

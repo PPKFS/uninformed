@@ -1,0 +1,17 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: try frizzling the noun
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'frizzling is an action applying to one thing'
+        SENTENCE_NT'understand "frizzle [something]" as frizzling'
+        SENTENCE_NT'frozzling is an action applying to one topic and one thing'
+        SENTENCE_NT'understand "[text] [something]" as frozzling'
+        SENTENCE_NT'the grunion is in the lab'
+        SENTENCE_NT'carry out frizzling'
+        SENTENCE_NT'say "You frizzle [the noun]."'
+        SENTENCE_NT'carry out frozzling'
+        SENTENCE_NT'if the topic understood matches "boo"'
+        SENTENCE_NT'try frizzling the noun'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "I didn't follow that."'

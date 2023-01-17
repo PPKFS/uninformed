@@ -1,0 +1,8 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'foo is west of bar' {heading 0}
+        SENTENCE_NT'foo is west of bar'
+        SENTENCE_NT'a shirt is a kind of thing'
+        SENTENCE_NT'some shirts are defined by the table of shirtness'
+        SENTENCE_NT'table of shirtness shirt description location a blue shirt "'
+        SENTENCE_NT'foo a grey shirt "This shirt is grey."'

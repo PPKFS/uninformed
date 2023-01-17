@@ -1,0 +1,4 @@
+Read 9 words
+ROOT_NT
+    HEADING_NT'the pineapple is 20' {heading 0}
+        SENTENCE_NT'the pineapple is 20'

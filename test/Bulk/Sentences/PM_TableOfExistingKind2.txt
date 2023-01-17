@@ -1,0 +1,7 @@
+Read 44 words
+ROOT_NT
+    HEADING_NT'an outcome is a kind of value' {heading 0}
+        SENTENCE_NT'an outcome is a kind of value'
+        SENTENCE_NT'some outcomes are defined by the table of outcomes'
+        SENTENCE_NT'table of outcomes outcome description boring lack of results'
+        SENTENCE_NT'combat hit is an outcome'

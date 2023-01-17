@@ -1,0 +1,11 @@
+Read 28 words
+syntax-test: unexpected semicolon in sentence: let N be 13
+syntax-test: unexpected semicolon in sentence: say "Ooh!"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let n be 13'
+        SENTENCE_NT'say "Ooh!"'
+        SENTENCE_NT'-- 1'
+        SENTENCE_NT'say "Look!"'

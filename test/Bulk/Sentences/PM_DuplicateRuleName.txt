@@ -1,0 +1,8 @@
+Read 38 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'instead of jumping ( this is the remember you're a womble ru'
+        SENTENCE_NT'say "Jump!"'
+        SENTENCE_NT'this is the remember you're a womble rule'
+        SENTENCE_NT'say "Run!"'

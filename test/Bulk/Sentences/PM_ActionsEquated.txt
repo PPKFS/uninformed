@@ -1,0 +1,4 @@
+Read 8 words
+ROOT_NT
+    HEADING_NT'taking is dropping' {heading 0}
+        SENTENCE_NT'taking is dropping'

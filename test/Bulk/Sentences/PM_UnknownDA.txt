@@ -1,0 +1,4 @@
+Read 13 words
+ROOT_NT
+    HEADING_NT'include ant thorax dissections in the debugging log' {heading 0}
+        SENTENCE_NT'include ant thorax dissections in the debugging log'

@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'to say ( v - value ) twice ( this is double-saying )'
+        SENTENCE_NT'say "[V]. [V], I say!"'

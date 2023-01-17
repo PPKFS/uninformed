@@ -1,0 +1,4 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'the red orange yellow green blue indigo violet ultraviolet s' {heading 0}
+        SENTENCE_NT'the red orange yellow green blue indigo violet ultraviolet s'

@@ -1,0 +1,15 @@
+Read 41 words
+syntax-test: unexpected semicolon in sentence: while in darkness begin
+syntax-test: unexpected semicolon in sentence: say "Oh, it's dark."
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "Is that a light?"
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'the typewriter is in the school'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'while in darkness begin'
+        SENTENCE_NT'say "Oh, it's dark."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "Is that a light?"'
+        SENTENCE_NT'end while'

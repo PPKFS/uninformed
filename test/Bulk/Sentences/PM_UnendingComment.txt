@@ -1,0 +1,3 @@
+syntax-test: Square-bracketed text never ends: PM_UnendingComment.txt
+Read 1 words
+ROOT_NT

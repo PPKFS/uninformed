@@ -1,0 +1,10 @@
+Read 33 words
+syntax-test: unexpected semicolon in sentence: try taking something
+syntax-test: unexpected semicolon in sentence: try doing something
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'try taking something'
+        SENTENCE_NT'try doing something'
+        SENTENCE_NT'try taking or dropping the player'

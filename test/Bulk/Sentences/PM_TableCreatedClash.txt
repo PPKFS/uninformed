@@ -1,0 +1,7 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'a length is a kind of value'
+        SENTENCE_NT'some lengths are defined by the table of lengths'
+        SENTENCE_NT'table of lengths length short medium 5'

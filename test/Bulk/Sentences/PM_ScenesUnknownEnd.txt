@@ -1,0 +1,7 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'eynforme halt is a room' {heading 0}
+        SENTENCE_NT'eynforme halt is a room'
+        SENTENCE_NT'train stop is a scene'
+        SENTENCE_NT'explosion is a scene'
+        SENTENCE_NT'explosion begins when train stop ends unexpectedly'

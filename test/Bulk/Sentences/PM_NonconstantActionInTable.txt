@@ -1,0 +1,8 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the desk is in the kitchen'
+        SENTENCE_NT'steve is a person'
+        SENTENCE_NT'the moron is a person that varies'
+        SENTENCE_NT'table of test actions commands examining the desk steve exam'

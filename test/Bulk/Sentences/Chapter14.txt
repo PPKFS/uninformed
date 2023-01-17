@@ -30,11 +30,11 @@ syntax-test: unexpected semicolon in sentence: let total be the unit price of th
 ROOT_NT
     HEADING_NT'"Chapter 14: Market" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 14: Market" by emily short'
-        HEADING_NT'chapter 14 - units' {heading 1}
+        HEADING_NT'chapter 14 - units' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'use scoring'
             SENTENCE_NT'the market is a room'
-            HEADING_NT'section 2 - numbers' {heading 2}
+            HEADING_NT'section 2 - numbers' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'now the score is the score + 10'
                 SENTENCE_NT'report the current score'
@@ -70,7 +70,7 @@ ROOT_NT
                 SENTENCE_NT'a cost is a kind of value'
                 SENTENCE_NT'$1.99 specifies a cost with parts dollars and cents ( option'
                 SENTENCE_NT'a unit price times a weight specifies a cost'
-            HEADING_NT'section 3 - whereabouts on a scale ?' {heading 2}
+            HEADING_NT'section 3 - whereabouts on a scale ?' {heading 5}
                 SENTENCE_NT'a spice is a kind of thing'
                 SENTENCE_NT'a spice has a unit price'
                 SENTENCE_NT'a spice has a weight'
@@ -87,7 +87,7 @@ ROOT_NT
                 SENTENCE_NT'some cayenne pepper is a spice in the market'
                 SENTENCE_NT'cayenne pepper has weight 0lb 3oz'
                 SENTENCE_NT'cayenne pepper has unit price $2.00 per oz'
-            HEADING_NT'section 4 - comparing objects' {heading 2}
+            HEADING_NT'section 4 - comparing objects' {heading 5}
                 SENTENCE_NT'definition'
                 SENTENCE_NT'a spice is costly if its unit price is $10.00 per oz or more'
                 SENTENCE_NT'definition'
@@ -96,7 +96,7 @@ ROOT_NT
                 SENTENCE_NT'a spice is cheap if its unit price is $7.00 per oz or less'
                 SENTENCE_NT'some rosemary is a cheap spice in the market'
                 SENTENCE_NT'rosemary has weight 0lb 3oz'
-            HEADING_NT'section 5 - superlatives' {heading 2}
+            HEADING_NT'section 5 - superlatives' {heading 5}
                 SENTENCE_NT'definition'
                 SENTENCE_NT'something is unowned if the player does not have it'
                 SENTENCE_NT'instead of taking a spice which is in the market'
@@ -113,16 +113,16 @@ ROOT_NT
                 SENTENCE_NT'say "Hey! You paid good money for that!"'
                 SENTENCE_NT'before dropping a spice when the weight of the noun is the w'
                 SENTENCE_NT'say "Yeah, [the noun] is getting heavy..."'
-            HEADING_NT'section 6 - units' {heading 2}
-            HEADING_NT'section 7 - more on specifications' {heading 2}
+            HEADING_NT'section 6 - units' {heading 5}
+            HEADING_NT'section 7 - more on specifications' {heading 5}
                 SENTENCE_NT'2 pounds 15 ounces specifies a weight'
                 SENTENCE_NT'2 lb 15 oz specifies a weight'
                 SENTENCE_NT'some fennel is a spice in the market'
                 SENTENCE_NT'fennel has weight 0lb 5oz'
                 SENTENCE_NT'fennel has unit price $8.35 per oz'
-            HEADING_NT'section 8 - multiple-number specifications' {heading 2}
-            HEADING_NT'section 9 - the parts of a number specification' {heading 2}
-            HEADING_NT'section 10 - understanding specified numbers' {heading 2}
+            HEADING_NT'section 8 - multiple-number specifications' {heading 5}
+            HEADING_NT'section 9 - the parts of a number specification' {heading 5}
+            HEADING_NT'section 10 - understanding specified numbers' {heading 5}
                 SENTENCE_NT'understand "price [weight] of [something]" as estimating'
                 SENTENCE_NT'estimating is an action applying to one weight and one visib'
                 SENTENCE_NT'check estimating'
@@ -135,20 +135,20 @@ ROOT_NT
                 SENTENCE_NT'paying is an action applying to a cost'
                 SENTENCE_NT'report paying'
                 SENTENCE_NT'say "You fork over [the cost understood]."'
-            HEADING_NT'section 12 - arithmetic with units' {heading 2}
+            HEADING_NT'section 12 - arithmetic with units' {heading 5}
                 SENTENCE_NT'instead of examining a spice'
                 SENTENCE_NT'say "[The noun] weighs [weight] and costs [unit price], or ['
                 SENTENCE_NT'instead of smelling a spice'
                 SENTENCE_NT'say "It smells like something that costs [weight  times unit'
-            HEADING_NT'section 13 - multiplication of units' {heading 2}
-            HEADING_NT'section 14 - totals' {heading 2}
+            HEADING_NT'section 13 - multiplication of units' {heading 5}
+            HEADING_NT'section 14 - totals' {heading 5}
                 SENTENCE_NT'before taking inventory when something is carried by the pla'
                 SENTENCE_NT'say "You are carrying [the total weight of spices carried by'
                 SENTENCE_NT'after printing the name of a heavy spice'
                 SENTENCE_NT'say " (a generous quantity)"'
                 SENTENCE_NT'after printing the name of a costly spice'
                 SENTENCE_NT'say " (quite valuable)"'
-            HEADING_NT'section 15 - making the verb "to weigh"' {heading 2}
+            HEADING_NT'section 15 - making the verb "to weigh"' {heading 5}
                 SENTENCE_NT'the verb to weigh ( it weighs , they weigh , it is weighing '
                 SENTENCE_NT'some green tea is a spice in the market'
                 SENTENCE_NT'it has unit price $8.75 per oz'

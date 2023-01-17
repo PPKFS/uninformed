@@ -1,0 +1,9 @@
+Read 69 words
+ROOT_NT
+    HEADING_NT'someplace is a room' {heading 0}
+        SENTENCE_NT'someplace is a room'
+        SENTENCE_NT'a key , a book , and a golden apple are in someplace'
+        SENTENCE_NT'the apple is edible'
+        SENTENCE_NT'table of legend topic script "ancients" or "ancient ones" or'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a topic is legendary rather than mundane if it is a topic li'

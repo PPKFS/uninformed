@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'every turn when we have taken a container ( called the bag )'
+        SENTENCE_NT'say "Hi."'

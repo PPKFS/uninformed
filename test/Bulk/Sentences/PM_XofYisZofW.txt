@@ -1,0 +1,5 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'the winter palace and the hills are rooms' {heading 0}
+        SENTENCE_NT'the winter palace and the hills are rooms'
+        SENTENCE_NT'the printed name of the palace is the printed name of the hi'

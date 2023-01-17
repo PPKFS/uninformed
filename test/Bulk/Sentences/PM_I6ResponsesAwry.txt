@@ -1,0 +1,5 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'inline arena is a room' {heading 0}
+        SENTENCE_NT'inline arena is a room'
+        SENTENCE_NT'the restore the game rule translates into i6 as "RESTORE_THE'

@@ -1,6 +1,0 @@
-Read 27 words
-ROOT_NT
-    HEADING_NT'home is a room' {heading 0}
-        SENTENCE_NT'home is a room'
-        SENTENCE_NT'guidance relates one person to various vehicles'
-        SENTENCE_NT'test index ( internal ) with rl'

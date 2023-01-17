@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'at sigil translates into unicode as 64' {heading 0}
+        SENTENCE_NT'at sigil translates into unicode as 64'
+        SENTENCE_NT'at sigil translates into unicode as 64'
+        SENTENCE_NT'at sigil translates into unicode as 67'

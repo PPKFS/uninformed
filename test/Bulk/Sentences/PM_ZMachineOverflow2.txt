@@ -1,0 +1,20 @@
+Read 242 words
+syntax-test: unexpected semicolon in sentence: let L be 1 m
+syntax-test: unexpected semicolon in sentence: say "One meter is [L]."
+syntax-test: unexpected semicolon in sentence: now L is 1 cm
+syntax-test: unexpected semicolon in sentence: say "One centimeter is [L]."
+syntax-test: unexpected semicolon in sentence: now L is 0.01 km
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'length is a kind of value'
+        SENTENCE_NT'1m ( in metric units , in m ) or 1 m ( in metric units , in '
+        SENTENCE_NT'1cm ( in metric units , in cm ) or 1 cm ( in metric units , '
+        SENTENCE_NT'1km ( in metric units , in km ) or 1 km ( in metric units , '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be 1 m'
+        SENTENCE_NT'say "One meter is [L]."'
+        SENTENCE_NT'now l is 1 cm'
+        SENTENCE_NT'say "One centimeter is [L]."'
+        SENTENCE_NT'now l is 0.01 km'
+        SENTENCE_NT'say "Ten meters is [L]."'

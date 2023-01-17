@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let m be the carrying capacity of the entire game'

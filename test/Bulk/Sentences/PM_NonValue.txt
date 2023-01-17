@@ -1,0 +1,7 @@
+Read 35 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'a room has a person called the best friend'
+        SENTENCE_NT'alf is a man'
+        SENTENCE_NT'the best friend of xanadu is not alf'

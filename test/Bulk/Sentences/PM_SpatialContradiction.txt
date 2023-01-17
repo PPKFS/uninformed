@@ -1,0 +1,8 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a hairstyle is a kind of thing'
+        SENTENCE_NT'every hairstyle incorporates hairspray'
+        SENTENCE_NT'there is a hairstyle'
+        SENTENCE_NT'there is a hairstyle'

@@ -1,0 +1,10 @@
+Read 32 words
+syntax-test: unexpected semicolon in sentence: say unicode Coastline of Spain
+syntax-test: unexpected semicolon in sentence: say "Look at the [unicode Coastline of France] there."
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say unicode coastline of spain'
+        SENTENCE_NT'say "Look at the [unicode Coastline of France] there."'
+        SENTENCE_NT'let t be "oh, my, that appears to be [unicode Coastline of I'

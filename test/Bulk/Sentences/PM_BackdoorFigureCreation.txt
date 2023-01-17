@@ -1,0 +1,10 @@
+Read 65 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a tag is a kind of value'
+        SENTENCE_NT'tagging relates various tags to various figure names'
+        SENTENCE_NT'the verb to tag ( he tags , they tag ) implies the tagging r'
+        SENTENCE_NT'figure of forest is the file "forest.jpg"'
+        SENTENCE_NT'outdoors is a tag'
+        SENTENCE_NT'outdoors tags figure of froest'

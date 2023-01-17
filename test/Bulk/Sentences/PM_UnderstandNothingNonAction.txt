@@ -1,0 +1,8 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'kitchen is a room' {heading 0}
+        SENTENCE_NT'kitchen is a room'
+        SENTENCE_NT'understand nothing as taking'
+        SENTENCE_NT'understand nothing as 12'
+        SENTENCE_NT'understand nothing as the kitchen'
+        SENTENCE_NT'understand nothing as "[frog]"'

@@ -1,0 +1,4 @@
+Read 13 words
+ROOT_NT
+    HEADING_NT'the arrow is in a kind of value' {heading 0}
+        SENTENCE_NT'the arrow is in a kind of value'

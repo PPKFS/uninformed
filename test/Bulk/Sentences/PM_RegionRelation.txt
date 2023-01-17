@@ -1,0 +1,5 @@
+Read 22 words
+ROOT_NT
+    HEADING_NT'the great outdoors and the prairie are regions' {heading 0}
+        SENTENCE_NT'the great outdoors and the prairie are regions'
+        SENTENCE_NT'the prairie is carrying the great outdoors'

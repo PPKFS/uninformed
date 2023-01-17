@@ -1,0 +1,6 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'temple is a room' {heading 0}
+        SENTENCE_NT'temple is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now story title is "Hello World"'

@@ -1,0 +1,14 @@
+Read 72 words
+syntax-test: unexpected semicolon in sentence: let x be a number
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to decide what number is my special value'
+        SENTENCE_NT'decide on 4'
+        SENTENCE_NT'to decide what number is my special ( banana - a number ) va'
+        SENTENCE_NT'decide on 4'
+        SENTENCE_NT'to decide what person is my special value'
+        SENTENCE_NT'decide on the player'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be a number'
+        SENTENCE_NT'now x is my special value'

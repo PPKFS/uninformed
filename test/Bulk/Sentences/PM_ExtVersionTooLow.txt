@@ -1,0 +1,6 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'include version 3/070628 of extversiontoolow extension by ar' {heading 0}
+        SENTENCE_NT'include version 3/070628 of extversiontoolow extension by ar'
+        SENTENCE_NT'include version 2.7 of extnoversion extension by araminta in'
+        SENTENCE_NT'beachy head is a room'

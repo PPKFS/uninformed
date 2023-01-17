@@ -1,0 +1,6 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'workshop is a room' {heading 0}
+        SENTENCE_NT'workshop is a room'
+        SENTENCE_NT'to splodge ( lkjh - a lkjhlkhj )'
+        SENTENCE_NT'say "No."'

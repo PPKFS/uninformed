@@ -1,0 +1,4 @@
+Read 12 words
+ROOT_NT
+    HEADING_NT'a trumpet is a kind of activity' {heading 0}
+        SENTENCE_NT'a trumpet is a kind of activity'

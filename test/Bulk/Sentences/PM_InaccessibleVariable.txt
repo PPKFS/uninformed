@@ -1,0 +1,9 @@
+Read 44 words
+ROOT_NT
+    HEADING_NT'spot is room' {heading 0}
+        SENTENCE_NT'spot is room'
+        SENTENCE_NT'include (-  Global foobar;  after "Definitions.i6t"'
+        SENTENCE_NT'foo is a number that varies'
+        SENTENCE_NT'the foo variable translates into i6 as "foobar"'
+        SENTENCE_NT'foo is usually 5'
+        SENTENCE_NT'when play begins , say "Foo is [foo]."'

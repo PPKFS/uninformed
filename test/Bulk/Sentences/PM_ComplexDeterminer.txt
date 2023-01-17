@@ -1,0 +1,5 @@
+Read 22 words
+ROOT_NT
+    HEADING_NT'more than three people are in the dining room' {heading 0}
+        SENTENCE_NT'more than three people are in the dining room'
+        SENTENCE_NT'none of the doors is open'

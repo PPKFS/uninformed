@@ -1,0 +1,7 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'table of bogosity drongo 1 2 44'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let t be the total drongo of people'

@@ -1,0 +1,6 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'colour is a kind of value' {heading 0}
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'10a specifies a colour'
+        SENTENCE_NT'green is a colour'

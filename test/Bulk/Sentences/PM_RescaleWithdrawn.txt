@@ -1,0 +1,8 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'to flibble ( x - a number )'
+        SENTENCE_NT'(-  {-rescale:X} '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'flibble 12'

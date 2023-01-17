@@ -1,0 +1,4 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'the verb to imagine ( he imagines , they imagine ) implies t' {heading 0}
+        SENTENCE_NT'the verb to imagine ( he imagines , they imagine ) implies t'

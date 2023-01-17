@@ -1,0 +1,6 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'a door is a kind of backdrop' {heading 0}
+        SENTENCE_NT'a door is a kind of backdrop'
+        SENTENCE_NT'the portal is a door'
+        SENTENCE_NT'the portal is east of foo and west of goo'

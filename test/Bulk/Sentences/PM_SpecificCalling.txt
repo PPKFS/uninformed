@@ -1,0 +1,12 @@
+Read 67 words
+syntax-test: unexpected semicolon in sentence: if a thing (called aa) is carried, say "a. [aa]."
+syntax-test: unexpected semicolon in sentence: if the gem is carried, say "b. [gem]."
+ROOT_NT
+    HEADING_NT'the garden is a room' {heading 0}
+        SENTENCE_NT'the garden is a room'
+        SENTENCE_NT'the gem is in the garden'
+        SENTENCE_NT'every turn when the gem is carried'
+        SENTENCE_NT'if a thing ( called aa ) is carried , say "a. [aa]."'
+        SENTENCE_NT'if the gem is carried , say "b. [gem]."'
+        SENTENCE_NT'if the gem ( called cc ) is carried , say "c. [cc]."'
+        SENTENCE_NT'test me with "take gem"'

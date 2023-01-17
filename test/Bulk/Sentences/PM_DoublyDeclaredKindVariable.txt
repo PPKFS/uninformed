@@ -1,0 +1,6 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'to splodge ( x - value of kind k ) with ( y - value of kind '
+        SENTENCE_NT'do nothing'

@@ -1,0 +1,6 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'there is a foo here'
+        SENTENCE_NT'understand "in [something related by reversed room-containme'

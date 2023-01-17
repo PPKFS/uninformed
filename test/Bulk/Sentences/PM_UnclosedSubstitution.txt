@@ -1,0 +1,7 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'include text substitutions in the debugging log' {heading 0}
+        SENTENCE_NT'include text substitutions in the debugging log'
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "[foo the player bar"'

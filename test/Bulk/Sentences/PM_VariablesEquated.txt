@@ -1,0 +1,5 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'the church is a room' {heading 0}
+        SENTENCE_NT'the church is a room'
+        SENTENCE_NT'the stored actions variable is a truth state that varies'

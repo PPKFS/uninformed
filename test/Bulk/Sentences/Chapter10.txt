@@ -18,7 +18,7 @@ syntax-test: unexpected semicolon in sentence: now the apricots are reconstitute
 ROOT_NT
     HEADING_NT'"Chapter 10: Le Gourmand" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 10: Le Gourmand" by emily short'
-        HEADING_NT'chapter 10' {heading 1}
+        HEADING_NT'chapter 10' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'the kitchen is a room'
             SENTENCE_NT'the stove is scenery in the kitchen'
@@ -148,7 +148,7 @@ ROOT_NT
             SENTENCE_NT'"Dense clouds of steam fill the room."'
             SENTENCE_NT'some smoke is fixed in place'
             SENTENCE_NT'"Smoke is beginning to collect near the ceiling."'
-            HEADING_NT'section 2 - creating a scene' {heading 2}
+            HEADING_NT'section 2 - creating a scene' {heading 5}
                 SENTENCE_NT'sauteeing onions is a scene'
                 SENTENCE_NT'sauteeing onions begins when the diced onions are in a hot c'
                 SENTENCE_NT'definition'
@@ -167,7 +167,7 @@ ROOT_NT
                 SENTENCE_NT'say "The oven begins to warm up."'
                 SENTENCE_NT'when preheating the oven ends'
                 SENTENCE_NT'say "The oven beeps to inform you that it has reached the de'
-            HEADING_NT'section 5 - during scenes' {heading 2}
+            HEADING_NT'section 5 - during scenes' {heading 5}
                 SENTENCE_NT'every turn during idling'
                 SENTENCE_NT'say "You should really get started sauteeing the onions."'
                 SENTENCE_NT'every turn during sauteeing onions'
@@ -184,7 +184,7 @@ ROOT_NT
                 SENTENCE_NT'say "The onions smell marvelous."'
                 SENTENCE_NT'instead of opening the oven during preheating the oven'
                 SENTENCE_NT'say "It'll never heat if you open it up while it's warming."'
-            HEADING_NT'section 6 - linking scenes together' {heading 2}
+            HEADING_NT'section 6 - linking scenes together' {heading 5}
                 SENTENCE_NT'heating kettle is a scene'
                 SENTENCE_NT'heating kettle begins when the hot kettle contains cool wate'
                 SENTENCE_NT'when heating kettle begins'
@@ -198,12 +198,12 @@ ROOT_NT
                 SENTENCE_NT'say "The kettle begins to burble and whistle shrilly."'
                 SENTENCE_NT'when hearing the kettle whistle ends'
                 SENTENCE_NT'say "The kettle's screaming dies off."'
-            HEADING_NT'section 7 - more general linkages' {heading 2}
+            HEADING_NT'section 7 - more general linkages' {heading 5}
                 SENTENCE_NT'idling is a scene'
                 SENTENCE_NT'idling begins when play begins'
                 SENTENCE_NT'idling ends when sauteeing onions begins'
-            HEADING_NT'section 8 - multiple beginnings and repeats' {heading 2}
-            HEADING_NT'section 9 - multiple endings' {heading 2}
+            HEADING_NT'section 8 - multiple beginnings and repeats' {heading 5}
+            HEADING_NT'section 9 - multiple endings' {heading 5}
                 SENTENCE_NT'sauteeing onions ends in disaster when scorching onions begi'
                 SENTENCE_NT'sauteeing onions ends in success when the sauteed onions are'
                 SENTENCE_NT'definition'

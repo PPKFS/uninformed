@@ -1,0 +1,7 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'the gram-schmidt memorial is a room' {heading 0}
+        SENTENCE_NT'the gram-schmidt memorial is a room'
+        SENTENCE_NT'the statue is in the memorial'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if the player's command matches "frog [text]" , say "Ok."'

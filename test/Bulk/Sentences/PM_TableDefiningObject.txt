@@ -1,0 +1,7 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'the retro t-shirt is a thing' {heading 0}
+        SENTENCE_NT'the retro t-shirt is a thing'
+        SENTENCE_NT'table 1 - player's clothing name description a retro t-shirt'
+        SENTENCE_NT'darcy's bedroom is a room'
+        SENTENCE_NT'the retro t-shirt are defined by the table of player's cloth'

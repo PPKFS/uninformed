@@ -1,0 +1,10 @@
+Read 60 words
+syntax-test: unexpected semicolon in sentence: say "You cautiously touch [the mirror]. "
+ROOT_NT
+    HEADING_NT'blue test chamber is a room' {heading 0}
+        SENTENCE_NT'blue test chamber is a room'
+        SENTENCE_NT'a transport mirror is a kind of thing'
+        SENTENCE_NT'instead of touching a transport mirror ( called the mirror )'
+        SENTENCE_NT'say "You cautiously touch [the mirror]. "'
+        SENTENCE_NT'try entering the mirror'
+        SENTENCE_NT'the test mirror is a transport mirror in the blue test chamb'

@@ -1,0 +1,208 @@
+Read 474 words
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: if Burrow is dark begin
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+syntax-test: unexpected semicolon in sentence: end if
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'to provoke this problem'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'if burrow is dark begin'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'end if'

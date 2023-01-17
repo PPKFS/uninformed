@@ -1,0 +1,25 @@
+Read 124 words
+syntax-test: unexpected semicolon in sentence: repeat with x running through all things in the location begin
+syntax-test: unexpected semicolon in sentence: say "[x] is [if x is colored]colored[otherwise]uncolored[end if]."
+syntax-test: unexpected semicolon in sentence: say "[x] is [if x is colorable]colorable[otherwise]not colorable[end if]."
+ROOT_NT
+    HEADING_NT'color is a kind of value' {heading 0}
+        SENTENCE_NT'color is a kind of value'
+        SENTENCE_NT'the colors are red , white , and blue'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is colored if it provides the property color'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is uncolored if it is not colored'
+        SENTENCE_NT'a thing is either colorable or not colorable'
+        SENTENCE_NT'an uncolored thing is seldom colorable'
+        SENTENCE_NT'a portable thing is usually colorable'
+        SENTENCE_NT'a colored thing is usually colorable'
+        SENTENCE_NT'instead of looking'
+        SENTENCE_NT'repeat with x running through all things in the location beg'
+        SENTENCE_NT'say "[x] is [if x is colored]colored[otherwise]uncolored[end'
+        SENTENCE_NT'say "[x] is [if x is colorable]colorable[otherwise]not color'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'the origin is a room'
+        SENTENCE_NT'widget is in the origin'
+        SENTENCE_NT'widget has a color'
+        SENTENCE_NT'widget is red'

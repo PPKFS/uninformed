@@ -1,0 +1,6 @@
+Read 12 words
+ROOT_NT
+    HEADING_NT'z is a room' {heading 0}
+        SENTENCE_NT'z is a room'
+        SENTENCE_NT'to'
+        SENTENCE_NT'x'

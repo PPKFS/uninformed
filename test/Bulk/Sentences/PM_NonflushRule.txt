@@ -1,0 +1,7 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'the east bay is east from the west bay' {heading 0}
+        SENTENCE_NT'the east bay is east from the west bay'
+        SENTENCE_NT'before going in the east bay'
+        SENTENCE_NT'if the player had been holding something'
+        SENTENCE_NT'say "Not so fast!" instead'

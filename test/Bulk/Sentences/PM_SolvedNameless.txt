@@ -1,0 +1,11 @@
+Read 50 words
+syntax-test: unexpected semicolon in sentence: let E be an equation-name
+syntax-test: unexpected semicolon in sentence: let F be 7
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'equation 1 g = f where g is a number and f is a number'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let e be an equation-name'
+        SENTENCE_NT'let f be 7'
+        SENTENCE_NT'let g be given by e'

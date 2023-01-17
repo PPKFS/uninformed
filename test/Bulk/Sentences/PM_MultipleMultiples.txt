@@ -1,0 +1,8 @@
+Read 44 words
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'the jar and the bottle are containers in the lab'
+        SENTENCE_NT'the player carries a pebble and a feather'
+        SENTENCE_NT'understand "put [things] in [things]" as inserting it into'
+        SENTENCE_NT'test me with "put pebble and feather in jar and bottle"'

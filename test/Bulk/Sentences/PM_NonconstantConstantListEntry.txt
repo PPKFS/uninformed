@@ -1,0 +1,10 @@
+Read 88 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'father-of relates one man ( called the father ) to various p'
+        SENTENCE_NT'the verb to be the father of implies the father-of relation'
+        SENTENCE_NT'mother-of relates one woman ( called the mother ) to various'
+        SENTENCE_NT'the verb to be the mother of implies the mother-of relation'
+        SENTENCE_NT'the problematic list is a list of relations of people which '
+        SENTENCE_NT'the problematic list is { father-of relation , player , scor'

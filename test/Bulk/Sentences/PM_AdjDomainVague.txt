@@ -1,0 +1,6 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a sayable value is green if it is 0'

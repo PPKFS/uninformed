@@ -1,0 +1,6 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'where the heart is is a room' {heading 0}
+        SENTENCE_NT'where the heart is is a room'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a room is home ( rather than house ) if it is where the hear'

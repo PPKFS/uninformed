@@ -1,0 +1,7 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'applause is a number that varies'
+        SENTENCE_NT'the applause variable translates into i6 as "applause"'
+        SENTENCE_NT'the applause variable translates into i6 as "clapping"'

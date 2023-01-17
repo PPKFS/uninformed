@@ -1,0 +1,6 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'the lab has a number called the bar'
+        SENTENCE_NT'the bar of the lab is never 42'

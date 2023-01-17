@@ -1,0 +1,11 @@
+Read 109 words
+ROOT_NT
+    HEADING_NT'frobonia is a room' {heading 0}
+        SENTENCE_NT'frobonia is a room'
+        SENTENCE_NT'frobbing relates one person to various things'
+        SENTENCE_NT'the verb to frob ( he frobs , they frob , he frobbed , it is'
+        SENTENCE_NT'mr testy frobs the frobnitzim'
+        SENTENCE_NT'the printed name of the frobnitzim is "frobnitzim (should be'
+        SENTENCE_NT'mopping relates one person to various things'
+        SENTENCE_NT'the verb to frob ( he frobs , they frob , he frobbed , it is'
+        SENTENCE_NT'the verb to be means the enclosure relation'

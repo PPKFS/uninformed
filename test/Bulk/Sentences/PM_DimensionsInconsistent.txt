@@ -1,0 +1,13 @@
+Read 78 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'length is a kind of value'
+        SENTENCE_NT'1m specifies a length'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'1g specifies a weight'
+        SENTENCE_NT'force is a kind of value'
+        SENTENCE_NT'1n specifies a force'
+        SENTENCE_NT'a length times a weight specifies a number'
+        SENTENCE_NT'a force times a weight specifies a length'
+        SENTENCE_NT'a weight times a force specifies a force'

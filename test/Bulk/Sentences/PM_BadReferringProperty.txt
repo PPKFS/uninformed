@@ -1,0 +1,6 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'the fruit palace is a room' {heading 0}
+        SENTENCE_NT'the fruit palace is a room'
+        SENTENCE_NT'a person has a rulebook called the banana rating'
+        SENTENCE_NT'understand the banana rating property as describing a person'

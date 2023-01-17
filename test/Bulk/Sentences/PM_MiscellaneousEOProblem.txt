@@ -1,0 +1,8 @@
+Read 44 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'a thing can be carrying capacity'
+        SENTENCE_NT'a thing can be 10'
+        SENTENCE_NT'a thing can be open or unlocked'
+        SENTENCE_NT'a thing can be open or not open'

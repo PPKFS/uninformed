@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'lettuce patch is a room' {heading 0}
+        SENTENCE_NT'lettuce patch is a room'
+        SENTENCE_NT'a container never is usually opaque'

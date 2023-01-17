@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'womping is an action applying to nothing' {heading 0}
+        SENTENCE_NT'womping is an action applying to nothing'
+        SENTENCE_NT'womping is an'

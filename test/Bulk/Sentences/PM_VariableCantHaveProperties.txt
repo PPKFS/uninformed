@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'the player can be lackadaisical'

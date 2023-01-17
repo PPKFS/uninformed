@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'a room has a number called bogosity' {heading 0}
+        SENTENCE_NT'a room has a number called bogosity'
+        SENTENCE_NT'a container has some text called bogosity'

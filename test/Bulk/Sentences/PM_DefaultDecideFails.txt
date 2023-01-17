@@ -1,0 +1,8 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'the balcony is a room' {heading 0}
+        SENTENCE_NT'the balcony is a room'
+        SENTENCE_NT'a meditation is a kind'
+        SENTENCE_NT'to decide what meditation is the ex nihilo meditation'
+        SENTENCE_NT'repeat with the idea running through the meditations'
+        SENTENCE_NT'decide on the idea'

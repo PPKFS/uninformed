@@ -1,0 +1,9 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'foo is a number that varies'
+        SENTENCE_NT'foo is never 5'
+        SENTENCE_NT'foo is always 16'
+        SENTENCE_NT'foo is seldom 1'
+        SENTENCE_NT'foo is 16'

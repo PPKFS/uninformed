@@ -1,0 +1,11 @@
+Read 30 words
+syntax-test: unexpected semicolon in sentence: say "No."
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 21 is'
+        SENTENCE_NT'-- otherwise'
+        SENTENCE_NT'say "No."'
+        SENTENCE_NT'-- 21'
+        SENTENCE_NT'say "Yes."'

@@ -1,0 +1,10 @@
+Read 40 words
+syntax-test: unexpected semicolon in sentence: let barbaz be a list of objects
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'to floozle ( foobar - a list of people )'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let barbaz be a list of objects'
+        SENTENCE_NT'floozle barbaz'

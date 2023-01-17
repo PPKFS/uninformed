@@ -1,0 +1,6 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a room is the if it is dark'

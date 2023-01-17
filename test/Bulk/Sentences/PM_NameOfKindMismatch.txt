@@ -1,0 +1,17 @@
+Read 67 words
+syntax-test: unexpected semicolon in sentence: say "People..."
+syntax-test: unexpected semicolon in sentence: assay people
+syntax-test: unexpected semicolon in sentence: say "Colours..."
+ROOT_NT
+    HEADING_NT'eugene's axe workshop is a room' {heading 0}
+        SENTENCE_NT'eugene's axe workshop is a room'
+        SENTENCE_NT'to assay ( name of kind of enumerated value k )'
+        SENTENCE_NT'repeat with item running through ks'
+        SENTENCE_NT'say "There's [item]."'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and purple'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "People..."'
+        SENTENCE_NT'assay people'
+        SENTENCE_NT'say "Colours..."'
+        SENTENCE_NT'assay colours'

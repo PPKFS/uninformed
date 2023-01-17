@@ -1,0 +1,4 @@
+Read 12 words
+ROOT_NT
+    HEADING_NT'jackdaws love my big sphinx of quartz' {heading 0}
+        SENTENCE_NT'jackdaws love my big sphinx of quartz'

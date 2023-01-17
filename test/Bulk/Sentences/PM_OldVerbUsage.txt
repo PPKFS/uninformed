@@ -1,0 +1,5 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'the wobble area is a room' {heading 0}
+        SENTENCE_NT'the wobble area is a room'
+        SENTENCE_NT'understand the verb "wibble" as "push"'

@@ -1,0 +1,18 @@
+Read 46 words
+syntax-test: unexpected semicolon in sentence: let N be 13
+syntax-test: unexpected semicolon in sentence: let M be 15
+syntax-test: unexpected semicolon in sentence: say "1."
+syntax-test: unexpected semicolon in sentence: say "2."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let n be 13'
+        SENTENCE_NT'let m be 15'
+        SENTENCE_NT'if n is'
+        SENTENCE_NT'-- 1'
+        SENTENCE_NT'say "1."'
+        SENTENCE_NT'-- 2'
+        SENTENCE_NT'say "2."'
+        SENTENCE_NT'-- m'
+        SENTENCE_NT'say "M"'

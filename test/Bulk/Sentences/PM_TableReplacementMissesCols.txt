@@ -1,0 +1,6 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'table 21 - selected elements element symbol atomic number at'
+        SENTENCE_NT'table 21 - selected elements ( replaced ) element atomic num'

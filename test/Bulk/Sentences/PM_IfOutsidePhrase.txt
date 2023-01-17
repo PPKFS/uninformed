@@ -1,0 +1,4 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'if the score exceeds 10' {heading 0}
+        SENTENCE_NT'if the score exceeds 10'

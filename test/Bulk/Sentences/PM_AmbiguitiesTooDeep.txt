@@ -1,0 +1,6 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if a room encloses a room that encloses a room that encloses'

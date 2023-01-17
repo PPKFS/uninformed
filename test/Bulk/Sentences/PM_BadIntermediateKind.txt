@@ -1,0 +1,10 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to decide what number is foo ( x - a number )'
+        SENTENCE_NT'(-  {X} '
+        SENTENCE_NT'to decide what time is bar ( x - an object )'
+        SENTENCE_NT'(-  {X} '
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if foo bar yourself is odd , say "Yep"'

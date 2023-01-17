@@ -1,0 +1,10 @@
+Read 66 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'a marker is a kind of thing'
+        SENTENCE_NT'a marker has a thing called the markee'
+        SENTENCE_NT'understand the markee property as referring to a marker'
+        SENTENCE_NT'the rock is a thing in the lab'
+        SENTENCE_NT'the rockmarker is a marker in the lab'
+        SENTENCE_NT'the markee of the rockmarker is the rock'

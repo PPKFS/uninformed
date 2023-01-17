@@ -1,0 +1,6 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'table of exempla model model name 4 "Quad XL" 6 "Lollapalooz'
+        SENTENCE_NT'table of exempla ( amended ) model 6'

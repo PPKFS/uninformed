@@ -1,0 +1,7 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'the dome is in xanadu'
+        SENTENCE_NT'the big door is a door'
+        SENTENCE_NT'the big door is part of the dome'

@@ -1,0 +1,4 @@
+Read 13 words
+ROOT_NT
+    HEADING_NT'ballroom ( east corner ) is a room' {heading 0}
+        SENTENCE_NT'ballroom ( east corner ) is a room'

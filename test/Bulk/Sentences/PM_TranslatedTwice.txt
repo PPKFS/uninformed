@@ -1,0 +1,6 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'a room has a number called coolness index' {heading 0}
+        SENTENCE_NT'a room has a number called coolness index'
+        SENTENCE_NT'the coolness index property translates into i6 as "score"'
+        SENTENCE_NT'the coolness index property translates into i6 as "capacity"'

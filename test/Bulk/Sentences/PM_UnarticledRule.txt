@@ -1,0 +1,8 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'every turn when true is true ( this is a ridiculous rule )'
+        SENTENCE_NT'say "True."'
+        SENTENCE_NT'this is bonkers rule'
+        SENTENCE_NT'do nothing'

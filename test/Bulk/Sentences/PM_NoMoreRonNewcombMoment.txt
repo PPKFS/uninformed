@@ -1,0 +1,11 @@
+Read 57 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'here is a grail'
+        SENTENCE_NT'here is another thing , yet another thing , and a further th'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'repeat with x running through things'
+        SENTENCE_NT'if we have examined the grail for the fifth time'
+        SENTENCE_NT'say "Hello."'
+        SENTENCE_NT'test me with "x grail"'

@@ -1,0 +1,6 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'decrease the lighted of the ni school for typing by 1'

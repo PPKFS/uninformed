@@ -1,0 +1,9 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'include unicode character names by graham nelson' {heading 0}
+        SENTENCE_NT'include unicode character names by graham nelson'
+        SENTENCE_NT'the temple of eris is a room'
+        SENTENCE_NT'to admire ( u - a unicode-character )'
+        SENTENCE_NT'say "I admire [U]."'
+        SENTENCE_NT'to provoke dissent'
+        SENTENCE_NT'admire unicode greek capital letter lambda'

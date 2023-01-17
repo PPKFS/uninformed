@@ -1,0 +1,4 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'table of zoggle zoggle zoggle zoggle zoggle zoggle zoggle zo' {heading 0}
+        SENTENCE_NT'table of zoggle zoggle zoggle zoggle zoggle zoggle zoggle zo'

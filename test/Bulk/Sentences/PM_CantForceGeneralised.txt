@@ -1,0 +1,17 @@
+Read 63 words
+syntax-test: unexpected semicolon in sentence: now at most three people are in Stanford
+syntax-test: unexpected semicolon in sentence: now all things are edible
+syntax-test: unexpected semicolon in sentence: now almost all things are edible
+syntax-test: unexpected semicolon in sentence: now exactly one thing is edible
+syntax-test: unexpected semicolon in sentence: now 10 things are edible
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'25 things are in stanford'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now at most three people are in stanford'
+        SENTENCE_NT'now all things are edible'
+        SENTENCE_NT'now almost all things are edible'
+        SENTENCE_NT'now exactly one thing is edible'
+        SENTENCE_NT'now 10 things are edible'
+        SENTENCE_NT'now none of the things is edible'

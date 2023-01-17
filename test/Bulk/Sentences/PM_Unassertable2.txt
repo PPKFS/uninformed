@@ -1,0 +1,7 @@
+Read 59 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'contact relates a thing ( called x ) to a thing ( called y )'
+        SENTENCE_NT'the verb to be joined to implies the contact relation'
+        SENTENCE_NT'the hook is joined to the line'

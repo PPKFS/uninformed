@@ -1,0 +1,10 @@
+Read 49 words
+ROOT_NT
+    HEADING_NT'ledge by bridge is a room' {heading 0}
+        SENTENCE_NT'ledge by bridge is a room'
+        SENTENCE_NT'nirvana is a region'
+        SENTENCE_NT'the ball of string is in ledge'
+        SENTENCE_NT'instead of going from the ball of string'
+        SENTENCE_NT'say "Hey, watch you don't unwind!"'
+        SENTENCE_NT'instead of going nowhere from ledge by bridge'
+        SENTENCE_NT'say "Hey, watch where you're going!"'

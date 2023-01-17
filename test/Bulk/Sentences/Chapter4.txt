@@ -14,9 +14,9 @@ syntax-test: unexpected semicolon in sentence: now the signpost is very crooked
 ROOT_NT
     HEADING_NT'"Chapter 4: Miles Cross"' {heading 0}
         SENTENCE_NT'"Chapter 4: Miles Cross"'
-        HEADING_NT'chapter 4' {heading 1}
+        HEADING_NT'chapter 4' {heading 4}
             SENTENCE_NT'use command line echoing'
-            HEADING_NT'section 1 - new kinds' {heading 2}
+            HEADING_NT'section 1 - new kinds' {heading 5}
                 SENTENCE_NT'a crossroad and a dead end are kinds of room'
                 SENTENCE_NT'miles cross is a crossroad'
                 SENTENCE_NT'"No marker nor signpost nor hanged man identifies the place.'
@@ -42,7 +42,7 @@ ROOT_NT
                 SENTENCE_NT'it is carrying an openable container called the pack'
                 SENTENCE_NT'a milk-white mare is a horse in the barren valley'
                 SENTENCE_NT'a faerie is a kind of person with description "Skin dead, ey'
-            HEADING_NT'section 2 - degrees of certainty' {heading 2}
+            HEADING_NT'section 2 - degrees of certainty' {heading 5}
                 SENTENCE_NT'a crossroad is always lighted'
                 SENTENCE_NT'a dead end is usually dark'
                 SENTENCE_NT'the barren valley is lighted'
@@ -61,7 +61,7 @@ ROOT_NT
                 SENTENCE_NT'say "The moon casts a false light on the scene..."'
                 SENTENCE_NT'before looking in a dark room when the lit lantern is carrie'
                 SENTENCE_NT'say "The lantern lights up only your immediate surroundings.'
-            HEADING_NT'section 3 - plural assertions' {heading 2}
+            HEADING_NT'section 3 - plural assertions' {heading 5}
                 SENTENCE_NT'some menacing trees and some deep shadows are fixed in place'
                 SENTENCE_NT'some branches are part of the trees'
                 SENTENCE_NT'some trunks are part of the trees'
@@ -70,9 +70,9 @@ ROOT_NT
                 SENTENCE_NT'say "shifting shadows"'
                 SENTENCE_NT'the plural of hoof is hooves'
                 SENTENCE_NT'a hoof is a kind of thing'
-            HEADING_NT'section 4 - duplicates' {heading 2}
+            HEADING_NT'section 4 - duplicates' {heading 5}
                 SENTENCE_NT'three faeries are in the forest'
-            HEADING_NT'section 5 - assemblies and body parts' {heading 2}
+            HEADING_NT'section 5 - assemblies and body parts' {heading 5}
                 SENTENCE_NT'a saddle is a kind of vehicle'
                 SENTENCE_NT'a saddle is part of every horse'
                 SENTENCE_NT'a wreath is a kind of thing with description "A fragile crow'
@@ -82,14 +82,14 @@ ROOT_NT
                 SENTENCE_NT'two footprints are in every crossroads'
                 SENTENCE_NT'a footprint is usually fixed in place'
                 SENTENCE_NT'four hooves are part of every horse'
-            HEADING_NT'section 6 - new either/or properties' {heading 2}
+            HEADING_NT'section 6 - new either/or properties' {heading 5}
                 SENTENCE_NT'a thing is either illusory or genuine'
                 SENTENCE_NT'horses are always genuine'
                 SENTENCE_NT'people are usually illusory'
                 SENTENCE_NT'a faerie can be sly'
                 SENTENCE_NT'faeries are usually sly'
                 SENTENCE_NT'faeries are seldom not sly'
-            HEADING_NT'section 7 - new value properties' {heading 2}
+            HEADING_NT'section 7 - new value properties' {heading 5}
                 SENTENCE_NT'a horse has some text called coat'
                 SENTENCE_NT'the coat of a horse is usually "dun"'
                 SENTENCE_NT'the coat of the mare is "spectral"'
@@ -104,30 +104,30 @@ ROOT_NT
                 SENTENCE_NT'a horse has a height'
                 SENTENCE_NT'a horse is usually tall'
                 SENTENCE_NT'the pony is short'
-            HEADING_NT'section 8 - text with substitutions' {heading 2}
+            HEADING_NT'section 8 - text with substitutions' {heading 5}
                 SENTENCE_NT'instead of examining a horse'
                 SENTENCE_NT'say "[The noun] appears [height] and [coat][if the noun is s'
-            HEADING_NT'section 9 - text with numbers' {heading 2}
+            HEADING_NT'section 9 - text with numbers' {heading 5}
                 SENTENCE_NT'instead of waiting'
                 SENTENCE_NT'say "You've already expended [turn count in words] act[s]. H'
                 SENTENCE_NT'instead of waiting in a crossroads'
                 SENTENCE_NT'say "You feel [the danger count of location in words] breath'
-            HEADING_NT'section 10 - text with lists' {heading 2}
+            HEADING_NT'section 10 - text with lists' {heading 5}
                 SENTENCE_NT'instead of examining something which is not a horse when som'
                 SENTENCE_NT'say "You notice [a list of things which are part of the noun'
                 SENTENCE_NT'instead of going nowhere'
                 SENTENCE_NT'say "Nearby [is-are a list of adjacent rooms]."'
                 SENTENCE_NT'before examining the pony'
                 SENTENCE_NT'say "You first notice [the list of things carried by pony], '
-            HEADING_NT'section 11 - text with variations' {heading 2}
+            HEADING_NT'section 11 - text with variations' {heading 5}
                 SENTENCE_NT'the printed name of the barren valley is "[if unvisited]Vall'
                 SENTENCE_NT'the description of the barren valley is "[if unvisited]A gre'
-            HEADING_NT'section 12 - text with type styles' {heading 2}
+            HEADING_NT'section 12 - text with type styles' {heading 5}
                 SENTENCE_NT'instead of attacking the trees'
                 SENTENCE_NT'say "[bold type]Snap[roman type] goes the branch, tweaking a'
                 SENTENCE_NT'instead of climbing or listening to the trees'
                 SENTENCE_NT'say "'[fixed letter spacing]NO[variable letter spacing],' sa'
-            HEADING_NT'section 13 - kinds of value' {heading 2}
+            HEADING_NT'section 13 - kinds of value' {heading 5}
                 SENTENCE_NT'destination is a kind of value'
                 SENTENCE_NT'the destinations are london , abingdon , luton , weston-supe'
                 SENTENCE_NT'the signpost has a destination'
@@ -144,9 +144,9 @@ ROOT_NT
                 SENTENCE_NT'instead of going north in seven dials when the ultimate goal'
                 SENTENCE_NT'say "A long road whose scenery does not change, nor anything'
                 SENTENCE_NT'end the story saying "You have won"'
-            HEADING_NT'section 14 - using new kinds of value in properties' {heading 2}
+            HEADING_NT'section 14 - using new kinds of value in properties' {heading 5}
                 SENTENCE_NT'the signpost has destination runnymede'
-            HEADING_NT'section 15 - conditions of things' {heading 2}
+            HEADING_NT'section 15 - conditions of things' {heading 5}
                 SENTENCE_NT'the signpost is either slightly crooked , very crooked , or '
                 SENTENCE_NT'the printed name of the signpost is "[signpost condition] si'
                 SENTENCE_NT'instead of pushing the very crooked signpost'
@@ -160,12 +160,12 @@ ROOT_NT
                 SENTENCE_NT'say "You give a shove to the signpost, now [signpost conditi'
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'if the signpost is visible , say "The signpost is still [sig'
-            HEADING_NT'section 16 - values that vary' {heading 2}
+            HEADING_NT'section 16 - values that vary' {heading 5}
                 SENTENCE_NT'our dearest friend is a person that varies'
                 SENTENCE_NT'the ultimate goal is a destination which varies'
                 SENTENCE_NT'the number of our foes is a number variable'
                 SENTENCE_NT'the number of our foes is 33'
-            HEADING_NT'section 17 - bibliographic data' {heading 2}
+            HEADING_NT'section 17 - bibliographic data' {heading 5}
                 SENTENCE_NT'the release number is 12'
                 SENTENCE_NT'the story author is "Emily V. Short"'
                 SENTENCE_NT'the story genre is "An Interactive Test"'

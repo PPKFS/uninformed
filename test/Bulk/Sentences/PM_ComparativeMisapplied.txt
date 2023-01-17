@@ -1,0 +1,18 @@
+Read 102 words
+syntax-test: unexpected semicolon in sentence: if the player is heavier than 70kg, say "Heavens to Betsy!"
+ROOT_NT
+    HEADING_NT'the typographium is a room' {heading 0}
+        SENTENCE_NT'the typographium is a room'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'100kg specifies a weight'
+        SENTENCE_NT'a thing has a weight'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is heavy if its weight is 50kg or more'
+        SENTENCE_NT'height is a kind of value'
+        SENTENCE_NT'100cm specifies a height'
+        SENTENCE_NT'a thing has a height'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is tall if its height is 120cm or more'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the player is heavier than 70kg , say "Heavens to Betsy!"'
+        SENTENCE_NT'if the player is heavier than 70cm , say "Heavens to Betsy!"'

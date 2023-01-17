@@ -1,0 +1,5 @@
+Read 13 words
+ROOT_NT
+    HEADING_NT'"Another Problematic One"' {heading 0}
+        SENTENCE_NT'"Another Problematic One"'
+        SENTENCE_NT'"The Palace is open" the palace is a room'

@@ -1,0 +1,14 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'the paranormal is here'
+        SENTENCE_NT'horatio is here'
+        SENTENCE_NT'spoken rapidly is a performance style'
+        SENTENCE_NT'spoken after somebody else is a performance style'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about the paranormal . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about the paranormal'
+            DIALOGUE_LINE_NT'horatio : "'Tis but our fantasy."' {level 0}
+                DIALOGUE_SPEAKER_NT'horatio'
+                DIALOGUE_SPEECH_NT'"'Tis but our fantasy."'

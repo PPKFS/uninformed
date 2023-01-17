@@ -1,0 +1,4 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'the badger is a text' {heading 0}
+        SENTENCE_NT'the badger is a text'

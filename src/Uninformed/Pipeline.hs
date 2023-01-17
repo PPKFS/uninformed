@@ -1,4 +1,6 @@
 module Uninformed.Pipeline where
+
+import Uninformed.Prelude
 import Error.Diagnose
 import Uninformed.Words.TextFromFiles
 import Uninformed.Words.Lexer
@@ -9,6 +11,7 @@ import Uninformed.Words.Lexer.Types
 import Uninformed.Syntax.Sentences.Break
 import Uninformed.Syntax.Sentences.Arrange
 
+data Source = Source (Maybe Text) Text Bool
 data Stage =
   LexingStage
   | SentenceBreakingStage
@@ -17,18 +20,18 @@ data Stage =
 class HasPipeline (s :: Stage) where
   type PipelineOutput s
   type PipelineInput s
-  runPipeline :: Proxy s -> Text -> Either (Diagnostic Text) (PipelineOutput s)
+  runPipeline :: Proxy s -> Source -> Either (Diagnostic Text) (PipelineOutput s)
   runPipelineStage :: Proxy s -> PipelineInput s -> Either (Diagnostic Text) (PipelineOutput s)
 
 instance HasPipeline 'LexingStage where
-  type PipelineInput 'LexingStage = Text
-  type PipelineOutput 'LexingStage = (SourceFile [InformWord], VocabMap)
-  runPipeline _ sf = lex (LexerInput False Nothing sf)
+  type PipelineInput 'LexingStage = Source
+  type PipelineOutput 'LexingStage = (SourceFile [Word], VocabMap)
+  runPipeline _ (Source mbName sf splitQuotes) = lex (LexerInput splitQuotes mbName sf)
   runPipelineStage = runPipeline
 
 instance HasPipeline 'SentenceBreakingStage where
   type PipelineOutput 'SentenceBreakingStage = [Sentence]
-  type PipelineInput 'SentenceBreakingStage = SourceFile [InformWord]
+  type PipelineInput 'SentenceBreakingStage = SourceFile [Word]
   runPipeline _ sf = do
     (sf', _) <- runPipelineStage (Proxy @'LexingStage) sf
     runPipelineStage (Proxy @'SentenceBreakingStage) sf'
@@ -37,7 +40,7 @@ instance HasPipeline 'SentenceBreakingStage where
 
 instance HasPipeline 'SyntaxTreeArrangingStage where
   type PipelineOutput 'SyntaxTreeArrangingStage = SyntaxTree ()
-  type PipelineInput 'SyntaxTreeArrangingStage = (SourceFile [InformWord], [Sentence])
+  type PipelineInput 'SyntaxTreeArrangingStage = (SourceFile [Word], [Sentence])
   runPipeline _ sf = do
     (sf', _) <- runPipelineStage (Proxy @'LexingStage) sf
     s <- runPipelineStage (Proxy @'SentenceBreakingStage) sf'

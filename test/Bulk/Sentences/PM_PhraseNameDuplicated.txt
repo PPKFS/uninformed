@@ -1,0 +1,8 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to decide which number is ( n - a number ) doubled ( this is'
+        SENTENCE_NT'decide on two times n'
+        SENTENCE_NT'to decide which indexed text is ( t - indexed text ) doubled'
+        SENTENCE_NT'decide on "[T][T]"'

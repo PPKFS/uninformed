@@ -19,11 +19,13 @@ module Uninformed.Words.Vocabulary
   , pattern Semicolon
   ) where
 
+import Uninformed.Prelude
 import qualified Data.HashMap.Strict as HM
 import Data.Hashable ( Hashable(..) )
 import qualified Data.Set as Set
 import qualified Data.Text as T
 import Numeric.Optics (decimal)
+import Data.Aeson
 
 data VocabFlag = VocabFlag deriving stock (Eq, Show)
 
@@ -63,7 +65,9 @@ data VocabType =
   | StringLit Text
   | OrdinaryWord Text
   | StringSub Text
-  | ParagraphBreak deriving stock (Eq, Show, Read, Ord, Generic)
+  | ParagraphBreak
+  deriving stock (Eq, Show, Read, Ord, Generic)
+  deriving anyclass (ToJSON, FromJSON)
 
 instance Hashable VocabType
 

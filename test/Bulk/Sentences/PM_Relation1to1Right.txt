@@ -1,0 +1,8 @@
+Read 44 words
+ROOT_NT
+    HEADING_NT'pairing relates one person to one person' {heading 0}
+        SENTENCE_NT'pairing relates one person to one person'
+        SENTENCE_NT'the verb to like ( he likes , they like ) implies the pairin'
+        SENTENCE_NT'the taj mahal is a room'
+        SENTENCE_NT'aman likes indira'
+        SENTENCE_NT'aman likes geetha'

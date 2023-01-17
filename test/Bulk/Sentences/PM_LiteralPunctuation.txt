@@ -1,0 +1,10 @@
+Read 65 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'understand "note: [text]" as a mistake ( "Noted." )'
+        SENTENCE_NT'understand "note? [text]" as a mistake ( "Noted." )'
+        SENTENCE_NT'understand "note! [text]" as a mistake ( "Noted." )'
+        SENTENCE_NT'understand "note, [text]" as a mistake ( "Noted." )'
+        SENTENCE_NT'understand "note. [text]" as a mistake ( "Noted." )'
+        SENTENCE_NT'test me with "note: this is a note / note : this is another '

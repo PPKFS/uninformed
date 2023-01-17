@@ -1,0 +1,22 @@
+Read 154 words
+syntax-test: unexpected semicolon in sentence: if the size of X is greater than the size of Y, decide yes
+syntax-test: unexpected semicolon in sentence: if a container (called B) carried by the player is larger than the noun begin
+syntax-test: unexpected semicolon in sentence: try dropping B
+ROOT_NT
+    HEADING_NT'a block is a kind of thing' {heading 0}
+        SENTENCE_NT'a block is a kind of thing'
+        SENTENCE_NT'a block has a number called size'
+        SENTENCE_NT'after taking a block'
+        SENTENCE_NT'say "You take [the noun]." instead'
+        SENTENCE_NT'to decide if ( x - a lit block ) is larger than ( y - a bloc'
+        SENTENCE_NT'if the size of x is greater than the size of y , decide yes'
+        SENTENCE_NT'decide no'
+        SENTENCE_NT'before taking a block'
+        SENTENCE_NT'if a container ( called b ) carried by the player is larger '
+        SENTENCE_NT'try dropping b'
+        SENTENCE_NT'end if'
+        SENTENCE_NT'the example is a room'
+        SENTENCE_NT'the green block , the red block , and the blue block are blo'
+        SENTENCE_NT'the size of the red block is 50'
+        SENTENCE_NT'the size of the blue block is 40'
+        SENTENCE_NT'the size of the green block is 30'

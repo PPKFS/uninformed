@@ -1,0 +1,9 @@
+Read 49 words
+ROOT_NT
+    HEADING_NT'escheresque is a room' {heading 0}
+        SENTENCE_NT'escheresque is a room'
+        SENTENCE_NT'oa and ob are things'
+        SENTENCE_NT'a red thing is part of oa'
+        SENTENCE_NT'a blue thing is part of ob'
+        SENTENCE_NT'oa is part of the red thing'
+        SENTENCE_NT'ob is part of the blue thing'

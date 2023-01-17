@@ -1,0 +1,8 @@
+Read 43 words
+syntax-test: unexpected semicolon in sentence: if the player is in the School and arfle barfle gloop, say "Hi."
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the player is in the school and arfle barfle gloop , say '
+        SENTENCE_NT'if the player is male and female , say "Hi."'

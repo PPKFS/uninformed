@@ -1,0 +1,8 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'the car is a vehicle'
+        SENTENCE_NT'laboratory can be red , blue or green'
+        SENTENCE_NT'depot is adjacent'
+        SENTENCE_NT'laboratory is not green'

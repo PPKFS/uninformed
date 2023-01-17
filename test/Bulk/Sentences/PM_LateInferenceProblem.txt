@@ -1,0 +1,8 @@
+Read 41 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a person has a room called the home'
+        SENTENCE_NT'the home of yourself is house'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme whether or not the home of yourself is a room'

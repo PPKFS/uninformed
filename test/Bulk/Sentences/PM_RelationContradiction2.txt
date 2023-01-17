@@ -1,0 +1,12 @@
+Read 61 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'a color is a kind of value'
+        SENTENCE_NT'red is a color'
+        SENTENCE_NT'liking relates one thing to various colors'
+        SENTENCE_NT'the verb to like means the liking relation'
+        SENTENCE_NT'jack is a man'
+        SENTENCE_NT'jill is a woman'
+        SENTENCE_NT'a woman likes every color'
+        SENTENCE_NT'every man likes a color'

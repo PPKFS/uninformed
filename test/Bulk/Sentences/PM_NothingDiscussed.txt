@@ -1,0 +1,4 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'the carrying capacity is 10' {heading 0}
+        SENTENCE_NT'the carrying capacity is 10'

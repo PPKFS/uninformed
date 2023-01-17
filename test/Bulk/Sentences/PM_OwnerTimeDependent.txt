@@ -1,0 +1,8 @@
+Read 51 words
+ROOT_NT
+    HEADING_NT'the temple is a room' {heading 0}
+        SENTENCE_NT'the temple is a room'
+        SENTENCE_NT'a person that is not an animal can be talkative'
+        SENTENCE_NT'a person that is an animal can be tamed'
+        SENTENCE_NT'a room that is not dark can be semi-dark'
+        SENTENCE_NT'a room that is dark can be dangerous'

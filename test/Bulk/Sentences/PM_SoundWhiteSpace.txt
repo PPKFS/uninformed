@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'sound null is the file ""'
+        SENTENCE_NT'sound nearly null is the file " "'

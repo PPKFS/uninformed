@@ -1,0 +1,7 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'the assembly point is a room' {heading 0}
+        SENTENCE_NT'the assembly point is a room'
+        SENTENCE_NT'fred and jim are men in the assembly point'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let n be the total transparent of the men'

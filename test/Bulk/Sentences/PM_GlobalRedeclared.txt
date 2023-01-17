@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'the tally is a number that varies' {heading 0}
+        SENTENCE_NT'the tally is a number that varies'
+        SENTENCE_NT'the tally is a text that varies'

@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        HEADING_NT'book 1 - meeting ( dialogue )' {heading 2}
+            HEADING_NT'section 1 - actual meeting ( dialogue )' {heading 5}

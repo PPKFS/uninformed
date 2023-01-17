@@ -33,7 +33,7 @@ syntax-test: unexpected semicolon in sentence: now the can of root beer is nowhe
 ROOT_NT
     HEADING_NT'"Chapter 7: Dutch Harbor" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 7: Dutch Harbor" by emily short'
-        HEADING_NT'chapter 7 - actions' {heading 1}
+        HEADING_NT'chapter 7 - actions' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'singing is an action applying to nothing'
             SENTENCE_NT'understand "sing" as singing'
@@ -128,18 +128,18 @@ ROOT_NT
             SENTENCE_NT'the description is "USGS topographical maps of the local are'
             SENTENCE_NT'unalaska is a region'
             SENTENCE_NT'the library , the unalaskan clinic , the russian orthodox ch'
-            HEADING_NT'section 1 - giving instructions' {heading 2}
+            HEADING_NT'section 1 - giving instructions' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'say "Congratulations, you've arrived at Dutch Harbor! So far'
-            HEADING_NT'section 2 - say' {heading 2}
+            HEADING_NT'section 2 - say' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'say "Now it's time to collect three stamps before going home'
-            HEADING_NT'section 4 - instead rules' {heading 2}
+            HEADING_NT'section 4 - instead rules' {heading 5}
                 SENTENCE_NT'instead of taking the boots , say "None of these boots belon'
                 SENTENCE_NT'instead of smelling the boots'
                 SENTENCE_NT'say "You have some sense of self-preservation."'
                 SENTENCE_NT'instead of taking the hiking maps , say "You didn't come equ'
-            HEADING_NT'section 5 - before rules' {heading 2}
+            HEADING_NT'section 5 - before rules' {heading 5}
                 SENTENCE_NT'before wearing the boots'
                 SENTENCE_NT'say "You are not yet Alaskan enough." instead'
                 SENTENCE_NT'instead of switching on the switched off television'
@@ -147,7 +147,7 @@ ROOT_NT
                 SENTENCE_NT'continue the action'
                 SENTENCE_NT'before examining the sign'
                 SENTENCE_NT'say "You have the prickly sense of being watched..."'
-            HEADING_NT'section 6 - try and try silently' {heading 2}
+            HEADING_NT'section 6 - try and try silently' {heading 5}
                 SENTENCE_NT'before drinking something when the noun is not carried by th'
                 SENTENCE_NT'try silently taking the noun'
                 SENTENCE_NT'instead of drinking something which is not carried by the pl'
@@ -158,13 +158,13 @@ ROOT_NT
                 SENTENCE_NT'before exiting when the player is in the closed pickup truck'
                 SENTENCE_NT'say "(first opening the door)[line break]"'
                 SENTENCE_NT'try opening the truck'
-            HEADING_NT'section 7 - after rules' {heading 2}
+            HEADING_NT'section 7 - after rules' {heading 5}
                 SENTENCE_NT'after switching off the television'
                 SENTENCE_NT'say "Ah, blessed silence."'
                 SENTENCE_NT'after touching the pyramid'
                 SENTENCE_NT'say "The bottles wobble menacingly..."'
                 SENTENCE_NT'continue the action'
-            HEADING_NT'section 8 - giving instructions to other people' {heading 2}
+            HEADING_NT'section 8 - giving instructions to other people' {heading 5}
                 SENTENCE_NT'jim is a man in the lounge'
                 SENTENCE_NT'"Jim is relaxing in a corner."'
                 SENTENCE_NT'instead of asking jim to try doing something , say "Jim grin'
@@ -197,7 +197,7 @@ ROOT_NT
                 SENTENCE_NT'jack is a man in the elbow room'
                 SENTENCE_NT'wallace is a man in the elbow room'
                 SENTENCE_NT'"Wallace here looks a little put out."'
-            HEADING_NT'section 9 - reading and talking' {heading 2}
+            HEADING_NT'section 9 - reading and talking' {heading 5}
                 SENTENCE_NT'in the library is a book by peter mayle'
                 SENTENCE_NT'the description of the book is "Clearly much-read descriptio'
                 SENTENCE_NT'after consulting the book by peter mayle about "Provence"'
@@ -213,7 +213,7 @@ ROOT_NT
                 SENTENCE_NT'instead of telling jim about something , try asking jim abou'
                 SENTENCE_NT'instead of asking jim about something'
                 SENTENCE_NT'say "'Yup, I know all about that,' Jim agrees."'
-            HEADING_NT'section 10 - the other four senses' {heading 2}
+            HEADING_NT'section 10 - the other four senses' {heading 5}
                 SENTENCE_NT'instead of listening to the narrow spit'
                 SENTENCE_NT'say "It sounds like wind."'
                 SENTENCE_NT'instead of listening to in the airport'
@@ -222,7 +222,7 @@ ROOT_NT
                 SENTENCE_NT'say "There is a faint but distinct smell of fishiness."'
                 SENTENCE_NT'instead of smelling in the fish packing plant'
                 SENTENCE_NT'say "There is an overwhelming aroma of fish."'
-            HEADING_NT'section 11 - rules applying to more than one action' {heading 2}
+            HEADING_NT'section 11 - rules applying to more than one action' {heading 5}
                 SENTENCE_NT'instead of pushing or pulling or turning the pyramid'
                 SENTENCE_NT'say "You are loath to knock them over, since you'll never ge'
                 SENTENCE_NT'instead of examining , looking under , or searching the bed'
@@ -234,19 +234,19 @@ ROOT_NT
                 SENTENCE_NT'the seat is a chair in the bedroom'
                 SENTENCE_NT'instead of looking under or searching a chair'
                 SENTENCE_NT'say "Very clean."'
-            HEADING_NT'section 12 - all actions and exceptional actions' {heading 2}
+            HEADING_NT'section 12 - all actions and exceptional actions' {heading 5}
                 SENTENCE_NT'instead of doing something other than examining to wallace'
                 SENTENCE_NT'say "'You have a problem?' Wallace demands."'
                 SENTENCE_NT'instead of doing something except examining to the bar in th'
                 SENTENCE_NT'say "'The bar is mine,' says Wallace."'
                 SENTENCE_NT'instead of doing something other than examining with the ind'
                 SENTENCE_NT'say "You'd probably get tetanus."'
-            HEADING_NT'section 13 - the noun and the second noun , and the person a' {heading 2}
+            HEADING_NT'section 13 - the noun and the second noun , and the person a' {heading 5}
                 SENTENCE_NT'instead of pushing a chair'
                 SENTENCE_NT'say "[The noun] is fine where it is."'
                 SENTENCE_NT'instead of asking someone to try jumping'
                 SENTENCE_NT'say "[The person asked] is disinclined to acquiesce to your '
-            HEADING_NT'section 14 - in rooms and regions' {heading 2}
+            HEADING_NT'section 14 - in rooms and regions' {heading 5}
                 SENTENCE_NT'definition'
                 SENTENCE_NT'a room is crowded if it contains at least three people'
                 SENTENCE_NT'before going down in the narrow spit , say "It's a short slo'
@@ -256,10 +256,10 @@ ROOT_NT
                 SENTENCE_NT'say "There's some light conversation going on, but it would '
                 SENTENCE_NT'instead of singing in dutch harbor'
                 SENTENCE_NT'say "The strong breeze fills your lungs and carries your son'
-            HEADING_NT'section 15 - in the presence of , and when' {heading 2}
+            HEADING_NT'section 15 - in the presence of , and when' {heading 5}
                 SENTENCE_NT'instead of eating something in the presence of wallace'
                 SENTENCE_NT'say "Wallace stares at [the noun] fixedly, and this makes yo'
-            HEADING_NT'section 16 - going from , going to' {heading 2}
+            HEADING_NT'section 16 - going from , going to' {heading 5}
                 SENTENCE_NT'before going from the elbow room when the shot glass is on t'
                 SENTENCE_NT'say "'Hey,' says someone behind you. 'Come back! This Duck F'
                 SENTENCE_NT'instead of going nowhere from the elbow room'
@@ -272,7 +272,7 @@ ROOT_NT
                 SENTENCE_NT'say "There's nothing interesting that way."'
                 SENTENCE_NT'before going to a room which contains an edible thing'
                 SENTENCE_NT'say "You can smell something to eat as you go in..."'
-            HEADING_NT'section 17 - going by , going through , going with' {heading 2}
+            HEADING_NT'section 17 - going by , going through , going with' {heading 5}
                 SENTENCE_NT'before going by pickup truck'
                 SENTENCE_NT'say "The truck coughs ominously a few times..."'
                 SENTENCE_NT'after going by pickup truck'
@@ -303,7 +303,7 @@ ROOT_NT
                 SENTENCE_NT'after going to the elbow room with the wheelbarrow'
                 SENTENCE_NT'say "There is much hooting approval of your arriving with th'
                 SENTENCE_NT'continue the action'
-            HEADING_NT'section 18 - kinds of action' {heading 2}
+            HEADING_NT'section 18 - kinds of action' {heading 5}
                 SENTENCE_NT'attacking someone is provocative behavior'
                 SENTENCE_NT'kissing someone is provocative behavior'
                 SENTENCE_NT'instead of provocative behavior'
@@ -312,7 +312,7 @@ ROOT_NT
                 SENTENCE_NT'say "Don't push your luck."'
                 SENTENCE_NT'instead of provocative behavior in the elbow room'
                 SENTENCE_NT'say "This is certainly the right venue for doing stupid thin'
-            HEADING_NT'section 19 - repeated actions' {heading 2}
+            HEADING_NT'section 19 - repeated actions' {heading 5}
                 SENTENCE_NT'instead of provocative behavior in the elbow room for the se'
                 SENTENCE_NT'say "Still not a good idea."'
                 SENTENCE_NT'instead of provocative behavior in the elbow room for the th'
@@ -340,15 +340,15 @@ ROOT_NT
                 SENTENCE_NT'say "That continues not to seem wise."'
                 SENTENCE_NT'before going to the elbow room with the wheelbarrow more tha'
                 SENTENCE_NT'say "The patrons are bored with your wheelbarrow stunt now. '
-            HEADING_NT'section 20 - actions on consecutive turns' {heading 2}
+            HEADING_NT'section 20 - actions on consecutive turns' {heading 5}
                 SENTENCE_NT'instead of waiting in the elbow room for four to six turns'
                 SENTENCE_NT'say "The place is beginning to strike you as a little dull."'
                 SENTENCE_NT'instead of waiting in the elbow room when the pull-tabs are '
                 SENTENCE_NT'say "You're almost starting to wonder about those pull-tabs.'
-            HEADING_NT'section 21 - new actions' {heading 2}
+            HEADING_NT'section 21 - new actions' {heading 5}
                 SENTENCE_NT'understand "hide" as hiding'
                 SENTENCE_NT'hiding is an action applying to nothing'
-            HEADING_NT'section 22 - irregular english verbs' {heading 2}
+            HEADING_NT'section 22 - irregular english verbs' {heading 5}
                 SENTENCE_NT'understand "shake [something preferably held]" as shaking'
                 SENTENCE_NT'shaking is an action with past participle shaken , applying '
                 SENTENCE_NT'carry out shaking'
@@ -361,7 +361,7 @@ ROOT_NT
                 SENTENCE_NT'say "[The list of things contained by the noun] might fly ou'
                 SENTENCE_NT'the backpack is a player's holdall'
                 SENTENCE_NT'it is carried by the player'
-            HEADING_NT'section 23 - check , carry out , report' {heading 2}
+            HEADING_NT'section 23 - check , carry out , report' {heading 5}
                 SENTENCE_NT'check hiding'
                 SENTENCE_NT'if a person ( called the witness ) who is not the player is '
                 SENTENCE_NT'carry out hiding'
@@ -406,7 +406,7 @@ ROOT_NT
                 SENTENCE_NT'say "You hack away at [the noun] with the knife."'
                 SENTENCE_NT'carry out cutting the knife'
                 SENTENCE_NT'say "You can't use the knife on itself." instead'
-            HEADING_NT'section 24 - advanced action patterns ( based on index , not' {heading 2}
+            HEADING_NT'section 24 - advanced action patterns ( based on index , not' {heading 5}
                 SENTENCE_NT'instead of singing in the elbow room in the presence of wall'
                 SENTENCE_NT'move wallace to the family restaurant'
                 SENTENCE_NT'say "'Could we have some quiet!' says Wallace. And he storms'
@@ -447,7 +447,7 @@ ROOT_NT
                 SENTENCE_NT'instead of opening the calm can of root beer when the can ha'
                 SENTENCE_NT'now the can of root beer is nowhere'
                 SENTENCE_NT'say "The root beer is disappointingly flat. That's what you '
-            HEADING_NT'section 25 - advanced going patterns ( based on index , not ' {heading 2}
+            HEADING_NT'section 25 - advanced going patterns ( based on index , not ' {heading 5}
                 SENTENCE_NT'before going nowhere from the airport by truck'
                 SENTENCE_NT'say "Crashing into the fence would probably bring you undesi'
                 SENTENCE_NT'before going somewhere by truck with something ( called the '

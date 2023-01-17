@@ -1,0 +1,8 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'the hall is a room' {heading 0}
+        SENTENCE_NT'the hall is a room'
+        SENTENCE_NT'the emerald is in the hall'
+        SENTENCE_NT'table of point values item score emerald 10'
+        SENTENCE_NT'report taking an item listed in the table of point values fo'
+        SENTENCE_NT'say "Hello"'

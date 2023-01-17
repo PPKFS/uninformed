@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'the taj mahal is a room' {heading 0}
+        SENTENCE_NT'the taj mahal is a room'
+        SENTENCE_NT'on the table is a flower'
+        SENTENCE_NT'in the table is a petal'

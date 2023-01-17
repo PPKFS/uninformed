@@ -1,0 +1,6 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'east of eden is a region' {heading 0}
+        SENTENCE_NT'east of eden is a region'
+        SENTENCE_NT'on the prairie is a region'
+        SENTENCE_NT'small room is a room in east of eden'

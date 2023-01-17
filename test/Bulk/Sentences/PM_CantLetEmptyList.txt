@@ -1,0 +1,7 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'the typewriter is in the school'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let y be { }'

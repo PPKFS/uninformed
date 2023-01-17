@@ -1,0 +1,7 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'the forge is a room' {heading 0}
+        SENTENCE_NT'the forge is a room'
+        SENTENCE_NT'to exceed reasonable limits'
+        SENTENCE_NT'(-   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        		AAAAAAAAAAAAA'

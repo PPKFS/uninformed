@@ -1,0 +1,5 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'every turn has a number called trevor'

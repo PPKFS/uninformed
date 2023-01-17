@@ -1,0 +1,8 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'color is a kind of value'
+        SENTENCE_NT'the colors are red , white , and blue'
+        SENTENCE_NT'the chosen color is a color variable'
+        SENTENCE_NT'the chosen color is red ,'

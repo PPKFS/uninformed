@@ -1,0 +1,4 @@
+Read 14 words
+ROOT_NT
+    HEADING_NT'if the box is open then award 4 points' {heading 0}
+        SENTENCE_NT'if the box is open then award 4 points'

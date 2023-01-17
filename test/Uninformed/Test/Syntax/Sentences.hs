@@ -2,6 +2,8 @@ module Uninformed.Test.Syntax.Sentences
   ( parseExemplar
   , compareSentenceInfo
   ) where
+
+import Uninformed.Prelude
 import Uninformed.Words.Lexer
 import Test.Tasty.HUnit
     ( (@=?), assertFailure, Assertion )

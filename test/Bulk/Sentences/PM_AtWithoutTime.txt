@@ -1,0 +1,6 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'at all events'
+        SENTENCE_NT'say "Don't go out."'

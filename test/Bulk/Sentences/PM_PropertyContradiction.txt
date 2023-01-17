@@ -1,0 +1,7 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'the box is scenery in the dome'
+        SENTENCE_NT'the box has description "The box."'
+        SENTENCE_NT'the box has description "A hat box."'

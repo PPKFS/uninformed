@@ -1,0 +1,6 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'in a room called test room is a wearable thing called a hat' {heading 0}
+        SENTENCE_NT'in a room called test room is a wearable thing called a hat'
+        SENTENCE_NT'after taking off'
+        SENTENCE_NT'if something ( called x ) was worn , say "hi"'

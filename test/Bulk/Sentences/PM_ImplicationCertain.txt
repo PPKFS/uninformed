@@ -1,0 +1,7 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'a thing can be either blue or orange'
+        SENTENCE_NT'a thing can be either gold or yellow'
+        SENTENCE_NT'a gold thing is always blue'

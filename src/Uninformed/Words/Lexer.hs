@@ -5,13 +5,12 @@
 module Uninformed.Words.Lexer
   ( SourceLocation(..)
   , Whitespace(..)
-  , InformWord(..)
   , lex
   , displayWord
   , blankWord
   ) where
 
-import Prelude hiding ( gets, get, modify, state )
+import Uninformed.Prelude hiding ( gets, get, modify, state )
 import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
 import Data.Set (member)
 
@@ -26,6 +25,7 @@ import Optics.State.Operators ((.=))
 import Optics.State (use)
 import Error.Diagnose
 import Error.Diagnose.Compat.Megaparsec
+import qualified Data.Set as Set
 
 data LexerState = LexerState
   { previousWhitespace :: Whitespace
@@ -64,7 +64,7 @@ space = satisfy isSpace
 type StructuredError = Diagnostic Text
 type PipelineStage i o = i -> Either StructuredError o
 
-lex :: PipelineStage LexerInput (SourceFile [InformWord], VocabMap)
+lex :: PipelineStage LexerInput (SourceFile [Word], VocabMap)
 lex LexerInput{..} =
   bimap (makeError sfn updatedInput) listToSourceFile $
     parse (evalStateT lexer defaultLexerState) (toString sfn) updatedInput
@@ -72,7 +72,7 @@ lex LexerInput{..} =
     sfn = fromMaybe "<interactive>" sourceFilename
     updatedInput = "\n" <> textStream  <> " \n\n\n\n "
     ps = StandardPunctuation
-    lexer :: StateT LexerState (Parsec Void Text) [InformWord]
+    lexer :: StateT LexerState (Parsec Void Text) [Word]
     lexer = do
       -- this is more of an inform quirk than anything..because it starts the lexer with a default of
       -- newline as the last seen space, then reading a single newline at the start of a file makes a paragraph break.
@@ -104,7 +104,7 @@ makeError ::
   -> ParseErrorBundle Text Void
   -> StructuredError
 makeError filename content bundle =
-  let diag  = errorDiagnosticFromBundle Nothing "Parse error on input" Nothing bundle
+  let diag  = errorDiagnosticFromBundle Nothing "Error during lexical analysis" Nothing bundle
            --   Creates a new diagnostic with no default hints from the bundle returned by megaparsec
       diag' = addFile diag (toString filename) (toString content)
                  --   Add the file used when parsing with the same filename given to 'MP.runParser'
@@ -113,21 +113,21 @@ makeError filename content bundle =
 initialNewlines ::
   Parser m
   => PunctuationSet
-  -> m [InformWord]
+  -> m [Word]
 initialNewlines ps = do
   mbPbreaks <- makeParagraphBreaks <$$> ((Nothing <$ optional (admireWhitespace ps)) <|> optional (try pbreak))
   pure $ fromMaybe [] mbPbreaks
 
 makeParagraphBreaks ::
   (Whitespace, Int, SourceLocation)
-  -> [InformWord]
-makeParagraphBreaks (w, n, srcLoc) = replicate n (InformWord srcLoc ParagraphBreak w)
+  -> [Word]
+makeParagraphBreaks (w, n, srcLoc) = replicate n (Word srcLoc ParagraphBreak w)
 
 parseWord ::
   Parser m
   => Bool
   -> PunctuationSet
-  -> m [InformWord]
+  -> m [Word]
 parseWord spl ps = choice
   [ [] <$ comment
   , makeParagraphBreaks <$> pbreak
@@ -156,7 +156,7 @@ pbreak ::
   => m (Whitespace, Int, SourceLocation)
 pbreak = do
   ps <- use #previousWhitespace
-  (s, i) <- annotateToken (do
+  (s, (i, n)) <- annotateToken (do
     try (takeWhileP Nothing isHspace >>
       satisfy isNewline)
     n <- try $ someTill (do
@@ -164,8 +164,12 @@ pbreak = do
       satisfy isNewline
       takeWhileP Nothing isHspace
       ) (lookAhead $ eof <|> void nonWhitespace)
-    pure $ length n)
-  #previousWhitespace .= Space
+    pure $ (length n, toString $ mconcat n))
+  -- if we ended on a bunch of tabs, we need to check indentation
+  -- for the dialogue beats.
+  #previousWhitespace .= (case longestSpan (=='\t') n of
+    0 -> Space
+    x -> TabIndent x)
   pure (ps, i, s)
 
 longestSpan :: (a -> Bool) -> [a] -> Int
@@ -180,7 +184,7 @@ findMostSignificantWhitespace (run, mbNewline) = case longestSpan (=='\t') run o
 ordinaryWord ::
   Parser m
   => PunctuationSet
-  -> m InformWord
+  -> m Word
 ordinaryWord ps = do
   pw <- use #previousWhitespace
   (srcL, w) <- annotateToken $ do
@@ -193,7 +197,7 @@ ordinaryWord ps = do
       (#forceBreak .= False >> #previousWhitespace .= Space)
       (admireWhitespace ps >>= (#previousWhitespace .=))
     return $ OrdinaryWord w
-  pure (InformWord srcL w pw)
+  pure (Word srcL w pw)
 
 punctuationThenLetter ::
   Parser m
@@ -255,13 +259,15 @@ surroundedPunctuation ps = try $ do
 
 i6Inclusion ::
   Parser m
-  => m InformWord
+  => m Word
 i6Inclusion = do
   (srcL, w) <- annotateToken $ do
+    o <- getOffset
     string' "(-"
-    I6 . toText <$> manyTill anySingle (string' "-)")
+    betterSurround o "-)" "Inform6 inclusion" $ do
+      I6 . toText <$> manyTill anySingle (string' "-)")
   #previousWhitespace .= Space
-  pure (InformWord srcL w Space)
+  pure (Word srcL w Space)
 
 stringLiteralInternal ::
   Parser m
@@ -277,28 +283,47 @@ stringLiteralInternal = do
 stringLit ::
   Parser m
   => Bool
-  -> m [InformWord]
+  -> m [Word]
 stringLit spl = do
   pw <- use #previousWhitespace
   ls <- annotateToken $ do
-    single '"' <?> "ass"
-    manyTill (
-      if spl
-        then annotateToken (StringSub <$> (single '[' >> toText <$> manyTill anySingle (single ']')))
-         <|> stringLiteralInternal
-        else stringLiteralInternal) (single '"')
+    o <- getOffset
+    single '"'
+    betterSurround o "\"" "double quoted string" $ do
+      manyTill (
+        if spl
+          then annotateToken (StringSub <$> (single '[' >> toText <$> manyTill anySingle (single ']')))
+          <|> stringLiteralInternal
+          else stringLiteralInternal) (single '"')
   #previousWhitespace .= Space
   case ls of
-    (s, []) -> pure [InformWord s (StringLit "") pw]
-    (_, (sx, wx):xs) -> pure $ InformWord sx wx pw : map (\(sx', wx') -> InformWord sx' wx' Space) xs
+    (s, []) -> pure [Word s (StringLit "") pw]
+    (_, (sx, wx):xs) -> pure $ Word sx wx pw : map (\(sx', wx') -> Word sx' wx' Space) xs
+
+betterSurround ::
+  Parser m
+  => Int
+  -> Text
+  -> Text
+  -> m a
+  -> m a
+betterSurround o e betterErrorMsg inner  = do
+  let s = toString ("We found the start of a " <> betterErrorMsg <> " here which was never closed. \
+  \Perhaps you forgot a `" <> e <> "`?")
+  region (\case
+    (TrivialError _ (Just EndOfInput) _) ->
+      FancyError o (Set.singleton $ ErrorFail s)
+    x -> x ) inner
 
 comment ::
   Parser m
   => m ()
 comment = do
+  o <- getOffset
   single '['
-  manyTill (void comment <|> void anySingle) (single ']')
-  pass
+  betterSurround o "]" "comment" $ do
+    manyTill (void comment <|> void anySingle) (single ']')
+    pass
 
 annotateToken ::
   (MonadParsec e Text m, MonadState LexerState m)

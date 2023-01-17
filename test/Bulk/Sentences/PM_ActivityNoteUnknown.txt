@@ -1,0 +1,5 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'decreeing pleasure-domes ( best left to the chinese ) is an '

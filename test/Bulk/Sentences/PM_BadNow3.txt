@@ -1,0 +1,9 @@
+Read 40 words
+syntax-test: unexpected semicolon in sentence: now by brute force
+ROOT_NT
+    HEADING_NT'the dock is a room' {heading 0}
+        SENTENCE_NT'the dock is a room'
+        SENTENCE_NT'some vending machines are containers in the dock'
+        SENTENCE_NT'to break the vending machines , by superpower or by brute fo'
+        SENTENCE_NT'now by brute force'
+        SENTENCE_NT'say "Your heat-vision prangs open the machine."'

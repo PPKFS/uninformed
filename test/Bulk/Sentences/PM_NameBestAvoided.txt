@@ -1,0 +1,8 @@
+Read 56 words
+ROOT_NT
+    HEADING_NT'figure of duck with hat is the file "Duck with Hat.png"' {heading 0}
+        SENTENCE_NT'figure of duck with hat is the file "Duck with Hat.png"'
+        SENTENCE_NT'mac with cheese is in the zone'
+        SENTENCE_NT'ducks-in-a-row is a list of figure names that varies'
+        SENTENCE_NT'ducks-in-a-row is { figure of duck with hat , figure of duck'
+        SENTENCE_NT'test is a room'

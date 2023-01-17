@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'yourself has carrying capacity empty' {heading 0}
+        SENTENCE_NT'yourself has carrying capacity empty'
+        SENTENCE_NT'yourself has carrying capacity looking'

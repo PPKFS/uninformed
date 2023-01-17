@@ -1,0 +1,10 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'the starting room is a room' {heading 0}
+        SENTENCE_NT'the starting room is a room'
+        SENTENCE_NT'"Starting room."'
+        SENTENCE_NT'v is a number that varies'
+        SENTENCE_NT'v is 77'
+        SENTENCE_NT'a hat is a thing'
+        SENTENCE_NT'a hat has a number called x'
+        SENTENCE_NT'the x of the hat is v'

@@ -1,0 +1,8 @@
+Read 27 words
+syntax-test: unexpected semicolon in sentence: let changed subject be a topic
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let changed subject be a topic'
+        SENTENCE_NT'now changed subject is "fish"'

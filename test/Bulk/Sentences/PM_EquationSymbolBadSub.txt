@@ -1,0 +1,15 @@
+Read 125 words
+ROOT_NT
+    HEADING_NT'elapsed time is a kind of value' {heading 0}
+        SENTENCE_NT'elapsed time is a kind of value'
+        SENTENCE_NT'1s specifies an elapsed time scaled at 100'
+        SENTENCE_NT'electric current is a kind of value'
+        SENTENCE_NT'1a specifies an electric current'
+        SENTENCE_NT'1ma specifies an electric current scaled down by 1000'
+        SENTENCE_NT'electric charge is a kind of value'
+        SENTENCE_NT'1c specifies an electric charge scaled at 1000'
+        SENTENCE_NT'elapsed time times electric current specifies an electric ch'
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'equation 1 q = it where q is an electric charge , i is an el'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let q be given by equation 1 where t = 12s , i = 20'

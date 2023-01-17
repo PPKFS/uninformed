@@ -1,0 +1,5 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'the dome is a room' {heading 0}
+        SENTENCE_NT'the dome is a room'
+        SENTENCE_NT'a scene has a number that varies called the difficulty ratin'

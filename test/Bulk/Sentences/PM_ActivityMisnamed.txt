@@ -1,0 +1,9 @@
+Read 52 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a color is a kind of value'
+        SENTENCE_NT'the colors are red , green , blue'
+        SENTENCE_NT'painting is an activity on colors'
+        SENTENCE_NT'sketching something is an activity on colors'
+        SENTENCE_NT'scoffing is an activity on objects'

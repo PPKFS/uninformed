@@ -1,0 +1,4 @@
+Read 15 words
+ROOT_NT
+    HEADING_NT'an antique is a kind of thing with an age' {heading 0}
+        SENTENCE_NT'an antique is a kind of thing with an age'

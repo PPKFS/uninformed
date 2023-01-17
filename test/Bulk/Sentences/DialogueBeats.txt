@@ -1,0 +1,164 @@
+Read 591 words
+syntax-test: unexpected semicolon in sentence: say "== The stock..."
+syntax-test: unexpected semicolon in sentence: showme the list of dialogue beats
+syntax-test: unexpected semicolon in sentence: showme the list of dialogue lines
+syntax-test: unexpected semicolon in sentence: showme the list of dialogue choices
+syntax-test: unexpected semicolon in sentence: say "== Dual scene and beat naming..."
+syntax-test: unexpected semicolon in sentence: showme the alpha scene
+syntax-test: unexpected semicolon in sentence: showme the alpha beat
+syntax-test: unexpected semicolon in sentence: say "== Properties..."
+syntax-test: unexpected semicolon in sentence: showme the list of dramatic dialogue beats
+syntax-test: unexpected semicolon in sentence: showme the list of subdued dialogue beats
+syntax-test: unexpected semicolon in sentence: say "== Performance..."
+syntax-test: unexpected semicolon in sentence: showme the list of unperformed dialogue beats
+syntax-test: unexpected semicolon in sentence: perform the alpha beat
+syntax-test: unexpected semicolon in sentence: showme the list of unperformed dialogue beats
+syntax-test: unexpected semicolon in sentence: say "== The live conversational subject list..."
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: make the bat a live conversational subject
+syntax-test: unexpected semicolon in sentence: make the ball a live conversational subject
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: make the bat a dead conversational subject
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: make the ball a dead conversational subject
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: make the ball a dead conversational subject
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: alter the live conversational subject list to { Daphne, the pads }
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: say "== Relevance..."
+syntax-test: unexpected semicolon in sentence: alter the live conversational subject list to { the bat }
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: showme the list of relevant dialogue beats
+syntax-test: unexpected semicolon in sentence: alter the live conversational subject list to { the ball }
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: showme the list of relevant dialogue beats
+syntax-test: unexpected semicolon in sentence: alter the live conversational subject list to { the bat, the scoring pencil }
+syntax-test: unexpected semicolon in sentence: showme the live conversational subject list
+syntax-test: unexpected semicolon in sentence: showme the list of relevant dialogue beats
+syntax-test: unexpected semicolon in sentence: say "== Availability..."
+syntax-test: unexpected semicolon in sentence: now every dialogue beat is unperformed
+syntax-test: unexpected semicolon in sentence: showme the list of available dialogue beats
+syntax-test: unexpected semicolon in sentence: perform the gamma beat
+syntax-test: unexpected semicolon in sentence: showme the list of available dialogue beats
+syntax-test: unexpected semicolon in sentence: perform the nu beat
+syntax-test: unexpected semicolon in sentence: showme the list of available dialogue beats
+syntax-test: unexpected semicolon in sentence: now Daphne is honest
+syntax-test: unexpected semicolon in sentence: showme the list of available dialogue beats
+syntax-test: unexpected semicolon in sentence: say "== Structure..."
+ROOT_NT
+    HEADING_NT'the cricket history museum is a room' {heading 0}
+        SENTENCE_NT'the cricket history museum is a room'
+        SENTENCE_NT'the bat , the ball and the pads are here'
+        SENTENCE_NT'daphne is a woman in the museum'
+        SENTENCE_NT'the trophy case is in the museum'
+        SENTENCE_NT'the urn and the scoring pencil are in the case'
+        SENTENCE_NT'daphne can be honest or disingenuous'
+        SENTENCE_NT'a dialogue beat can be dramatic , quiet or subdued'
+        SENTENCE_NT'spoken rapidly is a performance style'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "== The stock..."'
+        SENTENCE_NT'showme the list of dialogue beats'
+        SENTENCE_NT'showme the list of dialogue lines'
+        SENTENCE_NT'showme the list of dialogue choices'
+        SENTENCE_NT'say "== Dual scene and beat naming..."'
+        SENTENCE_NT'showme the alpha scene'
+        SENTENCE_NT'showme the alpha beat'
+        SENTENCE_NT'say "== Properties..."'
+        SENTENCE_NT'showme the list of dramatic dialogue beats'
+        SENTENCE_NT'showme the list of subdued dialogue beats'
+        SENTENCE_NT'say "== Performance..."'
+        SENTENCE_NT'showme the list of unperformed dialogue beats'
+        SENTENCE_NT'perform the alpha beat'
+        SENTENCE_NT'showme the list of unperformed dialogue beats'
+        SENTENCE_NT'say "== The live conversational subject list..."'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'make the bat a live conversational subject'
+        SENTENCE_NT'make the ball a live conversational subject'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'make the bat a dead conversational subject'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'make the ball a dead conversational subject'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'make the ball a dead conversational subject'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'alter the live conversational subject list to { daphne , the'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'say "== Relevance..."'
+        SENTENCE_NT'alter the live conversational subject list to { the bat }'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'showme the list of relevant dialogue beats'
+        SENTENCE_NT'alter the live conversational subject list to { the ball }'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'showme the list of relevant dialogue beats'
+        SENTENCE_NT'alter the live conversational subject list to { the bat , th'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'showme the list of relevant dialogue beats'
+        SENTENCE_NT'say "== Availability..."'
+        SENTENCE_NT'now every dialogue beat is unperformed'
+        SENTENCE_NT'showme the list of available dialogue beats'
+        SENTENCE_NT'perform the gamma beat'
+        SENTENCE_NT'showme the list of available dialogue beats'
+        SENTENCE_NT'perform the nu beat'
+        SENTENCE_NT'showme the list of available dialogue beats'
+        SENTENCE_NT'now daphne is honest'
+        SENTENCE_NT'showme the list of available dialogue beats'
+        SENTENCE_NT'say "== Structure..."'
+        SENTENCE_NT'repeat with b running through dialogue beats'
+        SENTENCE_NT'showme the beat structure of b'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the alpha scene . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the alpha scene'
+            DIALOGUE_LINE_NT'daphne : "Welcome to the Museum of Cricket."' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"Welcome to the Museum of Cricket."'
+            DIALOGUE_CUE_NT'( this is the beta beat . about the bat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the beta beat'
+                DIALOGUE_CLAUSE_NT'about the bat'
+            DIALOGUE_LINE_NT'daphne : "Made of willow, the cricket bat is sprung to provi' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"Made of willow, the cricket bat is sprung to provide a good'
+            DIALOGUE_CUE_NT'( this is the gamma beat . about the ball and everything in ' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the gamma beat'
+                DIALOGUE_CLAUSE_NT'about the ball and everything in the case'
+            DIALOGUE_LINE_NT'daphne : "A cricket ball is made with a core of cork, which ' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"A cricket ball is made with a core of cork, which is layere'
+            DIALOGUE_CUE_NT'( this is the delta beat . immediately after the gamma beat ' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the delta beat'
+                DIALOGUE_CLAUSE_NT'immediately after the gamma beat'
+                DIALOGUE_CLAUSE_NT'quiet'
+            DIALOGUE_LINE_NT'daphne : "I forgot to mention, British Standard BS 5993 spec' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"I forgot to mention, British Standard BS 5993 specifies the'
+            DIALOGUE_CUE_NT'( this is the epsilon beat . after the gamma beat . subdued ' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the epsilon beat'
+                DIALOGUE_CLAUSE_NT'after the gamma beat'
+                DIALOGUE_CLAUSE_NT'subdued'
+            DIALOGUE_LINE_NT'daphne : "Dukes balls have a prouder seam and will tend to s' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"Dukes balls have a prouder seam and will tend to swing more'
+            DIALOGUE_CUE_NT'( this is the nu beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the nu beat'
+            DIALOGUE_LINE_NT'daphne : "Cricket's kind of dull, when you think about it."' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"Cricket's kind of dull, when you think about it."'
+            DIALOGUE_LINE_NT'ball ( this is the disgruntled ball line ) : "I disagree!"' {level 1}
+                DIALOGUE_SPEAKER_NT'ball'
+                DIALOGUE_SPEECH_NT'"I disagree!"'
+                DIALOGUE_CLAUSE_NT'this is the disgruntled ball line'
+            DIALOGUE_LINE_NT'bat : "I especially enjoy it."' {level 1}
+                DIALOGUE_SPEAKER_NT'bat'
+                DIALOGUE_SPEECH_NT'"I especially enjoy it."'
+            DIALOGUE_CUE_NT'( this is the mu beat . if daphne is honest . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the mu beat'
+                DIALOGUE_CLAUSE_NT'if daphne is honest'
+            DIALOGUE_LINE_NT'daphne : "I prefer softball, honestly."' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"I prefer softball, honestly."'
+            DIALOGUE_CUE_NT'( this is the eta beat . before the nu beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the eta beat'
+                DIALOGUE_CLAUSE_NT'before the nu beat'
+            DIALOGUE_LINE_NT'daphne : "This is the foremost museum in New South Wales."' {level 0}
+                DIALOGUE_SPEAKER_NT'daphne'
+                DIALOGUE_SPEECH_NT'"This is the foremost museum in New South Wales."'

@@ -1,0 +1,178 @@
+Read 530 words
+syntax-test: unexpected semicolon in sentence: say "Magical glue holds the bat down!" instead
+ROOT_NT
+    HEADING_NT'"Leg Before Wicket" by ian fleming' {heading 0}
+        SENTENCE_NT'"Leg Before Wicket" by ian fleming'
+        SENTENCE_NT'use command line echoing'
+        SENTENCE_NT'the cricket history museum is a room'
+        SENTENCE_NT'the bat , the ball and some pads are here'
+        SENTENCE_NT'the trophy case is in the museum'
+        SENTENCE_NT'the urn and the scoring pencil are in the case'
+        SENTENCE_NT'honey maiden is a woman'
+        SENTENCE_NT'james bond is a man in the museum'
+        SENTENCE_NT'the player is bond'
+        SENTENCE_NT'honey can be honest or disingenuous'
+        SENTENCE_NT'a dialogue beat can be dramatic , quiet or subdued'
+        SENTENCE_NT'spoken rapidly is a performance style'
+        SENTENCE_NT'test one with "get bat / x bat / 4 / 1 / 1 / x ball / get ba'
+        SENTENCE_NT'test two with "get bat / x bat / 3 / 2 / x ball / get bat / '
+        SENTENCE_NT'test three with "get bat / 5 / 1 / 1 / 2 / 1"'
+        SENTENCE_NT'check an actor taking the bat'
+        SENTENCE_NT'if the player is the actor'
+        SENTENCE_NT'say "Magical glue holds the bat down!" instead'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "[The actor] tries to pick up the bat, but it's magicall'
+        SENTENCE_NT'before doing anything other than looking'
+        SENTENCE_NT'if honey is not in the museum'
+        SENTENCE_NT'perform the arrival beat instead'
+        SENTENCE_NT'when play ends'
+        SENTENCE_NT'say "You took [list of performed dialogue choices], and hear'
+        HEADING_NT'section 1 - arrival ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the arrival scene . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the arrival scene'
+            DIALOGUE_LINE_NT'narration ( now honey is in the museum ) : "You're interrupt' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"You're interrupted in your mission by the sudden arrival of'
+                DIALOGUE_CLAUSE_NT'now honey is in the museum'
+            DIALOGUE_LINE_NT'honey : "So, Mr Bond, we meet at last. Welcome to the foremo' {level 0}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"So, Mr Bond, we meet at last. Welcome to the foremost sport'
+            DIALOGUE_CHOICE_NT'-- ( this is the sean connery choice ) "Fix Honey with your ' {level 0}
+                DIALOGUE_SELECTION_NT'"Fix Honey with your Scottish stare."'
+                DIALOGUE_CLAUSE_NT'this is the sean connery choice'
+            DIALOGUE_LINE_NT'narration ( now honey is honest ) : "Honey looks suddenly ab' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Honey looks suddenly abashed and resolves to tell the truth'
+                DIALOGUE_CLAUSE_NT'now honey is honest'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- "Listen politely."' {level 0}
+                DIALOGUE_SELECTION_NT'"Listen politely."'
+            DIALOGUE_LINE_NT'honey ( rapidly ) : "The first ever cricket match is thought' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"The first ever cricket match is thought to have taken place'
+                DIALOGUE_CLAUSE_NT'rapidly'
+            DIALOGUE_CHOICE_NT'-- "Enquire about the bat and ball."' {level 0}
+                DIALOGUE_SELECTION_NT'"Enquire about the bat and ball."'
+            DIALOGUE_LINE_NT'honey ( after taking the bat ; before dropping the bat ) : "' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Made of willow, the cricket bat is sprung to provide a good'
+                DIALOGUE_CLAUSE_NT'after taking the bat'
+                DIALOGUE_CLAUSE_NT'before dropping the bat'
+            DIALOGUE_LINE_NT'honey ( after taking the ball ; before dropping the ball ) :' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Now this one really does throw well."'
+                DIALOGUE_CLAUSE_NT'after taking the ball'
+                DIALOGUE_CLAUSE_NT'before dropping the ball'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- ( recurring ) "Look at the watch Q gave you."' {level 0}
+                DIALOGUE_SELECTION_NT'"Look at the watch Q gave you."'
+                DIALOGUE_CLAUSE_NT'recurring'
+            DIALOGUE_LINE_NT'narration : "The watch says it is now [time of day] in Melbo' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"The watch says it is now [time of day] in Melbourne."'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- "Make feeble wordplay, light of it, and an escape."' {level 0}
+                DIALOGUE_SELECTION_NT'"Make feeble wordplay, light of it, and an escape."'
+            DIALOGUE_LINE_NT'bond : "Sorry, Honey, it's time for a 'run out'."' {level 1}
+                DIALOGUE_SPEAKER_NT'bond'
+                DIALOGUE_SPEECH_NT'"Sorry, Honey, it's time for a 'run out'."'
+            DIALOGUE_CHOICE_NT'-> perform the escape attempt beat' {level 1}
+                DIALOGUE_SELECTION_NT'perform the escape attempt beat'
+            DIALOGUE_CHOICE_NT'-> perform the closer examination beat' {level 0}
+                DIALOGUE_SELECTION_NT'perform the closer examination beat'
+            DIALOGUE_LINE_NT'honey ( if honey is honest ; this is the admission line ) : ' {level 0}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Really, [the bat] is too heavy for me."'
+                DIALOGUE_CLAUSE_NT'if honey is honest'
+                DIALOGUE_CLAUSE_NT'this is the admission line'
+            DIALOGUE_LINE_NT'honey : "That concludes our tour. And frankly, Mr Bond, I ex' {level 0}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"That concludes our tour. And frankly, Mr Bond, I expected a'
+            DIALOGUE_CHOICE_NT'-> end the story saying "She flounced out!"' {level 1}
+                DIALOGUE_SELECTION_NT'end the story saying "She flounced out!"'
+        HEADING_NT'section 2 - closer examination ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the closer examination beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the closer examination beat'
+            DIALOGUE_LINE_NT'honey : "And now, Mr Bond, it is time for you to consider ou' {level 0}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"And now, Mr Bond, it is time for you to consider our exhibi'
+            DIALOGUE_CHOICE_NT'-- instead of examining the ball' {level 0}
+                DIALOGUE_SELECTION_NT'instead of examining the ball'
+            DIALOGUE_LINE_NT'honey : "See the proud seam. It's a Kookaburra, and it swing' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"See the proud seam. It's a Kookaburra, and it swings more t'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- after taking the ball' {level 0}
+                DIALOGUE_SELECTION_NT'after taking the ball'
+            DIALOGUE_LINE_NT'honey : "Goodness! You're only supposed to look."' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Goodness! You're only supposed to look."'
+            DIALOGUE_CHOICE_NT'-- before taking the bat' {level 0}
+                DIALOGUE_SELECTION_NT'before taking the bat'
+            DIALOGUE_LINE_NT'honey : "No! It's MINE!"' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"No! It's MINE!"'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- instead of kissing honey' {level 0}
+                DIALOGUE_SELECTION_NT'instead of kissing honey'
+            DIALOGUE_LINE_NT'honey : "Oh, James... Ever since we met eighty seconds ago I' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Oh, James... Ever since we met eighty seconds ago I have wa'
+            DIALOGUE_CHOICE_NT'-> end the story saying "James Bond will Return"' {level 1}
+                DIALOGUE_SELECTION_NT'end the story saying "James Bond will Return"'
+            DIALOGUE_CHOICE_NT'-- after looking' {level 0}
+                DIALOGUE_SELECTION_NT'after looking'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- otherwise' {level 0}
+                DIALOGUE_SELECTION_NT'otherwise'
+            DIALOGUE_LINE_NT'honey : "Try again, Mr Bond."' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Try again, Mr Bond."'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_LINE_NT'honey : "Oh my god, Blofeld has put a bomb on the trophy cas' {level 0}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Oh my god, Blofeld has put a bomb on the trophy case! I'm n'
+            DIALOGUE_LINE_NT'narration ( before the player examining the case ) : "You ca' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"You can't help doing as she says."'
+                DIALOGUE_CLAUSE_NT'before the player examining the case'
+        HEADING_NT'section 3 - escape ? ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the escape attempt beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the escape attempt beat'
+            DIALOGUE_CHOICE_NT'-- "Hurl myself at the window."' {level 0}
+                DIALOGUE_SELECTION_NT'"Hurl myself at the window."'
+            DIALOGUE_LINE_NT'honey : "That glass is strong enough to withstand a six from' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"That glass is strong enough to withstand a six from a full '
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- "Use my rocket-pack."' {level 0}
+                DIALOGUE_SELECTION_NT'"Use my rocket-pack."'
+            DIALOGUE_LINE_NT'narration : "Is this supposed to be like the cold open of Th' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Is this supposed to be like the cold open of Thunderball, w'
+            DIALOGUE_CHOICE_NT'-- "Yes."' {level 1}
+                DIALOGUE_SELECTION_NT'"Yes."'
+            DIALOGUE_LINE_NT'honey : "Spectre has a long memory, Mr Bond!"' {level 2}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"Spectre has a long memory, Mr Bond!"'
+            DIALOGUE_CHOICE_NT'-> end the story saying "Vrooom!"' {level 2}
+                DIALOGUE_SELECTION_NT'end the story saying "Vrooom!"'
+            DIALOGUE_CHOICE_NT'-- "No."' {level 1}
+                DIALOGUE_SELECTION_NT'"No."'
+            DIALOGUE_LINE_NT'narration : "Then find some other way out of here."' {level 2}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Then find some other way out of here."'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- ( if bond has the pencil ) "Tunnel my way out with the pe' {level 0}
+                DIALOGUE_SELECTION_NT'"Tunnel my way out with the pencil."'
+                DIALOGUE_CLAUSE_NT'if bond has the pencil'
+            DIALOGUE_LINE_NT'narration : "Honey watches with interest as you scrabble at ' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Honey watches with interest as you scrabble at the walls wi'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- ( if the current choice list is empty ) "Admit to being o' {level 0}
+                DIALOGUE_SELECTION_NT'"Admit to being out of ideas."'
+                DIALOGUE_CLAUSE_NT'if the current choice list is empty'
+            DIALOGUE_LINE_NT'honey : "I have permitted this charade for one reason only, ' {level 1}
+                DIALOGUE_SPEAKER_NT'honey'
+                DIALOGUE_SPEECH_NT'"I have permitted this charade for one reason only, Mr Bond,'

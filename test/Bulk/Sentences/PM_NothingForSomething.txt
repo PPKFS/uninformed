@@ -1,0 +1,10 @@
+Read 32 words
+syntax-test: unexpected semicolon in sentence: consume player
+ROOT_NT
+    HEADING_NT'workshop is a room' {heading 0}
+        SENTENCE_NT'workshop is a room'
+        SENTENCE_NT'to consume ( t - thing )'
+        SENTENCE_NT'say "You eat [T]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'consume player'
+        SENTENCE_NT'consume nothing'

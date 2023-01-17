@@ -1,0 +1,5 @@
+Read 15 words
+ROOT_NT
+    HEADING_NT'daphne is a person' {heading 0}
+        SENTENCE_NT'daphne is a person'
+        SENTENCE_NT'the briefcase is in daphne'

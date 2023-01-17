@@ -1,0 +1,5 @@
+Read 17 words
+ROOT_NT
+    HEADING_NT'include extspuriouslycontinues extension by araminta intest' {heading 0}
+        SENTENCE_NT'include extspuriouslycontinues extension by araminta intest'
+        SENTENCE_NT'xenon is a room'

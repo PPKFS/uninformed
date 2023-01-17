@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'a tonne specifies a weight'

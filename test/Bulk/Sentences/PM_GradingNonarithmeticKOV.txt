@@ -1,0 +1,11 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        HEADING_NT'part 1' {heading 3}
+            SENTENCE_NT'definition'
+            SENTENCE_NT'a number is spacious if its carrying capacity is 10 or more'
+        HEADING_NT'part 2' {heading 3}
+            SENTENCE_NT'a person has a text called callsign'
+            SENTENCE_NT'definition'
+            SENTENCE_NT'a person is cool if its callsign is "dude" or more'

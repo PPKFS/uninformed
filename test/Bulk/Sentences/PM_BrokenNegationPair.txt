@@ -1,0 +1,10 @@
+Read 66 words
+ROOT_NT
+    HEADING_NT'the science room is a room' {heading 0}
+        SENTENCE_NT'the science room is a room'
+        SENTENCE_NT'the description is "This is where the bug occurs."'
+        SENTENCE_NT'the large crack is an open unopenable fixed in place contain'
+        SENTENCE_NT'"The floor underneath you has a large crack in it."'
+        SENTENCE_NT'the length of chain is in the large crack'
+        SENTENCE_NT'the gas line is a scenery supporter in the science room'
+        SENTENCE_NT'the gas line can be closed or gopen'

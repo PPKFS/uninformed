@@ -1,0 +1,10 @@
+Read 34 words
+syntax-test: unexpected semicolon in sentence: let the dangerous item be the player
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let the dangerous item be the player'
+        SENTENCE_NT'if the dangerous item is'
+        SENTENCE_NT'-- 2'
+        SENTENCE_NT'say "2"'

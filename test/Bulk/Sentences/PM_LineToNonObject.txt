@@ -1,0 +1,16 @@
+Read 45 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'horatio and marcellus are here'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about marcellus . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about marcellus'
+            DIALOGUE_LINE_NT'marcellus ( to horatio ) : "What, has this thing appear'd ag' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"What, has this thing appear'd again to-night?"'
+                DIALOGUE_CLAUSE_NT'to horatio'
+            DIALOGUE_LINE_NT'marcellus ( to 150 ) : "I have seen naught."' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"I have seen naught."'
+                DIALOGUE_CLAUSE_NT'to 150'

@@ -1,0 +1,9 @@
+Read 31 words
+syntax-test: unexpected semicolon in sentence: now Place is lighted
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'finale is a scene'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'now place is lighted'
+        SENTENCE_NT'now action requires a carried noun'

@@ -1,0 +1,8 @@
+Read 49 words
+ROOT_NT
+    HEADING_NT'the bolzano-weierstrass memorial is a room' {heading 0}
+        SENTENCE_NT'the bolzano-weierstrass memorial is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , blue and green'
+        SENTENCE_NT'understand the transparent property as referring to blue'
+        SENTENCE_NT'understand the transparent property as referring to a colour'

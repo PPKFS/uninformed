@@ -1,11 +1,10 @@
 module Uninformed.Test.Syntax.Zipper
   ( spec
   ) where
+
+import Uninformed.Prelude
 import Test.Tasty
-import Uninformed.Words.Lexer
 import Test.Tasty.HUnit
-import qualified Data.Text as T
-import Uninformed.Test.Common
 import Uninformed.Syntax.SyntaxTree
 
 checkNodeRaw :: Zipper a -> Text -> Assertion

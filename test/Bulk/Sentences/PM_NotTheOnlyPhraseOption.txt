@@ -1,0 +1,8 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'the english-inform phrasebook editorial building is a room' {heading 0}
+        SENTENCE_NT'the english-inform phrasebook editorial building is a room'
+        SENTENCE_NT'to speak in tongues , in french'
+        SENTENCE_NT'say "You babble, heedless of tongue."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'speak in tongues , in polish'

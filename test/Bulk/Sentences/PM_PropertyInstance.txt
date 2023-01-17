@@ -1,0 +1,5 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'the components palace is a room' {heading 0}
+        SENTENCE_NT'the components palace is a room'
+        SENTENCE_NT'the widget is a thing with printed name a container in the p'

@@ -1,0 +1,14 @@
+Read 44 words
+syntax-test: unexpected semicolon in sentence: yes
+syntax-test: unexpected semicolon in sentence: continue the action
+ROOT_NT
+    HEADING_NT'the arena is a room' {heading 0}
+        SENTENCE_NT'the arena is a room'
+        SENTENCE_NT'to decide what room is spong'
+        SENTENCE_NT'yes'
+        SENTENCE_NT'to blorple'
+        SENTENCE_NT'yes'
+        SENTENCE_NT'decide on 12'
+        SENTENCE_NT'to decide if wibble'
+        SENTENCE_NT'continue the action'
+        SENTENCE_NT'decide on 1'

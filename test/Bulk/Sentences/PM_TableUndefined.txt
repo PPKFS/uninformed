@@ -1,0 +1,7 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'the admiralty is a room' {heading 0}
+        SENTENCE_NT'the admiralty is a room'
+        SENTENCE_NT'ship is a kind of value'
+        SENTENCE_NT'some ships are defined by osmosis'
+        SENTENCE_NT'table 1 - admirals admiral rank "St Vincent"'

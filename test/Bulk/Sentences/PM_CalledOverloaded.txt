@@ -1,0 +1,9 @@
+Read 61 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'tom is a man in stage'
+        SENTENCE_NT'the player holds a spork'
+        SENTENCE_NT'a gift is a kind of value'
+        SENTENCE_NT'the gifts are strength , discipline , foresight and knowledg'
+        SENTENCE_NT'instead of giving something ( called the number ) to tom , t'

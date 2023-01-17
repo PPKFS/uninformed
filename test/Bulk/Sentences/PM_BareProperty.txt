@@ -1,0 +1,7 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'the astral plane is a room' {heading 0}
+        SENTENCE_NT'the astral plane is a room'
+        SENTENCE_NT'a foo is a kind of thing'
+        SENTENCE_NT'a foo has a number'
+        SENTENCE_NT'the bar is a room'

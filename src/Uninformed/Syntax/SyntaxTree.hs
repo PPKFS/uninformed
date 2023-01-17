@@ -1,7 +1,6 @@
-{-# LANGUAGE TemplateHaskell #-}
-
 module Uninformed.Syntax.SyntaxTree where
 
+import Uninformed.Prelude
 import qualified Data.Vector as V
 import qualified Data.Set as S
 import Uninformed.Words.Lexer.Types
@@ -143,5 +142,3 @@ graftTreeSibling ::
   -> Zipper a
   -> Zipper a
 graftTreeSibling t z = error ""
-
-makeLenses ''Node

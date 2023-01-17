@@ -1,0 +1,10 @@
+Read 42 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'instead of jumping when orinoco asdl lkjhlkjhlkh'
+        SENTENCE_NT'say "Red."'
+        SENTENCE_NT'instead of jumping when orinoco is nowhere'
+        SENTENCE_NT'say "Blue."'
+        SENTENCE_NT'instead of jumping when orinoco has nothing'
+        SENTENCE_NT'say "Green."'

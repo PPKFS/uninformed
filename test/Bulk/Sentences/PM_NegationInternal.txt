@@ -1,0 +1,8 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'aspect ratio is a kind of value' {heading 0}
+        SENTENCE_NT'aspect ratio is a kind of value'
+        SENTENCE_NT'16:9 specifies an aspect ratio'
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'x is an aspect ratio that varies'
+        SENTENCE_NT'x is 14:-4'

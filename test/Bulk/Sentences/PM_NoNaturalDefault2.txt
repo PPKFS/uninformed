@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let q be the default value of number valued table column'

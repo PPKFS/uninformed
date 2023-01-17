@@ -1,0 +1,7 @@
+Read 41 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'instead of jumping ( this is the abject failure rule )'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'the abject failure rule is listed before the abject failure '

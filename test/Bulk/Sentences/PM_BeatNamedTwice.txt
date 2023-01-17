@@ -1,0 +1,12 @@
+Read 41 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about the paranormal . this is the quaintly done scene . t' {level 0}
+                DIALOGUE_CLAUSE_NT'about the paranormal'
+                DIALOGUE_CLAUSE_NT'this is the quaintly done scene'
+                DIALOGUE_CLAUSE_NT'this is the doubled beat'
+            DIALOGUE_LINE_NT'marcellus : "What, has this thing appear'd again to-night?"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"What, has this thing appear'd again to-night?"'

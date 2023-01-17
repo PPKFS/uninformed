@@ -1,0 +1,6 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'the admiralty is a room' {heading 0}
+        SENTENCE_NT'the admiralty is a room'
+        SENTENCE_NT'some numbers are defined by table 1'
+        SENTENCE_NT'table 1 - numerals name french 4 "quatre"'

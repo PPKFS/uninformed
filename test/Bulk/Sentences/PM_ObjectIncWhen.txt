@@ -1,0 +1,8 @@
+Read 48 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a trampoline is an enterable supporter in home'
+        SENTENCE_NT'a box is in home'
+        SENTENCE_NT'in the box is a thing called when worlds collide'
+        SENTENCE_NT'jumping when the actor is on the trampoline is high-jumping'

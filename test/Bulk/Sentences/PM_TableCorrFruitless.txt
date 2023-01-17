@@ -1,0 +1,8 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'table 1 character price bob 4 mary 5'
+        SENTENCE_NT'bob and mary are people'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say the price corresponding to a character of 4 in table 1'

@@ -1,0 +1,7 @@
+Read 38 words
+ROOT_NT
+    HEADING_NT'the admiralty is a room' {heading 0}
+        SENTENCE_NT'the admiralty is a room'
+        SENTENCE_NT'ship is a kind of vehicle'
+        SENTENCE_NT'some ships are defined by table 1'
+        SENTENCE_NT'table 1 - vessels rate commander stuff yeah "Captain Meldrew'

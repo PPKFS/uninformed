@@ -63,8 +63,8 @@ ROOT_NT
     HEADING_NT'"Chapter 17: Vanity" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 17: Vanity" by emily short'
         SENTENCE_NT'use command line echoing'
-        HEADING_NT'chapter 1' {heading 1}
-            HEADING_NT'section 1 - what are activities ?' {heading 2}
+        HEADING_NT'chapter 1' {heading 4}
+            HEADING_NT'section 1 - what are activities ?' {heading 5}
                 SENTENCE_NT'a beverage is a kind of thing'
                 SENTENCE_NT'instead of drinking a beverage'
                 SENTENCE_NT'now the noun is nowhere'
@@ -129,18 +129,18 @@ ROOT_NT
                 SENTENCE_NT'say "She doesn't look at you, but her mind touches yours, an'
                 SENTENCE_NT'instead of asking folly to try taking the golden ball when t'
                 SENTENCE_NT'say "'Who do you think gave it to her in the first place?'"'
-            HEADING_NT'section 2 - how activities work' {heading 2}
-            HEADING_NT'section 3 - rules applied to activities' {heading 2}
+            HEADING_NT'section 2 - how activities work' {heading 5}
+            HEADING_NT'section 3 - rules applied to activities' {heading 5}
                 SENTENCE_NT'rule for printing the name of the blur when we have taken th'
                 SENTENCE_NT'say "skull"'
                 SENTENCE_NT'after printing the name of something which is carried by the'
                 SENTENCE_NT'say " (in paint)"'
-            HEADING_NT'section 4 - while clauses' {heading 2}
+            HEADING_NT'section 4 - while clauses' {heading 5}
                 SENTENCE_NT'rule for printing the name of the player while the player is'
                 SENTENCE_NT'say "your painted self"'
                 SENTENCE_NT'rule for printing the name of the blur while listing content'
                 SENTENCE_NT'say "sinister skull"'
-            HEADING_NT'section 5 - printing the name of something' {heading 2}
+            HEADING_NT'section 5 - printing the name of something' {heading 5}
                 SENTENCE_NT'before printing the name of a person who is in a painting'
                 SENTENCE_NT'say "Painted "'
                 SENTENCE_NT'instead of attacking a person'
@@ -151,14 +151,14 @@ ROOT_NT
                 SENTENCE_NT'omit contents in listing'
                 SENTENCE_NT'after printing the name of a picture'
                 SENTENCE_NT'omit contents in listing'
-            HEADING_NT'section 6 - listing contents of something' {heading 2}
+            HEADING_NT'section 6 - listing contents of something' {heading 5}
                 SENTENCE_NT'rule for printing the name of the corkscrew while listing co'
                 SENTENCE_NT'say "dangerous corkscrew"'
                 SENTENCE_NT'before listing contents'
                 SENTENCE_NT'group beverages together as "drinks"'
                 SENTENCE_NT'before listing contents'
                 SENTENCE_NT'group things worn by the player together'
-            HEADING_NT'section 7 - grouping together something' {heading 2}
+            HEADING_NT'section 7 - grouping together something' {heading 5}
                 SENTENCE_NT'a scrabble piece is a kind of thing'
                 SENTENCE_NT'the x , the y and the z are scrabble pieces in the exhibitio'
                 SENTENCE_NT'before listing contents'
@@ -169,7 +169,7 @@ ROOT_NT
                 SENTENCE_NT'after grouping together scrabble pieces , say " from a Scrab'
                 SENTENCE_NT'rule for grouping together things worn by the player while l'
                 SENTENCE_NT'say "your clothing"'
-            HEADING_NT'section 8 - constructing the status line' {heading 2}
+            HEADING_NT'section 8 - constructing the status line' {heading 5}
                 SENTENCE_NT'rule for printing the name of west while constructing the st'
                 SENTENCE_NT'say "W"'
                 SENTENCE_NT'rule for printing the name of southwest while constructing t'
@@ -218,14 +218,14 @@ ROOT_NT
                 SENTENCE_NT'end repeat'
                 SENTENCE_NT'rule for constructing the status line while the mask is worn'
                 SENTENCE_NT'do nothing'
-            HEADING_NT'section 9 - writing a paragraph about' {heading 2}
+            HEADING_NT'section 9 - writing a paragraph about' {heading 5}
                 SENTENCE_NT'rule for writing a paragraph about the ball'
                 SENTENCE_NT'say "A golden ball on the floor reflects [a list of non-ball'
                 SENTENCE_NT'definition'
                 SENTENCE_NT'a thing is non-ball if it is not the ball'
                 SENTENCE_NT'rule for writing a paragraph about a scrabble piece ( called'
                 SENTENCE_NT'say "[The item] has fallen under [the obstruction]."'
-            HEADING_NT'section 10 - listing nondescript items of something' {heading 2}
+            HEADING_NT'section 10 - listing nondescript items of something' {heading 5}
                 SENTENCE_NT'before listing nondescript items'
                 SENTENCE_NT'if the blur is marked for listing begin'
                 SENTENCE_NT'say "[The blur] catches your eye."'
@@ -235,13 +235,13 @@ ROOT_NT
                 SENTENCE_NT'say "Sketched on the floor"'
                 SENTENCE_NT'list the contents of the location , as a sentence , tersely '
                 SENTENCE_NT'say "."'
-            HEADING_NT'section 11 - deciding the scope of something' {heading 2}
+            HEADING_NT'section 11 - deciding the scope of something' {heading 5}
                 SENTENCE_NT'after deciding the scope of the player while the location is'
                 SENTENCE_NT'repeat with view running through paintings'
                 SENTENCE_NT'place view in scope'
                 SENTENCE_NT'after deciding the scope of the player while in darkness'
                 SENTENCE_NT'place the location in scope'
-            HEADING_NT'section 12 - supplying a missing noun / second noun' {heading 2}
+            HEADING_NT'section 12 - supplying a missing noun / second noun' {heading 5}
                 SENTENCE_NT'understand "sit" as entering'
                 SENTENCE_NT'a chair is a kind of supporter'
                 SENTENCE_NT'a chair is always enterable'
@@ -260,7 +260,7 @@ ROOT_NT
                 SENTENCE_NT'the skeleton key is carried by the player'
                 SENTENCE_NT'it unlocks the safe'
                 SENTENCE_NT'the description of jolt is "A cola product of special potenc'
-            HEADING_NT'section 13 - reading a command' {heading 2}
+            HEADING_NT'section 13 - reading a command' {heading 5}
                 SENTENCE_NT'before reading a command while the turn count is 1 , say "(T'
                 SENTENCE_NT'after reading a command'
                 SENTENCE_NT'if the player's command includes "thank" begin'
@@ -318,12 +318,12 @@ ROOT_NT
                 SENTENCE_NT'otherwise'
                 SENTENCE_NT'if the player's command includes "simon says" , cut the matc'
                 SENTENCE_NT'end if'
-            HEADING_NT'section 14 - deciding whether all includes' {heading 2}
+            HEADING_NT'section 14 - deciding whether all includes' {heading 5}
                 SENTENCE_NT'rule for deciding whether all includes scenery'
                 SENTENCE_NT'it does not'
                 SENTENCE_NT'rule for deciding whether all includes a fixed in place thin'
                 SENTENCE_NT'it does not'
-            HEADING_NT'section 15 - printing the player's obituary' {heading 2}
+            HEADING_NT'section 15 - printing the player's obituary' {heading 5}
                 SENTENCE_NT'instead of attacking the player'
                 SENTENCE_NT'say "Success!"'
                 SENTENCE_NT'end the story saying "You have died"'
@@ -332,7 +332,7 @@ ROOT_NT
                 SENTENCE_NT'the print final score rule does nothing'
                 SENTENCE_NT'after printing the player's obituary'
                 SENTENCE_NT'say "And you visited the interior of [number of visited pain'
-            HEADING_NT'section 16 - amusing a victorious player' {heading 2}
+            HEADING_NT'section 16 - amusing a victorious player' {heading 5}
                 SENTENCE_NT'rule for amusing a victorious player'
                 SENTENCE_NT'say "Most of the descriptive content of this one is taken fr'
                 SENTENCE_NT'use the serial comma'

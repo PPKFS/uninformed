@@ -1,0 +1,4 @@
+Read 12 words
+ROOT_NT
+    HEADING_NT'a coin is in every open container' {heading 0}
+        SENTENCE_NT'a coin is in every open container'

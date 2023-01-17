@@ -1,0 +1,15 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'mr bojangles is an animal'
+        SENTENCE_NT'the erroneous beat is a dialogue beat'
+        SENTENCE_NT'the erroneous line is a dialogue line'
+        SENTENCE_NT'the erroneous choice is a dialogue choice'
+        SENTENCE_NT'the dragon dance is a scene'
+        HEADING_NT'section 1 ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about the laboratory )' {level 0}
+                DIALOGUE_CLAUSE_NT'about the laboratory'
+            DIALOGUE_LINE_NT'mr bojangles : "Woof!"' {level 0}
+                DIALOGUE_SPEAKER_NT'mr bojangles'
+                DIALOGUE_SPEECH_NT'"Woof!"'

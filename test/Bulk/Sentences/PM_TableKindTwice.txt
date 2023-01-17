@@ -1,0 +1,7 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'the apple is a thing'
+        SENTENCE_NT'the pear is a thing'
+        SENTENCE_NT'table of whoops fruit price thing 2 person 3'

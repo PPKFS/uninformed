@@ -1,0 +1,11 @@
+Read 36 words
+syntax-test: unexpected semicolon in sentence: if in darkness begin
+syntax-test: unexpected semicolon in sentence: say "It's very dark."
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'the typewriter is in the school'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if in darkness begin'
+        SENTENCE_NT'say "It's very dark."'
+        SENTENCE_NT'end while'

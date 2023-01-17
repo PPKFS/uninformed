@@ -1,0 +1,11 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the quaintly done beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the quaintly done beat'
+            DIALOGUE_CHOICE_NT'-> perform the quaintly done beat' {level 0}
+                DIALOGUE_SELECTION_NT'perform the quaintly done beat'
+            DIALOGUE_CHOICE_NT'-> perform the avant-garde beat' {level 0}
+                DIALOGUE_SELECTION_NT'perform the avant-garde beat'

@@ -1,0 +1,7 @@
+Read 48 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'the cavern measuring rules are a rulebook'
+        SENTENCE_NT'the cavern measuring rules have default failure'
+        SENTENCE_NT'the cavern measuring rules have outcomes man from porlock vi'

@@ -1,0 +1,8 @@
+Read 29 words
+syntax-test: unexpected semicolon in sentence: If true is true, say "--."
+ROOT_NT
+    HEADING_NT'testroom is a room' {heading 0}
+        SENTENCE_NT'testroom is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if true is true , say "--."'
+        SENTENCE_NT'else if true is true , say "--."'

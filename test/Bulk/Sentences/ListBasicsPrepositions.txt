@@ -1,0 +1,124 @@
+Read 305 words
+syntax-test: unexpected semicolon in sentence: let L be a list of numbers
+syntax-test: unexpected semicolon in sentence: say "L is initially [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 11 to L
+syntax-test: unexpected semicolon in sentence: say "L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 7 to L
+syntax-test: unexpected semicolon in sentence: add 200 to L
+syntax-test: unexpected semicolon in sentence: add 5 to L
+syntax-test: unexpected semicolon in sentence: add -6 to L
+syntax-test: unexpected semicolon in sentence: add 0 to L
+syntax-test: unexpected semicolon in sentence: say "L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: add 5 to L, if absent
+syntax-test: unexpected semicolon in sentence: say "Adding 5 if absent should make no difference: [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: reverse L
+syntax-test: unexpected semicolon in sentence: say "L reverses to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: sort L
+syntax-test: unexpected semicolon in sentence: say "L sorts to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: reverse L
+syntax-test: unexpected semicolon in sentence: say "L then reverses to [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: say "Entry 2 of L is [entry 2 of L]."
+syntax-test: unexpected semicolon in sentence: now entry 3 of L is 104
+syntax-test: unexpected semicolon in sentence: say "After changing entry 3 to 104, L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: now entry 3 of L is 208
+syntax-test: unexpected semicolon in sentence: say "After changing entry 3 to 208, L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: now entry 1 of L is 1
+syntax-test: unexpected semicolon in sentence: now entry 6 of L is 6
+syntax-test: unexpected semicolon in sentence: say "After changing the two end entries, L is now [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: say "These, however, should fail as being out of range."
+syntax-test: unexpected semicolon in sentence: now entry 0 of L is 104
+syntax-test: unexpected semicolon in sentence: now entry 7 of L is 104
+syntax-test: unexpected semicolon in sentence: add 208 to L
+syntax-test: unexpected semicolon in sentence: say "L now contains two instances of 208: [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: remove 208 from L
+syntax-test: unexpected semicolon in sentence: say "Both of which go after removing this value: [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: let M be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 2 to M
+syntax-test: unexpected semicolon in sentence: add 3 to M
+syntax-test: unexpected semicolon in sentence: add 5 to M
+syntax-test: unexpected semicolon in sentence: add 7 to M
+syntax-test: unexpected semicolon in sentence: add 11 to M
+syntax-test: unexpected semicolon in sentence: add M to L
+syntax-test: unexpected semicolon in sentence: say "Adding [M in brace notation] to L gives [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: remove M from L
+syntax-test: unexpected semicolon in sentence: say "Removing the same set then gives [L in brace notation]."
+syntax-test: unexpected semicolon in sentence: extend M to 5 entries
+syntax-test: unexpected semicolon in sentence: say "Extending M to 5 entries should not change it: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: extend M to 7 entries
+syntax-test: unexpected semicolon in sentence: say "Extending M to 7 entries should add two 0s: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: truncate M to 8 entries
+syntax-test: unexpected semicolon in sentence: say "Truncating M to 8 entries should make no difference: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: truncate M to 4 entries
+syntax-test: unexpected semicolon in sentence: say "Truncating M to 4 entries should change it: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: truncate M to the last 2 entries
+syntax-test: unexpected semicolon in sentence: say "Truncating M to the last 2 entries should certainly change it: [M in brace notation]."
+syntax-test: unexpected semicolon in sentence: let N be a list of numbers
+syntax-test: unexpected semicolon in sentence: add 7 to N
+syntax-test: unexpected semicolon in sentence: add 11 to N
+syntax-test: unexpected semicolon in sentence: add 5 to N
+syntax-test: unexpected semicolon in sentence: add 16 to N
+syntax-test: unexpected semicolon in sentence: add N to M, if absent
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be a list of numbers'
+        SENTENCE_NT'say "L is initially [L in brace notation]."'
+        SENTENCE_NT'add 11 to l'
+        SENTENCE_NT'say "L is now [L in brace notation]."'
+        SENTENCE_NT'add 7 to l'
+        SENTENCE_NT'add 200 to l'
+        SENTENCE_NT'add 5 to l'
+        SENTENCE_NT'add -6 to l'
+        SENTENCE_NT'add 0 to l'
+        SENTENCE_NT'say "L is now [L in brace notation]."'
+        SENTENCE_NT'add 5 to l , if absent'
+        SENTENCE_NT'say "Adding 5 if absent should make no difference: [L in bra'
+        SENTENCE_NT'reverse l'
+        SENTENCE_NT'say "L reverses to [L in brace notation]."'
+        SENTENCE_NT'sort l'
+        SENTENCE_NT'say "L sorts to [L in brace notation]."'
+        SENTENCE_NT'reverse l'
+        SENTENCE_NT'say "L then reverses to [L in brace notation]."'
+        SENTENCE_NT'say "Entry 2 of L is [entry 2 of L]."'
+        SENTENCE_NT'now entry 3 of l is 104'
+        SENTENCE_NT'say "After changing entry 3 to 104, L is now [L in brace not'
+        SENTENCE_NT'now entry 3 of l is 208'
+        SENTENCE_NT'say "After changing entry 3 to 208, L is now [L in brace not'
+        SENTENCE_NT'now entry 1 of l is 1'
+        SENTENCE_NT'now entry 6 of l is 6'
+        SENTENCE_NT'say "After changing the two end entries, L is now [L in brac'
+        SENTENCE_NT'say "These, however, should fail as being out of range."'
+        SENTENCE_NT'now entry 0 of l is 104'
+        SENTENCE_NT'now entry 7 of l is 104'
+        SENTENCE_NT'add 208 to l'
+        SENTENCE_NT'say "L now contains two instances of 208: [L in brace notati'
+        SENTENCE_NT'remove 208 from l'
+        SENTENCE_NT'say "Both of which go after removing this value: [L in brace'
+        SENTENCE_NT'let m be a list of numbers'
+        SENTENCE_NT'add 2 to m'
+        SENTENCE_NT'add 3 to m'
+        SENTENCE_NT'add 5 to m'
+        SENTENCE_NT'add 7 to m'
+        SENTENCE_NT'add 11 to m'
+        SENTENCE_NT'add m to l'
+        SENTENCE_NT'say "Adding [M in brace notation] to L gives [L in brace not'
+        SENTENCE_NT'remove m from l'
+        SENTENCE_NT'say "Removing the same set then gives [L in brace notation].'
+        SENTENCE_NT'extend m to 5 entries'
+        SENTENCE_NT'say "Extending M to 5 entries should not change it: [M in br'
+        SENTENCE_NT'extend m to 7 entries'
+        SENTENCE_NT'say "Extending M to 7 entries should add two 0s: [M in brace'
+        SENTENCE_NT'truncate m to 8 entries'
+        SENTENCE_NT'say "Truncating M to 8 entries should make no difference: [M'
+        SENTENCE_NT'truncate m to 4 entries'
+        SENTENCE_NT'say "Truncating M to 4 entries should change it: [M in brace'
+        SENTENCE_NT'truncate m to the last 2 entries'
+        SENTENCE_NT'say "Truncating M to the last 2 entries should certainly cha'
+        SENTENCE_NT'let n be a list of numbers'
+        SENTENCE_NT'add 7 to n'
+        SENTENCE_NT'add 11 to n'
+        SENTENCE_NT'add 5 to n'
+        SENTENCE_NT'add 16 to n'
+        SENTENCE_NT'add n to m , if absent'
+        SENTENCE_NT'say "Adding [N in brace notation] to M, if absent, gives [M '

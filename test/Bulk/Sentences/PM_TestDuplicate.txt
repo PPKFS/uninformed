@@ -1,0 +1,6 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'test me with "jump"'
+        SENTENCE_NT'test me with "think"'

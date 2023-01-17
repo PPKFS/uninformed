@@ -1,0 +1,5 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'the moon was a planetesimal' {heading 0}
+        SENTENCE_NT'the moon was a planetesimal'
+        SENTENCE_NT'triton had been a kuiper belt object'

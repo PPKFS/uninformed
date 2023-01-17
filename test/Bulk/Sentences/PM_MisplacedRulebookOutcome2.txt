@@ -1,0 +1,6 @@
+Read 17 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to sizzle'
+        SENTENCE_NT'it is unlikely'

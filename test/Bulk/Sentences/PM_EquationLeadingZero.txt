@@ -1,0 +1,6 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let f be given by f = 001 , where f is a number'

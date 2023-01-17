@@ -45,32 +45,32 @@ syntax-test: unexpected semicolon in sentence: rule succeeds
 ROOT_NT
     HEADING_NT'"Chapter 13: An Exercise in Concealment" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 13: An Exercise in Concealment" by emily short'
-        HEADING_NT'chapter 1' {heading 1}
+        HEADING_NT'chapter 1' {heading 4}
             SENTENCE_NT'use command line echoing'
-            HEADING_NT'section 1 - sentence verbs' {heading 2}
+            HEADING_NT'section 1 - sentence verbs' {heading 5}
                 SENTENCE_NT'the spire of hidden objects is a room'
                 SENTENCE_NT'the chaise is a supporter in the spire of hidden objects'
                 SENTENCE_NT'the chaise supports a green pillow'
-            HEADING_NT'section 2 - what sentences are made up from' {heading 2}
-            HEADING_NT'section 3 - what are relations ?' {heading 2}
-            HEADING_NT'section 4 - to carry , to wear , to have' {heading 2}
+            HEADING_NT'section 2 - what sentences are made up from' {heading 5}
+            HEADING_NT'section 3 - what are relations ?' {heading 5}
+            HEADING_NT'section 4 - to carry , to wear , to have' {heading 5}
                 SENTENCE_NT'the player carries a book'
                 SENTENCE_NT'the player wears a watch'
                 SENTENCE_NT'instead of examining something had by the player'
                 SENTENCE_NT'say "That's your favorite [noun]."'
-            HEADING_NT'section 5 - making new relations' {heading 2}
+            HEADING_NT'section 5 - making new relations' {heading 5}
                 SENTENCE_NT'underlying relates various things to one thing'
-            HEADING_NT'section 6 - reciprocal relations' {heading 2}
+            HEADING_NT'section 6 - reciprocal relations' {heading 5}
                 SENTENCE_NT'contacting relates things to each other'
                 SENTENCE_NT'the verb to contact ( he contacts , they contact , he contac'
                 SENTENCE_NT'the pillow contacts the chaise'
                 SENTENCE_NT'instead of pushing something which contacts something'
                 SENTENCE_NT'say "[The noun] moves fractionally with respect to [the rand'
-            HEADING_NT'section 7 - relations in groups' {heading 2}
-            HEADING_NT'section 8 - the built-in verbs and their meanings' {heading 2}
+            HEADING_NT'section 7 - relations in groups' {heading 5}
+            HEADING_NT'section 8 - the built-in verbs and their meanings' {heading 5}
                 SENTENCE_NT'a leg is a kind of thing'
                 SENTENCE_NT'four legs are part of the chaise'
-            HEADING_NT'section 9 - defining new assertion verbs' {heading 2}
+            HEADING_NT'section 9 - defining new assertion verbs' {heading 5}
                 SENTENCE_NT'the verb to underlie ( he underlies , they underlie , he und'
                 SENTENCE_NT'the catalog of exotic cooking supplies underlies the chaise'
                 SENTENCE_NT'the description of the catalog is "Oh, dormice (raised all w'
@@ -87,11 +87,11 @@ ROOT_NT
                 SENTENCE_NT'now the noun underlies the second noun'
                 SENTENCE_NT'report hiding it under'
                 SENTENCE_NT'say "You shove [the noun] out of sight beneath [the second n'
-            HEADING_NT'section 10 - defining new prepositions' {heading 2}
+            HEADING_NT'section 10 - defining new prepositions' {heading 5}
                 SENTENCE_NT'the verb to be under implies the underlying relation'
                 SENTENCE_NT'the gold ball is under the chaise'
                 SENTENCE_NT'the description of the gold ball is "It has an irritating ha'
-            HEADING_NT'section 11 - indirect relations' {heading 2}
+            HEADING_NT'section 11 - indirect relations' {heading 5}
                 SENTENCE_NT'overlooking relates various rooms to various rooms'
                 SENTENCE_NT'the hedge maze , the middle terrace , and the lower terrace '
                 SENTENCE_NT'the spiral maze is scenery in the hedge maze'
@@ -136,7 +136,7 @@ ROOT_NT
                 SENTENCE_NT'carry out distance viewing'
                 SENTENCE_NT'if the noun contains something scenery , say "Off in [the no'
                 SENTENCE_NT'otherwise say "From here it's hard to see much of interest i'
-            HEADING_NT'section 13 - relations that express conditions' {heading 2}
+            HEADING_NT'section 13 - relations that express conditions' {heading 5}
                 SENTENCE_NT'marriage relates one person to another ( called the spouse )'
                 SENTENCE_NT'the verb to be married to implies the marriage relation'
                 SENTENCE_NT'fatherhood relates one person ( called father ) to various p'

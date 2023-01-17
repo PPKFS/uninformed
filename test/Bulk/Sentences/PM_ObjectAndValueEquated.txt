@@ -1,0 +1,6 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'this is a room' {heading 0}
+        SENTENCE_NT'this is a room'
+        SENTENCE_NT'a persuasion is a kind of value'
+        SENTENCE_NT'the persuasion rules are convinced , leaning , and unconvinc'

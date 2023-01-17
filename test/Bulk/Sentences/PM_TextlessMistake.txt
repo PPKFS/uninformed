@@ -1,0 +1,7 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'the gram-schmidt memorial is a room' {heading 0}
+        SENTENCE_NT'the gram-schmidt memorial is a room'
+        SENTENCE_NT'the statue is in the memorial'
+        SENTENCE_NT'understand "look frog" as a mistake of sorts'
+        SENTENCE_NT'understand "look frog" as a mistake ( statue )'

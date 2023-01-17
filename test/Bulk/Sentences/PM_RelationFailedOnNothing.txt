@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'nothing is greater than the player'

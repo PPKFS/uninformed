@@ -1,0 +1,351 @@
+Read 1349 words
+syntax-test: unexpected semicolon in sentence: showme audibility relation
+syntax-test: unexpected semicolon in sentence: showme visibility relation
+syntax-test: unexpected semicolon in sentence: showme the list of people who can see Alice
+syntax-test: unexpected semicolon in sentence: showme the list of people who can hear Alice
+syntax-test: unexpected semicolon in sentence: showme the list of people who can see Diego
+syntax-test: unexpected semicolon in sentence: showme the list of people who can hear Diego
+syntax-test: unexpected semicolon in sentence: showme the list of dialogue choices in the nested decisions beat
+syntax-test: unexpected semicolon in sentence: showme the list of dialogue lines in the test only present speakers beat
+syntax-test: unexpected semicolon in sentence: showme the going active scene
+syntax-test: unexpected semicolon in sentence: showme the list of people who can hear the player
+syntax-test: unexpected semicolon in sentence: make the dialogue director active
+syntax-test: unexpected semicolon in sentence: clear conversational subjects
+syntax-test: unexpected semicolon in sentence: make the dialog director passive
+syntax-test: unexpected semicolon in sentence: showme whether or not the bails beat is available
+syntax-test: unexpected semicolon in sentence: say "Report on completion of [D]."
+syntax-test: unexpected semicolon in sentence: say "[L] is [if L is unperformed]un[end if]performed; [if L is non-recurring]non-[end if]recurring; [if L is unnarrated]un[end if]narrated; [if L is unelaborated]un[end if]elaborated; [if L is unavailable]un[end if]available; [if L is non-verbal]non-[end if]verbal."
+syntax-test: unexpected semicolon in sentence: let N be 1
+syntax-test: unexpected semicolon in sentence: say "(Option [N]) [textual content of C][line break]"
+ROOT_NT
+    HEADING_NT'use command line echoing' {heading 0}
+        SENTENCE_NT'use command line echoing'
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'alice , belle and camilla are women in the laboratory'
+        SENTENCE_NT'east of the laboratory is the annexe'
+        SENTENCE_NT'diego and eric are men in the annexe'
+        SENTENCE_NT'the annexe is dark'
+        SENTENCE_NT'south of the laboratory is the garden'
+        SENTENCE_NT'some stumps , the bat and the ball are in the garden'
+        SENTENCE_NT'fiona is a woman in the garden'
+        SENTENCE_NT'west of the laboratory is the experimental zone'
+        SENTENCE_NT'gharlane and helmuth are men in the zone'
+        SENTENCE_NT'north of the zone is the strongroom'
+        SENTENCE_NT'in the strongroom are a diamond , an emerald and a ruby'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme audibility relation'
+        SENTENCE_NT'showme visibility relation'
+        SENTENCE_NT'showme the list of people who can see alice'
+        SENTENCE_NT'showme the list of people who can hear alice'
+        SENTENCE_NT'showme the list of people who can see diego'
+        SENTENCE_NT'showme the list of people who can hear diego'
+        SENTENCE_NT'showme the list of dialogue choices in the nested decisions '
+        SENTENCE_NT'showme the list of dialogue lines in the test only present s'
+        SENTENCE_NT'showme the going active scene'
+        SENTENCE_NT'showme the going active beat'
+        SENTENCE_NT'instead of jumping'
+        SENTENCE_NT'if dialogue about alice intervenes'
+        SENTENCE_NT'stop the action'
+        SENTENCE_NT'instead of listening'
+        SENTENCE_NT'showme the list of people who can hear the player'
+        SENTENCE_NT'showme the list of people who can be heard by the player'
+        SENTENCE_NT'after going south to the garden'
+        SENTENCE_NT'make the dialogue director active'
+        SENTENCE_NT'clear conversational subjects'
+        SENTENCE_NT'perform the going active beat'
+        SENTENCE_NT'after going north from the garden'
+        SENTENCE_NT'make the dialog director passive'
+        SENTENCE_NT'perform the going inactive beat'
+        SENTENCE_NT'before examining something ( called the objet d'art ) in the'
+        SENTENCE_NT'make the objet d'art a live conversational subject'
+        SENTENCE_NT'every turn when the player is in the garden or the player is'
+        SENTENCE_NT'showme the live conversational subject list'
+        SENTENCE_NT'the lake is east of the garden'
+        SENTENCE_NT'the sea monster and the mermaid are in the lake'
+        SENTENCE_NT'every turn when the player is in the garden'
+        SENTENCE_NT'showme whether or not the bails beat is available'
+        SENTENCE_NT'showme whether or not the bails beat is relevant'
+        SENTENCE_NT'after going to the lake'
+        SENTENCE_NT'alter the live conversational subject list to { sea monster '
+        SENTENCE_NT'to say report on ( d - a dialogue beat )'
+        SENTENCE_NT'say "Report on completion of [D]."'
+        SENTENCE_NT'repeat with l running through dialogue lines in d'
+        SENTENCE_NT'say "[L] is [if L is unperformed]un[end if]performed; [if L '
+        SENTENCE_NT'repeat with c running through dialogue choices in d'
+        SENTENCE_NT'say "[C] is [if C is unperformed]un[end if]performed; [if C '
+        SENTENCE_NT'before performing the one-time line'
+        SENTENCE_NT'say "**** "'
+        SENTENCE_NT'for performing the one-time line'
+        SENTENCE_NT'say "[speaker] languidly (well, in a [style] way) says: '[te'
+        SENTENCE_NT'after performing the one-time line'
+        SENTENCE_NT'say "(Which I think is only to be expected.)"'
+        SENTENCE_NT'before offering a list of dialogue choices ( called l )'
+        SENTENCE_NT'say "(Okay, select from [L] here.)"'
+        SENTENCE_NT'first rule for offering a list of dialogue choices ( called '
+        SENTENCE_NT'let n be 1'
+        SENTENCE_NT'repeat with c running through l'
+        SENTENCE_NT'say "(Option [N]) [textual content of C][line break]"'
+        SENTENCE_NT'increase n by 1'
+        SENTENCE_NT'spoken angrily and spoken softly are performance styles'
+        SENTENCE_NT'after going to the zone'
+        SENTENCE_NT'perform the boskone beat'
+        SENTENCE_NT'after going to the strongroom'
+        SENTENCE_NT'perform the jewellery beat'
+        HEADING_NT'section a ( dialog )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the starting beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the starting beat'
+            DIALOGUE_CHOICE_NT'-> perform the test only present speakers beat' {level 0}
+                DIALOGUE_SELECTION_NT'perform the test only present speakers beat'
+            DIALOGUE_CHOICE_NT'-> perform the test repeated speech beat' {level 0}
+                DIALOGUE_SELECTION_NT'perform the test repeated speech beat'
+            DIALOGUE_CHOICE_NT'-> perform the test repeated speech beat' {level 0}
+                DIALOGUE_SELECTION_NT'perform the test repeated speech beat'
+            DIALOGUE_CHOICE_NT'-> perform the nested decisions beat' {level 0}
+                DIALOGUE_SELECTION_NT'perform the nested decisions beat'
+            DIALOGUE_CUE_NT'( this is the test only present speakers beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the test only present speakers beat'
+            DIALOGUE_LINE_NT'diego ( this is the d1 line ) : "I am Diego, though you'll n' {level 0}
+                DIALOGUE_SPEAKER_NT'diego'
+                DIALOGUE_SPEECH_NT'"I am Diego, though you'll never hear this."'
+                DIALOGUE_CLAUSE_NT'this is the d1 line'
+            DIALOGUE_LINE_NT'alice ( this is the a1 line ; to belle ) : "I am [speaker], ' {level 0}
+                DIALOGUE_SPEAKER_NT'alice'
+                DIALOGUE_SPEECH_NT'"I am [speaker], talking to [interlocutor]."'
+                DIALOGUE_CLAUSE_NT'this is the a1 line'
+                DIALOGUE_CLAUSE_NT'to belle'
+            DIALOGUE_LINE_NT'belle ( this is the b1 line ; recurring ) : "I am Belle."' {level 1}
+                DIALOGUE_SPEAKER_NT'belle'
+                DIALOGUE_SPEECH_NT'"I am Belle."'
+                DIALOGUE_CLAUSE_NT'this is the b1 line'
+                DIALOGUE_CLAUSE_NT'recurring'
+            DIALOGUE_LINE_NT'diego ( this is the d2 line ; if 1 is 2 ) : "I am always 'Di' {level 2}
+                DIALOGUE_SPEAKER_NT'diego'
+                DIALOGUE_SPEECH_NT'"I am always 'Diego' you know."'
+                DIALOGUE_CLAUSE_NT'this is the d2 line'
+                DIALOGUE_CLAUSE_NT'if 1 is 2'
+            DIALOGUE_LINE_NT'eric ( to alice ; without speaking ; this is the e1 line ) :' {level 1}
+                DIALOGUE_SPEAKER_NT'eric'
+                DIALOGUE_SPEECH_NT'"Eric points insulting at Alice."'
+                DIALOGUE_CLAUSE_NT'to alice'
+                DIALOGUE_CLAUSE_NT'without speaking'
+                DIALOGUE_CLAUSE_NT'this is the e1 line'
+            DIALOGUE_LINE_NT'alice ( this is the a2 line ) : "Still Alice."' {level 2}
+                DIALOGUE_SPEAKER_NT'alice'
+                DIALOGUE_SPEECH_NT'"Still Alice."'
+                DIALOGUE_CLAUSE_NT'this is the a2 line'
+            DIALOGUE_LINE_NT'narration ( this is the reporting narration line ) : "[repor' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"[report on the test only present speakers beat]"'
+                DIALOGUE_CLAUSE_NT'this is the reporting narration line'
+        HEADING_NT'section b ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the test repeated speech beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the test repeated speech beat'
+            DIALOGUE_LINE_NT'alice ( this is the one-time line ; angrily ) : "I tell you ' {level 0}
+                DIALOGUE_SPEAKER_NT'alice'
+                DIALOGUE_SPEECH_NT'"I tell you just once, I am Alice."'
+                DIALOGUE_CLAUSE_NT'this is the one-time line'
+                DIALOGUE_CLAUSE_NT'angrily'
+            DIALOGUE_LINE_NT'belle ( recurring ) : "I tell you as often as necessary, I a' {level 0}
+                DIALOGUE_SPEAKER_NT'belle'
+                DIALOGUE_SPEECH_NT'"I tell you as often as necessary, I am Alice."'
+                DIALOGUE_CLAUSE_NT'recurring'
+            DIALOGUE_CUE_NT'( this is the nested decisions beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the nested decisions beat'
+            DIALOGUE_CHOICE_NT'-- ( this is the gouda choice ) "My favourite cheese is vint' {level 0}
+                DIALOGUE_SELECTION_NT'"My favourite cheese is vintage gouda."'
+                DIALOGUE_CLAUSE_NT'this is the gouda choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the white seedless choice ) "My preferred grape' {level 1}
+                DIALOGUE_SELECTION_NT'"My preferred grapes are white seedless."'
+                DIALOGUE_CLAUSE_NT'this is the white seedless choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the red choice ) "My preferred grapes are red."' {level 1}
+                DIALOGUE_SELECTION_NT'"My preferred grapes are red."'
+                DIALOGUE_CLAUSE_NT'this is the red choice'
+            DIALOGUE_CHOICE_NT'-> another choice' {level 1}
+                DIALOGUE_SELECTION_NT'another choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the rioja choice ) "My preferred wine is Rioja.' {level 1}
+                DIALOGUE_SELECTION_NT'"My preferred wine is Rioja."'
+                DIALOGUE_CLAUSE_NT'this is the rioja choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the shiraz choice ) "My preferred wine is Shira' {level 1}
+                DIALOGUE_SELECTION_NT'"My preferred wine is Shiraz."'
+                DIALOGUE_CLAUSE_NT'this is the shiraz choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the camembert choice ) "My favourite cheese is ' {level 0}
+                DIALOGUE_SELECTION_NT'"My favourite cheese is camembert."'
+                DIALOGUE_CLAUSE_NT'this is the camembert choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the white seeded choice ) "My preferred grapes ' {level 1}
+                DIALOGUE_SELECTION_NT'"My preferred grapes are white yet seeded."'
+                DIALOGUE_CLAUSE_NT'this is the white seeded choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the black choice ) "My preferred grapes are bla' {level 1}
+                DIALOGUE_SELECTION_NT'"My preferred grapes are black."'
+                DIALOGUE_CLAUSE_NT'this is the black choice'
+            DIALOGUE_CHOICE_NT'-- ( this is the poison choice ) "My preferred grapes are ar' {level 1}
+                DIALOGUE_SELECTION_NT'"My preferred grapes are arsenic-laced."'
+                DIALOGUE_CLAUSE_NT'this is the poison choice'
+            DIALOGUE_CHOICE_NT'-> end the story saying "Then you deserve all you get"' {level 2}
+                DIALOGUE_SELECTION_NT'end the story saying "Then you deserve all you get"'
+            DIALOGUE_LINE_NT'narration : "You would appear to have selected: [list of per' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"You would appear to have selected: [list of performed dialo'
+            DIALOGUE_LINE_NT'narration : "[report on the nested decisions beat]"' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"[report on the nested decisions beat]"'
+            DIALOGUE_CUE_NT'( this is the going active scene . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the going active scene'
+            DIALOGUE_LINE_NT'narration : "Bong! The director activity chime goes off."' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Bong! The director activity chime goes off."'
+            DIALOGUE_CUE_NT'( this is the going inactive beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the going inactive beat'
+            DIALOGUE_LINE_NT'narration : "Gnob! The director activity chime sounds in rev' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Gnob! The director activity chime sounds in reverse."'
+        HEADING_NT'section c ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about alice ; recurring ; requiring nothing . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about alice'
+                DIALOGUE_CLAUSE_NT'recurring'
+                DIALOGUE_CLAUSE_NT'requiring nothing'
+            DIALOGUE_LINE_NT'alice : "I am self-explanatory."' {level 0}
+                DIALOGUE_SPEAKER_NT'alice'
+                DIALOGUE_SPEECH_NT'"I am self-explanatory."'
+            DIALOGUE_CHOICE_NT'-> stop' {level 1}
+                DIALOGUE_SELECTION_NT'stop'
+            DIALOGUE_LINE_NT'diego : "Alice is kind of exhausting."' {level 0}
+                DIALOGUE_SPEAKER_NT'diego'
+                DIALOGUE_SPEECH_NT'"Alice is kind of exhausting."'
+            DIALOGUE_CUE_NT'( about the bat and ball . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about the bat and ball'
+            DIALOGUE_LINE_NT'fiona ( after taking the bat ) : "The bat is willow and the ' {level 0}
+                DIALOGUE_SPEAKER_NT'fiona'
+                DIALOGUE_SPEECH_NT'"The bat is willow and the ball is cork, I think."'
+                DIALOGUE_CLAUSE_NT'after taking the bat'
+            DIALOGUE_CUE_NT'( about the ball . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about the ball'
+            DIALOGUE_LINE_NT'fiona ( mentioning the bat and the stumps ) : "The idea's to' {level 0}
+                DIALOGUE_SPEAKER_NT'fiona'
+                DIALOGUE_SPEECH_NT'"The idea's to use the bat to defend the stumps."'
+                DIALOGUE_CLAUSE_NT'mentioning the bat and the stumps'
+            DIALOGUE_CUE_NT'( about the stumps . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about the stumps'
+            DIALOGUE_LINE_NT'fiona ( before the player taking the stumps ) : "There are t' {level 0}
+                DIALOGUE_SPEAKER_NT'fiona'
+                DIALOGUE_SPEECH_NT'"There are three of them, for some reason."'
+                DIALOGUE_CLAUSE_NT'before the player taking the stumps'
+            DIALOGUE_CUE_NT'( next ; about the stumps . this is the bails beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'next'
+                DIALOGUE_CLAUSE_NT'about the stumps'
+                DIALOGUE_CLAUSE_NT'this is the bails beat'
+            DIALOGUE_LINE_NT'fiona : "I suppose that's what you need to hold up two bails' {level 0}
+                DIALOGUE_SPEAKER_NT'fiona'
+                DIALOGUE_SPEECH_NT'"I suppose that's what you need to hold up two bails."'
+            DIALOGUE_CUE_NT'( spontaneous . recurring . requiring fiona . )' {level 0}
+                DIALOGUE_CLAUSE_NT'spontaneous'
+                DIALOGUE_CLAUSE_NT'recurring'
+                DIALOGUE_CLAUSE_NT'requiring fiona'
+            DIALOGUE_LINE_NT'narration ( recurring ) : "There is an awkward pause."' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"There is an awkward pause."'
+                DIALOGUE_CLAUSE_NT'recurring'
+            DIALOGUE_LINE_NT'a woman : "Sometimes I just wanna talk, you know?"' {level 0}
+                DIALOGUE_SPEAKER_NT'a woman'
+                DIALOGUE_SPEECH_NT'"Sometimes I just wanna talk, you know?"'
+            DIALOGUE_CUE_NT'( about the mermaid . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about the mermaid'
+            DIALOGUE_LINE_NT'sea monster : "Blubbble."' {level 0}
+                DIALOGUE_SPEAKER_NT'sea monster'
+                DIALOGUE_SPEECH_NT'"Blubbble."'
+            DIALOGUE_CUE_NT'( later ; about the mermaid . )' {level 0}
+                DIALOGUE_CLAUSE_NT'later'
+                DIALOGUE_CLAUSE_NT'about the mermaid'
+            DIALOGUE_LINE_NT'sea monster : "Splish."' {level 0}
+                DIALOGUE_SPEAKER_NT'sea monster'
+                DIALOGUE_SPEECH_NT'"Splish."'
+        HEADING_NT'section c ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the alien landing scene . if the apple is off-stag' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the alien landing scene'
+                DIALOGUE_CLAUSE_NT'if the apple is off-stage'
+            DIALOGUE_LINE_NT'alice : "I see an alien landed today."' {level 0}
+                DIALOGUE_SPEAKER_NT'alice'
+                DIALOGUE_SPEECH_NT'"I see an alien landed today."'
+            DIALOGUE_CHOICE_NT'-- before looking' {level 0}
+                DIALOGUE_SELECTION_NT'before looking'
+            DIALOGUE_LINE_NT'alice : "No, I couldn't see it either."' {level 1}
+                DIALOGUE_SPEAKER_NT'alice'
+                DIALOGUE_SPEECH_NT'"No, I couldn't see it either."'
+            DIALOGUE_CHOICE_NT'-- otherwise' {level 0}
+                DIALOGUE_SELECTION_NT'otherwise'
+            DIALOGUE_LINE_NT'alice ( softly ) : "Aren't you curious?"' {level 1}
+                DIALOGUE_SPEAKER_NT'alice'
+                DIALOGUE_SPEECH_NT'"Aren't you curious?"'
+                DIALOGUE_CLAUSE_NT'softly'
+            DIALOGUE_CUE_NT'( this is the fourth wall breaker beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the fourth wall breaker beat'
+            DIALOGUE_LINE_NT'narration : "This is all just fiction."' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"This is all just fiction."'
+        HEADING_NT'section d' {heading 5}
+            SENTENCE_NT'an alien-summoning apple is in the laboratory'
+            SENTENCE_NT'the apple is edible'
+            SENTENCE_NT'the alien landing scene begins when the apple is off-stage'
+            SENTENCE_NT'a status board is in the laboratory'
+            SENTENCE_NT'instead of examining the status board'
+            SENTENCE_NT'repeat with b running through dialogue beats'
+            SENTENCE_NT'say "[B] is [if B is unperformed]un[end if]performed;
+            [if B '
+        HEADING_NT'section e' {heading 5}
+            SENTENCE_NT'performing is an action out of world applying to one dialogu'
+            SENTENCE_NT'carry out performing'
+            SENTENCE_NT'perform the dialogue beat understood'
+            SENTENCE_NT'understand "perform [dialogue beat]" as performing'
+        HEADING_NT'section f ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the boskone beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the boskone beat'
+            DIALOGUE_LINE_NT'helmuth : "Are you, or are you in league with, Star A Star o' {level 0}
+                DIALOGUE_SPEAKER_NT'helmuth'
+                DIALOGUE_SPEECH_NT'"Are you, or are you in league with, Star A Star of the Gala'
+            DIALOGUE_CHOICE_NT'-- "No."' {level 0}
+                DIALOGUE_SELECTION_NT'"No."'
+            DIALOGUE_LINE_NT'gharlane : "A likely story."' {level 1}
+                DIALOGUE_SPEAKER_NT'gharlane'
+                DIALOGUE_SPEECH_NT'"A likely story."'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- "I don't know who that is."' {level 0}
+                DIALOGUE_SELECTION_NT'"I don't know who that is."'
+            DIALOGUE_LINE_NT'gharlane : "A mere worm."' {level 1}
+                DIALOGUE_SPEAKER_NT'gharlane'
+                DIALOGUE_SPEECH_NT'"A mere worm."'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- ( if the current choice list is empty ) "Admit frankly th' {level 0}
+                DIALOGUE_SELECTION_NT'"Admit frankly that you've run out of answers."'
+                DIALOGUE_CLAUSE_NT'if the current choice list is empty'
+            DIALOGUE_LINE_NT'gharlane : "Well, I've always respected honesty."' {level 1}
+                DIALOGUE_SPEAKER_NT'gharlane'
+                DIALOGUE_SPEECH_NT'"Well, I've always respected honesty."'
+            DIALOGUE_LINE_NT'narration ( now gharlane is nowhere ; now helmuth is nowhere' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"The Boskonians vanish."'
+                DIALOGUE_CLAUSE_NT'now gharlane is nowhere'
+                DIALOGUE_CLAUSE_NT'now helmuth is nowhere'
+        HEADING_NT'section g ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the jewellery beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the jewellery beat'
+            DIALOGUE_LINE_NT'narration : "Now try taking these three baubles."' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Now try taking these three baubles."'
+            DIALOGUE_CHOICE_NT'-- before taking the diamond' {level 0}
+                DIALOGUE_SELECTION_NT'before taking the diamond'
+            DIALOGUE_LINE_NT'narration : "I think not."' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"I think not."'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- instead of taking the emerald' {level 0}
+                DIALOGUE_SELECTION_NT'instead of taking the emerald'
+            DIALOGUE_LINE_NT'narration ( now the player has the emerald ) : "You somehow ' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"You somehow filch it."'
+                DIALOGUE_CLAUSE_NT'now the player has the emerald'
+            DIALOGUE_CHOICE_NT'<-' {level 1}
+            DIALOGUE_CHOICE_NT'-- after taking the ruby' {level 0}
+                DIALOGUE_SELECTION_NT'after taking the ruby'
+            DIALOGUE_LINE_NT'narration : "Very good."' {level 1}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"Very good."'
+            DIALOGUE_CHOICE_NT'<-' {level 1}

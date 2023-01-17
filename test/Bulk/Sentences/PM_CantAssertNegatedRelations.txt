@@ -1,0 +1,8 @@
+Read 61 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'peter and jane are in the laboratory'
+        SENTENCE_NT'amity relates various people to various people'
+        SENTENCE_NT'the verb to like ( he likes , they like , it is liked , he i'
+        SENTENCE_NT'daphne is a woman who does not like peter'

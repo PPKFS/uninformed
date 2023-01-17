@@ -1,0 +1,7 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'mathematical laboratory is a room' {heading 0}
+        SENTENCE_NT'mathematical laboratory is a room'
+        SENTENCE_NT'table of splodge type ( rule ) living the evil rule'
+        SENTENCE_NT'this is the evil rule'
+        SENTENCE_NT'say "Pretty evil, huh?"'

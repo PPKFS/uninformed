@@ -1,0 +1,5 @@
+Read 9 words
+syntax-test: paragraph ends with a colon: Rog is a room:
+ROOT_NT
+    HEADING_NT'rog is a room' {heading 0}
+        SENTENCE_NT'rog is a room'

@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'the spotlight is a room' {heading 0}
+        SENTENCE_NT'the spotlight is a room'
+        SENTENCE_NT'at the time when supply of the air tank is -4'
+        SENTENCE_NT'say "You have suffocated."'

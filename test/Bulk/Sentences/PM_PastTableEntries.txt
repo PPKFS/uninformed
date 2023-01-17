@@ -1,0 +1,8 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'table of mysteries jewel 12 7'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat through the table of mysteries'
+        SENTENCE_NT'if the jewel entry was 12 , say "Hello."'

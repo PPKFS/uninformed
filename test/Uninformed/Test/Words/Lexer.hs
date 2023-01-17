@@ -1,98 +1,38 @@
 module Uninformed.Test.Words.Lexer
-  ( parseExemplar
-  , compareLexerInfo
+  ( compareLexerInfo
   , getLexerInfo
+  , checkLexing
   ) where
 
 
-import Prelude hiding ( Word )
+import Uninformed.Prelude
+
+import Data.Aeson
+import System.FilePath ( (-<.>), (</>) )
 
 import Test.Tasty.HUnit ( (@=?), assertEqual, Assertion )
 
-import Text.Megaparsec
-import Text.Megaparsec.Char ( string, string' )
-import Text.Megaparsec.Char.Lexer ( decimal )
-
-import Uninformed.Words.Lexer
-import Uninformed.Words.Vocabulary
-import qualified Data.Set as S
-import qualified Data.Text as T
+import Uninformed.Pipeline
+import Uninformed.Words.Lexer.Types ( Whitespace, Word(Word) )
 import Uninformed.Words.TextFromFiles
+import Uninformed.Words.Vocabulary ( VocabType, lowerVocabType )
 
-anyWords :: Parsec Void Text [VocabType]
-anyWords = manyTill (do
-  w <- anyWord True
-  single ' '
-  return w) (single '\n')
+newtype LexerInfo = LexerInfo
+  { individualEntries :: [(VocabType, VocabType, Whitespace)]
+  } deriving stock (Eq, Show, Generic)
+  deriving anyclass (ToJSON, FromJSON)
 
-anyWord :: Bool -> Parsec Void Text VocabType
-anyWord inDistinct = do
-  single '¶'
-  choice
-    [  StringLit <$> (do
-          single '"'
-          r <- takeWhileP Nothing (/= '"')
-          single '"'
-          single '¶'
-          pure $ T.replace (one '\DEL') "\n" r
-          ),
-        I6 <$> (do
-          string "(-"
-          t' <- toText <$> manyTill anySingle (single '¶')
-          t <- ("" <$ guard inDistinct) <|> (do
-            takeWhile1P Nothing (/= '\n')
-            single '\n'
-            single '¶'
-            toText <$> manyTill anySingle (single '¶')
-            )
-          pure $ t' <> t
-          ),
-        ParagraphBreak <$ (string "|__" >> single '¶'),
-        OrdinaryWord <$> (toText <$> manyTill anySingle (single '¶'))
-    ]
-
-dropEnd :: Int -> [a] -> [a]
-dropEnd i xs
-    | i <= 0 = xs
-    | otherwise = f xs (drop i xs)
-    where f (x:xs') (_:ys) = x : f xs' ys
-          f _ _ = []
-
-parseExemplar :: Parsec Void Text LexerInfo
-parseExemplar = do
-  (numWords :: Int) <- decimal
-  string' " words\n"
-  lexSet <- anyWords
-
-  (numDistinctWords :: Int) <- decimal
-  string' " distinct words\n"
-  eachEntry <- manyTill (do
-    actualToken <- anyWord False
-    single ' '
-    normalised <- anyWord False
-    single ' '
-    precSpace <- toString <$> takeWhile1P Nothing (/= '\n')
-    single '\n'
-    let (a, n) = case (actualToken, normalised) of
-          (I6 x, OrdinaryWord _) -> (I6 x, I6 x)
-          z -> z
-    return (a, n, case precSpace of
-      "09" -> Tab
-      "20" -> Space
-      "0a" -> Newline
-      x -> maybe (error $ "unexpected spacetype: " <> show x) (\x' -> TabIndent $ x' - 64) $ readMaybe $ "0x" ++ x)) eof
-
-  pure $ LexerInfo numWords (fromList lexSet) numDistinctWords eachEntry
-
-data LexerInfo = LexerInfo
-  { totalWords :: Int
-  , distinctWordSet :: Set VocabType
-  , totalDistinct :: Int
-  , individualEntries :: [(VocabType, VocabType, Whitespace)]
-  } deriving stock (Eq, Show)
+checkLexing :: Bool -> PipelineOutput 'LexingStage -> FilePath -> IO ()
+checkLexing False (sf, _) fp = do
+  fileContents <- decodeFileStrict' . (\x -> "test/Bulk/Lexer" </> x -<.> "json") $ fp
+  case fileContents of
+    Nothing -> error $ "Could not parse golden file" <> toText fp
+    Just e -> compareLexerInfo e $ getLexerInfo sf
+checkLexing True (sf, _) fp = do
+  encodeFile ("test/Bulk/Lexer" </> fp -<.> "json") (getLexerInfo sf)
 
 compareLexerInfo :: LexerInfo -> LexerInfo -> Assertion
-compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe) = do
+compareLexerInfo (LexerInfo eIe) (LexerInfo rIe) = do
   let cmp = zip3 eIe rIe ([1..] :: [Integer])
   mapM_ (\(x, y, z) -> assertEqual (show z) x y) cmp
   -- todo: currently we ignore the 'raw' number comparisons because we treat literals as the same
@@ -103,17 +43,8 @@ compareLexerInfo (LexerInfo _eTw _eDws _eTd eIe) (LexerInfo _rTw _rDws _rTd rIe)
   --S.difference rDws eDws @?= S.empty
   --eTd @=? rTd
 
-getLexerInfo :: SourceFile [InformWord] -> LexerInfo
-getLexerInfo sf@SourceFile{sourceFileData = wl} =
-  let (wordSet :: Set VocabType) = fromList . toList $ map (\(InformWord _ w _) -> lowerVocabType w) wl in
-    LexerInfo
-      { totalWords = sourceFileRawWordCount sf
-      , totalDistinct = S.size wordSet
-      , distinctWordSet = wordSet
-      , individualEntries = toList $ map (\(InformWord _ w ps) -> (w, lowerVocabType w, ps)) wl
+getLexerInfo :: SourceFile [Word] -> LexerInfo
+getLexerInfo SourceFile{sourceFileData = wl} =
+  LexerInfo
+      { individualEntries = toList $ map (\(Word _ w ps) -> (w, lowerVocabType w, ps)) wl
       }
-{-
-manualSpec :: IO TestTree
-manualSpec = runGoldenSuite "Lexer Problems" "test/Uninformed/Test/Words/Manual"
-  (Proxy @'LexingStage) (pure . encodeUtf8 . mconcat . map display . sourceFileData . fst)
--}

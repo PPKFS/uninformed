@@ -1,0 +1,9 @@
+Read 27 words
+syntax-test: unexpected semicolon in sentence: let x be zero
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be zero'
+        SENTENCE_NT'if x is'
+        SENTENCE_NT'-- 0 say "Okay."'

@@ -1,0 +1,9 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'"Foo" by bar' {heading 0}
+        SENTENCE_NT'"Foo" by bar'
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'to flob ( n - any number )'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'flob 4'

@@ -1,0 +1,5 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'boing is a room' {heading 0}
+        SENTENCE_NT'boing is a room'
+        SENTENCE_NT'"This is Boing, the leading pet shop[purely at random] in th'

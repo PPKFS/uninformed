@@ -5,7 +5,7 @@ ROOT_NT
         SENTENCE_NT'schloss parserhof is a room'
         SENTENCE_NT'"Begun by Mad King Ludwig in 1878, this grand foyer was
         proj'
-        HEADING_NT'section 1 - discard undo testing' {heading 2}
+        HEADING_NT'section 1 - discard undo testing' {heading 5}
             SENTENCE_NT'the discard undo testing place is a room south of the schlos'
             SENTENCE_NT'the bottle is here'
             SENTENCE_NT'the bottle can be broken or unbroken'
@@ -13,7 +13,7 @@ ROOT_NT
             SENTENCE_NT'instead of attacking the unbroken bottle'
             SENTENCE_NT'say "Smash!"'
             SENTENCE_NT'now the bottle is broken'
-        HEADING_NT'section 2 - too few error testing' {heading 2}
+        HEADING_NT'section 2 - too few error testing' {heading 5}
             SENTENCE_NT'a cube is a kind of thing'
             SENTENCE_NT'the pea-green boat is a room south of the discard undo testi'
             SENTENCE_NT'the owl and the pussycat are in the pea-green boat'

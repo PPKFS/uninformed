@@ -1,0 +1,7 @@
+Read 35 words
+ROOT_NT
+    HEADING_NT'a tree is a kind of thing' {heading 0}
+        SENTENCE_NT'a tree is a kind of thing'
+        SENTENCE_NT'a tree is either living or dead'
+        SENTENCE_NT'the description of a tree is "A [tree condition] tree"'
+        SENTENCE_NT'the forest is a room'

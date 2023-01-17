@@ -1,0 +1,4 @@
+Read 8 words
+ROOT_NT
+    HEADING_NT'open is 100' {heading 0}
+        SENTENCE_NT'open is 100'

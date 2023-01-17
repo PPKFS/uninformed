@@ -1,0 +1,24 @@
+Read 103 words
+syntax-test: unexpected semicolon in sentence: let A0 be the player
+syntax-test: unexpected semicolon in sentence: let A1 be the player
+syntax-test: unexpected semicolon in sentence: let A2 be the player
+syntax-test: unexpected semicolon in sentence: let A3 be the player
+syntax-test: unexpected semicolon in sentence: let A4 be the player
+syntax-test: unexpected semicolon in sentence: let A5 be the player
+syntax-test: unexpected semicolon in sentence: let A6 be the player
+syntax-test: unexpected semicolon in sentence: let A7 be the player
+syntax-test: unexpected semicolon in sentence: let A8 be the player
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'to zog'
+        SENTENCE_NT'let a0 be the player'
+        SENTENCE_NT'let a1 be the player'
+        SENTENCE_NT'let a2 be the player'
+        SENTENCE_NT'let a3 be the player'
+        SENTENCE_NT'let a4 be the player'
+        SENTENCE_NT'let a5 be the player'
+        SENTENCE_NT'let a6 be the player'
+        SENTENCE_NT'let a7 be the player'
+        SENTENCE_NT'let a8 be the player'
+        SENTENCE_NT'if every room encloses a thing that is a0 that is a1 that is'

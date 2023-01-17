@@ -64,7 +64,7 @@ syntax-test: unexpected semicolon in sentence: say "Alison puts a cookie on a pl
 ROOT_NT
     HEADING_NT'"Chapter 6: Return of the Fussy Table" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 6: Return of the Fussy Table" by emily short'
-        HEADING_NT'chapter 6' {heading 1}
+        HEADING_NT'chapter 6' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'use scoring'
             SENTENCE_NT'the kitchen is a room'
@@ -82,7 +82,7 @@ ROOT_NT
             SENTENCE_NT'the description of the blue suede is "Quiet, mellow, and wit'
             SENTENCE_NT'the red velvet has the description "In temperament, in beari'
             SENTENCE_NT'the carrying capacity of the player is 2'
-            HEADING_NT'section 3 - sources of adjectives' {heading 2}
+            HEADING_NT'section 3 - sources of adjectives' {heading 5}
                 SENTENCE_NT'a thing can be drippy or dry'
                 SENTENCE_NT'before printing the name of a drippy thing'
                 SENTENCE_NT'say "drippy "'
@@ -115,7 +115,7 @@ ROOT_NT
                 SENTENCE_NT'say "[The noun] meets [the second noun]; both shriek in pain'
                 SENTENCE_NT'now the heat of the noun is luke-warm'
                 SENTENCE_NT'now the heat of the second noun is luke-warm'
-            HEADING_NT'section 4 - defining new adjectives' {heading 2}
+            HEADING_NT'section 4 - defining new adjectives' {heading 5}
                 SENTENCE_NT'definition'
                 SENTENCE_NT'a supporter is occupied if something is on it'
                 SENTENCE_NT'definition'
@@ -128,7 +128,7 @@ ROOT_NT
                 SENTENCE_NT'the ceramic tile is concerned if something spiky is on it'
                 SENTENCE_NT'definition'
                 SENTENCE_NT'a room is concerned if something drippy is in it or somethin'
-            HEADING_NT'section 5 - which and who' {heading 2}
+            HEADING_NT'section 5 - which and who' {heading 5}
                 SENTENCE_NT'an every turn rule'
                 SENTENCE_NT'if something ( called the offending item ) on the table is d'
                 SENTENCE_NT'if something ( called the offending item ) on the red chair '
@@ -149,7 +149,7 @@ ROOT_NT
                 SENTENCE_NT'an every turn rule when the player is in the dining room'
                 SENTENCE_NT'if the table supports something which supports a drippy thin'
                 SENTENCE_NT'if the velvet chair supports a concerned thing ( called the '
-            HEADING_NT'section 6 - to be able to see and touch' {heading 2}
+            HEADING_NT'section 6 - to be able to see and touch' {heading 5}
                 SENTENCE_NT'an every turn rule'
                 SENTENCE_NT'if the concerned table can see a supporter ( called the obje'
                 SENTENCE_NT'an every turn rule'
@@ -164,7 +164,7 @@ ROOT_NT
                 SENTENCE_NT'if something ( called the threatening heat source ) which ca'
                 SENTENCE_NT'an every turn rule'
                 SENTENCE_NT'if something ( called the threatening spike source ) which c'
-            HEADING_NT'section 7 - adjacent rooms' {heading 2}
+            HEADING_NT'section 7 - adjacent rooms' {heading 5}
                 SENTENCE_NT'instead of going to an adjacent room when the player is in t'
                 SENTENCE_NT'say "'You're not leaving!?' whimpers the table at once."'
                 SENTENCE_NT'alison is a woman in the kitchen'
@@ -210,7 +210,7 @@ ROOT_NT
                 SENTENCE_NT'teleporting to is an action applying to one thing'
                 SENTENCE_NT'carry out teleporting to'
                 SENTENCE_NT'move the player to the noun'
-            HEADING_NT'section 8 - all , each and every' {heading 2}
+            HEADING_NT'section 8 - all , each and every' {heading 5}
                 SENTENCE_NT'an every turn rule'
                 SENTENCE_NT'if platter is carried by alison and the player is in the din'
                 SENTENCE_NT'let the next victim be the red velvet chair'
@@ -232,7 +232,7 @@ ROOT_NT
                 SENTENCE_NT'if the location is concerned , decrease the score by 1'
                 SENTENCE_NT'if all of the supporters are concerned and the location is c'
                 SENTENCE_NT'if none of the supporters are concerned and the location is '
-            HEADING_NT'section 9 - counting while comparing' {heading 2}
+            HEADING_NT'section 9 - counting while comparing' {heading 5}
                 SENTENCE_NT'a plate is a kind of supporter'
                 SENTENCE_NT'a plate is portable'
                 SENTENCE_NT'ten plates are in the kitchen'

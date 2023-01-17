@@ -1,0 +1,5 @@
+Read 35 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'equation 2 f = ( f = ma ) where f is a number , m is a numbe'

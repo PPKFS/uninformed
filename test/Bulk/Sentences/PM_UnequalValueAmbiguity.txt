@@ -1,0 +1,11 @@
+Read 78 words
+ROOT_NT
+    HEADING_NT'atrium is a room' {heading 0}
+        SENTENCE_NT'atrium is a room'
+        SENTENCE_NT'the dummy is a thing that varies'
+        SENTENCE_NT'to splodge dummy at ( x - a person ) for ( n - a number )'
+        SENTENCE_NT'say "A."'
+        SENTENCE_NT'to splodge ( y - a person ) at ( x - a person ) for ( n - a '
+        SENTENCE_NT'say "B."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'splodge dummy at the dummy for 10'

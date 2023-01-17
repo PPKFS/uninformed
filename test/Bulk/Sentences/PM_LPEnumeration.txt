@@ -1,0 +1,7 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'red and blue are colours'
+        SENTENCE_NT'16:9 specifies a colour'

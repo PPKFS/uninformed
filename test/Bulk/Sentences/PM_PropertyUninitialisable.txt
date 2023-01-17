@@ -1,0 +1,6 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'colour is a kind of value' {heading 0}
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the taj mahal is a room'
+        SENTENCE_NT'a room has a colour called hue'

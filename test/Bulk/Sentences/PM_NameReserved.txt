@@ -1,0 +1,8 @@
+Read 35 words
+ROOT_NT
+    HEADING_NT'the kitchen is a room' {heading 0}
+        SENTENCE_NT'the kitchen is a room'
+        SENTENCE_NT'storage is a kind of thing'
+        SENTENCE_NT'foo is a storage'
+        SENTENCE_NT'to bar ( x - storage )'
+        SENTENCE_NT'do nothing'

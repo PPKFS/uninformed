@@ -1,0 +1,7 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'the cabinet is a container in the burrow'
+        SENTENCE_NT'rule for reaching inside the cobinot'
+        SENTENCE_NT'say "Gosh! With that spelling?"'

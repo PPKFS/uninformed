@@ -1,0 +1,6 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'the world is a room' {heading 0}
+        SENTENCE_NT'the world is a room'
+        SENTENCE_NT'a food is a kind of thing that is edible'
+        SENTENCE_NT'the carrying capacity is not 1'

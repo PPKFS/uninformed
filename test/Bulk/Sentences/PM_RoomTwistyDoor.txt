@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'a doorway is a door' {heading 0}
+        SENTENCE_NT'a doorway is a door'
+        SENTENCE_NT'it is west from the treasure room'
+        SENTENCE_NT'the passageway is east from the doorway'

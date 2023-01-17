@@ -1,0 +1,9 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'the empty room is a room' {heading 0}
+        SENTENCE_NT'the empty room is a room'
+        SENTENCE_NT'this is the foo rule'
+        SENTENCE_NT'say "foo"'
+        SENTENCE_NT'this is the bar rule'
+        SENTENCE_NT'say "bar"'
+        SENTENCE_NT'the bar rule is listed after the foo rule in the every turn '

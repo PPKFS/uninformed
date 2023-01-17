@@ -11,7 +11,7 @@ syntax-test: unexpected semicolon in sentence: say "You turn to [the second noun
 ROOT_NT
     HEADING_NT'"Chapter 16: Probe Droid" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 16: Probe Droid" by emily short'
-        HEADING_NT'chapter 1' {heading 1}
+        HEADING_NT'chapter 1' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'colour is a kind of value'
             SENTENCE_NT'the colours are white , red , blue and green'
@@ -23,21 +23,21 @@ ROOT_NT
             SENTENCE_NT'in the vault is a diamond of unusual brilliance and size'
             SENTENCE_NT'instead of examining the vault'
             SENTENCE_NT'say "The vault's system includes [a list of things which are'
-            HEADING_NT'section 1 - understand' {heading 2}
+            HEADING_NT'section 1 - understand' {heading 5}
                 SENTENCE_NT'recording is an action applying to one visible thing and req'
                 SENTENCE_NT'understand "record [something]" as recording'
                 SENTENCE_NT'carry out recording'
                 SENTENCE_NT'say "You note down the characteristics of [the noun] for fut'
-            HEADING_NT'section 2 - new commands for old grammar' {heading 2}
+            HEADING_NT'section 2 - new commands for old grammar' {heading 5}
                 SENTENCE_NT'understand the command "photograph" as "record"'
                 SENTENCE_NT'understand the command "contemplate" as "examine"'
-            HEADING_NT'section 3 - overriding existing commands' {heading 2}
+            HEADING_NT'section 3 - overriding existing commands' {heading 5}
                 SENTENCE_NT'understand the command "throw" as something new'
                 SENTENCE_NT'understand "throw [something preferably held]" as flinging'
                 SENTENCE_NT'flinging is an action applying to one carried thing'
                 SENTENCE_NT'carry out flinging'
                 SENTENCE_NT'say "You hurl [the noun] at the wall but it bounces back to '
-            HEADING_NT'section 4 - other standard tokens of grammar' {heading 2}
+            HEADING_NT'section 4 - other standard tokens of grammar' {heading 5}
                 SENTENCE_NT'understand "examine [things]" as multiply examining'
                 SENTENCE_NT'understand "view [things]" as multiply examining'
                 SENTENCE_NT'multiply examining is an action applying to one visible thin'
@@ -49,12 +49,12 @@ ROOT_NT
                 SENTENCE_NT'say "You stir up [the noun]."'
                 SENTENCE_NT'the player is carrying a pot'
                 SENTENCE_NT'in the pot are a small lottery ticket and a large lottery ti'
-            HEADING_NT'section 5 - visible vs touchable' {heading 2}
+            HEADING_NT'section 5 - visible vs touchable' {heading 5}
                 SENTENCE_NT'understand "drill [something]" as drilling'
                 SENTENCE_NT'drilling is an action applying to one touchable thing'
                 SENTENCE_NT'carry out drilling'
                 SENTENCE_NT'say "Whirrr! You take a small sample of [the noun]."'
-            HEADING_NT'section 6 - actions applying to kinds of value' {heading 2}
+            HEADING_NT'section 6 - actions applying to kinds of value' {heading 5}
                 SENTENCE_NT'spinning it to is an action applying to one thing and one nu'
                 SENTENCE_NT'check spinning it to'
                 SENTENCE_NT'if the noun is not the dial , say "[The noun] does not spin.'
@@ -69,7 +69,7 @@ ROOT_NT
                 SENTENCE_NT'after spinning the dial to a choice listed in the table of d'
                 SENTENCE_NT'say "[response entry][paragraph break]"'
                 SENTENCE_NT'table of dial onomatopoeia choice response 1 "Beep!" 2 "Boop'
-            HEADING_NT'section 7 - understanding any , understanding rooms' {heading 2}
+            HEADING_NT'section 7 - understanding any , understanding rooms' {heading 5}
                 SENTENCE_NT'understand "teleport to [any room]" as teleporting to'
                 SENTENCE_NT'teleporting to is an action applying to one thing'
                 SENTENCE_NT'carry out teleporting to'
@@ -78,7 +78,7 @@ ROOT_NT
                 SENTENCE_NT'distance viewing is an action applying to one visible thing'
                 SENTENCE_NT'carry out distance viewing'
                 SENTENCE_NT'try examining the noun'
-            HEADING_NT'section 8 - understanding kinds of value' {heading 2}
+            HEADING_NT'section 8 - understanding kinds of value' {heading 5}
                 SENTENCE_NT'the studio is west of the treasury'
                 SENTENCE_NT'"The unreal world of the photographic studio, full of fake f'
                 SENTENCE_NT'the lumpy black camera is in the studio'
@@ -93,7 +93,7 @@ ROOT_NT
                 SENTENCE_NT'report detailing'
                 SENTENCE_NT'say "Click! You take a detail photograph of the [limb unders'
                 SENTENCE_NT'understand "photograph [limb] of [a person]" as detailing'
-            HEADING_NT'section 9 - commands consisting only of nouns' {heading 2}
+            HEADING_NT'section 9 - commands consisting only of nouns' {heading 5}
                 SENTENCE_NT'understand "[something]" as using'
                 SENTENCE_NT'using is an action applying to one thing'
                 SENTENCE_NT'a thing can be examined or unexamined'
@@ -108,7 +108,7 @@ ROOT_NT
                 SENTENCE_NT'try taking the noun'
                 SENTENCE_NT'instead of using an examined thing which is carried by the p'
                 SENTENCE_NT'try dropping the noun'
-            HEADING_NT'section 10 - understanding values' {heading 2}
+            HEADING_NT'section 10 - understanding values' {heading 5}
                 SENTENCE_NT'the atelier is east of the treasury'
                 SENTENCE_NT'"The floridly untidy loft space used by a moderately unsucce'
                 SENTENCE_NT'the canvas , the palette and the paint brush are here'
@@ -126,9 +126,9 @@ ROOT_NT
                 SENTENCE_NT'understand "paint [something] [a colour]" as painting'
                 SENTENCE_NT'understand "calico" as white'
                 SENTENCE_NT'understand "cerulean" or "cerulean blue" as blue'
-            HEADING_NT'section 11 - this/that' {heading 2}
+            HEADING_NT'section 11 - this/that' {heading 5}
                 SENTENCE_NT'understand "drill into/through [something]" as drilling'
-            HEADING_NT'section 12 - new tokens' {heading 2}
+            HEADING_NT'section 12 - new tokens' {heading 5}
                 SENTENCE_NT'the laundry is south of the treasury'
                 SENTENCE_NT'"An old Limehouse haunt, the Chinese laundry used by the dow'
                 SENTENCE_NT'the vast marble sink is here'
@@ -146,7 +146,7 @@ ROOT_NT
                 SENTENCE_NT'understand "lie down" as lying down'
                 SENTENCE_NT'understand "lie down [within] [something]" as entering'
                 SENTENCE_NT'understand "lie [beside] [something]" or "lie down [beside] '
-            HEADING_NT'section 13 - tokens can produce values' {heading 2}
+            HEADING_NT'section 13 - tokens can produce values' {heading 5}
                 SENTENCE_NT'texture is a kind of value'
                 SENTENCE_NT'the textures are rough , shiny , and matte'
                 SENTENCE_NT'understand "smooth" as shiny'
@@ -166,10 +166,10 @@ ROOT_NT
                 SENTENCE_NT'say "[The noun] is now [texture]."'
                 SENTENCE_NT'instead of touching something'
                 SENTENCE_NT'say "It feels [texture]."'
-            HEADING_NT'section 14 - understanding things by their properties' {heading 2}
+            HEADING_NT'section 14 - understanding things by their properties' {heading 5}
                 SENTENCE_NT'understand the texture property as referring to a thing'
                 SENTENCE_NT'understand the colour property as describing the canvas'
-            HEADING_NT'section 15 - context and understanding when' {heading 2}
+            HEADING_NT'section 15 - context and understanding when' {heading 5}
                 SENTENCE_NT'the pottery is southwest of the treasury'
                 SENTENCE_NT'it contains a potter's wheel'
                 SENTENCE_NT'understand "throw pot" as potting when the player is in the '
@@ -187,10 +187,10 @@ ROOT_NT
                 SENTENCE_NT'carry out hurling'
                 SENTENCE_NT'move the noun to the location'
                 SENTENCE_NT'say "You throw [the noun] a truly impressive distance."'
-            HEADING_NT'section 16 - understanding mistakes' {heading 2}
+            HEADING_NT'section 16 - understanding mistakes' {heading 5}
                 SENTENCE_NT'understand "polish [something]" as a mistake ( "You'll have '
                 SENTENCE_NT'understand "fling [text]" as a mistake ( "Oh, no, merely fli'
-            HEADING_NT'section 17 - in what order ?' {heading 2}
+            HEADING_NT'section 17 - in what order ?' {heading 5}
                 SENTENCE_NT'understand "drill [an openable thing]" as drilling through'
                 SENTENCE_NT'understand "drill into/through [something openable]" as dril'
                 SENTENCE_NT'drilling through is an action applying to one thing'

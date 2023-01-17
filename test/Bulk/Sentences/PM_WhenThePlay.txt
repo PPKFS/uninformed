@@ -1,0 +1,8 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'parlour is a room' {heading 0}
+        SENTENCE_NT'parlour is a room'
+        SENTENCE_NT'when the play begins'
+        SENTENCE_NT'say "Hi!"'
+        SENTENCE_NT'when the play ends'
+        SENTENCE_NT'say "Bye!"'

@@ -1,0 +1,4 @@
+Read 14 words
+ROOT_NT
+    HEADING_NT'a room has an open container called the bucket' {heading 0}
+        SENTENCE_NT'a room has an open container called the bucket'

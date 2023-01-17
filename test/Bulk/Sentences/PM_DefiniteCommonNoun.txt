@@ -1,0 +1,6 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'instead of opening a door when the door is closed'
+        SENTENCE_NT'say "X."'

@@ -1,0 +1,9 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'zog is a sayable value based rulebook'
+        SENTENCE_NT'a zog rule for a stored action ( called obj )'
+        SENTENCE_NT'say "I, [obj], am a stored action!"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'follow zog for the swedish language'

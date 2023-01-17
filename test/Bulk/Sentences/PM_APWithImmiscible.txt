@@ -1,0 +1,23 @@
+Read 148 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a container called the box of porcupines is here'
+        SENTENCE_NT'the player carries a container called the jewel box'
+        SENTENCE_NT'the player carries a cd'
+        SENTENCE_NT'instead of dropping the cd or inserting the cd into the jewe'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'
+        SENTENCE_NT'instead of inserting the cd into the jewel box or dropping t'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'
+        SENTENCE_NT'instead of inserting the cd into the jewel box or looking'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'
+        SENTENCE_NT'instead of looking or inserting the cd into the jewel box'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'
+        SENTENCE_NT'instead of examining or inserting the cd into the jewel box'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'
+        SENTENCE_NT'instead of looking or examining the cd'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'
+        SENTENCE_NT'instead of examining the cd or looking'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'
+        SENTENCE_NT'instead of saving the game or looking'
+        SENTENCE_NT'say "It'll get scratched if you leave it there."'

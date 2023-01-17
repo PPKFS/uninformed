@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'the winter palace is a room' {heading 0}
+        SENTENCE_NT'the winter palace is a room'
+        SENTENCE_NT'a palace is a kind of room'

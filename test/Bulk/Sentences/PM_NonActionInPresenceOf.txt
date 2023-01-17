@@ -1,0 +1,7 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'mme cholet is in the burrow'
+        SENTENCE_NT'every turn in the presence of mme cholet'
+        SENTENCE_NT'say "Mme Cholet eyes you."'

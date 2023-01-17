@@ -1,0 +1,10 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'a foo is a kind of value'
+        SENTENCE_NT'a bar is a kind of value'
+        SENTENCE_NT'100 specifies a foo'
+        SENTENCE_NT'"250" specifies a foo'
+        SENTENCE_NT'3/13 specifies a bar'
+        SENTENCE_NT'2/19 specifies a foo'

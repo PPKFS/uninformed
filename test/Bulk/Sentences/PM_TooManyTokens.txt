@@ -1,0 +1,6 @@
+Read 91 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'to zog ( a - a thing ) zog ( b - a thing ) zog ( c - a thing'
+        SENTENCE_NT'do nothing'

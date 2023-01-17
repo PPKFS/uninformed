@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'alpha is a value that varies'
+        SENTENCE_NT'beta is a relation that varies'

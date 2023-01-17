@@ -1,0 +1,10 @@
+Read 50 words
+ROOT_NT
+    HEADING_NT'chapter 1 - map' {heading 0}
+        HEADING_NT'chapter 1 - map' {heading 4}
+            SENTENCE_NT'the valley is a room'
+            SENTENCE_NT'a plain wooden table is here'
+            SENTENCE_NT'on the table is a brass lamp'
+        HEADING_NT'chapter 2 - regions' {heading 4}
+            SENTENCE_NT'the plain is a region'
+            SENTENCE_NT'the valley is in the plain'

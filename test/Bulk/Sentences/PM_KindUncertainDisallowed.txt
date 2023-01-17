@@ -1,0 +1,8 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a man is never a kind of animal'
+        SENTENCE_NT'a man is seldom a kind of animal'
+        SENTENCE_NT'a man is usually a kind of animal'
+        SENTENCE_NT'a man is always a kind of animal'

@@ -1,0 +1,12 @@
+Read 33 words
+syntax-test: unexpected semicolon in sentence: withstand
+ROOT_NT
+    HEADING_NT'the study is a room' {heading 0}
+        SENTENCE_NT'the study is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'withstand'
+        SENTENCE_NT'explode'
+        SENTENCE_NT'to withstand'
+        SENTENCE_NT'(-  {-counter:abcdeabcdeabcdeabcde} '
+        SENTENCE_NT'to explode'
+        SENTENCE_NT'(-  {-counter:abcdeabcdeabcdeabcdea} '

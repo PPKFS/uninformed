@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'obligatory starting point is a room' {heading 0}
+        SENTENCE_NT'obligatory starting point is a room'
+        SENTENCE_NT'understand "fooble" as the player'

@@ -1,0 +1,18 @@
+Read 100 words
+syntax-test: unexpected semicolon in sentence: let bar be the foo rule
+syntax-test: unexpected semicolon in sentence: showme the foo rule
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'this is the foo rule'
+        SENTENCE_NT'let bar be the foo rule'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'this is the zoonk rule'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'the dramatic rulebook is a number based rulebook producing a'
+        SENTENCE_NT'the foo rule is listed in the carry out taking rulebook'
+        SENTENCE_NT'the foo rule is listed in the carry out dropping rulebook'
+        SENTENCE_NT'the foo rule is listed in the dramatic rulebook'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the foo rule'
+        SENTENCE_NT'showme the zoonk rule'

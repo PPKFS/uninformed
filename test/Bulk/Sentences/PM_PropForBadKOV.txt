@@ -1,0 +1,4 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'10 has carrying capacity 11' {heading 0}
+        SENTENCE_NT'10 has carrying capacity 11'

@@ -1,0 +1,5 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'equation 2 abacadabras = abacadabras2 + fish100 where abacad'

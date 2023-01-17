@@ -1,0 +1,6 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'the void is a room' {heading 0}
+        SENTENCE_NT'the void is a room'
+        SENTENCE_NT'a thing can be stashable or unstashable or variably stashabl'
+        SENTENCE_NT'a portable thing is usually variably stashable'

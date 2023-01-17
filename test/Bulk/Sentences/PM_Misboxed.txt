@@ -1,0 +1,8 @@
+Read 25 words
+syntax-test: unexpected semicolon in sentence: let X be "Frankly, my dear"
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let x be "Frankly, my dear"'
+        SENTENCE_NT'display the boxed quotation x'

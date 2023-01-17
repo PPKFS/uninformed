@@ -1,0 +1,15 @@
+Read 74 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'considering is an action applying to one number'
+        SENTENCE_NT'understand "consider [number]" as considering'
+        SENTENCE_NT'carry out considering'
+        SENTENCE_NT'say "Okay. You consider [the number understood]."'
+        SENTENCE_NT'timing is an action applying to one time'
+        SENTENCE_NT'understand "time [time]" as timing'
+        SENTENCE_NT'carry out timing'
+        SENTENCE_NT'say "Okay. You set your mental clock to [the time understood'
+        SENTENCE_NT'understand "zero" or "nought" as 0'
+        SENTENCE_NT'understand "noonish/middling" as 12:00 pm'
+        SENTENCE_NT'test me with "consider zero / consider nought / time noonish'

@@ -1,0 +1,10 @@
+Read 53 words
+ROOT_NT
+    HEADING_NT'tomb of rassilon is a room' {heading 0}
+        SENTENCE_NT'tomb of rassilon is a room'
+        SENTENCE_NT'high council chamber is a room'
+        SENTENCE_NT'dark tower is a room'
+        SENTENCE_NT'transmat is a door'
+        SENTENCE_NT'transmat is north of tomb of rassilon'
+        SENTENCE_NT'high council chamber is north of transmat'
+        SENTENCE_NT'dark tower is south of transmat'

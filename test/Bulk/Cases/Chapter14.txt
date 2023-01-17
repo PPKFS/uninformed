@@ -4,7 +4,7 @@ Chapter 14 - Units
 
 Use command line echoing. Use scoring.
 
-The Market is a room. 
+The Market is a room.
 
 Section 2 - Numbers
 [A phenomenally tedious test of the various permitted syntaxes for arithmetic.]
@@ -30,7 +30,7 @@ When play begins:
 	report the current score;
 	now the score is the score minus 2;
 	report the current score;
-	
+
 To report the current score:
 	say "Your score is now [the score][if the score is less than 10]. That's not so great[end if][if the score < 2]. In fact, it's pathetic[end if][if the score > 20]. Well, could be worse[end if][if the score is greater than 100]. A lot worse[end if][if the score is 0]. Nice work, sparky[end if].";
 	if the score is at least 300, say "You'll be famous soon!";
@@ -38,11 +38,11 @@ To report the current score:
 	if the score <= 360, say "360 is kind of a break-even point here.";
 	if the score >= 360, say "Good thing you're at or above 360.";
 	say "[paragraph break]".
-	
+
 
 A unit price is a kind of value. $1.99 per oz specifies a unit price.
 
-A weight is a kind of value. 2lb 15oz specifies a weight with parts pounds and ounces (optional, without leading zeros). 
+A weight is a kind of value. 2lb 15oz specifies a weight with parts pounds and ounces (optional, without leading zeros).
 
 A cost is a kind of value. $1.99 specifies a cost with parts dollars and cents (optional, preamble optional). A unit price times a weight specifies a cost.
 
@@ -69,7 +69,7 @@ Definition: a spice is moderate if its unit price is $8.75 per oz.
 Definition: a spice is cheap if its unit price is $7.00 per oz or less.
 
 
-Some rosemary is a cheap spice in the market. Rosemary has weight 0lb 3oz. 
+Some rosemary is a cheap spice in the market. Rosemary has weight 0lb 3oz.
 
 Section 5 - Superlatives
 
@@ -80,18 +80,18 @@ Instead of taking a spice which is in the market:
 
 Instead of buying a costly spice:
 	say "Wouldn't you prefer some [cheapest unowned spice]?"
-	
+
 Instead of buying the cheapest spice which is in the market:
 	now the player is carrying the noun;
 	say "Good choice!"
-	
+
 Instead of buying a spice:
 	now the player is carrying the noun;
 	say "Done."
 
 Instead of dropping the costliest spice carried by the player:
 	say "Hey! You paid good money for that!"
-	
+
 Before dropping a spice when the weight of the noun is the weight of the heaviest spice carried by the player:
 	say "Yeah, [the noun] is getting heavy..."
 
@@ -126,8 +126,8 @@ Carry out estimating:
 Understand "pay [cost]" as paying.
 
 Paying is an action applying to a cost.
- 
-	
+
+
 Report paying:
 	say "You fork over [the cost understood]."
 
@@ -149,10 +149,10 @@ Section 14 - Totals
 
 Before taking inventory when something is carried by the player:
 	say "You are carrying [the total weight of spices carried by the player] worth of spices, for an average weight of [the total weight of spices carried by the player divided by the number of spices carried by the player]."
-	
+
 After printing the name of a heavy spice:
 	say " (a generous quantity)"
-	
+
 After printing the name of a costly spice:
 	say " (quite valuable)"
 
@@ -165,4 +165,3 @@ Some green tea is a spice in the market. It has unit price $8.75 per oz. It weig
 The verb to cost (it costs, they cost, it is costing) implies the unit price property.
 
 Some chicory is a spice in the market. Chicory weighs 0lb 4oz. It costs $1.99 per oz.
- 

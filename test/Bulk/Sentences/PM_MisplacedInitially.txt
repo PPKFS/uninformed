@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'dummy is a room' {heading 0}
+        SENTENCE_NT'dummy is a room'
+        SENTENCE_NT'trevor initially carries the fish'

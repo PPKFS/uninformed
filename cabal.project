@@ -2,17 +2,11 @@ source-repository-package
   type: git
   location: https://github.com/kowainik/relude.git
 
-source-repository-package
-  type: git
-  location: https://github.com/serokell/nyan-interpolation.git
-  subdir: full
-  subdir: core
-
 packages:
   ./uninformed.cabal
   solitude/solitude.cabal
 
-constraints: diagnose +megaparsec-compat
+constraints: diagnose +megaparsec-compat +json
 -- profiling: true
 -- profiling-detail: toplevel-functions
 -- package *

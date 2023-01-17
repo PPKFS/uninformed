@@ -1,0 +1,8 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to judge ( t - table-reference )'
+        SENTENCE_NT'(-  ; '
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'judge 3'

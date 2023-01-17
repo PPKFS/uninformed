@@ -1,0 +1,14 @@
+Read 100 words
+syntax-test: unexpected semicolon in sentence: let F be the fluid of C
+ROOT_NT
+    HEADING_NT'a thing has a number called volume' {heading 0}
+        SENTENCE_NT'a thing has a number called volume'
+        SENTENCE_NT'a fluid container is a kind of container'
+        SENTENCE_NT'a fluid container has a thing called fluid'
+        SENTENCE_NT'to now the volume of fluid of ( c - a fluid container ) is ('
+        SENTENCE_NT'let f be the fluid of c'
+        SENTENCE_NT'now volume of f is x'
+        SENTENCE_NT'emptying is an action applying to one thing'
+        SENTENCE_NT'carry out emptying'
+        SENTENCE_NT'now the volume of fluid of the noun is 0'
+        SENTENCE_NT'k is a room'

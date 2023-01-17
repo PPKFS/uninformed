@@ -65,10 +65,10 @@ syntax-test: unexpected semicolon in sentence: end while
 ROOT_NT
     HEADING_NT'"Chapter 11: The Midas Touch" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 11: The Midas Touch" by emily short'
-        HEADING_NT'chapter 11' {heading 1}
+        HEADING_NT'chapter 11' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'use scoring'
-            HEADING_NT'section 1 - fitting values into phrases' {heading 2}
+            HEADING_NT'section 1 - fitting values into phrases' {heading 5}
                 SENTENCE_NT'the fitting room is a room'
                 SENTENCE_NT'the round door is west of the fitting room and east of the c'
                 SENTENCE_NT'it is a door'
@@ -91,11 +91,11 @@ ROOT_NT
                 SENTENCE_NT'destroy the noun'
                 SENTENCE_NT'before printing the name of a broken thing'
                 SENTENCE_NT'say "broken "'
-            HEADING_NT'section 2 - the phrasebook' {heading 2}
+            HEADING_NT'section 2 - the phrasebook' {heading 5}
                 SENTENCE_NT'to cause trouble'
                 SENTENCE_NT'say "Then things go horribly wrong!"'
                 SENTENCE_NT'end the story saying "You have died"'
-            HEADING_NT'section 3 - pattern matching' {heading 2}
+            HEADING_NT'section 3 - pattern matching' {heading 5}
                 SENTENCE_NT'instead of putting something on a broken supporter'
                 SENTENCE_NT'say "[The second noun] is no longer up to supporting things.'
                 SENTENCE_NT'instead of inserting something into a broken container'
@@ -115,17 +115,17 @@ ROOT_NT
                 SENTENCE_NT'to destroy ( trash - a thing )'
                 SENTENCE_NT'now the trash is broken'
                 SENTENCE_NT'say "[The trash] vanishes."'
-            HEADING_NT'section 4 - if' {heading 2}
+            HEADING_NT'section 4 - if' {heading 5}
                 SENTENCE_NT'instead of examining a person'
                 SENTENCE_NT'if the noun is carrying something or the noun is wearing som'
                 SENTENCE_NT'otherwise continue the action'
-            HEADING_NT'section 5 - while' {heading 2}
+            HEADING_NT'section 5 - while' {heading 5}
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'while florence is holding a wearable thing ( called the atti'
                 SENTENCE_NT'say "Florence dons [the attire].[line break]"'
                 SENTENCE_NT'now the attire is worn by florence'
                 SENTENCE_NT'end while'
-            HEADING_NT'section 6 - begin and end' {heading 2}
+            HEADING_NT'section 6 - begin and end' {heading 5}
                 SENTENCE_NT'to destroy ( victim - a person )'
                 SENTENCE_NT'if the victim is carrying something begin'
                 SENTENCE_NT'if the victim is the player , say "You drop [the list of thi'
@@ -144,7 +144,7 @@ ROOT_NT
                 SENTENCE_NT'if a wearable thing ( called the new acquisition ) is in the'
                 SENTENCE_NT'say "Florence picks up [the new acquisition].[line break]"'
                 SENTENCE_NT'end while'
-            HEADING_NT'section 7 - otherwise' {heading 2}
+            HEADING_NT'section 7 - otherwise' {heading 5}
                 SENTENCE_NT'to destroy ( portal - a door )'
                 SENTENCE_NT'if the portal is closed begin'
                 SENTENCE_NT'now the portal is open'
@@ -153,7 +153,7 @@ ROOT_NT
                 SENTENCE_NT'otherwise'
                 SENTENCE_NT'say "[The portal] is already just gaping space."'
                 SENTENCE_NT'end if'
-            HEADING_NT'section 8 - repeat' {heading 2}
+            HEADING_NT'section 8 - repeat' {heading 5}
                 SENTENCE_NT'every turn when florence is visible'
                 SENTENCE_NT'if the turn count < 2 begin'
                 SENTENCE_NT'cause irritation , extensively'
@@ -164,7 +164,7 @@ ROOT_NT
                 SENTENCE_NT'if the turn count < 7 , cause irritation , in a minor way'
                 SENTENCE_NT'end if'
                 SENTENCE_NT'end if'
-            HEADING_NT'section 9 - repeat running through' {heading 2}
+            HEADING_NT'section 9 - repeat running through' {heading 5}
                 SENTENCE_NT'instead of jumping'
                 SENTENCE_NT'say "You leap up in the air and come down again, bringing yo'
                 SENTENCE_NT'destroy the location'
@@ -178,7 +178,7 @@ ROOT_NT
                 SENTENCE_NT'move the refugee to the refuge'
                 SENTENCE_NT'end repeat'
                 SENTENCE_NT'end if'
-            HEADING_NT'section 10 - phrase options' {heading 2}
+            HEADING_NT'section 10 - phrase options' {heading 5}
                 SENTENCE_NT'to cause irritation , in a minor way or extensively'
                 SENTENCE_NT'let the maximum be 4'
                 SENTENCE_NT'if in a minor way'
@@ -187,8 +187,8 @@ ROOT_NT
                 SENTENCE_NT'now the maximum is 5'
                 SENTENCE_NT'repeat with my counter running from 1 to the maximum'
                 SENTENCE_NT'say "'[my counter],' mutters Florence, counting on her finge'
-            HEADING_NT'section 11 - temporary variables' {heading 2}
-            HEADING_NT'section 14 - new conditions , new adjectives' {heading 2}
+            HEADING_NT'section 11 - temporary variables' {heading 5}
+            HEADING_NT'section 14 - new conditions , new adjectives' {heading 5}
                 SENTENCE_NT'to decide whether florence feels wrath'
                 SENTENCE_NT'if fewer than four things are worn by florence'
                 SENTENCE_NT'yes'
@@ -198,14 +198,14 @@ ROOT_NT
                 SENTENCE_NT'definition'
                 SENTENCE_NT'a person is well-clad if it is wearing at least three things'
                 SENTENCE_NT'after printing the name of a well-clad person , say " (looki'
-            HEADING_NT'section 15 - phrases to decide other things' {heading 2}
+            HEADING_NT'section 15 - phrases to decide other things' {heading 5}
                 SENTENCE_NT'to decide which thing is the prettiest clothing'
                 SENTENCE_NT'if the silver handbag is handled'
                 SENTENCE_NT'decide on the silver handbag'
                 SENTENCE_NT'decide on the hat'
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'if florence can see the prettiest clothing and florence is n'
-            HEADING_NT'section 16 - arithmetic on new kinds of value' {heading 2}
+            HEADING_NT'section 16 - arithmetic on new kinds of value' {heading 5}
                 SENTENCE_NT'material is a kind of value'
                 SENTENCE_NT'the materials are silk , velvet , and sow ear'
                 SENTENCE_NT'a thing has a material'
@@ -225,7 +225,7 @@ ROOT_NT
                 SENTENCE_NT'say "You wave, and now have [a noun]."'
                 SENTENCE_NT'after printing the name of a wearable thing ( called the sub'
                 SENTENCE_NT'say " (made of [material of the substance])"'
-            HEADING_NT'section 17 - making new kinds of arithmetic' {heading 2}
+            HEADING_NT'section 17 - making new kinds of arithmetic' {heading 5}
                 SENTENCE_NT'to decide which material is ( first matter - a material ) + '
                 SENTENCE_NT'while second matter is not silk begin'
                 SENTENCE_NT'let first matter be the material after first matter'

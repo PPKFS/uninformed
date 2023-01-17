@@ -1,0 +1,9 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'the admiralty is a room' {heading 0}
+        SENTENCE_NT'the admiralty is a room'
+        SENTENCE_NT'admiral byng is a man in the admiralty'
+        SENTENCE_NT'to decide which vehicle is the next vessel to launch'
+        SENTENCE_NT'say "Hmmm..."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the next vessel to launch'

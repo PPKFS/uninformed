@@ -1,0 +1,6 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'the admiralty is a room' {heading 0}
+        SENTENCE_NT'the admiralty is a room'
+        SENTENCE_NT'vessel is a kind'
+        SENTENCE_NT'table of vessels ship rate "Euryalus" 6'

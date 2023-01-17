@@ -1,0 +1,9 @@
+Read 53 words
+ROOT_NT
+    HEADING_NT'test room is a room' {heading 0}
+        SENTENCE_NT'test room is a room'
+        SENTENCE_NT'a toll booth is fixed in place in the test room'
+        SENTENCE_NT'the toll booth can be pointing up'
+        SENTENCE_NT'a broken toll booth is fixed in place in the test room'
+        SENTENCE_NT'it is opaque'
+        SENTENCE_NT'it can be pointing down'

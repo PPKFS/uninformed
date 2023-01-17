@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'the travelator is a backdrop which is not everywhere'

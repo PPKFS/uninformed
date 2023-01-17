@@ -1,0 +1,7 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'indoors is a room' {heading 0}
+        SENTENCE_NT'indoors is a room'
+        SENTENCE_NT'outdoors is a room'
+        SENTENCE_NT'dojo is a room'
+        SENTENCE_NT'an action name has a number called difficulty'

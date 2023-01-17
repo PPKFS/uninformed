@@ -1,0 +1,9 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'peering for something is an activity on numbers'
+        SENTENCE_NT'rule for peering for a number ( called n )'
+        SENTENCE_NT'say "Yep, [n] is there."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'carry out the peering for activity with 2'

@@ -1,0 +1,7 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'a room is a kind of door' {heading 0}
+        SENTENCE_NT'a room is a kind of door'
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'west of foo is bar'
+        SENTENCE_NT'west of bar is foo'

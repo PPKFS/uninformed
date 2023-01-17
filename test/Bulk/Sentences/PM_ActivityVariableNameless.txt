@@ -1,0 +1,13 @@
+Read 66 words
+ROOT_NT
+    HEADING_NT'sinning is an activity' {heading 0}
+        SENTENCE_NT'sinning is an activity'
+        SENTENCE_NT'vice is a kind of value'
+        SENTENCE_NT'the vices are lust , gluttony , greed , sloth , wrath , envy'
+        SENTENCE_NT'the sinning activity has a vice'
+        SENTENCE_NT'the indulgence chamber is a room'
+        SENTENCE_NT'"Every vice is catered for here."'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'carry out the sinning activity'
+        SENTENCE_NT'for sinning'
+        SENTENCE_NT'say "I fancy a little bit of [a random vice]."'

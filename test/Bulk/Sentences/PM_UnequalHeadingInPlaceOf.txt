@@ -1,0 +1,6 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'the schoolhouse is a room' {heading 0}
+        SENTENCE_NT'the schoolhouse is a room'
+        HEADING_NT'chapter of minimal grammar ( in place of part six - grammar ' {heading 4}
+            SENTENCE_NT'understand "take [things]" as taking'

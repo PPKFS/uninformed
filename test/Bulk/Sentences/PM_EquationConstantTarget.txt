@@ -1,0 +1,10 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: let m be given by the Slope-Intercept Formula where x is 1, y is 0, and b is 3
+ROOT_NT
+    HEADING_NT'slope is a number that varies' {heading 0}
+        SENTENCE_NT'slope is a number that varies'
+        SENTENCE_NT'equation - slope-intercept formula y=mx+b where y is a numbe'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let m be given by the slope-intercept formula where x is 1 ,'
+        SENTENCE_NT'showme m'
+        SENTENCE_NT'there is a room'

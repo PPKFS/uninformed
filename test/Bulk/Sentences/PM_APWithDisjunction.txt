@@ -1,0 +1,6 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'the burrow is a room' {heading 0}
+        SENTENCE_NT'the burrow is a room'
+        SENTENCE_NT'wellington and orinoco are in the burrow'
+        SENTENCE_NT'instead of pushing wellington or pushing orinoco , say "Be a'

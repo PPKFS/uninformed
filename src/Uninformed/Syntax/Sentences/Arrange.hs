@@ -1,5 +1,6 @@
 module Uninformed.Syntax.Sentences.Arrange where
 
+import Uninformed.Prelude
 import Uninformed.Syntax.SyntaxTree
 import Uninformed.Words.Lexer.Types
 import Uninformed.Syntax.Sentences

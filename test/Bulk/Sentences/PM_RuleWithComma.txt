@@ -1,0 +1,8 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'instead of jumping ( this is the don't jump , don't tell rul'
+        SENTENCE_NT'say "Yikes."'
+        SENTENCE_NT'this is the ( mostly ) useless rule'
+        SENTENCE_NT'do nothing'

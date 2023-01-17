@@ -1,0 +1,8 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'a door can be apparent' {heading 0}
+        SENTENCE_NT'a door can be apparent'
+        SENTENCE_NT'a door is usually apparent'
+        SENTENCE_NT'a room can be obvious , apparent , or obscure'
+        SENTENCE_NT'a room is usually apparent'
+        SENTENCE_NT'this is a room'

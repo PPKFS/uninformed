@@ -1,0 +1,8 @@
+Read 48 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'a flob is a kind of thing'
+        SENTENCE_NT'some flobs are defined by the table of flobs'
+        SENTENCE_NT'table of flobs flob age mervyn 100'
+        SENTENCE_NT'table of flobs ( amended ) flob age mervyn 91'

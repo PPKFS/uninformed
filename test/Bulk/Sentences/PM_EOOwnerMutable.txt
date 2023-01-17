@@ -1,0 +1,8 @@
+Read 38 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'white is a colour'
+        SENTENCE_NT'a thing has a colour'
+        SENTENCE_NT'the colour of an open door is white'

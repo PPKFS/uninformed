@@ -1,0 +1,9 @@
+Read 34 words
+syntax-test: unexpected semicolon in sentence: now 1 is 2
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'the rostrum is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now 1 is 2'
+        SENTENCE_NT'now the conservatoire is the rostrum'

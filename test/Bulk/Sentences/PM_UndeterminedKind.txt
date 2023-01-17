@@ -1,0 +1,15 @@
+Read 69 words
+syntax-test: unexpected semicolon in sentence: showme Foo { { 1 } } bar { }
+syntax-test: unexpected semicolon in sentence: add 0 to Q
+syntax-test: unexpected semicolon in sentence: add "" to Q
+syntax-test: unexpected semicolon in sentence: add Q to L
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme foo { { 1 } } bar { }'
+        SENTENCE_NT'to decide which k is foo ( l - a value of kind k ) bar ( q -'
+        SENTENCE_NT'add 0 to q'
+        SENTENCE_NT'add "" to q'
+        SENTENCE_NT'add q to l'
+        SENTENCE_NT'decide on l'

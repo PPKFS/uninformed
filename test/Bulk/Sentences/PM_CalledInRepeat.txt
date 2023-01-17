@@ -1,0 +1,7 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'wharf is a room' {heading 0}
+        SENTENCE_NT'wharf is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with r running through rooms ( called domain )'
+        SENTENCE_NT'say "Look at [R]."'

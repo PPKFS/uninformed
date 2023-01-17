@@ -1,0 +1,7 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'the shore is a room' {heading 0}
+        SENTENCE_NT'the shore is a room'
+        SENTENCE_NT'the seashell is in a bag'
+        SENTENCE_NT'the bag is in the shore'
+        SENTENCE_NT'the carrying capacity of the bag is "roomy"'

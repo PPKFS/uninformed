@@ -1,0 +1,7 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to waste time ( this is wasting time )'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'the phrase in question is always wasting time'

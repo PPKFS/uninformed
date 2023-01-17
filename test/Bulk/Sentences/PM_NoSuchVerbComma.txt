@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'at 1 pm , say "Yes."'

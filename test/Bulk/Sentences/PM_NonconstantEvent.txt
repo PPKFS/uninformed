@@ -1,0 +1,8 @@
+Read 26 words
+syntax-test: unexpected semicolon in sentence: let K be a rule
+ROOT_NT
+    HEADING_NT'frogstar is a room' {heading 0}
+        SENTENCE_NT'frogstar is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let k be a rule'
+        SENTENCE_NT'k at 10:11 am'

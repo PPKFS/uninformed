@@ -1,0 +1,12 @@
+Read 69 words
+ROOT_NT
+    HEADING_NT'the ballroom is a room' {heading 0}
+        SENTENCE_NT'the ballroom is a room'
+        SENTENCE_NT'the ballroom is east of the hall'
+        SENTENCE_NT'the other ballroom is east of the hall'
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'autre place is a room'
+        SENTENCE_NT'the table is a thing in the home'
+        SENTENCE_NT'bob is a person'
+        SENTENCE_NT'bob is in home'
+        SENTENCE_NT'bob is in the autre place'

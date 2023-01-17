@@ -1,0 +1,4 @@
+Read 14 words
+ROOT_NT
+    HEADING_NT'roman dimidia sextula sign translates into unicode as 65940' {heading 0}
+        SENTENCE_NT'roman dimidia sextula sign translates into unicode as 65940'

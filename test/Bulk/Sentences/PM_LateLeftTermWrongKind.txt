@@ -1,0 +1,8 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'boz is a room'
+        SENTENCE_NT'quoggle relates various things to various things'
+        SENTENCE_NT'the verb to quog means the quoggle relation'
+        SENTENCE_NT'boz quogs the player'

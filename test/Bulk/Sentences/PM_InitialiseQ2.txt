@@ -1,0 +1,8 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'the one room is a room' {heading 0}
+        SENTENCE_NT'the one room is a room'
+        SENTENCE_NT'sunrise is a time variable'
+        SENTENCE_NT'sunrise is 5:34 am'
+        SENTENCE_NT'dawn is a time variable'
+        SENTENCE_NT'dawn is dawn'

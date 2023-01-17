@@ -1,0 +1,4 @@
+Read 9 words
+ROOT_NT
+    HEADING_NT'a door is 666' {heading 0}
+        SENTENCE_NT'a door is 666'

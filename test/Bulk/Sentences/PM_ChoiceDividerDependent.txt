@@ -1,0 +1,18 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'marcellus is here'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the quaintly done beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the quaintly done beat'
+            DIALOGUE_CHOICE_NT'<-' {level 0}
+            DIALOGUE_LINE_NT'marcellus : "This is weird."' {level 1}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"This is weird."'
+            DIALOGUE_CHOICE_NT'-> another choice' {level 0}
+                DIALOGUE_SELECTION_NT'another choice'
+            DIALOGUE_LINE_NT'marcellus : "Really weird."' {level 1}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"Really weird."'
+            DIALOGUE_CHOICE_NT'<-' {level 0}

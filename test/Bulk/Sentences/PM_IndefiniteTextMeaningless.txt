@@ -1,0 +1,7 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'frog is a kind of value'
+        SENTENCE_NT'kermit is a frog'
+        SENTENCE_NT'"He's green."'

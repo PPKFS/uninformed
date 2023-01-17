@@ -1,0 +1,14 @@
+Read 62 words
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Craziness begin
+syntax-test: unexpected semicolon in sentence: say "[subject entry]."
+ROOT_NT
+    HEADING_NT'table of craziness subject "This is in the extension"' {heading 0}
+        SENTENCE_NT'table of craziness subject "This is in the extension"'
+        SENTENCE_NT'table of craziness subject "This is in the main code"'
+        SENTENCE_NT'the street is a room'
+        SENTENCE_NT'the sign is a thing in the street'
+        SENTENCE_NT'instead of examining the sign'
+        SENTENCE_NT'repeat through the table of craziness begin'
+        SENTENCE_NT'say "[subject entry]."'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'table of craziness ( continued ) subject "This is the contin'

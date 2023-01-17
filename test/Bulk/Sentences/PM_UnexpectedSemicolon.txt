@@ -1,0 +1,9 @@
+Read 23 words
+syntax-test: unexpected semicolon in sentence: Refrigtop is a room
+syntax-test: unexpected semicolon in sentence: "f"
+ROOT_NT
+    HEADING_NT'countertop is a room' {heading 0}
+        SENTENCE_NT'countertop is a room'
+        SENTENCE_NT'refrigtop is a room'
+        SENTENCE_NT'"f"'
+        SENTENCE_NT'down from refrigtop is countertop'

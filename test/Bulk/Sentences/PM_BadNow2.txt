@@ -1,0 +1,9 @@
+Read 42 words
+syntax-test: unexpected semicolon in sentence: now the machines are open and the player is in the Dock
+ROOT_NT
+    HEADING_NT'the dock is a room' {heading 0}
+        SENTENCE_NT'the dock is a room'
+        SENTENCE_NT'some vending machines are containers in the dock'
+        SENTENCE_NT'instead of examining the vending machines'
+        SENTENCE_NT'now the machines are open and the player is in the dock'
+        SENTENCE_NT'say "Your heat-vision prangs open the machine."'

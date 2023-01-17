@@ -1,0 +1,6 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to decide which value is froggg'
+        SENTENCE_NT'(-  0 '

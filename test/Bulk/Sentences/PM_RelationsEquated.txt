@@ -1,0 +1,4 @@
+Read 12 words
+ROOT_NT
+    HEADING_NT'in the box is on the table' {heading 0}
+        SENTENCE_NT'in the box is on the table'

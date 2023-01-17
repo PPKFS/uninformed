@@ -1,0 +1,5 @@
+Read 15 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'test me with "i/z/take inventory/take inventory/take invento'

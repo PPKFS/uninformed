@@ -1,0 +1,8 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'velocity is a kind of value'
+        SENTENCE_NT'frequency is a kind of value'
+        SENTENCE_NT'length is a kind of value'
+        SENTENCE_NT'frequency times length specifies a velocity'

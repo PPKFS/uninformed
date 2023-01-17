@@ -1,0 +1,7 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'wabe is a room' {heading 0}
+        SENTENCE_NT'wabe is a room'
+        SENTENCE_NT'5 is an activity'
+        SENTENCE_NT'wabe is an activity'
+        SENTENCE_NT'prattling on about is an activity'

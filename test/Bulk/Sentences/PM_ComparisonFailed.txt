@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'the typographium is a room' {heading 0}
+        SENTENCE_NT'the typographium is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 23 is the entire game , say "No."'

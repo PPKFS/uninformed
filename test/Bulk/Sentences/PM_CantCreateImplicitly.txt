@@ -1,0 +1,7 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'partnership relates various numbers to various numbers'
+        SENTENCE_NT'the verb to be associated with implies the partnership relat'
+        SENTENCE_NT'7 is associated with a number'

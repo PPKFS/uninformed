@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'the conservatoire is a room' {heading 0}
+        SENTENCE_NT'the conservatoire is a room'
+        SENTENCE_NT'the piano is a thing'
+        SENTENCE_NT'east of the conservatoire is the piano'

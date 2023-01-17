@@ -1,0 +1,5 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'ineptness relates various rooms ( called the domain ) to one'

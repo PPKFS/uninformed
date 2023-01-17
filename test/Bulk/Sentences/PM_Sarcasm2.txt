@@ -1,0 +1,4 @@
+Read 9 words
+ROOT_NT
+    HEADING_NT'10 is a text' {heading 0}
+        SENTENCE_NT'10 is a text'

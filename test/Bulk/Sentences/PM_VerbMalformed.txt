@@ -1,0 +1,4 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'the verb to occlude mightily ( he occludes mightily , viking' {heading 0}
+        SENTENCE_NT'the verb to occlude mightily ( he occludes mightily , viking'

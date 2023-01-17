@@ -1,0 +1,5 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'a dalmatian is a kind of animal' {heading 0}
+        SENTENCE_NT'a dalmatian is a kind of animal'
+        SENTENCE_NT'101 dalmatians are in london'

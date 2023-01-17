@@ -1,0 +1,13 @@
+Read 52 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        HEADING_NT'section 1 - actual meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about ( ghosts . )' {level 0}
+            DIALOGUE_LINE_NT'bernardo ( slowly , quickly ) ( erroneously ) : "This!"' {level 0}
+                DIALOGUE_SPEAKER_NT'bernardo'
+                DIALOGUE_SPEECH_NT'"This!"'
+            DIALOGUE_LINE_NT'marcellus ( going ( doolally ) : "That!"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"That!"'
+            UNKNOWN_NT'horatio blindly ) : "That!"'

@@ -1,0 +1,22 @@
+Read 47 words
+syntax-test: unexpected semicolon in sentence: if 1 is 1 begin
+syntax-test: unexpected semicolon in sentence: say "hi"
+syntax-test: unexpected semicolon in sentence: otherwise if 2 is 2
+syntax-test: unexpected semicolon in sentence: say "hi"
+syntax-test: unexpected semicolon in sentence: otherwise
+syntax-test: unexpected semicolon in sentence: say "hi"
+syntax-test: unexpected semicolon in sentence: otherwise if 4 is 4
+syntax-test: unexpected semicolon in sentence: say "hi"
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if 1 is 1 begin'
+        SENTENCE_NT'say "hi"'
+        SENTENCE_NT'otherwise if 2 is 2'
+        SENTENCE_NT'say "hi"'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'say "hi"'
+        SENTENCE_NT'otherwise if 4 is 4'
+        SENTENCE_NT'say "hi"'
+        SENTENCE_NT'end if'

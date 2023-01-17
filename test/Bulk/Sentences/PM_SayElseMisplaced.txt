@@ -1,0 +1,8 @@
+Read 62 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'the player carries an edible container called an ice cream c'
+        SENTENCE_NT'an edible thing called a scoop of mint ice cream is in the i'
+        SENTENCE_NT'in the ice cream cone is an edible thing called a cherry'
+        SENTENCE_NT'the description of the ice cream cone is "A delicious ice cr'

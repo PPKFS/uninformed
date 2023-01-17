@@ -1,0 +1,4 @@
+Read 12 words
+ROOT_NT
+    HEADING_NT'a kind of door is a portal' {heading 0}
+        SENTENCE_NT'a kind of door is a portal'

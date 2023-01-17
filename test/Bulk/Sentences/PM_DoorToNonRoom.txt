@@ -1,0 +1,6 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'the taj mahal is a room' {heading 0}
+        SENTENCE_NT'the taj mahal is a room'
+        SENTENCE_NT'the great gate and the lesser gate are doors'
+        SENTENCE_NT'east of the great gate is the lesser gate'

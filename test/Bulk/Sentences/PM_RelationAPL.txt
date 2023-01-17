@@ -1,0 +1,7 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'a room can be either outdoor or indoor' {heading 0}
+        SENTENCE_NT'a room can be either outdoor or indoor'
+        SENTENCE_NT'oliver's house is a region'
+        SENTENCE_NT'a room in oliver's house is usually indoor'
+        SENTENCE_NT'oliver's room is a room in oliver's house'

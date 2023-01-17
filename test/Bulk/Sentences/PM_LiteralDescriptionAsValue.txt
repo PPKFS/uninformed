@@ -1,0 +1,10 @@
+Read 31 words
+syntax-test: unexpected semicolon in sentence: let D be a description of numbers
+syntax-test: unexpected semicolon in sentence: let D be even numbers
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let d be a description of numbers'
+        SENTENCE_NT'let d be even numbers'
+        SENTENCE_NT'say the time'

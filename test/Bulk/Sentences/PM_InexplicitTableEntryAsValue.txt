@@ -1,0 +1,7 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'act i is a scene'
+        SENTENCE_NT'act i begins when the player's command includes a topic list'
+        SENTENCE_NT'table 1 topic "plover" "xyzzy"'

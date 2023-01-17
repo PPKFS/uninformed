@@ -1,0 +1,7 @@
+Read 53 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'weight is a kind of value'
+        SENTENCE_NT'1 tonne 999 kg 6 scr specifies a weight with parts tonnes an'
+        SENTENCE_NT'1 x 999 y 6 z specifies a weight with parts xs , ys , zs and'

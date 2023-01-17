@@ -1,0 +1,5 @@
+Read 22 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'ineptness relates one room to one person when 1 is 2'

@@ -1,0 +1,8 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to splodge'
+        SENTENCE_NT'(-  ;  and so forth'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'splodge'

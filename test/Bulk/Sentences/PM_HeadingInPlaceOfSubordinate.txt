@@ -1,0 +1,6 @@
+Read 51 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        HEADING_NT'part 1 - the discussing action ( in place of part six - gram' {heading 3}
+            HEADING_NT'section 1 - greeting definitions ( in place of part six - gr' {heading 5}

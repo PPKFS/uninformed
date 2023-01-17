@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'the admiralty is a room' {heading 0}
+        SENTENCE_NT'the admiralty is a room'
+        SENTENCE_NT'sounding is a kind of value'
+        SENTENCE_NT'the bay depth is a sounding variable'

@@ -1,0 +1,7 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'this is the wombling rule'
+        SENTENCE_NT'say "Remember you're a Womble."'
+        SENTENCE_NT'the wombling rule is listed after the wombling rule'

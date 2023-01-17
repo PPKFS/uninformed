@@ -1,0 +1,21 @@
+Read 51 words
+syntax-test: unexpected semicolon in sentence: let N be 13
+syntax-test: unexpected semicolon in sentence: say "Ooh!"
+syntax-test: unexpected semicolon in sentence: say "Look!"
+syntax-test: unexpected semicolon in sentence: say "Blob!"
+syntax-test: unexpected semicolon in sentence: say "Grup!"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let n be 13'
+        SENTENCE_NT'if n is'
+        SENTENCE_NT'say "Ooh!"'
+        SENTENCE_NT'-- 1'
+        SENTENCE_NT'say "Look!"'
+        SENTENCE_NT'-- 11'
+        SENTENCE_NT'say "Blob!"'
+        SENTENCE_NT'-- 12'
+        SENTENCE_NT'say "Grup!"'
+        SENTENCE_NT'-- anything else'
+        SENTENCE_NT'say "Boggle!"'

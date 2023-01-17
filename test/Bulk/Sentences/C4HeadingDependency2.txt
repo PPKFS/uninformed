@@ -3,7 +3,7 @@ ROOT_NT
     HEADING_NT'the schoolhouse is a room' {heading 0}
         SENTENCE_NT'the schoolhouse is a room'
         SENTENCE_NT'test me with "take all / i"'
-        HEADING_NT'chapter 1 ( for use with locksmith by emily short )' {heading 1}
+        HEADING_NT'chapter 1 ( for use with locksmith by emily short )' {heading 4}
             SENTENCE_NT'a pomegranate is in the schoolhouse'
-            HEADING_NT'section of minimal grammar ( in place of section sr4/10 - gr' {heading 2}
+            HEADING_NT'section of minimal grammar ( in place of section sr4/10 - gr' {heading 5}
                 SENTENCE_NT'understand "take [things]" as taking'

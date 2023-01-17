@@ -1,0 +1,6 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'king solomon's mine is a room' {heading 0}
+        SENTENCE_NT'king solomon's mine is a room'
+        SENTENCE_NT'volcano cup size is a kind of value'
+        SENTENCE_NT'the specification of volcano cup size is 10'

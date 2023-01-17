@@ -1,0 +1,6 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'price is a kind of value'
+        SENTENCE_NT'$1.99 specifies a price with parts dollars and cents ( optio'

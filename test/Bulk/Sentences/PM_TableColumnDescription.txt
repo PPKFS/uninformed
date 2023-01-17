@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'table 1 collection ( descriptions of numbers ) --'

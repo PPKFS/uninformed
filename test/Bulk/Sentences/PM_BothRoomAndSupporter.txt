@@ -1,0 +1,5 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'east of the platte is the dry plain' {heading 0}
+        SENTENCE_NT'east of the platte is the dry plain'
+        SENTENCE_NT'on the platte is the river'

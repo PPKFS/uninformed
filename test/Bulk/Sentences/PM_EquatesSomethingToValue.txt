@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'something called mauve is a colour'

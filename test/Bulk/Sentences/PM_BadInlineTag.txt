@@ -1,0 +1,8 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'to blow up ( n - a number )'
+        SENTENCE_NT'(-  score = 0; {-strange:N} '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'blow up 1'

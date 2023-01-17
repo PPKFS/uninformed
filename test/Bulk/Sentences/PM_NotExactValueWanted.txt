@@ -1,0 +1,8 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'the temple of eris is a room' {heading 0}
+        SENTENCE_NT'the temple of eris is a room'
+        SENTENCE_NT'to beep ( n - 1 )'
+        SENTENCE_NT'say "Beep just once."'
+        SENTENCE_NT'to provoke dissent , like so'
+        SENTENCE_NT'beep 2'

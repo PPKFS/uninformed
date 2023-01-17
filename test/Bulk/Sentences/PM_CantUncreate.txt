@@ -1,0 +1,11 @@
+Read 82 words
+ROOT_NT
+    HEADING_NT'the service area is a room' {heading 0}
+        SENTENCE_NT'the service area is a room'
+        SENTENCE_NT'the lock is scenery in the service area'
+        SENTENCE_NT'the winch switch state is a kind of value'
+        SENTENCE_NT'the winch switch states are lock , free , reel in , run out'
+        SENTENCE_NT'a winch is a kind of thing'
+        SENTENCE_NT'it has a winch switch state'
+        SENTENCE_NT'a thing called the portable winch is a winch'
+        SENTENCE_NT'the portable winch is in the service area'

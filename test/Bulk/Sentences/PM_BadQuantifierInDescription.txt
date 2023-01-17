@@ -1,0 +1,10 @@
+Read 49 words
+syntax-test: unexpected semicolon in sentence: showme whether or not the Lab is nowhere
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'to foo ( x - a description of rooms )'
+        SENTENCE_NT'showme whether or not the location matches x'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme whether or not the lab is nowhere'
+        SENTENCE_NT'foo three rooms'

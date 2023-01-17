@@ -1,0 +1,10 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'a nose is a kind' {heading 0}
+        SENTENCE_NT'a nose is a kind'
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'a potato is in the lab'
+        SENTENCE_NT'the floor is a nose'
+        SENTENCE_NT'the floor is in the lab'
+        SENTENCE_NT'a vial is in the lab'
+        SENTENCE_NT'"A small vial catches your attention."'

@@ -1,0 +1,5 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        HEADING_NT'section 1 ( for parnassian language element only )' {heading 5}

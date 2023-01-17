@@ -2,16 +2,16 @@ Read 117 words
 ROOT_NT
     HEADING_NT'the schoolhouse is a room' {heading 0}
         SENTENCE_NT'the schoolhouse is a room'
-        HEADING_NT'chapter 1 ( for use with locksmith by emily short )' {heading 1}
+        HEADING_NT'chapter 1 ( for use with locksmith by emily short )' {heading 4}
             SENTENCE_NT'a pomegranate is in the schoolhouse'
-            HEADING_NT'section 2' {heading 2}
+            HEADING_NT'section 2' {heading 5}
                 SENTENCE_NT'a lemon is in the schoolhouse'
-        HEADING_NT'chapter 1a ( for use without locksmith by emily short )' {heading 1}
+        HEADING_NT'chapter 1a ( for use without locksmith by emily short )' {heading 4}
             SENTENCE_NT'a lime is in the schoolhouse'
-        HEADING_NT'chapter 2' {heading 1}
+        HEADING_NT'chapter 2' {heading 4}
             SENTENCE_NT'a peach is in the schoolhouse'
-            HEADING_NT'section of other stuff' {heading 2}
+            HEADING_NT'section of other stuff' {heading 5}
                 SENTENCE_NT'a banana is in the schoolhouse'
                 SENTENCE_NT'test me with "take peach / inv"'
-                SENTENCE_NT'part of minimal grammar ( in place of part six - grammar in '
-                SENTENCE_NT'understand "take [things]" as taking'
+        HEADING_NT'part of minimal grammar ( in place of part six - grammar in ' {heading 3}
+            SENTENCE_NT'understand "take [things]" as taking'

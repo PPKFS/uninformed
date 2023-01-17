@@ -1,0 +1,14 @@
+Read 53 words
+syntax-test: unexpected semicolon in sentence: say "A."
+ROOT_NT
+    HEADING_NT'kandersteg is a room' {heading 0}
+        SENTENCE_NT'kandersteg is a room'
+        SENTENCE_NT'emma rules is a rulebook'
+        SENTENCE_NT'emma rules has outcomes emma succeeds or emma fails'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'follow the emma rules'
+        SENTENCE_NT'emma'
+        SENTENCE_NT'say "A."'
+        SENTENCE_NT'emma fails'
+        SENTENCE_NT'when play ends'
+        SENTENCE_NT'emma succeeds'

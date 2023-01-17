@@ -1,0 +1,6 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'"Problem? Me?"' {heading 0}
+        SENTENCE_NT'"Problem? Me?"'
+        HEADING_NT'chapter 1' {heading 4}
+            SENTENCE_NT'"In which our hero writes text which seems to have no refere'

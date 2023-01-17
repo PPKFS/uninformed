@@ -1,0 +1,14 @@
+Read 39 words
+syntax-test: unexpected semicolon in sentence: frog
+syntax-test: unexpected semicolon in sentence: frog
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'to frog -- in if'
+        SENTENCE_NT'say "Croak."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 1 is 1'
+        SENTENCE_NT'frog'
+        SENTENCE_NT'unless 2 is 1'
+        SENTENCE_NT'frog'
+        SENTENCE_NT'frog'

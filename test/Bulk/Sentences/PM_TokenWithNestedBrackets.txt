@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'to shoot ( n ( or m ) - a number ) wombles'
+        SENTENCE_NT'say "Bang!"'

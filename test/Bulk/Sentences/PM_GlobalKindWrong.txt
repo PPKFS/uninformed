@@ -1,0 +1,12 @@
+Read 75 words
+ROOT_NT
+    HEADING_NT'the place is a room' {heading 0}
+        SENTENCE_NT'the place is a room'
+        SENTENCE_NT'hall is south of the place'
+        SENTENCE_NT'the banana is in the hall'
+        SENTENCE_NT'foo is a list of rooms that varies'
+        SENTENCE_NT'foo is { the place , the hall }'
+        SENTENCE_NT'bar is a room that varies'
+        SENTENCE_NT'bar is the hall'
+        SENTENCE_NT'filfre is a room that varies'
+        SENTENCE_NT'filfre is the banana'

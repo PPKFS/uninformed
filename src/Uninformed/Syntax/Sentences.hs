@@ -4,9 +4,10 @@ module Uninformed.Syntax.Sentences
 
   ) where
 
+import Uninformed.Prelude
 import Uninformed.Words.Lexer.Types
 
-newtype Sentence = Sentence { unSentence :: NonEmpty InformWord }
+newtype Sentence = Sentence { unSentence :: NonEmpty Word }
 
 sentenceFileOfOrigin ::
   Sentence

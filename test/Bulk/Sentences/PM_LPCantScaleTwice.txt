@@ -1,0 +1,7 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'globular cluster is a room' {heading 0}
+        SENTENCE_NT'globular cluster is a room'
+        SENTENCE_NT'mass is a kind of value'
+        SENTENCE_NT'1kg specifies a mass scaled at 100'
+        SENTENCE_NT'1xg specifies a mass scaled at 1300'

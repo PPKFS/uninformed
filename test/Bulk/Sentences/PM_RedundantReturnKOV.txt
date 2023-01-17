@@ -1,0 +1,6 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'to admire ( x - a room )'
+        SENTENCE_NT'decide on 1'

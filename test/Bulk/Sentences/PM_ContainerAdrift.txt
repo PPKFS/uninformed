@@ -1,0 +1,7 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'a container is a kind of supporter'
+        SENTENCE_NT'in the box is a wombat'
+        SENTENCE_NT'the box is in foo'

@@ -1,0 +1,5 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'bar is a room' {heading 0}
+        SENTENCE_NT'bar is a room'
+        SENTENCE_NT'"This is Bar, the leading [one of]pet shop[or]haberdashery[o'

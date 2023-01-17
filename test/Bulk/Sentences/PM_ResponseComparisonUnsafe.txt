@@ -1,0 +1,9 @@
+Read 43 words
+ROOT_NT
+    HEADING_NT'the temple is a room' {heading 0}
+        SENTENCE_NT'the temple is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the banana split rule response ( a ) is "fishy"'
+        SENTENCE_NT'say "Look out!"'
+        SENTENCE_NT'this is the banana split rule'
+        SENTENCE_NT'say "Yellow!" ( a )'

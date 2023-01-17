@@ -1,0 +1,7 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'the chapel is a room' {heading 0}
+        SENTENCE_NT'the chapel is a room'
+        SENTENCE_NT'the antechapel is a room'
+        SENTENCE_NT'the lectern is in the chapel'
+        SENTENCE_NT'the lectern is here'

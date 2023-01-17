@@ -1,0 +1,14 @@
+Read 71 words
+syntax-test: unexpected semicolon in sentence: let b be 10m
+syntax-test: unexpected semicolon in sentence: let c be 2m
+syntax-test: unexpected semicolon in sentence: let a be given by the triangle theorem
+ROOT_NT
+    HEADING_NT'include metric units by graham nelson' {heading 0}
+        SENTENCE_NT'include metric units by graham nelson'
+        SENTENCE_NT'equation - triangle theorem a = root ( b+c ) where a is a le'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let b be 10m'
+        SENTENCE_NT'let c be 2m'
+        SENTENCE_NT'let a be given by the triangle theorem'
+        SENTENCE_NT'say a'
+        SENTENCE_NT'there is a room'

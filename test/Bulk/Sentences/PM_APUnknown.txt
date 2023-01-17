@@ -1,0 +1,18 @@
+Read 115 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'instead of going arfle barfle gloop while burrow is dark'
+        SENTENCE_NT'say "It's dark."'
+        SENTENCE_NT'instead of going arfle barfle gloop when spoliation obviates'
+        SENTENCE_NT'say "It's dark."'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a person is stood if it is the player'
+        SENTENCE_NT'stood using is an action applying to one thing'
+        SENTENCE_NT'the intro middle is a room'
+        SENTENCE_NT'the rong of pillows is scenery in the intro middle'
+        SENTENCE_NT'instead of stood using the rong of pillows , say "They are a'
+        SENTENCE_NT'instead of putting it on'
+        SENTENCE_NT'say "Grunt."'
+        SENTENCE_NT'instead of putting it on when burrow is a room'
+        SENTENCE_NT'say "Grunt."'

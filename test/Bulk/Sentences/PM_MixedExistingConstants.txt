@@ -1,0 +1,11 @@
+Read 72 words
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'include object creations in the debugging log'
+        SENTENCE_NT'an insect is a kind of thing'
+        SENTENCE_NT'an insect can be aggressive , skittish , or calm'
+        SENTENCE_NT'an insect is usually calm'
+        SENTENCE_NT'an arthropod is a kind of thing'
+        SENTENCE_NT'an arthropod can be aggressive , skittish , frisky , or calm'
+        SENTENCE_NT'an arthropod is usually calm'

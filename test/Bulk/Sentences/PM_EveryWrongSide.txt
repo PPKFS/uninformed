@@ -1,0 +1,16 @@
+Read 115 words
+ROOT_NT
+    HEADING_NT'the plural of gentleman is gentlemen' {heading 0}
+        SENTENCE_NT'the plural of gentleman is gentlemen'
+        SENTENCE_NT'a gentleman is a kind of man'
+        SENTENCE_NT'a blonde is a kind of woman'
+        SENTENCE_NT'a brunette is a kind of woman'
+        SENTENCE_NT'lorelei is a blonde'
+        SENTENCE_NT'dorothy is a brunette'
+        SENTENCE_NT'sir francis is a gentleman'
+        SENTENCE_NT'shipboard is a room'
+        SENTENCE_NT'lorelei , dorothy and sir francis are in shipboard'
+        SENTENCE_NT'preference relates various people to various people'
+        SENTENCE_NT'the verb to prefer ( he prefers , they prefer , he preferred'
+        SENTENCE_NT'every blonde prefers sir francis'
+        SENTENCE_NT'sir francis prefers every blonde'

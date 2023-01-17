@@ -1,0 +1,8 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'to rhomb ( this is the foo function )'
+        SENTENCE_NT'(-  ; '
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'apply the foo function'

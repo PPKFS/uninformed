@@ -1,0 +1,18 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: let Q be a random text
+syntax-test: unexpected semicolon in sentence: let R be a random number
+syntax-test: unexpected semicolon in sentence: now the topic understood is a random snippet
+syntax-test: unexpected semicolon in sentence: let C be a random colour
+syntax-test: unexpected semicolon in sentence: let D be a random truth state
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'red , green and pink are colours'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let q be a random text'
+        SENTENCE_NT'let r be a random number'
+        SENTENCE_NT'now the topic understood is a random snippet'
+        SENTENCE_NT'let c be a random colour'
+        SENTENCE_NT'let d be a random truth state'
+        SENTENCE_NT'let p be a random person'

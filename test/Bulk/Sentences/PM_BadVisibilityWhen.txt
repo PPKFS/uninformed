@@ -1,0 +1,9 @@
+Read 58 words
+ROOT_NT
+    HEADING_NT'the gram-schmidt memorial is a room' {heading 0}
+        SENTENCE_NT'the gram-schmidt memorial is a room'
+        SENTENCE_NT'the statue is in the memorial'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are green , yellow , and red'
+        SENTENCE_NT'a thing has a colour'
+        SENTENCE_NT'understand the colour property as referring to a thing when '

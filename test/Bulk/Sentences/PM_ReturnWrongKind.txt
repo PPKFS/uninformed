@@ -1,0 +1,23 @@
+Read 75 words
+syntax-test: unexpected semicolon in sentence: decide on the Arena
+syntax-test: unexpected semicolon in sentence: decide on Bob
+syntax-test: unexpected semicolon in sentence: decide on "kettle"
+syntax-test: unexpected semicolon in sentence: decide on the Arena
+syntax-test: unexpected semicolon in sentence: decide on Bob
+syntax-test: unexpected semicolon in sentence: decide on "fridge"
+ROOT_NT
+    HEADING_NT'the arena is a room' {heading 0}
+        SENTENCE_NT'the arena is a room'
+        SENTENCE_NT'bob is a man in the arena'
+        SENTENCE_NT'to decide what room is spong'
+        SENTENCE_NT'decide on the arena'
+        SENTENCE_NT'decide on bob'
+        SENTENCE_NT'decide on "kettle"'
+        SENTENCE_NT'decide on 11'
+        SENTENCE_NT'to decide what number is spang'
+        SENTENCE_NT'decide on the arena'
+        SENTENCE_NT'decide on bob'
+        SENTENCE_NT'decide on "fridge"'
+        SENTENCE_NT'decide on 11'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "You admire the decor of [spong]."'

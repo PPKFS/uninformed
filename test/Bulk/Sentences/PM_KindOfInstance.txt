@@ -1,0 +1,5 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'the mona lisa is in the louvre' {heading 0}
+        SENTENCE_NT'the mona lisa is in the louvre'
+        SENTENCE_NT'a renaissance portrait is a kind of mona lisa'

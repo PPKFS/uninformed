@@ -1,0 +1,17 @@
+Read 48 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'marcellus is here'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( later . )' {level 0}
+                DIALOGUE_CLAUSE_NT'later'
+            DIALOGUE_LINE_NT'marcellus : "What, has this thing appear'd again to-night?"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"What, has this thing appear'd again to-night?"'
+        HEADING_NT'section 2 - meeting again ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( next . )' {level 0}
+                DIALOGUE_CLAUSE_NT'next'
+            DIALOGUE_LINE_NT'marcellus : "What, has this thing appear'd again to-night?"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"What, has this thing appear'd again to-night?"'

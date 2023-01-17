@@ -1,0 +1,13 @@
+Read 39 words
+syntax-test: unexpected semicolon in sentence: let x be 1000
+syntax-test: unexpected semicolon in sentence: let q be 6
+syntax-test: unexpected semicolon in sentence: let q be 7
+ROOT_NT
+    HEADING_NT'when play begins' {heading 0}
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with x running from 1 to 10'
+        SENTENCE_NT'let x be 1000'
+        SENTENCE_NT'let q be 6'
+        SENTENCE_NT'let q be 7'
+        SENTENCE_NT'say "[x]."'
+        SENTENCE_NT'place is room'

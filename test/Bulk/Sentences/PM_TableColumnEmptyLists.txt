@@ -1,0 +1,5 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'bc is a room' {heading 0}
+        SENTENCE_NT'bc is a room'
+        SENTENCE_NT'table of requirements recipe ingredients "duck à l'orange" {'

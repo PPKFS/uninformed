@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'xanadu and alph are rooms' {heading 0}
+        SENTENCE_NT'xanadu and alph are rooms'
+        SENTENCE_NT'index map with xanadu mapped alph of alph'

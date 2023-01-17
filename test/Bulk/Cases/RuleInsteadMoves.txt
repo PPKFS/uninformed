@@ -9,7 +9,7 @@ Check an actor dropping (this is the replaced rule):
 		say "[The noun] is already here.";
 		stop the action.
 
-The replaced rule is listed instead of the can’t drop what’s already dropped
+The replaced rule is listed instead of the can't drop what's already dropped
 rule in the check dropping rules.
 
 Test me with "drop bat".

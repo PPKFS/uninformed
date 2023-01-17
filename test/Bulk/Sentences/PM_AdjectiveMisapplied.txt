@@ -1,0 +1,6 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'now the laboratory is empty'

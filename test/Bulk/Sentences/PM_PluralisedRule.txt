@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'every turn when the current action is jumping ( this is the '
+        SENTENCE_NT'say "Whee!"'

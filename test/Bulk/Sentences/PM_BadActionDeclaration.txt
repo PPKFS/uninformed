@@ -1,0 +1,4 @@
+Read 9 words
+ROOT_NT
+    HEADING_NT'stretching is an action' {heading 0}
+        SENTENCE_NT'stretching is an action'

@@ -1,0 +1,13 @@
+Read 53 words
+ROOT_NT
+    HEADING_NT'the spotlight is a room' {heading 0}
+        SENTENCE_NT'the spotlight is a room'
+        SENTENCE_NT'instead of requesting the pronoun meanings , say "No pronoun'
+        SENTENCE_NT'before doing something'
+        SENTENCE_NT'say "Yeah?"'
+        SENTENCE_NT'before taking something'
+        SENTENCE_NT'say "Yeah?"'
+        SENTENCE_NT'before requesting the pronoun meanings'
+        SENTENCE_NT'say "Yeah?"'
+        SENTENCE_NT'check requesting the pronoun meanings'
+        SENTENCE_NT'say "Yeah?"'

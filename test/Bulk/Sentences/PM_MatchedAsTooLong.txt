@@ -1,0 +1,13 @@
+Read 97 words
+ROOT_NT
+    HEADING_NT'the asking it about action has an object called the active n' {heading 0}
+        SENTENCE_NT'the asking it about action has an object called the active n'
+        SENTENCE_NT'setting action variables for asking someone about something'
+        SENTENCE_NT'now the active node is the node of the noun'
+        SENTENCE_NT'the place is a room'
+        SENTENCE_NT'a man called fred is in the place'
+        SENTENCE_NT'first-node is a thing'
+        SENTENCE_NT'a person has an object called a node'
+        SENTENCE_NT'the node of fred is the first-node'
+        SENTENCE_NT'after asking fred about "inform" located near first-node'
+        SENTENCE_NT'say "'It's a bug', he tells you."'

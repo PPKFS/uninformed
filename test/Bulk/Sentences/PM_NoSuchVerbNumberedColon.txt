@@ -1,0 +1,7 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'to ( x - a number ) be praised !'
+        SENTENCE_NT'say x'
+        SENTENCE_NT'to recite a hymn to 3 : 3 be praised !'

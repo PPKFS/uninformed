@@ -1,0 +1,12 @@
+Read 43 words
+syntax-test: unexpected semicolon in sentence: say "[obj] is in Foo."
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'zog is a region'
+        SENTENCE_NT'zog is in foo'
+        SENTENCE_NT'foo is in zog'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with obj running through objects in foo'
+        SENTENCE_NT'say "[obj] is in Foo."'
+        SENTENCE_NT'say "Zog is in Foo: [whether or not Zog is in Foo]"'

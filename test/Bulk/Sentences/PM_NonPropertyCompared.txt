@@ -1,0 +1,8 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'the typographium is a room' {heading 0}
+        SENTENCE_NT'the typographium is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are red , green and blue'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if the typographium is blue , say "Heavens to Betsy!"'

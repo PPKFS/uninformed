@@ -1,0 +1,6 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'hanging around until is an action with past participle hung '
+        SENTENCE_NT'sitting around until is an action with past participle sat ,'

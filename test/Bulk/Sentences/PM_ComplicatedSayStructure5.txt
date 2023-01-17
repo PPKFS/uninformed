@@ -1,0 +1,5 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'mab is a room' {heading 0}
+        SENTENCE_NT'mab is a room'
+        SENTENCE_NT'"This is Mab, the [if 1 is 2]leading [one of]pet shop[or]hab'

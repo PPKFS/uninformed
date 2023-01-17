@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'the gram-schmidt memorial is a room' {heading 0}
+        SENTENCE_NT'the gram-schmidt memorial is a room'
+        SENTENCE_NT'the statue is in the memorial'
+        SENTENCE_NT'understand "blob [101]" as examining'

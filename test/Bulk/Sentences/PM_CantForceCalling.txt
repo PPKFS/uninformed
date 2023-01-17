@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'wharf is a room' {heading 0}
+        SENTENCE_NT'wharf is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now all scenes ( called fred ) are recurring'

@@ -1,0 +1,12 @@
+Read 34 words
+syntax-test: unexpected semicolon in sentence: let w be "[]"
+syntax-test: unexpected semicolon in sentence: let x be "[   ]frpg"
+syntax-test: unexpected semicolon in sentence: let y be "asasdf[  ]frpg"
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let w be "[]"'
+        SENTENCE_NT'let x be "[   ]frpg"'
+        SENTENCE_NT'let y be "asasdf[  ]frpg"'
+        SENTENCE_NT'let z be "asasdf[ ]"'

@@ -1,0 +1,9 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'the back lot is a room' {heading 0}
+        SENTENCE_NT'the back lot is a room'
+        SENTENCE_NT'a direction can be brass or marble'
+        SENTENCE_NT'gobbledy is a brass direction'
+        SENTENCE_NT'the opposite of gobbledy is gook'
+        SENTENCE_NT'gook is a direction'
+        SENTENCE_NT'the opposite of gook is gobbledy'

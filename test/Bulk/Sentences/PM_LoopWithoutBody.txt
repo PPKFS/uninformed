@@ -1,0 +1,17 @@
+Read 89 words
+syntax-test: unexpected semicolon in sentence: let L be the topic understood
+syntax-test: unexpected semicolon in sentence: repeat with I running from 1 to the number of rows in the Table of Explanations
+syntax-test: unexpected semicolon in sentence: choose row I in the Table of Explanations
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'explaining is an action out of world applying to one topic'
+        SENTENCE_NT'understand "explain [text]" as explaining'
+        SENTENCE_NT'report explaining'
+        SENTENCE_NT'let l be the topic understood'
+        SENTENCE_NT'repeat with i running from 1 to the number of rows in the ta'
+        SENTENCE_NT'choose row i in the table of explanations'
+        SENTENCE_NT'if there is a subject entry'
+        SENTENCE_NT'if l is the subject entry'
+        SENTENCE_NT'say "Explanation here."'
+        SENTENCE_NT'table of explanations subject ( text ) "bug"'

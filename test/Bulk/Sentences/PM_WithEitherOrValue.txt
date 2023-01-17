@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'stanford is a room' {heading 0}
+        SENTENCE_NT'stanford is a room'
+        SENTENCE_NT'knuth is a man with opaque 10'

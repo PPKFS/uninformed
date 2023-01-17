@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'test is a room' {heading 0}
+        SENTENCE_NT'test is a room'
+        SENTENCE_NT'the command prompt is "What do you want to do? >"'

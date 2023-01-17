@@ -1,0 +1,12 @@
+Read 32 words
+syntax-test: unexpected semicolon in sentence: splodge
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'to splodge'
+        SENTENCE_NT'(-  objectloop (200) ; '
+        SENTENCE_NT'to spludge'
+        SENTENCE_NT'(-  print 1 +; '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'splodge'
+        SENTENCE_NT'spludge'

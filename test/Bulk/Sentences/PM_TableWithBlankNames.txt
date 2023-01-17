@@ -1,0 +1,8 @@
+Read 52 words
+ROOT_NT
+    HEADING_NT'a vial is a kind of container' {heading 0}
+        SENTENCE_NT'a vial is a kind of container'
+        SENTENCE_NT'a vial has a number called fullness'
+        SENTENCE_NT'starting room is a room'
+        SENTENCE_NT'some vials in the starting room are defined by the table of '
+        SENTENCE_NT'table of vial statistics vial fullness -- 100 -- 0'

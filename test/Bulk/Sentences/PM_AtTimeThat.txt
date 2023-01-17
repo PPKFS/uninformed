@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'at the time that the master arrives'
+        SENTENCE_NT'the master arrives in one turn from now'

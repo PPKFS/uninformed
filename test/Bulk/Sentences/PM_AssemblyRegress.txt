@@ -1,0 +1,6 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'a container is in every container' {heading 0}
+        SENTENCE_NT'a container is in every container'
+        SENTENCE_NT'the boxing ring is a room'
+        SENTENCE_NT'pandora's box is a container in the boxing ring'

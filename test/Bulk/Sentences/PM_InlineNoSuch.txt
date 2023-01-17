@@ -1,0 +1,11 @@
+Read 33 words
+ROOT_NT
+    HEADING_NT'inline arena is a room' {heading 0}
+        SENTENCE_NT'inline arena is a room'
+        SENTENCE_NT'to go awry ( n - a number )'
+        SENTENCE_NT'(- 
+        		{-unprotect:N};
+        		{-show-me:blobby};
+        	'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'go awry 21'

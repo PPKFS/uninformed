@@ -1,0 +1,17 @@
+Read 46 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'marcellus is here'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the quaintly done beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the quaintly done beat'
+            DIALOGUE_LINE_NT'marcellus : "Ug!"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"Ug!"'
+            DIALOGUE_CHOICE_NT'-> another choice' {level 0}
+                DIALOGUE_SELECTION_NT'another choice'
+            DIALOGUE_CHOICE_NT'-- "Eat the banana."' {level 0}
+                DIALOGUE_SELECTION_NT'"Eat the banana."'
+            DIALOGUE_CHOICE_NT'-> another choice' {level 0}
+                DIALOGUE_SELECTION_NT'another choice'

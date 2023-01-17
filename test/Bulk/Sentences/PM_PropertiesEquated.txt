@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'hovel is a room' {heading 0}
+        SENTENCE_NT'hovel is a room'
+        SENTENCE_NT'the description is the printed name'

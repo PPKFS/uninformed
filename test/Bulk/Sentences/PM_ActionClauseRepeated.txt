@@ -1,0 +1,5 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'wrangling is an action applying to nothing , requiring light'

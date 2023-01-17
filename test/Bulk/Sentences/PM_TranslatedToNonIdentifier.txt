@@ -1,0 +1,10 @@
+Read 67 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'the home object translates into i6 as your "home"'
+        SENTENCE_NT'the home object translates into i6 as "home sweet home"'
+        SENTENCE_NT'the home object translates into i6 as "0home"'
+        SENTENCE_NT'the home object translates into i6 as "y01234567890123456789'
+        SENTENCE_NT'the home object translates into i6 as "nn0123456789012345678'
+        SENTENCE_NT'the home object translates into i6 as "home" from home'

@@ -1,0 +1,6 @@
+Read 21 words
+ROOT_NT
+    HEADING_NT'the temple is a room' {heading 0}
+        SENTENCE_NT'the temple is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now the score is 7'

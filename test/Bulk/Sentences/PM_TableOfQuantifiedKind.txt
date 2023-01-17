@@ -1,0 +1,11 @@
+Read 77 words
+ROOT_NT
+    HEADING_NT'garden is a room' {heading 0}
+        SENTENCE_NT'garden is a room'
+        SENTENCE_NT'the bush is a supporter in garden'
+        SENTENCE_NT'a berry is a kind of thing'
+        SENTENCE_NT'three berries on the bush are defined by the table of tasty '
+        SENTENCE_NT'every berry has some text called flavor'
+        SENTENCE_NT'instead of tasting a berry'
+        SENTENCE_NT'say "[The noun] tastes [flavor]."'
+        SENTENCE_NT'table of tasty berries berry flavor a blue berry "sweet" a g'

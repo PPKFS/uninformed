@@ -1,0 +1,8 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'stage is a room' {heading 0}
+        SENTENCE_NT'stage is a room'
+        SENTENCE_NT'requirement relates various things to various things'
+        SENTENCE_NT'the verb to require ( he requires , they require , he requir'
+        SENTENCE_NT'splodge is a thing'
+        SENTENCE_NT'it requires nothing'

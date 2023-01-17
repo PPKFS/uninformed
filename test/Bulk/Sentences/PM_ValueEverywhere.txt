@@ -1,0 +1,7 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'mist is a backdrop'
+        SENTENCE_NT'mist is everywhere'
+        SENTENCE_NT'101 is everywhere'

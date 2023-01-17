@@ -1,0 +1,15 @@
+Read 69 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'the paranormal is here'
+        SENTENCE_NT'marcellus is here'
+        SENTENCE_NT'a dialogue beat can be dramatic , quiet or subdued'
+        SENTENCE_NT'a dialogue beat can be spur-of-the-moment or planned'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the okay beat ; closed , dramatic , 234 , spur-of-' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the okay beat'
+                DIALOGUE_CLAUSE_NT'closed , dramatic , 234 , spur-of-the-moment'
+            DIALOGUE_LINE_NT'marcellus : "OK."' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"OK."'

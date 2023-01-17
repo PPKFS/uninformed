@@ -1,0 +1,7 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a room has a person called spong'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'increment the spong of the location'

@@ -3,9 +3,9 @@ syntax-test: unexpected semicolon in sentence: say "'I can interpret its transmi
 ROOT_NT
     HEADING_NT'"Chapter 2" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 2" by emily short'
-        HEADING_NT'chapter 2' {heading 1}
+        HEADING_NT'chapter 2' {heading 4}
             SENTENCE_NT'use command line echoing'
-            HEADING_NT'section 1 - creating the world' {heading 2}
+            HEADING_NT'section 1 - creating the world' {heading 5}
                 SENTENCE_NT'the kitchen is a room'
                 SENTENCE_NT'"The kitchen is for cooking in."'
                 SENTENCE_NT'the kitchen contains a red vase'
@@ -45,10 +45,10 @@ ROOT_NT
                 SENTENCE_NT'the windowseat is scenery in the breakfast nook'
                 SENTENCE_NT'the cushion is scenery on the windowseat'
                 SENTENCE_NT'the telegram from klaxor is in the breakfast nook'
-            HEADING_NT'section 2 - making rules' {heading 2}
+            HEADING_NT'section 2 - making rules' {heading 5}
                 SENTENCE_NT'instead of eating the treacle tart'
                 SENTENCE_NT'say "It is of a startling hardness, akin to the ceramics use'
-            HEADING_NT'section 3 - punctuation' {heading 2}
+            HEADING_NT'section 3 - punctuation' {heading 5}
                 SENTENCE_NT'instead of attacking the treacle tart'
                 SENTENCE_NT'say "Tempting, but does it seem a good idea to offend Lucy?"'
                 SENTENCE_NT'instead of smelling the treacle tart'
@@ -60,7 +60,7 @@ ROOT_NT
                 SENTENCE_NT'instead of listening to the treacle tart'
                 SENTENCE_NT'say "'I can interpret its transmissions, if you like,' remar'
                 SENTENCE_NT'say paragraph break'
-            HEADING_NT'section 8 - including extensions' {heading 2}
-            HEADING_NT'section 9 - use options' {heading 2}
+            HEADING_NT'section 8 - including extensions' {heading 5}
+            HEADING_NT'section 9 - use options' {heading 5}
                 SENTENCE_NT'use american dialect and the serial comma'
                 SENTENCE_NT'use abbreviated room descriptions'

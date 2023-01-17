@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'use sequential action translates as (-  Constant SEQUENTIAL_'
+        SENTENCE_NT'use sequential action translates as (-  Constant ASEQUENTIAL'

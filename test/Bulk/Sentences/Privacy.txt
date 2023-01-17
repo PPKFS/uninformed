@@ -1,0 +1,12 @@
+Read 28 words
+syntax-test: unexpected semicolon in sentence: disclaim
+ROOT_NT
+    HEADING_NT'to begin' {heading 0}
+        SENTENCE_NT'to begin'
+        SENTENCE_NT'disclaim'
+        SENTENCE_NT'showme 1 divided by 0'
+        SENTENCE_NT'include (- 
+        +private [ RunTimeProblem;
+        	"Hey, there's no pro'
+        SENTENCE_NT'to disclaim'
+        SENTENCE_NT'(-  RunTimeProblem(); '

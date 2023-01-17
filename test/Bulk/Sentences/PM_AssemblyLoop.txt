@@ -1,0 +1,10 @@
+Read 64 words
+ROOT_NT
+    HEADING_NT'"Loop"' {heading 0}
+        SENTENCE_NT'"Loop"'
+        SENTENCE_NT'the bar is a room'
+        SENTENCE_NT'bob is a man in the bar'
+        SENTENCE_NT'loving relates one person to another'
+        SENTENCE_NT'the verb to love ( he loves , they love , he loved , it is l'
+        SENTENCE_NT'every man loves a woman'
+        SENTENCE_NT'every woman loves a man'

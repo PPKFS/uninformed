@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a splurge is a kind of thing'
+        SENTENCE_NT'a person has a number called the splurge'

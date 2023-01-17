@@ -1,0 +1,4 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'use interactive fiction language elements' {heading 0}
+        SENTENCE_NT'use interactive fiction language elements'

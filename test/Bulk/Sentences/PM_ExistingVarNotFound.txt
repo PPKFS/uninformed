@@ -1,0 +1,8 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'to disregard ( act - an existing variable )'
+        SENTENCE_NT'(-  {act}; '
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'disregard waiting'

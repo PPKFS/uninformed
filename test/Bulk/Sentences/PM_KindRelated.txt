@@ -1,0 +1,4 @@
+Read 13 words
+ROOT_NT
+    HEADING_NT'a door is in the hall of infinity' {heading 0}
+        SENTENCE_NT'a door is in the hall of infinity'

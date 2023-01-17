@@ -62,7 +62,7 @@ syntax-test: unexpected semicolon in sentence: increase the score by (Points ent
 ROOT_NT
     HEADING_NT'"Chapter 15: Port Royal" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 15: Port Royal" by emily short'
-        HEADING_NT'chapter 15' {heading 1}
+        HEADING_NT'chapter 15' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'use scoring'
             SENTENCE_NT'fort james is a room'
@@ -101,11 +101,11 @@ ROOT_NT
             SENTENCE_NT'queen street middle is east of queen street end'
             SENTENCE_NT'queen street east is east of queen street middle and south o'
             SENTENCE_NT'queen street at the prison is east of queen street east'
-            HEADING_NT'section 1 - laying out tables' {heading 2}
+            HEADING_NT'section 1 - laying out tables' {heading 5}
                 SENTENCE_NT'table 1.1 - private ships of war type commander men guns fri'
                 SENTENCE_NT'ship type is a kind of value'
                 SENTENCE_NT'the ship types are frigate , brigantine , pinke , and barque'
-            HEADING_NT'section 2 - looking up entries' {heading 2}
+            HEADING_NT'section 2 - looking up entries' {heading 5}
                 SENTENCE_NT'before entering the ships'
                 SENTENCE_NT'say "The closest is a [Type in row 3 of Table 1.1], but Capt'
                 SENTENCE_NT'instead of examining the ships'
@@ -117,14 +117,14 @@ ROOT_NT
                 SENTENCE_NT'repeat with n running from 1 to the number of rows in the ta'
                 SENTENCE_NT'if there is a commander in row n of the table of private shi'
                 SENTENCE_NT'end repeat'
-            HEADING_NT'section 3 - corresponding entries' {heading 2}
+            HEADING_NT'section 3 - corresponding entries' {heading 5}
                 SENTENCE_NT'instead of listening to the ships'
                 SENTENCE_NT'if there is a type corresponding to a men of 100 in the tabl'
                 SENTENCE_NT'otherwise say "They all sound about the same."'
                 SENTENCE_NT'instead of smelling the ships'
                 SENTENCE_NT'if there is a type of pinke in the table of private ships of'
                 SENTENCE_NT'otherwise say "You can't make out individual smells."'
-            HEADING_NT'section 4 - changing entries' {heading 2}
+            HEADING_NT'section 4 - changing entries' {heading 5}
                 SENTENCE_NT'instead of firing the left cannons'
                 SENTENCE_NT'repeat with n running from 1 to the number of rows in the ta'
                 SENTENCE_NT'if there is a commander in row n of the table of private shi'
@@ -134,7 +134,7 @@ ROOT_NT
                 SENTENCE_NT'stop the action'
                 SENTENCE_NT'end if'
                 SENTENCE_NT'end repeat'
-            HEADING_NT'section 5 - choosing rows' {heading 2}
+            HEADING_NT'section 5 - choosing rows' {heading 5}
                 SENTENCE_NT'instead of firing the right cannons'
                 SENTENCE_NT'choose row 5 in the table of private ships of war'
                 SENTENCE_NT'decrease guns entry by 1'
@@ -144,7 +144,7 @@ ROOT_NT
                 SENTENCE_NT'choose row with a type of frigate in the table of private sh'
                 SENTENCE_NT'decrease men entry by 1'
                 SENTENCE_NT'say "With unnerving accuracy, you shoot a man from the deck '
-            HEADING_NT'section 6 - repeating through tables' {heading 2}
+            HEADING_NT'section 6 - repeating through tables' {heading 5}
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'repeat through the table of private ships of war begin'
                 SENTENCE_NT'if ( guns entry ) is 0 or ( men entry ) is 0 begin'
@@ -174,11 +174,11 @@ ROOT_NT
                 SENTENCE_NT'stop the action'
                 SENTENCE_NT'end repeat'
                 SENTENCE_NT'say "You smell nothing extraordinary."'
-            HEADING_NT'section 7 - blank entries' {heading 2}
+            HEADING_NT'section 7 - blank entries' {heading 5}
                 SENTENCE_NT'table of port royal taverns sign date attested site "The Cat'
-            HEADING_NT'section 8 - blank columns' {heading 2}
+            HEADING_NT'section 8 - blank columns' {heading 5}
                 SENTENCE_NT'table of tasks achieved points citation time 2 "sinking a br'
-            HEADING_NT'section 9 - blank rows' {heading 2}
+            HEADING_NT'section 9 - blank rows' {heading 5}
                 SENTENCE_NT'table of occupations and people trade first name last name d'
                 SENTENCE_NT'table of occupations and people ( continued ) trade first na'
                 SENTENCE_NT'instead of firing the left cannons when the number of filled'
@@ -189,7 +189,7 @@ ROOT_NT
                 SENTENCE_NT'say "All the ships have sunk!"'
                 SENTENCE_NT'instead of examining the dock when the number of blank rows '
                 SENTENCE_NT'say "All the ships have sunk!"'
-            HEADING_NT'section 10 - adding and removing rows' {heading 2}
+            HEADING_NT'section 10 - adding and removing rows' {heading 5}
                 SENTENCE_NT'to supply a new character'
                 SENTENCE_NT'choose row 5 in the table of occupations and people'
                 SENTENCE_NT'let the new profession be the trade entry'
@@ -206,10 +206,10 @@ ROOT_NT
                 SENTENCE_NT'say "You are [first name entry] [last name entry], a [trade '
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'supply a new character'
-            HEADING_NT'section 11 - sorting' {heading 2}
+            HEADING_NT'section 11 - sorting' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'sort the table of private ships of war in type order'
-            HEADING_NT'section 12 - listed in' {heading 2}
+            HEADING_NT'section 12 - listed in' {heading 5}
                 SENTENCE_NT'instead of listening to a site listed in the table of port r'
                 SENTENCE_NT'say "Not far off is the sign of [sign entry], where a raucou'
                 SENTENCE_NT'instead of eating something inedible'
@@ -221,7 +221,7 @@ ROOT_NT
                 SENTENCE_NT'instead of jumping'
                 SENTENCE_NT'if the location is a site listed in the table of port royal '
                 SENTENCE_NT'otherwise say "You leap in sprightly fashion."'
-            HEADING_NT'section 13 - topic columns' {heading 2}
+            HEADING_NT'section 13 - topic columns' {heading 5}
                 SENTENCE_NT'ann mills is a woman in the feathers'
                 SENTENCE_NT'instead of asking ann about a topic listed in the table of a'
                 SENTENCE_NT'say "[response entry][paragraph break]"'
@@ -235,7 +235,7 @@ ROOT_NT
                 SENTENCE_NT'instead of remembering a topic listed in the table of recoll'
                 SENTENCE_NT'say "[response entry][paragraph break]"'
                 SENTENCE_NT'table of recollections topic response "weather" "It's warm, '
-            HEADING_NT'section 14 - another scoring example' {heading 2}
+            HEADING_NT'section 14 - another scoring example' {heading 5}
                 SENTENCE_NT'to record ( t - text ) as achieved'
                 SENTENCE_NT'choose row with a citation of t in the table of tasks achiev'
                 SENTENCE_NT'if there is no time entry begin'

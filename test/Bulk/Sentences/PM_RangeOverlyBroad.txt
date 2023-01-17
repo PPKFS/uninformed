@@ -1,0 +1,9 @@
+Read 48 words
+ROOT_NT
+    HEADING_NT'the arena is a room' {heading 0}
+        SENTENCE_NT'the arena is a room'
+        SENTENCE_NT'a blue ball is in the arena'
+        SENTENCE_NT'a concept is a kind'
+        SENTENCE_NT'honor is a concept'
+        SENTENCE_NT'globbing relates various people to various values'
+        SENTENCE_NT'knowing relates various people to various objects'

@@ -1,0 +1,6 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'a book is a kind of thing'
+        SENTENCE_NT'a book can be mint or foxed ( this is the cover state )'

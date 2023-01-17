@@ -1,0 +1,16 @@
+Read 89 words
+ROOT_NT
+    HEADING_NT'temperature is a kind of value' {heading 0}
+        SENTENCE_NT'temperature is a kind of value'
+        SENTENCE_NT'the temperatures are hot and cold'
+        SENTENCE_NT'a thing has a temperature'
+        SENTENCE_NT'temperature lab is a room'
+        SENTENCE_NT'"The perfect place to HEAT or COOL things!"'
+        SENTENCE_NT'the very mysterious substance is a cold thing , here'
+        SENTENCE_NT'the description of the substance is "Very mysterious
+        and [te'
+        SENTENCE_NT'possibilizing relates one thing to various temperatures'
+        SENTENCE_NT'the verb to be possibly implies the possibilizing relation'
+        SENTENCE_NT'the substance is possibly hot'
+        SENTENCE_NT'the substance is possibly cold'
+        SENTENCE_NT'understand "[something related by possibilizing]" as a thing'

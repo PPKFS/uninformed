@@ -1,0 +1,6 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'to amalgamate ( n - a number ) ( m - a number )'
+        SENTENCE_NT'say "There."'

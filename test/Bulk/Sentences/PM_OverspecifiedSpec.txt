@@ -1,0 +1,7 @@
+Read 41 words
+ROOT_NT
+    HEADING_NT'the train yard is a room' {heading 0}
+        SENTENCE_NT'the train yard is a room'
+        SENTENCE_NT'the power line is a backdrop'
+        SENTENCE_NT'the power line is in the train yard'
+        SENTENCE_NT'the description of the power line in the train yard is "This'

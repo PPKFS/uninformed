@@ -1,0 +1,9 @@
+Read 47 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'mauve and cerise are colours'
+        SENTENCE_NT'slyness relates various things to various colours'
+        SENTENCE_NT'a box is a kind of container'
+        SENTENCE_NT'understand "box of [something related by slyness]" as a box'

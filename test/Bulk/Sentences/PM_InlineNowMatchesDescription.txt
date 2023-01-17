@@ -1,0 +1,10 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'inline arena is a room' {heading 0}
+        SENTENCE_NT'inline arena is a room'
+        SENTENCE_NT'to go awry'
+        SENTENCE_NT'(- 
+        		{-now-matches-description:frog:amphibian};
+        	'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'go awry'

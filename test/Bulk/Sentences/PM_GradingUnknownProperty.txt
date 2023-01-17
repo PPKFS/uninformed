@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is stately if its banana is 10 or more'

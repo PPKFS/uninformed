@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'lab is a room' {heading 0}
+        SENTENCE_NT'lab is a room'
+        SENTENCE_NT'the camera is in the lab'
+        SENTENCE_NT'understand "new/-- br80/08/-- camera" as the camera'

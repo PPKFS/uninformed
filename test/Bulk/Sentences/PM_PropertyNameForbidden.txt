@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'the garage is a room' {heading 0}
+        SENTENCE_NT'the garage is a room'
+        SENTENCE_NT'a game is a kind of a thing'
+        SENTENCE_NT'a game has a text called "BUG: game has no title"'

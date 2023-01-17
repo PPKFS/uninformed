@@ -1,0 +1,26 @@
+Read 69 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'marcellus is here'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the okay beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the okay beat'
+            DIALOGUE_LINE_NT'marcellus : "OK."' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"OK."'
+            DIALOGUE_CUE_NT'( after the okay beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'after the okay beat'
+            DIALOGUE_LINE_NT'marcellus : "What, has this thing appear'd again to-night?"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"What, has this thing appear'd again to-night?"'
+            DIALOGUE_CUE_NT'( after a dialogue beat . )' {level 0}
+                DIALOGUE_CLAUSE_NT'after a dialogue beat'
+            DIALOGUE_LINE_NT'marcellus : "What, has this thing appear'd again to-night?"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"What, has this thing appear'd again to-night?"'
+            DIALOGUE_CUE_NT'( after sdfgsfgsfg sdfgsfgs . )' {level 0}
+                DIALOGUE_CLAUSE_NT'after sdfgsfgsfg sdfgsfgs'
+            DIALOGUE_LINE_NT'marcellus : "What, has this thing appear'd again to-night?"' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"What, has this thing appear'd again to-night?"'

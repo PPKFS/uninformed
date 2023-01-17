@@ -1,0 +1,6 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'the understand token squiggle translates into i6 as "SQUIGGL'
+        SENTENCE_NT'the understand token squiggle translates into i6 as "SQUAGGL'

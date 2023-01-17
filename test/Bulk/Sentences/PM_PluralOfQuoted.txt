@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'the bank is a room' {heading 0}
+        SENTENCE_NT'the bank is a room'
+        SENTENCE_NT'a coin is a kind of thing'
+        SENTENCE_NT'the plural of "coin" is monies'

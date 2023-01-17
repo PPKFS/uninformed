@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'equation 1 p = 1 where p is a number'

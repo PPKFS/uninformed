@@ -1,0 +1,9 @@
+Read 39 words
+syntax-test: unexpected semicolon in sentence: Say paragraph break
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'considering something is an activity on things'
+        SENTENCE_NT'after printing the name of something while considering a thi'
+        SENTENCE_NT'say paragraph break'
+        SENTENCE_NT'showme x'

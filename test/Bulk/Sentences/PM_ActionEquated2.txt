@@ -1,0 +1,4 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'dropping something is the score' {heading 0}
+        SENTENCE_NT'dropping something is the score'

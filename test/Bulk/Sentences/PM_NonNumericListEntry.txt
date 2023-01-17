@@ -1,0 +1,8 @@
+Read 33 words
+syntax-test: unexpected semicolon in sentence: let L be { 1, 2, 3 }
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let l be { 1 , 2 , 3 }'
+        SENTENCE_NT'let m be entry "three" of l'

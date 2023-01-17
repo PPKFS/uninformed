@@ -62,7 +62,7 @@ syntax-test: unexpected semicolon in sentence: now item is damp
 ROOT_NT
     HEADING_NT'"Chapter 8: Ragnarok" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 8: Ragnarok" by emily short'
-        HEADING_NT'chapter 8' {heading 1}
+        HEADING_NT'chapter 8' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'the great hall is a room'
             SENTENCE_NT'the kennel is west of the great hall'
@@ -95,28 +95,28 @@ ROOT_NT
             SENTENCE_NT'the hearth is a flame-retardant supporter in the great hall'
             SENTENCE_NT'the torch is a flammable flaming thing in the great hall'
             SENTENCE_NT'it has endurance 60'
-            HEADING_NT'section 1 - change of values that vary' {heading 2}
+            HEADING_NT'section 1 - change of values that vary' {heading 5}
                 SENTENCE_NT'every turn when surt was the vengeful deity'
                 SENTENCE_NT'now the vengeful deity is loki'
                 SENTENCE_NT'if surt can be seen by the player , say "Surt attacks Loki w'
                 SENTENCE_NT'every turn when loki was the vengeful deity'
                 SENTENCE_NT'now the vengeful deity is surt'
                 SENTENCE_NT'if loki can be seen by the player , say "Loki mocks Surt wit'
-            HEADING_NT'section 2 - changing the command prompt' {heading 2}
+            HEADING_NT'section 2 - changing the command prompt' {heading 5}
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'if the vengeful deity is flaming , now the command prompt is'
                 SENTENCE_NT'otherwise now the command prompt is "[bold type][vengeful de'
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'now the vengeful deity is surt'
                 SENTENCE_NT'now the command prompt is "[bold type][vengeful deity][roman'
-            HEADING_NT'section 3 - changing the status line' {heading 2}
+            HEADING_NT'section 3 - changing the status line' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'now the right hand status line is "Time: [time of day]"'
-            HEADING_NT'section 4 - change of either/or properties' {heading 2}
+            HEADING_NT'section 4 - change of either/or properties' {heading 5}
                 SENTENCE_NT'instead of attacking something flame-retardant when the swor'
                 SENTENCE_NT'now the noun is flammable'
                 SENTENCE_NT'say "The sword makes even [the noun] vulnerable to fire."'
-            HEADING_NT'section 5 - change of properties with values' {heading 2}
+            HEADING_NT'section 5 - change of properties with values' {heading 5}
                 SENTENCE_NT'before printing the name of something flaming'
                 SENTENCE_NT'say "flaming "'
                 SENTENCE_NT'before burning something when the player is not carrying som'
@@ -135,25 +135,25 @@ ROOT_NT
                 SENTENCE_NT'say "That seems dangerous given that you yourself are in [th'
                 SENTENCE_NT'instead of burning something when the player is on the noun'
                 SENTENCE_NT'say "That seems dangerous given that you yourself are on [th'
-            HEADING_NT'section 6 - whose property ?' {heading 2}
+            HEADING_NT'section 6 - whose property ?' {heading 5}
                 SENTENCE_NT'instead of examining something'
                 SENTENCE_NT'say "Hm, the [printed name] appears to be [heat]."'
-            HEADING_NT'section 7 - moving things' {heading 2}
+            HEADING_NT'section 7 - moving things' {heading 5}
                 SENTENCE_NT'instead of asking surt about "fire" when surt has the sword'
                 SENTENCE_NT'move the sword to the table'
                 SENTENCE_NT'say "Surt bellows, and swings his sword about his head, then'
-            HEADING_NT'section 8 - moving the player' {heading 2}
+            HEADING_NT'section 8 - moving the player' {heading 5}
                 SENTENCE_NT'instead of waiting in the kennel'
                 SENTENCE_NT'say "One of the dogs begins to bark at you, whereupon you be'
                 SENTENCE_NT'move the player to the great hall'
                 SENTENCE_NT'instead of listening to the kennel'
                 SENTENCE_NT'say "The sound of baying begins to bother you; unthinkingly '
                 SENTENCE_NT'move the player to the great hall , without printing a room '
-            HEADING_NT'section 9 - removing things from play' {heading 2}
+            HEADING_NT'section 9 - removing things from play' {heading 5}
                 SENTENCE_NT'instead of attacking loki when the sword is carried by the p'
                 SENTENCE_NT'now loki is nowhere'
                 SENTENCE_NT'say "The sword cuts through the god, killing him. His body, '
-            HEADING_NT'section 10 - now' {heading 2}
+            HEADING_NT'section 10 - now' {heading 5}
                 SENTENCE_NT'instead of attacking surt when the sword is carried by the p'
                 SENTENCE_NT'now surt is nowhere'
                 SENTENCE_NT'say "The sword cuts through the god, killing him and sending'
@@ -219,7 +219,7 @@ ROOT_NT
                 SENTENCE_NT'now the item is nowhere'
                 SENTENCE_NT'now the item is damp'
                 SENTENCE_NT'say "[The item] burns away completely."'
-            HEADING_NT'section 11 - checking on whereabouts' {heading 2}
+            HEADING_NT'section 11 - checking on whereabouts' {heading 5}
                 SENTENCE_NT'instead of doing something to the table when the sword is on'
                 SENTENCE_NT'say "The sword frightens you."'
                 SENTENCE_NT'instead of attacking loki when surt does not have the sword '
@@ -236,25 +236,25 @@ ROOT_NT
                 SENTENCE_NT'say "It seems a little risky since the box is on fire."'
                 SENTENCE_NT'instead of pushing or pulling something when the noun is ins'
                 SENTENCE_NT'say "The burning box deters you."'
-            HEADING_NT'section 12 - more flexible descriptions of whereabouts' {heading 2}
+            HEADING_NT'section 12 - more flexible descriptions of whereabouts' {heading 5}
                 SENTENCE_NT'instead of doing something to the sword when the sword is ca'
                 SENTENCE_NT'say "[The warrior] does not look eager to permit that."'
                 SENTENCE_NT'instead of doing something to freya in the presence of a man'
                 SENTENCE_NT'say "[The guard] looks jealously in your direction, making y'
-            HEADING_NT'section 14 - counting the number of things' {heading 2}
+            HEADING_NT'section 14 - counting the number of things' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'now the left hand status line is "Burning: [the number of fl'
-            HEADING_NT'section 15 - looking at containment by hand' {heading 2}
+            HEADING_NT'section 15 - looking at containment by hand' {heading 5}
                 SENTENCE_NT'before burning something which is in a container when the ho'
                 SENTENCE_NT'say "This could make things toasty for you..."'
                 SENTENCE_NT'blowing is an action applying to one carried thing'
                 SENTENCE_NT'understand "blow [something]" as blowing'
-            HEADING_NT'section 18 - testing' {heading 2}
+            HEADING_NT'section 18 - testing' {heading 5}
                 SENTENCE_NT'test waiting with "wait / wait / wait / wait"'
                 SENTENCE_NT'test torch with "burn table / blow torch / wait / wait / wai'
                 SENTENCE_NT'test kennel with "wait / wait / wait" in the kennel'
                 SENTENCE_NT'test stone with "burn box / take stone" in the great hall ho'
-            HEADING_NT'section 20 - material not for release - not for release' {heading 2}
+            HEADING_NT'section 20 - material not for release - not for release' {heading 5}
                 SENTENCE_NT'understand "deluge" as universal extinguishing'
                 SENTENCE_NT'universal extinguishing is an action applying to nothing'
                 SENTENCE_NT'carry out universal extinguishing'

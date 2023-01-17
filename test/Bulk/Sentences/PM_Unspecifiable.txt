@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'king solomon's mine is a room' {heading 0}
+        SENTENCE_NT'king solomon's mine is a room'
+        SENTENCE_NT'the specification of 12 is "A dozen."'

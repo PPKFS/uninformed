@@ -1,0 +1,9 @@
+Read 51 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'partnership relates one number to another ( called the partn'
+        SENTENCE_NT'the verb to be partnered with implies the partnership relati'
+        SENTENCE_NT'5 is partnered with 7'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme the partner of 7'

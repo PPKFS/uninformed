@@ -1,0 +1,8 @@
+Read 24 words
+syntax-test: unexpected semicolon in sentence: say flibble flobble
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say flibble flobble'
+        SENTENCE_NT'say "Frogs ate my [arfle barfle gloop] for tea."'

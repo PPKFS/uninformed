@@ -1,0 +1,19 @@
+Read 100 words
+syntax-test: unexpected semicolon in sentence: let P be 1Q
+syntax-test: unexpected semicolon in sentence: let T be given by the Stefan-Boltzmann Law
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'ullage is a kind of value'
+        SENTENCE_NT'1u specifies an ullage'
+        SENTENCE_NT'bullage is a kind of value'
+        SENTENCE_NT'1b specifies a bullage'
+        SENTENCE_NT'qullage is a kind of value'
+        SENTENCE_NT'1q specifies a qullage'
+        SENTENCE_NT'ullage times ullage specifies a bullage'
+        SENTENCE_NT'bullage times bullage specifies a qullage'
+        SENTENCE_NT'equation - stefan-boltzmann law p = t^4 where p is a qullage'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let p be 1q'
+        SENTENCE_NT'let t be given by the stefan-boltzmann law'
+        SENTENCE_NT'say "[T]."'

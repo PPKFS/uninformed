@@ -1,0 +1,9 @@
+Read 55 words
+ROOT_NT
+    HEADING_NT'the server is a room' {heading 0}
+        SENTENCE_NT'the server is a room'
+        SENTENCE_NT'kate is in the server'
+        SENTENCE_NT'kate wears a pink hat'
+        SENTENCE_NT'the hypnosis fish is in the server'
+        SENTENCE_NT'the can't take other people rule does nothing if the player '
+        SENTENCE_NT'test me with "get kate / get fish / get kate"'

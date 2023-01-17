@@ -1,0 +1,10 @@
+Read 36 words
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'to decide what number is the zork'
+        SENTENCE_NT'decide on 3'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'increment the zork'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'increment 3'

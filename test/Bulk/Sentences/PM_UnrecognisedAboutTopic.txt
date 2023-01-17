@@ -1,0 +1,11 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'elsinore is a room' {heading 0}
+        SENTENCE_NT'elsinore is a room'
+        SENTENCE_NT'marcellus is here'
+        HEADING_NT'section 1 - meeting ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( about total nonsense . )' {level 0}
+                DIALOGUE_CLAUSE_NT'about total nonsense'
+            DIALOGUE_LINE_NT'marcellus : "OK."' {level 0}
+                DIALOGUE_SPEAKER_NT'marcellus'
+                DIALOGUE_SPEECH_NT'"OK."'

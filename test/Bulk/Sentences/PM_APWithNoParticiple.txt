@@ -1,0 +1,6 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'instead of arfle barfle gloop'
+        SENTENCE_NT'say "Yes!"'

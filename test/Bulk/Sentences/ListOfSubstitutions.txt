@@ -6,7 +6,7 @@ ROOT_NT
         SENTENCE_NT'config line is an text variable'
         SENTENCE_NT'config line is "monsters=25"'
         SENTENCE_NT'stage is a room'
-        HEADING_NT'section - list of texts - this doesn't work' {heading 2}
+        HEADING_NT'section - list of texts - this doesn't work' {heading 5}
             SENTENCE_NT'key value pair is a list of texts variable'
             SENTENCE_NT'when play begins'
             SENTENCE_NT'set key value pair for config line'

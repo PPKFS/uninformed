@@ -1,0 +1,14 @@
+Read 64 words
+syntax-test: unexpected semicolon in sentence: repeat through the Table of Memories begin
+syntax-test: unexpected semicolon in sentence: say topic entry
+ROOT_NT
+    HEADING_NT'white chamber is a room' {heading 0}
+        SENTENCE_NT'white chamber is a room'
+        SENTENCE_NT'guy is a man in white chamber'
+        SENTENCE_NT'understand "hypnotise me" as selfhypnotising'
+        SENTENCE_NT'selfhypnotising is an action applying to nothing'
+        SENTENCE_NT'carry out selfhypnotising'
+        SENTENCE_NT'repeat through the table of memories begin'
+        SENTENCE_NT'say topic entry'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'table of memories topic memory "Hans" "Hans showed you the t'

@@ -1,0 +1,11 @@
+Read 67 words
+ROOT_NT
+    HEADING_NT'kitchen is a room' {heading 0}
+        SENTENCE_NT'kitchen is a room'
+        SENTENCE_NT'a person called the dog is here'
+        SENTENCE_NT'a beef stick and a wedge of cheese are edible things in the '
+        SENTENCE_NT'a newspaper is here'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is a doggie-snack if it is edible'
+        SENTENCE_NT'definition'
+        SENTENCE_NT'a thing is a doggie-snack if it is the newspaper'

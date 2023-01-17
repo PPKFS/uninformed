@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'this spot is a room' {heading 0}
+        SENTENCE_NT'this spot is a room'
+        SENTENCE_NT'after reading a command'
+        SENTENCE_NT'if the player's command contains "anything" , say "Yowza!"'

@@ -1,0 +1,12 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'use blurble of at least 0 translates as (-  Constant BLURBLE'
+        SENTENCE_NT'use blah of at least -10 translates as (-  Constant BLAH = {'
+        SENTENCE_NT'include (- 
+        	[ foo2 x; x = BLURBLE; ];
+        '
+        SENTENCE_NT'include (- 
+        	[ foo x; x = BLAH; ];
+        '

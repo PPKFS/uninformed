@@ -1,0 +1,7 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'to say' {heading 0}
+        SENTENCE_NT'to say'
+        SENTENCE_NT'say line break'
+        SENTENCE_NT'when play begins , say "NEW YORK. 1832.[[unicode 182]]I had '
+        SENTENCE_NT'there is a room'

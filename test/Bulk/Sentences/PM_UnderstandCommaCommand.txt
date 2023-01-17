@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'the compilers' graveyard is a room' {heading 0}
+        SENTENCE_NT'the compilers' graveyard is a room'
+        SENTENCE_NT'understand "take []" as taking'

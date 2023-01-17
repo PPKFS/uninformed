@@ -1,0 +1,5 @@
+syntax-test: I6 inclusion text never ends: PM_UnendingI6.txt
+Read 2 words
+ROOT_NT
+    HEADING_NT'(-' {heading 0}
+        SENTENCE_NT'(-'

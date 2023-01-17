@@ -1,0 +1,15 @@
+Read 87 words
+syntax-test: unexpected semicolon in sentence: choose a blank row in Table of Suitable people
+ROOT_NT
+    HEADING_NT'office is a room' {heading 0}
+        SENTENCE_NT'office is a room'
+        SENTENCE_NT'"Let's consider some candidates."'
+        SENTENCE_NT'the player is here'
+        SENTENCE_NT'jack is a man'
+        SENTENCE_NT'jack is in the offfice'
+        SENTENCE_NT'table of suitable rooms candidate room score a room a number'
+        SENTENCE_NT'table of suitable people candidate person score a person a n'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'repeat with guy running through people'
+        SENTENCE_NT'choose a blank row in table of suitable people'
+        SENTENCE_NT'now candidate entry is guy'

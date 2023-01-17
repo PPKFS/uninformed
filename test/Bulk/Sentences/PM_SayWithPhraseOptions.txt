@@ -1,0 +1,6 @@
+Read 23 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'to say wombling free , over hill and/or under dale'
+        SENTENCE_NT'say "Oh go away."'

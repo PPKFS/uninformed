@@ -1,0 +1,5 @@
+Read 15 words
+ROOT_NT
+    HEADING_NT'peter is here' {heading 0}
+        SENTENCE_NT'peter is here'
+        SENTENCE_NT'the prairie is a room'

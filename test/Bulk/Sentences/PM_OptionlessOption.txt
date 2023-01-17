@@ -1,0 +1,10 @@
+Read 48 words
+syntax-test: unexpected semicolon in sentence: if U is active, yes
+ROOT_NT
+    HEADING_NT'the ni school for typing is a room' {heading 0}
+        SENTENCE_NT'the ni school for typing is a room'
+        SENTENCE_NT'to decide whether using ( u - use option )'
+        SENTENCE_NT'if u is active , yes'
+        SENTENCE_NT'no'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if using the american dialect , say "Hi."'

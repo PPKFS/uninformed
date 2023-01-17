@@ -1,0 +1,65 @@
+Read 224 words
+syntax-test: unexpected semicolon in sentence: if Home is lighted, let rude comment be "It was lighted!"
+syntax-test: unexpected semicolon in sentence: say "Test A."
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: say "Test B."
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: say "Test C."
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: say "[spong]."
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: say "Test D."
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: say "You'll never read this."
+syntax-test: unexpected semicolon in sentence: say "Test E."
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+syntax-test: unexpected semicolon in sentence: let spong be the list of things
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'every turn'
+        SENTENCE_NT'if home is lighted , let rude comment be "It was lighted!"'
+        SENTENCE_NT'otherwise let rude comment be "It was dark!"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Test A."'
+        SENTENCE_NT'if zero is one'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'say "[spong]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Test B."'
+        SENTENCE_NT'if zero is one'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'say "[spong]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Test C."'
+        SENTENCE_NT'if zero is one'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'otherwise if one is one'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'say "[spong]."'
+        SENTENCE_NT'otherwise'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'say "[spong]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Test D."'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'if zero is one'
+        SENTENCE_NT'say "You'll never read this."'
+        SENTENCE_NT'say "[spong]."'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Test E."'
+        SENTENCE_NT'repeat with x running from 1 to 3'
+        SENTENCE_NT'if x is'
+        SENTENCE_NT'-- 1'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'-- otherwise'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'let spong be the list of things'
+        SENTENCE_NT'say "[spong]."'

@@ -19,7 +19,7 @@ syntax-test: unexpected semicolon in sentence: if the moon was waning gibbous, n
 ROOT_NT
     HEADING_NT'"Chapter 9: Minutiae" by emily short' {heading 0}
         SENTENCE_NT'"Chapter 9: Minutiae" by emily short'
-        HEADING_NT'chapter 9' {heading 1}
+        HEADING_NT'chapter 9' {heading 4}
             SENTENCE_NT'use command line echoing'
             SENTENCE_NT'use scoring'
             SENTENCE_NT'low noon is a room'
@@ -40,10 +40,10 @@ ROOT_NT
             SENTENCE_NT'the description is "No larger than you can easily hold in yo'
             SENTENCE_NT'night is northeast of late afternoon'
             SENTENCE_NT'night is northwest of early morning'
-            HEADING_NT'section 1 - when play begins' {heading 2}
+            HEADING_NT'section 1 - when play begins' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'say "Things have gone somewhat wrong."'
-            HEADING_NT'section 2 - awarding points' {heading 2}
+            HEADING_NT'section 2 - awarding points' {heading 5}
                 SENTENCE_NT'after taking the moon for the first time'
                 SENTENCE_NT'increase the score by five'
                 SENTENCE_NT'say "The moon hangs neatly in your palm."'
@@ -51,17 +51,17 @@ ROOT_NT
                 SENTENCE_NT'increase the score by five'
                 SENTENCE_NT'say "The sun resents your interference."'
                 SENTENCE_NT'the maximum score is 12'
-            HEADING_NT'section 3 - introducing tables , rankings' {heading 2}
+            HEADING_NT'section 3 - introducing tables , rankings' {heading 5}
                 SENTENCE_NT'table 2 - rankings score rank 0 "Visitor Running Late" 5 "St'
-            HEADING_NT'section 4 - displaying quotations' {heading 2}
+            HEADING_NT'section 4 - displaying quotations' {heading 5}
                 SENTENCE_NT'after looking in low noon , display the boxed quotation "Hig'
-            HEADING_NT'section 5 - when play ends' {heading 2}
+            HEADING_NT'section 5 - when play ends' {heading 5}
                 SENTENCE_NT'instead of eating the moon , end the story saying "You have '
                 SENTENCE_NT'instead of eating the sun , end the story saying "You have d'
                 SENTENCE_NT'when play ends'
                 SENTENCE_NT'say "Time stutters-- stops-- clicks backward. That most rece'
                 SENTENCE_NT'resume the story'
-            HEADING_NT'section 6 - every turn' {heading 2}
+            HEADING_NT'section 6 - every turn' {heading 5}
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'if the player has the sun and the player has the moon , end '
                 SENTENCE_NT'every turn when the lunar clock is switched on'
@@ -70,20 +70,20 @@ ROOT_NT
                 SENTENCE_NT'say "The clock starts up ever so slowly, making a noise like'
                 SENTENCE_NT'after switching off the lunar clock'
                 SENTENCE_NT'say "The clock's action dies."'
-            HEADING_NT'section 7 - the time of day' {heading 2}
+            HEADING_NT'section 7 - the time of day' {heading 5}
                 SENTENCE_NT'the time of day is 10:13 am'
                 SENTENCE_NT'to reset the time'
                 SENTENCE_NT'now the time of day is 10:13 am'
                 SENTENCE_NT'say "Thick shadows collect around you, prod your skin, and t'
                 SENTENCE_NT'instead of pushing the giant button'
                 SENTENCE_NT'reset the time'
-            HEADING_NT'section 8 - telling the time' {heading 2}
+            HEADING_NT'section 8 - telling the time' {heading 5}
                 SENTENCE_NT'when play begins'
                 SENTENCE_NT'now the right hand status line is "Time: [time of day]"'
-            HEADING_NT'section 9 - approximate times , lengths of time' {heading 2}
+            HEADING_NT'section 9 - approximate times , lengths of time' {heading 5}
                 SENTENCE_NT'a water clock is in night'
                 SENTENCE_NT'"A slow-dripping water-clock stands at the center of a stone'
-            HEADING_NT'section 10 - comparing and shifting times' {heading 2}
+            HEADING_NT'section 10 - comparing and shifting times' {heading 5}
                 SENTENCE_NT'a sand clock is in early afternoon'
                 SENTENCE_NT'"There is a vast bowl of sand, almost a miniature desert; th'
                 SENTENCE_NT'instead of waiting in early afternoon when the time of day i'
@@ -92,7 +92,7 @@ ROOT_NT
                 SENTENCE_NT'say "You feel an imposter being here, of course. It isn't ti'
                 SENTENCE_NT'instead of waiting in low noon when the time of day is not 1'
                 SENTENCE_NT'say "A finicky location this, one that needs adjustment just'
-            HEADING_NT'section 11 - calculating times' {heading 2}
+            HEADING_NT'section 11 - calculating times' {heading 5}
                 SENTENCE_NT'the clock error is a number that varies'
                 SENTENCE_NT'to thump the mechanism'
                 SENTENCE_NT'now the clock error is a random number from -10 to 10'
@@ -102,7 +102,7 @@ ROOT_NT
                 SENTENCE_NT'the broken clock is in the late morning'
                 SENTENCE_NT'"A primitive clock ticks angrily in the corner, showing the '
                 SENTENCE_NT'the player is in late morning'
-            HEADING_NT'section 12 - future events' {heading 2}
+            HEADING_NT'section 12 - future events' {heading 5}
                 SENTENCE_NT'at 12:00 pm'
                 SENTENCE_NT'say "Noon! All your nerves stand on end and the hairs prickl'
                 SENTENCE_NT'if the player is in low noon , end the story saying "You hav'
@@ -136,12 +136,12 @@ ROOT_NT
                 SENTENCE_NT'the eclipse begins at totality'
                 SENTENCE_NT'the eclipse ends at three minutes after totality'
                 SENTENCE_NT'normal sunlight returns at five minutes after totality'
-            HEADING_NT'section 13 - actions as conditions' {heading 2}
+            HEADING_NT'section 13 - actions as conditions' {heading 5}
                 SENTENCE_NT'instead of waiting when we have pushed the giant button'
                 SENTENCE_NT'say "Why not? You can always push the giant button again."'
                 SENTENCE_NT'instead of listening to the clock when we have attacked the '
                 SENTENCE_NT'say "Its ticking seems angrier than ever."'
-            HEADING_NT'section 14 - the past and perfect tenses' {heading 2}
+            HEADING_NT'section 14 - the past and perfect tenses' {heading 5}
                 SENTENCE_NT'to advance the phase of the moon'
                 SENTENCE_NT'if the moon was waxing gibbous , now the moon is full'
                 SENTENCE_NT'if the moon was waxing crescent , now the moon is waxing gib'
@@ -149,7 +149,7 @@ ROOT_NT
                 SENTENCE_NT'if the moon was waning crescent , now the moon is new'
                 SENTENCE_NT'if the moon was waning gibbous , now the moon is waning cres'
                 SENTENCE_NT'if the moon was full , now the moon is waning gibbous'
-            HEADING_NT'section 15 - how many times ?' {heading 2}
+            HEADING_NT'section 15 - how many times ?' {heading 5}
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'if the player is in low noon for the third time , say "The p'
                 SENTENCE_NT'after switching on the lunar clock when the lunar clock has '
@@ -160,7 +160,7 @@ ROOT_NT
                 SENTENCE_NT'say "The clock's arms pull up to a noon-like shape. You shou'
                 SENTENCE_NT'instead of attacking the broken clock when the broken clock '
                 SENTENCE_NT'say "The clock turns self-defensively noonish for a minute. '
-            HEADING_NT'section 16 - how many turns ?' {heading 2}
+            HEADING_NT'section 16 - how many turns ?' {heading 5}
                 SENTENCE_NT'every turn'
                 SENTENCE_NT'if the player has been in night for three turns , say "You s'
                 SENTENCE_NT'every turn while listening'

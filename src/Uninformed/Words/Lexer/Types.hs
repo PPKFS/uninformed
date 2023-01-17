@@ -1,11 +1,10 @@
 {-# LANGUAGE StrictData #-}
 {-# LANGUAGE NamedFieldPuns #-}
-{-# LANGUAGE TemplateHaskell #-}
 
 module Uninformed.Words.Lexer.Types
   ( SourceLocation(..)
   , Whitespace(..)
-  , InformWord(..)
+  , Word(..)
   , LexerInput(..)
 
   , displayWord
@@ -14,9 +13,11 @@ module Uninformed.Words.Lexer.Types
 
   ) where
 
+import Uninformed.Prelude
 import Text.Megaparsec ( SourcePos )
 import Uninformed.Words.Vocabulary ( VocabType(..) )
 import Data.Text.Lazy.Builder (fromText)
+import Data.Aeson
 
 data LexerInput = LexerInput
   { divideLiteralsAtSubstitutions :: Bool
@@ -34,43 +35,42 @@ data Whitespace =
   Space
   | Tab
   | TabIndent Int
-  | Newline deriving stock (Eq, Show, Ord, Read, Generic)
+  | Newline
+  deriving stock (Eq, Show, Ord, Read, Generic)
+  deriving anyclass (ToJSON, FromJSON)
 
-data InformWord = InformWord
+data Word = Word
   { wordLocation :: SourceLocation
   , word :: VocabType
   , precedingWhitespace :: Whitespace
   } deriving stock (Eq, Show, Read, Generic)
 
-blankWord :: InformWord
-blankWord = InformWord
+blankWord :: Word
+blankWord = Word
   { wordLocation = SourceLocation Nothing Nothing (-1)
   , word = ParagraphBreak
   , precedingWhitespace = Newline
   }
 
-instance Display InformWord where
+instance Display Word where
   displayBuilder = fromText . displayWord
 
 displayWord ::
-  InformWord
+  Word
   -> Text
-displayWord InformWord{word} = case word of
+displayWord Word{word} = case word of
   I6 txt -> "(-"<>txt<>"-)"
   StringLit txt -> "\""<>txt<>"\""
   OrdinaryWord txt -> txt
   StringSub txt -> "["<>txt<>"]"
   ParagraphBreak -> "\n\n"
 
-instance Ord InformWord where
-  compare :: InformWord -> InformWord -> Ordering
+instance Ord Word where
+  compare :: Word -> Word -> Ordering
   compare l1 l2 = wordLocation l1 `compare` wordLocation l2
 
 matchWord ::
   (VocabType -> Bool)
-  -> InformWord
+  -> Word
   -> Bool
-matchWord f InformWord{word} = f word
-
-makeLenses ''InformWord
-makeLenses ''SourceLocation
+matchWord f Word{word} = f word

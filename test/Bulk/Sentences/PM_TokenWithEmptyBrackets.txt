@@ -1,0 +1,6 @@
+Read 17 words
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'to shoot ( )'
+        SENTENCE_NT'say "Bang!"'

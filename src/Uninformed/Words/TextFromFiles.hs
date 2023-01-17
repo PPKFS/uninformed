@@ -7,6 +7,7 @@ module Uninformed.Words.TextFromFiles
 
   ) where
 
+import Uninformed.Prelude
 import Uninformed.Words.Vocabulary ( VocabType(..), PunctuationSet(..), getPunctuation )
 import qualified Data.Set as S
 import qualified Data.Text as T

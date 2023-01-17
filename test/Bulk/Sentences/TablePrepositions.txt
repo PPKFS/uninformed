@@ -1,0 +1,21 @@
+Read 77 words
+syntax-test: unexpected semicolon in sentence: say "[the fish-text corresponding to fish-num of 5 in Table of Fish]."
+syntax-test: unexpected semicolon in sentence: say "[the fish-text corresponding to fish-num of 17 from Table of Fish]."
+syntax-test: unexpected semicolon in sentence: say "[the fish-text corresponding to fish-num of 40 in Table of Fish]."
+syntax-test: unexpected semicolon in sentence: say "[the fish-num in row 1 in the Table of Fish]."
+syntax-test: unexpected semicolon in sentence: say "[the fish-num in row 2 from the Table of Fish]."
+syntax-test: unexpected semicolon in sentence: say "[the fish-num in row 3 of the Table of Fish]."
+syntax-test: unexpected semicolon in sentence: if there is a fish-text of "clownfish" in the Table of Fish, say "Who sent in the clowns?"
+ROOT_NT
+    HEADING_NT'the plateau is a room' {heading 0}
+        SENTENCE_NT'the plateau is a room'
+        SENTENCE_NT'table of fish fish-text fish-num "red snapper" 5 "coelocanth'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "[the fish-text corresponding to fish-num of 5 in Table '
+        SENTENCE_NT'say "[the fish-text corresponding to fish-num of 17 from Tab'
+        SENTENCE_NT'say "[the fish-text corresponding to fish-num of 40 in Table'
+        SENTENCE_NT'say "[the fish-num in row 1 in the Table of Fish]."'
+        SENTENCE_NT'say "[the fish-num in row 2 from the Table of Fish]."'
+        SENTENCE_NT'say "[the fish-num in row 3 of the Table of Fish]."'
+        SENTENCE_NT'if there is a fish-text of "clownfish" in the table of fish '
+        SENTENCE_NT'if there is a fish-text of "neon tetra" from the table of fi'

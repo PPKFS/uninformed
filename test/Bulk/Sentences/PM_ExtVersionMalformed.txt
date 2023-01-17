@@ -1,0 +1,11 @@
+Read 84 words
+ROOT_NT
+    HEADING_NT'include version / of standard rules by graham nelson' {heading 0}
+        SENTENCE_NT'include version / of standard rules by graham nelson'
+        SENTENCE_NT'include version 012 of standard rules by graham nelson'
+        SENTENCE_NT'include version 1/ of standard rules by graham nelson'
+        SENTENCE_NT'include version /000000 of standard rules by graham nelson'
+        SENTENCE_NT'include version 1/01234 of standard rules by graham nelson'
+        SENTENCE_NT'include version 1/0123456 of standard rules by graham nelson'
+        SENTENCE_NT'include version 1//010101 of standard rules by graham nelson'
+        SENTENCE_NT'include version 1/23/010101 of standard rules by graham nels'

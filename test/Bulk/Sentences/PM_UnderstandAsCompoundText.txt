@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'endless expanse is a room' {heading 0}
+        SENTENCE_NT'endless expanse is a room'
+        SENTENCE_NT'understand "burn [something]" as "burn [something preferably'

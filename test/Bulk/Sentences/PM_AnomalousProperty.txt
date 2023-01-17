@@ -1,0 +1,8 @@
+Read 39 words
+ROOT_NT
+    HEADING_NT'that is a room' {heading 0}
+        SENTENCE_NT'that is a room'
+        SENTENCE_NT'a keyword is a kind of value'
+        SENTENCE_NT'the keywords are xyzzy , plugh'
+        SENTENCE_NT'a keyword can be pushable between rooms'
+        SENTENCE_NT'a keyword can be banal'

@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'a thing is a kind of room' {heading 0}
+        SENTENCE_NT'a thing is a kind of room'
+        SENTENCE_NT'foo is a room'

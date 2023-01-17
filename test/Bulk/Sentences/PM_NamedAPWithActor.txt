@@ -1,0 +1,6 @@
+Read 27 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'kubla khan is a man in xanadu'
+        SENTENCE_NT'kubla khan trying taking something is imperial behaviour'

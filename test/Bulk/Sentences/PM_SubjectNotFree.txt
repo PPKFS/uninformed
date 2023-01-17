@@ -1,0 +1,11 @@
+Read 71 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'the colours are blue and pink'
+        SENTENCE_NT'a person has a colour called hue'
+        SENTENCE_NT'grokking relates various people to various colours'
+        SENTENCE_NT'the verb to grok ( he groks ) implies the grokking relation'
+        SENTENCE_NT'peter groks blue'
+        SENTENCE_NT'peter groks pink which is the hue of the player'

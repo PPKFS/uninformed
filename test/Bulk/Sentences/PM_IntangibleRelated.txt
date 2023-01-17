@@ -1,0 +1,4 @@
+Read 10 words
+ROOT_NT
+    HEADING_NT'in the box is closed' {heading 0}
+        SENTENCE_NT'in the box is closed'

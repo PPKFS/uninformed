@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'the car is a vehicle'
+        SENTENCE_NT'the car is a vehicle in most rooms which are dark'

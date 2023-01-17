@@ -1,0 +1,7 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'church is a room' {heading 0}
+        SENTENCE_NT'church is a room'
+        SENTENCE_NT'john is in the church'
+        SENTENCE_NT'john is a person'
+        SENTENCE_NT'understand "[something related by equality]'s" as a person'

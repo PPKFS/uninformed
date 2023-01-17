@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'the school for gifted kiddies is a room' {heading 0}
+        SENTENCE_NT'the school for gifted kiddies is a room'
+        SENTENCE_NT'professor zaphier is in the school'
+        SENTENCE_NT'understand "Prof/--" as professor zaphier'

@@ -1,0 +1,5 @@
+Read 74 words
+ROOT_NT
+    HEADING_NT'place is a room' {heading 0}
+        SENTENCE_NT'place is a room'
+        SENTENCE_NT'understand "A" , "B" , "C" , "D" , "E" , "F" , "G" , "H" , "'

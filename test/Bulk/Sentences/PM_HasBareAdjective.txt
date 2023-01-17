@@ -1,0 +1,7 @@
+Read 30 words
+ROOT_NT
+    HEADING_NT'a thing can be fuzzy' {heading 0}
+        SENTENCE_NT'a thing can be fuzzy'
+        SENTENCE_NT'empty room is a room'
+        SENTENCE_NT'the teddy bear is in empty room'
+        SENTENCE_NT'it has fuzzy'

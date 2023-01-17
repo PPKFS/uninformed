@@ -1,0 +1,10 @@
+Read 35 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 1 is 2'
+        SENTENCE_NT'say "1 is 2"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if 1 is 2'
+        SENTENCE_NT'say "1 is 2"'

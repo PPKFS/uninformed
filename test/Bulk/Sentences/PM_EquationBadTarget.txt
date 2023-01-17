@@ -1,0 +1,6 @@
+Read 26 words
+ROOT_NT
+    HEADING_NT'laboratory is a room' {heading 0}
+        SENTENCE_NT'laboratory is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let f be given by m=1 , where m = 2'

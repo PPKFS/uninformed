@@ -1,0 +1,9 @@
+Read 41 words
+ROOT_NT
+    HEADING_NT'the brahms conservatoire is a room' {heading 0}
+        SENTENCE_NT'the brahms conservatoire is a room'
+        SENTENCE_NT'the rostrum is a room'
+        SENTENCE_NT'colour is a kind of value'
+        SENTENCE_NT'red and blue are colours'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'now red is blue'

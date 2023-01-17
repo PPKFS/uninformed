@@ -1,0 +1,10 @@
+Read 51 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'turnwise is a direction'
+        SENTENCE_NT'the opposite of turnwise is widdershins'
+        SENTENCE_NT'widdershins is a direction'
+        SENTENCE_NT'the opposite of widdershins is turnwise'
+        SENTENCE_NT'index map with turnwise mapped as 20'
+        SENTENCE_NT'index map with 20 mapped as turnwise'

@@ -1,0 +1,4 @@
+Read 11 words
+ROOT_NT
+    HEADING_NT'include bogus extension by mr nobody' {heading 0}
+        SENTENCE_NT'include bogus extension by mr nobody'

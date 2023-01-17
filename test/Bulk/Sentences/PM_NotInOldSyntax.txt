@@ -1,0 +1,14 @@
+Read 33 words
+syntax-test: unexpected semicolon in sentence: let N be 13
+syntax-test: unexpected semicolon in sentence: if N is begin
+syntax-test: unexpected semicolon in sentence: -- 1
+syntax-test: unexpected semicolon in sentence: say "1"
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let n be 13'
+        SENTENCE_NT'if n is begin'
+        SENTENCE_NT'-- 1'
+        SENTENCE_NT'say "1"'
+        SENTENCE_NT'end if'

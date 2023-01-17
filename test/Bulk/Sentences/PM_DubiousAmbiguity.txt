@@ -1,0 +1,11 @@
+Read 48 words
+syntax-test: unexpected semicolon in sentence: showme table of nondup
+ROOT_NT
+    HEADING_NT'r1 is a room' {heading 0}
+        SENTENCE_NT'r1 is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'showme table of nondup'
+        SENTENCE_NT'showme table of dup1'
+        SENTENCE_NT'table of dup1 - x rm r1'
+        SENTENCE_NT'table of dup1 - y rm r1'
+        SENTENCE_NT'table of nondup - z rm r1'

@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'proximity relates various things to various things' {heading 0}
+        SENTENCE_NT'proximity relates various things to various things'
+        SENTENCE_NT'proximity relates various rooms to various rooms'

@@ -1,0 +1,23 @@
+Read 57 words
+syntax-test: unexpected semicolon in sentence: say "Ho."
+syntax-test: unexpected semicolon in sentence: say "[the counter]"
+syntax-test: unexpected semicolon in sentence: next
+syntax-test: unexpected semicolon in sentence: break
+syntax-test: unexpected semicolon in sentence: next
+syntax-test: unexpected semicolon in sentence: say "-"
+ROOT_NT
+    HEADING_NT'the lab is a room' {heading 0}
+        SENTENCE_NT'the lab is a room'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'say "Ho."'
+        SENTENCE_NT'repeat with the counter running from one to five'
+        SENTENCE_NT'say "[the counter]"'
+        SENTENCE_NT'if the counter is'
+        SENTENCE_NT'-- one'
+        SENTENCE_NT'next'
+        SENTENCE_NT'-- khglkjhlkjh'
+        SENTENCE_NT'break'
+        SENTENCE_NT'-- otherwise'
+        SENTENCE_NT'next'
+        SENTENCE_NT'say "-"'
+        SENTENCE_NT'say "Namam."'

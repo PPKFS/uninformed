@@ -1,0 +1,11 @@
+Read 54 words
+syntax-test: unexpected semicolon in sentence: let bar be 10:12 PM
+syntax-test: unexpected semicolon in sentence: if bar is a greeting listed in Table of Greetings, say "Found."
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'table of greetings greeting "hello"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'let bar be 10:12 pm'
+        SENTENCE_NT'if bar is a greeting listed in table of greetings , say "Fou'
+        SENTENCE_NT'if 17 is a greeting listed in table of greetings , say "Foun'

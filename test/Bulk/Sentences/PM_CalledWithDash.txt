@@ -1,0 +1,5 @@
+Read 32 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'when play begins , if one person ( called the dude - a perso'

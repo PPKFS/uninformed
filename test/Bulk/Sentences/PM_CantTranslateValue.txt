@@ -1,0 +1,5 @@
+Read 18 words
+ROOT_NT
+    HEADING_NT'the temple is a room' {heading 0}
+        SENTENCE_NT'the temple is a room'
+        SENTENCE_NT'11 translates into french as onze'

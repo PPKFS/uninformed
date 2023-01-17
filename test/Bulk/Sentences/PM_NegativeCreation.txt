@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'foo is a room' {heading 0}
+        SENTENCE_NT'foo is a room'
+        SENTENCE_NT'in foo is never a device'

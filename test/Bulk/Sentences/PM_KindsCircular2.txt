@@ -1,0 +1,5 @@
+Read 16 words
+ROOT_NT
+    HEADING_NT'blor is a kind' {heading 0}
+        SENTENCE_NT'blor is a kind'
+        SENTENCE_NT'blor is a kind of blor'

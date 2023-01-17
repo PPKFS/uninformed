@@ -1,0 +1,5 @@
+Read 17 words
+ROOT_NT
+    HEADING_NT'table of despair a' {heading 0}
+        SENTENCE_NT'table of despair a'
+        SENTENCE_NT'the room of failure is a room'

@@ -1,0 +1,6 @@
+Read 22 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'when play begins ( this is the rule )'
+        SENTENCE_NT'say "A"'

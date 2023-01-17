@@ -1,0 +1,6 @@
+Read 31 words
+ROOT_NT
+    HEADING_NT'the formless void is a room' {heading 0}
+        SENTENCE_NT'the formless void is a room'
+        SENTENCE_NT'the grey "magic" footstool is a supporter in the formless vo'
+        SENTENCE_NT'the footstool is fixed in place'

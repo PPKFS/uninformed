@@ -1,0 +1,7 @@
+Read 29 words
+ROOT_NT
+    HEADING_NT'the just-released item is a thing that varies' {heading 0}
+        SENTENCE_NT'the just-released item is a thing that varies'
+        SENTENCE_NT'the just-released item is nothing'
+        SENTENCE_NT'the mysterious void is a room'
+        SENTENCE_NT'"Spooky."'

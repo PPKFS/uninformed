@@ -1,0 +1,6 @@
+Read 34 words
+ROOT_NT
+    HEADING_NT'understand "[someone]" as asking it about ( with nouns rever' {heading 0}
+        SENTENCE_NT'understand "[someone]" as asking it about ( with nouns rever'
+        SENTENCE_NT'understand "[text]" as asking it about ( with nouns reversed'
+        SENTENCE_NT'there is a room'

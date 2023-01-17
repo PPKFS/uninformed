@@ -1,0 +1,48 @@
+Read 165 words
+syntax-test: unexpected semicolon in sentence: let C be 12
+syntax-test: unexpected semicolon in sentence: repeat with D running through things in the Burrow begin
+syntax-test: unexpected semicolon in sentence: repeat with E running through things in the Burrow begin
+syntax-test: unexpected semicolon in sentence: repeat with F running through things in the Burrow begin
+syntax-test: unexpected semicolon in sentence: repeat with G running through things in the Burrow begin
+syntax-test: unexpected semicolon in sentence: repeat with H running through things in the Burrow begin
+syntax-test: unexpected semicolon in sentence: repeat with I running through things in the Burrow begin
+syntax-test: unexpected semicolon in sentence: repeat with J running through things in the Burrow begin
+syntax-test: unexpected semicolon in sentence: let K be "marble"
+syntax-test: unexpected semicolon in sentence: let L be "towers"
+syntax-test: unexpected semicolon in sentence: let M be "how many letters along is M, anyway?"
+syntax-test: unexpected semicolon in sentence: let N be "surely this must break the bank"
+syntax-test: unexpected semicolon in sentence: let O be "surely this must break the bank, then"
+syntax-test: unexpected semicolon in sentence: let P be "surely this must break the bank, then"
+syntax-test: unexpected semicolon in sentence: let Q be "surely this must break the bank, then"
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: end repeat
+syntax-test: unexpected semicolon in sentence: end repeat
+ROOT_NT
+    HEADING_NT'burrow is a room' {heading 0}
+        SENTENCE_NT'burrow is a room'
+        SENTENCE_NT'to use gratuitous locals with ( a - number ) and ( b - text '
+        SENTENCE_NT'let c be 12'
+        SENTENCE_NT'repeat with d running through things in the burrow begin'
+        SENTENCE_NT'repeat with e running through things in the burrow begin'
+        SENTENCE_NT'repeat with f running through things in the burrow begin'
+        SENTENCE_NT'repeat with g running through things in the burrow begin'
+        SENTENCE_NT'repeat with h running through things in the burrow begin'
+        SENTENCE_NT'repeat with i running through things in the burrow begin'
+        SENTENCE_NT'repeat with j running through things in the burrow begin'
+        SENTENCE_NT'let k be "marble"'
+        SENTENCE_NT'let l be "towers"'
+        SENTENCE_NT'let m be "how many letters along is M, anyway?"'
+        SENTENCE_NT'let n be "surely this must break the bank"'
+        SENTENCE_NT'let o be "surely this must break the bank, then"'
+        SENTENCE_NT'let p be "surely this must break the bank, then"'
+        SENTENCE_NT'let q be "surely this must break the bank, then"'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'end repeat'
+        SENTENCE_NT'end repeat'

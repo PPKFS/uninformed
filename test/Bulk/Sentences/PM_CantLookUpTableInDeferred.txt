@@ -1,0 +1,7 @@
+Read 37 words
+ROOT_NT
+    HEADING_NT'home is a room' {heading 0}
+        SENTENCE_NT'home is a room'
+        SENTENCE_NT'table of exempla flavour "rum and raisin" "Neapolitan"'
+        SENTENCE_NT'when play begins'
+        SENTENCE_NT'if an empty text is a flavour listed in the table of exempla'

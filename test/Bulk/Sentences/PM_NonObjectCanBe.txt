@@ -1,0 +1,4 @@
+Read 11 words
+ROOT_NT
+    HEADING_NT'dropping can be fun or tiresome' {heading 0}
+        SENTENCE_NT'dropping can be fun or tiresome'

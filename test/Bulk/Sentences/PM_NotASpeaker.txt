@@ -1,0 +1,11 @@
+Read 40 words
+ROOT_NT
+    HEADING_NT'the cricket history museum is a room' {heading 0}
+        SENTENCE_NT'the cricket history museum is a room'
+        HEADING_NT'section 1 - arrival ( dialogue )' {heading 5}
+            DIALOGUE_CUE_NT'( this is the starting beat . requiring felicity dumplings a' {level 0}
+                DIALOGUE_CLAUSE_NT'this is the starting beat'
+                DIALOGUE_CLAUSE_NT'requiring felicity dumplings and mike atherton'
+            DIALOGUE_LINE_NT'narration : "There is a sinister chime, as if this museum is' {level 0}
+                DIALOGUE_SPEAKER_NT'narration'
+                DIALOGUE_SPEECH_NT'"There is a sinister chime, as if this museum is in fact run'

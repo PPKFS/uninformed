@@ -1,0 +1,6 @@
+Read 24 words
+ROOT_NT
+    HEADING_NT'xanadu is a room' {heading 0}
+        SENTENCE_NT'xanadu is a room'
+        SENTENCE_NT'a box is a kind of container'
+        SENTENCE_NT'understand "box of [something related by grobble]" as a box'

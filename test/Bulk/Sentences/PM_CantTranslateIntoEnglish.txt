@@ -1,0 +1,5 @@
+Read 20 words
+ROOT_NT
+    HEADING_NT'the temple is a room' {heading 0}
+        SENTENCE_NT'the temple is a room'
+        SENTENCE_NT'a direction translates into english as a route'

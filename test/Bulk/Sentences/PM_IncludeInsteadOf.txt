@@ -1,0 +1,7 @@
+Read 19 words
+ROOT_NT
+    HEADING_NT'the french kitchen is a room' {heading 0}
+        SENTENCE_NT'the french kitchen is a room'
+        SENTENCE_NT'include (- 
+        [ SquareRoot num;
+        	"Nobody cares about square ro'

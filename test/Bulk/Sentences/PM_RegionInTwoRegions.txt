@@ -1,0 +1,14 @@
+Read 90 words
+ROOT_NT
+    HEADING_NT'the center is a room' {heading 0}
+        SENTENCE_NT'the center is a room'
+        SENTENCE_NT'north of the center is a room called the north room'
+        SENTENCE_NT'east of the center is a room called the east room'
+        SENTENCE_NT'the cr is a region'
+        SENTENCE_NT'the ns is a region'
+        SENTENCE_NT'the ew is a region'
+        SENTENCE_NT'the center is in the cr'
+        SENTENCE_NT'the cr is in the ns'
+        SENTENCE_NT'the north room is in the ns'
+        SENTENCE_NT'the cr is in the ew'
+        SENTENCE_NT'the east room is in the ew'

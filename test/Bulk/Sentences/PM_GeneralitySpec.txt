@@ -1,0 +1,11 @@
+Read 65 words
+ROOT_NT
+    HEADING_NT'the aquarium is a room' {heading 0}
+        SENTENCE_NT'the aquarium is a room'
+        SENTENCE_NT'a fish is a kind of thing'
+        SENTENCE_NT'a fish can be coarse or freshwater'
+        SENTENCE_NT'the cod and the dab are fish in the aquarium'
+        SENTENCE_NT'the dab is freshwater'
+        SENTENCE_NT'the cod is coarse'
+        SENTENCE_NT'the specification of fish is "Aquatic animal."'
+        SENTENCE_NT'the description of a freshwater fish is "Red."'

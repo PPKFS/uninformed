@@ -1,0 +1,8 @@
+Read 60 words
+ROOT_NT
+    HEADING_NT'to decide which k is a random ( name of kind of arithmetic v' {heading 0}
+        SENTENCE_NT'to decide which k is a random ( name of kind of arithmetic v'
+        SENTENCE_NT'(-  R_{-printing-routine:J}({first value}, {second value}) '
+        SENTENCE_NT'to decide which m is blobby'
+        SENTENCE_NT'do nothing'
+        SENTENCE_NT'there is a room'

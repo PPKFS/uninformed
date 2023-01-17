@@ -1,0 +1,15 @@
+Read 112 words
+syntax-test: unexpected semicolon in sentence: if the firstpart part of X is greater than the secondpart part of Y, yes
+syntax-test: unexpected semicolon in sentence: if the firstpart part of X is greater than the secondpart part of Y, yes
+ROOT_NT
+    HEADING_NT'there is a room' {heading 0}
+        SENTENCE_NT'there is a room'
+        SENTENCE_NT'a testval is a kind of value'
+        SENTENCE_NT'1tv99 specifies a testval with parts firstpart and secondpar'
+        SENTENCE_NT'the verb to be beyond means the containment relation'
+        SENTENCE_NT'to decide whether ( x - testval ) is beyond ( y - testval )'
+        SENTENCE_NT'if the firstpart part of x is greater than the secondpart pa'
+        SENTENCE_NT'no'
+        SENTENCE_NT'to decide whether ( x - testval ) is less than ( y - testval'
+        SENTENCE_NT'if the firstpart part of x is greater than the secondpart pa'
+        SENTENCE_NT'no'

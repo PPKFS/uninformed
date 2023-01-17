@@ -1,0 +1,5 @@
+syntax-test: Quoted text never ends: PM_UnendingQuote.txt
+Read 5 words
+ROOT_NT
+    HEADING_NT'"Test of a Problem" by dr evil |__' {heading 0}
+        SENTENCE_NT'"Test of a Problem" by dr evil |__'

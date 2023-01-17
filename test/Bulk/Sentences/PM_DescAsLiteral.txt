@@ -1,0 +1,6 @@
+Read 28 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'the tricksy variable is a description of numbers that varies'
+        SENTENCE_NT'the tricksy variable is even numbers'

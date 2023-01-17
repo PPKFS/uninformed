@@ -1,0 +1,4 @@
+Read 8 words
+ROOT_NT
+    HEADING_NT'before taking something' {heading 0}
+        SENTENCE_NT'before taking something'

@@ -1,0 +1,6 @@
+Read 25 words
+ROOT_NT
+    HEADING_NT'there is room' {heading 0}
+        SENTENCE_NT'there is room'
+        SENTENCE_NT'the verb to be read implies the printed text property'
+        SENTENCE_NT'yourself is read "hah!"'
