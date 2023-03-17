@@ -1,33 +1,14 @@
-{-# LANGUAGE TemplateHaskell #-}
-
 module Uninformed.Words.Vocabulary
-  ( VocabularyEntry(..)
-  , VocabType(..)
-  , PunctuationSet(..)
-  , standardPunctuation
-  , getPunctuation
-  , VocabMap
-  , lowerVocabType
+  ( VocabMap
+  , makeVocabEntry
   , identify
-  , _ParagraphBreak
-  , _OrdinaryWord
-
-  , isNumber
-
-  , pattern Period
-  , pattern Colon
-  , pattern Semicolon
-  , pattern CloseParenthesis
-  , pattern OpenParenthesis
   ) where
 
 import Uninformed.Prelude
 import qualified Data.HashMap.Strict as HM
 import Data.Hashable ( Hashable(..) )
 import qualified Data.Set as Set
-import qualified Data.Text as T
-import Numeric.Optics (decimal)
-import Data.Aeson
+import Uninformed.Word
 
 data VocabFlag = VocabFlag deriving stock (Eq, Show)
 
@@ -61,49 +42,3 @@ makeVocabEntry vh vt = VocabularyEntry
   , _vocabUpperCase = Nothing
   , _vocabHashCode = vh
   }
-
-data VocabType =
-  I6 Text
-  | StringLit Text
-  | OrdinaryWord Text
-  | StringSub Text
-  | ParagraphBreak
-  deriving stock (Eq, Show, Read, Ord, Generic)
-  deriving anyclass (ToJSON, FromJSON)
-
-instance Hashable VocabType
-
-pattern Period :: VocabType
-pattern Period = OrdinaryWord "."
-
-pattern Semicolon :: VocabType
-pattern Semicolon = OrdinaryWord ";"
-
-pattern Colon :: VocabType
-pattern Colon = OrdinaryWord ":"
-
-pattern OpenParenthesis :: VocabType
-pattern OpenParenthesis = OrdinaryWord "("
-
-pattern CloseParenthesis :: VocabType
-pattern CloseParenthesis = OrdinaryWord ")"
-
-data PunctuationSet = StandardPunctuation deriving stock (Eq, Show)
-
-standardPunctuation :: Set Char
-standardPunctuation = fromList ".,:;?!(){}[]"
-
-getPunctuation :: PunctuationSet -> Set Char
-getPunctuation StandardPunctuation = standardPunctuation
-
-lowerVocabType :: VocabType -> VocabType
-lowerVocabType = \case
-  OrdinaryWord txt -> OrdinaryWord $ T.toLower txt
-  x -> x
-
-makePrisms ''VocabType
-
-isNumber ::
-  VocabType
-  -> Bool
-isNumber x = isJust $ x ^? _OrdinaryWord % to toString % decimal @Integer

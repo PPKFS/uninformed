@@ -13,9 +13,8 @@ import System.FilePath ( (-<.>), (</>) )
 import Test.Tasty.HUnit ( (@=?), assertEqual, Assertion )
 
 import Uninformed.Pipeline
-import Uninformed.Words.Lexer.Types ( Whitespace, Word(Word) )
 import Uninformed.Words.TextFromFiles
-import Uninformed.Words.Vocabulary ( VocabType, lowerVocabType )
+import Uninformed.Word
 
 newtype LexerInfo = LexerInfo
   { individualEntries :: [(VocabType, VocabType, Whitespace)]

@@ -8,10 +8,10 @@ bug-reports:     https://github.com/PPKFS/uninformed/issues
 license:         MIT
 author:          Avery
 maintainer:      Avery <thecommunistduck@hotmail.co.uk>
-copyright:       2022 Avery
+copyright:       2022-2023 Avery
 category:        Game Development
 build-type:      Simple
-tested-with: GHC == 9.0.2
+tested-with: GHC == 9.2.5
 
 source-repository head
   type:     git
@@ -22,31 +22,16 @@ common common-options
       base
     , aeson
     , containers
-    , template-haskell
     , hashable
     , unordered-containers
     , text
-    , transformers
-    , effectful-core
-    , effectful
-    , effectful-th
     , solitude
     , mtl
-    , time
     , megaparsec
     , optics
     , vector
-    , Earley
-
-    , formatting
-    , pretty-simple
-    , prettyprinter
-    , prettyprinter-ansi-terminal
+    --, Earley
     , diagnose
-
-    , enummapset
-    , haskell-src-meta
-    , haskell-src-exts
     , nonempty-vector
 
   ghc-options:
@@ -55,51 +40,38 @@ common common-options
     -Wmissing-deriving-strategies -O2 -flate-specialise
     -fspecialise-aggressively -fprint-potential-instances
     -fno-warn-unused-do-bind -haddock -fwrite-ide-info
-  default-language:   Haskell2010
+    -Werror
+  default-language: GHC2021
   default-extensions:
-    NoImplicitPrelude
-    BlockArguments
     DataKinds
-    DerivingStrategies
-    FunctionalDependencies
-    LambdaCase
-    MultiWayIf
-    InstanceSigs
-    OverloadedStrings
-    TypeFamilies
-    TypeApplications
-    ConstraintKinds
-    FlexibleInstances
-    FlexibleContexts
-    GeneralisedNewtypeDeriving
-    DeriveGeneric
     DeriveAnyClass
-    DeriveTraversable
-    StandaloneDeriving
-    RankNTypes
-    ScopedTypeVariables
-    BangPatterns
-    GADTs
-    TypeOperators
-    DerivingVia
-    QuasiQuotes
-    PatternSynonyms
+    DerivingStrategies
+    LambdaCase
+    NoImplicitPrelude
     OverloadedLabels
+    OverloadedStrings
+    PatternSynonyms
+    Strict
+    TypeFamilies
 library
   import:          common-options
   hs-source-dirs:  src
   exposed-modules:
     Uninformed.Prelude
+
     Uninformed.Pipeline
-    Uninformed.Words.Lexer.Types
-    Uninformed.Words.Lexer
+    Uninformed.Word
+    Uninformed.Lexer.Run
+    Uninformed.Lexer.Error
     Uninformed.Words.TextFromFiles
     Uninformed.Words.Vocabulary
     Uninformed.Syntax.Sentences
     Uninformed.Syntax.SyntaxTree
-    Uninformed.Syntax.Sentences.Break
-    Uninformed.Syntax.Sentences.Arrange
+    Uninformed.Sentences.Break
+    Uninformed.Sentences.Arrange
     Uninformed.Words.Grammar
+    Uninformed.Assertions.BootVerbs
+  ghc-options: -Wunused-packages
 
 test-suite uninformed-test
   import:             common-options

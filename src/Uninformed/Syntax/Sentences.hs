@@ -5,7 +5,7 @@ module Uninformed.Syntax.Sentences
   ) where
 
 import Uninformed.Prelude
-import Uninformed.Words.Lexer.Types
+import Uninformed.Word
 
 newtype Sentence = Sentence { unSentence :: NonEmpty Word }
 

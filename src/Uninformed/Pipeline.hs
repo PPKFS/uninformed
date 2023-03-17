@@ -2,14 +2,14 @@ module Uninformed.Pipeline where
 
 import Uninformed.Prelude
 import Error.Diagnose
-import Uninformed.Words.TextFromFiles
-import Uninformed.Words.Lexer
-import Uninformed.Words.Vocabulary
+import Uninformed.Lexer.Run
 import Uninformed.Syntax.Sentences
-import Uninformed.Syntax.SyntaxTree
-import Uninformed.Words.Lexer.Types
-import Uninformed.Syntax.Sentences.Break
 import Uninformed.Syntax.Sentences.Arrange
+import Uninformed.Syntax.Sentences.Break
+import Uninformed.Syntax.SyntaxTree
+import Uninformed.Word
+import Uninformed.Words.TextFromFiles
+import Uninformed.Words.Vocabulary
 import qualified Control.Monad.State.Strict as S
 
 data Source = Source (Maybe Text) Text Bool

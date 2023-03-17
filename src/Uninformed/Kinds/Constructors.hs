@@ -13,7 +13,11 @@ punctuation is...a proper constructor which is weird?
 data KindConstructor (arity :: Nat) = KindConstructor
   { name :: Text
   , kind :: ConstructorKind
-  , variance :: VS.Vector arity Variance
-
+  , variance :: VS.Vector Variance arity
+  , tupling :: VS.Vector Tupling arity
+  , definedAt :: Maybe Node
+  , castingRules :: [CastingRule]
+  , instanceRules :: [InstanceRule]
+  , waysToWriteLiterals :: [LiteralPattern]
 
   }

@@ -4,7 +4,7 @@ module Uninformed.Test.Syntax.Sentences
   ) where
 
 import Uninformed.Prelude
-import Uninformed.Words.Lexer
+import Uninformed.Lexer.Run
 import Test.Tasty.HUnit
     ( (@=?), assertFailure, Assertion )
 import qualified Data.Text as T

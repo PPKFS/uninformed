@@ -1,37 +1,36 @@
 {-# LANGUAGE StrictData #-}
 {-# LANGUAGE RecordWildCards #-}
-{-# OPTIONS_GHC -Wno-orphans #-}
 
-module Uninformed.Words.Lexer
+module Uninformed.Lexer.Run
   ( SourceLocation(..)
   , Whitespace(..)
+  , LexerInput(..)
   , lex
   , displayWord
   , blankWord
   ) where
 
 import Uninformed.Prelude hiding ( gets, get, modify, state )
-import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
-import Data.Set (member)
 
+import Control.Monad.State ( runState, state, gets )
+import Data.Char ( isSpace, isDigit, isPunctuation, isLower )
+import Data.Set ( member )
+import Optics.State ( use )
+import Optics.State.Operators ((.=))
 import Text.Megaparsec
 import Text.Megaparsec.Char ( string' )
-import Uninformed.Words.Vocabulary ( identify, VocabType(..), VocabMap, PunctuationSet (..), getPunctuation )
+import Uninformed.Words.TextFromFiles ( SourceFile(..) )
 import qualified Data.HashMap.Strict as HM
-import Uninformed.Words.Lexer.Types
-import Uninformed.Words.TextFromFiles ( SourceFile(..), wordCount, quotedWordCount )
-import Control.Monad.State ( runState, state, gets )
-import Optics.State.Operators ((.=))
-import Optics.State (use)
-import Error.Diagnose
-import Error.Diagnose.Compat.Megaparsec
 import qualified Data.Set as Set
+import Uninformed.Word
+import Uninformed.Lexer.Error
+import Uninformed.Words.Vocabulary
 
 data LexerState = LexerState
   { previousWhitespace :: Whitespace
   , forceBreak :: Bool
   , currentFilename :: Maybe Text
-  } deriving stock (Generic)
+  } deriving stock (Show, Ord, Eq, Generic)
 
 defaultLexerState :: LexerState
 defaultLexerState = LexerState
@@ -40,15 +39,13 @@ defaultLexerState = LexerState
   , currentFilename = Nothing
   }
 
+data LexerInput = LexerInput
+  { divideLiteralsAtSubstitutions :: Bool
+  , sourceFilename :: Maybe Text
+  , textStream :: Text
+  }
+
 type Parser m = (MonadState LexerState m, MonadParsec Void Text m)
-
---- * Whitespace handling
-
-isNewline :: Char -> Bool
-isNewline x = x `elem` ['\n', '\DEL', '\r']
-
-isHspace :: Char -> Bool
-isHspace x = isSpace x && not (isNewline x)
 
 -- | match anything that isn't whitespace
 nonWhitespace ::
@@ -56,15 +53,9 @@ nonWhitespace ::
   => m Char
 nonWhitespace = satisfy (not . isSpace)
 
-space ::
-  Parser m
-  => m Char
-space = satisfy isSpace
+type LexerPipelineStage i o = i -> Either StructuredError o
 
-type StructuredError = Diagnostic Text
-type PipelineStage i o = i -> Either StructuredError o
-
-lex :: PipelineStage LexerInput (SourceFile [Word], VocabMap)
+lex :: LexerPipelineStage LexerInput (SourceFile [Word], VocabMap)
 lex LexerInput{..} =
   bimap (makeError sfn updatedInput) listToSourceFile $
     parse (evalStateT lexer defaultLexerState) (toString sfn) updatedInput
@@ -95,20 +86,6 @@ lex LexerInput{..} =
       , sourceFileRawWordCount = length wordList
       , sourceFileWordCount = sum $ map (wordCount . word) wordList
       }, vm)
-
-instance HasHints Void msg where
-  hints _ = mempty
-makeError ::
-  Text
-  -> Text
-  -> ParseErrorBundle Text Void
-  -> StructuredError
-makeError filename content bundle =
-  let diag  = errorDiagnosticFromBundle Nothing "Error during lexical analysis" Nothing bundle
-           --   Creates a new diagnostic with no default hints from the bundle returned by megaparsec
-      diag' = addFile diag (toString filename) (toString content)
-                 --   Add the file used when parsing with the same filename given to 'MP.runParser'
-  in diag'
 
 initialNewlines ::
   Parser m
@@ -148,7 +125,7 @@ admireWhitespace ps = do
       -- either we record some amount of tabs and spaces
       -- or we record a pbreak upcoming, but we don't consume it here
       -- or we record a linebreak
-      ws <- reverse <$> someTill space (try $ lookAhead (void nonWhitespace <|> void pbreak <|> eof))
+      ws <- reverse <$> someTill (satisfy isSpace) (try $ lookAhead (void nonWhitespace <|> void pbreak <|> eof))
       return $ findMostSignificantWhitespace $ break isNewline ws)
 
 pbreak ::
@@ -172,9 +149,7 @@ pbreak = do
     x -> TabIndent x)
   pure (ps, i, s)
 
-longestSpan :: (a -> Bool) -> [a] -> Int
-longestSpan f lst = fst $ foldl'
-  (\(best, cur) v -> if f v then (if cur >= best then cur+1 else best, cur+1) else (best, 0)) (0, 0) lst
+
 
 findMostSignificantWhitespace :: (String, String) -> Whitespace
 findMostSignificantWhitespace (run, mbNewline) = case longestSpan (=='\t') run of

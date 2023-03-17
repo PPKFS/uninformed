@@ -44,7 +44,7 @@ isIgnoredForNow =
   , "PM_TableColumnLocation.txt" -- weird table parsing fail
   , "I6StringEscapes-G.txt" -- weird i6 parsing fail
   , "PM_ChoiceLeftArrowExpected.txt", "LBW.txt", "PM_ChoiceDividerDependent.txt" -- dialogue
-  , "Dialogue.txt" -- dialogue
+  --, "Dialogue.txt" -- dialogue
   ]
 
 checkError ::

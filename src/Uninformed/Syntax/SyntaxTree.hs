@@ -3,7 +3,7 @@ module Uninformed.Syntax.SyntaxTree where
 import Uninformed.Prelude
 import qualified Data.Vector as V
 import qualified Data.Set as S
-import Uninformed.Words.Lexer.Types
+import Uninformed.Word
 import qualified Data.Vector.NonEmpty as VNE
 
 data HeadingType = Implicit | Explicit deriving stock ( Show )
@@ -141,4 +141,4 @@ graftTreeSibling ::
   SyntaxTree a
   -> Zipper a
   -> Zipper a
-graftTreeSibling t z = error ""
+graftTreeSibling _t _z = error ""

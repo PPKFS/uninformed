@@ -4,8 +4,7 @@ module Uninformed.Syntax.Sentences.Break
   ) where
 
 import Uninformed.Prelude hiding ( (|>) )
-import Uninformed.Words.Lexer.Types
-import Uninformed.Words.Vocabulary
+import Uninformed.Word
 import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)
 import Uninformed.Syntax.Sentences
