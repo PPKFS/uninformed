@@ -13,16 +13,16 @@ import Data.List (singleton)
 
 type VerbPhrase = Text
 makeBuiltIn ::
-  m ()
+  Monad m => m ()
 makeBuiltIn = do
   --makeSpecialMeanings
   makeToBe
   --makeToMean
 
-conjugateVerb "be"
-conjugateVerb "mean"
+--conjugateVerb "be"
+--conjugateVerb "mean"
 makeToBe ::
-  m ()
+  Monad m => m ()
 makeToBe = do
   pass
 {- }

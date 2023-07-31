@@ -12,7 +12,6 @@ import Text.Megaparsec.Error (ParseErrorBundle)
 
 type StructuredError = Diagnostic Text
 
-
 instance HasHints Void msg where
   hints _ = mempty
 

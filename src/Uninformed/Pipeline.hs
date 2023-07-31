@@ -4,8 +4,8 @@ import Uninformed.Prelude
 import Error.Diagnose
 import Uninformed.Lexer.Run
 import Uninformed.Syntax.Sentences
-import Uninformed.Syntax.Sentences.Arrange
-import Uninformed.Syntax.Sentences.Break
+import Uninformed.Sentences.Arrange
+import Uninformed.Sentences.Break
 import Uninformed.Syntax.SyntaxTree
 import Uninformed.Word
 import Uninformed.Words.TextFromFiles

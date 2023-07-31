@@ -40,7 +40,6 @@ common common-options
     -Wmissing-deriving-strategies -O2 -flate-specialise
     -fspecialise-aggressively -fprint-potential-instances
     -fno-warn-unused-do-bind -haddock -fwrite-ide-info
-    -Werror
   default-language: GHC2021
   default-extensions:
     DataKinds

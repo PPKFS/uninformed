@@ -1,4 +1,4 @@
-module Uninformed.Syntax.Sentences.Break
+module Uninformed.Sentences.Break
   ( breakIntoSentences
   , defaultSentenceBreakerState
   ) where
@@ -47,20 +47,7 @@ type Parser m = MonadState SentenceBreakerState m
 
 type StructuredError = Diagnostic Text
 type PipelineStage i o = i -> Either StructuredError o
-{-}
-makeError ::
-  Text
-  -> Text
-  -> Text
-  -> StructuredError
-makeError filename content bundle =
-  let diag  = errorDiagnosticFromBundle Nothing "Error during lexical analysis" Nothing bundle
-           --   Creates a new diagnostic with no default hints from the bundle returned by megaparsec
-      diag' = addFile diag (toString filename) (toString content)
-                 --   Add the file used when parsing with the same filename given to 'MP.runParser'
-  in diag'
 
--}
 breakIntoSentences ::
   Parser m
   => m [Sentence]

@@ -1,4 +1,4 @@
-module Uninformed.Syntax.Sentences.Arrange where
+module Uninformed.Sentences.Arrange where
 
 import Uninformed.Prelude
 import Uninformed.Syntax.SyntaxTree
