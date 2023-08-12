@@ -32,13 +32,13 @@ detectChangeOfSourceFile ::
   Zipper a
   -> Sentence
   -> Zipper a
-detectChangeOfSourceFile z sentence = if (lastFile /= sentenceFileOfOrigin sentence)
+detectChangeOfSourceFile z sentence = if lastFile /= sentenceFileOfOrigin sentence
   then
     makeNewHeadingNode Implicit 0 (sentenceFileOfOrigin sentence) z
   else
     z
   where
-    lastFile = focus z ^. #nodeLocation % #sourceLocationFile
+    lastFile = focus z ^. #nodeLocation % #filename
 
 makeNewHeadingNode ::
   HeadingType

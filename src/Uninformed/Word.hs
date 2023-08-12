@@ -1,47 +1,33 @@
 {-# LANGUAGE TemplateHaskell #-}
 
 module Uninformed.Word
-  ( SourceLocation(..)
+  ( Word(..)
+  , Token(..)
   , Whitespace(..)
-  , Word(..)
-
-  , displayWord
-  , blankWord
-  , matchWord
-  , wordCount
-  , quotedWordCount
-
-  , VocabType(..)
-  , PunctuationSet(..)
   , standardPunctuation
-  , getPunctuation
-  , lowerVocabType
-  , _ParagraphBreak
-  , _OrdinaryWord
-
+  , quotedWordCount
+  , wordCount
+  , matchWord
+  , blankToken
   , isNumber
+  , lowerWord
+  , displayWord
 
   , pattern Period
-  , pattern Colon
   , pattern Semicolon
-  , pattern CloseParenthesis
+  , pattern Colon
   , pattern OpenParenthesis
+  , pattern CloseParenthesis
   ) where
 
 import Uninformed.Prelude
-import Data.Aeson ( FromJSON, ToJSON )
-import Text.Megaparsec ( SourcePos )
+import Data.Aeson
+import Uninformed.SourceFile
+import Data.Text.Lazy.Builder (fromText)
 import qualified Data.Text as T
 import qualified Data.Set as S
-import Data.Text.Lazy.Builder (fromText)
 import Data.Char (isSpace)
 import Numeric.Optics (decimal)
-
-data SourceLocation = SourceLocation
-  { sourceLocationFile :: Maybe Text
-  , sourceSpan :: Maybe ((Int, SourcePos), (Int, SourcePos))
-  , wordNumber :: Int
-  } deriving stock (Eq, Show, Ord, Read, Generic)
 
 data Whitespace =
   Space
@@ -51,56 +37,22 @@ data Whitespace =
   deriving stock (Eq, Show, Ord, Read, Generic)
   deriving anyclass (ToJSON, FromJSON)
 
-data Word = Word
-  { wordLocation :: SourceLocation
-  , word :: VocabType
+data Token = Token
+  { location :: SourceLocation
+  , word :: Word
   , precedingWhitespace :: Whitespace
+  , vocabularyEntry :: Int
   } deriving stock (Eq, Show, Read, Generic)
 
-blankWord :: Word
-blankWord = Word
-  { wordLocation = SourceLocation Nothing Nothing (-1)
+blankToken :: Token
+blankToken = Token
+  { location = SourceLocation Nothing Nothing (-1)
   , word = ParagraphBreak
   , precedingWhitespace = Newline
+  , vocabularyEntry = -1
   }
 
-instance Display Word where
-  displayBuilder = fromText . displayWord
-
-displayWord ::
-  Word
-  -> Text
-displayWord Word{word} = case word of
-  I6 txt -> "(-"<>txt<>"-)"
-  StringLit txt -> "\""<>txt<>"\""
-  OrdinaryWord txt -> txt
-  StringSub txt -> "["<>txt<>"]"
-  ParagraphBreak -> "\n\n"
-
-instance Ord Word where
-  compare :: Word -> Word -> Ordering
-  compare l1 l2 = wordLocation l1 `compare` wordLocation l2
-
-matchWord ::
-  (VocabType -> Bool)
-  -> Word
-  -> Bool
-matchWord f Word{word} = f word
-
-wordCount ::
-  VocabType
-  -> Int
-wordCount s@(StringLit _) = quotedWordCount s
-wordCount ParagraphBreak = 0
-wordCount (OrdinaryWord w) = if T.all (`S.member` getPunctuation StandardPunctuation) w then 0 else 1
-wordCount _ = 1
-
-quotedWordCount :: VocabType -> Int
-quotedWordCount (StringLit s) = length . filter (/= "") . T.split isSpace $ s
-quotedWordCount _ = 0
-
-
-data VocabType =
+data Word =
   I6 Text
   | StringLit Text
   | OrdinaryWord Text
@@ -109,39 +61,69 @@ data VocabType =
   deriving stock (Eq, Show, Read, Ord, Generic)
   deriving anyclass (ToJSON, FromJSON)
 
-instance Hashable VocabType
+instance Hashable Word
 
-pattern Period :: VocabType
-pattern Period = OrdinaryWord "."
+instance Display Token where
+  displayBuilder = fromText . displayWord . word
 
-pattern Semicolon :: VocabType
-pattern Semicolon = OrdinaryWord ";"
+displayWord ::
+  Word
+  -> Text
+displayWord = \case
+  I6 txt -> "(-"<>txt<>"-)"
+  StringLit txt -> "\""<>txt<>"\""
+  OrdinaryWord txt -> txt
+  StringSub txt -> "["<>txt<>"]"
+  ParagraphBreak -> "\n\n"
 
-pattern Colon :: VocabType
-pattern Colon = OrdinaryWord ":"
+instance Ord Token where
+  compare :: Token -> Token -> Ordering
+  compare l1 l2 = location l1 `compare` location l2
 
-pattern OpenParenthesis :: VocabType
-pattern OpenParenthesis = OrdinaryWord "("
+matchWord ::
+  (Word -> Bool)
+  -> Token
+  -> Bool
+matchWord f Token{word} = f word
 
-pattern CloseParenthesis :: VocabType
-pattern CloseParenthesis = OrdinaryWord ")"
+wordCount ::
+  Word
+  -> Int
+wordCount s@(StringLit _) = quotedWordCount s
+wordCount ParagraphBreak = 0
+wordCount (OrdinaryWord w) = if T.all (`S.member` standardPunctuation) w then 0 else 1
+wordCount _ = 1
 
-data PunctuationSet = StandardPunctuation deriving stock (Eq, Show)
+quotedWordCount :: Word -> Int
+quotedWordCount (StringLit s) = length . filter (/= "") . T.split isSpace $ s
+quotedWordCount _ = 0
 
 standardPunctuation :: Set Char
 standardPunctuation = fromList ".,:;?!(){}[]"
 
-getPunctuation :: PunctuationSet -> Set Char
-getPunctuation StandardPunctuation = standardPunctuation
-
-lowerVocabType :: VocabType -> VocabType
-lowerVocabType = \case
+lowerWord :: Word -> Word
+lowerWord = \case
   OrdinaryWord txt -> OrdinaryWord $ T.toLower txt
   x -> x
 
-makePrisms ''VocabType
+makePrisms ''Word
 
 isNumber ::
-  VocabType
+  Word
   -> Bool
 isNumber x = isJust $ x ^? _OrdinaryWord % to toString % decimal @Integer
+
+pattern Period :: Word
+pattern Period = OrdinaryWord "."
+
+pattern Semicolon :: Word
+pattern Semicolon = OrdinaryWord ";"
+
+pattern Colon :: Word
+pattern Colon = OrdinaryWord ":"
+
+pattern OpenParenthesis :: Word
+pattern OpenParenthesis = OrdinaryWord "("
+
+pattern CloseParenthesis :: Word
+pattern CloseParenthesis = OrdinaryWord ")"

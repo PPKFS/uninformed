@@ -8,7 +8,7 @@ import Uninformed.Word
 import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)
 import Uninformed.Syntax.Sentences
-import Uninformed.Words.TextFromFiles
+import Uninformed.SourceFile
 import Error.Diagnose
 import Optics.State (use)
 import Optics.State.Operators
@@ -18,20 +18,20 @@ import Data.List (isSuffixOf)
 data ExtensionPosition = NotInExtension | BeforeBegins | InExtension | AfterEnd
 
 data SentenceBreakerState = SentenceBreakerState
-  { sourceFile :: SourceFile [Word]
+  { sourceFile :: SourceFile [Token]
   , extensionPosition :: ExtensionPosition
   , skippingAtLevel :: Maybe Int
   , inRuleMode :: Bool
   , inTableMode :: Bool
   , inDialogueMode :: Bool
-  , currentStream :: [(Word, Word, Word)]
+  , currentStream :: [(Token, Token, Token)]
   , sentences :: [Sentence]
   } deriving stock (Generic)
 
 defaultSentenceBreakerState ::
-  SourceFile [Word]
+  SourceFile [Token]
   -> SentenceBreakerState
-defaultSentenceBreakerState sf = let cs = sf ^. #sourceFileData in
+defaultSentenceBreakerState sf = let cs = sf ^. #contents in
   SentenceBreakerState
   { sourceFile = sf
   , extensionPosition = NotInExtension
@@ -39,7 +39,7 @@ defaultSentenceBreakerState sf = let cs = sf ^. #sourceFileData in
   , inRuleMode = False
   , inTableMode = False
   , inDialogueMode = False
-  , currentStream = zip3 (blankWord:cs) cs (snoc (fromMaybe [] (viaNonEmpty tail cs)) blankWord )
+  , currentStream = zip3 (blankToken:cs) cs (snoc (fromMaybe [] (viaNonEmpty tail cs)) blankToken )
   , sentences = []
   }
 
@@ -68,7 +68,7 @@ considerTableMode ::
   Parser m
   => m ()
 considerTableMode = do
-  (cs :: Maybe Word) <- S.gets $ preview $ #currentStream % ix 0 % _2
+  (cs :: Maybe Token) <- S.gets $ preview $ #currentStream % ix 0 % _2
   -- we don't actually need the full "structural sentence" machinery for table
   -- checking.
   #inTableMode %= (\tm -> maybe tm (matchWord (== OrdinaryWord "table")) cs)
@@ -78,7 +78,7 @@ considerDialogueMode ::
   => m ()
 considerDialogueMode = do
   csFull <- use #currentStream
-  let (cs :: Maybe Word) = csFull ^? ix 0 % _2
+  let (cs :: Maybe Token) = csFull ^? ix 0 % _2
   -- same with dialogue.
     -- ...however we do need a fair amount to get out of dialogue mode
   #inDialogueMode %= (\dm ->
@@ -97,39 +97,21 @@ considerDialogueMode = do
           , (== OrdinaryWord "volume")
           , (== OrdinaryWord "part")] ) justCs) && dm) cs)
 
-checkSection :: [VocabType] -> Bool
+checkSection :: [Word] -> Bool
 checkSection csFull = let thisLine = takeWhile (/= ParagraphBreak) csFull
   in
   ([OpenParenthesis, OrdinaryWord "dialogue", CloseParenthesis] `isSuffixOf` thisLine)
   ||
   ([OpenParenthesis, OrdinaryWord "dialog", CloseParenthesis] `isSuffixOf` thisLine)
 
-
-whileM' :: (Monad m, MonadPlus f) => m Bool -> m a -> m (f a)
-whileM' p f = go
-    where go = do
-            x <- p
-            if x
-                then do
-                        x'  <- f
-                        xs <- go
-                        return (return x' `mplus` xs)
-                else return mzero
-
-whileM_ :: (Monad m) => m Bool -> m a -> m ()
-whileM_ p f = go
-    where go = do
-            x <- p
-            when x $ f >> go
-
-considerQuotedPunctuation :: Bool -> VocabType -> VocabType -> Bool
+considerQuotedPunctuation :: Bool -> Word -> Word -> Bool
 considerQuotedPunctuation isInTable curr next = not isInTable && endsInPunctuation curr && isUppercaseWord next
 
-isUppercaseWord :: VocabType -> Bool
+isUppercaseWord :: Word -> Bool
 isUppercaseWord (OrdinaryWord w') = maybe False (isUpper . fst) $ T.uncons w'
 isUppercaseWord _ = False
 
-endsInPunctuation :: VocabType -> Bool
+endsInPunctuation :: Word -> Bool
 endsInPunctuation (StringLit w') = maybe False (isPunctuation . snd) $ T.unsnoc w'
 endsInPunctuation _ = False
 
@@ -152,7 +134,7 @@ notAtAStop = do
 
 findNextStops ::
   Parser m
-  => Word
+  => Token
   -> m Bool
 findNextStops stopChar = do
   h <- S.gets (preview $ #currentStream % ix 0)
@@ -195,8 +177,8 @@ lookForSentenceBreak = do
 -- inform checks if we do not break file boundaries, which we also ignore for now.
 -- basically this is a long winded check for 4:50pm (e.g.)
 considerColonDivision ::
-  Word
-  -> Word
+  Token
+  -> Token
   -> Bool
 considerColonDivision prev lookA = not $
   matchWord isNumber prev

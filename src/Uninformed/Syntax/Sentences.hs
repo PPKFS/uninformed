@@ -7,9 +7,9 @@ module Uninformed.Syntax.Sentences
 import Uninformed.Prelude
 import Uninformed.Word
 
-newtype Sentence = Sentence { unSentence :: NonEmpty Word }
+newtype Sentence = Sentence { unSentence :: NonEmpty Token } deriving newtype (Show)
 
 sentenceFileOfOrigin ::
   Sentence
   -> Maybe Text
-sentenceFileOfOrigin (Sentence (x :| _)) = x ^. #wordLocation % #sourceLocationFile
+sentenceFileOfOrigin (Sentence (x :| _)) = x ^. #location % #filename

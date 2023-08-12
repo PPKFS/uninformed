@@ -13,11 +13,11 @@ import System.FilePath ( (-<.>), (</>) )
 import Test.Tasty.HUnit ( (@=?), assertEqual, Assertion )
 
 import Uninformed.Pipeline
-import Uninformed.Words.TextFromFiles
+import Uninformed.SourceFile
 import Uninformed.Word
 
 newtype LexerInfo = LexerInfo
-  { individualEntries :: [(VocabType, VocabType, Whitespace)]
+  { individualEntries :: [(Word, Word, Whitespace)]
   } deriving stock (Eq, Show, Generic)
   deriving anyclass (ToJSON, FromJSON)
 
@@ -42,8 +42,8 @@ compareLexerInfo (LexerInfo eIe) (LexerInfo rIe) = do
   --S.difference rDws eDws @?= S.empty
   --eTd @=? rTd
 
-getLexerInfo :: SourceFile [Word] -> LexerInfo
-getLexerInfo SourceFile{sourceFileData = wl} =
+getLexerInfo :: SourceFile [Token] -> LexerInfo
+getLexerInfo SourceFile{contents = wl} =
   LexerInfo
-      { individualEntries = toList $ map (\(Word _ w ps) -> (w, lowerVocabType w, ps)) wl
+      { individualEntries = toList $ map (\(Token _ w ps _) -> (w, lowerWord w, ps)) wl
       }

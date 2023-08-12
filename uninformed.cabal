@@ -22,17 +22,16 @@ common common-options
       base
     , aeson
     , containers
-    , hashable
-    , unordered-containers
-    , text
-    , solitude
-    , mtl
-    , megaparsec
-    , optics
-    , vector
-    --, Earley
     , diagnose
+    , hashable
+    , megaparsec
+    , mtl
     , nonempty-vector
+    , optics
+    , solitude
+    , text
+    , unordered-containers
+    , vector
 
   ghc-options:
     -Wall -Wcompat -Widentities -Wredundant-constraints
@@ -44,6 +43,7 @@ common common-options
   default-extensions:
     DataKinds
     DeriveAnyClass
+    DuplicateRecordFields
     DerivingStrategies
     LambdaCase
     NoImplicitPrelude
@@ -59,16 +59,16 @@ library
     Uninformed.Prelude
 
     Uninformed.Pipeline
+    Uninformed.SourceFile
     Uninformed.Word
-    Uninformed.Lexer.Run
-    Uninformed.Lexer.Error
-    Uninformed.Words.TextFromFiles
-    Uninformed.Words.Vocabulary
+    Uninformed.Lexer.Lexer
+    Uninformed.Lexer.Combinators
+    Uninformed.Vocabulary
+
     Uninformed.Syntax.Sentences
     Uninformed.Syntax.SyntaxTree
     Uninformed.Sentences.Break
     Uninformed.Sentences.Arrange
-    Uninformed.Words.Grammar
     Uninformed.Assertions.BootVerbs
   ghc-options: -Wunused-packages
 

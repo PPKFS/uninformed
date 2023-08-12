@@ -4,7 +4,7 @@ module Uninformed.Test.Syntax.Sentences
   ) where
 
 import Uninformed.Prelude
-import Uninformed.Lexer.Run
+import Uninformed.Word
 import Test.Tasty.HUnit
     ( (@=?), assertFailure, Assertion )
 import qualified Data.Text as T
@@ -43,7 +43,7 @@ compareSentenceInfo :: (Int, [Text]) -> [Sentence] -> Assertion
 compareSentenceInfo (numSentences, fullSentenceList) wl = if
   numSentences /= length wl
   then
-    let zipL = zipWithPadding "" "" fullSentenceList (map (T.intercalate " " . map displayWord . toList . unSentence) wl) in
+    let zipL = zipWithPadding "" "" fullSentenceList (map (T.intercalate " " . map (displayWord . view #word) . toList . unSentence) wl) in
     assertFailure $ toString $ "Failed to match the right number of sentences, and instead we got \n" <>
       unlines (map show zipL) <> " exp" <> show numSentences <> " act" <> show (length wl)
   else

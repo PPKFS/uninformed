@@ -3,8 +3,8 @@ module Uninformed.Syntax.SyntaxTree where
 import Uninformed.Prelude
 import qualified Data.Vector as V
 import qualified Data.Set as S
-import Uninformed.Word
 import qualified Data.Vector.NonEmpty as VNE
+import Uninformed.SourceFile
 
 data HeadingType = Implicit | Explicit deriving stock ( Show )
 
