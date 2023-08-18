@@ -4,8 +4,10 @@ import Uninformed.Prelude
 import Test.Tasty
 import qualified Uninformed.Test.Syntax.Zipper as Z
 import qualified Uninformed.Test.Bulk as Bulk
+--import qualified Uninformed.Test.Integration as Integration
 import System.Directory
 import System.FilePath
+
 
 main :: IO ()
 main = do
@@ -16,4 +18,5 @@ main = do
   defaultMain $ testGroup "Tests"
     [ Bulk.spec False $ zip fps fs
     , Z.spec
+    --, Integration.spec
     ]

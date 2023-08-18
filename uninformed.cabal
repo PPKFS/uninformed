@@ -58,6 +58,8 @@ library
   exposed-modules:
     Uninformed.Prelude
 
+    Uninformed.Supervisor
+
     Uninformed.Pipeline
     Uninformed.SourceFile
     Uninformed.Word
@@ -65,9 +67,9 @@ library
     Uninformed.Lexer.Combinators
     Uninformed.Vocabulary
 
-    Uninformed.Syntax.Sentences
+    Uninformed.Sentence
     Uninformed.Syntax.SyntaxTree
-    Uninformed.Sentences.Break
+    Uninformed.Sentences.Breaker
     Uninformed.Sentences.Arrange
     Uninformed.Assertions.BootVerbs
   ghc-options: -Wunused-packages

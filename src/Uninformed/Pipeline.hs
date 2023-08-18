@@ -3,9 +3,9 @@ module Uninformed.Pipeline where
 import Uninformed.Prelude
 import Error.Diagnose
 import Uninformed.Lexer.Lexer
-import Uninformed.Syntax.Sentences
+import Uninformed.Sentence
 import Uninformed.Sentences.Arrange
-import Uninformed.Sentences.Break
+import Uninformed.Sentences.Breaker
 import Uninformed.Syntax.SyntaxTree
 import Uninformed.Word
 import Uninformed.SourceFile

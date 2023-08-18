@@ -8,7 +8,7 @@ import Uninformed.Word
 import Test.Tasty.HUnit
     ( (@=?), assertFailure, Assertion )
 import qualified Data.Text as T
-import Uninformed.Syntax.Sentences
+import Uninformed.Sentence
 
 -- | Parse an exemplar as given by the Inform syntax-test. return a list of sentence nodes
 -- and the total number of sentences.

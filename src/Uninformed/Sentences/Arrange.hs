@@ -3,7 +3,7 @@ module Uninformed.Sentences.Arrange where
 import Uninformed.Prelude
 import Uninformed.Syntax.SyntaxTree
 import Uninformed.Word
-import Uninformed.Syntax.Sentences
+import Uninformed.Sentence
 
 createSyntaxTreeSkeleton ::
   Text

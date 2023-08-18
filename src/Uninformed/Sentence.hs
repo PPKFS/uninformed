@@ -1,4 +1,4 @@
-module Uninformed.Syntax.Sentences
+module Uninformed.Sentence
   ( Sentence(..)
   , sentenceFileOfOrigin
 

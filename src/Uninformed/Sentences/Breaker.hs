@@ -1,4 +1,4 @@
-module Uninformed.Sentences.Break
+module Uninformed.Sentences.Breaker
   ( breakIntoSentences
   , defaultSentenceBreakerState
   ) where
@@ -7,7 +7,7 @@ import Uninformed.Prelude hiding ( (|>) )
 import Uninformed.Word
 import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)
-import Uninformed.Syntax.Sentences
+import Uninformed.Sentence
 import Uninformed.SourceFile
 import Error.Diagnose
 import Optics.State (use)
@@ -86,7 +86,7 @@ considerDialogueMode = do
       -- if we have a 'section'...
       if matchWord (== OrdinaryWord "Section") justCs
       then
-        -- see if there are brackets with 'dialogue[p';p90oiIIIIII]' or 'dialog' in before the next pbreak
+        -- see if there are brackets with 'dialogue' or 'dialog' in before the next pbreak
         checkSection (map (word . view _2) csFull) else
         --if we are in dialogue mode, matching a header takes us out. otherwise, keep it the same
         not (dm && matchWord
