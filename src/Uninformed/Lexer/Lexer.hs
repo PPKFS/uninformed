@@ -50,10 +50,8 @@ makeError ::
 makeError filename content bundle = let
   -- Creates a new diagnostic with no default hints from the bundle returned by megaparsec
   diag = errorDiagnosticFromBundle Nothing "Error during lexical analysis" Nothing bundle
-   -- Add the file used when parsing with the same filename given to 'MP.runParser'
-  in
-    addFile diag (toString filename) (toString content)
-
+  -- Add the file used when parsing with the same filename given to 'runParser'
+  in addFile diag (toString filename) (toString content)
 
 lex :: LexerPipelineStage LexerInput (SourceFile [Token], VocabMap)
 lex LexerInput{..} = do
@@ -67,20 +65,17 @@ lex LexerInput{..} = do
         -- ...yeah...
         pb <- initialNewlines
         (pb ++) . mconcat <$> manyTill (do
-          -- lex the actual word
+          -- lex a word
           w <- parseToken divideLiteralsAtSubstitutions
           -- the only cases where whitespace is required (breaking an ordinary word) is dealt with, but we may have additional whitespace.
           -- we don't want to double check the whitespace after we've broken for a punctuation mark because we don't want to add an excess space
           -- this mimics inform's "add in extra spaces everywhere".
-          (lookAhead (satisfy isPunctuation) >> pass) <|> whenJustM (optional admireWhitespace) (#previousWhitespace .=)
+          void (lookAhead (satisfy isPunctuation))
+            -- or if we have whitespace, then update our state
+            <|> whenJustM (optional admireWhitespace) (#previousWhitespace .=)
           pure w) eof
-  tokenStream <- first (makeError sfn updatedInput) $ -- convert the error from a megaparsec one to a
-                  parse (evalStateT lexer defaultLexerState) (toString sfn) updatedInput
-  let (amendedTokens, vocabularyTable) = first
-        -- add the newly identified vocabulary hashes to the tokens
-        (zipWith (\t i -> t & #vocabularyEntry .~ i) tokenStream . map hashCode)
-        -- identify each word and amend it to the map
-        $ runState (mapM (state . identify . word) tokenStream) HM.empty
+  tokenStream <- first (makeError sfn updatedInput) $ parse (evalStateT lexer defaultLexerState) (toString sfn) updatedInput
+  let (amendedTokens, vocabularyTable) = createVocabularyTable HM.empty tokenStream
   pure (SourceFile
       { filename = sourceFilename
       , rawText = textStream
@@ -90,13 +85,26 @@ lex LexerInput{..} = do
       , fileWordCount = sum $ map (wordCount . word) amendedTokens
       }, vocabularyTable)
 
+createVocabularyTable ::
+  VocabMap
+  -> [Token]
+  -> ([Token], VocabMap)
+createVocabularyTable initialMap tokenStream = first
+  -- add the newly identified vocabulary hashes to the tokens
+  (zipWith (\t i -> t & #vocabularyEntry .~ i) tokenStream . map hashCode)
+    -- identify each word and amend it to the map
+    $ runState (mapM (state . identify . word) tokenStream) initialMap
+
 parseToken ::
   Parser m
   => Bool
   -> m [Token]
 parseToken spl = choice
+  -- ignore comments
   [ [] <$ comment
+  -- convert paragraph breaks to multiple pbreak tokens
   , makeParagraphBreaks <$> pbreak
+  -- maybe split a string literal
   , stringLit spl
   , one <$> i6Inclusion
   , one <$> ordinaryWord

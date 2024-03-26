@@ -1,6 +1,6 @@
 module Uninformed.Vocabulary
   ( VocabMap
-  , makeVocabEntry
+  , makeVocabularyEntryntry
   , identify
   , VocabularyEntry(..)
   ) where
@@ -29,13 +29,13 @@ type VocabMap = HashMap Int VocabularyEntry
 identify :: Word -> VocabMap -> (VocabularyEntry, VocabMap)
 identify vt vm = let
   hashStr = hash vt
-  ve = makeVocabEntry hashStr vt in
+  ve = makeVocabularyEntryntry hashStr vt in
     case HM.lookup hashStr vm of
       Nothing -> (ve, HM.insert hashStr ve vm)
       Just x -> (x, vm)
 
-makeVocabEntry :: Int -> Word -> VocabularyEntry
-makeVocabEntry vh vt = VocabularyEntry
+makeVocabularyEntryntry :: Int -> Word -> VocabularyEntry
+makeVocabularyEntryntry vh vt = VocabularyEntry
   { flags = Set.empty
   , exemplar = vt
   , rawExemplar = vt

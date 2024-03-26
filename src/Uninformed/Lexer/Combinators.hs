@@ -51,7 +51,7 @@ instance HasHints Void msg where
 
 -- | match anything that isn't whitespace
 nonWhitespace ::
- Parser m
+  Parser m
   => m Char
 nonWhitespace = satisfy (not . isSpace)
 

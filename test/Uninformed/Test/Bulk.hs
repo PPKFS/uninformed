@@ -11,6 +11,8 @@ import Test.Tasty.HUnit ( Assertion, testCase, assertEqual )
 import Uninformed.Pipeline
 import qualified Uninformed.Test.Syntax.Sentences as Sentences
 import qualified Uninformed.Test.Words.Lexer as Lexer
+import qualified Data.ByteString as BS
+import System.Directory (doesFileExist)
 
 data AllOutput = AllOutput
   { lexingOutput :: PipelineOutput 'LexingStage
@@ -44,7 +46,7 @@ isIgnoredForNow =
   , "PM_TableColumnLocation.txt" -- weird table parsing fail
   , "I6StringEscapes-G.txt" -- weird i6 parsing fail
   , "PM_ChoiceLeftArrowExpected.txt", "LBW.txt", "PM_ChoiceDividerDependent.txt" -- dialogue
-  --, "Dialogue.txt" -- dialogue
+  , "Dialogue.txt" -- dialogue
   ]
 
 checkError ::
@@ -53,8 +55,16 @@ checkError ::
   -> Diagnostic Text
   -> Assertion
 checkError False fp diag = do
-  fileContents <- readFileBS ("test/Bulk/Problems" </> fp -<.> "json")
-  assertEqual "Error messages were not equal: " fileContents (toStrict $ diagnosticToJson diag)
+  let filename = "test/Bulk/Problems" </> fp -<.> "json"
+  exists <- doesFileExist filename
+  if exists
+  then do
+    fileContents <- readFileBS filename
+    if BS.empty == fileContents
+    then checkError True fp diag
+    else
+      assertEqual "Error messages were not equal: " fileContents (toStrict $ diagnosticToJson diag)
+  else checkError True fp diag
 checkError True fp diag = encodeFile ("test/Bulk/Problems" </> fp -<.> "json") diag
 
 checkSentences ::
