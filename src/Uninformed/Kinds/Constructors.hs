@@ -19,5 +19,4 @@ data KindConstructor (arity :: Nat) = KindConstructor
   , castingRules :: [CastingRule]
   , instanceRules :: [InstanceRule]
   , waysToWriteLiterals :: [LiteralPattern]
-
   }

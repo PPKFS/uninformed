@@ -141,4 +141,4 @@ graftTreeSibling ::
   SyntaxTree a
   -> Zipper a
   -> Zipper a
-graftTreeSibling _t _z = error ""
+graftTreeSibling _t _z = error "todo: grafting"
