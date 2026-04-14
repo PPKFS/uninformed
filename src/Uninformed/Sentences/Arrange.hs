@@ -2,7 +2,6 @@ module Uninformed.Sentences.Arrange where
 
 import Uninformed.Prelude
 import Uninformed.Syntax.SyntaxTree
-import Uninformed.Word
 import Uninformed.Sentence
 
 createSyntaxTreeSkeleton ::
@@ -53,3 +52,5 @@ makeNewHeadingNode ht hl hfn z =
   graftNodeChild ((blankNode "" ("imp_heading_" <> fromMaybe "" hfn))
     { nodeType = HeadingNode ht hl
     } )
+
+data Preform o = 

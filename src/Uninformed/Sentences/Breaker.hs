@@ -3,7 +3,7 @@ module Uninformed.Sentences.Breaker
   , defaultSentenceBreakerState
   ) where
 
-import Uninformed.Prelude hiding ( (|>) )
+import Uninformed.Prelude hiding ( use, (.=), gets, (|>), (%=), (<<%=) )
 import Uninformed.Word
 import qualified Data.Text as T
 import Data.Char (isUpper, isPunctuation)

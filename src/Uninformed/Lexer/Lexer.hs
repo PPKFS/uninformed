@@ -5,7 +5,7 @@ module Uninformed.Lexer.Lexer
   , lex
   ) where
 
-import Uninformed.Prelude hiding ( gets, get, modify, state )
+import Uninformed.Prelude hiding ( use, (.=), gets, get, modify, state )
 
 import Control.Monad.State ( runState, state)
 import Data.Char ( isDigit, isPunctuation, isLower )

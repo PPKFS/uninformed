@@ -23,18 +23,21 @@ common common-options
     , aeson
     , containers
     , diagnose
+    , effectful
+    , effectful-core
     , hashable
     , megaparsec
     , mtl
     , nonempty-vector
     , optics
-    , solitude
+    , relude
     , text
+    , text-display
     , unordered-containers
     , vector
 
   ghc-options:
-    -Wall -Wcompat -Widentities -Wredundant-constraints
+    -Wall -Werror -Wcompat -Widentities -Wredundant-constraints
     -fhide-source-paths -Wno-unused-top-binds
     -Wmissing-deriving-strategies -O2 -flate-specialise
     -fspecialise-aggressively -fprint-potential-instances
@@ -57,22 +60,19 @@ library
   hs-source-dirs:  src
   exposed-modules:
     Uninformed.Prelude
-
-    Uninformed.Supervisor
-
-    Uninformed.Pipeline
-    Uninformed.SourceFile
-    Uninformed.Word
     Uninformed.Lexer.Lexer
     Uninformed.Lexer.Combinators
+    Uninformed.Word
+    Uninformed.SourceFile
     Uninformed.Vocabulary
-
     Uninformed.Sentence
+    Uninformed.Pipeline
+
     Uninformed.Syntax.SyntaxTree
     Uninformed.Sentences.Breaker
     Uninformed.Sentences.Arrange
-    Uninformed.Assertions.BootVerbs
-  ghc-options: -Wunused-packages
+
+
 
 test-suite uninformed-test
   import:             common-options
@@ -84,16 +84,16 @@ test-suite uninformed-test
                       Uninformed.Test.Syntax.Sentences
                       Uninformed.Test.Bulk
   build-depends:
-    , tasty
-    , tasty-hunit
-    , tasty-golden
+    bytestring
+    , directory
     , exceptions
-    , uninformed
     , filepath
     , pretty
     , split
-    , bytestring
-    , directory
+    , tasty
+    , tasty-golden
+    , tasty-hunit
+    , uninformed
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   default-extensions:
     QuasiQuotes

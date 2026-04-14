@@ -1,4 +1,5 @@
 {-# OPTIONS_GHC -Wno-orphans #-}
+{-# OPTIONS_GHC -Wno-overlapping-patterns #-}
 
 module Uninformed.Lexer.Combinators
   ( LexerState(..)
@@ -16,7 +17,7 @@ module Uninformed.Lexer.Combinators
   , betterSurround
   ) where
 
-import Uninformed.Prelude hiding ( gets, get, modify, state )
+import Uninformed.Prelude hiding ( use, (.=), gets )
 
 import Control.Monad.State ( gets )
 import Data.Char ( isSpace, isDigit, isLower )
@@ -82,7 +83,7 @@ pbreak = do
       satisfy isNewline
       takeWhileP Nothing isHspace
       ) (lookAhead $ eof <|> void nonWhitespace)
-    pure $ (length n, toString $ mconcat n))
+    pure (length n, toString $ mconcat n))
   -- if we ended on a bunch of tabs, we need to check indentation
   -- for the dialogue beats.
   #previousWhitespace .= (case longestSpan (=='\t') n of
@@ -99,7 +100,7 @@ initialNewlines ::
   Parser m
   => m [Token]
 initialNewlines = do
-  mbPbreaks <- makeParagraphBreaks <$$> ((Nothing <$ optional admireWhitespace) <|> optional (try pbreak))
+  mbPbreaks <- makeParagraphBreaks <<$>> ((Nothing <$ optional admireWhitespace) <|> optional (try pbreak))
   pure $ fromMaybe [] mbPbreaks
 
 makeParagraphBreaks ::
