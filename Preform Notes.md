@@ -42,3 +42,21 @@ a strut is inelastic (always of length N) and so we can find em by iterating aga
 it's elastic if the min/max are not the same.
 interestingly the min/max of a negated nonterminal are infinite?
 
+then we get to NTIs. Every NT has one of 26 bits associated to it, then vocab entries have 26 incidence bits.
+a 1 bit in the vocab entry = a nonterminal with that incidence bit has this word in it somewhere.
+
+the actual comparison is between a word (with its many NTI bits) and an NTI constraint, which is a collection of
+requirement NTI bits - or, and, first and one of/all of. Disjunction (or) means that at least one word must
+match. "For example, suppose a NTIC has DS_req set to 0x280 — i.e., to a bitmap in which bits 7 and 9 are set (counting upwards from 0). This is then saying that a word range such as "sense and prejudice" can only be a match if one of the three words "sense", "and" or "prejudice" has both bits 7 and 9 set."
+it can also just be "ignore everything"
+
+Then we get into making these NTICs.
+- unconstrained
+- every word must match some bit
+- concatenate (X then Y implies an Xntic and a Yntic, which makes a new XthenYntic)
+- disjoin (X or Y gives an XorYntic)
+- simplify
+
+then we build up our incidence bits. for each production, for each ptoken, if it's a fixed word and not a negation, we mark that word with the bit in the vocab map. for an NT it's a disjunction of the productions, for a production it's a concatenation of the ptokens
+
+then we work out every other ptoken. there's some 0 width ones (ignore), the fixed words are a each word must have, and nonterminal recursion sets it to that (plus optimisation).
